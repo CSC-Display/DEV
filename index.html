@@ -1,103 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Fixtures</title>
-  <!-- Link to Poppins font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
-  <style>
-    /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    /* Hide everything in body except .gms-wrapper */
-    body > *:not(.gms-wrapper) {
-      display: none !important;
-    }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            padding: 20px;
+            margin: 0;
+        }
 
-    /* Inside .gms-wrapper hide everything except the table */
-    .gms-wrapper > *:not(.gms-table-fixtures) {
-      display: none !important;
-    }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #ddd;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-    /* Body Styling */
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
+        h1 {
+            text-align: center;
+            color: #1a5d1a;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
-    /* Table Container */
-    .gms-wrapper {
-      width: 100%;
-      max-width: 1000px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-    }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
 
-    /* Table Styling */
-    .gms-table-fixtures {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: left;
-      font-weight: 400;
-    }
+        .sports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
 
-    .gms-table-fixtures th,
-    .gms-table-fixtures td {
-      padding: 12px 15px;
-      border-bottom: 1px solid #ddd;
-    }
+        .sport-section {
+            background: white;
+            border: 2px solid #1a5d1a;
+            padding: 25px;
+            transition: background-color 0.2s ease;
+        }
 
-    /* Remove all background colors except header */
-    .gms-table-fixtures td,
-    .gms-table-fixtures tr:nth-child(even),
-    .gms-table-fixtures tr:hover {
-      background-color: transparent !important;
-    }
+        .sport-section:hover {
+            background-color: #f8f9fa;
+        }
 
-    /* Header row: black background, white text */
-    .gms-table-fixtures th {
-      background-color: black !important;
-      color: white !important;
-      font-weight: 400 !important; /* Or 700 if you want bold header */
-    }
+        .cricket-section {
+            border-color: #1a5d1a;
+        }
 
-    /* Set all cell text to black and normal weight */
-    .gms-table-fixtures td {
-      color: black !important;
-      font-weight: 400 !important;
-    }
+        .hockey-section {
+            border-color: #1a5d1a;
+        }
 
-    /* Hide Date and Venue Columns */
-    .gms-table-fixtures th:nth-child(1),
-    .gms-table-fixtures td:nth-child(1),
-    .gms-table-fixtures th:nth-child(5),
-    .gms-table-fixtures td:nth-child(5) {
-      display: none;
-    }
+        .club-section {
+            border-color: #1a5d1a;
+        }
 
-  </style>
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #1a5d1a;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cricket-section .section-title {
+            color: #1a5d1a;
+        }
+
+        .hockey-section .section-title {
+            color: #1a5d1a;
+        }
+
+        .club-section .section-title {
+            color: #1a5d1a;
+        }
+
+        .icon {
+            font-size: 2.5rem;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 12px 20px;
+            background: #1a5d1a;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.2s ease;
+            border: none;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cricket-section .nav-link:hover {
+            background: #145014;
+            color: white;
+        }
+
+        .hockey-section .nav-link:hover {
+            background: #145014;
+            color: white;
+        }
+
+        .club-section .nav-link:hover {
+            background: #145014;
+            color: white;
+        }
+
+        .nav-link:active {
+            transform: scale(0.98) translateX(10px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .sports-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Sports Club</h1>
+        <p class="subtitle">Welcome to our comprehensive sports portal</p>
+        
+        <div class="sports-grid">
+            <!-- Cricket Section -->
+            <div class="sport-section cricket-section">
+                <h2 class="section-title">Cricket</h2>
+                <div class="links-container">
+                    <a href="cricket-fixtures.html" class="nav-link">Fixtures</a>
+                    <a href="cricket-results.html" class="nav-link">Results</a>
+                    <a href="cricket-game-summary.html" class="nav-link">Game Summary</a>
+                </div>
+            </div>
 
-  <div class="gms-wrapper gms-ajax"
-       data-method="api-dynamic"
-       data-show="fixtures"
-       data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
-       data-sort_by="fixtureTime"
-       data-options="showGender:yes">
-  </div>
+            <!-- Hockey Section -->
+            <div class="sport-section hockey-section">
+                <h2 class="section-title">Hockey</h2>
+                <div class="links-container">
+                    <a href="hockey-fixtures.html" class="nav-link">Fixtures</a>
+                    <a href="hockey-results.html" class="nav-link">Results</a>
+                </div>
+            </div>
 
-  <script src="https://gmsfeed.co.uk/js/api.js"></script>
-  
+            <!-- Sports Club Section -->
+            <div class="sport-section club-section">
+                <h2 class="section-title">Sports Club</h2>
+                <div class="links-container">
+                    <a href="sports-club-booking.html" class="nav-link">Booking</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

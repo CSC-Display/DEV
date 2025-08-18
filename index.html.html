@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fixtures</title>
+  <!-- Link to Poppins font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Hide everything in body except .gms-wrapper */
+    body > *:not(.gms-wrapper) {
+      display: none !important;
+    }
+
+    /* Inside .gms-wrapper hide everything except the table */
+    .gms-wrapper > *:not(.gms-table-fixtures) {
+      display: none !important;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Table Container */
+    .gms-wrapper {
+      width: 100%;
+      max-width: 1000px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    /* Table Styling */
+    .gms-table-fixtures {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-weight: 400;
+    }
+
+    .gms-table-fixtures th,
+    .gms-table-fixtures td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* Remove all background colors except header */
+    .gms-table-fixtures td,
+    .gms-table-fixtures tr:nth-child(even),
+    .gms-table-fixtures tr:hover {
+      background-color: transparent !important;
+    }
+
+    /* Header row: black background, white text */
+    .gms-table-fixtures th {
+      background-color: black !important;
+      color: white !important;
+      font-weight: 400 !important; /* Or 700 if you want bold header */
+    }
+
+    /* Set all cell text to black and normal weight */
+    .gms-table-fixtures td {
+      color: black !important;
+      font-weight: 400 !important;
+    }
+
+    /* Hide Date and Venue Columns */
+    .gms-table-fixtures th:nth-child(1),
+    .gms-table-fixtures td:nth-child(1),
+    .gms-table-fixtures th:nth-child(5),
+    .gms-table-fixtures td:nth-child(5) {
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="gms-wrapper gms-ajax"
+       data-method="api-dynamic"
+       data-show="fixtures"
+       data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
+       data-sort_by="fixtureTime"
+       data-options="showGender:yes">
+  </div>
+
+  <script src="https://gmsfeed.co.uk/js/api.js"></script>
+  
+</body>
+</html>

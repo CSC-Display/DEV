@@ -1,37 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chelmsford Sports Club</title>
-    
+    <title>Header Navigation</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    
 <body>
     <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <h1 class="club-name">Chelmsford Sports Club</h1>
-                <p class="club-tagline">Excellence in Sport Since 1925</p>
-            </div>
-            <nav class="header-nav">
-                <a href="Cricket/landing.html" class="nav-link-main">Cricket</a>
-                <a href="Hockey/landing.html" class="nav-link-main">Hockey</a>
-                <a href="index.html" class="nav-link-main home-button" id="home-button" style="display: none;">Home</a>
+        <div class="nav-container">
+            <div class="logo">Sports Club</div>
+            <nav class="nav-buttons">
+                <a href="index.html" class="nav-btn home-btn" id="homeBtn" style="display: none;">Home</a>
+                <a href="Cricket/landing.html" class="nav-btn">Cricket</a>
+                <a href="Hockey/landing.html" class="nav-btn">Hockey</a>
+                <a href="#" class="nav-btn" onclick="showClubServices()">Club Services</a>
             </nav>
         </div>
     </header>
-    
+
     <script>
-        // Show Home button only if not on index.html
-        const homeButton = document.getElementById('home-button');
-        const currentPage = window.location.pathname.split('/').pop();
-        
-        if (currentPage !== "index.html" && currentPage !== "") {
-            homeButton.style.display = "inline-block";
+        // Show/hide home button based on current page
+        function toggleHomeButton() {
+            const currentPage = window.location.pathname;
+            const homeBtn = document.getElementById('homeBtn');
+            
+            // Show home button if not on index.html
+            if (!currentPage.endsWith('index.html') && !currentPage.endsWith('/')) {
+                homeBtn.style.display = 'inline-block';
+            } else {
+                homeBtn.style.display = 'none';
+            }
         }
+
+        // Club services functionality (placeholder)
+        function showClubServices() {
+            alert('Club Services page coming soon! This could link to services like membership, facilities, events, etc.');
+        }
+
+        // Run on page load
+        document.addEventListener('DOMContentLoaded', toggleHomeButton);
+        
+        // Run when navigating (for single-page apps)
+        window.addEventListener('popstate', toggleHomeButton);
     </script>
 </body>
 </html>

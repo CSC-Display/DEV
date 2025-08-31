@@ -1,0 +1,19 @@
+Sport-Specific Accent Colors
+
+Cricket Red: #e74c3c - Cricket section highlights
+Hockey Blue: #2980b9 - Hockey section highlights
+Club Green: #27ae60 - Club services highlights
+
+Primary Colors
+
+Club Navy: #2c3e50 - Main headers, navigation, primary text
+Background Grey: #f8f9fa - Page background, subtle contrast
+
+Secondary Colors
+
+White: #ffffff - Content backgrounds, cards
+Light Grey: #e9ecef - Borders, dividers
+Medium Grey: #6c757d - Secondary text, descriptions
+Light Grey Text: #bdc3c7 - Footer text, subtle elements
+
+Font Family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif

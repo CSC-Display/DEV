@@ -93,20 +93,13 @@ body {
     display: block;
 }
 
-/* Main Content - Updated for flex layout */
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    flex: 1;
-    width: 100%;
-}
-
 /* ========================================
-   LANDING PAGE SPECIFIC STYLES
+   UNIFIED MAIN CONTENT STYLES
+   Applied to both index.html and landing.html
    ======================================== */
 
-/* Landing Page Container - matches main content styling */
+/* Main Content Container - Works for both pages */
+.main-content,
 .landing-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -115,61 +108,8 @@ body {
     width: 100%;
 }
 
-/* Landing Page Sections - consistent with content sections */
-.landing-section {
-    background: white;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.landing-section:hover {
-    transform: translateY(-2px);
-}
-
-.landing-header {
-    padding: 25px 25px 20px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.landing-title {
-    font-size: 24px;
-    font-weight: 600;
-    color: #2c3e50;
-    margin: 0;
-}
-
-.landing-content {
-    padding: 20px 25px 25px;
-}
-
-.landing-content p {
-    margin-bottom: 16px;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-.landing-content h3 {
-    color: #2c3e50;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 0 15px 0;
-}
-
-.landing-content ul {
-    margin: 15px 0;
-    padding-left: 25px;
-}
-
-.landing-content li {
-    margin-bottom: 8px;
-    font-size: 15px;
-    line-height: 1.6;
-}
-
-/* Landing Page Hero Section - enhanced featured content style */
+/* Hero/Featured Content Section - Unified for both pages */
+.featured-content,
 .landing-hero {
     background: white;
     border-radius: 8px;
@@ -179,6 +119,7 @@ body {
     text-align: center;
 }
 
+.welcome-title,
 .landing-hero-title {
     font-size: 32px;
     color: #2c3e50;
@@ -186,13 +127,15 @@ body {
     font-weight: 600;
 }
 
+.welcome-text,
 .landing-hero-text {
     font-size: 16px;
     color: #6c757d;
     margin-bottom: 20px;
 }
 
-/* Landing Content Grid - matches main page grid */
+/* Content Grid - Unified for both pages */
+.content-grid,
 .landing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -200,121 +143,97 @@ body {
     margin-top: 30px;
 }
 
-.landing-card {
+/* Content Cards/Blocks - Unified styling */
+.content-block,
+.landing-card,
+.content-section,
+.landing-section {
     background: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
+    margin-bottom: 30px;
 }
 
-.landing-card:hover {
+.content-block:hover,
+.landing-card:hover,
+.content-section:hover,
+.landing-section:hover {
     transform: translateY(-2px);
 }
 
-.landing-card-header {
+/* Unified Headers for all content blocks */
+.block-header,
+.landing-card-header,
+.section-header,
+.landing-header {
     padding: 25px 25px 20px;
     border-bottom: 1px solid #e9ecef;
 }
 
-.landing-card-title {
+/* Unified Titles for all content blocks */
+.block-title,
+.landing-card-title,
+.section-title,
+.landing-title {
     font-size: 24px;
     color: #2c3e50;
     margin-bottom: 8px;
     font-weight: 600;
 }
 
+.block-description,
 .landing-card-description {
     color: #6c757d;
     font-size: 14px;
 }
 
-.landing-card-content {
+/* Unified Content Areas */
+.block-content,
+.landing-card-content,
+.section-content,
+.landing-content {
     padding: 20px 25px 25px;
 }
 
-/* ========================================
-   END LANDING PAGE SPECIFIC STYLES
-   ======================================== */
-
-/* Featured Content Section */
-.featured-content {
-    background: white;
-    border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.block-content p,
+.landing-card-content p,
+.section-content p,
+.landing-content p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.7;
 }
 
-.welcome-title {
-    font-size: 32px;
+.block-content h3,
+.landing-card-content h3,
+.section-content h3,
+.landing-content h3 {
     color: #2c3e50;
-    margin-bottom: 15px;
+    font-size: 20px;
     font-weight: 600;
+    margin: 20px 0 15px 0;
 }
 
-.welcome-text {
-    font-size: 16px;
-    color: #6c757d;
-    margin-bottom: 20px;
+.block-content ul,
+.landing-card-content ul,
+.section-content ul,
+.landing-content ul {
+    margin: 15px 0;
+    padding-left: 25px;
 }
 
-/* Status Indicator */
-.status-indicator {
-    background: #e8f4f8;
-    border: 1px solid #3498db;
-    border-left: 4px solid #3498db;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px 0;
-    font-size: 14px;
-}
-
-.status-indicator strong {
-    color: #2c3e50;
-}
-
-/* Content Grid */
-.content-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.content-block {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.content-block:hover {
-    transform: translateY(-2px);
-}
-
-.block-header {
-    padding: 25px 25px 20px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.block-title {
-    font-size: 24px;
-    color: #2c3e50;
+.block-content li,
+.landing-card-content li,
+.section-content li,
+.landing-content li {
     margin-bottom: 8px;
-    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
-.block-description {
-    color: #6c757d;
-    font-size: 14px;
-}
-
-.block-content {
-    padding: 20px 25px 25px;
-}
-
+/* Navigation Links within content blocks */
 .block-links {
     list-style: none;
     padding: 0;
@@ -350,68 +269,7 @@ body {
     font-weight: bold;
 }
 
-/* Color coding for different sports */
-.cricket-block .block-header,
-.cricket-block .landing-card-header {
-    border-left: 4px solid #e74c3c;
-}
-
-.cricket-block .block-link:hover {
-    color: #e74c3c;
-}
-
-.cricket-block .block-link::before {
-    color: #e74c3c;
-}
-
-.hockey-block .block-header,
-.hockey-block .landing-card-header {
-    border-left: 4px solid #27ae60;
-}
-
-.hockey-block .block-link:hover {
-    color: #27ae60;
-}
-
-.hockey-block .block-link::before {
-    color: #27ae60;
-}
-
-.club-block .block-header,
-.club-block .landing-card-header {
-    border-left: 4px solid #2980b9;
-}
-
-.club-block .block-link:hover {
-    color: #2980b9;
-}
-
-.club-block .block-link::before {
-    color: #2980b9;
-}
-
-/* Footer - Updated for bottom positioning */
-.footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 25px 0;
-    margin-top: auto;
-    width: 100%;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-text {
-    font-size: 14px;
-    color: #bdc3c7;
-}
-
-/* Page Title Section */
+/* Page Title Section - For dedicated pages */
 .page-title {
     background: white;
     padding: 30px;
@@ -433,58 +291,65 @@ body {
     margin-bottom: 20px;
 }
 
-/* Content Sections */
-.content-section {
-    background: white;
+/* Status Indicator */
+.status-indicator {
+    background: #e8f4f8;
+    border: 1px solid #3498db;
+    border-left: 4px solid #3498db;
+    padding: 15px;
     border-radius: 8px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
+    margin: 20px 0;
+    font-size: 14px;
 }
 
-.content-section:hover {
-    transform: translateY(-2px);
-}
-
-.section-header {
-    padding: 25px 25px 20px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.section-title {
-    font-size: 24px;
-    font-weight: 600;
+.status-indicator strong {
     color: #2c3e50;
-    margin: 0;
 }
 
-.section-content {
-    padding: 20px 25px 25px;
+/* Color coding for different sports - Applied to all content blocks */
+.cricket-block .block-header,
+.cricket-block .landing-card-header,
+.cricket-block .section-header,
+.cricket-block .landing-header {
+    border-left: 4px solid #e74c3c;
 }
 
-.section-content p {
-    margin-bottom: 16px;
-    font-size: 15px;
-    line-height: 1.7;
+.cricket-block .block-link:hover {
+    color: #e74c3c;
 }
 
-.section-content h3 {
-    color: #2c3e50;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 0 15px 0;
+.cricket-block .block-link::before {
+    color: #e74c3c;
 }
 
-.section-content ul {
-    margin: 15px 0;
-    padding-left: 25px;
+.hockey-block .block-header,
+.hockey-block .landing-card-header,
+.hockey-block .section-header,
+.hockey-block .landing-header {
+    border-left: 4px solid #27ae60;
 }
 
-.section-content li {
-    margin-bottom: 8px;
-    font-size: 15px;
-    line-height: 1.6;
+.hockey-block .block-link:hover {
+    color: #27ae60;
+}
+
+.hockey-block .block-link::before {
+    color: #27ae60;
+}
+
+.club-block .block-header,
+.club-block .landing-card-header,
+.club-block .section-header,
+.club-block .landing-header {
+    border-left: 4px solid #2980b9;
+}
+
+.club-block .block-link:hover {
+    color: #2980b9;
+}
+
+.club-block .block-link::before {
+    color: #2980b9;
 }
 
 /* Special Boxes */
@@ -576,6 +441,27 @@ body {
     border-radius: 8px;
 }
 
+/* Footer - Updated for bottom positioning */
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
 /* Links */
 a {
     color: #3498db;
@@ -588,7 +474,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+/* ========================================
+   RESPONSIVE DESIGN
+   Applied consistently to both pages
+   ======================================== */
+
 @media (max-width: 768px) {
     .header-top {
         padding: 15px 20px 10px;
@@ -651,26 +541,24 @@ a:hover {
     }
 
     .section-header,
-    .landing-header {
-        padding: 20px 20px 15px;
-    }
-
-    .section-content,
-    .landing-content {
-        padding: 15px 20px 20px;
-    }
-
-    .section-title,
-    .landing-title {
-        font-size: 20px;
-    }
-
+    .landing-header,
+    .block-header,
     .landing-card-header {
         padding: 20px 20px 15px;
     }
 
+    .section-content,
+    .landing-content,
+    .block-content,
     .landing-card-content {
         padding: 15px 20px 20px;
+    }
+
+    .section-title,
+    .landing-title,
+    .block-title,
+    .landing-card-title {
+        font-size: 20px;
     }
 
     .pricing-table {
@@ -715,12 +603,16 @@ a:hover {
     }
 
     .section-header,
-    .landing-header {
+    .landing-header,
+    .block-header,
+    .landing-card-header {
         padding: 15px;
     }
 
     .section-content,
-    .landing-content {
+    .landing-content,
+    .block-content,
+    .landing-card-content {
         padding: 15px;
     }
 
@@ -739,26 +631,13 @@ a:hover {
         padding: 15px;
     }
 
-    .block-header,
-    .landing-card-header {
-        padding: 20px 20px 15px;
-    }
-
-    .block-content,
-    .landing-card-content {
-        padding: 15px 20px 20px;
-    }
-
-    .block-title,
-    .landing-card-title {
-        font-size: 20px;
-    }
-
-    .landing-hero {
+    .landing-hero,
+    .featured-content {
         padding: 20px 15px;
     }
 
-    .landing-hero-title {
+    .landing-hero-title,
+    .welcome-title {
         font-size: 24px;
     }
 }

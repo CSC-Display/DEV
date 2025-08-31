@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Add this to your style.css file */
+.home-button {
+    display: none;
+}
+
+/* When the home button should be visible, JavaScript will add a class */
+.home-button.show {
+    display: block;
+}
 /* Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;

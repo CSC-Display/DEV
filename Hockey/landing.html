@@ -3,33 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey</title>
+    <title>Hockey - Chelmsford Sports Club</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <!-- Header will be loaded here -->
-    <div id="header"></div>
+    <div id="header-placeholder"></div>
+    
+    <main class="main-content">
+        <section class="page-title">
+            <h1 class="title">Hockey</h1>
+            <p class="subtitle">Get the latest updates on our hockey teams and upcoming matches</p>
+        </section>
 
-    <!-- Hockey Block -->
-    <div class="content-block hockey-block" id="hockey">
-        <div class="block-header">
-            <h3 class="block-title">Hockey</h3>
-            <p class="block-description">Get the latest updates on our hockey teams and upcoming matches</p>
+        <div class="content-section hockey-block">
+            <div class="section-header">
+                <h2 class="section-title">Hockey Teams & Information</h2>
+            </div>
+            <div class="section-content">
+                <p>Stay connected with our hockey teams throughout the season. Check fixtures, follow results, and get all the latest updates on match schedules and team performance.</p>
+                <ul class="block-links">
+                    <li><a href="/Hockey/Fixtures.html" class="block-link">Fixtures</a></li>
+                    <li><a href="/Hockey/Results.html" class="block-link">Results</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="block-content">
-            <ul class="block-links">
-                <li><a href="/Hockey/Fixtures.html" class="block-link">Fixtures</a></li>
-                <li><a href="/Hockey/Results.html" class="block-link">Results</a></li>
-            </ul>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                © 2025 Chelmsford Sports Club. All rights reserved.
+            </p>
         </div>
-    </div>
+    </footer>
 
     <!-- Load header.html from root -->
     <script>
         fetch('/header.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('header').innerHTML = data;
+                document.getElementById('header-placeholder').innerHTML = data;
             })
             .catch(err => console.error('Error loading header:', err));
     </script>

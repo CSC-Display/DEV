@@ -8,16 +8,24 @@
 </head>
 <body>
     <header class="header">
-        <div class="nav-container">
-            <div class="logo">Sports Club</div>
-            <nav class="nav-buttons">
-                <a href="index.html" class="nav-btn home-btn" id="homeBtn" style="display: none;">Home</a>
-                <a href="Cricket/landing.html" class="nav-btn">Cricket</a>
-                <a href="Hockey/landing.html" class="nav-btn">Hockey</a>
-                <a href="Club/landing.html" class="nav-btn">Club Services</a>
+        <div class="header-container">
+            <div class="logo">
+                <div>
+                    <h1 class="club-name">Sports Club</h1>
+                    <p class="club-tagline">Excellence in Sports</p>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link-main home-button" id="homeBtn">Home</a>
+                <a href="Cricket/landing.html" class="nav-link-main">Cricket</a>
+                <a href="Hockey/landing.html" class="nav-link-main">Hockey</a>
+                <a href="Club/landing.html" class="nav-link-main">Club Services</a>
             </nav>
         </div>
     </header>
+
+
+
     <script>
         // Show/hide home button based on current page
         function toggleHomeButton() {
@@ -26,9 +34,9 @@
             
             // Show home button if not on index.html
             if (!currentPage.endsWith('index.html') && !currentPage.endsWith('/')) {
-                homeBtn.style.display = 'inline-block';
+                homeBtn.classList.add('show');
             } else {
-                homeBtn.style.display = 'none';
+                homeBtn.classList.remove('show');
             }
         }
         
@@ -37,6 +45,8 @@
         
         // Run when navigating (for single-page apps)
         window.addEventListener('popstate', toggleHomeButton);
+
+
     </script>
 </body>
 </html>

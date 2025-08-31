@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Services</title>
+    <title>Club Services - Chelmsford Sports Club</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <!-- Header will be loaded here -->
-    <div id="header"></div>
-    <!-- Club Services Block -->
-    <div class="content-block club-block" id="club">
-        <div class="block-header">
-            <h3 class="block-title">Club Services</h3>
-            <p class="block-description">Book facilities and manage your club activities</p>
+    <div id="header-placeholder"></div>
+    
+    <main class="main-content">
+        <section class="page-title">
+            <h1 class="title">Club Services</h1>
+            <p class="subtitle">Book facilities and manage your club activities</p>
+        </section>
+
+        <div class="content-section club-block">
+            <div class="section-header">
+                <h2 class="section-title">Available Services</h2>
+            </div>
+            <div class="section-content">
+                <ul class="block-links">
+                    <li><a href="Booking.html" class="block-link">Clubhouse Booking</a></li>
+                    <li><a href="Calendar.html" class="block-link">Events Calendar</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="block-content">
-            <ul class="block-links">
-                <li><a href="Booking.html" class="block-link">Booking</a></li>
-                <li><a href="Calendar.html" class="block-link">Calendar</a></li>
-            </ul>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                © 2025 Chelmsford Sports Club. All rights reserved.
+            </p>
         </div>
-    </div>
+    </footer>
+
     <!-- Load header.html from root -->
     <script>
         fetch('/header.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('header').innerHTML = data;
+                document.getElementById('header-placeholder').innerHTML = data;
             })
             .catch(err => console.error('Error loading header:', err));
     </script>

@@ -26,7 +26,7 @@ body {
 .header-top {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 35px 20px 25px;
+    padding: 20px 20px 15px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -36,12 +36,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .logo-image {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -86,7 +86,7 @@ body {
 .nav-link-main {
     color: white;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 12px 18px;
     text-align: center;
     font-weight: 500;
     background: #2c3e50;
@@ -94,8 +94,8 @@ body {
     border-right: 1px solid rgba(255,255,255,0.1);
     display: block;
     flex: 1;
-    max-width: 200px;
-    min-width: 150px;
+    max-width: 180px;
+    min-width: 130px;
 }
 
 .nav-link-main:last-child {
@@ -125,7 +125,7 @@ body {
 .landing-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 30px 20px;
     flex: 1;
     width: 100%;
 }
@@ -135,17 +135,17 @@ body {
 .landing-hero {
     background: white;
     border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 25px;
+    margin-bottom: 25px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 
 .welcome-title,
 .landing-hero-title {
-    font-size: 42px;
+    font-size: 32px;
     color: #1a252f;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 700;
     text-shadow: 0 2px 4px rgba(0,0,0,0.1);
     letter-spacing: -0.5px;
@@ -153,9 +153,9 @@ body {
 
 .welcome-text,
 .landing-hero-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #495057;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 500;
 }
 
@@ -164,8 +164,8 @@ body {
 .landing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
+    gap: 25px;
+    margin-top: 25px;
 }
 
 /* Content Cards/Blocks - Unified styling */
@@ -178,7 +178,7 @@ body {
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .content-block:hover,
@@ -193,7 +193,7 @@ body {
 .landing-card-header,
 .section-header,
 .landing-header {
-    padding: 25px 25px 20px;
+    padding: 20px 20px 15px;
     border-bottom: 1px solid #e9ecef;
 }
 
@@ -202,9 +202,9 @@ body {
 .landing-card-title,
 .section-title,
 .landing-title {
-    font-size: 28px;
+    font-size: 22px;
     color: #1a252f;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-weight: 700;
     letter-spacing: -0.3px;
 }
@@ -212,7 +212,7 @@ body {
 .block-description,
 .landing-card-description {
     color: #495057;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -221,15 +221,15 @@ body {
 .landing-card-content,
 .section-content,
 .landing-content {
-    padding: 20px 25px 25px;
+    padding: 15px 20px 20px;
 }
 
 .block-content p,
 .landing-card-content p,
 .section-content p,
 .landing-content p {
-    margin-bottom: 16px;
-    font-size: 15px;
+    margin-bottom: 14px;
+    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -238,9 +238,9 @@ body {
 .section-content h3,
 .landing-content h3 {
     color: #1a252f;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
-    margin: 20px 0 15px 0;
+    margin: 18px 0 12px 0;
     letter-spacing: -0.2px;
 }
 
@@ -248,16 +248,16 @@ body {
 .landing-card-content ul,
 .section-content ul,
 .landing-content ul {
-    margin: 15px 0;
-    padding-left: 25px;
+    margin: 12px 0;
+    padding-left: 20px;
 }
 
 .block-content li,
 .landing-card-content li,
 .section-content li,
 .landing-content li {
-    margin-bottom: 8px;
-    font-size: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
     line-height: 1.6;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .block-links li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .block-links li:last-child {
@@ -281,8 +281,8 @@ body {
     align-items: center;
     color: #2c3e50;
     text-decoration: none;
-    padding: 8px 0;
-    font-size: 15px;
+    padding: 6px 0;
+    font-size: 14px;
     transition: color 0.2s ease;
 }
 
@@ -292,7 +292,7 @@ body {
 
 .block-link::before {
     content: '→';
-    margin-right: 10px;
+    margin-right: 8px;
     color: #3498db;
     font-weight: bold;
 }
@@ -300,25 +300,25 @@ body {
 /* Page Title Section - For dedicated pages */
 .page-title {
     background: white;
-    padding: 40px 30px;
+    padding: 30px 25px;
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .title {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
     color: #1a252f;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-shadow: 0 2px 4px rgba(0,0,0,0.1);
     letter-spacing: -0.5px;
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 18px;
     color: #495057;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 500;
 }
 
@@ -327,10 +327,10 @@ body {
     background: #e8f4f8;
     border: 1px solid #3498db;
     border-left: 4px solid #3498db;
-    padding: 15px;
+    padding: 12px;
     border-radius: 8px;
-    margin: 20px 0;
-    font-size: 14px;
+    margin: 15px 0;
+    font-size: 13px;
 }
 
 .status-indicator strong {
@@ -388,10 +388,10 @@ body {
     background: #e8f4f8;
     border: 1px solid #3498db;
     border-left: 4px solid #3498db;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
-    margin: 20px 0;
-    font-size: 14px;
+    margin: 15px 0;
+    font-size: 13px;
     line-height: 1.6;
 }
 
@@ -399,39 +399,39 @@ body {
     background: #fff3cd;
     border: 1px solid #f39c12;
     border-left: 4px solid #f39c12;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .highlight-box {
     background: #d4edda;
     border: 1px solid #27ae60;
     border-left: 4px solid #27ae60;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .important {
     font-weight: 600;
     color: #e74c3c;
-    margin-top: 15px !important;
+    margin-top: 12px !important;
 }
 
 /* Pricing Table */
 .pricing-table {
     background: #f8f9fa;
     border-radius: 8px;
-    padding: 25px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 15px 0;
     border: 1px solid #e9ecef;
 }
 
 .pricing-table h3 {
     color: #2c3e50;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
     border: none;
     padding: 0;
 }
@@ -440,9 +440,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 12px 0;
     border-bottom: 1px solid #e9ecef;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .pricing-item:last-child {
@@ -457,14 +457,14 @@ body {
 .price {
     font-weight: 600;
     color: #27ae60;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* Form Container */
 .form-container {
     background: #f8f9fa;
     border-radius: 8px;
-    padding: 25px;
+    padding: 20px;
     border: 1px solid #e9ecef;
 }
 
@@ -477,7 +477,7 @@ body {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
     margin-top: auto;
     width: 100%;
 }
@@ -489,7 +489,7 @@ body {
 }
 
 .footer-text {
-    font-size: 14px;
+    font-size: 13px;
     color: #bdc3c7;
 }
 
@@ -512,7 +512,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .header-top {
-        padding: 25px 20px 20px;
+        padding: 15px 20px 12px;
     }
 
     .header-nav {
@@ -525,6 +525,7 @@ a:hover {
         max-width: none;
         min-width: none;
         flex: none;
+        padding: 10px 15px;
     }
 
     .nav-link-main:last-child {
@@ -544,7 +545,7 @@ a:hover {
 
     .welcome-title,
     .landing-hero-title {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .content-grid,
@@ -555,97 +556,17 @@ a:hover {
     }
 
     .logo-image {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
 
     .club-name {
-        font-size: 32px;
+        font-size: 48px;
     }
 
     .page-title {
-        padding: 35px 25px;
-        margin-bottom: 30px;
-    }
-
-    .title {
-        font-size: 36px;
-    }
-
-    .subtitle {
-        font-size: 18px;
-    }
-
-    .section-header,
-    .landing-header,
-    .block-header,
-    .landing-card-header {
-        padding: 20px 20px 15px;
-    }
-
-    .section-content,
-    .landing-content,
-    .block-content,
-    .landing-card-content {
-        padding: 15px 20px 20px;
-    }
-
-    .section-title,
-    .landing-title,
-    .block-title,
-    .landing-card-title {
-        font-size: 24px;
-    }
-
-    .pricing-table {
-        padding: 20px;
-    }
-
-    .pricing-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5px;
-        padding: 12px 0;
-    }
-
-    .form-container {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .nav-link-main {
-        max-width: 250px;
-        min-width: 180px;
-    }
-    
-    .club-name {
-        font-size: 48px;
-    }
-    
-    .logo-image {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .title {
-        font-size: 56px;
-    }
-    
-    .welcome-title,
-    .landing-hero-title {
-        font-size: 48px;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav-link-main {
-        padding: 12px 15px;
-        font-size: 14px;
-    }
-
-    .page-title {
-        padding: 30px 20px;
+        padding: 25px 20px;
+        margin-bottom: 25px;
     }
 
     .title {
@@ -655,18 +576,98 @@ a:hover {
     .subtitle {
         font-size: 16px;
     }
+
+    .section-header,
+    .landing-header,
+    .block-header,
+    .landing-card-header {
+        padding: 15px 15px 12px;
+    }
+
+    .section-content,
+    .landing-content,
+    .block-content,
+    .landing-card-content {
+        padding: 12px 15px 15px;
+    }
+
+    .section-title,
+    .landing-title,
+    .block-title,
+    .landing-card-title {
+        font-size: 20px;
+    }
+
+    .pricing-table {
+        padding: 15px;
+    }
+
+    .pricing-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 10px 0;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-link-main {
+        max-width: 200px;
+        min-width: 150px;
+    }
+    
+    .club-name {
+        font-size: 32px;
+    }
+    
+    .logo-image {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .title {
+        font-size: 42px;
+    }
+    
+    .welcome-title,
+    .landing-hero-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link-main {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    .page-title {
+        padding: 20px 15px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
     
     .club-name {
         font-size: 26px;
     }
     
     .logo-image {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
     
     .logo {
-        gap: 15px;
+        gap: 12px;
     }
     
     .club-tagline {
@@ -677,38 +678,38 @@ a:hover {
     .landing-header,
     .block-header,
     .landing-card-header {
-        padding: 15px;
+        padding: 12px;
     }
 
     .section-content,
     .landing-content,
     .block-content,
     .landing-card-content {
-        padding: 15px;
+        padding: 12px;
     }
 
     .contact-box,
     .note-box,
     .highlight-box {
-        padding: 15px;
-        margin: 15px 0;
+        padding: 12px;
+        margin: 12px 0;
     }
 
     .pricing-table {
-        padding: 15px;
+        padding: 12px;
     }
 
     .form-container {
-        padding: 15px;
+        padding: 12px;
     }
 
     .landing-hero,
     .featured-content {
-        padding: 20px 15px;
+        padding: 15px 12px;
     }
 
     .landing-hero-title,
     .welcome-title {
-        font-size: 28px;
+        font-size: 22px;
     }
 }

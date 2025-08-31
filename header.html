@@ -26,38 +26,56 @@
 
     <script>
         function toggleHomeButton() {
-            const currentPage = window.location.pathname;
             const homeBtn = document.getElementById('homeBtn');
             
-            // Normalize the path for comparison
-            const normalizedPath = currentPage.toLowerCase();
+            if (!homeBtn) {
+                console.error('Home button element not found!');
+                return;
+            }
             
-            // Check if we're on the home/index page
+            // Get current page info
+            const currentPage = window.location.pathname;
+            const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+            const currentHref = window.location.href;
+            
+            // Enhanced debugging
+            console.log('=== HOME BUTTON DEBUG ===');
+            console.log('Full URL:', currentHref);
+            console.log('Pathname:', currentPage);
+            console.log('Current file:', currentFile);
+            console.log('Home button element:', homeBtn);
+            console.log('Current classes:', homeBtn.className);
+            
+            // More comprehensive home page detection
             const isHomePage = 
-                normalizedPath.endsWith('index.html') || 
-                normalizedPath.endsWith('/') || 
-                normalizedPath === '' ||
-                normalizedPath === '/index.html' ||
-                normalizedPath.split('/').pop() === '' ||
-                normalizedPath.split('/').pop() === 'index.html';
+                currentFile === 'index.html' ||
+                currentFile === '' ||
+                currentPage === '/' ||
+                currentPage === '/index.html' ||
+                currentPage.endsWith('/index.html') ||
+                (currentPage.endsWith('/') && !currentPage.includes('Cricket/') && !currentPage.includes('Hockey/') && !currentPage.includes('Club/'));
+            
+            console.log('Is home page?', isHomePage);
             
             // HIDE home button when ON index.html, SHOW when NOT on index.html
             if (isHomePage) {
                 homeBtn.classList.remove('show');
-                console.log('On index.html - HIDING home button');
+                homeBtn.style.display = 'none'; // Force hide as backup
+                console.log('✓ HIDING home button (on index.html)');
             } else {
                 homeBtn.classList.add('show');
-                console.log('NOT on index.html - SHOWING home button');
+                homeBtn.style.display = 'block'; // Force show as backup
+                console.log('✓ SHOWING home button (NOT on index.html)');
             }
             
-            // Debug logging
-            console.log('Current path:', currentPage);
-            console.log('Is home page:', isHomePage);
-            console.log('Home button classes:', homeBtn.className);
+            console.log('Final classes:', homeBtn.className);
+            console.log('Final display style:', window.getComputedStyle(homeBtn).display);
+            console.log('=== END DEBUG ===');
         }
         
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, initializing home button...');
             toggleHomeButton();
         });
         
@@ -66,6 +84,9 @@
         
         // Handle hash changes (if using hash routing)
         window.addEventListener('hashchange', toggleHomeButton);
+        
+        // Force check after a short delay (backup)
+        setTimeout(toggleHomeButton, 100);
     </script>
 </body>
 </html>

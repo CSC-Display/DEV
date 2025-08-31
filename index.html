@@ -1,15 +1,98 @@
-<header class="header">
-    <div class="header-container">
-        <div class="logo">
-            <div>
-                <h1 class="club-name">Chelmsford Sports Club</h1>
-                <p class="club-tagline">Excellence in Sport Since 1925</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford Sports Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Club Name and Header Nav -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div>
+                    <h1 class="club-name">Chelmsford Sports Club</h1>
+                    <p class="club-tagline">Excellence in Sport Since 1925</p>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="/Cricket/Fixtures.html" class="nav-link-main">Cricket</a>
+                <a href="/Hockey/Fixtures.html" class="nav-link-main">Hockey</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-item"><a href="#cricket" class="nav-link-main">Cricket</a></div>
+            <div class="nav-item"><a href="#hockey" class="nav-link-main">Hockey</a></div>
+            <div class="nav-item"><a href="#club" class="nav-link-main">Club Services</a></div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="featured-content">
+            <h2 class="welcome-title">Welcome to Chelmsford Sports Club</h2>
+            <p class="welcome-text">
+                Your local sports community hub offering excellent facilities and competitive teams across multiple sports. 
+                Stay up to date with fixtures, results, and club activities.
+            </p>
+        </section>
+
+        <div class="content-grid">
+            <!-- Cricket Block -->
+            <div class="content-block cricket-block" id="cricket">
+                <div class="block-header">
+                    <h3 class="block-title">Cricket</h3>
+                    <p class="block-description">Follow our cricket teams and stay updated with the latest fixtures and results</p>
+                </div>
+                <div class="block-content">
+                    <ul class="block-links">
+                        <li><a href="/Cricket/Fixtures.html" class="block-link">Fixtures</a></li>
+                        <li><a href="/Cricket/results.html" class="block-link">Results</a></li>
+                        <li><a href="/Cricket/game-summary.html" class="block-link">Game Summary</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hockey Block -->
+            <div class="content-block hockey-block" id="hockey">
+                <div class="block-header">
+                    <h3 class="block-title">Hockey</h3>
+                    <p class="block-description">Get the latest updates on our hockey teams and upcoming matches</p>
+                </div>
+                <div class="block-content">
+                    <ul class="block-links">
+                        <li><a href="/Hockey/Fixtures.html" class="block-link">Fixtures</a></li>
+                        <li><a href="/Hockey/Results.html" class="block-link">Results</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Club Services Block -->
+            <div class="content-block club-block" id="club">
+                <div class="block-header">
+                    <h3 class="block-title">Club Services</h3>
+                    <p class="block-description">Book facilities and manage your club activities</p>
+                </div>
+                <div class="block-content">
+                    <ul class="block-links">
+                        <li><a href="Booking.html" class="block-link">Booking</a></li>
+                        <li><a href="Calander.html" class="block-link">Calendar</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <!-- Header Nav for Cricket & Hockey -->
-        <nav class="header-nav">
-            <a href="/Cricket/Fixtures.html" class="nav-link-main">Cricket</a>
-            <a href="/Hockey/Fixtures.html" class="nav-link-main">Hockey</a>
-        </nav>
-    </div>
-</header>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Chelmsford Sports Club. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

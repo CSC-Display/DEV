@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Services - Sports Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Include Header -->
+    <div id="header-container"></div>
 
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Club Services Block -->
+            <div class="content-block club-block" id="club">
+                <div class="block-header">
+                    <h3 class="block-title">Club Services</h3>
+                    <p class="block-description">Book facilities and manage your club activities</p>
+                </div>
+                <div class="block-content">
+                    <ul class="block-links">
+                        <li><a href="Booking.html" class="block-link">Booking</a></li>
+                        <li><a href="Calendar.html" class="block-link">Calendar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Load header.html
+        function loadHeader() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                    
+                    // Execute any scripts in the loaded header
+                    const scripts = document.getElementById('header-container').querySelectorAll('script');
+                    scripts.forEach(script => {
+                        const newScript = document.createElement('script');
+                        if (script.src) {
+                            newScript.src = script.src;
+                        } else {
+                            newScript.textContent = script.textContent;
+                        }
+                        document.head.appendChild(newScript);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading header:', error);
+                    // Fallback: create a simple navigation if header fails to load
+                    document.getElementById('header-container').innerHTML = `
+                        <header class="header">
+                            <div class="nav-container">
+                                <div class="logo">Sports Club</div>
+                                <nav class="nav-buttons">
+                                    <a href="index.html" class="nav-btn home-btn">Home</a>
+                                    <a href="Cricket/landing.html" class="nav-btn">Cricket</a>
+                                    <a href="Hockey/landing.html" class="nav-btn">Hockey</a>
+                                    <a href="#" class="nav-btn">Club Services</a>
+                                </nav>
+                            </div>
+                        </header>
+                    `;
+                });
+        }
+
+        // Load header on page load
+        document.addEventListener('DOMContentLoaded', loadHeader);
+    </script>
+</body>
+</html>

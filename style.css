@@ -39,6 +39,25 @@ body {
     gap: 20px;
 }
 
+.logo-image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
 .club-name {
     font-size: 42px;
     font-weight: 700;
@@ -53,7 +72,6 @@ body {
     color: #495057;
     font-weight: 500;
     margin: 0;
-    margin-top: 5px;
 }
 
 /* Header Navigation - Full Width Bottom */
@@ -536,6 +554,11 @@ a:hover {
         margin-top: 20px;
     }
 
+    .logo-image {
+        width: 50px;
+        height: 50px;
+    }
+
     .club-name {
         font-size: 32px;
     }
@@ -600,6 +623,11 @@ a:hover {
         font-size: 48px;
     }
     
+    .logo-image {
+        width: 80px;
+        height: 80px;
+    }
+    
     .title {
         font-size: 56px;
     }
@@ -630,6 +658,15 @@ a:hover {
     
     .club-name {
         font-size: 26px;
+    }
+    
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo {
+        gap: 15px;
     }
     
     .club-tagline {

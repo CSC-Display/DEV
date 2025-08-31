@@ -7,16 +7,8 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <div>
-                    <h1 class="club-name">Chelmsford Sports Club</h1>
-                    <p class="club-tagline">Excellence in Sport Since 1925</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Header placeholder -->
+    <div id="header-placeholder"></div>
 
     <nav class="main-nav">
         <div class="nav-container">
@@ -38,5 +30,15 @@
             <p class="footer-text">© 2025 Chelmsford Sports Club. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Load header via JavaScript -->
+    <script>
+        fetch('/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            })
+            .catch(err => console.error('Error loading header:', err));
+    </script>
 </body>
 </html>

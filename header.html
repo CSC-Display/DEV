@@ -5,10 +5,10 @@
             <p class="club-tagline">Excellence in Sport Since 1925</p>
         </div>
         <nav class="header-nav">
-            <a href="/Cricket/landing.html" class="nav-link-main">Cricket</a>
-            <a href="/Hockey/landing.html" class="nav-link-main">Hockey</a>
+            <a href="Cricket/landing.html" class="nav-link-main">Cricket</a>
+            <a href="Hockey/landing.html" class="nav-link-main">Hockey</a>
             <!-- Home button will be added dynamically -->
-            <a href="/index.html" class="nav-link-main" id="home-button" style="display: none;">Home</a>
+            <a href="index.html" class="nav-link-main" id="home-button" style="display: none;">Home</a>
         </nav>
     </div>
 </header>
@@ -17,7 +17,6 @@
     // Show Home button only if not on index.html
     const homeButton = document.getElementById('home-button');
     const currentPage = window.location.pathname.split('/').pop(); // gets current file name
-    // On GitHub Pages, index.html can be empty string too
     if (currentPage !== "index.html" && currentPage !== "") {
         homeButton.style.display = "inline-block";
     }

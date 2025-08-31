@@ -14,11 +14,10 @@
                 <a href="index.html" class="nav-btn home-btn" id="homeBtn" style="display: none;">Home</a>
                 <a href="Cricket/landing.html" class="nav-btn">Cricket</a>
                 <a href="Hockey/landing.html" class="nav-btn">Hockey</a>
-                <a href="#" class="nav-btn" onclick="showClubServices()">Club Services</a>
+                <a href="Club/landing.html" class="nav-btn">Club Services</a>
             </nav>
         </div>
     </header>
-
     <script>
         // Show/hide home button based on current page
         function toggleHomeButton() {
@@ -32,12 +31,7 @@
                 homeBtn.style.display = 'none';
             }
         }
-
-        // Club services functionality (placeholder)
-        function showClubServices() {
-            alert('Club Services page coming soon! This could link to services like membership, facilities, events, etc.');
-        }
-
+        
         // Run on page load
         document.addEventListener('DOMContentLoaded', toggleHomeButton);
         

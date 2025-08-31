@@ -366,28 +366,28 @@ body {
 
 .hockey-block .block-header,
 .hockey-block .landing-card-header {
-    border-left: 4px solid #2980b9;
+    border-left: 4px solid #27ae60;
 }
 
 .hockey-block .block-link:hover {
-    color: #2980b9;
+    color: #27ae60;
 }
 
 .hockey-block .block-link::before {
-    color: #2980b9;
+    color: #27ae60;
 }
 
 .club-block .block-header,
 .club-block .landing-card-header {
-    border-left: 4px solid #27ae60;
+    border-left: 4px solid #2980b9;
 }
 
 .club-block .block-link:hover {
-    color: #27ae60;
+    color: #2980b9;
 }
 
 .club-block .block-link::before {
-    color: #27ae60;
+    color: #2980b9;
 }
 
 /* Footer - Updated for bottom positioning */

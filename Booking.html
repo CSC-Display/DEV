@@ -145,35 +145,6 @@
             border-bottom: none;
         }
         
-        .booking-section {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 2px solid #e2e8f0;
-        }
-        
-        .booking-btn {
-            background-color: #1e3a8a;
-            color: white;
-            border: none;
-            padding: 15px 35px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .booking-btn:hover {
-            background-color: #1e40af;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
-        }
-        
         .contact-info {
             background-color: #f8fafc;
             padding: 25px;
@@ -191,6 +162,26 @@
         .contact-info p {
             margin-bottom: 8px;
             color: #475569;
+        }
+        
+        .form-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 245%; /* Adjust height ratio based on form length */
+            height: 0;
+            overflow: hidden;
+            margin-top: 30px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+        }
+        
+        .form-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
         
         .footer {
@@ -223,6 +214,10 @@
             
             .page-header h1 {
                 font-size: 1.8rem;
+            }
+            
+            .form-container {
+                padding-bottom: 300%; /* Adjust for mobile if needed */
             }
         }
     </style>
@@ -271,31 +266,3 @@
             <div class="info-box">
                 <h2>Booking Information</h2>
                 <p><strong>Available for:</strong> Corporate events, private parties, meetings, training sessions, celebrations, and community events.</p>
-                <p><strong>Capacity:</strong> From intimate gatherings of 10 people to larger events for up to 80 guests.</p>
-                <p><strong>Catering:</strong> In-house catering available or bring your own caterer with our approval.</p>
-            </div>
-            
-            <div class="contact-info">
-                <h3>Need More Information?</h3>
-                <p><strong>Contact our Events Team:</strong></p>
-                <p>📞 Phone: 01245 XXX XXX</p>
-                <p>✉️ Email: bookings@chelmsfordsc.org.uk</p>
-                <p>🕒 Office Hours: Monday-Friday, 9:00 AM - 5:00 PM</p>
-            </div>
-            
-            <div class="booking-section">
-                <p style="margin-bottom: 20px; color: #475569; font-size: 1.1rem;">
-                    Ready to book your event? Complete our online booking form to get started.
-                </p>
-                <a href="https://forms.gle/your-form-link-here" class="booking-btn" target="_blank">
-                    📋 Complete Booking Form
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    <footer class="footer">
-        <p>&copy; 2024 Chelmsford Sports Club. All rights reserved.</p>
-    </footer>
-</body>
-</html>

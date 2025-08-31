@@ -17,6 +17,7 @@
     // Show Home button only if not on index.html
     const homeButton = document.getElementById('home-button');
     const currentPage = window.location.pathname.split('/').pop(); // gets current file name
+    // On GitHub Pages, index.html can be empty string too
     if (currentPage !== "index.html" && currentPage !== "") {
         homeButton.style.display = "inline-block";
     }

@@ -1,24 +1,40 @@
-<header class="header">
-    <div class="header-container">
-        <div class="logo">
-            <h1 class="club-name">Chelmsford Sports Club</h1>
-            <p class="club-tagline">Excellence in Sport Since 1925</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford Sports Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1 class="club-name">Chelmsford Sports Club</h1>
+                <p class="club-tagline">Excellence in Sport Since 1925</p>
+            </div>
+            <nav class="header-nav">
+                <a href="/Cricket/landing.html" class="nav-link-main">Cricket</a>
+                <a href="/Hockey/landing.html" class="nav-link-main">Hockey</a>
+                <a href="index.html" class="nav-link-main home-button" id="home-button" style="display: none;">Home</a>
+            </nav>
         </div>
-        <nav class="header-nav">
-            <a href="/Cricket/landing.html" class="nav-link-main">Cricket</a>
-            <a href="/Hockey/landing.html" class="nav-link-main">Hockey</a>
-            
-            <!-- Home button will be added dynamically -->
-            <a href="index.html" class="nav-link-main" id="home-button" style="display: none;">Home</a>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<script>
-    // Show Home button only if not on index.html
-    const homeButton = document.getElementById('home-button');
-    const currentPage = window.location.pathname.split('/').pop(); // gets current file name
-    if (currentPage !== "index.html" && currentPage !== "") {
-        homeButton.style.display = "inline-block";
-    }
-</script>
+    <!-- Your page content goes here -->
+    <main>
+        <h1>Welcome to Chelmsford Sports Club</h1>
+        <p>This header should now properly display your Cricket and Hockey navigation links.</p>
+    </main>
+
+    <script>
+        // Show Home button only if not on index.html
+        const homeButton = document.getElementById('home-button');
+        const currentPage = window.location.pathname.split('/').pop();
+        
+        if (currentPage !== "index.html" && currentPage !== "") {
+            homeButton.style.display = "inline-block";
+        }
+    </script>
+</body>
+</html>

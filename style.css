@@ -19,37 +19,41 @@ body {
 /* Header */
 .header {
     background: #fff;
-    border-bottom: 1px solid #e9ecef;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-bottom: 2px solid #e9ecef;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .header-top {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 20px 15px;
+    padding: 35px 20px 25px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .club-name {
-    font-size: 28px;
-    font-weight: 600;
-    color: #2c3e50;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1a252f;
     margin: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.5px;
 }
 
 .club-tagline {
-    font-size: 14px;
-    color: #6c757d;
-    font-weight: 400;
+    font-size: 18px;
+    color: #495057;
+    font-weight: 500;
     margin: 0;
+    margin-top: 5px;
 }
 
 /* Header Navigation - Full Width Bottom */
@@ -121,17 +125,20 @@ body {
 
 .welcome-title,
 .landing-hero-title {
-    font-size: 32px;
-    color: #2c3e50;
-    margin-bottom: 15px;
-    font-weight: 600;
+    font-size: 42px;
+    color: #1a252f;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.5px;
 }
 
 .welcome-text,
 .landing-hero-text {
-    font-size: 16px;
-    color: #6c757d;
-    margin-bottom: 20px;
+    font-size: 18px;
+    color: #495057;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
 
 /* Content Grid - Unified for both pages */
@@ -177,16 +184,18 @@ body {
 .landing-card-title,
 .section-title,
 .landing-title {
-    font-size: 24px;
-    color: #2c3e50;
-    margin-bottom: 8px;
-    font-weight: 600;
+    font-size: 28px;
+    color: #1a252f;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
 }
 
 .block-description,
 .landing-card-description {
-    color: #6c757d;
-    font-size: 14px;
+    color: #495057;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Unified Content Areas */
@@ -210,10 +219,11 @@ body {
 .landing-card-content h3,
 .section-content h3,
 .landing-content h3 {
-    color: #2c3e50;
-    font-size: 20px;
-    font-weight: 600;
+    color: #1a252f;
+    font-size: 22px;
+    font-weight: 700;
     margin: 20px 0 15px 0;
+    letter-spacing: -0.2px;
 }
 
 .block-content ul,
@@ -272,23 +282,26 @@ body {
 /* Page Title Section - For dedicated pages */
 .page-title {
     background: white;
-    padding: 30px;
+    padding: 40px 30px;
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a252f;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: -0.5px;
 }
 
 .subtitle {
-    font-size: 16px;
-    color: #6c757d;
-    margin-bottom: 20px;
+    font-size: 20px;
+    color: #495057;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
 
 /* Status Indicator */
@@ -481,7 +494,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .header-top {
-        padding: 15px 20px 10px;
+        padding: 25px 20px 20px;
     }
 
     .header-nav {
@@ -513,7 +526,7 @@ a:hover {
 
     .welcome-title,
     .landing-hero-title {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .content-grid,
@@ -524,20 +537,20 @@ a:hover {
     }
 
     .club-name {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .page-title {
-        padding: 30px 20px;
+        padding: 35px 25px;
         margin-bottom: 30px;
     }
 
     .title {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .subtitle {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .section-header,
@@ -558,7 +571,7 @@ a:hover {
     .landing-title,
     .block-title,
     .landing-card-title {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .pricing-table {
@@ -582,6 +595,19 @@ a:hover {
         max-width: 250px;
         min-width: 180px;
     }
+    
+    .club-name {
+        font-size: 48px;
+    }
+    
+    .title {
+        font-size: 56px;
+    }
+    
+    .welcome-title,
+    .landing-hero-title {
+        font-size: 48px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -591,15 +617,23 @@ a:hover {
     }
 
     .page-title {
-        padding: 25px 15px;
+        padding: 30px 20px;
     }
 
     .title {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .subtitle {
-        font-size: 15px;
+        font-size: 16px;
+    }
+    
+    .club-name {
+        font-size: 26px;
+    }
+    
+    .club-tagline {
+        font-size: 16px;
     }
 
     .section-header,
@@ -638,6 +672,6 @@ a:hover {
 
     .landing-hero-title,
     .welcome-title {
-        font-size: 24px;
+        font-size: 28px;
     }
 }

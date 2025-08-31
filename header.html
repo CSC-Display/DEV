@@ -3,50 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Navigation</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sports Club</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
+        <div class="header-top">
             <div class="logo">
                 <div>
                     <h1 class="club-name">Sports Club</h1>
                     <p class="club-tagline">Excellence in Sports</p>
                 </div>
             </div>
-            <nav class="header-nav">
-                <a href="index.html" class="nav-link-main home-button" id="homeBtn">Home</a>
-                <a href="Cricket/landing.html" class="nav-link-main">Cricket</a>
-                <a href="Hockey/landing.html" class="nav-link-main">Hockey</a>
-                <a href="Club/landing.html" class="nav-link-main">Club Services</a>
-            </nav>
         </div>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link-main home-button" id="homeBtn">Home</a>
+            <a href="Cricket/landing.html" class="nav-link-main">Cricket</a>
+            <a href="Hockey/landing.html" class="nav-link-main">Hockey</a>
+            <a href="Club/landing.html" class="nav-link-main">Club Services</a>
+        </nav>
     </header>
 
-
-
     <script>
-        // Show/hide home button based on current page
         function toggleHomeButton() {
             const currentPage = window.location.pathname;
             const homeBtn = document.getElementById('homeBtn');
             
-            // Show home button if not on index.html
-            if (!currentPage.endsWith('index.html') && !currentPage.endsWith('/')) {
-                homeBtn.classList.add('show');
-            } else {
+            // Normalize the path for comparison
+            const normalizedPath = currentPage.toLowerCase();
+            
+            // Check if we're on the home/index page
+            const isHomePage = 
+                normalizedPath.endsWith('index.html') || 
+                normalizedPath.endsWith('/') || 
+                normalizedPath === '' ||
+                normalizedPath === '/index.html' ||
+                normalizedPath.split('/').pop() === '' ||
+                normalizedPath.split('/').pop() === 'index.html';
+            
+            // HIDE home button when ON index.html, SHOW when NOT on index.html
+            if (isHomePage) {
                 homeBtn.classList.remove('show');
+                console.log('On index.html - HIDING home button');
+            } else {
+                homeBtn.classList.add('show');
+                console.log('NOT on index.html - SHOWING home button');
             }
+            
+            // Debug logging
+            console.log('Current path:', currentPage);
+            console.log('Is home page:', isHomePage);
+            console.log('Home button classes:', homeBtn.className);
         }
         
-        // Run on page load
-        document.addEventListener('DOMContentLoaded', toggleHomeButton);
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            toggleHomeButton();
+        });
         
-        // Run when navigating (for single-page apps)
+        // Handle browser navigation
         window.addEventListener('popstate', toggleHomeButton);
-
-
+        
+        // Handle hash changes (if using hash routing)
+        window.addEventListener('hashchange', toggleHomeButton);
     </script>
 </body>
 </html>

@@ -140,40 +140,40 @@
       display: none;
     }
 
-    /* TV Display Optimizations - 65" Screen */
+    /* 55" TV Display Optimizations */
     @media screen and (min-width: 1920px) {
       .gms-table-fixtures {
+        font-size: clamp(18px, 1.8vw, 34px);
+      }
+      
+      .gms-table-fixtures th {
         font-size: clamp(20px, 2vw, 38px);
       }
       
-      .gms-table-fixtures th {
-        font-size: clamp(22px, 2.2vw, 42px);
-      }
-      
       .gms-table-fixtures th,
       .gms-table-fixtures td {
-        padding: clamp(14px, 1.8vw, 28px) clamp(18px, 2.2vw, 36px);
+        padding: clamp(12px, 1.6vw, 24px) clamp(16px, 2vw, 32px);
       }
     }
 
-    /* 4K TV Optimization */
+    /* 4K TV Optimization for 55" */
     @media screen and (min-width: 3840px) {
       .gms-table-fixtures {
-        font-size: clamp(24px, 1.5vw, 48px);
+        font-size: clamp(22px, 1.3vw, 42px);
       }
       
       .gms-table-fixtures th {
-        font-size: clamp(26px, 1.7vw, 52px);
+        font-size: clamp(24px, 1.5vw, 46px);
       }
       
       .gms-table-fixtures th,
       .gms-table-fixtures td {
-        padding: clamp(16px, 1.5vw, 32px) clamp(20px, 1.8vw, 40px);
+        padding: clamp(14px, 1.3vw, 28px) clamp(18px, 1.6vw, 36px);
       }
       
       .refresh-indicator {
-        font-size: clamp(18px, 1.2vw, 24px);
-        padding: 12px 24px;
+        font-size: clamp(16px, 1vw, 22px);
+        padding: 10px 20px;
       }
     }
 
@@ -226,7 +226,7 @@
       }
     }
 
-    /* Large screens optimization */
+    /* Large screens optimization for 55" */
     @media screen and (min-width: 1200px) {
       .gms-wrapper {
         width: 99vw;
@@ -234,27 +234,27 @@
       }
       
       .gms-table-fixtures {
-        font-size: clamp(18px, 2.2vw, 34px);
+        font-size: clamp(16px, 2vw, 30px);
       }
       
       .gms-table-fixtures th {
-        font-size: clamp(20px, 2.5vw, 38px);
+        font-size: clamp(18px, 2.2vw, 34px);
       }
     }
 
-    /* Extra large screens */
+    /* Extra large screens for 55" */
     @media screen and (min-width: 1600px) {
       .gms-table-fixtures {
-        font-size: clamp(19px, 2.1vw, 36px);
+        font-size: clamp(17px, 1.9vw, 32px);
       }
       
       .gms-table-fixtures th {
-        font-size: clamp(21px, 2.3vw, 40px);
+        font-size: clamp(19px, 2.1vw, 36px);
       }
       
       .gms-table-fixtures th,
       .gms-table-fixtures td {
-        padding: clamp(13px, 1.9vw, 26px) clamp(17px, 2.1vw, 34px);
+        padding: clamp(11px, 1.7vw, 22px) clamp(15px, 1.9vw, 30px);
       }
     }
 

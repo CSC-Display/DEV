@@ -1,121 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chelmsford Cricket Club - Recent Results</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .loading {
-            text-align: center;
-            color: #666;
-        }
-        .match {
-            background: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border-left: 4px solid #4CAF50;
-        }
-        .date {
-            font-size: 12px;
-            color: #666;
-            margin-bottom: 5px;
-        }
-        .teams {
-            font-weight: bold;
-            margin: 5px 0;
-        }
-        .result {
-            color: #333;
-            margin-top: 5px;
-        }
-        .no-matches {
-            text-align: center;
-            color: #666;
-            padding: 20px;
-        }
-        .error {
-            background: #ffebee;
-            color: #c62828;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Chelmsford Cricket Club - Last 7 Days</h1>
-    
-    <div id="loading" class="loading">Loading matches...</div>
-    <div id="results"></div>
+// Cricket API Data Filter - Extract Essential Match Information Only
+// Usage: Replace 'apiResponse' with your actual API response data
 
-    <script>
-        const API_TOKEN = '8786d7c44061b7d624367d32177420e0';
-        const SITE_ID = '1786';
+function filterCricketData(apiResponse) {
+    const filteredMatches = apiResponse.result_summary.map(match => {
+        // Essential Match Information (Must Have)
+        const essentialInfo = {
+            match_date: match.match_date,
+            home_club_name: match.home_club_name,
+            away_club_name: match.away_club_name,
+            home_team_name: match.home_team_name,
+            away_team_name: match.away_team_name,
+            ground_name: match.ground_name,
+            result_description: match.result_description,
+            competition_name: match.competition_name,
+            competition_type: match.competition_type
+        };
+
+        // Match Format & Context
+        const matchFormat = {
+            match_type: match.match_type,
+            game_type: match.game_type,
+            no_of_overs: match.no_of_overs,
+            season: "2025" // From your API URL parameter
+        };
+
+        // Key Result Data from innings array
+        const inningsData = match.innings.map(innings => ({
+            team_batting_id: innings.team_batting_id,
+            innings_number: innings.innings_number,
+            runs: innings.runs,
+            wickets: innings.wickets,
+            overs: innings.overs,
+            total_extras: innings.total_extras
+        }));
+
+        // Match Status
+        const matchStatus = {
+            status: match.status,
+            last_updated: match.last_updated,
+            toss: match.toss
+        };
+
+        // Combine all filtered data
+        return {
+            // Unique match identifier (helpful for tracking)
+            match_id: match.id,
+            
+            // Essential Match Information
+            ...essentialInfo,
+            
+            // Match Format & Context
+            ...matchFormat,
+            
+            // Match Status
+            ...matchStatus,
+            
+            // Key Result Data
+            innings: inningsData
+        };
+    });
+
+    return {
+        total_matches: filteredMatches.length,
+        matches: filteredMatches
+    };
+}
+
+// Example usage with your API endpoint
+async function getCricketData() {
+    try {
+        const response = await fetch(
+            'http://play-cricket.com/api/v2/result_summary.json?site_id=1786&season=2025&api_token=8786d7c44061b7d624367d32177420e0'
+        );
+        const data = await response.json();
         
-        // Get date 7 days ago
-        const fromDate = new Date();
-        fromDate.setDate(fromDate.getDate() - 7);
-        const fromDateStr = fromDate.toISOString().split('T')[0];
+        // Filter the data to include only essential information
+        const filteredData = filterCricketData(data);
         
-        const toDate = new Date().toISOString().split('T')[0];
+        console.log('Filtered Cricket Data:', filteredData);
+        return filteredData;
         
-        async function loadMatches() {
-            try {
-                const url = `https://play-cricket.com/api/v2/matches?api_token=${API_TOKEN}&site_id=${SITE_ID}&from_date=${fromDateStr}&to_date=${toDate}`;
-                
-                const response = await fetch(url);
-                const data = await response.json();
-                
-                document.getElementById('loading').style.display = 'none';
-                
-                if (!data.matches || data.matches.length === 0) {
-                    document.getElementById('results').innerHTML = '<div class="no-matches">No matches in the last 7 days</div>';
-                    return;
-                }
-                
-                // Show completed matches only
-                const completedMatches = data.matches.filter(match => match.result_summary || match.status === 'Complete');
-                
-                if (completedMatches.length === 0) {
-                    document.getElementById('results').innerHTML = '<div class="no-matches">No completed matches in the last 7 days</div>';
-                    return;
-                }
-                
-                const html = completedMatches.map(match => {
-                    const date = new Date(match.match_date).toLocaleDateString('en-GB');
-                    const homeTeam = match.home_team_name || 'Home';
-                    const awayTeam = match.away_team_name || 'Away';
-                    const result = match.result_summary || match.result || 'Match completed';
-                    
-                    return `
-                        <div class="match">
-                            <div class="date">${date}</div>
-                            <div class="teams">${homeTeam} vs ${awayTeam}</div>
-                            <div class="result">${result}</div>
-                        </div>
-                    `;
-                }).join('');
-                
-                document.getElementById('results').innerHTML = html;
-                
-            } catch (error) {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('results').innerHTML = `<div class="error">Error loading matches: ${error.message}</div>`;
-            }
-        }
-        
-        loadMatches();
-    </script>
-</body>
-</html>
+    } catch (error) {
+        console.error('Error fetching cricket data:', error);
+        return null;
+    }
+}
+
+// Alternative: If you already have the API response data
+// const filteredData = filterCricketData(yourApiResponseData);
+
+// Example of what the filtered output structure looks like:
+const exampleFilteredMatch = {
+    match_id: 7157908,
+    match_date: "28/05/2024",
+    home_club_name: "Bancroft Lions CC",
+    away_club_name: "Chelmsford CC",
+    home_team_name: "Girls Under 13",
+    away_team_name: "Girls Under 13",
+    ground_name: "",
+    result_description: "Bancroft Lions CC - Girls Under 13 - Won",
+    competition_name: "Girls U13 ODS: Group A",
+    competition_type: "League",
+    match_type: "Limited Overs",
+    game_type: "Junior",
+    no_of_overs: "6",
+    season: "2025",
+    status: "New",
+    last_updated: "07/08/2025",
+    toss: "",
+    innings: [] // Array of innings data with runs, wickets, overs, total_extras
+};
+
+// Call the function to get filtered data
+// getCricketData();

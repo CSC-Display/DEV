@@ -1,1 +1,302 @@
+name: 🏏 Fetch Cricket Data
 
+on:
+  # Run every 15 minutes
+  schedule:
+    - cron: '*/15 * * * *'
+  
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+  
+  # Run when you push to main branch
+  push:
+    branches: [ main ]
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Install dependencies
+      run: |
+        pip install requests
+        
+    - name: 🏏 Fetch and process cricket data
+      run: |
+        mkdir -p data
+        
+        cat > fetch_cricket.py << 'EOF'
+        import requests
+        import json
+        import os
+        from datetime import datetime
+        
+        def filter_cricket_data(api_response):
+            """Filter cricket API data to extract essential information only"""
+            filtered_matches = []
+            
+            for match in api_response.get('result_summary', []):
+                # Essential Match Information
+                essential_info = {
+                    'match_date': match.get('match_date'),
+                    'home_club_name': match.get('home_club_name'),
+                    'away_club_name': match.get('away_club_name'),
+                    'home_team_name': match.get('home_team_name'),
+                    'away_team_name': match.get('away_team_name'),
+                    'ground_name': match.get('ground_name'),
+                    'result_description': match.get('result_description'),
+                    'competition_name': match.get('competition_name'),
+                    'competition_type': match.get('competition_type')
+                }
+                
+                # Match Format & Context
+                match_format = {
+                    'match_type': match.get('match_type'),
+                    'game_type': match.get('game_type'),
+                    'no_of_overs': match.get('no_of_overs'),
+                    'season': '2025'
+                }
+                
+                # Key Result Data from innings array
+                innings_data = []
+                for innings in match.get('innings', []):
+                    innings_data.append({
+                        'team_batting_id': innings.get('team_batting_id'),
+                        'innings_number': innings.get('innings_number'),
+                        'runs': innings.get('runs'),
+                        'wickets': innings.get('wickets'),
+                        'overs': innings.get('overs'),
+                        'total_extras': innings.get('total_extras')
+                    })
+                
+                # Match Status
+                match_status = {
+                    'status': match.get('status'),
+                    'last_updated': match.get('last_updated'),
+                    'toss': match.get('toss')
+                }
+                
+                # Combine all filtered data
+                filtered_match = {
+                    'match_id': match.get('id'),
+                    **essential_info,
+                    **match_format,
+                    **match_status,
+                    'innings': innings_data
+                }
+                
+                filtered_matches.append(filtered_match)
+            
+            return {
+                'total_matches': len(filtered_matches),
+                'last_updated': datetime.now().isoformat(),
+                'fetch_timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC'),
+                'update_frequency': 'Every 15 minutes',
+                'matches': filtered_matches
+            }
+        
+        def main():
+            try:
+                print("🏏 Fetching cricket data...")
+                
+                # Fetch data from Play Cricket API
+                url = 'http://play-cricket.com/api/v2/result_summary.json?site_id=1786&season=2025&api_token=8786d7c44061b7d624367d32177420e0'
+                headers = {
+                    'User-Agent': 'CricketDataBot/1.0 (GitHub Actions)',
+                    'Accept': 'application/json'
+                }
+                
+                response = requests.get(url, headers=headers, timeout=30)
+                response.raise_for_status()
+                
+                raw_data = response.json()
+                print(f"✅ Fetched data with {len(raw_data.get('result_summary', []))} matches")
+                
+                # Save raw data (for debugging)
+                with open('data/raw_cricket_data.json', 'w') as f:
+                    json.dump(raw_data, f, indent=2)
+                
+                # Filter and save processed data
+                filtered_data = filter_cricket_data(raw_data)
+                
+                with open('data/cricket_data.json', 'w') as f:
+                    json.dump(filtered_data, f, indent=2)
+                
+                # Create summary for quick overview
+                latest_matches = []
+                for match in filtered_data['matches'][:10]:  # Latest 10 matches
+                    latest_matches.append({
+                        'date': match['match_date'],
+                        'home_team': f"{match['home_club_name']} {match['home_team_name']}",
+                        'away_team': f"{match['away_club_name']} {match['away_team_name']}",
+                        'result': match['result_description'],
+                        'competition': match['competition_name'] or 'Friendly',
+                        'ground': match['ground_name'] or 'TBC',
+                        'status': match['status']
+                    })
+                
+                summary = {
+                    'last_updated': filtered_data['last_updated'],
+                    'total_matches': filtered_data['total_matches'],
+                    'update_frequency': '15 minutes',
+                    'latest_matches': latest_matches,
+                    'data_source': 'Play Cricket API via GitHub Actions',
+                    'next_update': 'In ~15 minutes'
+                }
+                
+                with open('data/summary.json', 'w') as f:
+                    json.dump(summary, f, indent=2)
+                
+                # Create status file
+                with open('data/last_update.txt', 'w') as f:
+                    f.write(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+                    f.write(f"Total matches: {filtered_data['total_matches']}\n")
+                    f.write(f"Update frequency: Every 15 minutes\n")
+                    f.write(f"Status: Success ✅\n")
+                    f.write(f"Next update: {datetime.now().strftime('%H:%M')} + 15 minutes\n")
+                
+                print(f"✅ Successfully processed {filtered_data['total_matches']} matches")
+                print(f"📊 Data saved to data/ directory")
+                print(f"⏰ Next update in 15 minutes")
+                
+            except requests.exceptions.RequestException as e:
+                print(f"❌ Network error: {e}")
+                # Create error status file
+                with open('data/last_update.txt', 'w') as f:
+                    f.write(f"Last attempted: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+                    f.write(f"Status: Failed ❌\n")
+                    f.write(f"Error: {str(e)}\n")
+                    f.write(f"Next retry: In 15 minutes\n")
+                exit(1)
+                
+            except Exception as e:
+                print(f"❌ Unexpected error: {e}")
+                # Create error status file
+                with open('data/last_update.txt', 'w') as f:
+                    f.write(f"Last attempted: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+                    f.write(f"Status: Error ❌\n")
+                    f.write(f"Error: {str(e)}\n")
+                    f.write(f"Next retry: In 15 minutes\n")
+                exit(1)
+        
+        if __name__ == "__main__":
+            main()
+        EOF
+        
+        # Run the Python script
+        python fetch_cricket.py
+        
+    - name: 📝 Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot 🏏"
+        
+        # Check if there are any changes
+        if [[ -n $(git status --porcelain) ]]; then
+          git add data/
+          git commit -m "🏏 Update cricket data - $(date '+%Y-%m-%d %H:%M:%S UTC') [15min schedule]"
+          git push
+          echo "✅ Data updated and committed"
+        else
+          echo "ℹ️ No changes to commit - data unchanged"
+        fi
+
+    - name: 📊 Update README with latest data
+      run: |
+        if [ -f "data/summary.json" ]; then
+          # Extract info from summary for README badge
+          TOTAL_MATCHES=$(python -c "import json; print(json.load(open('data/summary.json'))['total_matches'])")
+          LAST_UPDATE=$(python -c "import json; print(json.load(open('data/summary.json'))['last_updated'][:16].replace('T', ' '))")
+          
+          # Update README with badges and info
+          cat > README.md << EOF
+# 🏏 Cricket Data Filter
+
+![Matches](https://img.shields.io/badge/matches-${TOTAL_MATCHES}-blue)
+![Last Update](https://img.shields.io/badge/updated-$(date '+%H:%M')-green)
+![Update Frequency](https://img.shields.io/badge/updates-every%2015%20min-orange)
+![Status](https://img.shields.io/badge/status-active-success)
+
+## 🚀 Live Cricket Data
+
+Automated cricket data filtering for **Chelmsford CC** with **15-minute updates**.
+
+### 🔗 Links
+- **📊 Live Page:** [View Cricket Data](https://yourusername.github.io/your-repo-name)
+- **⚡ Updates:** Every 15 minutes automatically
+- **📈 Total Matches:** ${TOTAL_MATCHES}
+- **🕐 Last Update:** ${LAST_UPDATE}
+
+### 📋 Latest Matches
+
+| Date | Teams | Result | Status |
+|------|-------|---------|---------|
+EOF
+          
+          # Add latest matches to README
+          python -c "
+import json
+try:
+    data = json.load(open('data/summary.json'))
+    for match in data['latest_matches'][:5]:
+        home = match['home_team'][:20] + '...' if len(match['home_team']) > 20 else match['home_team']
+        away = match['away_team'][:20] + '...' if len(match['away_team']) > 20 else match['away_team']
+        result = match['result'][:30] + '...' if len(match['result']) > 30 else match['result']
+        print(f\"| {match['date']} | {home} vs {away} | {result} | {match['status']} |\")
+except:
+    print('| - | No matches available | - | - |')
+" >> README.md
+          
+          cat >> README.md << EOF
+
+### 🎯 Features
+- ✅ **15-minute updates** - Near real-time data
+- ✅ **Essential data only** - Match info, results, innings
+- ✅ **CORS-free** - Perfect for GitHub Pages
+- ✅ **Automatic commits** - No manual intervention
+- ✅ **Clean interface** - Easy to read and use
+
+### 📁 Data Files
+- \`data/cricket_data.json\` - Complete filtered match data
+- \`data/summary.json\` - Quick overview and latest matches  
+- \`data/raw_cricket_data.json\` - Original API response
+- \`data/last_update.txt\` - Status and timestamp info
+
+### ⚙️ Manual Update
+Trigger an immediate update:
+1. Go to **Actions** tab → **Fetch Cricket Data**
+2. Click **Run workflow** → **Run workflow**
+
+---
+*📡 Data source: Play Cricket API | 🤖 Powered by GitHub Actions*
+EOF
+          
+          # Only commit README if it changed
+          if ! git diff --quiet HEAD -- README.md 2>/dev/null; then
+            git add README.md
+            git commit -m "📊 Update README with latest stats [$(date '+%H:%M')]" 
+            git push
+            echo "✅ README updated"
+          else
+            echo "ℹ️ README unchanged"
+          fi
+        fi
+
+    - name: 🎯 Workflow Summary
+      run: |
+        echo "🏏 Cricket Data Workflow Completed"
+        echo "⏰ Schedule: Every 15 minutes"
+        echo "📊 Data files updated in data/ directory"
+        echo "🔗 Next run: In ~15 minutes"
+        if [ -f "data/summary.json" ]; then
+          TOTAL=$(python -c "import json; print(json.load(open('data/summary.json'))['total_matches'])")
+          echo "📈 Total matches processed: $TOTAL"
+        fi

@@ -140,29 +140,68 @@
       display: none;
     }
 
-    /* Mobile optimizations */
+    /* TV Display Optimizations - 65" Screen */
+    @media screen and (min-width: 1920px) {
+      .gms-table-fixtures {
+        font-size: clamp(32px, 4vw, 72px);
+      }
+      
+      .gms-table-fixtures th {
+        font-size: clamp(36px, 4.5vw, 76px);
+      }
+      
+      .gms-table-fixtures th,
+      .gms-table-fixtures td {
+        padding: clamp(20px, 3vw, 60px) clamp(25px, 4vw, 80px);
+      }
+    }
+
+    /* 4K TV Optimization */
+    @media screen and (min-width: 3840px) {
+      .gms-table-fixtures {
+        font-size: clamp(48px, 3vw, 96px);
+      }
+      
+      .gms-table-fixtures th {
+        font-size: clamp(52px, 3.5vw, 100px);
+      }
+      
+      .gms-table-fixtures th,
+      .gms-table-fixtures td {
+        padding: clamp(30px, 2.5vw, 80px) clamp(40px, 3vw, 100px);
+      }
+      
+      .refresh-indicator {
+        font-size: clamp(24px, 2vw, 48px);
+        padding: 12px 24px;
+      }
+    }
+
+    /* Mobile optimizations - kept for tablet/smaller displays */
     @media screen and (max-width: 768px) {
       body {
-        padding: 5px;
+        padding: 2px;
       }
 
       .gms-wrapper {
+        width: 100vw;
+        height: calc(100vh - 10px);
         border-radius: 4px;
-        margin-bottom: 70px;
+        margin: 2px 0;
       }
 
       .gms-table-fixtures {
-        min-width: 500px; /* Smaller minimum on mobile */
+        font-size: clamp(18px, 6vw, 36px);
       }
 
       .gms-table-fixtures th,
       .gms-table-fixtures td {
-        padding: 8px 6px;
+        padding: clamp(10px, 3vw, 30px) clamp(12px, 4vw, 35px);
       }
 
       .refresh-indicator {
-        font-size: 12px;
-        padding: 6px 10px;
+        font-size: clamp(14px, 4vw, 24px);
+        padding: 6px 12px;
         bottom: 5px;
         left: 5px;
       }
@@ -171,26 +210,51 @@
     /* Extra small screens */
     @media screen and (max-width: 480px) {
       .gms-table-fixtures {
-        min-width: 400px;
-        font-size: 11px;
+        font-size: clamp(16px, 7vw, 32px);
       }
 
       .gms-table-fixtures th,
       .gms-table-fixtures td {
-        padding: 6px 4px;
+        padding: clamp(8px, 2.5vw, 25px) clamp(10px, 3vw, 30px);
       }
 
       /* Allow text wrapping on very small screens */
       .gms-table-fixtures th,
       .gms-table-fixtures td {
         white-space: normal;
+        word-break: break-word;
       }
     }
 
     /* Large screens optimization */
     @media screen and (min-width: 1200px) {
       .gms-wrapper {
-        max-width: 1200px;
+        width: 99vw;
+        height: calc(99vh - 10px);
+      }
+      
+      .gms-table-fixtures {
+        font-size: clamp(28px, 4.5vw, 68px);
+      }
+      
+      .gms-table-fixtures th {
+        font-size: clamp(32px, 5vw, 72px);
+      }
+    }
+
+    /* Extra large screens */
+    @media screen and (min-width: 1600px) {
+      .gms-table-fixtures {
+        font-size: clamp(30px, 4vw, 70px);
+      }
+      
+      .gms-table-fixtures th {
+        font-size: clamp(34px, 4.5vw, 74px);
+      }
+      
+      .gms-table-fixtures th,
+      .gms-table-fixtures td {
+        padding: clamp(18px, 3vw, 65px) clamp(22px, 3.5vw, 75px);
       }
     }
 
@@ -198,12 +262,16 @@
     @media screen and (max-width: 768px) and (orientation: landscape) {
       body {
         justify-content: flex-start;
-        padding-top: 5px;
+        padding: 2px;
+      }
+      
+      .gms-wrapper {
+        height: calc(100vh - 5px);
       }
       
       .refresh-indicator {
         position: absolute;
-        bottom: 5px;
+        bottom: 2px;
       }
     }
 

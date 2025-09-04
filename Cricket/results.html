@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford Cricket Club - Recent Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .error {
+            background-color: #fee;
+            border: 1px solid #fcc;
+            color: #c66;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .match-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .match-date {
+            font-size: 14px;
+            color: #666;
+        }
+        .match-status {
+            font-weight: bold;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .status-completed {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status-cancelled {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .teams {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 15px 0;
+        }
+        .team {
+            text-align: center;
+        }
+        .team-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .score {
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .vs {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0 10px;
+            color: #666;
+            font-weight: bold;
+        }
+        .match-result {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Chelmsford Cricket Club</h1>
+        <p>Recent Match Results (Last 7 Days)</p>
+    </div>
+    
+    <div id="loading" class="loading">
+        Loading recent matches...
+    </div>
+    
+    <div id="error" class="error" style="display: none;"></div>
+    
+    <div id="results"></div>
+
+    <script>
+        const API_TOKEN = '8786d7c44061b7d624367d32177420e0';
+        const API_BASE = 'https://play-cricket.com/api/v2';
+        
+        // Calculate date 7 days ago
+        const sevenDaysAgo = new Date();
+        sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+        const fromDate = sevenDaysAgo.toISOString().split('T')[0];
+        
+        const today = new Date().toISOString().split('T')[0];
+        
+        async function fetchChelmsfordMatches() {
+            try {
+                // First, let's search for Chelmsford Cricket Club
+                const clubSearchUrl = `${API_BASE}/clubs?api_token=${API_TOKEN}&search=chelmsford`;
+                console.log('Searching for clubs:', clubSearchUrl);
+                
+                const clubResponse = await fetch(clubSearchUrl);
+                if (!clubResponse.ok) {
+                    throw new Error(`Club search failed: ${clubResponse.status}`);
+                }
+                
+                const clubData = await clubResponse.json();
+                console.log('Club search results:', clubData);
+                
+                if (!clubData.clubs || clubData.clubs.length === 0) {
+                    throw new Error('Chelmsford Cricket Club not found');
+                }
+                
+                // Find Chelmsford Cricket Club (look for exact or close match)
+                const chelmsfordClub = clubData.clubs.find(club => 
+                    club.name.toLowerCase().includes('chelmsford')
+                ) || clubData.clubs[0]; // Fallback to first result
+                
+                console.log('Selected club:', chelmsfordClub);
+                
+                // Now fetch matches for this club
+                const matchesUrl = `${API_BASE}/matches?api_token=${API_TOKEN}&club_id=${chelmsfordClub.id}&from_date=${fromDate}&to_date=${today}`;
+                console.log('Fetching matches:', matchesUrl);
+                
+                const matchResponse = await fetch(matchesUrl);
+                if (!matchResponse.ok) {
+                    throw new Error(`Matches fetch failed: ${matchResponse.status}`);
+                }
+                
+                const matchData = await matchResponse.json();
+                console.log('Match data:', matchData);
+                
+                displayMatches(matchData.matches || [], chelmsfordClub.name);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error loading matches: ${error.message}`;
+            }
+        }
+        
+        function displayMatches(matches, clubName) {
+            document.getElementById('loading').style.display = 'none';
+            const resultsDiv = document.getElementById('results');
+            
+            if (!matches || matches.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div class="no-results">
+                        No matches found for ${clubName} in the last 7 days
+                    </div>
+                `;
+                return;
+            }
+            
+            // Filter and sort matches by date (most recent first)
+            const sortedMatches = matches
+                .filter(match => match.status === 'Played' || match.result)
+                .sort((a, b) => new Date(b.match_date) - new Date(a.match_date));
+            
+            if (sortedMatches.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div class="no-results">
+                        No completed matches found for ${clubName} in the last 7 days
+                    </div>
+                `;
+                return;
+            }
+            
+            resultsDiv.innerHTML = sortedMatches.map(match => {
+                const matchDate = new Date(match.match_date).toLocaleDateString('en-GB');
+                const homeTeam = match.home_team || match.home_club_name || 'Home Team';
+                const awayTeam = match.away_team || match.away_club_name || 'Away Team';
+                
+                let statusClass = 'status-completed';
+                let statusText = 'Completed';
+                
+                if (match.status === 'Cancelled') {
+                    statusClass = 'status-cancelled';
+                    statusText = 'Cancelled';
+                }
+                
+                return `
+                    <div class="match-card">
+                        <div class="match-header">
+                            <div class="match-date">${matchDate}</div>
+                            <div class="match-status ${statusClass}">${statusText}</div>
+                        </div>
+                        
+                        <div class="teams" style="position: relative;">
+                            <div class="team">
+                                <div class="team-name">${homeTeam}</div>
+                                <div class="score">${match.home_score || 'N/A'}</div>
+                            </div>
+                            <div class="vs">vs</div>
+                            <div class="team">
+                                <div class="team-name">${awayTeam}</div>
+                                <div class="score">${match.away_score || 'N/A'}</div>
+                            </div>
+                        </div>
+                        
+                        ${match.result ? `<div class="match-result">${match.result}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Start loading matches
+        fetchChelmsfordMatches();
+    </script>
+</body>
+</html>

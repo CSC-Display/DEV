@@ -18423,7 +18423,7 @@
       "id": 7016713,
       "status": "New",
       "published": "Yes",
-      "last_updated": "27/08/2025",
+      "last_updated": "05/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -18467,8 +18467,8 @@
       "result_applied_to": "24293",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 50 minutes, 7 extras<br/>19.4 Chelmsford CC Sat 1st XI: 100 runs in 19.4 overs, 92 minutes, 9 extras<br/>34.7 Chelmsford CC Sat 1st XI: 150 runs in 34.4 overs, 151 minutes, 21 extras<br/>36.2 8th Wicket: 50 runs in 68 balls, 43 minutes, Brad Green 28 (37), Abubaker Rafiq 13 (31), 11 extras<br/>43.4 Chelmsford CC Sat 1st XI: 200 runs in 43.4 overs, 183 minutes, 23 extras<br/>44.5 Brad Green: 50 runs in 68 balls, 93 minutes (5x4)<br/>45.3 8th Wicket: 100 runs in 123 balls, 77 minutes, Brad Green 48 (61), Abubaker Rafiq 42 (62), 13 extras<br/>48.3 Louis Poynter: 5 wickets (8.2-1-31-5)\n<br/>\n<br/>\n<b>Hadleigh & Thundersley CC, Essex 1st XI Innings</b><br/>\n10.2 Hadleigh & Thundersley CC, Essex 1st XI: 50 runs in 10.2 overs, 45 minutes, 5 extras<br/>22.1 Hadleigh & Thundersley CC, Essex 1st XI: 100 runs in 22.1 overs, 90 minutes, 9 extras\n<br/>\n",
       "points": [
         {
@@ -18537,7 +18537,7 @@
       "id": 7017165,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/08/2025",
+      "last_updated": "05/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -18581,8 +18581,8 @@
       "result_applied_to": "21520",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n11.2 Chelmsford CC Sat 2nd XI: 50 runs in 11.2 overs, 57 minutes, 11 extras<br/>13.6 5th Wicket: 50 runs in 64 balls, 50 minutes, Sheraz Shahid 14 (30), Ben Lawrence 30 (34), 8 extras<br/>18.2 Ben Lawrence: 50 runs in 46 balls, 66 minutes (11x4)<br/>18.5 Chelmsford CC Sat 2nd XI: 100 runs in 18.5 overs, 89 minutes, 25 extras\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n6.1 1st Wicket: 50 runs in 37 balls, 24 minutes, Rod Martin 24 (22), Aryan Ahmed 19 (15), 9 extras<br/>6.1 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 6.1 overs, 24 minutes, 9 extras<br/>13.3 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 13.2 overs, 50 minutes, 16 extras<br/>16.4 2nd Wicket: 50 runs in 33 balls, 20 minutes, Aryan Ahmed 11 (10), Sulayman Tahir 40 (23), 1 extra<br/>17.4 Aryan Ahmed: 50 runs in 44 balls, 65 minutes (9x4)\n<br/>\n",
       "points": [
         {
@@ -18651,7 +18651,7 @@
       "id": 7017667,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/08/2025",
+      "last_updated": "05/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 11 - 3rd XI Division One",
@@ -18695,8 +18695,8 @@
       "result_applied_to": "23968",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -18765,7 +18765,7 @@
       "id": 7017759,
       "status": "New",
       "published": "Yes",
-      "last_updated": "23/08/2025",
+      "last_updated": "05/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 12 - 3rd XI Division Two",
@@ -18809,8 +18809,8 @@
       "result_applied_to": "12642",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -18879,7 +18879,7 @@
       "id": 7018296,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/08/2025",
+      "last_updated": "05/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 18 - 4th XI Division Two East",
@@ -18923,8 +18923,8 @@
       "result_applied_to": "45348",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {

@@ -1,7 +1,7 @@
 {
   "total_matches": 190,
-  "last_updated": "2025-09-06T09:52:41.279294",
-  "fetch_timestamp": "2025-09-06 09:52:41 UTC",
+  "last_updated": "2025-09-06T10:33:06.931236",
+  "fetch_timestamp": "2025-09-06 10:33:06 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -6858,9 +6858,18 @@
       "no_of_overs": "50",
       "season": "2025",
       "status": "New",
-      "last_updated": "05/09/2025",
-      "toss": "",
-      "innings": []
+      "last_updated": "06/09/2025",
+      "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "16619",
+          "innings_number": 1,
+          "runs": "6",
+          "wickets": "0",
+          "overs": "1.0",
+          "total_extras": "1"
+        }
+      ]
     }
   ]
 }

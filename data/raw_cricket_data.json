@@ -20355,7 +20355,7 @@
       "id": 7016721,
       "status": "New",
       "published": "Yes",
-      "last_updated": "05/09/2025",
+      "last_updated": "06/09/2025",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -20388,9 +20388,9 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "24293",
+      "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to field",
+      "batted_first": "16619",
       "no_of_overs": "50",
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -20422,7 +20422,28 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": []
+      "innings": [
+        {
+          "team_batting_id": "16619",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "1",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "1",
+          "runs": "6",
+          "wickets": "0",
+          "overs": "1.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "50.0",
+          "revised_target_balls": ""
+        }
+      ]
     }
   ]
 }

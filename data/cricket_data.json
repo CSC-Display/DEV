@@ -1,17 +1,17 @@
 {
-  "total_matches": 190,
-  "last_updated": "2025-09-06T11:21:53.240290",
-  "fetch_timestamp": "2025-09-06 11:21:53 UTC",
+  "total_matches": 191,
+  "last_updated": "2025-09-06T11:39:50.490105",
+  "fetch_timestamp": "2025-09-06 11:39:50 UTC",
   "matches": [
     {
-      "match_id": 7157908,
+      "match_id": 7157912,
       "match_date": "28/05/2024",
-      "home_club_name": "Bancroft Lions CC",
+      "home_club_name": "Great Totham CC",
       "away_club_name": "Chelmsford CC",
       "home_team_name": "Girls Under 13",
       "away_team_name": "Girls Under 13",
       "ground_name": "",
-      "result_description": "Bancroft Lions CC - Girls Under 13 - Won",
+      "result_description": "Great Totham CC - Girls Under 13 - Won",
       "competition_name": "Girls U13 ODS: Group A",
       "competition_type": "League",
       "match_type": "Limited Overs",
@@ -24,14 +24,14 @@
       "innings": []
     },
     {
-      "match_id": 7157912,
+      "match_id": 7157908,
       "match_date": "28/05/2024",
-      "home_club_name": "Great Totham CC",
+      "home_club_name": "Bancroft Lions CC",
       "away_club_name": "Chelmsford CC",
       "home_team_name": "Girls Under 13",
       "away_team_name": "Girls Under 13",
       "ground_name": "",
-      "result_description": "Great Totham CC - Girls Under 13 - Won",
+      "result_description": "Bancroft Lions CC - Girls Under 13 - Won",
       "competition_name": "Girls U13 ODS: Group A",
       "competition_type": "League",
       "match_type": "Limited Overs",
@@ -101,43 +101,6 @@
       ]
     },
     {
-      "match_id": 6670989,
-      "match_date": "19/04/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Bexley CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "2nd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Bexley CC - 2nd XI - Won",
-      "competition_name": "",
-      "competition_type": "Friendly",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "19/04/2025",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "7035",
-          "innings_number": 1,
-          "runs": "338",
-          "wickets": "1",
-          "overs": "50.0",
-          "total_extras": "44"
-        },
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "runs": "89",
-          "wickets": "10",
-          "overs": "23.5",
-          "total_extras": "27"
-        }
-      ]
-    },
-    {
       "match_id": 6670988,
       "match_date": "19/04/2025",
       "home_club_name": "Bexley CC",
@@ -171,6 +134,43 @@
           "wickets": "10",
           "overs": "42.1",
           "total_extras": "20"
+        }
+      ]
+    },
+    {
+      "match_id": 6670989,
+      "match_date": "19/04/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Bexley CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Bexley CC - 2nd XI - Won",
+      "competition_name": "",
+      "competition_type": "Friendly",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "19/04/2025",
+      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "7035",
+          "innings_number": 1,
+          "runs": "338",
+          "wickets": "1",
+          "overs": "50.0",
+          "total_extras": "44"
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "89",
+          "wickets": "10",
+          "overs": "23.5",
+          "total_extras": "27"
         }
       ]
     },
@@ -434,43 +434,6 @@
       ]
     },
     {
-      "match_id": 6738116,
-      "match_date": "03/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Harold Wood CC",
-      "home_team_name": "Sat 4th XI",
-      "away_team_name": "4th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 4th XI - Won",
-      "competition_name": "",
-      "competition_type": "Friendly",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "31/05/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "19020",
-          "innings_number": 1,
-          "runs": "119",
-          "wickets": "10",
-          "overs": "28.3",
-          "total_extras": "26"
-        },
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "120",
-          "wickets": "8",
-          "overs": "",
-          "total_extras": ""
-        }
-      ]
-    },
-    {
       "match_id": 7113731,
       "match_date": "03/05/2025",
       "home_club_name": "Ilford CC",
@@ -508,14 +471,14 @@
       ]
     },
     {
-      "match_id": 7057940,
-      "match_date": "04/05/2025",
+      "match_id": 6738116,
+      "match_date": "03/05/2025",
       "home_club_name": "Chelmsford CC",
-      "away_club_name": "Hutton CC",
-      "home_team_name": "Girls Under 13",
-      "away_team_name": "U13 Girls",
+      "away_club_name": "Harold Wood CC",
+      "home_team_name": "Sat 4th XI",
+      "away_team_name": "4th XI",
       "ground_name": "Chelmer Park",
-      "result_description": "Hutton CC - U13 Girls - Won",
+      "result_description": "Chelmsford CC - Sat 4th XI - Won",
       "competition_name": "",
       "competition_type": "Friendly",
       "match_type": "Limited Overs",
@@ -523,24 +486,24 @@
       "no_of_overs": "",
       "season": "2025",
       "status": "New",
-      "last_updated": "09/06/2025",
-      "toss": "Chelmsford CC - Girls Under 13 won the toss and elected to bat",
+      "last_updated": "31/05/2025",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "184437",
+          "team_batting_id": "19020",
           "innings_number": 1,
-          "runs": "65",
-          "wickets": "9",
-          "overs": "14.3",
-          "total_extras": "16"
+          "runs": "119",
+          "wickets": "10",
+          "overs": "28.3",
+          "total_extras": "26"
         },
         {
-          "team_batting_id": "169403",
+          "team_batting_id": "30461",
           "innings_number": 1,
-          "runs": "66",
-          "wickets": "1",
-          "overs": "8.5",
-          "total_extras": "19"
+          "runs": "120",
+          "wickets": "8",
+          "overs": "",
+          "total_extras": ""
         }
       ]
     },
@@ -578,6 +541,43 @@
           "wickets": "3",
           "overs": "20.0",
           "total_extras": "26"
+        }
+      ]
+    },
+    {
+      "match_id": 7057940,
+      "match_date": "04/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Hutton CC",
+      "home_team_name": "Girls Under 13",
+      "away_team_name": "U13 Girls",
+      "ground_name": "Chelmer Park",
+      "result_description": "Hutton CC - U13 Girls - Won",
+      "competition_name": "",
+      "competition_type": "Friendly",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "09/06/2025",
+      "toss": "Chelmsford CC - Girls Under 13 won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "184437",
+          "innings_number": 1,
+          "runs": "65",
+          "wickets": "9",
+          "overs": "14.3",
+          "total_extras": "16"
+        },
+        {
+          "team_batting_id": "169403",
+          "innings_number": 1,
+          "runs": "66",
+          "wickets": "1",
+          "overs": "8.5",
+          "total_extras": "19"
         }
       ]
     },
@@ -730,80 +730,6 @@
       ]
     },
     {
-      "match_id": 7016639,
-      "match_date": "10/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Wanstead & Snaresbrook CC",
-      "home_team_name": "Sat 1st XI",
-      "away_team_name": "1st XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Wanstead & Snaresbrook CC - 1st XI - Overs Win",
-      "competition_name": "Division 01 - 1st XI Premier Division",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "50",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Wanstead & Snaresbrook CC - 1st XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "24293",
-          "innings_number": 1,
-          "runs": "200",
-          "wickets": "8",
-          "overs": "50",
-          "total_extras": "3"
-        },
-        {
-          "team_batting_id": "17709",
-          "innings_number": 1,
-          "runs": "202",
-          "wickets": "8",
-          "overs": "49.2",
-          "total_extras": "17"
-        }
-      ]
-    },
-    {
-      "match_id": 7018220,
-      "match_date": "10/05/2025",
-      "home_club_name": "Hadleigh & Thundersley CC, Essex",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "4th XI",
-      "away_team_name": "Sat 5th XI",
-      "ground_name": "John Burrows Recreation Ground",
-      "result_description": "Hadleigh & Thundersley CC, Essex - 4th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 5th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "22637",
-          "innings_number": 1,
-          "runs": "188",
-          "wickets": "10",
-          "overs": "40",
-          "total_extras": "37"
-        },
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "170",
-          "wickets": "10",
-          "overs": "34.1",
-          "total_extras": "24"
-        }
-      ]
-    },
-    {
       "match_id": 7017680,
       "match_date": "10/05/2025",
       "home_club_name": "Old Southendian & Southchurch CC",
@@ -837,6 +763,43 @@
           "wickets": "3",
           "overs": "19",
           "total_extras": "9"
+        }
+      ]
+    },
+    {
+      "match_id": 7016639,
+      "match_date": "10/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Wanstead & Snaresbrook CC",
+      "home_team_name": "Sat 1st XI",
+      "away_team_name": "1st XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Wanstead & Snaresbrook CC - 1st XI - Overs Win",
+      "competition_name": "Division 01 - 1st XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "50",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Wanstead & Snaresbrook CC - 1st XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24293",
+          "innings_number": 1,
+          "runs": "200",
+          "wickets": "8",
+          "overs": "50",
+          "total_extras": "3"
+        },
+        {
+          "team_batting_id": "17709",
+          "innings_number": 1,
+          "runs": "202",
+          "wickets": "8",
+          "overs": "49.2",
+          "total_extras": "17"
         }
       ]
     },
@@ -878,6 +841,43 @@
       ]
     },
     {
+      "match_id": 7018220,
+      "match_date": "10/05/2025",
+      "home_club_name": "Hadleigh & Thundersley CC, Essex",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "4th XI",
+      "away_team_name": "Sat 5th XI",
+      "ground_name": "John Burrows Recreation Ground",
+      "result_description": "Hadleigh & Thundersley CC, Essex - 4th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Chelmsford CC - Sat 5th XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "22637",
+          "innings_number": 1,
+          "runs": "188",
+          "wickets": "10",
+          "overs": "40",
+          "total_extras": "37"
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "170",
+          "wickets": "10",
+          "overs": "34.1",
+          "total_extras": "24"
+        }
+      ]
+    },
+    {
       "match_id": 7048924,
       "match_date": "11/05/2025",
       "home_club_name": "Great Waltham CC",
@@ -915,43 +915,6 @@
       ]
     },
     {
-      "match_id": 6816376,
-      "match_date": "11/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Tendring CC",
-      "home_team_name": "NECL 1st XI",
-      "away_team_name": "Sunday 1st XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Tendring CC - Sunday 1st XI - Conceded",
-      "competition_name": "Sunday League Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "16/05/2025",
-      "toss": "",
-      "innings": [
-        {
-          "team_batting_id": "324716",
-          "innings_number": 1,
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "total_extras": ""
-        },
-        {
-          "team_batting_id": "348731",
-          "innings_number": 1,
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "total_extras": ""
-        }
-      ]
-    },
-    {
       "match_id": 7114304,
       "match_date": "11/05/2025",
       "home_club_name": "Chelmsford CC",
@@ -985,6 +948,43 @@
           "wickets": "2",
           "overs": "20.5",
           "total_extras": "8"
+        }
+      ]
+    },
+    {
+      "match_id": 6816376,
+      "match_date": "11/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Tendring CC",
+      "home_team_name": "NECL 1st XI",
+      "away_team_name": "Sunday 1st XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Tendring CC - Sunday 1st XI - Conceded",
+      "competition_name": "Sunday League Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "16/05/2025",
+      "toss": "",
+      "innings": [
+        {
+          "team_batting_id": "324716",
+          "innings_number": 1,
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "total_extras": ""
+        },
+        {
+          "team_batting_id": "348731",
+          "innings_number": 1,
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "total_extras": ""
         }
       ]
     },
@@ -1063,6 +1063,43 @@
       ]
     },
     {
+      "match_id": 7017597,
+      "match_date": "17/05/2025",
+      "home_club_name": "Billericay CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "Billericay CC",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Billericay CC - 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "193",
+          "wickets": "10",
+          "overs": "44.2",
+          "total_extras": "12"
+        },
+        {
+          "team_batting_id": "98809",
+          "innings_number": 1,
+          "runs": "132",
+          "wickets": "10",
+          "overs": "35.3",
+          "total_extras": "26"
+        }
+      ]
+    },
+    {
       "match_id": 7018228,
       "match_date": "17/05/2025",
       "home_club_name": "Orsett & Thurrock CC",
@@ -1137,80 +1174,6 @@
       ]
     },
     {
-      "match_id": 7017095,
-      "match_date": "17/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Hornchurch CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "2nd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Hornchurch CC - 2nd XI - Overs Win",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "runs": "230",
-          "wickets": "9",
-          "overs": "45.0",
-          "total_extras": "34"
-        },
-        {
-          "team_batting_id": "37538",
-          "innings_number": 1,
-          "runs": "231",
-          "wickets": "8",
-          "overs": "44.2",
-          "total_extras": "21"
-        }
-      ]
-    },
-    {
-      "match_id": 7017597,
-      "match_date": "17/05/2025",
-      "home_club_name": "Billericay CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "Billericay CC",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Billericay CC - 3rd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "193",
-          "wickets": "10",
-          "overs": "44.2",
-          "total_extras": "12"
-        },
-        {
-          "team_batting_id": "98809",
-          "innings_number": 1,
-          "runs": "132",
-          "wickets": "10",
-          "overs": "35.3",
-          "total_extras": "26"
-        }
-      ]
-    },
-    {
       "match_id": 7016645,
       "match_date": "17/05/2025",
       "home_club_name": "Colchester and East Essex CC",
@@ -1244,6 +1207,43 @@
           "wickets": "10",
           "overs": "48.2",
           "total_extras": "9"
+        }
+      ]
+    },
+    {
+      "match_id": 7017095,
+      "match_date": "17/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Hornchurch CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Hornchurch CC - 2nd XI - Overs Win",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "230",
+          "wickets": "9",
+          "overs": "45.0",
+          "total_extras": "34"
+        },
+        {
+          "team_batting_id": "37538",
+          "innings_number": 1,
+          "runs": "231",
+          "wickets": "8",
+          "overs": "44.2",
+          "total_extras": "21"
         }
       ]
     },
@@ -1359,43 +1359,6 @@
       ]
     },
     {
-      "match_id": 7048919,
-      "match_date": "21/05/2025",
-      "home_club_name": "Great Baddow CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "Under 11 Kites",
-      "away_team_name": "U11 Centurions",
-      "ground_name": "Great Baddow Recreation Ground",
-      "result_description": "Great Baddow CC - Under 11 Kites - Won",
-      "competition_name": "Under 11 - Division 2 East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Pairs",
-      "no_of_overs": "20",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "22/05/2025",
-      "toss": "Chelmsford CC - U11 Centurions won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "112124",
-          "innings_number": 1,
-          "runs": "131",
-          "wickets": "2",
-          "overs": "16.0",
-          "total_extras": "39"
-        },
-        {
-          "team_batting_id": "332855",
-          "innings_number": 1,
-          "runs": "83",
-          "wickets": "9",
-          "overs": "16.0",
-          "total_extras": "34"
-        }
-      ]
-    },
-    {
       "match_id": 6870931,
       "match_date": "21/05/2025",
       "home_club_name": "Chelmsford CC",
@@ -1429,6 +1392,43 @@
           "wickets": "7",
           "overs": "20",
           "total_extras": "27"
+        }
+      ]
+    },
+    {
+      "match_id": 7048919,
+      "match_date": "21/05/2025",
+      "home_club_name": "Great Baddow CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "Under 11 Kites",
+      "away_team_name": "U11 Centurions",
+      "ground_name": "Great Baddow Recreation Ground",
+      "result_description": "Great Baddow CC - Under 11 Kites - Won",
+      "competition_name": "Under 11 - Division 2 East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Pairs",
+      "no_of_overs": "20",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "22/05/2025",
+      "toss": "Chelmsford CC - U11 Centurions won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "112124",
+          "innings_number": 1,
+          "runs": "131",
+          "wickets": "2",
+          "overs": "16.0",
+          "total_extras": "39"
+        },
+        {
+          "team_batting_id": "332855",
+          "innings_number": 1,
+          "runs": "83",
+          "wickets": "9",
+          "overs": "16.0",
+          "total_extras": "34"
         }
       ]
     },
@@ -1507,80 +1507,6 @@
       ]
     },
     {
-      "match_id": 7017100,
-      "match_date": "24/05/2025",
-      "home_club_name": "Billericay CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "2nd XI",
-      "away_team_name": "Sat 2nd XI",
-      "ground_name": "Billericay CC",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Billericay CC - 2nd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "runs": "238",
-          "wickets": "10",
-          "overs": "44.0",
-          "total_extras": "20"
-        },
-        {
-          "team_batting_id": "98793",
-          "innings_number": 1,
-          "runs": "157",
-          "wickets": "7",
-          "overs": "45.0",
-          "total_extras": "24"
-        }
-      ]
-    },
-    {
-      "match_id": 7018234,
-      "match_date": "24/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Hadleigh & Thundersley CC, Essex",
-      "home_team_name": "Sat 5th XI",
-      "away_team_name": "4th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Hadleigh & Thundersley CC, Essex - 4th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "301",
-          "wickets": "4",
-          "overs": "40",
-          "total_extras": "30"
-        },
-        {
-          "team_batting_id": "22637",
-          "innings_number": 1,
-          "runs": "103",
-          "wickets": "10",
-          "overs": "35.2",
-          "total_extras": "13"
-        }
-      ]
-    },
-    {
       "match_id": 7017600,
       "match_date": "24/05/2025",
       "home_club_name": "Oakfield Parkonians CC, Essex",
@@ -1655,6 +1581,100 @@
       ]
     },
     {
+      "match_id": 7017100,
+      "match_date": "24/05/2025",
+      "home_club_name": "Billericay CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "2nd XI",
+      "away_team_name": "Sat 2nd XI",
+      "ground_name": "Billericay CC",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Billericay CC - 2nd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "238",
+          "wickets": "10",
+          "overs": "44.0",
+          "total_extras": "20"
+        },
+        {
+          "team_batting_id": "98793",
+          "innings_number": 1,
+          "runs": "157",
+          "wickets": "7",
+          "overs": "45.0",
+          "total_extras": "24"
+        }
+      ]
+    },
+    {
+      "match_id": 7018234,
+      "match_date": "24/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Hadleigh & Thundersley CC, Essex",
+      "home_team_name": "Sat 5th XI",
+      "away_team_name": "4th XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Hadleigh & Thundersley CC, Essex - 4th XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "301",
+          "wickets": "4",
+          "overs": "40",
+          "total_extras": "30"
+        },
+        {
+          "team_batting_id": "22637",
+          "innings_number": 1,
+          "runs": "103",
+          "wickets": "10",
+          "overs": "35.2",
+          "total_extras": "13"
+        }
+      ]
+    },
+    {
+      "match_id": 6945750,
+      "match_date": "25/05/2025",
+      "home_club_name": "Upminster CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "U14 Ultras",
+      "away_team_name": "Under 14",
+      "ground_name": "Upminster Park",
+      "result_description": "Chelmsford CC - Under 14 - Conceded",
+      "competition_name": "Sir Alastair Cook U14s T20 G4",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "20",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "25/05/2025",
+      "toss": "",
+      "innings": []
+    },
+    {
       "match_id": 7048592,
       "match_date": "25/05/2025",
       "home_club_name": "Upminster CC",
@@ -1690,26 +1710,6 @@
           "total_extras": "15"
         }
       ]
-    },
-    {
-      "match_id": 6945750,
-      "match_date": "25/05/2025",
-      "home_club_name": "Upminster CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "U14 Ultras",
-      "away_team_name": "Under 14",
-      "ground_name": "Upminster Park",
-      "result_description": "Chelmsford CC - Under 14 - Conceded",
-      "competition_name": "Sir Alastair Cook U14s T20 G4",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "20",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "25/05/2025",
-      "toss": "",
-      "innings": []
     },
     {
       "match_id": 6941078,
@@ -1843,6 +1843,117 @@
       "innings": []
     },
     {
+      "match_id": 7017105,
+      "match_date": "31/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Ilford CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "28636",
+          "innings_number": 1,
+          "runs": "242",
+          "wickets": "7",
+          "overs": "45.0",
+          "total_extras": "29"
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "243",
+          "wickets": "4",
+          "overs": "42.4",
+          "total_extras": "53"
+        }
+      ]
+    },
+    {
+      "match_id": 7017696,
+      "match_date": "31/05/2025",
+      "home_club_name": "Benfleet CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 4th XI",
+      "ground_name": "Woodside Park",
+      "result_description": "Benfleet CC - 3rd XI - Overs Win",
+      "competition_name": "Division 12 - 3rd XI Division Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "27385",
+          "innings_number": 1,
+          "runs": "241",
+          "wickets": "9",
+          "overs": "45",
+          "total_extras": "16"
+        },
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "runs": "107",
+          "wickets": "10",
+          "overs": "25.2",
+          "total_extras": "23"
+        }
+      ]
+    },
+    {
+      "match_id": 7017608,
+      "match_date": "31/05/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Orsett & Thurrock CC",
+      "home_team_name": "Sat 3rd XI",
+      "away_team_name": "3rd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "241",
+          "wickets": "7",
+          "overs": "45.0",
+          "total_extras": "13"
+        },
+        {
+          "team_batting_id": "198989",
+          "innings_number": 1,
+          "runs": "200",
+          "wickets": "9",
+          "overs": "45.0",
+          "total_extras": "15"
+        }
+      ]
+    },
+    {
       "match_id": 7016651,
       "match_date": "31/05/2025",
       "home_club_name": "Hutton CC",
@@ -1913,117 +2024,6 @@
           "wickets": "10",
           "overs": "28.5",
           "total_extras": "17"
-        }
-      ]
-    },
-    {
-      "match_id": 7017608,
-      "match_date": "31/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Orsett & Thurrock CC",
-      "home_team_name": "Sat 3rd XI",
-      "away_team_name": "3rd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "241",
-          "wickets": "7",
-          "overs": "45.0",
-          "total_extras": "13"
-        },
-        {
-          "team_batting_id": "198989",
-          "innings_number": 1,
-          "runs": "200",
-          "wickets": "9",
-          "overs": "45.0",
-          "total_extras": "15"
-        }
-      ]
-    },
-    {
-      "match_id": 7017696,
-      "match_date": "31/05/2025",
-      "home_club_name": "Benfleet CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 4th XI",
-      "ground_name": "Woodside Park",
-      "result_description": "Benfleet CC - 3rd XI - Overs Win",
-      "competition_name": "Division 12 - 3rd XI Division Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "27385",
-          "innings_number": 1,
-          "runs": "241",
-          "wickets": "9",
-          "overs": "45",
-          "total_extras": "16"
-        },
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "107",
-          "wickets": "10",
-          "overs": "25.2",
-          "total_extras": "23"
-        }
-      ]
-    },
-    {
-      "match_id": 7017105,
-      "match_date": "31/05/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Ilford CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "2nd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "28636",
-          "innings_number": 1,
-          "runs": "242",
-          "wickets": "7",
-          "overs": "45.0",
-          "total_extras": "29"
-        },
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "runs": "243",
-          "wickets": "4",
-          "overs": "42.4",
-          "total_extras": "53"
         }
       ]
     },
@@ -2176,15 +2176,15 @@
       ]
     },
     {
-      "match_id": 7017110,
+      "match_id": 7017614,
       "match_date": "07/06/2025",
       "home_club_name": "Chelmsford CC",
-      "away_club_name": "Harold Wood CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "2nd XI",
+      "away_club_name": "Upminster CC",
+      "home_team_name": "Sat 3rd XI",
+      "away_team_name": "Men's 4th XI",
       "ground_name": "Chelmer Park",
-      "result_description": "Abandoned",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+      "competition_name": "Division 11 - 3rd XI Division One",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -2192,22 +2192,22 @@
       "season": "2025",
       "status": "New",
       "last_updated": "05/07/2025",
-      "toss": "Harold Wood CC - 2nd XI won the toss and elected to field",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "24294",
+          "team_batting_id": "16612",
           "innings_number": 1,
-          "runs": "165",
-          "wickets": "6",
-          "overs": "45",
-          "total_extras": "25"
+          "runs": "182",
+          "wickets": "5",
+          "overs": "45.0",
+          "total_extras": "19"
         },
         {
-          "team_batting_id": "19018",
+          "team_batting_id": "24295",
           "innings_number": 1,
-          "runs": "51",
+          "runs": "92",
           "wickets": "3",
-          "overs": "12.5",
+          "overs": "21.3",
           "total_extras": "8"
         }
       ]
@@ -2287,6 +2287,43 @@
       ]
     },
     {
+      "match_id": 7017110,
+      "match_date": "07/06/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Harold Wood CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Abandoned",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Harold Wood CC - 2nd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "165",
+          "wickets": "6",
+          "overs": "45",
+          "total_extras": "25"
+        },
+        {
+          "team_batting_id": "19018",
+          "innings_number": 1,
+          "runs": "51",
+          "wickets": "3",
+          "overs": "12.5",
+          "total_extras": "8"
+        }
+      ]
+    },
+    {
       "match_id": 7017703,
       "match_date": "07/06/2025",
       "home_club_name": "South Woodford CC",
@@ -2324,39 +2361,39 @@
       ]
     },
     {
-      "match_id": 7017614,
-      "match_date": "07/06/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Upminster CC",
-      "home_team_name": "Sat 3rd XI",
-      "away_team_name": "Men's 4th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
-      "competition_name": "Division 11 - 3rd XI Division One",
+      "match_id": 6945742,
+      "match_date": "08/06/2025",
+      "home_club_name": "Bentley CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "Under 14",
+      "away_team_name": "Under 14",
+      "ground_name": "Coxtie Green",
+      "result_description": "Bentley CC - Under 14 - Won",
+      "competition_name": "Sir Alastair Cook U14s T20 G4",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
-      "no_of_overs": "45",
+      "no_of_overs": "20",
       "season": "2025",
       "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "last_updated": "08/06/2025",
+      "toss": "Chelmsford CC - Under 14 won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "16612",
+          "team_batting_id": "383657",
           "innings_number": 1,
-          "runs": "182",
-          "wickets": "5",
-          "overs": "45.0",
-          "total_extras": "19"
+          "runs": "118",
+          "wickets": "8",
+          "overs": "20.0",
+          "total_extras": "21"
         },
         {
-          "team_batting_id": "24295",
+          "team_batting_id": "310195",
           "innings_number": 1,
-          "runs": "92",
-          "wickets": "3",
-          "overs": "21.3",
-          "total_extras": "8"
+          "runs": "99",
+          "wickets": "7",
+          "overs": "20.0",
+          "total_extras": "16"
         }
       ]
     },
@@ -2394,43 +2431,6 @@
           "wickets": "6",
           "overs": "20",
           "total_extras": "58"
-        }
-      ]
-    },
-    {
-      "match_id": 6945742,
-      "match_date": "08/06/2025",
-      "home_club_name": "Bentley CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "Under 14",
-      "away_team_name": "Under 14",
-      "ground_name": "Coxtie Green",
-      "result_description": "Bentley CC - Under 14 - Won",
-      "competition_name": "Sir Alastair Cook U14s T20 G4",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "20",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "08/06/2025",
-      "toss": "Chelmsford CC - Under 14 won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "383657",
-          "innings_number": 1,
-          "runs": "118",
-          "wickets": "8",
-          "overs": "20.0",
-          "total_extras": "21"
-        },
-        {
-          "team_batting_id": "310195",
-          "innings_number": 1,
-          "runs": "99",
-          "wickets": "7",
-          "overs": "20.0",
-          "total_extras": "16"
         }
       ]
     },
@@ -2620,43 +2620,6 @@
       ]
     },
     {
-      "match_id": 7018249,
-      "match_date": "14/06/2025",
-      "home_club_name": "Billericay CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "6th XI",
-      "away_team_name": "Sat 5th XI",
-      "ground_name": "Lake Meadows Park",
-      "result_description": "Billericay CC - 6th XI - Conceded",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "",
-      "innings": [
-        {
-          "team_batting_id": "318025",
-          "innings_number": 1,
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "total_extras": ""
-        },
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "total_extras": ""
-        }
-      ]
-    },
-    {
       "match_id": 7017113,
       "match_date": "14/06/2025",
       "home_club_name": "Wanstead & Snaresbrook CC",
@@ -2690,6 +2653,43 @@
           "wickets": "7",
           "overs": "48.5",
           "total_extras": "21"
+        }
+      ]
+    },
+    {
+      "match_id": 7018249,
+      "match_date": "14/06/2025",
+      "home_club_name": "Billericay CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "6th XI",
+      "away_team_name": "Sat 5th XI",
+      "ground_name": "Lake Meadows Park",
+      "result_description": "Billericay CC - 6th XI - Conceded",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "",
+      "innings": [
+        {
+          "team_batting_id": "318025",
+          "innings_number": 1,
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "total_extras": ""
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "total_extras": ""
         }
       ]
     },
@@ -2990,43 +2990,6 @@
       ]
     },
     {
-      "match_id": 7017714,
-      "match_date": "21/06/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Brentwood CC",
-      "home_team_name": "Sat 4th XI",
-      "away_team_name": "4th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Brentwood CC - 4th XI - Time Win (bat 2nd)",
-      "competition_name": "Division 12 - 3rd XI Division Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/07/2025",
-      "toss": "Brentwood CC - 4th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "290",
-          "wickets": "8",
-          "overs": "50.0",
-          "total_extras": "16"
-        },
-        {
-          "team_batting_id": "21681",
-          "innings_number": 1,
-          "runs": "293",
-          "wickets": "5",
-          "overs": "41.5",
-          "total_extras": "20"
-        }
-      ]
-    },
-    {
       "match_id": 7017120,
       "match_date": "21/06/2025",
       "home_club_name": "Chelmsford CC",
@@ -3059,6 +3022,43 @@
           "runs": "165",
           "wickets": "10",
           "overs": "35.4",
+          "total_extras": "20"
+        }
+      ]
+    },
+    {
+      "match_id": 7017714,
+      "match_date": "21/06/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Brentwood CC",
+      "home_team_name": "Sat 4th XI",
+      "away_team_name": "4th XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Brentwood CC - 4th XI - Time Win (bat 2nd)",
+      "competition_name": "Division 12 - 3rd XI Division Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/07/2025",
+      "toss": "Brentwood CC - 4th XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "runs": "290",
+          "wickets": "8",
+          "overs": "50.0",
+          "total_extras": "16"
+        },
+        {
+          "team_batting_id": "21681",
+          "innings_number": 1,
+          "runs": "293",
+          "wickets": "5",
+          "overs": "41.5",
           "total_extras": "20"
         }
       ]
@@ -3397,43 +3397,6 @@
       ]
     },
     {
-      "match_id": 6870927,
-      "match_date": "26/06/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Billericay CC",
-      "home_team_name": "Girls Under 15",
-      "away_team_name": "Girls Under 15",
-      "ground_name": "Chelmer Park",
-      "result_description": "Billericay CC - Girls Under 15 - Won",
-      "competition_name": "Girls U15 CDC: East Group",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "20",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "29/06/2025",
-      "toss": "Billericay CC - Girls Under 15 won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "280021",
-          "innings_number": 1,
-          "runs": "227",
-          "wickets": "3",
-          "overs": "20.0",
-          "total_extras": "58"
-        },
-        {
-          "team_batting_id": "192205",
-          "innings_number": 1,
-          "runs": "70",
-          "wickets": "8",
-          "overs": "16.2",
-          "total_extras": "23"
-        }
-      ]
-    },
-    {
       "match_id": 6945746,
       "match_date": "26/06/2025",
       "home_club_name": "Chelmsford CC",
@@ -3467,6 +3430,43 @@
           "wickets": "8",
           "overs": "20.0",
           "total_extras": "24"
+        }
+      ]
+    },
+    {
+      "match_id": 6870927,
+      "match_date": "26/06/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Billericay CC",
+      "home_team_name": "Girls Under 15",
+      "away_team_name": "Girls Under 15",
+      "ground_name": "Chelmer Park",
+      "result_description": "Billericay CC - Girls Under 15 - Won",
+      "competition_name": "Girls U15 CDC: East Group",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "20",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "29/06/2025",
+      "toss": "Billericay CC - Girls Under 15 won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "280021",
+          "innings_number": 1,
+          "runs": "227",
+          "wickets": "3",
+          "overs": "20.0",
+          "total_extras": "58"
+        },
+        {
+          "team_batting_id": "192205",
+          "innings_number": 1,
+          "runs": "70",
+          "wickets": "8",
+          "overs": "16.2",
+          "total_extras": "23"
         }
       ]
     },
@@ -3545,39 +3545,39 @@
       ]
     },
     {
-      "match_id": 7017629,
+      "match_id": 7018259,
       "match_date": "28/06/2025",
       "home_club_name": "Chelmsford CC",
-      "away_club_name": "Gidea Park & Romford CC",
-      "home_team_name": "Sat 3rd XI",
-      "away_team_name": "3rd XI",
+      "away_club_name": "Old Southendian & Southchurch CC",
+      "home_team_name": "Sat 5th XI",
+      "away_team_name": "5th XI",
       "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
-      "competition_name": "Division 11 - 3rd XI Division One",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
-      "no_of_overs": 0,
+      "no_of_overs": "40",
       "season": "2025",
       "status": "New",
       "last_updated": "05/07/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "toss": "Old Southendian & Southchurch CC - 5th XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "23968",
+          "team_batting_id": "45348",
           "innings_number": 1,
-          "runs": "180",
-          "wickets": "10",
-          "overs": "48.2",
-          "total_extras": "15"
+          "runs": "236",
+          "wickets": "3",
+          "overs": "40.0",
+          "total_extras": "27"
         },
         {
-          "team_batting_id": "24295",
+          "team_batting_id": "134369",
           "innings_number": 1,
           "runs": "184",
-          "wickets": "3",
-          "overs": "29.4",
-          "total_extras": "8"
+          "wickets": "9",
+          "overs": "40.0",
+          "total_extras": "25"
         }
       ]
     },
@@ -3656,39 +3656,39 @@
       ]
     },
     {
-      "match_id": 7018259,
+      "match_id": 7017629,
       "match_date": "28/06/2025",
       "home_club_name": "Chelmsford CC",
-      "away_club_name": "Old Southendian & Southchurch CC",
-      "home_team_name": "Sat 5th XI",
-      "away_team_name": "5th XI",
+      "away_club_name": "Gidea Park & Romford CC",
+      "home_team_name": "Sat 3rd XI",
+      "away_team_name": "3rd XI",
       "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
+      "competition_name": "Division 11 - 3rd XI Division One",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
-      "no_of_overs": "40",
+      "no_of_overs": 0,
       "season": "2025",
       "status": "New",
       "last_updated": "05/07/2025",
-      "toss": "Old Southendian & Southchurch CC - 5th XI won the toss and elected to field",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "45348",
+          "team_batting_id": "23968",
           "innings_number": 1,
-          "runs": "236",
-          "wickets": "3",
-          "overs": "40.0",
-          "total_extras": "27"
+          "runs": "180",
+          "wickets": "10",
+          "overs": "48.2",
+          "total_extras": "15"
         },
         {
-          "team_batting_id": "134369",
+          "team_batting_id": "24295",
           "innings_number": 1,
           "runs": "184",
-          "wickets": "9",
-          "overs": "40.0",
-          "total_extras": "25"
+          "wickets": "3",
+          "overs": "29.4",
+          "total_extras": "8"
         }
       ]
     },
@@ -3989,6 +3989,43 @@
       ]
     },
     {
+      "match_id": 7017634,
+      "match_date": "05/07/2025",
+      "home_club_name": "Buckhurst Hill CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "Saturday 3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "High Road Ground",
+      "result_description": "Buckhurst Hill CC - Saturday 3rd XI - Time Win (bat 1st)",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "22/07/2025",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "28277",
+          "innings_number": 1,
+          "runs": "264",
+          "wickets": "8",
+          "overs": "50.0",
+          "total_extras": "10"
+        },
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "239",
+          "wickets": "10",
+          "overs": "44.5",
+          "total_extras": "12"
+        }
+      ]
+    },
+    {
       "match_id": 7018263,
       "match_date": "05/07/2025",
       "home_club_name": "Chelmsford CC",
@@ -4096,43 +4133,6 @@
           "wickets": "10",
           "overs": "26.1",
           "total_extras": "10"
-        }
-      ]
-    },
-    {
-      "match_id": 7017634,
-      "match_date": "05/07/2025",
-      "home_club_name": "Buckhurst Hill CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "Saturday 3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "High Road Ground",
-      "result_description": "Buckhurst Hill CC - Saturday 3rd XI - Time Win (bat 1st)",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "22/07/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "28277",
-          "innings_number": 1,
-          "runs": "264",
-          "wickets": "8",
-          "overs": "50.0",
-          "total_extras": "10"
-        },
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "239",
-          "wickets": "10",
-          "overs": "44.5",
-          "total_extras": "12"
         }
       ]
     },
@@ -4359,15 +4359,15 @@
       ]
     },
     {
-      "match_id": 7017135,
+      "match_id": 7017635,
       "match_date": "12/07/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Woodford Wells CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "2nd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "home_club_name": "Wanstead & Snaresbrook CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "Nutter Lane",
+      "result_description": "Wanstead & Snaresbrook CC - 3rd XI - Time Win (bat 2nd)",
+      "competition_name": "Division 11 - 3rd XI Division One",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -4375,60 +4375,23 @@
       "season": "2025",
       "status": "New",
       "last_updated": "22/07/2025",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
+      "toss": "Wanstead & Snaresbrook CC - 3rd XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "24294",
+          "team_batting_id": "24295",
           "innings_number": 1,
-          "runs": "265",
+          "runs": "172",
+          "wickets": "10",
+          "overs": "43",
+          "total_extras": "23"
+        },
+        {
+          "team_batting_id": "21674",
+          "innings_number": 1,
+          "runs": "176",
           "wickets": "6",
-          "overs": "48.0",
-          "total_extras": "37"
-        },
-        {
-          "team_batting_id": "31316",
-          "innings_number": 1,
-          "runs": "149",
-          "wickets": "10",
-          "overs": "48.2",
-          "total_extras": "20"
-        }
-      ]
-    },
-    {
-      "match_id": 7018269,
-      "match_date": "12/07/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Wickford CC",
-      "home_team_name": "Sat 5th XI",
-      "away_team_name": "Saturday 5th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "22/07/2025",
-      "toss": "Chelmsford CC - Sat 5th XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "297",
-          "wickets": "8",
-          "overs": "40.0",
-          "total_extras": "40"
-        },
-        {
-          "team_batting_id": "165360",
-          "innings_number": 1,
-          "runs": "218",
-          "wickets": "10",
-          "overs": "39.5",
-          "total_extras": "42"
+          "overs": "37.4",
+          "total_extras": "25"
         }
       ]
     },
@@ -4470,15 +4433,52 @@
       ]
     },
     {
-      "match_id": 7017635,
+      "match_id": 7018269,
       "match_date": "12/07/2025",
-      "home_club_name": "Wanstead & Snaresbrook CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "Nutter Lane",
-      "result_description": "Wanstead & Snaresbrook CC - 3rd XI - Time Win (bat 2nd)",
-      "competition_name": "Division 11 - 3rd XI Division One",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Wickford CC",
+      "home_team_name": "Sat 5th XI",
+      "away_team_name": "Saturday 5th XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "22/07/2025",
+      "toss": "Chelmsford CC - Sat 5th XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "297",
+          "wickets": "8",
+          "overs": "40.0",
+          "total_extras": "40"
+        },
+        {
+          "team_batting_id": "165360",
+          "innings_number": 1,
+          "runs": "218",
+          "wickets": "10",
+          "overs": "39.5",
+          "total_extras": "42"
+        }
+      ]
+    },
+    {
+      "match_id": 7017135,
+      "match_date": "12/07/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Woodford Wells CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -4486,23 +4486,23 @@
       "season": "2025",
       "status": "New",
       "last_updated": "22/07/2025",
-      "toss": "Wanstead & Snaresbrook CC - 3rd XI won the toss and elected to field",
+      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
       "innings": [
         {
-          "team_batting_id": "24295",
+          "team_batting_id": "24294",
           "innings_number": 1,
-          "runs": "172",
-          "wickets": "10",
-          "overs": "43",
-          "total_extras": "23"
+          "runs": "265",
+          "wickets": "6",
+          "overs": "48.0",
+          "total_extras": "37"
         },
         {
-          "team_batting_id": "21674",
+          "team_batting_id": "31316",
           "innings_number": 1,
-          "runs": "176",
-          "wickets": "6",
-          "overs": "37.4",
-          "total_extras": "25"
+          "runs": "149",
+          "wickets": "10",
+          "overs": "48.2",
+          "total_extras": "20"
         }
       ]
     },
@@ -4766,6 +4766,26 @@
       ]
     },
     {
+      "match_id": 7018272,
+      "match_date": "19/07/2025",
+      "home_club_name": "Benfleet CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "5th XI",
+      "away_team_name": "Sat 5th XI",
+      "ground_name": "Smallgains Park",
+      "result_description": "Cancelled",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "20/07/2025",
+      "toss": "",
+      "innings": []
+    },
+    {
       "match_id": 7017140,
       "match_date": "19/07/2025",
       "home_club_name": "Harold Wood CC",
@@ -4823,26 +4843,6 @@
       "status": "New",
       "last_updated": "20/07/2025",
       "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
-      "innings": []
-    },
-    {
-      "match_id": 7018272,
-      "match_date": "19/07/2025",
-      "home_club_name": "Benfleet CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "5th XI",
-      "away_team_name": "Sat 5th XI",
-      "ground_name": "Smallgains Park",
-      "result_description": "Cancelled",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "20/07/2025",
-      "toss": "",
       "innings": []
     },
     {
@@ -5047,43 +5047,6 @@
       ]
     },
     {
-      "match_id": 7017648,
-      "match_date": "26/07/2025",
-      "home_club_name": "Hutton CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "Polo Field Ground",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "02/08/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "21956",
-          "innings_number": 1,
-          "runs": "218",
-          "wickets": "10",
-          "overs": "48.2",
-          "total_extras": "20"
-        },
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "220",
-          "wickets": "2",
-          "overs": "34.0",
-          "total_extras": "22"
-        }
-      ]
-    },
-    {
       "match_id": 7018279,
       "match_date": "26/07/2025",
       "home_club_name": "Chelmsford CC",
@@ -5154,6 +5117,43 @@
           "wickets": "7",
           "overs": "45",
           "total_extras": "12"
+        }
+      ]
+    },
+    {
+      "match_id": 7017648,
+      "match_date": "26/07/2025",
+      "home_club_name": "Hutton CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "Polo Field Ground",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "02/08/2025",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "21956",
+          "innings_number": 1,
+          "runs": "218",
+          "wickets": "10",
+          "overs": "48.2",
+          "total_extras": "20"
+        },
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "220",
+          "wickets": "2",
+          "overs": "34.0",
+          "total_extras": "22"
         }
       ]
     },
@@ -5380,80 +5380,6 @@
       ]
     },
     {
-      "match_id": 7018280,
-      "match_date": "02/08/2025",
-      "home_club_name": "Old Southendian & Southchurch CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "5th XI",
-      "away_team_name": "Sat 5th XI",
-      "ground_name": "Shoebury Garrison Ground",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "11/08/2025",
-      "toss": "Old Southendian & Southchurch CC - 5th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "183",
-          "wickets": "9",
-          "overs": "40",
-          "total_extras": "57"
-        },
-        {
-          "team_batting_id": "134369",
-          "innings_number": 1,
-          "runs": "53",
-          "wickets": "10",
-          "overs": "27.2",
-          "total_extras": ""
-        }
-      ]
-    },
-    {
-      "match_id": 7017653,
-      "match_date": "02/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Oakfield Parkonians CC, Essex",
-      "home_team_name": "Sat 3rd XI",
-      "away_team_name": "3rd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "11/08/2025",
-      "toss": "Oakfield Parkonians CC, Essex - 3rd XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "25626",
-          "innings_number": 1,
-          "runs": "137",
-          "wickets": "10",
-          "overs": "42.1",
-          "total_extras": "14"
-        },
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "139",
-          "wickets": "2",
-          "overs": "23.4",
-          "total_extras": "12"
-        }
-      ]
-    },
-    {
       "match_id": 7017149,
       "match_date": "02/08/2025",
       "home_club_name": "Ilford CC",
@@ -5524,6 +5450,80 @@
           "wickets": "3",
           "overs": "33.3",
           "total_extras": "16"
+        }
+      ]
+    },
+    {
+      "match_id": 7018280,
+      "match_date": "02/08/2025",
+      "home_club_name": "Old Southendian & Southchurch CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "5th XI",
+      "away_team_name": "Sat 5th XI",
+      "ground_name": "Shoebury Garrison Ground",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "11/08/2025",
+      "toss": "Old Southendian & Southchurch CC - 5th XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "183",
+          "wickets": "9",
+          "overs": "40",
+          "total_extras": "57"
+        },
+        {
+          "team_batting_id": "134369",
+          "innings_number": 1,
+          "runs": "53",
+          "wickets": "10",
+          "overs": "27.2",
+          "total_extras": ""
+        }
+      ]
+    },
+    {
+      "match_id": 7017653,
+      "match_date": "02/08/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Oakfield Parkonians CC, Essex",
+      "home_team_name": "Sat 3rd XI",
+      "away_team_name": "3rd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "11/08/2025",
+      "toss": "Oakfield Parkonians CC, Essex - 3rd XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "25626",
+          "innings_number": 1,
+          "runs": "137",
+          "wickets": "10",
+          "overs": "42.1",
+          "total_extras": "14"
+        },
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "139",
+          "wickets": "2",
+          "overs": "23.4",
+          "total_extras": "12"
         }
       ]
     },
@@ -5676,15 +5676,15 @@
       ]
     },
     {
-      "match_id": 7017151,
+      "match_id": 7017748,
       "match_date": "09/08/2025",
-      "home_club_name": "Hornchurch CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "2nd XI",
-      "away_team_name": "Sat 2nd XI",
-      "ground_name": "Harrow Lodge Park",
-      "result_description": "Draw",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Old Southendian & Southchurch CC",
+      "home_team_name": "Sat 4th XI",
+      "away_team_name": "3rd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Old Southendian & Southchurch CC - 3rd XI - Time Win (bat 1st)",
+      "competition_name": "Division 12 - 3rd XI Division Two",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -5692,23 +5692,23 @@
       "season": "2025",
       "status": "New",
       "last_updated": "16/08/2025",
-      "toss": "Hornchurch CC - 2nd XI won the toss and elected to field",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "24294",
+          "team_batting_id": "23960",
           "innings_number": 1,
-          "runs": "246",
-          "wickets": "6",
-          "overs": "44",
-          "total_extras": "31"
+          "runs": "258",
+          "wickets": "5",
+          "overs": "43",
+          "total_extras": "9"
         },
         {
-          "team_batting_id": "37538",
+          "team_batting_id": "30461",
           "innings_number": 1,
-          "runs": "164",
-          "wickets": "9",
-          "overs": "55",
-          "total_extras": "19"
+          "runs": "161",
+          "wickets": "10",
+          "overs": "39.2",
+          "total_extras": "11"
         }
       ]
     },
@@ -5750,43 +5750,6 @@
       ]
     },
     {
-      "match_id": 7017748,
-      "match_date": "09/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Old Southendian & Southchurch CC",
-      "home_team_name": "Sat 4th XI",
-      "away_team_name": "3rd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Old Southendian & Southchurch CC - 3rd XI - Time Win (bat 1st)",
-      "competition_name": "Division 12 - 3rd XI Division Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "16/08/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "23960",
-          "innings_number": 1,
-          "runs": "258",
-          "wickets": "5",
-          "overs": "43",
-          "total_extras": "9"
-        },
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "161",
-          "wickets": "10",
-          "overs": "39.2",
-          "total_extras": "11"
-        }
-      ]
-    },
-    {
       "match_id": 7018288,
       "match_date": "09/08/2025",
       "home_club_name": "Chelmsford CC",
@@ -5820,6 +5783,43 @@
           "wickets": "8",
           "overs": "40",
           "total_extras": "36"
+        }
+      ]
+    },
+    {
+      "match_id": 7017151,
+      "match_date": "09/08/2025",
+      "home_club_name": "Hornchurch CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "2nd XI",
+      "away_team_name": "Sat 2nd XI",
+      "ground_name": "Harrow Lodge Park",
+      "result_description": "Draw",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "16/08/2025",
+      "toss": "Hornchurch CC - 2nd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "246",
+          "wickets": "6",
+          "overs": "44",
+          "total_extras": "31"
+        },
+        {
+          "team_batting_id": "37538",
+          "innings_number": 1,
+          "runs": "164",
+          "wickets": "9",
+          "overs": "55",
+          "total_extras": "19"
         }
       ]
     },
@@ -6046,43 +6046,6 @@
       ]
     },
     {
-      "match_id": 7017753,
-      "match_date": "16/08/2025",
-      "home_club_name": "Brentwood CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "4th XI",
-      "away_team_name": "Sat 4th XI",
-      "ground_name": "Old County Ground 2nd pitch",
-      "result_description": "Brentwood CC - 4th XI - Overs Win",
-      "competition_name": "Division 12 - 3rd XI Division Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "27/08/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "148",
-          "wickets": "6",
-          "overs": "45.0",
-          "total_extras": "9"
-        },
-        {
-          "team_batting_id": "21681",
-          "innings_number": 1,
-          "runs": "151",
-          "wickets": "4",
-          "overs": "35.3",
-          "total_extras": "8"
-        }
-      ]
-    },
-    {
       "match_id": 7017663,
       "match_date": "16/08/2025",
       "home_club_name": "Chelmsford CC",
@@ -6116,6 +6079,43 @@
           "wickets": "10",
           "overs": "20.5",
           "total_extras": "11"
+        }
+      ]
+    },
+    {
+      "match_id": 7017753,
+      "match_date": "16/08/2025",
+      "home_club_name": "Brentwood CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "4th XI",
+      "away_team_name": "Sat 4th XI",
+      "ground_name": "Old County Ground 2nd pitch",
+      "result_description": "Brentwood CC - 4th XI - Overs Win",
+      "competition_name": "Division 12 - 3rd XI Division Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "27/08/2025",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "runs": "148",
+          "wickets": "6",
+          "overs": "45.0",
+          "total_extras": "9"
+        },
+        {
+          "team_batting_id": "21681",
+          "innings_number": 1,
+          "runs": "151",
+          "wickets": "4",
+          "overs": "35.3",
+          "total_extras": "8"
         }
       ]
     },
@@ -6251,15 +6251,15 @@
       ]
     },
     {
-      "match_id": 7017667,
+      "match_id": 7017759,
       "match_date": "23/08/2025",
-      "home_club_name": "Gidea Park & Romford CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "Gidea Park Sports Ground",
-      "result_description": "Gidea Park & Romford CC - 3rd XI - Overs Win",
-      "competition_name": "Division 11 - 3rd XI Division One",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Wickford CC",
+      "home_team_name": "Sat 4th XI",
+      "away_team_name": "Saturday 3rd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Wickford CC - Saturday 3rd XI - Overs Win",
+      "competition_name": "Division 12 - 3rd XI Division Two",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -6267,23 +6267,23 @@
       "season": "2025",
       "status": "New",
       "last_updated": "05/09/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
       "innings": [
         {
-          "team_batting_id": "23968",
+          "team_batting_id": "30461",
           "innings_number": 1,
-          "runs": "193",
-          "wickets": "10",
-          "overs": "42.5",
-          "total_extras": "27"
+          "runs": "242",
+          "wickets": "7",
+          "overs": "45.0",
+          "total_extras": "9"
         },
         {
-          "team_batting_id": "24295",
+          "team_batting_id": "12642",
           "innings_number": 1,
-          "runs": "152",
-          "wickets": "10",
-          "overs": "41.1",
-          "total_extras": "23"
+          "runs": "243",
+          "wickets": "3",
+          "overs": "37.3",
+          "total_extras": "12"
         }
       ]
     },
@@ -6325,15 +6325,15 @@
       ]
     },
     {
-      "match_id": 7017759,
+      "match_id": 7017667,
       "match_date": "23/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Wickford CC",
-      "home_team_name": "Sat 4th XI",
-      "away_team_name": "Saturday 3rd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Wickford CC - Saturday 3rd XI - Overs Win",
-      "competition_name": "Division 12 - 3rd XI Division Two",
+      "home_club_name": "Gidea Park & Romford CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "Gidea Park Sports Ground",
+      "result_description": "Gidea Park & Romford CC - 3rd XI - Overs Win",
+      "competition_name": "Division 11 - 3rd XI Division One",
       "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
@@ -6341,23 +6341,23 @@
       "season": "2025",
       "status": "New",
       "last_updated": "05/09/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
       "innings": [
         {
-          "team_batting_id": "30461",
+          "team_batting_id": "23968",
           "innings_number": 1,
-          "runs": "242",
-          "wickets": "7",
-          "overs": "45.0",
-          "total_extras": "9"
+          "runs": "193",
+          "wickets": "10",
+          "overs": "42.5",
+          "total_extras": "27"
         },
         {
-          "team_batting_id": "12642",
+          "team_batting_id": "24295",
           "innings_number": 1,
-          "runs": "243",
-          "wickets": "3",
-          "overs": "37.3",
-          "total_extras": "12"
+          "runs": "152",
+          "wickets": "10",
+          "overs": "41.1",
+          "total_extras": "23"
         }
       ]
     },
@@ -6399,43 +6399,6 @@
       ]
     },
     {
-      "match_id": 7187675,
-      "match_date": "25/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "Panthers",
-      "away_team_name": "Pythons",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Pythons - Won",
-      "competition_name": "",
-      "competition_type": "Friendly",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "25/08/2025",
-      "toss": "Chelmsford CC - Pythons won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "373518",
-          "innings_number": 1,
-          "runs": "125",
-          "wickets": "3",
-          "overs": "",
-          "total_extras": "18"
-        },
-        {
-          "team_batting_id": "398980",
-          "innings_number": 1,
-          "runs": "129",
-          "wickets": "4",
-          "overs": "",
-          "total_extras": "17"
-        }
-      ]
-    },
-    {
       "match_id": 7187674,
       "match_date": "25/08/2025",
       "home_club_name": "Chelmsford CC",
@@ -6469,6 +6432,43 @@
           "wickets": "1",
           "overs": "",
           "total_extras": "9"
+        }
+      ]
+    },
+    {
+      "match_id": 7187675,
+      "match_date": "25/08/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "Panthers",
+      "away_team_name": "Pythons",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Pythons - Won",
+      "competition_name": "",
+      "competition_type": "Friendly",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "25/08/2025",
+      "toss": "Chelmsford CC - Pythons won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "373518",
+          "innings_number": 1,
+          "runs": "125",
+          "wickets": "3",
+          "overs": "",
+          "total_extras": "18"
+        },
+        {
+          "team_batting_id": "398980",
+          "innings_number": 1,
+          "runs": "129",
+          "wickets": "4",
+          "overs": "",
+          "total_extras": "17"
         }
       ]
     },
@@ -6695,6 +6695,43 @@
       ]
     },
     {
+      "match_id": 7018303,
+      "match_date": "30/08/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Brentwood CC",
+      "home_team_name": "Sat 5th XI",
+      "away_team_name": "6th XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "competition_name": "Division 18 - 4th XI Division Two East",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "40",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "01/09/2025",
+      "toss": "Brentwood CC - 6th XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "21701",
+          "innings_number": 1,
+          "runs": "196",
+          "wickets": "2",
+          "overs": "40.0",
+          "total_extras": "14"
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "runs": "198",
+          "wickets": "3",
+          "overs": "29.1",
+          "total_extras": "12"
+        }
+      ]
+    },
+    {
       "match_id": 7017762,
       "match_date": "30/08/2025",
       "home_club_name": "Harold Wood CC",
@@ -6769,43 +6806,6 @@
       ]
     },
     {
-      "match_id": 7018303,
-      "match_date": "30/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Brentwood CC",
-      "home_team_name": "Sat 5th XI",
-      "away_team_name": "6th XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "competition_name": "Division 18 - 4th XI Division Two East",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "40",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "01/09/2025",
-      "toss": "Brentwood CC - 6th XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "21701",
-          "innings_number": 1,
-          "runs": "196",
-          "wickets": "2",
-          "overs": "40.0",
-          "total_extras": "14"
-        },
-        {
-          "team_batting_id": "45348",
-          "innings_number": 1,
-          "runs": "198",
-          "wickets": "3",
-          "overs": "29.1",
-          "total_extras": "12"
-        }
-      ]
-    },
-    {
       "match_id": 6816397,
       "match_date": "31/08/2025",
       "home_club_name": "Harwich & Dovercourt CC",
@@ -6864,10 +6864,39 @@
         {
           "team_batting_id": "16619",
           "innings_number": 1,
-          "runs": "73",
+          "runs": "109",
           "wickets": "0",
-          "overs": "15.0",
-          "total_extras": "8"
+          "overs": "19.0",
+          "total_extras": "10"
+        }
+      ]
+    },
+    {
+      "match_id": 7017766,
+      "match_date": "06/09/2025",
+      "home_club_name": "Fives and Heronians CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 4th XI",
+      "ground_name": "Old Chigwellians",
+      "result_description": "Match In Progress",
+      "competition_name": "Division 12 - 3rd XI Division Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "06/09/2025",
+      "toss": "Fives and Heronians CC - 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "runs": "9",
+          "wickets": "0",
+          "overs": "1.0",
+          "total_extras": "0"
         }
       ]
     }

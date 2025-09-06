@@ -1,19 +1,19 @@
 {
-  "last_updated": "2025-09-06T11:21:53.240290",
-  "total_matches": 190,
+  "last_updated": "2025-09-06T11:39:50.490105",
+  "total_matches": 191,
   "latest_matches": [
-    {
-      "date": "28/05/2024",
-      "home_team": "Bancroft Lions CC Girls Under 13",
-      "away_team": "Chelmsford CC Girls Under 13",
-      "result": "Bancroft Lions CC - Girls Under 13 - Won",
-      "competition": "Girls U13 ODS: Group A"
-    },
     {
       "date": "28/05/2024",
       "home_team": "Great Totham CC Girls Under 13",
       "away_team": "Chelmsford CC Girls Under 13",
       "result": "Great Totham CC - Girls Under 13 - Won",
+      "competition": "Girls U13 ODS: Group A"
+    },
+    {
+      "date": "28/05/2024",
+      "home_team": "Bancroft Lions CC Girls Under 13",
+      "away_team": "Chelmsford CC Girls Under 13",
+      "result": "Bancroft Lions CC - Girls Under 13 - Won",
       "competition": "Girls U13 ODS: Group A"
     },
     {
@@ -32,9 +32,9 @@
     },
     {
       "date": "19/04/2025",
-      "home_team": "Chelmsford CC Sat 2nd XI",
-      "away_team": "Bexley CC 2nd XI",
-      "result": "Bexley CC - 2nd XI - Won",
+      "home_team": "Bexley CC 1st XI",
+      "away_team": "Chelmsford CC Sat 1st XI",
+      "result": "Bexley CC - 1st XI - Won",
       "competition": "Friendly"
     }
   ]

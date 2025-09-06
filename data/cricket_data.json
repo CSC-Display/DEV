@@ -1,7 +1,7 @@
 {
   "total_matches": 192,
-  "last_updated": "2025-09-06T15:27:40.715922",
-  "fetch_timestamp": "2025-09-06 15:27:40 UTC",
+  "last_updated": "2025-09-06T15:39:57.727185",
+  "fetch_timestamp": "2025-09-06 15:39:57 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -6872,9 +6872,9 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "runs": "108",
+          "runs": "123",
           "wickets": "5",
-          "overs": "19.0",
+          "overs": "22.0",
           "total_extras": "9"
         }
       ]
@@ -6901,10 +6901,18 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "runs": "38",
-          "wickets": "2",
-          "overs": "13.0",
-          "total_extras": "14"
+          "runs": "183",
+          "wickets": "9",
+          "overs": "45.0",
+          "total_extras": "31"
+        },
+        {
+          "team_batting_id": "21674",
+          "innings_number": 1,
+          "runs": "8",
+          "wickets": "0",
+          "overs": "4.0",
+          "total_extras": "0"
         }
       ]
     },

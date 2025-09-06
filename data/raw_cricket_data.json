@@ -20644,9 +20644,9 @@
           "team_id": 30461,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "6.0",
+          "bonus_points_together": "7.0",
           "bonus_points_batting": "4.0",
-          "bonus_points_bowling": "2.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -20682,7 +20682,7 @@
           "penalties_runs_awarded_in_other_innings": "",
           "total_extras": "",
           "runs": "228",
-          "wickets": "6",
+          "wickets": "7",
           "overs": "30.3",
           "balls": "",
           "declared": false,

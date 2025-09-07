@@ -1,7 +1,7 @@
 {
   "total_matches": 195,
-  "last_updated": "2025-09-07T16:24:26.983457",
-  "fetch_timestamp": "2025-09-07 16:24:26 UTC",
+  "last_updated": "2025-09-07T16:42:11.862250",
+  "fetch_timestamp": "2025-09-07 16:42:11 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -7057,10 +7057,10 @@
         {
           "team_batting_id": "207263",
           "innings_number": 1,
-          "runs": "99",
-          "wickets": "4",
-          "overs": "21.0",
-          "total_extras": "21"
+          "runs": "140",
+          "wickets": "8",
+          "overs": "31.0",
+          "total_extras": "23"
         }
       ]
     }

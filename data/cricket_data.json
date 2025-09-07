@@ -1,7 +1,7 @@
 {
   "total_matches": 194,
-  "last_updated": "2025-09-06T23:52:17.331862",
-  "fetch_timestamp": "2025-09-06 23:52:17 UTC",
+  "last_updated": "2025-09-07T01:50:39.532261",
+  "fetch_timestamp": "2025-09-07 01:50:39 UTC",
   "matches": [
     {
       "match_id": 7157910,
@@ -6969,7 +6969,7 @@
       "no_of_overs": "40",
       "season": "2025",
       "status": "New",
-      "last_updated": "06/09/2025",
+      "last_updated": "07/09/2025",
       "toss": "Hornchurch Athletic CC - 5th XI won the toss and elected to field",
       "innings": [
         {
@@ -6978,7 +6978,7 @@
           "runs": "180",
           "wickets": "10",
           "overs": "39.3",
-          "total_extras": ""
+          "total_extras": "18"
         },
         {
           "team_batting_id": "286235",
@@ -6986,7 +6986,7 @@
           "runs": "101",
           "wickets": "10",
           "overs": "32.2",
-          "total_extras": ""
+          "total_extras": "15"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "total_matches": 195,
-  "last_updated": "2025-09-07T12:40:11.638917",
-  "fetch_timestamp": "2025-09-07 12:40:11 UTC",
+  "last_updated": "2025-09-07T13:03:32.402721",
+  "fetch_timestamp": "2025-09-07 13:03:32 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -7006,7 +7006,7 @@
       "no_of_overs": "45",
       "season": "2025",
       "status": "New",
-      "last_updated": "06/09/2025",
+      "last_updated": "07/09/2025",
       "toss": "Wanstead & Snaresbrook CC - 3rd XI won the toss and elected to field",
       "innings": [
         {
@@ -7049,9 +7049,9 @@
         {
           "team_batting_id": "324716",
           "innings_number": 1,
-          "runs": "95",
-          "wickets": "3",
-          "overs": "17.0",
+          "runs": "107",
+          "wickets": "4",
+          "overs": "22.0",
           "total_extras": "11"
         }
       ]

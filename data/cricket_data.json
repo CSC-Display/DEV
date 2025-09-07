@@ -1,7 +1,7 @@
 {
   "total_matches": 195,
-  "last_updated": "2025-09-07T16:54:33.923541",
-  "fetch_timestamp": "2025-09-07 16:54:33 UTC",
+  "last_updated": "2025-09-07T17:16:56.396814",
+  "fetch_timestamp": "2025-09-07 17:16:56 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -7035,7 +7035,7 @@
       "home_team_name": "Sunday 1st XI",
       "away_team_name": "NECL 1st XI",
       "ground_name": "The Brow",
-      "result_description": "Match In Progress",
+      "result_description": "Chelmsford CC - NECL 1st XI - Won",
       "competition_name": "Sunday League Two",
       "competition_type": "League",
       "match_type": "Limited Overs",
@@ -7057,10 +7057,10 @@
         {
           "team_batting_id": "207263",
           "innings_number": 1,
-          "runs": "157",
-          "wickets": "8",
-          "overs": "34.0",
-          "total_extras": "23"
+          "runs": "164",
+          "wickets": "10",
+          "overs": "37.0",
+          "total_extras": "25"
         }
       ]
     }

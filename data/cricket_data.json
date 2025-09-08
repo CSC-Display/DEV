@@ -1,7 +1,7 @@
 {
   "total_matches": 195,
-  "last_updated": "2025-09-08T09:46:15.020993",
-  "fetch_timestamp": "2025-09-08 09:46:15 UTC",
+  "last_updated": "2025-09-08T10:25:08.769995",
+  "fetch_timestamp": "2025-09-08 10:25:08 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -5047,6 +5047,43 @@
       ]
     },
     {
+      "match_id": 7017145,
+      "match_date": "26/07/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Upminster CC",
+      "home_team_name": "Sat 2nd XI",
+      "away_team_name": "Men's 2nd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
+      "competition_name": "Division 06 - 2nd XI Premier Division",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": 0,
+      "season": "2025",
+      "status": "New",
+      "last_updated": "02/08/2025",
+      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "runs": "210",
+          "wickets": "10",
+          "overs": "47.1",
+          "total_extras": "10"
+        },
+        {
+          "team_batting_id": "16610",
+          "innings_number": 1,
+          "runs": "116",
+          "wickets": "10",
+          "overs": "31.1",
+          "total_extras": "19"
+        }
+      ]
+    },
+    {
       "match_id": 7017738,
       "match_date": "26/07/2025",
       "home_club_name": "Chelmsford CC",
@@ -5154,43 +5191,6 @@
           "wickets": "2",
           "overs": "34.0",
           "total_extras": "22"
-        }
-      ]
-    },
-    {
-      "match_id": 7017145,
-      "match_date": "26/07/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Upminster CC",
-      "home_team_name": "Sat 2nd XI",
-      "away_team_name": "Men's 2nd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
-      "competition_name": "Division 06 - 2nd XI Premier Division",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": 0,
-      "season": "2025",
-      "status": "New",
-      "last_updated": "02/08/2025",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "runs": "210",
-          "wickets": "10",
-          "overs": "47.1",
-          "total_extras": "10"
-        },
-        {
-          "team_batting_id": "16610",
-          "innings_number": 1,
-          "runs": "116",
-          "wickets": "10",
-          "overs": "31.1",
-          "total_extras": "19"
         }
       ]
     },
@@ -6895,7 +6895,7 @@
       "no_of_overs": "45",
       "season": "2025",
       "status": "New",
-      "last_updated": "07/09/2025",
+      "last_updated": "08/09/2025",
       "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to field",
       "innings": [
         {
@@ -6904,7 +6904,7 @@
           "runs": "170",
           "wickets": "10",
           "overs": "37.4",
-          "total_extras": ""
+          "total_extras": "26"
         },
         {
           "team_batting_id": "24294",
@@ -6912,7 +6912,7 @@
           "runs": "174",
           "wickets": "3",
           "overs": "30.3",
-          "total_extras": ""
+          "total_extras": "31"
         }
       ]
     },

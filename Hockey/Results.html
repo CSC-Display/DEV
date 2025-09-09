@@ -3,163 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golf Club Fixtures</title>
+    <title>Club Fixtures & Results</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #ffffff;
-        }
-
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
         }
-
+        
         th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
+            border: 1px solid #ddd;
         }
-
+        
         th {
-            background-color: #f5f5f5;
-        }
-
-        .loading {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .error {
-            color: red;
-            padding: 20px;
-        }
-
-        .refresh-btn {
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            padding: 8px 16px;
-            cursor: pointer;
-            margin: 10px 0;
-        }
-
-        .last-updated {
-            font-size: 12px;
-            color: #666;
-            margin-top: 20px;
+            background-color: #f2f2f2;
         }
     </style>
 </head>
 <body>
-    <h1>Golf Club Fixtures</h1>
-    
-    <div class="loading" id="loadingIndicator">Loading fixtures...</div>
-    
-    <div class="gms-wrapper gms-ajax" 
-         data-method="api" 
-         data-show="results+fixtures" 
-         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
-         data-whatson="14" 
-         data-sort_by="fixtureTime" 
-         data-options="showDetail:yes"
-         style="display: none;">
-    </div>
-    
-    <div id="errorContainer"></div>
-    
-    <button class="refresh-btn" onclick="refreshFixtures()">Refresh</button>
-    
-    <div class="last-updated" id="lastUpdated"></div>
-
+    <div class="gms-wrapper gms-ajax" data-method="api" data-show="results+fixtures" data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" data-whatson="14" data-sort_by="fixtureTime" data-options="showDetail:yes"></div>
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
-    
-    <script>
-        let loadTimeout;
-        let isLoaded = false;
-
-        function showError(message) {
-            document.getElementById('errorContainer').innerHTML = 
-                '<div class="error">Error: ' + message + '</div>';
-        }
-
-        function hideLoading() {
-            document.getElementById('loadingIndicator').style.display = 'none';
-        }
-
-        function showFixtures() {
-            hideLoading();
-            document.querySelector('.gms-wrapper').style.display = 'block';
-            isLoaded = true;
-            updateLastUpdatedTime();
-            document.getElementById('errorContainer').innerHTML = '';
-        }
-
-        function updateLastUpdatedTime() {
-            const now = new Date();
-            document.getElementById('lastUpdated').innerHTML = 
-                'Last updated: ' + now.toLocaleString();
-        }
-
-        function refreshFixtures() {
-            document.getElementById('loadingIndicator').style.display = 'block';
-            document.querySelector('.gms-wrapper').style.display = 'none';
-            document.getElementById('errorContainer').innerHTML = '';
-            isLoaded = false;
-            
-            if (loadTimeout) {
-                clearTimeout(loadTimeout);
-            }
-            
-            if (typeof window.gmsAPI !== 'undefined') {
-                window.gmsAPI.reload();
-            }
-            
-            loadTimeout = setTimeout(() => {
-                if (!isLoaded) {
-                    hideLoading();
-                    showError('Unable to load fixtures data');
-                }
-            }, 10000);
-        }
-
-        window.addEventListener('load', function() {
-            loadTimeout = setTimeout(() => {
-                if (!isLoaded) {
-                    hideLoading();
-                    showError('Unable to connect to fixtures service');
-                }
-            }, 8000);
-
-            const observer = new MutationObserver(function(mutations) {
-                mutations.forEach(function(mutation) {
-                    if (mutation.addedNodes.length > 0) {
-                        const gmsWrapper = document.querySelector('.gms-wrapper');
-                        if (gmsWrapper && gmsWrapper.innerHTML.trim() !== '') {
-                            clearTimeout(loadTimeout);
-                            showFixtures();
-                            observer.disconnect();
-                        }
-                    }
-                });
-            });
-
-            observer.observe(document.querySelector('.gms-wrapper'), {
-                childList: true,
-                subtree: true
-            });
-        });
-
-        window.gmsCallback = function() {
-            clearTimeout(loadTimeout);
-            showFixtures();
-        };
-    </script>
 </body>
 </html>

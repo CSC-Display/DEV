@@ -1,7 +1,7 @@
 {
   "total_matches": 195,
-  "last_updated": "2025-09-09T14:56:08.347983",
-  "fetch_timestamp": "2025-09-09 14:56:08 UTC",
+  "last_updated": "2025-09-09T15:27:27.827777",
+  "fetch_timestamp": "2025-09-09 15:27:27 UTC",
   "matches": [
     {
       "match_id": 7157908,
@@ -6083,43 +6083,6 @@
       ]
     },
     {
-      "match_id": 7017753,
-      "match_date": "16/08/2025",
-      "home_club_name": "Brentwood CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "4th XI",
-      "away_team_name": "Sat 4th XI",
-      "ground_name": "Old County Ground 2nd pitch",
-      "result_description": "Brentwood CC - 4th XI - Overs Win",
-      "competition_name": "Division 12 - 3rd XI Division Two",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "27/08/2025",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
-      "innings": [
-        {
-          "team_batting_id": "30461",
-          "innings_number": 1,
-          "runs": "148",
-          "wickets": "6",
-          "overs": "45.0",
-          "total_extras": "9"
-        },
-        {
-          "team_batting_id": "21681",
-          "innings_number": 1,
-          "runs": "151",
-          "wickets": "4",
-          "overs": "35.3",
-          "total_extras": "8"
-        }
-      ]
-    },
-    {
       "match_id": 7018293,
       "match_date": "16/08/2025",
       "home_club_name": "Chelmsford CC",
@@ -6153,6 +6116,43 @@
           "wickets": "10",
           "overs": "32.0",
           "total_extras": "23"
+        }
+      ]
+    },
+    {
+      "match_id": 7017753,
+      "match_date": "16/08/2025",
+      "home_club_name": "Brentwood CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "4th XI",
+      "away_team_name": "Sat 4th XI",
+      "ground_name": "Old County Ground 2nd pitch",
+      "result_description": "Brentwood CC - 4th XI - Overs Win",
+      "competition_name": "Division 12 - 3rd XI Division Two",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "27/08/2025",
+      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
+      "innings": [
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "runs": "148",
+          "wickets": "6",
+          "overs": "45.0",
+          "total_extras": "9"
+        },
+        {
+          "team_batting_id": "21681",
+          "innings_number": 1,
+          "runs": "151",
+          "wickets": "4",
+          "overs": "35.3",
+          "total_extras": "8"
         }
       ]
     },
@@ -6251,6 +6251,43 @@
       ]
     },
     {
+      "match_id": 7017667,
+      "match_date": "23/08/2025",
+      "home_club_name": "Gidea Park & Romford CC",
+      "away_club_name": "Chelmsford CC",
+      "home_team_name": "3rd XI",
+      "away_team_name": "Sat 3rd XI",
+      "ground_name": "Gidea Park Sports Ground",
+      "result_description": "Gidea Park & Romford CC - 3rd XI - Overs Win",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "05/09/2025",
+      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "23968",
+          "innings_number": 1,
+          "runs": "193",
+          "wickets": "10",
+          "overs": "42.5",
+          "total_extras": "27"
+        },
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "152",
+          "wickets": "10",
+          "overs": "41.1",
+          "total_extras": "23"
+        }
+      ]
+    },
+    {
       "match_id": 7018296,
       "match_date": "23/08/2025",
       "home_club_name": "Westcliff-On-Sea CC",
@@ -6321,43 +6358,6 @@
           "wickets": "3",
           "overs": "37.3",
           "total_extras": "12"
-        }
-      ]
-    },
-    {
-      "match_id": 7017667,
-      "match_date": "23/08/2025",
-      "home_club_name": "Gidea Park & Romford CC",
-      "away_club_name": "Chelmsford CC",
-      "home_team_name": "3rd XI",
-      "away_team_name": "Sat 3rd XI",
-      "ground_name": "Gidea Park Sports Ground",
-      "result_description": "Gidea Park & Romford CC - 3rd XI - Overs Win",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "05/09/2025",
-      "toss": "Chelmsford CC - Sat 3rd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "23968",
-          "innings_number": 1,
-          "runs": "193",
-          "wickets": "10",
-          "overs": "42.5",
-          "total_extras": "27"
-        },
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "152",
-          "wickets": "10",
-          "overs": "41.1",
-          "total_extras": "23"
         }
       ]
     },
@@ -6636,7 +6636,7 @@
       "no_of_overs": "45",
       "season": "2025",
       "status": "New",
-      "last_updated": "02/09/2025",
+      "last_updated": "09/09/2025",
       "toss": "Woodford Wells CC - 2nd XI won the toss and elected to field",
       "innings": [
         {
@@ -6654,43 +6654,6 @@
           "wickets": "9",
           "overs": "38.4",
           "total_extras": "32"
-        }
-      ]
-    },
-    {
-      "match_id": 7017674,
-      "match_date": "30/08/2025",
-      "home_club_name": "Chelmsford CC",
-      "away_club_name": "Buckhurst Hill CC",
-      "home_team_name": "Sat 3rd XI",
-      "away_team_name": "Saturday 3rd XI",
-      "ground_name": "Chelmer Park",
-      "result_description": "Tied",
-      "competition_name": "Division 11 - 3rd XI Division One",
-      "competition_type": "League",
-      "match_type": "Limited Overs",
-      "game_type": "Standard",
-      "no_of_overs": "45",
-      "season": "2025",
-      "status": "New",
-      "last_updated": "02/09/2025",
-      "toss": "Buckhurst Hill CC - Saturday 3rd XI won the toss and elected to field",
-      "innings": [
-        {
-          "team_batting_id": "24295",
-          "innings_number": 1,
-          "runs": "233",
-          "wickets": "7",
-          "overs": "45.0",
-          "total_extras": "20"
-        },
-        {
-          "team_batting_id": "28277",
-          "innings_number": 1,
-          "runs": "233",
-          "wickets": "6",
-          "overs": "45.0",
-          "total_extras": "18"
         }
       ]
     },
@@ -6728,6 +6691,43 @@
           "wickets": "8",
           "overs": "32",
           "total_extras": "19"
+        }
+      ]
+    },
+    {
+      "match_id": 7017674,
+      "match_date": "30/08/2025",
+      "home_club_name": "Chelmsford CC",
+      "away_club_name": "Buckhurst Hill CC",
+      "home_team_name": "Sat 3rd XI",
+      "away_team_name": "Saturday 3rd XI",
+      "ground_name": "Chelmer Park",
+      "result_description": "Tied",
+      "competition_name": "Division 11 - 3rd XI Division One",
+      "competition_type": "League",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "no_of_overs": "45",
+      "season": "2025",
+      "status": "New",
+      "last_updated": "02/09/2025",
+      "toss": "Buckhurst Hill CC - Saturday 3rd XI won the toss and elected to field",
+      "innings": [
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "runs": "233",
+          "wickets": "7",
+          "overs": "45.0",
+          "total_extras": "20"
+        },
+        {
+          "team_batting_id": "28277",
+          "innings_number": 1,
+          "runs": "233",
+          "wickets": "6",
+          "overs": "45.0",
+          "total_extras": "18"
         }
       ]
     },

@@ -13,7 +13,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #10b981;
             padding: 0;
             margin: 0;
             height: 100vh;
@@ -59,221 +59,227 @@
         .gms-wrapper {
             max-width: 1600px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.08);
+            background: #f5f5f5;
             border-radius: 25px;
             overflow: hidden;
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(15px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        .date-section {
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-            color: white;
-            padding: 30px 60px;
-            font-size: 36px;
-            font-weight: bold;
+        /* GMS Table Styling */
+        .gms-table {
+            width: 100%;
             margin: 0;
-            text-align: center;
+            border-collapse: collapse;
+            font-size: 24px;
+        }
+
+        .gms-table th {
+            text-align: left;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
+            color: white !important;
+            font-weight: bold !important;
+            padding: 25px 30px !important;
+            font-size: 28px !important;
             text-transform: uppercase;
-            letter-spacing: 3px;
-            border-bottom: 4px solid #10b981;
-            position: relative;
+            letter-spacing: 2px;
+            border: none !important;
         }
 
-        .date-section::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: #fbbf24;
-            border-radius: 2px;
+        .gms-table th:first-child {
+            border-radius: 25px 0 0 0;
         }
 
-        .fixture-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 35px 60px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            color: white;
-            transition: all 0.4s ease;
-            min-height: 110px;
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
-            position: relative;
+        .gms-table th:last-child {
+            border-radius: 0 25px 0 0;
         }
 
-        .fixture-item::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 6px;
-            background: linear-gradient(180deg, #10b981 0%, #1e3a8a 100%);
-            opacity: 0;
-            transition: opacity 0.4s ease;
-        }
-
-        .fixture-item:hover {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
-            transform: translateX(8px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-        }
-
-        .fixture-item:hover::before {
-            opacity: 1;
-        }
-
-        .fixture-item:last-child {
-            border-bottom: none;
-            border-radius: 0 0 25px 25px;
-        }
-
-        .fixture-item:nth-child(even) {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.04) 100%);
-        }
-
-        .fixture-item:nth-child(even):hover {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.1) 100%);
-        }
-
-        .fixture-details {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            gap: 45px;
-        }
-
-        .fixture-type {
-            font-weight: bold;
-            min-width: 220px;
-            font-size: 30px;
-            color: #fbbf24;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-            position: relative;
-        }
-
-        .fixture-type::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background: #fbbf24;
-            opacity: 0.6;
-        }
-
-        .vs-text {
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 26px;
-            margin: 0 20px;
-            font-weight: 300;
-            font-style: italic;
-        }
-
-        .opponent {
-            font-weight: 700;
-            color: #1e3a8a;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.9) 100%);
-            padding: 16px 35px;
-            border-radius: 15px;
-            font-size: 32px;
-            text-transform: uppercase;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-            border: 2px solid rgba(255, 255, 255, 0.4);
+        .gms-table td {
+            border: none !important;
+            padding: 25px 30px !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+            font-size: 22px !important;
+            color: #333 !important;
+            background: #f5f5f5 !important;
             transition: all 0.3s ease;
             position: relative;
-            overflow: hidden;
         }
 
-        .opponent::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-            transition: left 0.5s ease;
+        .gms-table tr:hover td {
+            background: #ebebeb !important;
+            transform: translateX(5px);
         }
 
-        .fixture-item:hover .opponent::before {
-            left: 100%;
+        .gms-table tr:nth-child(even) td {
+            background: #eeeeee !important;
         }
 
-        .fixture-time {
+        .gms-table tr:nth-child(even):hover td {
+            background: #e0e0e0 !important;
+        }
+
+        /* Style specific columns */
+        .gms-table td:nth-child(2) {
             font-weight: bold;
-            color: #dc2626;
-            font-size: 36px;
-            min-width: 140px;
+            color: #1e3a8a !important;
+            font-size: 26px !important;
+        }
+
+        .gms-table td:nth-child(3) {
+            font-style: italic;
+            color: #666 !important;
             text-align: center;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 100%);
-            padding: 18px 30px;
-            border-radius: 15px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            position: relative;
         }
 
-        .fixture-time::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
-            width: 8px;
-            height: 8px;
-            background: #dc2626;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(220, 38, 38, 0.5);
-        }
-
-        /* Custom styles for the GMS widget when it loads */
-        .gms-wrapper .gms-fixture {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
+        .gms-table td:nth-child(4) {
+            font-weight: bold;
             color: white !important;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
-            padding: 35px 60px !important;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
+            border-radius: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 24px !important;
+            margin: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .gms-table tr:hover td:nth-child(4) {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%) !important;
+            transform: scale(1.02);
+        }
+
+        .gms-table td:nth-child(n+5) {
+            text-align: center;
+            font-weight: bold;
             font-size: 28px !important;
-            min-height: 110px !important;
-            transition: all 0.4s ease !important;
-            position: relative !important;
+            color: #dc2626 !important;
         }
 
-        .gms-wrapper .gms-fixture::before {
-            content: '' !important;
-            position: absolute !important;
-            left: 0 !important;
-            top: 0 !important;
-            bottom: 0 !important;
-            width: 6px !important;
-            background: linear-gradient(180deg, #10b981 0%, #1e3a8a 100%) !important;
-            opacity: 0 !important;
-            transition: opacity 0.4s ease !important;
+        /* Hide Date and Venue columns as specified */
+        .gms-table-fixtures th:nth-child(1),
+        .gms-table-fixtures td:nth-child(1),
+        .gms-table-fixtures th:nth-child(5),
+        .gms-table-fixtures td:nth-child(5),
+        .gms-table-results th:nth-child(1),
+        .gms-table-results td:nth-child(1),
+        .gms-table-results th:nth-child(6),
+        .gms-table-results td:nth-child(6) {
+            display: none;
         }
 
-        .gms-wrapper .gms-fixture:hover {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%) !important;
-            transform: translateX(8px) !important;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2) !important;
+        /* Enhanced styling for results */
+        .gms-table-results td:nth-child(4) {
+            text-align: center !important;
+            font-weight: bold;
+            font-size: 32px !important;
         }
 
-        .gms-wrapper .gms-fixture:hover::before {
-            opacity: 1 !important;
+        /* Win/Draw/Loss styling */
+        .gms-form {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            text-align: center;
+            line-height: 2rem;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 16px;
         }
 
-        .gms-wrapper .gms-fixture:nth-child(even) {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+        .gms-win {
+            background-color: #10b981 !important;
+            color: white !important;
         }
 
-        .gms-wrapper .gms-fixture:nth-child(even):hover {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.1) 100%) !important;
+        .gms-draw {
+            background-color: #6b7280 !important;
+            color: white !important;
         }
+
+        .gms-loss {
+            background-color: #dc2626 !important;
+            color: white !important;
+        }
+
+        /* Club team highlighting */
+        .gms-clubteam:not(.gms-button),
+        .gms-boldteam {
+            font-weight: 700 !important;
+            color: #1e3a8a !important;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%) !important;
+            padding: 8px 16px !important;
+            border-radius: 8px !important;
+            color: white !important;
+        }
+
+        /* Responsive design for large screens */
+        @media screen and (min-width: 1600px) {
+            .gms-table {
+                font-size: 28px;
+            }
+            
+            .gms-table th {
+                font-size: 32px !important;
+                padding: 30px 40px !important;
+            }
+            
+            .gms-table td {
+                padding: 30px 40px !important;
+                font-size: 26px !important;
+            }
+            
+            .gms-table td:nth-child(2) {
+                font-size: 30px !important;
+            }
+            
+            .gms-table td:nth-child(n+5) {
+                font-size: 32px !important;
+            }
+        }
+
+        /* Custom styles for the GMS widget when it loads - using proper GMS classes */
+        .gms-wrapper .gms-table {
+            border-collapse: collapse !important;
+            width: 100% !important;
+            margin: 0 !important;
+        }
+
+        .gms-wrapper .gms-table th {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
+            color: white !important;
+            font-weight: bold !important;
+            padding: 25px 30px !important;
+            font-size: 28px !important;
+            text-transform: uppercase !important;
+            letter-spacing: 2px !important;
+            border: none !important;
+            text-align: left !important;
+        }
+
+        .gms-wrapper .gms-table td {
+            border: none !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+            padding: 25px 30px !important;
+            font-size: 22px !important;
+            color: #333 !important;
+            background: #f5f5f5 !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .gms-wrapper .gms-table tr:hover td {
+            background: #ebebeb !important;
+            transform: translateX(5px) !important;
+        }
+
+        .gms-wrapper .gms-table tr:nth-child(even) td {
+            background: #eeeeee !important;
+        }
+
+        .gms-wrapper .gms-table tr:nth-child(even):hover td {
+            background: #e0e0e0 !important;
+        }
+
+        /* Remove old fixture styling */
 
         .gms-wrapper .gms-date-header {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
@@ -334,7 +340,8 @@
                  data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
                  data-whatson="3" 
                  data-sort_by="fixtureTime" 
-                 data-options="showList:yes,showGender:yes">
+                 data-options="showList:no,showGender:yes"
+                 data-css="no">
             </div>
         </div>
         

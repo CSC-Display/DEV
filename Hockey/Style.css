@@ -1,5 +1,5 @@
-/* Table to Card Layout CSS - Style.css */
-/* Transforms the table format into card-based design */
+/* Simple Table Card Design - Style.css */
+/* Works with the existing table structure */
 
 * {
     box-sizing: border-box;
@@ -11,269 +11,217 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #f8f9fa;
     padding: 20px;
-    line-height: 1.4;
 }
 
-/* Hide the table structure and recreate as cards */
-.gms-wrapper table {
-    border-collapse: separate;
-    border-spacing: 0;
-    width: 100%;
+/* Main container */
+.gms-wrapper {
     max-width: 600px;
     margin: 0 auto;
-    background: transparent;
-}
-
-/* Hide table headers */
-.gms-wrapper thead,
-.gms-wrapper th {
-    display: none;
-}
-
-/* Transform table body */
-.gms-wrapper tbody {
-    display: block;
     background: white;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
-/* Transform each table row into a card */
-.gms-wrapper tr {
-    display: block;
-    position: relative;
-    border-bottom: 1px solid #f1f3f4;
+/* Table styling */
+.gms-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
     background: white;
-    margin: 0;
+}
+
+/* Hide table headers */
+.gms-wrapper thead {
+    display: none;
+}
+
+/* Table body */
+.gms-wrapper tbody {
+    display: table-row-group;
+}
+
+/* Each row becomes a card-like item */
+.gms-wrapper tr {
+    display: table-row;
+    border-bottom: 1px solid #f1f3f4;
+    transition: background-color 0.2s;
+}
+
+.gms-wrapper tr:hover {
+    background-color: #f8f9fa;
 }
 
 .gms-wrapper tr:last-child {
     border-bottom: none;
 }
 
-/* Create the card layout */
+/* Table cells */
 .gms-wrapper td {
-    display: inline-block;
-    vertical-align: top;
+    padding: 12px 8px;
+    vertical-align: middle;
     border: none;
-    padding: 0;
-    margin: 0;
+    font-size: 14px;
 }
 
-/* Date column - positioned top left */
+/* Date column (first column) */
 .gms-wrapper td:nth-child(1) {
-    position: absolute;
-    top: 16px;
-    left: 20px;
-    font-size: 12px;
     color: #16a34a;
     font-weight: 600;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    line-height: 1.2;
+    width: 80px;
+    padding-left: 20px;
 }
 
-/* First team - positioned left side */
-.gms-wrapper td:nth-child(2) {
-    position: absolute;
-    top: 50px;
-    left: 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #111827;
-}
-
-/* First score - positioned after first team */
-.gms-wrapper td:nth-child(3) {
-    position: absolute;
-    top: 45px;
-    left: 200px;
-    background-color: #000000;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    min-width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Colon separator - hidden or minimal */
-.gms-wrapper td:nth-child(4) {
-    display: none;
-}
-
-/* Second score - positioned next to first score */
-.gms-wrapper td:nth-child(5) {
-    position: absolute;
-    top: 45px;
-    left: 250px;
-    background-color: #000000;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    min-width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Second team - positioned below scores */
+/* Team names (2nd and 6th columns) */
+.gms-wrapper td:nth-child(2),
 .gms-wrapper td:nth-child(6) {
-    position: absolute;
-    top: 85px;
-    left: 20px;
-    font-size: 16px;
     font-weight: 600;
     color: #111827;
+    font-size: 16px;
+    min-width: 120px;
 }
 
-/* Venue - positioned bottom left */
-.gms-wrapper td:nth-child(7) {
-    position: absolute;
-    top: 110px;
-    left: 56px;
-    font-size: 14px;
+/* Score columns (3rd and 5th columns) */
+.gms-wrapper td:nth-child(3),
+.gms-wrapper td:nth-child(5) {
+    background-color: #000000;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 6px;
+    width: 40px;
+    height: 32px;
+    position: relative;
+}
+
+/* Colon separator (4th column) */
+.gms-wrapper td:nth-child(4) {
+    text-align: center;
     color: #6b7280;
+    font-weight: bold;
+    width: 20px;
+    font-size: 18px;
 }
 
-/* Set minimum height for each row/card */
+/* Venue column (7th column) */
+.gms-wrapper td:nth-child(7) {
+    color: #6b7280;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Add some breathing room */
+.gms-wrapper td:first-child {
+    padding-left: 20px;
+}
+
+.gms-wrapper td:last-child {
+    padding-right: 20px;
+}
+
+/* Make it look more card-like with better spacing */
 .gms-wrapper tr {
-    min-height: 140px;
-    padding: 16px 20px;
-    margin-bottom: 1px;
+    height: 60px;
 }
 
-/* Add team logos */
-.gms-wrapper td:nth-child(2)::before,
-.gms-wrapper td:nth-child(6)::before {
-    content: '';
-    position: absolute;
-    left: -36px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Chelmsford logos - green with cross */
-.gms-wrapper td:nth-child(2):contains("CHELMSFORD")::before,
-.gms-wrapper td:nth-child(6):contains("CHELMSFORD")::before,
-.gms-wrapper tr:nth-child(odd) td:nth-child(2)::before,
-.gms-wrapper tr:nth-child(even) td:nth-child(6)::before {
-    background-color: #16a34a;
-    border: 2px solid #15803d;
-}
-
-/* Brentwood logos - red/blue gradient */
-.gms-wrapper td:nth-child(2):contains("BRENTWOOD")::before,
-.gms-wrapper td:nth-child(6):contains("BRENTWOOD")::before,
-.gms-wrapper tr:nth-child(even) td:nth-child(2)::before,
-.gms-wrapper tr:nth-child(odd) td:nth-child(6)::before {
-    background: linear-gradient(135deg, #dc2626, #1e40af);
-}
-
-/* Waltham Forest logos - different color */
-.gms-wrapper td:nth-child(2):contains("WALTHAM")::before,
-.gms-wrapper td:nth-child(6):contains("WALTHAM")::before {
-    background-color: #7c3aed;
-}
-
-/* Date header styling - create division headers */
-.gms-wrapper tr:first-child td:nth-child(1)::after {
-    content: "DIVISION 4 SOUTH EAST";
-    position: absolute;
-    top: -16px;
-    left: 0;
-    right: 0;
-    background: white;
+/* Add division header styling */
+.gms-wrapper::before {
+    content: "DIVISION RESULTS";
+    display: block;
+    background-color: #f8f9fa;
     color: #16a34a;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     padding: 16px 20px 8px;
-    border-bottom: 1px solid #f1f3f4;
-}
-
-/* Add arrow indicators */
-.gms-wrapper tr::after {
-    content: '›';
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #d1d5db;
-    font-size: 20px;
-    font-weight: 300;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     body {
         padding: 10px;
     }
     
-    .gms-wrapper tr {
-        min-height: 120px;
-        padding: 12px 16px;
+    .gms-wrapper {
+        border-radius: 8px;
+    }
+    
+    .gms-wrapper td {
+        padding: 8px 4px;
+        font-size: 13px;
     }
     
     .gms-wrapper td:nth-child(1) {
-        left: 16px;
+        width: 60px;
         font-size: 11px;
+        padding-left: 12px;
     }
     
     .gms-wrapper td:nth-child(2),
     .gms-wrapper td:nth-child(6) {
-        left: 16px;
-        font-size: 15px;
-    }
-    
-    .gms-wrapper td:nth-child(3) {
-        left: 180px;
-        min-width: 28px;
-        height: 28px;
         font-size: 14px;
+        min-width: 100px;
     }
     
+    .gms-wrapper td:nth-child(3),
     .gms-wrapper td:nth-child(5) {
-        left: 220px;
-        min-width: 28px;
+        width: 32px;
         height: 28px;
         font-size: 14px;
     }
     
+    .gms-wrapper tr {
+        height: 50px;
+    }
+    
+    /* Hide venue on very small screens */
     .gms-wrapper td:nth-child(7) {
-        left: 48px;
-        font-size: 13px;
+        display: none;
     }
 }
 
-/* Force specific layout */
-.gms-wrapper {
-    display: block !important;
-}
-
-.gms-wrapper table {
-    display: table !important;
-    table-layout: fixed;
+@media (max-width: 480px) {
+    .gms-wrapper td:nth-child(7) {
+        display: none;
+    }
+    
+    .gms-wrapper td:nth-child(1) {
+        width: 50px;
+        padding-left: 8px;
+    }
 }
 
 /* Loading state */
 .gms-wrapper:empty::before {
-    content: "Loading results...";
-    display: block;
+    content: "Loading results..." !important;
+    display: block !important;
     text-align: center;
     padding: 40px 20px;
     color: #6b7280;
     font-style: italic;
+    background: white;
+}
+
+/* Clean up any default styles */
+.gms-wrapper table,
+.gms-wrapper tbody,
+.gms-wrapper tr,
+.gms-wrapper td {
+    border: none;
+    margin: 0;
+}
+
+/* Make sure the layout works */
+.gms-wrapper {
+    display: block;
+}
+
+.gms-wrapper table {
+    display: table;
+    width: 100%;
 }

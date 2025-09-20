@@ -4,206 +4,447 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelmsford Hockey Club Fixtures</title>
+    <!-- Link to Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
     <style>
+        /* General Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* Hide everything in body except .gms-wrapper */
+        body > *:not(.gms-wrapper):not(.refresh-indicator) {
+            display: none !important;
+        }
+
+        /* Inside .gms-wrapper hide everything except the table */
+        .gms-wrapper > *:not(.gms-table-fixtures) {
+            display: none !important;
+        }
+
+        /* Body Styling - Responsive */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: #000;
-            padding: 0;
-            margin: 0;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .fixtures-container {
-            width: 100vw;
-            height: 100vh;
-            background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%);
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             display: flex;
             flex-direction: column;
-            overflow: hidden;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%);
-            padding: 60px 80px;
-            position: relative;
-            flex-shrink: 0;
-            text-align: center;
-        }
-
-        .fixtures-title {
-            color: white;
-            font-size: 120px;
-            font-weight: bold;
-            margin: 0;
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-            letter-spacing: 4px;
-        }
-
-        .fixtures-content {
-            background: #10b981;
-            flex: 1;
-            overflow-y: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0;
-        }
-
-        .fixtures-column {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .date-section {
-            background: #1e3a8a;
-            color: white;
-            padding: 30px 60px;
-            font-size: 36px;
-            font-weight: bold;
-            margin: 0;
-            text-align: center;
-        }
-
-        .fixture-item {
-            display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding: 35px 60px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-            color: white;
-            transition: background-color 0.3s ease;
-            min-height: 120px;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 10px;
+            overflow-x: auto;
         }
 
-        .fixture-item:hover {
-            background-color: rgba(255, 255, 255, 0.1);
+        /* Refresh Indicator - Responsive positioning */
+        .refresh-indicator {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(12px, 2vw, 14px);
+            font-weight: 400;
+            color: #666;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 8px 12px;
+            border-radius: 4px;
+            z-index: 1000;
+            transition: color 0.3s ease;
+            backdrop-filter: blur(5px);
         }
 
-        .fixture-item:last-child {
-            border-bottom: none;
+        .refresh-indicator.refreshing {
+            color: #007bff;
         }
 
-        .fixture-details {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            gap: 30px;
-        }
-
-        .fixture-type {
-            font-weight: bold;
-            min-width: 200px;
-            font-size: 32px;
-        }
-
-        .vs-text {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 28px;
-            margin: 0 15px;
-        }
-
-        .opponent {
-            font-weight: 600;
-            color: #1e3a8a;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 12px 32px;
-            border-radius: 8px;
-            font-size: 28px;
-            text-transform: uppercase;
-        }
-
-        .fixture-time {
-            font-weight: bold;
-            color: #dc2626;
-            font-size: 36px;
-            min-width: 120px;
-            text-align: right;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 12px 24px;
-            border-radius: 8px;
-        }
-
-        /* Custom styles for the GMS widget when it loads */
+        /* Table Container - Fully responsive */
         .gms-wrapper {
-            height: 100%;
+            width: 100%;
+            max-width: none;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: auto;
+            position: relative;
+            margin-bottom: 60px;
+        }
+
+        /* Loading overlay */
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            font-size: clamp(14px, 2.5vw, 16px);
+        }
+
+        .loading-overlay.active {
+            display: flex;
+        }
+
+        /* Table Styling - Responsive */
+        .gms-table-fixtures {
+            width: 100%;
+            min-width: 600px; /* Minimum width to prevent over-compression */
+            border-collapse: collapse;
+            text-align: left;
+            font-weight: 400;
+            font-size: clamp(12px, 2vw, 16px);
+        }
+
+        .gms-table-fixtures th,
+        .gms-table-fixtures td {
+            padding: clamp(8px, 2vw, 15px) clamp(6px, 1.5vw, 12px);
+            border-bottom: 1px solid #ddd;
+            white-space: nowrap;
             overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .gms-wrapper .gms-fixture {
-            background: #10b981 !important;
+        /* Remove all background colors except header */
+        .gms-table-fixtures td,
+        .gms-table-fixtures tr:nth-child(even),
+        .gms-table-fixtures tr:hover {
+            background-color: transparent !important;
+        }
+
+        /* Header row: black background, white text */
+        .gms-table-fixtures th {
+            background-color: black !important;
             color: white !important;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
-            padding: 35px 60px !important;
-            font-size: 28px !important;
-            min-height: 120px !important;
+            font-weight: 700 !important;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
-        .gms-wrapper .gms-fixture:hover {
-            background: rgba(255, 255, 255, 0.1) !important;
+        /* Set all cell text to black and normal weight */
+        .gms-table-fixtures td {
+            color: black !important;
+            font-weight: 400 !important;
         }
 
-        .gms-wrapper .gms-date-header {
-            background: #1e3a8a !important;
-            color: white !important;
-            font-weight: bold !important;
-            padding: 30px 60px !important;
-            font-size: 36px !important;
-            text-align: center !important;
+        /* Hide Date and Venue Columns */
+        .gms-table-fixtures th:nth-child(1),
+        .gms-table-fixtures td:nth-child(1),
+        .gms-table-fixtures th:nth-child(5),
+        .gms-table-fixtures td:nth-child(5) {
+            display: none;
         }
 
-        /* Responsive design - removed mobile styles for TV display */
-        
-        /* Loading animation */
-        .loading {
-            text-align: center;
-            padding: 80px 60px;
-            color: white;
-            font-size: 32px;
+        /* 55" TV Display Optimizations */
+        @media screen and (min-width: 1920px) {
+            .gms-table-fixtures {
+                font-size: clamp(18px, 1.8vw, 34px);
+            }
+            
+            .gms-table-fixtures th {
+                font-size: clamp(20px, 2vw, 38px);
+            }
+            
+            .gms-table-fixtures th,
+            .gms-table-fixtures td {
+                padding: clamp(12px, 1.6vw, 24px) clamp(16px, 2vw, 32px);
+            }
         }
 
-        .loading::after {
-            content: '';
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border: 6px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border-top-color: white;
-            animation: spin 1s ease-in-out infinite;
-            margin-left: 20px;
+        /* 4K TV Optimization for 55" */
+        @media screen and (min-width: 3840px) {
+            .gms-table-fixtures {
+                font-size: clamp(22px, 1.3vw, 42px);
+            }
+            
+            .gms-table-fixtures th {
+                font-size: clamp(24px, 1.5vw, 46px);
+            }
+            
+            .gms-table-fixtures th,
+            .gms-table-fixtures td {
+                padding: clamp(14px, 1.3vw, 28px) clamp(18px, 1.6vw, 36px);
+            }
+            
+            .refresh-indicator {
+                font-size: clamp(16px, 1vw, 22px);
+                padding: 10px 20px;
+            }
         }
 
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
+        /* Mobile optimizations - kept for tablet/smaller displays */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 2px;
+            }
+
+            .gms-wrapper {
+                width: 100vw;
+                height: calc(100vh - 10px);
+                border-radius: 4px;
+                margin: 2px 0;
+            }
+
+            .gms-table-fixtures {
+                font-size: clamp(14px, 4vw, 24px);
+            }
+
+            .gms-table-fixtures th,
+            .gms-table-fixtures td {
+                padding: clamp(8px, 2vw, 16px) clamp(10px, 2.5vw, 20px);
+            }
+
+            .refresh-indicator {
+                font-size: clamp(12px, 3vw, 18px);
+                padding: 6px 12px;
+                bottom: 5px;
+                left: 5px;
+            }
+        }
+
+        /* Extra small screens */
+        @media screen and (max-width: 480px) {
+            .gms-table-fixtures {
+                font-size: clamp(12px, 5vw, 20px);
+            }
+
+            .gms-table-icals th,
+            .gms-table-fixtures td {
+                padding: clamp(6px, 1.5vw, 14px) clamp(8px, 2vw, 16px);
+            }
+
+            /* Allow text wrapping on very small screens */
+            .gms-table-fixtures th,
+            .gms-table-fixtures td {
+                white-space: normal;
+                word-break: break-word;
+            }
+        }
+
+        /* Large screens optimization for 55" */
+        @media screen and (min-width: 1200px) {
+            .gms-wrapper {
+                width: 99vw;
+                height: calc(99vh - 10px);
+            }
+            
+            .gms-table-fixtures {
+                font-size: clamp(16px, 2vw, 30px);
+            }
+            
+            .gms-table-fixtures th {
+                font-size: clamp(18px, 2.2vw, 34px);
+            }
+        }
+
+        /* Extra large screens for 55" */
+        @media screen and (min-width: 1600px) {
+            .gms-table-fixtures {
+                font-size: clamp(17px, 1.9vw, 32px);
+            }
+            
+            .gms-table-fixtures th {
+                font-size: clamp(19px, 2.1vw, 36px);
+            }
+            
+            .gms-table-fixtures th,
+            .gms-table-fixtures td {
+                padding: clamp(11px, 1.7vw, 22px) clamp(15px, 1.9vw, 30px);
+            }
+        }
+
+        /* Landscape orientation on mobile */
+        @media screen and (max-width: 768px) and (orientation: landscape) {
+            body {
+                justify-content: flex-start;
+                padding: 2px;
+            }
+            
+            .gms-wrapper {
+                height: calc(100vh - 5px);
+            }
+            
+            .refresh-indicator {
+                position: absolute;
+                bottom: 2px;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .refresh-indicator,
+            .loading-overlay {
+                display: none !important;
+            }
+            
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            .gms-wrapper {
+                box-shadow: none;
+                border: 1px solid #ccc;
             }
         }
     </style>
 </head>
 <body>
-    <div class="fixtures-container">
-        <div class="header">
-            <h1 class="fixtures-title">FIXTURES</h1>
-        </div>
-        
-        <div class="fixtures-content">
-            <div class="gms-wrapper gms-ajax" 
-                 data-method="api-static" 
-                 data-show="results" 
-                 data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
-                 data-whatson="3" 
-                 data-sort_by="fixtureTime" 
-                 data-options="showList:yes,showGender:yes">
-            </div>
+    <div class="refresh-indicator" id="refreshIndicator">
+        Next refresh in <span id="countdown">15:00</span>
+    </div>
+
+    <div class="gms-wrapper gms-ajax"
+         id="gmsWrapper"
+         data-method="api-dynamic"
+         data-show="fixtures"
+         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
+         data-sort_by="fixtureTime"
+         data-options="showGender:yes"
+         data-options="showDetail:yes">
+        <div class="loading-overlay" id="loadingOverlay">
+            <div>Refreshing fixtures...</div>
         </div>
     </div>
-    
+
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
+    
+    <script>
+        // Auto-refresh functionality
+        let refreshInterval;
+        let countdownInterval;
+        let timeLeft = 15 * 60; // 15 minutes in seconds
+
+        function updateCountdown() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            const countdownElement = document.getElementById('countdown');
+            if (countdownElement) {
+                countdownElement.textContent = formattedTime;
+            }
+            
+            timeLeft--;
+            
+            if (timeLeft < 0) {
+                refreshGMSData();
+                timeLeft = 15 * 60; // Reset to 15 minutes
+            }
+        }
+
+        function refreshGMSData() {
+            const indicator = document.getElementById('refreshIndicator');
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            const wrapper = document.getElementById('gmsWrapper');
+            
+            // Show refreshing state
+            if (indicator) {
+                indicator.classList.add('refreshing');
+                indicator.innerHTML = 'Refreshing fixtures...';
+            }
+            
+            if (loadingOverlay) {
+                loadingOverlay.classList.add('active');
+            }
+            
+            try {
+                // Clear existing content except loading overlay
+                const existingTable = wrapper.querySelector('.gms-table-fixtures');
+                if (existingTable) {
+                    existingTable.remove();
+                }
+                
+                // Re-trigger GMS API call
+                if (typeof window.gmsAPI !== 'undefined' && window.gmsAPI.refresh) {
+                    // If GMS API has a refresh method
+                    window.gmsAPI.refresh(wrapper);
+                } else {
+                    // Alternative: reload the script to trigger fresh data
+                    const script = document.querySelector('script[src="https://gmsfeed.co.uk/js/api.js"]');
+                    if (script) {
+                        script.remove();
+                        const newScript = document.createElement('script');
+                        newScript.src = 'https://gmsfeed.co.uk/js/api.js';
+                        newScript.onload = function() {
+                            // GMS should automatically process the wrapper after script load
+                            setTimeout(() => {
+                                if (loadingOverlay) {
+                                    loadingOverlay.classList.remove('active');
+                                }
+                            }, 2000);
+                        };
+                        document.body.appendChild(newScript);
+                    }
+                }
+                
+                // Reset indicator after a delay
+                setTimeout(() => {
+                    if (indicator) {
+                        indicator.classList.remove('refreshing');
+                        indicator.innerHTML = 'Next refresh in <span id="countdown">15:00</span>';
+                    }
+                    if (loadingOverlay) {
+                        loadingOverlay.classList.remove('active');
+                    }
+                }, 3000);
+                
+            } catch (error) {
+                console.error('Error refreshing GMS data:', error);
+                
+                // Reset indicator on error
+                if (indicator) {
+                    indicator.classList.remove('refreshing');
+                    indicator.innerHTML = 'Next refresh in <span id="countdown">15:00</span>';
+                }
+                if (loadingOverlay) {
+                    loadingOverlay.classList.remove('active');
+                }
+            }
+        }
+
+        function startAutoRefresh() {
+            // Start countdown timer (updates every second)
+            countdownInterval = setInterval(updateCountdown, 1000);
+            
+            // Initial countdown display
+            updateCountdown();
+        }
+
+        // Initialize auto-refresh when page loads
+        window.addEventListener('load', function() {
+            // Wait a moment for GMS to initialize, then start auto-refresh
+            setTimeout(startAutoRefresh, 2000);
+        });
+
+        // Cleanup intervals when page unloads
+        window.addEventListener('beforeunload', function() {
+            if (refreshInterval) clearInterval(refreshInterval);
+            if (countdownInterval) clearInterval(countdownInterval);
+        });
+
+        // Optional: Add manual refresh capability
+        document.addEventListener('keydown', function(e) {
+            // Press 'R' key to manually refresh
+            if (e.key === 'r' || e.key === 'R') {
+                timeLeft = 0; // Trigger immediate refresh
+            }
+        });
+
+        // Handle orientation changes on mobile
+        window.addEventListener('orientationchange', function() {
+            // Small delay to allow for orientation change completion
+            setTimeout(() => {
+                // Force a repaint to ensure proper scaling
+                document.body.style.height = 'auto';
+                document.body.offsetHeight; // Trigger reflow
+            }, 100);
+        });
+    </script>
 </body>
 </html>

@@ -13,7 +13,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: white;
+            background-color: #f8fafc;
             padding: 0;
             margin: 0;
             height: 100vh;
@@ -23,7 +23,7 @@
         .fixtures-container {
             width: 100vw;
             height: 100vh;
-            background: white;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
             display: flex;
             flex-direction: column;
             overflow: hidden;
@@ -31,62 +31,70 @@
 
         .header {
             background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            padding: 10px 80px;
+            padding: 15px 40px;
             position: relative;
             flex-shrink: 0;
             text-align: center;
+            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
         }
 
         .fixtures-title {
             color: white;
-            font-size: 32px;
-            font-weight: bold;
+            font-size: 42px;
+            font-weight: 900;
             margin: 0;
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-            letter-spacing: 2px;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+            letter-spacing: 3px;
+            text-transform: uppercase;
         }
 
         .fixtures-content {
-            background: white;
+            background: transparent;
             flex: 1;
             overflow-y: auto;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            align-items: start;
         }
 
         .gms-wrapper {
-            max-width: 1600px;
-            width: 100%;
-            background: #f5f5f5;
+            background: white;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            border: 2px solid rgba(16, 185, 129, 0.1);
+            grid-column: 1 / -1;
         }
 
-        /* GMS List Styling to match header design - reduced spacing */
-        .gms-list > * + * {
-            margin-top: 0.4rem;
-            margin-bottom: 0.4rem;
+        /* Grid layout for results - 2 columns on large screens */
+        .gms-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            padding: 20px;
         }
 
         .gms-card {
             text-align: center;
-            padding: 8px 12px;
-            border-radius: 8px;
+            padding: 16px 20px;
+            border-radius: 12px;
             position: relative;
             background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            border: 1px solid rgba(16, 185, 129, 0.3);
+            border: 2px solid rgba(16, 185, 129, 0.3);
             transition: all 0.4s ease;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25);
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .gms-card:hover {
             background: linear-gradient(135deg, #059669 0%, #047857 100%);
-            transform: translateY(-2px) scale(1.005);
-            box-shadow: 0 6px 15px rgba(16, 185, 129, 0.3);
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 12px 30px rgba(16, 185, 129, 0.4);
         }
 
         .gms-card::before {
@@ -95,7 +103,7 @@
             left: 0;
             top: 0;
             bottom: 0;
-            width: 4px;
+            width: 6px;
             background: linear-gradient(180deg, #1e3a8a 0%, #3b82f6 100%);
             opacity: 0;
             transition: opacity 0.4s ease;
@@ -107,30 +115,33 @@
         }
 
         .gms-cardtitle {
-            font-weight: bold;
-            font-size: 14px;
+            font-weight: 900;
+            font-size: 16px;
             color: white;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-            margin-bottom: 6px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            margin-bottom: 12px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
+            line-height: 1.3;
         }
 
         .gms-cardfixture,
         .gms-cardscorers {
             display: flex;
-            gap: 0.5rem;
+            gap: 8px;
             align-items: center;
             justify-content: center;
+            margin-bottom: 8px;
         }
 
         .gms-cardhome,
         .gms-cardaway {
             flex: 1 1 0%;
-            font-size: 13px;
-            font-weight: bold;
+            font-size: 14px;
+            font-weight: 700;
             color: white;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            line-height: 1.4;
         }
 
         .gms-cardhome {
@@ -142,87 +153,93 @@
         }
 
         .gms-carddivide {
-            padding: 0.15rem 0.5rem;
+            padding: 0.25rem 0.75rem;
             font-size: 12px;
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.9);
             font-style: italic;
+            font-weight: 600;
         }
 
         .gms-cardtime,
         .gms-cardnoscore {
-            font-weight: bold;
-            border-radius: 6px;
+            font-weight: 800;
+            border-radius: 8px;
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             color: white;
-            padding: 4px 8px;
-            font-size: 11px;
-            border: 1px solid rgba(30, 58, 138, 0.3);
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-            margin: 4px auto;
+            padding: 8px 16px;
+            font-size: 14px;
+            border: 2px solid rgba(30, 58, 138, 0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            margin: 8px auto;
             display: inline-block;
+            line-height: 1.3;
+            min-width: 80px;
         }
 
         .gms-cardstatus {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             color: white;
-            margin: 6px auto;
+            margin: 8px auto;
             width: fit-content;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-size: 10px;
+            letter-spacing: 1px;
+            font-size: 12px;
+            line-height: 1.3;
+            box-shadow: 0 3px 10px rgba(30, 58, 138, 0.3);
         }
 
         .gms-cardscorers {
-            font-size: 11px;
-            color: rgba(255, 255, 255, 0.9);
-            margin-top: 4px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.95);
+            margin-top: 8px;
+            line-height: 1.4;
+            font-weight: 600;
         }
 
-        /* Win/Draw/Loss styling to match theme - smaller */
+        /* Win/Draw/Loss styling for TV viewing */
         .gms-form {
             display: inline-block;
-            width: 1.5rem;
-            height: 1.5rem;
+            width: 2.5rem;
+            height: 2.5rem;
             text-align: center;
-            line-height: 1.5rem;
+            line-height: 2.5rem;
             border-radius: 50%;
-            font-weight: bold;
-            font-size: 11px;
-            margin: 0 2px;
+            font-weight: 900;
+            font-size: 14px;
+            margin: 0 4px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
 
         .gms-win {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
             color: white !important;
-            box-shadow: 0 2px 4px rgba(30, 58, 138, 0.3);
         }
 
         .gms-draw {
             background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%) !important;
             color: white !important;
-            box-shadow: 0 2px 4px rgba(107, 114, 128, 0.3);
         }
 
         .gms-loss {
             background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
             color: white !important;
-            box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);
         }
 
-        /* Club team highlighting to match theme - smaller */
+        /* Club team highlighting for TV */
         .gms-clubteam:not(.gms-button),
         .gms-boldteam {
-            font-weight: 700 !important;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
-            padding: 3px 8px !important;
-            border-radius: 6px !important;
+            font-weight: 900 !important;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 100%) !important;
+            padding: 4px 12px !important;
+            border-radius: 8px !important;
             color: white !important;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
-            border: 1px solid rgba(255, 255, 255, 0.4) !important;
-            font-size: 12px !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+            border: 2px solid rgba(255, 255, 255, 0.5) !important;
+            font-size: 15px !important;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
         }
 
         /* Hide venue information */
@@ -233,137 +250,167 @@
             display: none !important;
         }
 
-        /* Custom styles for the GMS widget when it loads - compact theme */
-        .gms-wrapper .gms-list > * + * {
-            margin-top: 0.4rem !important;
-            margin-bottom: 0.4rem !important;
+        /* Date headers for TV viewing */
+        .gms-wrapper .gms-date-header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
+            color: white !important;
+            font-weight: 900 !important;
+            padding: 20px 40px !important;
+            font-size: 24px !important;
+            text-align: center !important;
+            text-transform: uppercase !important;
+            letter-spacing: 2px !important;
+            border-bottom: 4px solid #3b82f6 !important;
+            position: relative !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            grid-column: 1 / -1 !important;
+        }
+
+        .gms-wrapper .gms-date-header::after {
+            content: '' !important;
+            position: absolute !important;
+            bottom: -4px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            width: 100px !important;
+            height: 4px !important;
+            background: #fbbf24 !important;
+            border-radius: 2px !important;
+        }
+
+        /* Override GMS styles for TV display */
+        .gms-wrapper .gms-list {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            gap: 12px !important;
+            padding: 20px !important;
         }
 
         .gms-wrapper .gms-card {
             background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
-            border: 1px solid rgba(16, 185, 129, 0.3) !important;
-            border-radius: 8px !important;
-            padding: 8px 12px !important;
+            border: 2px solid rgba(16, 185, 129, 0.3) !important;
+            border-radius: 12px !important;
+            padding: 16px 20px !important;
             transition: all 0.4s ease !important;
             position: relative !important;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
-        }
-
-        .gms-wrapper .gms-card::before {
-            content: '' !important;
-            position: absolute !important;
-            left: 0 !important;
-            top: 0 !important;
-            bottom: 0 !important;
-            width: 4px !important;
-            background: linear-gradient(180deg, #1e3a8a 0%, #3b82f6 100%) !important;
-            opacity: 0 !important;
-            transition: opacity 0.4s ease !important;
-            border-radius: 12px 0 0 12px !important;
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25) !important;
+            min-height: 120px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            margin: 0 !important;
         }
 
         .gms-wrapper .gms-card:hover {
             background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
-            transform: translateY(-2px) scale(1.005) !important;
-            box-shadow: 0 6px 15px rgba(16, 185, 129, 0.3) !important;
-        }
-
-        .gms-wrapper .gms-card:hover::before {
-            opacity: 1 !important;
+            transform: translateY(-3px) scale(1.02) !important;
+            box-shadow: 0 12px 30px rgba(16, 185, 129, 0.4) !important;
         }
 
         .gms-wrapper .gms-cardtitle {
             color: white !important;
-            font-size: 14px !important;
-            font-weight: bold !important;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+            font-size: 16px !important;
+            font-weight: 900 !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
             text-transform: uppercase !important;
-            letter-spacing: 0.5px !important;
-            margin-bottom: 6px !important;
+            letter-spacing: 1px !important;
+            margin-bottom: 12px !important;
+            line-height: 1.3 !important;
         }
 
         .gms-wrapper .gms-cardhome,
         .gms-wrapper .gms-cardaway {
             color: white !important;
-            font-size: 13px !important;
-            font-weight: bold !important;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+            font-size: 14px !important;
+            font-weight: 700 !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            line-height: 1.4 !important;
         }
 
         .gms-wrapper .gms-carddivide {
-            color: rgba(255, 255, 255, 0.8) !important;
+            color: rgba(255, 255, 255, 0.9) !important;
             font-style: italic !important;
             font-size: 12px !important;
-            padding: 0.15rem 0.5rem !important;
+            padding: 0.25rem 0.75rem !important;
+            font-weight: 600 !important;
         }
 
         .gms-wrapper .gms-cardtime,
         .gms-wrapper .gms-cardnoscore {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
             color: white !important;
-            border: 1px solid rgba(30, 58, 138, 0.3) !important;
-            border-radius: 6px !important;
-            font-size: 11px !important;
-            padding: 4px 8px !important;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
-            margin: 4px auto !important;
+            border: 2px solid rgba(30, 58, 138, 0.3) !important;
+            border-radius: 8px !important;
+            font-size: 14px !important;
+            padding: 8px 16px !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            margin: 8px auto !important;
+            line-height: 1.3 !important;
+            font-weight: 800 !important;
+            min-width: 80px !important;
         }
 
         .gms-wrapper .gms-cardstatus {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
             color: white !important;
-            border-radius: 4px !important;
-            font-weight: bold !important;
-            text-transform: uppercase !important;
-            letter-spacing: 0.5px !important;
-            font-size: 10px !important;
-            padding: 3px 8px !important;
-            margin: 6px auto !important;
-        }
-
-        .gms-wrapper .gms-date-header {
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
-            color: white !important;
-            font-weight: bold !important;
-            padding: 12px 30px !important;
-            font-size: 16px !important;
-            text-align: center !important;
+            border-radius: 6px !important;
+            font-weight: 800 !important;
             text-transform: uppercase !important;
             letter-spacing: 1px !important;
-            border-bottom: 3px solid #3b82f6 !important;
-            position: relative !important;
+            font-size: 12px !important;
+            padding: 6px 12px !important;
+            margin: 8px auto !important;
+            line-height: 1.3 !important;
+            box-shadow: 0 3px 10px rgba(30, 58, 138, 0.3) !important;
         }
 
-        .gms-wrapper .gms-date-header::after {
-            content: '' !important;
-            position: absolute !important;
-            bottom: -3px !important;
-            left: 50% !important;
-            transform: translateX(-50%) !important;
-            width: 60px !important;
-            height: 3px !important;
-            background: #fbbf24 !important;
-            border-radius: 2px !important;
-        }
-
-        .gms-wrapper .gms-fixture:last-child {
-            border-bottom: none !important;
-            border-radius: 0 0 20px 20px !important;
-        }
-
-        /* Refresh countdown timer - smaller */
+        /* Refresh countdown timer for TV */
         .refresh-timer {
             position: fixed;
-            bottom: 15px;
-            left: 15px;
-            background: rgba(255, 255, 255, 0.9);
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.95);
             color: #333;
-            padding: 6px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: normal;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             z-index: 1000;
+            border: 2px solid rgba(16, 185, 129, 0.2);
+        }
+
+        /* Special styling for when there are many results */
+        @media screen and (min-width: 1920px) {
+            .gms-list {
+                grid-template-columns: 1fr 1fr 1fr 1fr !important;
+                gap: 15px !important;
+            }
+            
+            .gms-wrapper .gms-list {
+                grid-template-columns: 1fr 1fr 1fr 1fr !important;
+                gap: 15px !important;
+            }
+            
+            .gms-card {
+                min-height: 100px !important;
+                padding: 12px 16px !important;
+            }
+            
+            .gms-wrapper .gms-card {
+                min-height: 100px !important;
+                padding: 12px 16px !important;
+            }
+            
+            .gms-cardtitle {
+                font-size: 14px !important;
+                margin-bottom: 8px !important;
+            }
+            
+            .gms-wrapper .gms-cardtitle {
+                font-size: 14px !important;
+                margin-bottom: 8px !important;
+            }
         }
     </style>
 </head>
@@ -394,11 +441,10 @@
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
     
     <script>
-        // Auto-refresh functionality
+        // Auto-refresh functionality optimized for TV display
         let refreshInterval;
         let countdownInterval;
         let timeLeft = 15 * 60; // 15 minutes in seconds
-        let currentScale = 1;
 
         function updateCountdown() {
             const minutes = Math.floor(timeLeft / 60);
@@ -418,84 +464,70 @@
             }
         }
 
-        function autoScaleContent() {
-            const fixturesContent = document.querySelector('.fixtures-content');
-            const gmsWrapper = document.querySelector('.gms-wrapper');
+        function optimizeForTV() {
             const gmsCards = document.querySelectorAll('.gms-card');
+            const viewport = window.innerWidth;
             
-            if (!fixturesContent || !gmsWrapper || gmsCards.length === 0) {
-                // Retry after a short delay if content hasn't loaded yet
-                setTimeout(autoScaleContent, 500);
+            if (gmsCards.length === 0) {
+                // Retry after content loads
+                setTimeout(optimizeForTV, 1000);
                 return;
             }
 
-            // Get available space
-            const availableHeight = fixturesContent.clientHeight - 30; // Account for padding
-            const availableWidth = fixturesContent.clientWidth - 30;
-            
-            // Get current content height
-            const contentHeight = gmsWrapper.scrollHeight;
-            const contentWidth = gmsWrapper.scrollWidth;
-            
-            // Calculate scale factors
-            let heightScale = availableHeight / contentHeight;
-            let widthScale = availableWidth / contentWidth;
-            
-            // Use the smaller scale to ensure everything fits
-            let targetScale = Math.min(heightScale, widthScale, 1); // Don't scale up beyond 100%
-            
-            // Don't make it too small - minimum 60% scale
-            targetScale = Math.max(targetScale, 0.6);
-            
-            // Apply scaling if different from current scale
-            if (Math.abs(targetScale - currentScale) > 0.05) {
-                currentScale = targetScale;
+            // For 4K TVs and ultra-wide displays, use 4 columns for 16+ results
+            if (viewport >= 1920 && gmsCards.length >= 12) {
+                console.log('Optimizing for 4K TV display with 4 columns');
                 
-                // Create or update scaling stylesheet
-                let scaleStyle = document.getElementById('auto-scale-style');
-                if (!scaleStyle) {
-                    scaleStyle = document.createElement('style');
-                    scaleStyle.id = 'auto-scale-style';
-                    document.head.appendChild(scaleStyle);
-                }
-                
-                const scaleFactor = currentScale;
-                const cardPadding = Math.max(4, 8 * scaleFactor);
-                const cardMargin = Math.max(0.2, 0.4 * scaleFactor);
-                
-                scaleStyle.textContent = `
-                    .gms-wrapper {
-                        transform: scale(${scaleFactor});
-                        transform-origin: top center;
-                        width: ${100 / scaleFactor}% !important;
-                        margin: 0 auto;
+                // Apply 4-column layout for large datasets
+                const styleSheet = document.getElementById('tv-optimization') || document.createElement('style');
+                styleSheet.id = 'tv-optimization';
+                styleSheet.textContent = `
+                    .gms-list {
+                        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+                        gap: 10px !important;
+                        padding: 15px !important;
                     }
                     
-                    .gms-wrapper .gms-list > * + * {
-                        margin-top: ${cardMargin}rem !important;
-                        margin-bottom: ${cardMargin}rem !important;
+                    .gms-wrapper .gms-list {
+                        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+                        gap: 10px !important;
+                        padding: 15px !important;
+                    }
+                    
+                    .gms-card {
+                        min-height: 90px !important;
+                        padding: 10px 14px !important;
                     }
                     
                     .gms-wrapper .gms-card {
-                        padding: ${cardPadding}px ${cardPadding + 4}px !important;
+                        min-height: 90px !important;
+                        padding: 10px 14px !important;
                     }
                     
-                    .fixtures-content {
-                        overflow: hidden !important;
+                    .gms-cardtitle {
+                        font-size: 13px !important;
+                        margin-bottom: 6px !important;
+                    }
+                    
+                    .gms-wrapper .gms-cardtitle {
+                        font-size: 13px !important;
+                        margin-bottom: 6px !important;
+                    }
+                    
+                    .gms-cardhome, .gms-cardaway {
+                        font-size: 12px !important;
+                    }
+                    
+                    .gms-wrapper .gms-cardhome, 
+                    .gms-wrapper .gms-cardaway {
+                        font-size: 12px !important;
                     }
                 `;
                 
-                console.log(`Auto-scaled content to ${Math.round(scaleFactor * 100)}%`);
+                if (!document.getElementById('tv-optimization')) {
+                    document.head.appendChild(styleSheet);
+                }
             }
-        }
-
-        // Debounced resize handler
-        let resizeTimeout;
-        function handleResize() {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(() => {
-                autoScaleContent();
-            }, 250);
         }
 
         function refreshGMSData() {
@@ -516,7 +548,6 @@
                 
                 // Re-trigger GMS API call
                 if (typeof window.gmsAPI !== 'undefined' && window.gmsAPI.refresh) {
-                    // If GMS API has a refresh method
                     window.gmsAPI.refresh(wrapper);
                 } else {
                     // Alternative: reload the script to trigger fresh data
@@ -526,9 +557,7 @@
                         const newScript = document.createElement('script');
                         newScript.src = 'https://gmsfeed.co.uk/js/api.js';
                         newScript.onload = function() {
-                            // GMS should automatically process the wrapper after script load
-                            // Re-scale content after refresh
-                            setTimeout(autoScaleContent, 1000);
+                            setTimeout(optimizeForTV, 1000);
                         };
                         document.body.appendChild(newScript);
                     }
@@ -544,7 +573,6 @@
             } catch (error) {
                 console.error('Error refreshing GMS data:', error);
                 
-                // Reset indicator on error
                 if (indicator) {
                     indicator.innerHTML = 'Next refresh in: <span id="countdown">15:00</span>';
                 }
@@ -552,10 +580,7 @@
         }
 
         function startAutoRefresh() {
-            // Start countdown timer (updates every second)
             countdownInterval = setInterval(updateCountdown, 1000);
-            
-            // Initial countdown display
             updateCountdown();
         }
 
@@ -567,7 +592,6 @@
             const observer = new MutationObserver((mutations) => {
                 mutations.forEach((mutation) => {
                     if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
-                        // Check if GMS content was added
                         const hasGMSContent = Array.from(mutation.addedNodes).some(node => 
                             node.nodeType === 1 && (
                                 node.classList?.contains('gms-card') || 
@@ -578,8 +602,7 @@
                         );
                         
                         if (hasGMSContent) {
-                            // Wait a moment for all content to render, then scale
-                            setTimeout(autoScaleContent, 500);
+                            setTimeout(optimizeForTV, 500);
                         }
                     }
                 });
@@ -590,22 +613,21 @@
                 subtree: true
             });
 
-            // Also try scaling after initial load
-            setTimeout(autoScaleContent, 2000);
-            setTimeout(autoScaleContent, 4000); // Backup attempt
+            // Initial optimization attempts
+            setTimeout(optimizeForTV, 2000);
+            setTimeout(optimizeForTV, 5000);
         }
 
-        // Initialize auto-refresh when page loads
+        // Initialize everything when page loads
         window.addEventListener('load', function() {
-            // Wait a moment for GMS to initialize, then start auto-refresh
             setTimeout(startAutoRefresh, 2000);
-            
-            // Start observing for GMS content
             observeGMSContent();
         });
 
-        // Handle window resize
-        window.addEventListener('resize', handleResize);
+        // Handle window resize for TV
+        window.addEventListener('resize', function() {
+            setTimeout(optimizeForTV, 300);
+        });
 
         // Cleanup intervals when page unloads
         window.addEventListener('beforeunload', function() {
@@ -613,15 +635,13 @@
             if (countdownInterval) clearInterval(countdownInterval);
         });
 
-        // Optional: Add manual refresh capability
+        // Manual controls (useful for testing)
         document.addEventListener('keydown', function(e) {
-            // Press 'R' key to manually refresh
             if (e.key === 'r' || e.key === 'R') {
                 timeLeft = 0; // Trigger immediate refresh
             }
-            // Press 'S' key to manually trigger scaling
-            if (e.key === 's' || e.key === 'S') {
-                autoScaleContent();
+            if (e.key === 'o' || e.key === 'O') {
+                optimizeForTV(); // Manual optimization
             }
         });
     </script>

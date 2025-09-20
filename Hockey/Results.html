@@ -4,314 +4,238 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelmsford Hockey Club Fixtures</title>
-    <!-- Link to Poppins font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
     <style>
-        /* General Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Hide everything in body except .gms-wrapper */
-        body > *:not(.gms-wrapper):not(.refresh-indicator) {
-            display: none !important;
-        }
-
-        /* Inside .gms-wrapper hide everything except the table */
-        .gms-wrapper > *:not(.gms-table-fixtures) {
-            display: none !important;
-        }
-
-        /* Body Styling - Responsive */
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #000;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .fixtures-container {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%);
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-            padding: 10px;
-            overflow-x: auto;
-        }
-
-        /* Refresh Indicator - Responsive positioning */
-        .refresh-indicator {
-            position: fixed;
-            bottom: 10px;
-            left: 10px;
-            font-family: 'Poppins', sans-serif;
-            font-size: clamp(12px, 2vw, 14px);
-            font-weight: 400;
-            color: #666;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 8px 12px;
-            border-radius: 4px;
-            z-index: 1000;
-            transition: color 0.3s ease;
-            backdrop-filter: blur(5px);
-        }
-
-        .refresh-indicator.refreshing {
-            color: #007bff;
-        }
-
-        /* Table Container - Fully responsive */
-        .gms-wrapper {
-            width: 100%;
-            max-width: none;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: auto;
-            position: relative;
-            margin-bottom: 60px;
-        }
-
-        /* Loading overlay */
-        .loading-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(255, 255, 255, 0.8);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 100;
-            font-size: clamp(14px, 2.5vw, 16px);
-        }
-
-        .loading-overlay.active {
-            display: flex;
-        }
-
-        /* Table Styling - Responsive */
-        .gms-table-fixtures {
-            width: 100%;
-            min-width: 600px; /* Minimum width to prevent over-compression */
-            border-collapse: collapse;
-            text-align: left;
-            font-weight: 400;
-            font-size: clamp(12px, 2vw, 16px);
-        }
-
-        .gms-table-fixtures th,
-        .gms-table-fixtures td {
-            padding: clamp(8px, 2vw, 15px) clamp(6px, 1.5vw, 12px);
-            border-bottom: 1px solid #ddd;
-            white-space: nowrap;
             overflow: hidden;
-            text-overflow: ellipsis;
         }
 
-        /* Remove all background colors except header */
-        .gms-table-fixtures td,
-        .gms-table-fixtures tr:nth-child(even),
-        .gms-table-fixtures tr:hover {
-            background-color: transparent !important;
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%);
+            padding: 60px 80px;
+            position: relative;
+            flex-shrink: 0;
+            text-align: center;
         }
 
-        /* Header row: black background, white text */
-        .gms-table-fixtures th {
-            background-color: black !important;
+        .fixtures-title {
+            color: white;
+            font-size: 120px;
+            font-weight: bold;
+            margin: 0;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+            letter-spacing: 4px;
+        }
+
+        .fixtures-content {
+            background: #10b981;
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+        }
+
+        .gms-wrapper {
+            max-width: 1400px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .date-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            color: white;
+            padding: 25px 60px;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #10b981;
+        }
+
+        .fixture-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 60px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            color: white;
+            transition: all 0.3s ease;
+            min-height: 100px;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+        }
+
+        .fixture-item:hover {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
+            transform: translateX(5px);
+        }
+
+        .fixture-item:last-child {
+            border-bottom: none;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .fixture-item:nth-child(even) {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+        }
+
+        .fixture-item:nth-child(even):hover {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.1) 100%);
+        }
+
+        .fixture-details {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .fixture-type {
+            font-weight: bold;
+            min-width: 200px;
+            font-size: 28px;
+            color: #fbbf24;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .vs-text {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 24px;
+            margin: 0 15px;
+            font-weight: 300;
+        }
+
+        .opponent {
+            font-weight: 600;
+            color: #1e3a8a;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-size: 26px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .fixture-time {
+            font-weight: bold;
+            color: #dc2626;
+            font-size: 32px;
+            min-width: 120px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+            padding: 15px 25px;
+            border-radius: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Custom styles for the GMS widget when it loads */
+        .gms-wrapper .gms-fixture {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
             color: white !important;
-            font-weight: 700 !important;
-            position: sticky;
-            top: 0;
-            z-index: 10;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+            padding: 30px 60px !important;
+            font-size: 26px !important;
+            min-height: 100px !important;
+            transition: all 0.3s ease !important;
         }
 
-        /* Set all cell text to black and normal weight */
-        .gms-table-fixtures td {
-            color: black !important;
-            font-weight: 400 !important;
+        .gms-wrapper .gms-fixture:hover {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%) !important;
+            transform: translateX(5px) !important;
         }
 
-        /* Hide Date and Venue Columns */
-        .gms-table-fixtures th:nth-child(1),
-        .gms-table-fixtures td:nth-child(1),
-        .gms-table-fixtures th:nth-child(5),
-        .gms-table-fixtures td:nth-child(5) {
-            display: none;
+        .gms-wrapper .gms-fixture:nth-child(even) {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
         }
 
-        /* 55" TV Display Optimizations */
-        @media screen and (min-width: 1920px) {
-            .gms-table-fixtures {
-                font-size: clamp(18px, 1.8vw, 34px);
-            }
-            
-            .gms-table-fixtures th {
-                font-size: clamp(20px, 2vw, 38px);
-            }
-            
-            .gms-table-fixtures th,
-            .gms-table-fixtures td {
-                padding: clamp(12px, 1.6vw, 24px) clamp(16px, 2vw, 32px);
-            }
+        .gms-wrapper .gms-fixture:nth-child(even):hover {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.1) 100%) !important;
         }
 
-        /* 4K TV Optimization for 55" */
-        @media screen and (min-width: 3840px) {
-            .gms-table-fixtures {
-                font-size: clamp(22px, 1.3vw, 42px);
-            }
-            
-            .gms-table-fixtures th {
-                font-size: clamp(24px, 1.5vw, 46px);
-            }
-            
-            .gms-table-fixtures th,
-            .gms-table-fixtures td {
-                padding: clamp(14px, 1.3vw, 28px) clamp(18px, 1.6vw, 36px);
-            }
-            
-            .refresh-indicator {
-                font-size: clamp(16px, 1vw, 22px);
-                padding: 10px 20px;
-            }
+        .gms-wrapper .gms-date-header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%) !important;
+            color: white !important;
+            font-weight: bold !important;
+            padding: 25px 60px !important;
+            font-size: 32px !important;
+            text-align: center !important;
+            text-transform: uppercase !important;
+            letter-spacing: 2px !important;
+            border-bottom: 3px solid #10b981 !important;
         }
 
-        /* Mobile optimizations - kept for tablet/smaller displays */
-        @media screen and (max-width: 768px) {
-            body {
-                padding: 2px;
-            }
-
-            .gms-wrapper {
-                width: 100vw;
-                height: calc(100vh - 10px);
-                border-radius: 4px;
-                margin: 2px 0;
-            }
-
-            .gms-table-fixtures {
-                font-size: clamp(14px, 4vw, 24px);
-            }
-
-            .gms-table-fixtures th,
-            .gms-table-fixtures td {
-                padding: clamp(8px, 2vw, 16px) clamp(10px, 2.5vw, 20px);
-            }
-
-            .refresh-indicator {
-                font-size: clamp(12px, 3vw, 18px);
-                padding: 6px 12px;
-                bottom: 5px;
-                left: 5px;
-            }
+        .gms-wrapper .gms-fixture:last-child {
+            border-bottom: none !important;
+            border-radius: 0 0 20px 20px !important;
         }
 
-        /* Extra small screens */
-        @media screen and (max-width: 480px) {
-            .gms-table-fixtures {
-                font-size: clamp(12px, 5vw, 20px);
-            }
-
-            .gms-table-icals th,
-            .gms-table-fixtures td {
-                padding: clamp(6px, 1.5vw, 14px) clamp(8px, 2vw, 16px);
-            }
-
-            /* Allow text wrapping on very small screens */
-            .gms-table-fixtures th,
-            .gms-table-fixtures td {
-                white-space: normal;
-                word-break: break-word;
-            }
-        }
-
-        /* Large screens optimization for 55" */
-        @media screen and (min-width: 1200px) {
-            .gms-wrapper {
-                width: 99vw;
-                height: calc(99vh - 10px);
-            }
-            
-            .gms-table-fixtures {
-                font-size: clamp(16px, 2vw, 30px);
-            }
-            
-            .gms-table-fixtures th {
-                font-size: clamp(18px, 2.2vw, 34px);
-            }
-        }
-
-        /* Extra large screens for 55" */
-        @media screen and (min-width: 1600px) {
-            .gms-table-fixtures {
-                font-size: clamp(17px, 1.9vw, 32px);
-            }
-            
-            .gms-table-fixtures th {
-                font-size: clamp(19px, 2.1vw, 36px);
-            }
-            
-            .gms-table-fixtures th,
-            .gms-table-fixtures td {
-                padding: clamp(11px, 1.7vw, 22px) clamp(15px, 1.9vw, 30px);
-            }
-        }
-
-        /* Landscape orientation on mobile */
-        @media screen and (max-width: 768px) and (orientation: landscape) {
-            body {
-                justify-content: flex-start;
-                padding: 2px;
-            }
-            
-            .gms-wrapper {
-                height: calc(100vh - 5px);
-            }
-            
-            .refresh-indicator {
-                position: absolute;
-                bottom: 2px;
-            }
-        }
-
-        /* Print styles */
-        @media print {
-            .refresh-indicator,
-            .loading-overlay {
-                display: none !important;
-            }
-            
-            body {
-                background-color: white;
-                padding: 0;
-            }
-            
-            .gms-wrapper {
-                box-shadow: none;
-                border: 1px solid #ccc;
-            }
+        /* Refresh countdown timer */
+        .refresh-timer {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: normal;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
         }
     </style>
 </head>
 <body>
-    <div class="refresh-indicator" id="refreshIndicator">
-        Next refresh in <span id="countdown">15:00</span>
-    </div>
-
-    <div class="gms-wrapper gms-ajax"
-         id="gmsWrapper"
-         data-method="api-dynamic"
-         data-show="fixtures"
-         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
-         data-sort_by="fixtureTime"
-         data-options="showGender:yes"
-         data-options="showDetail:yes">
-        <div class="loading-overlay" id="loadingOverlay">
-            <div>Refreshing fixtures...</div>
+    <div class="fixtures-container">
+        <div class="header">
+            <h1 class="fixtures-title">FIXTURES</h1>
+        </div>
+        
+        <div class="fixtures-content">
+            <div class="gms-wrapper gms-ajax" 
+                 data-method="api-static" 
+                 data-show="results" 
+                 data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
+                 data-whatson="3" 
+                 data-sort_by="fixtureTime" 
+                 data-options="showList:yes,showGender:yes">
+            </div>
+        </div>
+        
+        <!-- Refresh countdown timer -->
+        <div class="refresh-timer" id="refreshTimer">
+            Next refresh in: <span id="countdown">15:00</span>
         </div>
     </div>
-
+    
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
     
     <script>
@@ -339,22 +263,16 @@
         }
 
         function refreshGMSData() {
-            const indicator = document.getElementById('refreshIndicator');
-            const loadingOverlay = document.getElementById('loadingOverlay');
-            const wrapper = document.getElementById('gmsWrapper');
+            const indicator = document.getElementById('refreshTimer');
+            const wrapper = document.querySelector('.gms-wrapper');
             
             // Show refreshing state
             if (indicator) {
-                indicator.classList.add('refreshing');
                 indicator.innerHTML = 'Refreshing fixtures...';
             }
             
-            if (loadingOverlay) {
-                loadingOverlay.classList.add('active');
-            }
-            
             try {
-                // Clear existing content except loading overlay
+                // Clear existing content
                 const existingTable = wrapper.querySelector('.gms-table-fixtures');
                 if (existingTable) {
                     existingTable.remove();
@@ -373,11 +291,6 @@
                         newScript.src = 'https://gmsfeed.co.uk/js/api.js';
                         newScript.onload = function() {
                             // GMS should automatically process the wrapper after script load
-                            setTimeout(() => {
-                                if (loadingOverlay) {
-                                    loadingOverlay.classList.remove('active');
-                                }
-                            }, 2000);
                         };
                         document.body.appendChild(newScript);
                     }
@@ -386,11 +299,7 @@
                 // Reset indicator after a delay
                 setTimeout(() => {
                     if (indicator) {
-                        indicator.classList.remove('refreshing');
-                        indicator.innerHTML = 'Next refresh in <span id="countdown">15:00</span>';
-                    }
-                    if (loadingOverlay) {
-                        loadingOverlay.classList.remove('active');
+                        indicator.innerHTML = 'Next refresh in: <span id="countdown">15:00</span>';
                     }
                 }, 3000);
                 
@@ -399,11 +308,7 @@
                 
                 // Reset indicator on error
                 if (indicator) {
-                    indicator.classList.remove('refreshing');
-                    indicator.innerHTML = 'Next refresh in <span id="countdown">15:00</span>';
-                }
-                if (loadingOverlay) {
-                    loadingOverlay.classList.remove('active');
+                    indicator.innerHTML = 'Next refresh in: <span id="countdown">15:00</span>';
                 }
             }
         }
@@ -434,16 +339,6 @@
             if (e.key === 'r' || e.key === 'R') {
                 timeLeft = 0; // Trigger immediate refresh
             }
-        });
-
-        // Handle orientation changes on mobile
-        window.addEventListener('orientationchange', function() {
-            // Small delay to allow for orientation change completion
-            setTimeout(() => {
-                // Force a repaint to ensure proper scaling
-                document.body.style.height = 'auto';
-                document.body.offsetHeight; // Trigger reflow
-            }, 100);
         });
     </script>
 </body>

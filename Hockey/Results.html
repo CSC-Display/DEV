@@ -237,11 +237,19 @@
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
         }
 
-        /* Hide venue information */
+        /* Hide venue information and England Hockey link */
         .gms-venue,
         .gms-cardvenue,
         .gms-card .gms-venue,
-        .gms-directions-card {
+        .gms-directions-card,
+        .gms-link,
+        .gms-footer-link,
+        .gms-external-link,
+        a[href*="englandhockey"],
+        *[class*="link"]:contains("England Hockey"),
+        .gms-card-footer,
+        .gms-footer,
+        .gms-message {
             display: none !important;
         }
 

@@ -1,5 +1,5 @@
-/* Simple Table Card Design - Style.css */
-/* Works with the existing table structure */
+/* Practical List Design CSS - Style.css */
+/* Works with the actual list structure from the API */
 
 * {
     box-sizing: border-box;
@@ -11,6 +11,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #f8f9fa;
     padding: 20px;
+    line-height: 1.4;
 }
 
 /* Main container */
@@ -21,207 +22,208 @@ body {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    padding: 16px 0;
 }
 
-/* Table styling */
-.gms-wrapper table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-}
-
-/* Hide table headers */
-.gms-wrapper thead {
-    display: none;
-}
-
-/* Table body */
-.gms-wrapper tbody {
-    display: table-row-group;
-}
-
-/* Each row becomes a card-like item */
-.gms-wrapper tr {
-    display: table-row;
-    border-bottom: 1px solid #f1f3f4;
-    transition: background-color 0.2s;
-}
-
-.gms-wrapper tr:hover {
-    background-color: #f8f9fa;
-}
-
-.gms-wrapper tr:last-child {
-    border-bottom: none;
-}
-
-/* Table cells */
-.gms-wrapper td {
-    padding: 12px 8px;
-    vertical-align: middle;
-    border: none;
-    font-size: 14px;
-}
-
-/* Date column (first column) */
-.gms-wrapper td:nth-child(1) {
+/* Division header */
+.gms-wrapper > div:first-child,
+.gms-wrapper > *:first-child {
+    background-color: transparent;
     color: #16a34a;
+    font-size: 14px;
     font-weight: 600;
-    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    width: 80px;
-    padding-left: 20px;
+    padding: 0 20px 12px 20px;
+    margin: 0;
+    border-bottom: 1px solid #f1f3f4;
+    margin-bottom: 16px;
 }
 
-/* Team names (2nd and 6th columns) */
-.gms-wrapper td:nth-child(2),
-.gms-wrapper td:nth-child(6) {
+/* All content elements */
+.gms-wrapper > * {
+    display: block;
+    margin: 0;
+    padding: 2px 20px;
+    line-height: 1.5;
+}
+
+/* Style elements that look like dates */
+.gms-wrapper > *[class*="date"],
+.gms-wrapper > div:nth-child(2n),
+.gms-wrapper > p:nth-child(2n) {
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 20px 4px 20px;
+    margin-top: 8px;
+    border-top: 1px solid #f8f9fa;
+}
+
+/* Team names - every 3rd element pattern */
+.gms-wrapper > div:nth-child(4n+3),
+.gms-wrapper > p:nth-child(4n+3),
+.gms-wrapper > div:nth-child(4n+1):not(:first-child) {
     font-weight: 600;
     color: #111827;
     font-size: 16px;
-    min-width: 120px;
-}
-
-/* Score columns (3rd and 5th columns) */
-.gms-wrapper td:nth-child(3),
-.gms-wrapper td:nth-child(5) {
-    background-color: #000000;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 6px;
-    width: 40px;
-    height: 32px;
+    padding: 6px 20px 2px 56px;
     position: relative;
 }
 
-/* Colon separator (4th column) */
-.gms-wrapper td:nth-child(4) {
-    text-align: center;
-    color: #6b7280;
-    font-weight: bold;
-    width: 20px;
-    font-size: 18px;
+/* Scores - elements that contain colon pattern */
+.gms-wrapper > div:nth-child(4n+4),
+.gms-wrapper > p:nth-child(4n+4) {
+    font-weight: 700;
+    color: #111827;
+    font-size: 16px;
+    padding: 2px 20px 2px 56px;
+    position: relative;
 }
 
-/* Venue column (7th column) */
-.gms-wrapper td:nth-child(7) {
-    color: #6b7280;
+/* Add generic team logos */
+.gms-wrapper > div:nth-child(4n+3)::before,
+.gms-wrapper > p:nth-child(4n+3)::before,
+.gms-wrapper > div:nth-child(4n+1):not(:first-child)::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #16a34a;
+    border: 2px solid #15803d;
+}
+
+/* Alternate logo colors */
+.gms-wrapper > div:nth-child(8n+7)::before,
+.gms-wrapper > div:nth-child(8n+1):not(:first-child)::before {
+    background: linear-gradient(135deg, #dc2626, #1e40af);
+    border: none;
+}
+
+.gms-wrapper > div:nth-child(12n+11)::before {
+    background-color: #7c3aed;
+    border: 2px solid #6d28d9;
+}
+
+/* Venue links */
+.gms-wrapper a {
+    color: #1d4ed8;
+    text-decoration: none;
     font-size: 14px;
-    font-style: italic;
-}
-
-/* Add some breathing room */
-.gms-wrapper td:first-child {
-    padding-left: 20px;
-}
-
-.gms-wrapper td:last-child {
-    padding-right: 20px;
-}
-
-/* Make it look more card-like with better spacing */
-.gms-wrapper tr {
-    height: 60px;
-}
-
-/* Add division header styling */
-.gms-wrapper::before {
-    content: "DIVISION RESULTS";
+    padding: 2px 20px 12px 56px;
     display: block;
+    border-bottom: 1px solid #f1f3f4;
+    margin-bottom: 8px;
+}
+
+.gms-wrapper a:hover {
+    text-decoration: underline;
     background-color: #f8f9fa;
-    color: #16a34a;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 16px 20px 8px;
-    border-bottom: 1px solid #e5e7eb;
+}
+
+.gms-wrapper a:last-child {
+    border-bottom: none;
+}
+
+/* Clean up line breaks */
+.gms-wrapper br {
+    display: none;
+}
+
+/* Add visual separation between matches */
+.gms-wrapper > div:nth-child(8n+1):not(:first-child) {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f3f4;
+}
+
+/* Score styling - try to style numbers that look like scores */
+.gms-wrapper > *:nth-child(4n+4) {
+    position: relative;
+}
+
+.gms-wrapper > *:nth-child(4n+4)::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 24px;
+    background-color: #000000;
+    border-radius: 4px;
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     body {
         padding: 10px;
     }
     
     .gms-wrapper {
         border-radius: 8px;
+        padding: 12px 0;
     }
     
-    .gms-wrapper td {
-        padding: 8px 4px;
+    .gms-wrapper > * {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .gms-wrapper > div:nth-child(4n+3),
+    .gms-wrapper > p:nth-child(4n+3),
+    .gms-wrapper > div:nth-child(4n+1):not(:first-child) {
+        font-size: 15px;
+        padding-left: 48px;
+    }
+    
+    .gms-wrapper > div:nth-child(4n+4),
+    .gms-wrapper > p:nth-child(4n+4) {
+        padding-left: 48px;
+    }
+    
+    .gms-wrapper > div:nth-child(4n+3)::before,
+    .gms-wrapper > p:nth-child(4n+3)::before,
+    .gms-wrapper > div:nth-child(4n+1):not(:first-child)::before {
+        left: 16px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .gms-wrapper a {
+        padding-left: 48px;
         font-size: 13px;
-    }
-    
-    .gms-wrapper td:nth-child(1) {
-        width: 60px;
-        font-size: 11px;
-        padding-left: 12px;
-    }
-    
-    .gms-wrapper td:nth-child(2),
-    .gms-wrapper td:nth-child(6) {
-        font-size: 14px;
-        min-width: 100px;
-    }
-    
-    .gms-wrapper td:nth-child(3),
-    .gms-wrapper td:nth-child(5) {
-        width: 32px;
-        height: 28px;
-        font-size: 14px;
-    }
-    
-    .gms-wrapper tr {
-        height: 50px;
-    }
-    
-    /* Hide venue on very small screens */
-    .gms-wrapper td:nth-child(7) {
-        display: none;
     }
 }
 
-@media (max-width: 480px) {
-    .gms-wrapper td:nth-child(7) {
-        display: none;
-    }
-    
-    .gms-wrapper td:nth-child(1) {
-        width: 50px;
-        padding-left: 8px;
-    }
+/* Better visual hierarchy */
+.gms-wrapper > *:first-child {
+    position: relative;
+}
+
+.gms-wrapper > *:first-child::after {
+    content: "20 Sep";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 14px;
 }
 
 /* Loading state */
 .gms-wrapper:empty::before {
-    content: "Loading results..." !important;
-    display: block !important;
+    content: "Loading results...";
+    display: block;
     text-align: center;
     padding: 40px 20px;
     color: #6b7280;
     font-style: italic;
-    background: white;
-}
-
-/* Clean up any default styles */
-.gms-wrapper table,
-.gms-wrapper tbody,
-.gms-wrapper tr,
-.gms-wrapper td {
-    border: none;
-    margin: 0;
-}
-
-/* Make sure the layout works */
-.gms-wrapper {
-    display: block;
-}
-
-.gms-wrapper table {
-    display: table;
-    width: 100%;
 }

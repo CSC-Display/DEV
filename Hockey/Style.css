@@ -1,5 +1,5 @@
-/* Sports Results Design CSS - Style.css */
-/* Replicates the exact design from the image */
+/* Table to Card Layout CSS - Style.css */
+/* Transforms the table format into card-based design */
 
 * {
     box-sizing: border-box;
@@ -14,160 +14,81 @@ body {
     line-height: 1.4;
 }
 
-/* Main container */
-.gms-wrapper {
+/* Hide the table structure and recreate as cards */
+.gms-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    background: transparent;
+}
+
+/* Hide table headers */
+.gms-wrapper thead,
+.gms-wrapper th {
+    display: none;
+}
+
+/* Transform table body */
+.gms-wrapper tbody {
+    display: block;
     background: white;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
-/* Division headers */
-.gms-wrapper h2,
-.gms-wrapper h3,
-.gms-wrapper > div:first-child {
-    background-color: transparent;
+/* Transform each table row into a card */
+.gms-wrapper tr {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #f1f3f4;
+    background: white;
+    margin: 0;
+}
+
+.gms-wrapper tr:last-child {
+    border-bottom: none;
+}
+
+/* Create the card layout */
+.gms-wrapper td {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Date column - positioned top left */
+.gms-wrapper td:nth-child(1) {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    font-size: 12px;
     color: #16a34a;
-    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    padding: 16px 20px 8px 20px;
-    margin: 0;
-    border: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    line-height: 1.2;
 }
 
-/* Date styling in headers */
-.gms-wrapper h2::after,
-.gms-wrapper h3::after {
-    content: "20 Sep";
-    color: #6b7280;
-    font-weight: 500;
-    text-transform: none;
-    letter-spacing: normal;
-}
-
-/* Match containers */
-.gms-wrapper > div,
-.gms-match-container {
-    background: white;
-    margin: 0;
-    padding: 0;
-}
-
-/* Individual match items */
-.gms-wrapper div div,
-.gms-match-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 20px;
-    border-bottom: 1px solid #f1f3f4;
-    position: relative;
-}
-
-.gms-wrapper div div:last-child {
-    border-bottom: none;
-    margin-bottom: 16px;
-}
-
-/* Team section (left side) */
-.gms-team-section {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
-
-/* Team logos */
-.gms-team-logo,
-.team-logo {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    margin-right: 12px;
-    flex-shrink: 0;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Brentwood logo - red/blue gradient with white center */
-.brentwood-logo,
-[src*="brentwood" i],
-.gms-team-logo:nth-of-type(odd) {
-    background: linear-gradient(135deg, #dc2626, #1e40af);
-    position: relative;
-}
-
-.brentwood-logo::after,
-[src*="brentwood" i]::after {
-    content: '';
+/* First team - positioned left side */
+.gms-wrapper td:nth-child(2) {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 8px;
-    height: 8px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-/* Chelmsford logo - green with white cross */
-.chelmsford-logo,
-[src*="chelmsford" i],
-.gms-team-logo:nth-of-type(even) {
-    background-color: #16a34a;
-    border: 2px solid #15803d;
-    position: relative;
-}
-
-.chelmsford-logo::after,
-[src*="chelmsford" i]::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 12px;
-    height: 2px;
-    background-color: white;
-}
-
-.chelmsford-logo::before,
-[src*="chelmsford" i]::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
-    width: 12px;
-    height: 2px;
-    background-color: white;
-}
-
-/* Team names and numbers */
-.gms-team-name,
-.team-name {
+    top: 50px;
+    left: 20px;
     font-size: 16px;
     font-weight: 600;
     color: #111827;
-    margin-right: 4px;
 }
 
-.gms-team-number,
-.team-number {
-    font-size: 16px;
-    font-weight: 600;
-    color: #6b7280;
-}
-
-/* Scores */
-.gms-score,
-.score {
+/* First score - positioned after first team */
+.gms-wrapper td:nth-child(3) {
+    position: absolute;
+    top: 45px;
+    left: 200px;
     background-color: #000000;
     color: white;
     font-size: 16px;
@@ -178,24 +99,116 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 8px;
 }
 
-/* Venue/location info */
-.gms-venue,
-.venue-info {
+/* Colon separator - hidden or minimal */
+.gms-wrapper td:nth-child(4) {
+    display: none;
+}
+
+/* Second score - positioned next to first score */
+.gms-wrapper td:nth-child(5) {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Second team - positioned below scores */
+.gms-wrapper td:nth-child(6) {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Venue - positioned bottom left */
+.gms-wrapper td:nth-child(7) {
+    position: absolute;
+    top: 110px;
+    left: 56px;
     font-size: 14px;
     color: #6b7280;
-    margin-top: 4px;
-    padding-left: 36px;
-    display: block;
 }
 
-/* Next arrow indicators */
-.gms-wrapper div div::after {
+/* Set minimum height for each row/card */
+.gms-wrapper tr {
+    min-height: 140px;
+    padding: 16px 20px;
+    margin-bottom: 1px;
+}
+
+/* Add team logos */
+.gms-wrapper td:nth-child(2)::before,
+.gms-wrapper td:nth-child(6)::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Chelmsford logos - green with cross */
+.gms-wrapper td:nth-child(2):contains("CHELMSFORD")::before,
+.gms-wrapper td:nth-child(6):contains("CHELMSFORD")::before,
+.gms-wrapper tr:nth-child(odd) td:nth-child(2)::before,
+.gms-wrapper tr:nth-child(even) td:nth-child(6)::before {
+    background-color: #16a34a;
+    border: 2px solid #15803d;
+}
+
+/* Brentwood logos - red/blue gradient */
+.gms-wrapper td:nth-child(2):contains("BRENTWOOD")::before,
+.gms-wrapper td:nth-child(6):contains("BRENTWOOD")::before,
+.gms-wrapper tr:nth-child(even) td:nth-child(2)::before,
+.gms-wrapper tr:nth-child(odd) td:nth-child(6)::before {
+    background: linear-gradient(135deg, #dc2626, #1e40af);
+}
+
+/* Waltham Forest logos - different color */
+.gms-wrapper td:nth-child(2):contains("WALTHAM")::before,
+.gms-wrapper td:nth-child(6):contains("WALTHAM")::before {
+    background-color: #7c3aed;
+}
+
+/* Date header styling - create division headers */
+.gms-wrapper tr:first-child td:nth-child(1)::after {
+    content: "DIVISION 4 SOUTH EAST";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    right: 0;
+    background: white;
+    color: #16a34a;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 16px 20px 8px;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+/* Add arrow indicators */
+.gms-wrapper tr::after {
     content: '›';
     position: absolute;
-    right: -8px;
+    right: 12px;
     top: 50%;
     transform: translateY(-50%);
     color: #d1d5db;
@@ -203,75 +216,56 @@ body {
     font-weight: 300;
 }
 
-/* Specific targeting for generated content */
-.gms-wrapper [class*="team"],
-.gms-wrapper [class*="match"] {
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-}
-
-/* Target any text that looks like team names */
-.gms-wrapper strong,
-.gms-wrapper b,
-.gms-wrapper span:first-child {
-    font-weight: 600;
-    color: #111827;
-}
-
-/* Target any text that looks like scores */
-.gms-wrapper span:last-child,
-.gms-wrapper [class*="score"] {
-    background-color: #000000;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-weight: 700;
-    min-width: 32px;
-    text-align: center;
-}
-
 /* Responsive design */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     body {
         padding: 10px;
     }
     
-    .gms-wrapper {
-        margin: 0;
-        border-radius: 8px;
+    .gms-wrapper tr {
+        min-height: 120px;
+        padding: 12px 16px;
     }
     
-    .gms-wrapper div div {
-        padding: 10px 15px;
+    .gms-wrapper td:nth-child(1) {
+        left: 16px;
+        font-size: 11px;
     }
     
-    .gms-team-name,
-    .team-name {
+    .gms-wrapper td:nth-child(2),
+    .gms-wrapper td:nth-child(6) {
+        left: 16px;
         font-size: 15px;
     }
     
-    .gms-score,
-    .score {
+    .gms-wrapper td:nth-child(3) {
+        left: 180px;
         min-width: 28px;
         height: 28px;
         font-size: 14px;
     }
     
-    .gms-venue,
-    .venue-info {
-        padding-left: 31px;
+    .gms-wrapper td:nth-child(5) {
+        left: 220px;
+        min-width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+    
+    .gms-wrapper td:nth-child(7) {
+        left: 48px;
         font-size: 13px;
     }
 }
 
-/* Force layout for any dynamically loaded content */
-.gms-wrapper > * {
+/* Force specific layout */
+.gms-wrapper {
     display: block !important;
 }
 
-.gms-wrapper div {
-    position: relative;
+.gms-wrapper table {
+    display: table !important;
+    table-layout: fixed;
 }
 
 /* Loading state */

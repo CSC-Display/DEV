@@ -398,6 +398,7 @@
         let refreshInterval;
         let countdownInterval;
         let timeLeft = 15 * 60; // 15 minutes in seconds
+        let currentScale = 1;
 
         function updateCountdown() {
             const minutes = Math.floor(timeLeft / 60);
@@ -415,6 +416,86 @@
                 refreshGMSData();
                 timeLeft = 15 * 60; // Reset to 15 minutes
             }
+        }
+
+        function autoScaleContent() {
+            const fixturesContent = document.querySelector('.fixtures-content');
+            const gmsWrapper = document.querySelector('.gms-wrapper');
+            const gmsCards = document.querySelectorAll('.gms-card');
+            
+            if (!fixturesContent || !gmsWrapper || gmsCards.length === 0) {
+                // Retry after a short delay if content hasn't loaded yet
+                setTimeout(autoScaleContent, 500);
+                return;
+            }
+
+            // Get available space
+            const availableHeight = fixturesContent.clientHeight - 30; // Account for padding
+            const availableWidth = fixturesContent.clientWidth - 30;
+            
+            // Get current content height
+            const contentHeight = gmsWrapper.scrollHeight;
+            const contentWidth = gmsWrapper.scrollWidth;
+            
+            // Calculate scale factors
+            let heightScale = availableHeight / contentHeight;
+            let widthScale = availableWidth / contentWidth;
+            
+            // Use the smaller scale to ensure everything fits
+            let targetScale = Math.min(heightScale, widthScale, 1); // Don't scale up beyond 100%
+            
+            // Don't make it too small - minimum 60% scale
+            targetScale = Math.max(targetScale, 0.6);
+            
+            // Apply scaling if different from current scale
+            if (Math.abs(targetScale - currentScale) > 0.05) {
+                currentScale = targetScale;
+                
+                // Create or update scaling stylesheet
+                let scaleStyle = document.getElementById('auto-scale-style');
+                if (!scaleStyle) {
+                    scaleStyle = document.createElement('style');
+                    scaleStyle.id = 'auto-scale-style';
+                    document.head.appendChild(scaleStyle);
+                }
+                
+                const scaleFactor = currentScale;
+                const cardPadding = Math.max(4, 8 * scaleFactor);
+                const cardMargin = Math.max(0.2, 0.4 * scaleFactor);
+                
+                scaleStyle.textContent = `
+                    .gms-wrapper {
+                        transform: scale(${scaleFactor});
+                        transform-origin: top center;
+                        width: ${100 / scaleFactor}% !important;
+                        margin: 0 auto;
+                    }
+                    
+                    .gms-wrapper .gms-list > * + * {
+                        margin-top: ${cardMargin}rem !important;
+                        margin-bottom: ${cardMargin}rem !important;
+                    }
+                    
+                    .gms-wrapper .gms-card {
+                        padding: ${cardPadding}px ${cardPadding + 4}px !important;
+                    }
+                    
+                    .fixtures-content {
+                        overflow: hidden !important;
+                    }
+                `;
+                
+                console.log(`Auto-scaled content to ${Math.round(scaleFactor * 100)}%`);
+            }
+        }
+
+        // Debounced resize handler
+        let resizeTimeout;
+        function handleResize() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                autoScaleContent();
+            }, 250);
         }
 
         function refreshGMSData() {
@@ -446,6 +527,8 @@
                         newScript.src = 'https://gmsfeed.co.uk/js/api.js';
                         newScript.onload = function() {
                             // GMS should automatically process the wrapper after script load
+                            // Re-scale content after refresh
+                            setTimeout(autoScaleContent, 1000);
                         };
                         document.body.appendChild(newScript);
                     }
@@ -476,11 +559,53 @@
             updateCountdown();
         }
 
+        // Observer to detect when GMS content loads
+        function observeGMSContent() {
+            const gmsWrapper = document.querySelector('.gms-wrapper');
+            if (!gmsWrapper) return;
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                        // Check if GMS content was added
+                        const hasGMSContent = Array.from(mutation.addedNodes).some(node => 
+                            node.nodeType === 1 && (
+                                node.classList?.contains('gms-card') || 
+                                node.querySelector?.('.gms-card') ||
+                                node.classList?.contains('gms-list') ||
+                                node.querySelector?.('.gms-list')
+                            )
+                        );
+                        
+                        if (hasGMSContent) {
+                            // Wait a moment for all content to render, then scale
+                            setTimeout(autoScaleContent, 500);
+                        }
+                    }
+                });
+            });
+
+            observer.observe(gmsWrapper, {
+                childList: true,
+                subtree: true
+            });
+
+            // Also try scaling after initial load
+            setTimeout(autoScaleContent, 2000);
+            setTimeout(autoScaleContent, 4000); // Backup attempt
+        }
+
         // Initialize auto-refresh when page loads
         window.addEventListener('load', function() {
             // Wait a moment for GMS to initialize, then start auto-refresh
             setTimeout(startAutoRefresh, 2000);
+            
+            // Start observing for GMS content
+            observeGMSContent();
         });
+
+        // Handle window resize
+        window.addEventListener('resize', handleResize);
 
         // Cleanup intervals when page unloads
         window.addEventListener('beforeunload', function() {
@@ -493,6 +618,10 @@
             // Press 'R' key to manually refresh
             if (e.key === 'r' || e.key === 'R') {
                 timeLeft = 0; // Trigger immediate refresh
+            }
+            // Press 'S' key to manually trigger scaling
+            if (e.key === 's' || e.key === 'S') {
+                autoScaleContent();
             }
         });
     </script>

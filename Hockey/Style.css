@@ -1,46 +1,44 @@
-/* Sports Results Interface CSS */
-
-.results-container {
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  padding: 16px;
-  max-width: 400px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+/* Sports Results Layout CSS */
 
 .division-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.division-title {
-  font-size: 14px;
+  color: #059669; /* Green color matching the image */
   font-weight: 600;
-  color: #16a34a;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.match-date {
-  font-size: 14px;
+.division-date {
   color: #6b7280;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: normal;
 }
 
-.match-item {
+.results-container {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.match-result {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 12px 0;
-  border-bottom: 1px solid #e5e7eb;
-  position: relative;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.2s ease;
 }
 
-.match-item:last-child {
+.match-result:last-child {
   border-bottom: none;
+}
+
+.match-result:hover {
+  background-color: #f9fafb;
 }
 
 .team-info {
@@ -52,113 +50,75 @@
 .team-logo {
   width: 24px;
   height: 24px;
-  border-radius: 50%;
   margin-right: 12px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
   flex-shrink: 0;
 }
 
-.brentwood-logo {
-  background: linear-gradient(135deg, #dc2626, #1e40af);
-  position: relative;
-}
-
-.brentwood-logo::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 8px;
-  height: 8px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.chelmsford-logo {
-  background-color: #16a34a;
-  border: 2px solid #15803d;
-  position: relative;
-}
-
-.chelmsford-logo::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 12px;
-  height: 2px;
-  background-color: white;
-}
-
-.chelmsford-logo::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(90deg);
-  width: 12px;
-  height: 2px;
-  background-color: white;
-}
-
 .team-name {
-  font-size: 16px;
   font-weight: 600;
+  font-size: 14px;
   color: #111827;
   margin-right: 4px;
 }
 
-.team-number {
-  font-size: 16px;
-  font-weight: 600;
+.team-score-number {
   color: #6b7280;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.score {
+.score-badge {
   background-color: #000000;
   color: white;
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
   min-width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 8px;
+  text-align: center;
+  margin-left: 12px;
 }
 
-.school-info {
-  font-size: 14px;
+.additional-info {
   color: #6b7280;
+  font-size: 13px;
   margin-top: 4px;
-  padding-left: 36px;
+  padding-left: 36px; /* Align with team name */
 }
 
-.next-arrow {
-  position: absolute;
-  right: -8px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #d1d5db;
-  font-size: 20px;
+.chevron-right {
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
+  color: #9ca3af;
 }
 
-/* Responsive design */
-@media (max-width: 480px) {
-  .results-container {
-    margin: 0 16px;
-    max-width: none;
+/* Team logo specific styles - you can add background images or colors */
+.logo-brentwood {
+  background: linear-gradient(135deg, #dc2626, #1e40af);
+}
+
+.logo-chelmsford {
+  background: linear-gradient(135deg, #059669, #ffffff);
+  border: 2px solid #059669;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .match-result {
+    padding: 10px 12px;
   }
   
   .team-name {
-    font-size: 15px;
+    font-size: 13px;
   }
   
-  .score {
-    min-width: 28px;
-    height: 28px;
+  .score-badge {
     font-size: 14px;
+    padding: 4px 8px;
+    min-width: 28px;
   }
 }

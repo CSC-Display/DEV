@@ -1,124 +1,56 @@
-/* Sports Results Layout CSS */
+/* This styling applies to all GMS tables */
+.gms-table { width: 100%; margin: 0; border-collapse: collapse }
+.gms-table th { text-align: left; background-color: silver }
+.gms-table th, .gms-table td { border: 1px solid; padding: 3px 10px; border-color: silver }
+.gms-footnote, .gms-filter { margin: 0 0 2rem }
+.gms-clubteam:not(.gms-button), .gms-boldteam { font-weight: 700 }
+.gms-filter > div { margin: 0 0 1rem }
+.gms-filter fieldset { width: fit-content }
+.gms-filter legend { padding: 0px }
 
-.division-header {
-  color: #059669; /* Green color matching the image */
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* This styling sets alignment for specific tables */
+.gms-table-results th:nth-child(4), .gms-table-results td:nth-child(4) { text-align: center }
+.gms-table-league td:nth-child(n+3), .gms-table-league th:nth-child(n+3) { text-align: right }
+.gms-table-fixtures td:first-child, .gms-table-results td:first-child, .gms-table-league.gms-table-custom td:last-child { white-space: nowrap }
 
-.division-date {
-  color: #6b7280;
-  font-size: 14px;
-  font-weight: normal;
-}
+/* The following will highlight team or club win, draw and loss on results */
+.gms-form { display: inline-block; width: 1.25rem; text-align: center }
+.gms-win { background-color: green }
+.gms-draw { background-color: dimgray }
+.gms-loss { background-color: red }
+.gms-win, .gms-draw, .gms-loss { color: white; font-weight: 700 }
 
-.results-container {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
+/* Helps makes GMS feed responsive depending on screen size and input device */
+@media screen and (max-width: 767px) { .gms-table { overflow-x: auto; display: block; white-space: nowrap } .gms-nomobile { display: none } }
+@media not screen and (max-width: 767px) { .gms-mobile { display: none } }
+@media (hover: hover) and (pointer: fine) { .gms-detaillink { cursor: pointer } .gms-detaillink:hover { background-color: yellow } }
 
-.match-result {
-  display: flex;
-  align-items: center;
-  padding: 12px 16px;
-  border-bottom: 1px solid #f3f4f6;
-  transition: background-color 0.2s ease;
-}
+/* Styling for fixtures and results displayed as list and fixture details */
+.gms-list > * + * { margin-top: 1.5rem; margin-bottom: 1.5rem }
+.gms-list + .gms-footnote { margin-top: 1rem }
+.gms-card { text-align: center; padding: 3px 3px; border-radius: 0.5rem; position: relative }
+.gms-card, .gms-cardtime, .gms-cardnoscore, .gms-fixturedetails > div { border: 1px solid; border-color: silver }
+.gms-cardtitle, .gms-cancel, .gms-card .gms-directions-card { font-weight: 700; font-size: larger }
+.gms-cancel { position: absolute; right: 0.5rem; top: 0 }
+.gms-cardfixture, .gms-cardscorers { display: flex; gap: 0.5rem; align-items: center }
+.gms-cardhome { flex: 1 1 0%; text-align: right }
+.gms-carddivide { padding: 0.25rem 0.5rem }
+.gms-cardtime, .gms-cardnoscore { font-weight: 700; border-radius: 0.375rem; background-color: white }
+.gms-cardaway { flex: 1 1 0%; text-align: left }
+.gms-cardscorers { font-size: smaller }
+.gms-cardstatus { background-color: black; color: white; margin: 0.25rem auto; width:fit-content; padding: 0.25rem 0.5rem }
+.gms-directions-card { font-weight: 700; max-width: max-content; margin-left: auto; margin-right: auto; padding: 0.5rem; color: white; background-color: black; border-radius: 0.375rem; display: flex; flex-direction: column; row-gap: 0.75rem }
+.gms-directions-btns { display: flex; gap: 0.5rem }
+.gms-directions-btns svg { width: 2rem; height: 2rem; pointer-events: none }
+.gms-map-google, .gms-map-apple { background-color: white }
+.gms-map-waze { background-color: #05c8f7 }
+.gms-fixture .gms-card > *, .gms-cardform { margin-top: 0.5rem; margin-bottom: 0.5rem }
+.gms-fixturedetails { display: flex; flex-wrap: wrap; gap: 1rem }
+.gms-fixturedetails > div { flex-grow: 1; padding: 0.5rem 0.5rem; border-radius: 0.5rem }
+.gms-fixturedetails img { display: inline; width: 1.5rem; height: 1.5rem; vertical-align: middle; margin-right: 0.25rem }
+.gms-fixturedetails ul { list-style-type: none; padding: 0; margin: 0 }
+.gms-players li { display: flex; align-items: center }
+.gms-players svg { width: 1rem; height: 1rem }
 
-.match-result:last-child {
-  border-bottom: none;
-}
-
-.match-result:hover {
-  background-color: #f9fafb;
-}
-
-.team-info {
-  display: flex;
-  align-items: center;
-  flex: 1;
-}
-
-.team-logo {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-  flex-shrink: 0;
-}
-
-.team-name {
-  font-weight: 600;
-  font-size: 14px;
-  color: #111827;
-  margin-right: 4px;
-}
-
-.team-score-number {
-  color: #6b7280;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.score-badge {
-  background-color: #000000;
-  color: white;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 6px 12px;
-  border-radius: 4px;
-  min-width: 32px;
-  text-align: center;
-  margin-left: 12px;
-}
-
-.additional-info {
-  color: #6b7280;
-  font-size: 13px;
-  margin-top: 4px;
-  padding-left: 36px; /* Align with team name */
-}
-
-.chevron-right {
-  width: 16px;
-  height: 16px;
-  margin-left: 12px;
-  color: #9ca3af;
-}
-
-/* Team logo specific styles - you can add background images or colors */
-.logo-brentwood {
-  background: linear-gradient(135deg, #dc2626, #1e40af);
-}
-
-.logo-chelmsford {
-  background: linear-gradient(135deg, #059669, #ffffff);
-  border: 2px solid #059669;
-}
-
-/* Responsive adjustments */
-@media (max-width: 640px) {
-  .match-result {
-    padding: 10px 12px;
-  }
-  
-  .team-name {
-    font-size: 13px;
-  }
-  
-  .score-badge {
-    font-size: 14px;
-    padding: 4px 8px;
-    min-width: 28px;
-  }
-}
+/* Creates a loader image for the AJAX wait */
+.gms-loader { margin: 1rem auto; border: 16px solid silver; border-top: 16px solid black; border-radius: 50%; width: 120px; height: 120px; animation: gms-spin 1s linear infinite } @keyframes gms-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }

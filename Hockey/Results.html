@@ -68,24 +68,24 @@
             grid-column: 1 / -1;
         }
 
-        /* Grid layout for results - 2 columns on large screens */
+        /* Grid layout for results - 2 columns only */
         .gms-list {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            padding: 20px;
+            gap: 8px;
+            padding: 12px;
         }
 
         .gms-card {
             text-align: center;
-            padding: 16px 20px;
+            padding: 12px 16px;
             border-radius: 12px;
             position: relative;
             background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             border: 2px solid rgba(16, 185, 129, 0.3);
             transition: all 0.4s ease;
             box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25);
-            min-height: 120px;
+            min-height: 95px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -116,13 +116,13 @@
 
         .gms-cardtitle {
             font-weight: 900;
-            font-size: 16px;
+            font-size: 18px;
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         .gms-cardfixture,
@@ -131,17 +131,17 @@
             gap: 8px;
             align-items: center;
             justify-content: center;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
 
         .gms-cardhome,
         .gms-cardaway {
             flex: 1 1 0%;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 700;
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-            line-height: 1.4;
+            line-height: 1.3;
         }
 
         .gms-cardhome {
@@ -166,36 +166,36 @@
             border-radius: 8px;
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             color: white;
-            padding: 8px 16px;
-            font-size: 14px;
+            padding: 6px 12px;
+            font-size: 16px;
             border: 2px solid rgba(30, 58, 138, 0.3);
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-            margin: 8px auto;
+            margin: 4px auto;
             display: inline-block;
-            line-height: 1.3;
-            min-width: 80px;
+            line-height: 1.2;
+            min-width: 70px;
         }
 
         .gms-cardstatus {
             background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             color: white;
-            margin: 8px auto;
+            margin: 4px auto;
             width: fit-content;
-            padding: 6px 12px;
+            padding: 4px 8px;
             border-radius: 6px;
             font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 1px;
-            font-size: 12px;
-            line-height: 1.3;
+            font-size: 14px;
+            line-height: 1.2;
             box-shadow: 0 3px 10px rgba(30, 58, 138, 0.3);
         }
 
         .gms-cardscorers {
-            font-size: 13px;
+            font-size: 14px;
             color: rgba(255, 255, 255, 0.95);
-            margin-top: 8px;
-            line-height: 1.4;
+            margin-top: 4px;
+            line-height: 1.3;
             font-weight: 600;
         }
 
@@ -233,12 +233,12 @@
         .gms-boldteam {
             font-weight: 900 !important;
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 100%) !important;
-            padding: 4px 12px !important;
+            padding: 4px 10px !important;
             border-radius: 8px !important;
             color: white !important;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
             border: 2px solid rgba(255, 255, 255, 0.5) !important;
-            font-size: 15px !important;
+            font-size: 17px !important;
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
         }
 
@@ -278,23 +278,23 @@
             border-radius: 2px !important;
         }
 
-        /* Override GMS styles for TV display */
+        /* Override GMS styles for TV display - 2 columns only */
         .gms-wrapper .gms-list {
             display: grid !important;
             grid-template-columns: 1fr 1fr !important;
-            gap: 12px !important;
-            padding: 20px !important;
+            gap: 8px !important;
+            padding: 12px !important;
         }
 
         .gms-wrapper .gms-card {
             background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
             border: 2px solid rgba(16, 185, 129, 0.3) !important;
             border-radius: 12px !important;
-            padding: 16px 20px !important;
+            padding: 12px 16px !important;
             transition: all 0.4s ease !important;
             position: relative !important;
             box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25) !important;
-            min-height: 120px !important;
+            min-height: 95px !important;
             display: flex !important;
             flex-direction: column !important;
             justify-content: center !important;
@@ -309,22 +309,22 @@
 
         .gms-wrapper .gms-cardtitle {
             color: white !important;
-            font-size: 16px !important;
+            font-size: 18px !important;
             font-weight: 900 !important;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
             text-transform: uppercase !important;
             letter-spacing: 1px !important;
-            margin-bottom: 12px !important;
-            line-height: 1.3 !important;
+            margin-bottom: 8px !important;
+            line-height: 1.2 !important;
         }
 
         .gms-wrapper .gms-cardhome,
         .gms-wrapper .gms-cardaway {
             color: white !important;
-            font-size: 14px !important;
+            font-size: 16px !important;
             font-weight: 700 !important;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
-            line-height: 1.4 !important;
+            line-height: 1.3 !important;
         }
 
         .gms-wrapper .gms-carddivide {
@@ -341,13 +341,13 @@
             color: white !important;
             border: 2px solid rgba(30, 58, 138, 0.3) !important;
             border-radius: 8px !important;
-            font-size: 14px !important;
-            padding: 8px 16px !important;
+            font-size: 16px !important;
+            padding: 6px 12px !important;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
-            margin: 8px auto !important;
-            line-height: 1.3 !important;
+            margin: 4px auto !important;
+            line-height: 1.2 !important;
             font-weight: 800 !important;
-            min-width: 80px !important;
+            min-width: 70px !important;
         }
 
         .gms-wrapper .gms-cardstatus {
@@ -357,10 +357,10 @@
             font-weight: 800 !important;
             text-transform: uppercase !important;
             letter-spacing: 1px !important;
-            font-size: 12px !important;
-            padding: 6px 12px !important;
-            margin: 8px auto !important;
-            line-height: 1.3 !important;
+            font-size: 14px !important;
+            padding: 4px 8px !important;
+            margin: 4px auto !important;
+            line-height: 1.2 !important;
             box-shadow: 0 3px 10px rgba(30, 58, 138, 0.3) !important;
         }
 
@@ -380,36 +380,48 @@
             border: 2px solid rgba(16, 185, 129, 0.2);
         }
 
-        /* Special styling for when there are many results */
+        /* Special styling for when there are many results - REMOVED 4-column layout */
         @media screen and (min-width: 1920px) {
             .gms-list {
-                grid-template-columns: 1fr 1fr 1fr 1fr !important;
-                gap: 15px !important;
+                grid-template-columns: 1fr 1fr !important;
+                gap: 6px !important;
+                padding: 10px !important;
             }
             
             .gms-wrapper .gms-list {
-                grid-template-columns: 1fr 1fr 1fr 1fr !important;
-                gap: 15px !important;
+                grid-template-columns: 1fr 1fr !important;
+                gap: 6px !important;
+                padding: 10px !important;
             }
             
             .gms-card {
-                min-height: 100px !important;
-                padding: 12px 16px !important;
+                min-height: 85px !important;
+                padding: 10px 14px !important;
             }
             
             .gms-wrapper .gms-card {
-                min-height: 100px !important;
-                padding: 12px 16px !important;
+                min-height: 85px !important;
+                padding: 10px 14px !important;
             }
             
             .gms-cardtitle {
-                font-size: 14px !important;
-                margin-bottom: 8px !important;
+                font-size: 17px !important;
+                margin-bottom: 6px !important;
             }
             
             .gms-wrapper .gms-cardtitle {
-                font-size: 14px !important;
-                margin-bottom: 8px !important;
+                font-size: 17px !important;
+                margin-bottom: 6px !important;
+            }
+            
+            .gms-cardhome,
+            .gms-cardaway {
+                font-size: 15px !important;
+            }
+            
+            .gms-wrapper .gms-cardhome, 
+            .gms-wrapper .gms-cardaway {
+                font-size: 15px !important;
             }
         }
     </style>
@@ -466,7 +478,6 @@
 
         function optimizeForTV() {
             const gmsCards = document.querySelectorAll('.gms-card');
-            const viewport = window.innerWidth;
             
             if (gmsCards.length === 0) {
                 // Retry after content loads
@@ -474,59 +485,44 @@
                 return;
             }
 
-            // For 4K TVs and ultra-wide displays, use 4 columns for 16+ results
-            if (viewport >= 1920 && gmsCards.length >= 12) {
-                console.log('Optimizing for 4K TV display with 4 columns');
-                
-                // Apply 4-column layout for large datasets
-                const styleSheet = document.getElementById('tv-optimization') || document.createElement('style');
-                styleSheet.id = 'tv-optimization';
-                styleSheet.textContent = `
-                    .gms-list {
-                        grid-template-columns: 1fr 1fr 1fr 1fr !important;
-                        gap: 10px !important;
-                        padding: 15px !important;
-                    }
-                    
-                    .gms-wrapper .gms-list {
-                        grid-template-columns: 1fr 1fr 1fr 1fr !important;
-                        gap: 10px !important;
-                        padding: 15px !important;
-                    }
-                    
-                    .gms-card {
-                        min-height: 90px !important;
-                        padding: 10px 14px !important;
-                    }
-                    
-                    .gms-wrapper .gms-card {
-                        min-height: 90px !important;
-                        padding: 10px 14px !important;
-                    }
-                    
-                    .gms-cardtitle {
-                        font-size: 13px !important;
-                        margin-bottom: 6px !important;
-                    }
-                    
-                    .gms-wrapper .gms-cardtitle {
-                        font-size: 13px !important;
-                        margin-bottom: 6px !important;
-                    }
-                    
-                    .gms-cardhome, .gms-cardaway {
-                        font-size: 12px !important;
-                    }
-                    
-                    .gms-wrapper .gms-cardhome, 
-                    .gms-wrapper .gms-cardaway {
-                        font-size: 12px !important;
-                    }
-                `;
-                
-                if (!document.getElementById('tv-optimization')) {
-                    document.head.appendChild(styleSheet);
+            console.log(`Optimizing for TV display with ${gmsCards.length} results in 2 columns`);
+            
+            // Force 2-column layout regardless of screen size
+            const styleSheet = document.getElementById('tv-optimization') || document.createElement('style');
+            styleSheet.id = 'tv-optimization';
+            
+            // Calculate optimal card height for 14 results (7 per column)
+            const availableHeight = window.innerHeight - 100; // Account for header and padding
+            const optimalCardHeight = Math.max(85, Math.floor((availableHeight - 60) / 7) - 8); // 7 cards per column with gap
+            
+            styleSheet.textContent = `
+                .gms-list {
+                    grid-template-columns: 1fr 1fr !important;
+                    gap: 6px !important;
+                    padding: 10px !important;
                 }
+                
+                .gms-wrapper .gms-list {
+                    grid-template-columns: 1fr 1fr !important;
+                    gap: 6px !important;
+                    padding: 10px !important;
+                }
+                
+                .gms-card {
+                    min-height: ${optimalCardHeight}px !important;
+                    max-height: ${optimalCardHeight + 20}px !important;
+                    padding: 8px 12px !important;
+                }
+                
+                .gms-wrapper .gms-card {
+                    min-height: ${optimalCardHeight}px !important;
+                    max-height: ${optimalCardHeight + 20}px !important;
+                    padding: 8px 12px !important;
+                }
+            `;
+            
+            if (!document.getElementById('tv-optimization')) {
+                document.head.appendChild(styleSheet);
             }
         }
 

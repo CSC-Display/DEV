@@ -3,26 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Fixtures & Results</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-        
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Golf Club Fixtures</title>
 </head>
 <body>
-    <div class="gms-wrapper gms-ajax" data-method="api" data-show="results+fixtures" data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" data-whatson="14" data-sort_by="fixtureTime" data-options="showDetail:yes"></div>
+    <div class="gms-wrapper gms-ajax" 
+         data-method="api-dynamic" 
+         data-show="results" 
+         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
+         data-whatson="7" 
+         data-sort_by="fixtureTime" 
+         data-options="showList:yes">
+    </div>
+    
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
 </body>
 </html>

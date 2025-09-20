@@ -1,369 +1,164 @@
-/* GMS Sports Feed Styling - Based on Official GMS CSS */
+/* Sports Results Interface CSS */
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 20px;
+.results-container {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 400px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gms-wrapper {
-    max-width: 600px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+.division-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
-/* GMS Table Styling */
-.gms-table {
-    width: 100%;
-    margin: 0;
-    border-collapse: collapse;
+.division-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #16a34a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.gms-table th {
-    text-align: left;
-    background-color: #28a745;
-    color: white;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 12px 20px;
+.match-date {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
 }
 
-.gms-table th,
-.gms-table td {
-    border: none;
-    padding: 16px 20px;
-    border-bottom: 1px solid #f1f3f4;
+.match-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+  position: relative;
 }
 
-.gms-table td {
-    vertical-align: middle;
+.match-item:last-child {
+  border-bottom: none;
 }
 
-.gms-table tr:hover {
-    background-color: #f8f9fa;
+.team-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
-.gms-table tr:last-child td {
-    border-bottom: none;
+.team-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
 }
 
-/* GMS List Styling */
-.gms-list > * + * {
-    margin-top: 0;
-    margin-bottom: 0;
+.brentwood-logo {
+  background: linear-gradient(135deg, #dc2626, #1e40af);
+  position: relative;
 }
 
-.gms-list + .gms-footnote {
-    margin-top: 1rem;
+.brentwood-logo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
 }
 
-/* GMS Card Styling */
-.gms-card {
-    text-align: left;
-    padding: 16px 20px;
-    border-radius: 0;
-    position: relative;
-    border: none;
-    border-bottom: 1px solid #f1f3f4;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.chelmsford-logo {
+  background-color: #16a34a;
+  border: 2px solid #15803d;
+  position: relative;
 }
 
-.gms-card:hover {
-    background-color: #f8f9fa;
+.chelmsford-logo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 2px;
+  background-color: white;
 }
 
-.gms-card:last-child {
-    border-bottom: none;
+.chelmsford-logo::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  width: 12px;
+  height: 2px;
+  background-color: white;
 }
 
-.gms-cardtitle {
-    background: #f8f9fa;
-    padding: 12px 20px;
-    font-weight: 600;
-    font-size: 14px;
-    color: #28a745;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border-bottom: 1px solid #e9ecef;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
+.team-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-right: 4px;
 }
 
-.gms-cancel {
-    position: static;
-    font-weight: 500;
-    color: #6c757d;
-    font-size: 14px;
+.team-number {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
 }
 
-.gms-cardfixture {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    flex: 1;
+.score {
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
 }
 
-.gms-cardhome {
-    flex: 1;
-    text-align: left;
-    display: flex;
-    align-items: center;
+.school-info {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+  padding-left: 36px;
 }
 
-.gms-cardaway {
-    flex: 1;
-    text-align: left;
-    display: flex;
-    align-items: center;
-}
-
-.gms-carddivide {
-    padding: 0;
-    margin: 0 16px;
-    font-weight: 600;
-    color: #6c757d;
-}
-
-/* Team styling within cards */
-.gms-card .team-info {
-    display: flex;
-    align-items: center;
-}
-
-.gms-card .team-logo {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin-right: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    flex-shrink: 0;
-    background: linear-gradient(135deg, #dc3545, #c82333);
-    color: white;
-}
-
-.gms-card .team-logo.brentwood {
-    background: linear-gradient(135deg, #dc3545, #c82333);
-}
-
-.gms-card .team-logo.chelmsford {
-    background: linear-gradient(135deg, #28a745, #20c997);
-}
-
-.gms-card .team-name {
-    font-size: 16px;
-    font-weight: 600;
-    color: #212529;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-}
-
-.gms-cardtime,
-.gms-cardnoscore {
-    font-weight: 700;
-    border-radius: 6px;
-    background-color: #212529;
-    color: white;
-    padding: 8px 12px;
-    font-size: 18px;
-    min-width: 32px;
-    text-align: center;
-    border: none;
-}
-
-.gms-cardscorers {
-    font-size: 13px;
-    color: #6c757d;
-    margin-top: 4px;
-    margin-left: 44px;
-}
-
-.gms-cardstatus {
-    background-color: black;
-    color: white;
-    margin: 0;
-    width: fit-content;
-    padding: 4px 8px;
-    font-size: 12px;
-    border-radius: 4px;
-    margin-left: 16px;
-}
-
-/* Navigation arrow */
-.gms-card::after {
-    content: '›';
-    font-size: 20px;
-    color: #6c757d;
-    font-weight: 300;
-    opacity: 0.3;
-    margin-left: 16px;
-}
-
-.gms-card:hover::after {
-    opacity: 0.6;
-}
-
-/* Form indicators (W/D/L) */
-.gms-form {
-    display: inline-block;
-    width: 1.25rem;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 2px 0;
-    margin: 0 1px;
-}
-
-.gms-win {
-    background-color: green;
-    color: white;
-}
-
-.gms-draw {
-    background-color: dimgray;
-    color: white;
-}
-
-.gms-loss {
-    background-color: red;
-    color: white;
-}
-
-/* Bold team names */
-.gms-clubteam:not(.gms-button),
-.gms-boldteam {
-    font-weight: 700;
-}
-
-/* GMS Footnote */
-.gms-footnote {
-    margin: 16px 20px;
-    font-size: 13px;
-    color: #6c757d;
-}
-
-/* GMS Filter */
-.gms-filter {
-    margin: 0 0 2rem;
-    padding: 16px 20px;
-    background: #f8f9fa;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.gms-filter > div {
-    margin: 0 0 1rem;
-}
-
-.gms-filter fieldset {
-    width: fit-content;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    padding: 8px 12px;
-}
-
-.gms-filter legend {
-    padding: 0 8px;
-    font-weight: 600;
-    font-size: 14px;
+.next-arrow {
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d1d5db;
+  font-size: 20px;
 }
 
 /* Responsive design */
-@media screen and (max-width: 767px) {
-    .gms-table {
-        overflow-x: auto;
-        display: block;
-        white-space: nowrap;
-    }
-    
-    .gms-nomobile {
-        display: none;
-    }
-    
-    .gms-wrapper {
-        margin: 0 10px;
-        border-radius: 8px;
-    }
-    
-    .gms-card {
-        padding: 14px 16px;
-    }
-    
-    .gms-cardtitle {
-        padding: 10px 16px;
-    }
-    
-    .gms-card .team-name {
-        font-size: 14px;
-    }
-    
-    .gms-cardscorers {
-        margin-left: 40px;
-        font-size: 12px;
-    }
-}
-
-@media not screen and (max-width: 767px) {
-    .gms-mobile {
-        display: none;
-    }
-}
-
-@media (hover: hover) and (pointer: fine) {
-    .gms-detaillink {
-        cursor: pointer;
-    }
-    
-    .gms-detaillink:hover {
-        background-color: #fff3cd;
-    }
-}
-
-/* Loading animation */
-.gms-loader {
-    margin: 1rem auto;
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #28a745;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: gms-spin 1s linear infinite;
-}
-
-@keyframes gms-spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Loading state for wrapper */
-.gms-wrapper.loading {
-    text-align: center;
-    padding: 40px 20px;
-    color: #6c757d;
-}
-
-.gms-wrapper.loading::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #f3f3f3;
-    border-top: 2px solid #28a745;
-    border-radius: 50%;
-    animation: gms-spin 1s linear infinite;
-    margin-right: 10px;
-    vertical-align: middle;
+@media (max-width: 480px) {
+  .results-container {
+    margin: 0 16px;
+    max-width: none;
+  }
+  
+  .team-name {
+    font-size: 15px;
+  }
+  
+  .score {
+    min-width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
 }

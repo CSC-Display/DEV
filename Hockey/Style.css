@@ -1,4 +1,4 @@
-/* GMS Sports Feed Styling */
+/* GMS Sports Feed Styling - Based on Official GMS CSS */
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -16,52 +16,132 @@ body {
     overflow: hidden;
 }
 
-/* Match header styling */
-.gms-wrapper .match-header {
-    background: #f8f9fa;
-    padding: 12px 20px;
-    border-bottom: 1px solid #e9ecef;
-    font-size: 14px;
+/* GMS Table Styling */
+.gms-table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.gms-table th {
+    text-align: left;
+    background-color: #28a745;
+    color: white;
     font-weight: 600;
-    color: #28a745;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 12px 20px;
 }
 
-.gms-wrapper .match-date {
-    color: #6c757d;
-    font-weight: 500;
-}
-
-/* Match result styling */
-.gms-wrapper .match-result {
+.gms-table th,
+.gms-table td {
+    border: none;
     padding: 16px 20px;
     border-bottom: 1px solid #f1f3f4;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
 }
 
-.gms-wrapper .match-result:last-child {
+.gms-table td {
+    vertical-align: middle;
+}
+
+.gms-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.gms-table tr:last-child td {
     border-bottom: none;
 }
 
-.gms-wrapper .match-result:hover {
-    background: #f8f9fa;
+/* GMS List Styling */
+.gms-list > * + * {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-/* Team styling */
-.gms-wrapper .team {
+.gms-list + .gms-footnote {
+    margin-top: 1rem;
+}
+
+/* GMS Card Styling */
+.gms-card {
+    text-align: left;
+    padding: 16px 20px;
+    border-radius: 0;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #f1f3f4;
+    background: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gms-card:hover {
+    background-color: #f8f9fa;
+}
+
+.gms-card:last-child {
+    border-bottom: none;
+}
+
+.gms-cardtitle {
+    background: #f8f9fa;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #28a745;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.gms-cancel {
+    position: static;
+    font-weight: 500;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.gms-cardfixture {
+    display: flex;
+    gap: 0.5rem;
     align-items: center;
     flex: 1;
 }
 
-.gms-wrapper .team-logo {
+.gms-cardhome {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.gms-cardaway {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.gms-carddivide {
+    padding: 0;
+    margin: 0 16px;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+/* Team styling within cards */
+.gms-card .team-info {
+    display: flex;
+    align-items: center;
+}
+
+.gms-card .team-logo {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -71,20 +151,19 @@ body {
     justify-content: center;
     font-size: 16px;
     flex-shrink: 0;
-}
-
-/* Team logo colors */
-.gms-wrapper .team-logo.brentwood {
     background: linear-gradient(135deg, #dc3545, #c82333);
     color: white;
 }
 
-.gms-wrapper .team-logo.chelmsford {
-    background: linear-gradient(135deg, #28a745, #20c997);
-    color: white;
+.gms-card .team-logo.brentwood {
+    background: linear-gradient(135deg, #dc3545, #c82333);
 }
 
-.gms-wrapper .team-name {
+.gms-card .team-logo.chelmsford {
+    background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.gms-card .team-name {
     font-size: 16px;
     font-weight: 600;
     color: #212529;
@@ -92,90 +171,184 @@ body {
     letter-spacing: 0.3px;
 }
 
-/* Score styling */
-.gms-wrapper .score {
-    background: #212529;
-    color: white;
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
+.gms-cardtime,
+.gms-cardnoscore {
     font-weight: 700;
+    border-radius: 6px;
+    background-color: #212529;
+    color: white;
+    padding: 8px 12px;
+    font-size: 18px;
+    min-width: 32px;
+    text-align: center;
+    border: none;
+}
+
+.gms-cardscorers {
+    font-size: 13px;
+    color: #6c757d;
+    margin-top: 4px;
+    margin-left: 44px;
+}
+
+.gms-cardstatus {
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: fit-content;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
     margin-left: 16px;
 }
 
-/* Venue styling */
-.gms-wrapper .venue {
-    position: absolute;
-    bottom: 8px;
-    left: 64px;
-    font-size: 13px;
-    color: #6c757d;
-    font-weight: 500;
-}
-
 /* Navigation arrow */
-.gms-wrapper .nav-arrow {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    opacity: 0.3;
-    transition: opacity 0.2s ease;
-}
-
-.gms-wrapper .match-result:hover .nav-arrow {
-    opacity: 0.6;
-}
-
-.gms-wrapper .nav-arrow::after {
+.gms-card::after {
     content: '›';
     font-size: 20px;
     color: #6c757d;
     font-weight: 300;
+    opacity: 0.3;
+    margin-left: 16px;
+}
+
+.gms-card:hover::after {
+    opacity: 0.6;
+}
+
+/* Form indicators (W/D/L) */
+.gms-form {
+    display: inline-block;
+    width: 1.25rem;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 0;
+    margin: 0 1px;
+}
+
+.gms-win {
+    background-color: green;
+    color: white;
+}
+
+.gms-draw {
+    background-color: dimgray;
+    color: white;
+}
+
+.gms-loss {
+    background-color: red;
+    color: white;
+}
+
+/* Bold team names */
+.gms-clubteam:not(.gms-button),
+.gms-boldteam {
+    font-weight: 700;
+}
+
+/* GMS Footnote */
+.gms-footnote {
+    margin: 16px 20px;
+    font-size: 13px;
+    color: #6c757d;
+}
+
+/* GMS Filter */
+.gms-filter {
+    margin: 0 0 2rem;
+    padding: 16px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.gms-filter > div {
+    margin: 0 0 1rem;
+}
+
+.gms-filter fieldset {
+    width: fit-content;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.gms-filter legend {
+    padding: 0 8px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .gms-table {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+    
+    .gms-nomobile {
+        display: none;
+    }
+    
     .gms-wrapper {
         margin: 0 10px;
         border-radius: 8px;
     }
     
-    .gms-wrapper .match-result {
+    .gms-card {
         padding: 14px 16px;
     }
     
-    .gms-wrapper .team-name {
+    .gms-cardtitle {
+        padding: 10px 16px;
+    }
+    
+    .gms-card .team-name {
         font-size: 14px;
     }
     
-    .gms-wrapper .venue {
-        left: 56px;
+    .gms-cardscorers {
+        margin-left: 40px;
         font-size: 12px;
     }
 }
 
-/* Alternative styling for different match states */
-.gms-wrapper .match-result.upcoming {
-    background: #f8f9ff;
+@media not screen and (max-width: 767px) {
+    .gms-mobile {
+        display: none;
+    }
 }
 
-.gms-wrapper .match-result.live {
-    background: #fff8f0;
-    border-left: 4px solid #fd7e14;
+@media (hover: hover) and (pointer: fine) {
+    .gms-detaillink {
+        cursor: pointer;
+    }
+    
+    .gms-detaillink:hover {
+        background-color: #fff3cd;
+    }
 }
 
-.gms-wrapper .match-result.completed {
-    background: #f8fff8;
+/* Loading animation */
+.gms-loader {
+    margin: 1rem auto;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #28a745;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: gms-spin 1s linear infinite;
 }
 
-/* Loading state */
+@keyframes gms-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Loading state for wrapper */
 .gms-wrapper.loading {
     text-align: center;
     padding: 40px 20px;
@@ -190,12 +363,7 @@ body {
     border: 2px solid #f3f3f3;
     border-top: 2px solid #28a745;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: gms-spin 1s linear infinite;
     margin-right: 10px;
     vertical-align: middle;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }

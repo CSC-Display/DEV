@@ -1,1 +1,451 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHC - Men's Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #000000;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            padding: 15px 40px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+            flex-shrink: 0;
+        }
+
+        .title {
+            color: white;
+            font-size: 42px;
+            font-weight: 900;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .subtitle {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 5px 0 0 0;
+        }
+
+        .content {
+            flex: 1;
+            background: #ffffff;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .table-container {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+        }
+
+        /* Table styling */
+        .recent-results {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .recent-results thead tr {
+            background-color: #004c7f;
+            color: #ffffff;
+        }
+
+        .recent-results th, 
+        .recent-results td {
+            padding: 12px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }
+
+        .recent-results th {
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+        }
+
+        .recent-results td {
+            font-size: 14px;
+        }
+
+        .recent-results tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .recent-results tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        .recent-results tbody tr:hover {
+            background-color: #e0f0ff;
+        }
+
+        /* Result styling */
+        .recent-results .win td {
+            color: green;
+            font-weight: bold;
+        }
+
+        .recent-results .loss td {
+            color: red;
+            font-weight: bold;
+        }
+
+        .recent-results .draw td {
+            color: #555555;
+            font-weight: bold;
+        }
+
+        /* Special column styling */
+        .team-name {
+            font-weight: 600;
+        }
+
+        .club-team {
+            background-color: #fff3cd !important;
+        }
+
+        .score {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .match-status {
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Timer */
+        .refresh-timer {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            border: 2px solid rgba(16, 185, 129, 0.2);
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 600px) {
+            .recent-results thead {
+                display: none;
+            }
+            
+            .recent-results, 
+            .recent-results tbody, 
+            .recent-results tr, 
+            .recent-results td {
+                display: block;
+                width: 100%;
+            }
+            
+            .recent-results tr {
+                margin-bottom: 10px;
+                border: 1px solid #dddddd;
+                border-radius: 5px;
+                padding: 10px;
+            }
+            
+            .recent-results td {
+                position: relative;
+                padding-left: 50%;
+                border: none;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            
+            .recent-results td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                font-weight: bold;
+                white-space: nowrap;
+            }
+        }
+
+        /* Hide elements */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Chelmsford Hockey Club - Results</h1>
+            <h2 class="subtitle">Men's Teams</h2>
+        </header>
+        
+        <main class="content">
+            <div class="table-container">
+                <div class="loading" id="loading">Loading results...</div>
+                
+                <table class="recent-results hidden" id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Competition</th>
+                            <th>Home Team</th>
+                            <th>Score</th>
+                            <th>Away Team</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody">
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- GMS API container -->
+            <div class="gms-wrapper gms-ajax hidden" 
+                 data-method="api-static" 
+                 data-show="results" 
+                 data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
+                 data-whatson="3" 
+                 data-sort_by="fixtureTime" 
+                 data-options="showList:yes,showGender:yes,filter:Male"
+                 data-css="no"
+                 id="gmsData">
+            </div>
+        </main>
+        
+        <div class="refresh-timer" id="refreshTimer">
+            Next refresh in: <span id="countdown">15:00</span>
+        </div>
+    </div>
+    
+    <script src="https://gmsfeed.co.uk/js/api.js"></script>
+    <script>
+        let countdownInterval;
+        let timeLeft = 15 * 60; // 15 minutes
+
+        const elements = {
+            loading: document.getElementById('loading'),
+            table: document.getElementById('resultsTable'),
+            tbody: document.getElementById('resultsBody'),
+            gmsData: document.getElementById('gmsData'),
+            timer: document.getElementById('refreshTimer'),
+            countdown: document.getElementById('countdown')
+        };
+
+        function updateCountdown() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            const time = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            if (elements.countdown) {
+                elements.countdown.textContent = time;
+            }
+            
+            timeLeft--;
+            
+            if (timeLeft < 0) {
+                refreshData();
+                timeLeft = 15 * 60;
+            }
+        }
+
+        function getResultClass(homeTeam, awayTeam, homeScore, awayScore) {
+            const isHome = homeTeam.toLowerCase().includes('chelmsford');
+            const isAway = awayTeam.toLowerCase().includes('chelmsford');
+            
+            if (!isHome && !isAway) return '';
+            if (homeScore === awayScore) return 'draw';
+            
+            const chelmsfordWon = isHome ? homeScore > awayScore : awayScore > homeScore;
+            return chelmsfordWon ? 'win' : 'loss';
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return 'Recent';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-GB', {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric'
+            });
+        }
+
+        function parseScore(scoreText) {
+            if (!scoreText || scoreText.toLowerCase().includes('tbc')) {
+                return { homeScore: null, awayScore: null, display: 'TBC' };
+            }
+            
+            const match = scoreText.match(/(\d+)\s*-\s*(\d+)/);
+            if (match) {
+                return {
+                    homeScore: parseInt(match[1]),
+                    awayScore: parseInt(match[2]),
+                    display: scoreText.trim()
+                };
+            }
+            
+            return { homeScore: null, awayScore: null, display: scoreText.trim() };
+        }
+
+        function convertToTable() {
+            const cards = elements.gmsData.querySelectorAll('.gms-card');
+            
+            if (cards.length === 0) {
+                setTimeout(convertToTable, 1000);
+                return;
+            }
+            
+            elements.tbody.innerHTML = '';
+            
+            cards.forEach(card => {
+                const competition = card.querySelector('.gms-cardtitle')?.textContent?.trim() || '';
+                const homeTeam = card.querySelector('.gms-cardhome')?.textContent?.trim() || '';
+                const awayTeam = card.querySelector('.gms-cardaway')?.textContent?.trim() || '';
+                const scoreElement = card.querySelector('.gms-cardtime, .gms-cardnoscore');
+                const statusElement = card.querySelector('.gms-cardstatus');
+                
+                const scoreData = parseScore(scoreElement?.textContent);
+                const status = statusElement?.textContent?.trim() || 
+                             (scoreData.homeScore !== null ? 'Completed' : 'Scheduled');
+                
+                const resultClass = scoreData.homeScore !== null ? 
+                    getResultClass(homeTeam, awayTeam, scoreData.homeScore, scoreData.awayScore) : '';
+                
+                const isClubMatch = homeTeam.toLowerCase().includes('chelmsford') || 
+                                  awayTeam.toLowerCase().includes('chelmsford');
+                
+                const row = document.createElement('tr');
+                if (resultClass) row.classList.add(resultClass);
+                if (isClubMatch) row.classList.add('club-team');
+                
+                row.innerHTML = `
+                    <td data-label="Date:">${formatDate()}</td>
+                    <td data-label="Competition:">${competition}</td>
+                    <td data-label="Home Team:" class="team-name">${homeTeam}</td>
+                    <td data-label="Score:" class="score">${scoreData.display}</td>
+                    <td data-label="Away Team:" class="team-name">${awayTeam}</td>
+                    <td data-label="Status:" class="match-status">${status}</td>
+                `;
+                
+                elements.tbody.appendChild(row);
+            });
+            
+            elements.loading.classList.add('hidden');
+            elements.table.classList.remove('hidden');
+            
+            console.log(`Table updated with ${cards.length} results`);
+        }
+
+        function refreshData() {
+            if (elements.timer) {
+                elements.timer.innerHTML = 'Refreshing...';
+            }
+            
+            elements.table.classList.add('hidden');
+            elements.loading.classList.remove('hidden');
+            elements.loading.textContent = 'Refreshing results...';
+            
+            // Clear and reload GMS data
+            elements.gmsData.innerHTML = '';
+            
+            const script = document.querySelector('script[src="https://gmsfeed.co.uk/js/api.js"]');
+            if (script) {
+                script.remove();
+                const newScript = document.createElement('script');
+                newScript.src = 'https://gmsfeed.co.uk/js/api.js';
+                newScript.onload = () => setTimeout(convertToTable, 2000);
+                document.body.appendChild(newScript);
+            }
+            
+            setTimeout(() => {
+                if (elements.timer) {
+                    elements.timer.innerHTML = 'Next refresh in: <span id="countdown">15:00</span>';
+                    elements.countdown = document.getElementById('countdown');
+                }
+            }, 3000);
+        }
+
+        function observeGMSData() {
+            const observer = new MutationObserver((mutations) => {
+                const hasContent = mutations.some(mutation => 
+                    Array.from(mutation.addedNodes).some(node => 
+                        node.nodeType === 1 && (
+                            node.classList?.contains('gms-card') || 
+                            node.querySelector?.('.gms-card')
+                        )
+                    )
+                );
+                
+                if (hasContent) {
+                    setTimeout(convertToTable, 500);
+                }
+            });
+
+            observer.observe(elements.gmsData, {
+                childList: true,
+                subtree: true
+            });
+        }
+
+        // Initialize
+        window.addEventListener('load', () => {
+            countdownInterval = setInterval(updateCountdown, 1000);
+            observeGMSData();
+            setTimeout(convertToTable, 2000);
+            setTimeout(convertToTable, 5000);
+        });
+
+        // Cleanup
+        window.addEventListener('beforeunload', () => {
+            if (countdownInterval) clearInterval(countdownInterval);
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key.toLowerCase() === 'r') timeLeft = 0;
+            if (e.key.toLowerCase() === 't') convertToTable();
+        });
+    </script>
+</body>
+</html>

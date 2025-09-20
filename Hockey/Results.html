@@ -34,66 +34,16 @@
             padding: 60px 80px;
             position: relative;
             flex-shrink: 0;
-        }
-
-        .header::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 200px;
-            background: #1e3a8a;
-            transform: skewX(-10deg);
-            transform-origin: bottom;
+            text-align: center;
         }
 
         .fixtures-title {
-            writing-mode: vertical-lr;
-            text-orientation: mixed;
-            position: absolute;
-            left: 60px;
-            top: 50%;
-            transform: translateY(-50%) rotate(180deg);
-            color: white;
-            font-size: 64px;
-            font-weight: bold;
-            letter-spacing: 8px;
-        }
-
-        .home-title {
             color: white;
             font-size: 120px;
             font-weight: bold;
-            margin-bottom: 0;
+            margin: 0;
             text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            margin-left: 100px;
-        }
-
-        .club-logo {
-            width: 150px;
-            height: 150px;
-            background: white;
-            border-radius: 50%;
-            position: absolute;
-            right: 80px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            color: #1e3a8a;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-            border: 6px solid white;
-        }
-
-        .club-logo::before {
-            content: '';
-            width: 100px;
-            height: 100px;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%23059669"/><text x="50" y="60" text-anchor="middle" fill="white" font-size="20" font-weight="bold">HC</text></svg>') center/contain no-repeat;
+            letter-spacing: 4px;
         }
 
         .fixtures-content {
@@ -239,9 +189,7 @@
 <body>
     <div class="fixtures-container">
         <div class="header">
-            <div class="fixtures-title">FIXTURES</div>
-            <h1 class="home-title">HOME</h1>
-            <div class="club-logo"></div>
+            <h1 class="fixtures-title">FIXTURES</h1>
         </div>
         
         <div class="fixtures-content">

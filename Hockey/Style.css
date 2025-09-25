@@ -23,7 +23,7 @@ body {
     overflow: hidden;
 }
 
-/* JavaScript will need to restructure the content, so let's provide base styles */
+/* JavaScript will restructure the content, so provide base styles */
 .tournament-section {
     background: white;
     border-radius: 12px;

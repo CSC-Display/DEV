@@ -1,5 +1,5 @@
 /* Sports Results Layout CSS - Based on practical list design */
-/* Works with the actual list structure from the API */
+/* Works with the actual GMS API structure */
 
 * {
     box-sizing: border-box;
@@ -8,26 +8,56 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segui UI', Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #f8f9fa;
     padding: 20px;
     line-height: 1.4;
 }
 
-/* Main container - Tournament sections */
+/* Main container - handles multiple tournaments */
 .gms-wrapper {
     max-width: 600px;
-    margin: 0 auto 16px auto;
+    margin: 0 auto;
+    background: transparent;
+    padding: 0;
+}
+
+/* Tournament section containers */
+.gms-wrapper > div,
+.gms-wrapper .tournament-group {
     background: white;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin-bottom: 16px;
     padding: 0;
 }
 
-/* Tournament header styling */
-.gms-wrapper > div:first-child,
-.gms-wrapper > *:first-child {
+/* Tournament/Division headers - look for text patterns */
+.gms-wrapper h2,
+.gms-wrapper h3,
+.gms-wrapper .division-header,
+.gms-wrapper > div > *:first-child,
+.gms-wrapper > *:contains("DIVISION"),
+.gms-wrapper > *:contains("CONFERENCE"),
+.gms-wrapper > *:contains("PREMIER"),
+.gms-wrapper > *:contains("LEAGUE") {
+    background-color: #f1f8f1 !important;
+    color: #16a34a !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 12px 20px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+    position: relative !important;
+    display: block !important;
+}
+
+/* Generic header styling for first elements that might be headers */
+.gms-wrapper > div:first-of-type,
+.gms-wrapper > p:first-of-type {
     background-color: #f1f8f1;
     color: #16a34a;
     font-size: 14px;
@@ -40,45 +70,73 @@ body {
     position: relative;
 }
 
-/* Date in header */
-.gms-wrapper > *:first-child::after {
-    content: "21 Sep";
+/* Date styling - look for date patterns */
+.gms-wrapper .date,
+.gms-wrapper [class*="date"],
+.gms-wrapper > div:contains("Sep"),
+.gms-wrapper > div:contains("Oct"),
+.gms-wrapper > div:contains("Nov") {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    color: #6b7280;
-    font-weight: 500;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 12px;
+    color: #6b7280 !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-size: 12px !important;
 }
 
-/* Match rows - team entries */
-.gms-wrapper > div:not(:first-child),
-.gms-wrapper > p:not(:first-child) {
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    border-bottom: 1px solid #f0f0f0;
-    position: relative;
-    margin: 0;
-    line-height: 1.5;
+/* Team/Match row styling - more flexible selectors */
+.gms-wrapper .team,
+.gms-wrapper .match,
+.gms-wrapper .fixture,
+.gms-wrapper .result,
+.gms-wrapper > div:not(:first-child):not([class*="date"]):not([class*="header"]),
+.gms-wrapper > p:not(:first-child):not([class*="date"]):not([class*="header"]),
+.gms-wrapper li {
+    display: flex !important;
+    align-items: center !important;
+    padding: 12px 20px 12px 56px !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    position: relative !important;
+    margin: 0 !important;
+    line-height: 1.5 !important;
+    background: white !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3px !important;
+    justify-content: space-between !important;
+    min-height: 48px !important;
 }
 
 .gms-wrapper > div:last-child,
-.gms-wrapper > p:last-child {
-    border-bottom: none;
+.gms-wrapper > p:last-child,
+.gms-wrapper li:last-child {
+    border-bottom: none !important;
 }
 
+/* Hover effects */
+.gms-wrapper .team:hover,
+.gms-wrapper .match:hover,
+.gms-wrapper .fixture:hover,
+.gms-wrapper .result:hover,
 .gms-wrapper > div:not(:first-child):hover,
-.gms-wrapper > p:not(:first-child):hover {
-    background-color: #f8f9fa;
+.gms-wrapper > p:not(:first-child):hover,
+.gms-wrapper li:hover {
+    background-color: #f8f9fa !important;
 }
 
-/* Team logo styling */
-.gms-wrapper > div:not(:first-child)::before,
-.gms-wrapper > p:not(:first-child)::before {
+/* Team logos - more flexible positioning */
+.gms-wrapper .team::before,
+.gms-wrapper .match::before,
+.gms-wrapper .fixture::before,
+.gms-wrapper .result::before,
+.gms-wrapper > div:not(:first-child):not([class*="date"]):not([class*="header"])::before,
+.gms-wrapper > p:not(:first-child):not([class*="date"]):not([class*="header"])::before,
+.gms-wrapper li::before {
     content: '';
     position: absolute;
     left: 20px;
@@ -92,41 +150,39 @@ body {
     flex-shrink: 0;
 }
 
-/* Alternate logo colors for variety */
-.gms-wrapper > div:nth-child(even)::before,
-.gms-wrapper > p:nth-child(even)::before {
+/* Varied logo colors */
+.gms-wrapper > div:nth-child(even):not(:first-child)::before,
+.gms-wrapper > p:nth-child(even):not(:first-child)::before,
+.gms-wrapper li:nth-child(even)::before {
     background-color: #4a4a4a;
     border: 2px solid #333;
 }
 
-.gms-wrapper > div:nth-child(4n+3)::before,
-.gms-wrapper > p:nth-child(4n+3)::before {
+.gms-wrapper > div:nth-child(4n+3):not(:first-child)::before,
+.gms-wrapper > p:nth-child(4n+3):not(:first-child)::before,
+.gms-wrapper li:nth-child(4n+3)::before {
     background-color: #d2691e;
     border: 2px solid #b8590b;
 }
 
-.gms-wrapper > div:nth-child(4n)::before,
-.gms-wrapper > p:nth-child(4n)::before {
+.gms-wrapper > div:nth-child(4n):not(:first-child)::before,
+.gms-wrapper > p:nth-child(4n):not(:first-child)::before,
+.gms-wrapper li:nth-child(4n)::before {
     background-color: #1e3a8a;
     border: 2px solid #1d4ed8;
 }
 
-/* Team name styling */
-.gms-wrapper > div:not(:first-child),
-.gms-wrapper > p:not(:first-child) {
-    font-weight: 500;
-    color: #333;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    padding-left: 56px;
-    justify-content: space-between;
-}
-
-/* Score styling */
-.gms-wrapper > div:not(:first-child)::after,
-.gms-wrapper > p:not(:first-child)::after {
-    content: "3";
+/* Score styling - look for numbers and score patterns */
+.gms-wrapper .score::after,
+.gms-wrapper [class*="score"]::after,
+.gms-wrapper .team::after,
+.gms-wrapper .match::after,
+.gms-wrapper .fixture::after,
+.gms-wrapper .result::after,
+.gms-wrapper > div:not(:first-child):not([class*="date"]):not([class*="header"])::after,
+.gms-wrapper > p:not(:first-child):not([class*="date"]):not([class*="header"])::after,
+.gms-wrapper li::after {
+    content: attr(data-score);
     background-color: #000;
     color: white;
     font-size: 16px;
@@ -138,41 +194,64 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* Different scores for variety */
-.gms-wrapper > div:nth-child(3)::after,
-.gms-wrapper > p:nth-child(3)::after {
+/* Fallback scores when no data-score attribute */
+.gms-wrapper > div:nth-child(2):not(:first-child)::after,
+.gms-wrapper li:nth-child(1)::after {
+    content: "3";
+}
+
+.gms-wrapper > div:nth-child(3):not(:first-child)::after,
+.gms-wrapper li:nth-child(2)::after {
     content: "1";
 }
 
-.gms-wrapper > div:nth-child(4)::after,
-.gms-wrapper > p:nth-child(4)::after {
+.gms-wrapper > div:nth-child(4):not(:first-child)::after,
+.gms-wrapper li:nth-child(3)::after {
     content: "0";
 }
 
-.gms-wrapper > div:nth-child(5)::after,
-.gms-wrapper > p:nth-child(5)::after {
+.gms-wrapper > div:nth-child(5):not(:first-child)::after,
+.gms-wrapper li:nth-child(4)::after {
     content: "0";
 }
 
-.gms-wrapper > div:nth-child(6)::after,
-.gms-wrapper > p:nth-child(6)::after {
+.gms-wrapper > div:nth-child(6):not(:first-child)::after,
+.gms-wrapper li:nth-child(5)::after {
+    content: "3";
+}
+
+.gms-wrapper > div:nth-child(7):not(:first-child)::after,
+.gms-wrapper li:nth-child(6)::after {
     content: "5";
 }
 
-/* Chevron arrow */
-.gms-wrapper > div:not(:first-child):before,
-.gms-wrapper > p:not(:first-child):before {
-    content: "›";
-    position: absolute;
-    right: -8px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #ccc;
-    font-size: 18px;
-    opacity: 0.6;
-    z-index: 1;
+/* Chevron arrows */
+.gms-wrapper .team:before,
+.gms-wrapper .match:before,
+.gms-wrapper .fixture:before,
+.gms-wrapper .result:before,
+.gms-wrapper > div:not(:first-child):not([class*="date"]):not([class*="header"]):before,
+.gms-wrapper > p:not(:first-child):not([class*="date"]):not([class*="header"]):before {
+    content: "›" !important;
+    position: absolute !important;
+    right: 8px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #ccc !important;
+    font-size: 18px !important;
+    opacity: 0.6 !important;
+    z-index: 2 !important;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    background: none !important;
+    border: none !important;
 }
 
 /* Clean up unwanted elements */
@@ -181,7 +260,25 @@ body {
 }
 
 .gms-wrapper a {
-    display: none;
+    color: #1d4ed8 !important;
+    text-decoration: none !important;
+    font-size: 12px !important;
+    padding: 4px 20px 8px 56px !important;
+    display: block !important;
+    border-bottom: none !important;
+    background: transparent !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+}
+
+.gms-wrapper a:hover {
+    text-decoration: underline !important;
+    background-color: #f8f9fa !important;
+}
+
+/* Override any inline styles from API */
+.gms-wrapper * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
 }
 
 /* Responsive design */
@@ -190,29 +287,45 @@ body {
         padding: 12px;
     }
     
-    .gms-wrapper {
+    .gms-wrapper > div {
         border-radius: 8px;
         margin-bottom: 12px;
     }
     
+    .gms-wrapper .team,
+    .gms-wrapper .match,
+    .gms-wrapper .fixture,
+    .gms-wrapper .result,
     .gms-wrapper > div:not(:first-child),
-    .gms-wrapper > p:not(:first-child) {
-        padding: 10px 12px 10px 48px;
-        font-size: 13px;
+    .gms-wrapper > p:not(:first-child),
+    .gms-wrapper li {
+        padding: 10px 12px 10px 48px !important;
+        font-size: 13px !important;
     }
     
+    .gms-wrapper .team::before,
+    .gms-wrapper .match::before,
+    .gms-wrapper .fixture::before,
+    .gms-wrapper .result::before,
     .gms-wrapper > div:not(:first-child)::before,
-    .gms-wrapper > p:not(:first-child)::before {
-        left: 12px;
-        width: 20px;
-        height: 20px;
+    .gms-wrapper > p:not(:first-child)::before,
+    .gms-wrapper li::before {
+        left: 12px !important;
+        width: 20px !important;
+        height: 20px !important;
     }
     
+    .gms-wrapper .team::after,
+    .gms-wrapper .match::after,
+    .gms-wrapper .fixture::after,
+    .gms-wrapper .result::after,
     .gms-wrapper > div:not(:first-child)::after,
-    .gms-wrapper > p:not(:first-child)::after {
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
+    .gms-wrapper > p:not(:first-child)::after,
+    .gms-wrapper li::after {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 14px !important;
+        right: 32px !important;
     }
 }
 

@@ -98,7 +98,6 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
 
-        /* Division headers */
         .gms-division-header {
             background: #047857;
             color: white;
@@ -132,14 +131,24 @@
         .gms-teams {
             display: flex;
             align-items: center;
-            gap: 16px;
+            justify-content: space-between;
             flex: 1;
+            margin-right: 16px;
         }
 
         .gms-team {
             display: flex;
             align-items: center;
             gap: 8px;
+            flex: 1;
+        }
+
+        .gms-team:first-child {
+            justify-content: flex-end;
+        }
+
+        .gms-team:last-child {
+            justify-content: flex-start;
         }
 
         .gms-team-logo {
@@ -155,7 +164,7 @@
         }
 
         .gms-team-name {
-            font-size: 18px;
+            font-size: 22px;
             font-weight: 600;
             color: #1f2937;
             line-height: 1.2;
@@ -176,9 +185,10 @@
             font-weight: 900;
             padding: 8px 16px;
             border-radius: 6px;
-            min-width: 60px;
+            min-width: 80px;
             text-align: center;
-            margin-left: 16px;
+            flex-shrink: 0;
+            position: relative;
         }
 
         .gms-match-details {
@@ -203,13 +213,11 @@
             margin-top: 2px;
         }
 
-        /* Chelmsford team highlighting */
         .gms-chelmsford-team .gms-team-name {
             font-weight: 800;
             color: #047857;
         }
 
-        /* Date headers */
         .gms-date-header {
             background: #f3f4f6;
             color: #1f2937;
@@ -224,7 +232,6 @@
             margin: 0;
         }
 
-        /* Hide unwanted elements */
         .gms-cardvenue,
         .gms-directions-card,
         .gms-link,
@@ -237,7 +244,6 @@
             display: none !important;
         }
 
-        /* Refresh timer */
         .refresh-timer {
             position: fixed;
             bottom: 24px;
@@ -253,7 +259,6 @@
             border: 1px solid #e5e7eb;
         }
 
-        /* Override GMS styles with higher specificity */
         .gms-wrapper .gms-list {
             display: grid !important;
             grid-template-columns: repeat(2, 1fr) !important;
@@ -278,13 +283,30 @@
             background: #f9fafb !important;
         }
 
-        /* Restructure the card content to match the design */
         .gms-wrapper .gms-cardfixture {
             display: flex !important;
             align-items: center !important;
             justify-content: space-between !important;
             margin: 0 !important;
-            gap: 16px !important;
+            gap: 0 !important;
+        }
+
+        .gms-wrapper .gms-cardhome {
+            text-align: right !important;
+            flex: 1 !important;
+            margin-right: 16px !important;
+            color: #1f2937 !important;
+            font-size: 22px !important;
+            font-weight: 600 !important;
+        }
+
+        .gms-wrapper .gms-cardaway {
+            text-align: left !important;
+            flex: 1 !important;
+            margin-left: 16px !important;
+            color: #1f2937 !important;
+            font-size: 22px !important;
+            font-weight: 600 !important;
         }
 
         .gms-wrapper .gms-cardtitle {
@@ -297,19 +319,6 @@
             text-align: left !important;
         }
 
-        .gms-wrapper .gms-cardhome,
-        .gms-wrapper .gms-cardaway {
-            color: #1f2937 !important;
-            font-size: 18px !important;
-            font-weight: 600 !important;
-            flex: none !important;
-            text-align: left !important;
-        }
-
-        .gms-wrapper .gms-cardhome {
-            text-align: right !important;
-        }
-
         .gms-wrapper .gms-carddivide {
             background: #1f2937 !important;
             color: white !important;
@@ -317,11 +326,12 @@
             border-radius: 6px !important;
             font-size: 20px !important;
             font-weight: 900 !important;
-            min-width: 60px !important;
+            min-width: 80px !important;
             text-align: center !important;
             box-shadow: none !important;
             border: none !important;
             flex-shrink: 0 !important;
+            position: relative !important;
         }
 
         .gms-wrapper .gms-cardtime,
@@ -359,7 +369,7 @@
             padding: 0 !important;
             border-radius: 0 !important;
             font-weight: 800 !important;
-            font-size: 18px !important;
+            font-size: 22px !important;
             box-shadow: none !important;
             border: none !important;
         }
@@ -372,7 +382,6 @@
             text-align: left !important;
         }
 
-        /* Responsive adjustments for large displays */
         @media screen and (min-width: 1920px) {
             .fixtures-title {
                 font-size: 56px;
@@ -393,12 +402,17 @@
             }
             
             .gms-team-name {
-                font-size: 20px;
+                font-size: 26px;
             }
             
             .gms-wrapper .gms-cardhome,
             .gms-wrapper .gms-cardaway {
-                font-size: 20px !important;
+                font-size: 26px !important;
+            }
+            
+            .gms-wrapper .gms-clubteam:not(.gms-button),
+            .gms-wrapper .gms-boldteam {
+                font-size: 26px !important;
             }
             
             .gms-score,
@@ -408,7 +422,6 @@
             }
         }
 
-        /* Smooth scrollbar styling */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -447,7 +460,6 @@
             </div>
         </div>
         
-        <!-- Refresh countdown timer -->
         <div class="refresh-timer" id="refreshTimer">
             Next refresh: <span id="countdown">15:00</span>
         </div>
@@ -456,10 +468,9 @@
     <script src="https://gmsfeed.co.uk/js/api.js"></script>
     
     <script>
-        // Auto-refresh functionality optimized for TV display
         let refreshInterval;
         let countdownInterval;
-        let timeLeft = 15 * 60; // 15 minutes in seconds
+        let timeLeft = 15 * 60;
 
         function updateCountdown() {
             const minutes = Math.floor(timeLeft / 60);
@@ -475,7 +486,7 @@
             
             if (timeLeft < 0) {
                 refreshGMSData();
-                timeLeft = 15 * 60; // Reset to 15 minutes
+                timeLeft = 15 * 60;
             }
         }
 
@@ -489,7 +500,6 @@
 
             console.log(`Optimizing TV display with ${gmsCards.length} results`);
             
-            // Ensure optimal spacing for TV viewing
             const availableHeight = window.innerHeight - 200;
             const optimalCardHeight = Math.max(120, Math.floor((availableHeight - 60) / Math.ceil(gmsCards.length / 2)) - 2);
             

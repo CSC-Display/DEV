@@ -335,6 +335,34 @@
             border: none !important;
             flex-shrink: 0 !important;
             position: relative !important;
+            transition: background-color 0.3s ease !important;
+        }
+
+        /* Chelmsford win - green score box */
+        .gms-wrapper .gms-card:has(.gms-clubteam.gms-cardhome) .gms-carddivide {
+            background: #047857 !important;
+        }
+
+        .gms-wrapper .gms-card:has(.gms-clubteam.gms-cardaway) .gms-carddivide {
+            background: #047857 !important;
+        }
+
+        /* Dynamic score box coloring based on match result */
+        .gms-wrapper .gms-card {
+            position: relative;
+        }
+
+        /* Script will add these classes dynamically */
+        .gms-score-win {
+            background: #047857 !important;
+        }
+
+        .gms-score-loss {
+            background: #dc2626 !important;
+        }
+
+        .gms-score-draw {
+            background: #1f2937 !important;
         }
 
         .gms-wrapper .gms-cardtime,
@@ -503,6 +531,9 @@
 
             console.log(`Optimizing TV display with ${gmsCards.length} results`);
             
+            // Apply score box colors based on Chelmsford results
+            colorScoreBoxes();
+            
             const availableHeight = window.innerHeight - 200;
             const optimalCardHeight = Math.max(120, Math.floor((availableHeight - 60) / Math.ceil(gmsCards.length / 2)) - 2);
             
@@ -524,6 +555,52 @@
             if (!document.getElementById('tv-optimization')) {
                 document.head.appendChild(styleSheet);
             }
+        }
+
+        function colorScoreBoxes() {
+            const gmsCards = document.querySelectorAll('.gms-card');
+            
+            gmsCards.forEach(card => {
+                const homeTeam = card.querySelector('.gms-cardhome');
+                const awayTeam = card.querySelector('.gms-cardaway');
+                const scoreBox = card.querySelector('.gms-carddivide');
+                
+                if (!homeTeam || !awayTeam || !scoreBox) return;
+                
+                const homeText = homeTeam.textContent.trim();
+                const awayText = awayTeam.textContent.trim();
+                const scoreText = scoreBox.textContent.trim();
+                
+                // Check if Chelmsford is playing
+                const isChelmsfordHome = homeText.toLowerCase().includes('chelmsford');
+                const isChelmsfordAway = awayText.toLowerCase().includes('chelmsford');
+                
+                if (!isChelmsfordHome && !isChelmsfordAway) return;
+                
+                // Parse the score (format like "2:1" or "3:0")
+                const scoreMatch = scoreText.match(/(\d+):(\d+)/);
+                if (!scoreMatch) return;
+                
+                const homeScore = parseInt(scoreMatch[1]);
+                const awayScore = parseInt(scoreMatch[2]);
+                
+                // Determine the result from Chelmsford's perspective
+                let result = 'draw';
+                
+                if (isChelmsfordHome) {
+                    if (homeScore > awayScore) result = 'win';
+                    else if (homeScore < awayScore) result = 'loss';
+                } else if (isChelmsfordAway) {
+                    if (awayScore > homeScore) result = 'win';
+                    else if (awayScore < homeScore) result = 'loss';
+                }
+                
+                // Apply the appropriate class
+                scoreBox.classList.remove('gms-score-win', 'gms-score-loss', 'gms-score-draw');
+                scoreBox.classList.add(`gms-score-${result}`);
+                
+                console.log(`Match: ${homeText} vs ${awayText}, Score: ${scoreText}, Result for Chelmsford: ${result}`);
+            });
         }
 
         function refreshGMSData() {
@@ -592,7 +669,10 @@
                         );
                         
                         if (hasGMSContent) {
-                            setTimeout(optimizeForTV, 500);
+                            setTimeout(() => {
+                                optimizeForTV();
+                                colorScoreBoxes();
+                            }, 500);
                         }
                     }
                 });
@@ -603,8 +683,14 @@
                 subtree: true
             });
 
-            setTimeout(optimizeForTV, 2000);
-            setTimeout(optimizeForTV, 5000);
+            setTimeout(() => {
+                optimizeForTV();
+                colorScoreBoxes();
+            }, 2000);
+            setTimeout(() => {
+                optimizeForTV();
+                colorScoreBoxes();
+            }, 5000);
         }
 
         window.addEventListener('load', function() {

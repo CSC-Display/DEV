@@ -41,9 +41,22 @@
             flex: 2;
         }
 
+        .dropdown-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .dropdown-wrapper {
+            height: 94px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
         .dropdown-options {
             padding: 8px;
-            margin: 5px 0;
             border: 1px solid #ddd;
             border-radius: 4px;
             width: 100px;
@@ -155,7 +168,7 @@
         <div class="column column-left" align="center">
             <b>Changing Room</b>
             <br><br>
-            <div id="dynamicDropdownsLeft"></div>
+            <div id="dynamicDropdownsLeft" class="dropdown-container"></div>
         </div>
 
         <!-- Middle Fixtures Column -->
@@ -174,7 +187,7 @@
         <div class="column column-right" align="center">
             <b>Changing Room</b>
             <br><br>
-            <div id="dynamicDropdownsRight"></div>
+            <div id="dynamicDropdownsRight" class="dropdown-container"></div>
         </div>
     </section>
 
@@ -247,6 +260,9 @@
             leftColumnSelections.clear();
 
             for (let i = 1; i <= count; i++) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'dropdown-wrapper';
+                
                 const select = document.createElement('select');
                 select.className = 'dropdown-options';
                 select.id = `dropdownLeft${i}`;
@@ -259,9 +275,8 @@
                     select.appendChild(option);
                 }
 
-                container.appendChild(select);
-                container.appendChild(document.createElement('br'));
-                container.appendChild(document.createElement('br'));
+                wrapper.appendChild(select);
+                container.appendChild(wrapper);
 
                 select.value = '1';
                 leftColumnSelections.add(1);
@@ -276,6 +291,9 @@
             container.innerHTML = '';
 
             for (let i = 1; i <= count; i++) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'dropdown-wrapper';
+                
                 const select = document.createElement('select');
                 select.className = 'dropdown-options';
                 select.id = `dropdownRight${i}`;
@@ -288,9 +306,8 @@
                     select.appendChild(option);
                 }
 
-                container.appendChild(select);
-                container.appendChild(document.createElement('br'));
-                container.appendChild(document.createElement('br'));
+                wrapper.appendChild(select);
+                container.appendChild(wrapper);
 
                 select.value = '1';
             }
@@ -349,11 +366,30 @@
         displayTime();
         setInterval(displayTime, 60000);
 
+        // Check if API call was already made today
+        let lastApiCall = null;
+        
+        function canMakeApiCall() {
+            if (!lastApiCall) return true;
+            
+            const now = new Date();
+            const lastCall = new Date(lastApiCall);
+            
+            // Check if it's a different day
+            return now.toDateString() !== lastCall.toDateString();
+        }
+
         // jQuery ready function
         $(document).ready(function() {
             $('section').on('change', '.dropdown-options', function() {
                 var selectId = $(this).attr('id');
                 var roomNumber = $(this).val();
+                
+                // Only make API call if not already made today
+                if (!canMakeApiCall()) {
+                    console.log('API call already made today. Skipping.');
+                    return;
+                }
                 
                 $.ajax({
                     url: 'https://fixtures.chelmsfordhc.org.uk/changing/updategms',
@@ -365,6 +401,7 @@
                     },
                     success: function(output_string) {
                         alert('success');
+                        lastApiCall = new Date().toISOString();
                     }
                 });
             });

@@ -3,65 +3,555 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Fixtures</title>
+    <title>Chelmsford Hockey Club</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 28px;
+        }
+
+        section {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .column {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .column-middle {
+            flex: 2;
+        }
+
+        .dropdown-options {
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100px;
+            visibility: hidden;
+        }
+
+        .gms-wrapper {
+            margin: 20px 0;
+        }
+
+        .gms-card {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border-left: 4px solid #007bff;
+        }
+
+        .gms-carddate {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 8px;
+        }
+
+        .gms-cardfixture {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        .gms-clubteam {
+            font-weight: bold;
+        }
+
+        .gms-cardtime {
+            color: #666;
+            font-weight: bold;
+        }
+
+        .gms-cardvenue a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .sponsors {
+            text-align: center;
+            margin: 40px 0 20px;
+        }
+
+        .sponsors h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .grid-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .grid-item-span {
+            grid-column: span 2;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .gms-footnote {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Home Fixtures</h1>
-    
-    <div class="gms-wrapper gms-ajax" 
-         data-method="api" 
-         data-show="fixtures" 
-         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
-         data-sort_by="fixtureTime" 
-         data-options="showGender:yes,showList:yes,filter:home">
+    <header>
+        <h3>Welcome to Chelmsford Hockey Club</h3>
+    </header>
+
+    <section>
+        <!-- Left Changing Room Column -->
+        <div class="column column-left" align="center">
+            <b>Changing Room</b>
+            <br><br>
+            <div id="dynamicDropdownsLeft"></div>
+        </div>
+
+        <!-- Middle Fixtures Column -->
+        <div class="column column-middle">
+            <div id="gmsFixtures" class="gms-wrapper gms-ajax" 
+                 data-method="api" 
+                 data-show="fixtures+results" 
+                 data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
+                 data-sort_by="fixtureTime" 
+                 data-options="showGender:yes, showList:yes, filter:home" 
+                 data-request="true">
+                
+                <div class="gms-list">
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="a078330a-7a2c-4b35-be42-3fbdc1154980" class="gms-clubteam">
+                                    Chelmsford 7 (M)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">10:00</div>
+                            <div class="gms-cardaway">
+                                <div>Old Southendian 6</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+1" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 1
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="f7caa8cd-13e9-41ec-8dec-dbb6a08150db" class="gms-clubteam">
+                                    Chelmsford 5 (M)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">11:15</div>
+                            <div class="gms-cardaway">
+                                <div>Old Southendian 4</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+2" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 2
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="98cbe9c6-8190-4e3a-bc09-c2417844d82b" class="gms-clubteam">
+                                    Chelmsford 3 (F)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">11:30</div>
+                            <div class="gms-cardaway">
+                                <div>Old Southendian 1</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+1" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 1
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="09083ed3-cd42-4c8a-9cd1-0813729badb8" class="gms-clubteam">
+                                    Chelmsford 5 (F)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">12:45</div>
+                            <div class="gms-cardaway">
+                                <div>Havering 3</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+2" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 2
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="de71af7a-ce05-4580-8068-db017efdbb12" class="gms-clubteam">
+                                    Chelmsford 3 (M)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">13:00</div>
+                            <div class="gms-cardaway">
+                                <div>Saffron Walden 2</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+1" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 1
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="3176f8e1-f036-4874-bfbd-6034c56b12ad" class="gms-clubteam">
+                                    Chelmsford 1 (F)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">14:30</div>
+                            <div class="gms-cardaway">
+                                <div>Ipswich 1</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+1" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 1
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gms-card">
+                        <div class="gms-carddate">04 Oct 2025</div>
+                        <div class="gms-cardfixture">
+                            <div class="gms-cardhome">
+                                <div data-team="56641dbe-ade5-44f3-8611-1a3ad3ed6e4d" class="gms-clubteam">
+                                    Chelmsford 7 (F)
+                                </div>
+                            </div>
+                            <div class="gms-carddivide gms-cardtime">16:00</div>
+                            <div class="gms-cardaway">
+                                <div>Old Southendian 5</div>
+                            </div>
+                        </div>
+                        <div class="gms-cardvenue">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chelmsford+HC+-+Chelmer+Park+-+Pitch+1" target="_blank">
+                                Chelmsford HC - Chelmer Park - Pitch 1
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gms-footnote">
+                    [Club<span class="gms-nomobile"> match day fixtures (home) also found at</span> 
+                    <a href="https://www.englandhockey.co.uk/clubs/chelmsford-hc" target="_blank">England Hockey Link</a>]
+                </div>
+            </div>
+            <script src="https://gmsfeed.co.uk/js/api.js"></script>
+        </div>
+
+        <!-- Right Changing Room Column -->
+        <div class="column column-right" align="center">
+            <b>Changing Room</b>
+            <br><br>
+            <div id="dynamicDropdownsRight"></div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <div class="sponsors">
+        <h1>Thank you to our Sponsors:</h1>
     </div>
-    
-    <script src="https://gmsfeed.co.uk/js/api.js"></script>
-    
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/gray and sons.png" alt="Gray and Sons">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/skippers.png" alt="Skippers">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/birketts.png" alt="Birketts">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/green recycling.png" alt="Green Recycling">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/st-cedds.png" alt="St Cedds">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/new-hall.png" alt="New Hall">
+        </div>
+        <div class="grid-item">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/old_park_meadow.svg" alt="Old Park Meadow">
+        </div>
+        <div class="grid-item grid-item-span">
+            <img src="//fixtures.chelmsfordhc.org.uk/img/meadow-oak.png" alt="Meadow Oak">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p id="datetime">7:42 pm - 30 September 2025</p>
+    </div>
+
     <script>
-        // Wait for the API to load fixtures
-        const observer = new MutationObserver(() => {
-            const fixturesContainer = document.querySelector('.gms-wrapper');
-            
-            if (fixturesContainer && fixturesContainer.children.length > 0) {
-                // Find all fixture elements
-                const fixtures = fixturesContainer.querySelectorAll('[class*="fixture"], .gms-fixture, div[data-fixture]');
-                
-                fixtures.forEach((fixture) => {
-                    // Check if we've already added allocation boxes
-                    if (fixture.querySelector('.allocation-box')) return;
-                    
-                    // Create allocation container
-                    const allocationDiv = document.createElement('div');
-                    allocationDiv.className = 'allocation-box';
-                    allocationDiv.innerHTML = `
-                        <h3>Changing Room</h3>
-                        <div>
-                            <label>Home (1-6): <input type="number" min="1" max="6" class="home-allocation"></label>
-                        </div>
-                        <div>
-                            <label>Away (1-6): <input type="number" min="1" max="6" class="away-allocation"></label>
-                        </div>
-                    `;
-                    
-                    // Append to fixture
-                    fixture.appendChild(allocationDiv);
+        // Display current time
+        function displayTime() {
+            const now = new Date();
+            const timeString = now.toLocaleString('en-GB', { 
+                hour: 'numeric', 
+                minute: '2-digit', 
+                hour12: true 
+            }) + ' - ' + now.toLocaleDateString('en-GB', { 
+                day: 'numeric', 
+                month: 'long', 
+                year: 'numeric' 
+            });
+            document.getElementById('datetime').textContent = timeString;
+        }
+
+        // Count fixtures on the page
+        function countFixtures() {
+            const fixturesDiv = document.getElementById('gmsFixtures');
+            const fixtures = fixturesDiv.querySelectorAll('.gms-card');
+            return fixtures.length;
+        }
+
+        let leftColumnSelections = new Set();
+
+        // Generate left column dropdowns
+        function generateLeftDropdowns(count) {
+            const container = document.getElementById('dynamicDropdownsLeft');
+            container.innerHTML = '';
+            leftColumnSelections.clear();
+
+            for (let i = 1; i <= count; i++) {
+                const select = document.createElement('select');
+                select.className = 'dropdown-options';
+                select.id = `dropdownLeft${i}`;
+                select.onchange = saveDropdownSelection;
+
+                for (let j = 1; j <= 6; j++) {
+                    const option = document.createElement('option');
+                    option.value = j.toString();
+                    option.textContent = j.toString();
+                    select.appendChild(option);
+                }
+
+                container.appendChild(select);
+                container.appendChild(document.createElement('br'));
+                container.appendChild(document.createElement('br'));
+
+                select.value = '1';
+                leftColumnSelections.add(1);
+            }
+
+            loadDropdownSelections('Left');
+        }
+
+        // Generate right column dropdowns
+        function generateRightDropdowns(count) {
+            const container = document.getElementById('dynamicDropdownsRight');
+            container.innerHTML = '';
+
+            for (let i = 1; i <= count; i++) {
+                const select = document.createElement('select');
+                select.className = 'dropdown-options';
+                select.id = `dropdownRight${i}`;
+                select.onchange = saveDropdownSelection;
+
+                for (let j = 1; j <= 6; j++) {
+                    const option = document.createElement('option');
+                    option.value = j.toString();
+                    option.textContent = j.toString();
+                    select.appendChild(option);
+                }
+
+                container.appendChild(select);
+                container.appendChild(document.createElement('br'));
+                container.appendChild(document.createElement('br'));
+
+                select.value = '1';
+            }
+
+            loadDropdownSelections('Right');
+        }
+
+        // Save dropdown selection
+        function saveDropdownSelection(event) {
+            const dropdown = event.target;
+            const selectedValue = dropdown.value;
+            const dropdownId = dropdown.id;
+
+            // Update selections in memory (not using browser storage per restrictions)
+            if (dropdownId.startsWith('dropdownLeft')) {
+                leftColumnSelections.clear();
+                document.querySelectorAll('[id^="dropdownLeft"]').forEach(select => {
+                    leftColumnSelections.add(parseInt(select.value));
                 });
-                
-                // Stop observing once we've processed fixtures
-                if (fixtures.length > 0) {
-                    observer.disconnect();
+            }
+        }
+
+        // Load dropdown selections (placeholder for memory-based storage)
+        function loadDropdownSelections(side) {
+            // Memory-based implementation would go here
+        }
+
+        // Observe DOM changes for fixtures
+        const observer = new MutationObserver((mutations) => {
+            for (let mutation of mutations) {
+                if (mutation.type === 'childList') {
+                    for (let node of mutation.addedNodes) {
+                        if (node.nodeType === Node.ELEMENT_NODE) {
+                            const fixtureCount = countFixtures();
+                            generateLeftDropdowns(fixtureCount);
+                            generateRightDropdowns(fixtureCount);
+                            return;
+                        }
+                    }
                 }
             }
         });
-        
-        // Start observing the fixtures container
+
+        const config = { childList: true, subtree: true };
+        observer.observe(document.getElementById('gmsFixtures'), config);
+
         setTimeout(() => {
-            const container = document.querySelector('.gms-wrapper');
-            if (container) {
-                observer.observe(container, { childList: true, subtree: true });
+            observer.disconnect();
+            console.log('Stopped observing after 30 seconds');
+            if (document.getElementById('dynamicDropdownsLeft').children.length === 0 || 
+                document.getElementById('dynamicDropdownsRight').children.length === 0) {
+                console.log('No fixtures found');
             }
-        }, 100);
+        }, 30000);
+
+        displayTime();
+        setInterval(displayTime, 60000);
+
+        // jQuery ready function
+        $(document).ready(function() {
+            $('section').on('change', '.dropdown-options', function() {
+                var selectId = $(this).attr('id');
+                var roomNumber = $(this).val();
+                
+                $.ajax({
+                    url: 'https://fixtures.chelmsfordhc.org.uk/changing/updategms',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        'select_id': selectId, 
+                        'room_number': roomNumber
+                    },
+                    success: function(output_string) {
+                        alert('success');
+                    }
+                });
+            });
+
+            var selects = {
+                "dropdownLeft1": "1",
+                "dropdownLeft2": "1",
+                "dropdownLeft3": "5",
+                "dropdownLeft4": "3",
+                "dropdownLeft5": "1",
+                "dropdownLeft6": "5",
+                "dropdownLeft7": "3",
+                "dropdownLeft8": "1",
+                "dropdownLeft9": "3",
+                "dropdownRight1": "2",
+                "dropdownRight2": "2",
+                "dropdownRight3": "6",
+                "dropdownRight4": "4",
+                "dropdownRight5": "2",
+                "dropdownRight6": "6",
+                "dropdownRight7": "4",
+                "dropdownRight8": "2",
+                "dropdownRight9": "4",
+                "dropdownRight10": "2"
+            };
+
+            setTimeout(function() {
+                $('.dropdown-options').each(function() {
+                    if ($(this).attr('id') in selects) {
+                        $(this).val(selects[$(this).attr('id')]);
+                    }
+                });
+                $('.dropdown-options').css('visibility', 'visible');
+            }, 1000);
+
+            setTimeout(function() {
+                window.location.reload();
+            }, 60000);
+        });
     </script>
 </body>
 </html>

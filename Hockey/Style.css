@@ -202,46 +202,31 @@
 
         .footer {
             text-align: center;
-            padding: 40px;
+            padding: 20px;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
         }
 
         .footer p {
-            font-size: 28px;
+            font-size: 16px;
+            color: #6b7280;
+        }
+
+        .refresh-timer {
+            font-size: 16px;
             color: #6b7280;
         }
 
         .gms-footnote {
-            margin-top: 30px;
-            font-size: 24px;
+            margin-top: 15px;
+            font-size: 14px;
             color: #6b7280;
-        }
-
-        .reload-button {
-            position: fixed;
-            bottom: 40px;
-            left: 40px;
-            padding: 24px 48px;
-            background-color: #16a34a;
-            color: white;
-            border: none;
-            border-radius: 16px;
-            font-size: 32px;
-            font-weight: 600;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-            transition: background-color 0.3s;
-        }
-
-        .reload-button:hover {
-            background-color: #15803d;
-        }
-
-        .reload-button:active {
-            transform: scale(0.98);
         }
     </style>
 </head>
@@ -313,10 +298,8 @@
     <!-- Footer -->
     <div class="footer">
         <p id="datetime">7:42 pm - 30 September 2025</p>
+        <p class="refresh-timer" id="refreshTimer">Next refresh in: 48:00:00</p>
     </div>
-
-    <!-- Reload Button -->
-    <button class="reload-button" onclick="window.location.reload()">Refresh</button>
 
     <script>
         // Display current time
@@ -455,6 +438,32 @@
 
         displayTime();
         setInterval(displayTime, 60000);
+
+        // 48-hour refresh timer
+        const refreshInterval = 48 * 60 * 60 * 1000; // 48 hours in milliseconds
+        const pageLoadTime = Date.now();
+        const refreshTime = pageLoadTime + refreshInterval;
+
+        // Update countdown timer
+        function updateRefreshTimer() {
+            const now = Date.now();
+            const timeRemaining = refreshTime - now;
+
+            if (timeRemaining <= 0) {
+                window.location.reload();
+                return;
+            }
+
+            const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            const timerElement = document.getElementById('refreshTimer');
+            timerElement.textContent = `Next refresh in: ${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        updateRefreshTimer();
+        setInterval(updateRefreshTimer, 1000);
 
         // Check if API call was already made today
         let lastApiCall = null;

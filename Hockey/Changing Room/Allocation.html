@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Fixtures</title>
+</head>
+<body>
+    <h1>Home Fixtures</h1>
+    
+    <div class="gms-wrapper gms-ajax" 
+         data-method="api" 
+         data-show="fixtures" 
+         data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
+         data-sort_by="fixtureTime" 
+         data-options="showGender:yes,showList:yes,filter:home">
+    </div>
+    
+    <script src="https://gmsfeed.co.uk/js/api.js"></script>
+    
+    <script>
+        // Wait for the API to load fixtures
+        const observer = new MutationObserver(() => {
+            const fixturesContainer = document.querySelector('.gms-wrapper');
+            
+            if (fixturesContainer && fixturesContainer.children.length > 0) {
+                // Find all fixture elements
+                const fixtures = fixturesContainer.querySelectorAll('[class*="fixture"], .gms-fixture, div[data-fixture]');
+                
+                fixtures.forEach((fixture) => {
+                    // Check if we've already added allocation boxes
+                    if (fixture.querySelector('.allocation-box')) return;
+                    
+                    // Create allocation container
+                    const allocationDiv = document.createElement('div');
+                    allocationDiv.className = 'allocation-box';
+                    allocationDiv.innerHTML = `
+                        <div>
+                            <label>Home (1-6): <input type="number" min="1" max="6" class="home-allocation"></label>
+                        </div>
+                        <div>
+                            <label>Away (1-6): <input type="number" min="1" max="6" class="away-allocation"></label>
+                        </div>
+                    `;
+                    
+                    // Append to fixture
+                    fixture.appendChild(allocationDiv);
+                });
+                
+                // Stop observing once we've processed fixtures
+                if (fixtures.length > 0) {
+                    observer.disconnect();
+                }
+            }
+        });
+        
+        // Start observing the fixtures container
+        setTimeout(() => {
+            const container = document.querySelector('.gms-wrapper');
+            if (container) {
+                observer.observe(container, { childList: true, subtree: true });
+            }
+        }, 100);
+    </script>
+</body>
+</html>

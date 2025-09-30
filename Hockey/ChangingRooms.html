@@ -156,6 +156,30 @@
             color: #666;
         }
 
+        .reload-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+
+        .reload-button:hover {
+            background-color: #0056b3;
+        }
+
+        .reload-button:active {
+            transform: scale(0.98);
+        }
+
         @media (max-width: 768px) {
             section {
                 flex-direction: column;
@@ -230,9 +254,11 @@
 
     <!-- Footer -->
     <div class="footer">
-        <button id="refreshButton" style="position: absolute; left: 20px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Refresh</button>
         <p id="datetime">7:42 pm - 30 September 2025</p>
     </div>
+
+    <!-- Reload Button -->
+    <button class="reload-button" onclick="window.location.reload()">Refresh</button>
 
     <script>
         // Display current time
@@ -371,11 +397,6 @@
 
         displayTime();
         setInterval(displayTime, 60000);
-
-        // Add refresh button click handler
-        document.getElementById('refreshButton').addEventListener('click', function() {
-            window.location.reload();
-        });
 
         // Check if API call was already made today
         let lastApiCall = null;

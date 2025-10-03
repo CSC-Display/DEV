@@ -29,8 +29,10 @@
             text-align: center;
             height: 140px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 20px 60px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             position: relative;
             overflow: hidden;
@@ -53,6 +55,23 @@
             letter-spacing: -0.5px;
             position: relative;
             z-index: 1;
+            margin-bottom: 10px;
+        }
+
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-side {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            width: 200px;
         }
 
         section {
@@ -78,16 +97,6 @@
             text-align: center;
             width: calc(20% - 14px);
             padding: 30px 20px;
-        }
-
-        .column-left b, .column-right b {
-            font-size: 22px;
-            color: #1e8f1e;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            display: block;
-            margin-bottom: 30px;
         }
 
         .single-column-table {
@@ -226,11 +235,14 @@
 
     <header>
         <h3>Welcome to Chelmsford Hockey Club</h3>
+        <div class="header-row">
+            <div class="header-side">Changing Room</div>
+            <div class="header-side">Changing Room</div>
+        </div>
     </header>
 
     <section>
         <div class="column column-left" align="center">
-            <b>Changing Room</b>
             <div id="dynamicDropdownsLeft"></div>
         </div>
 
@@ -247,7 +259,6 @@
         </div>
 
         <div class="column column-right" align="center">
-            <b>Changing Room</b>
             <div id="dynamicDropdownsRight"></div>
         </div>
     </section>

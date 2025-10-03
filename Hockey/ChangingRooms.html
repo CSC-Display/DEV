@@ -4,108 +4,223 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="refresh" content="60" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/humanity/jquery-ui.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/humanity/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Chelmsford Hockey Club</title>
     <style>
-        body {
+        * {
             margin: 0;
-            font-family: Arial, sans-serif;
-	    display: flex;
-	    flex-direction: column;
-	    height: 100vh;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         }
 
         header {
-            background-color: #1e8f1e;
-            color: white;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            color: #1e8f1e;
             text-align: center;
-            font-size: 36px;
-	    flex: 1;
-	    height: 140px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+            border-bottom: 4px solid #1e8f1e;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(30, 143, 30, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        header h3 {
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 1;
         }
 
         section {
             display: flex;
             flex-wrap: wrap;
-	    height: 1300px;
+            height: 1300px;
+            gap: 20px;
+            padding: 20px;
         }
 
         .column {
             background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
         .column-middle {
-            width: 60%;
+            width: calc(60% - 14px);
+            padding: 30px;
         }
 
         .column-left, .column-right {
-	    text-align: center;
-            width: 20%;
+            text-align: center;
+            width: calc(20% - 14px);
+            padding: 30px 20px;
         }
 
-	.single-column-table {
-	    width: 80%;
-	    margin: 0 auto;
-	    border-collapse: collapse;
-	}
+        .column-left b, .column-right b {
+            font-size: 22px;
+            color: #1e8f1e;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 30px;
+        }
 
-	.single-column-table td {
-	    font-size: 48px;
-	    padding: 10px 0;
-	    height: 62px;
-	}
+        .single-column-table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
 
-	.dropdown-options {
-	    font-size: 50px;
-	    padding: 10px 0;
-	    border: 0;	    
-	    appearance: none;
-	}
+        .single-column-table td {
+            font-size: 48px;
+            padding: 10px 0;
+            height: 62px;
+        }
+
+        .dropdown-options {
+            font-size: 42px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            background: white;
+            color: #2d3748;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 600;
+            width: 140px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .dropdown-options:hover {
+            border-color: #1e8f1e;
+            box-shadow: 0 4px 12px rgba(30, 143, 30, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .dropdown-options:focus {
+            outline: none;
+            border-color: #1e8f1e;
+            box-shadow: 0 0 0 3px rgba(30, 143, 30, 0.1);
+        }
 
         .sponsors {
-            background-color: #1e8f1e;
-            color: white;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            color: #1e8f1e;
             text-align: center;
-            font-size: 18px;
-	    height: 100px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            border-top: 3px solid #1e8f1e;
+        }
+
+        .sponsors h1 {
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
 
         .grid-container {
             display: flex;
             flex-wrap: wrap;
-            align-items:center;
-            justify-content:center;
+            align-items: center;
+            justify-content: center;
             background-color: white;
+            padding: 20px;
+            gap: 20px;
         }
 
         .grid-item {
             text-align: center;
-	        margin: 0;
-	        line-height: 0;
-	        width:calc(100%/3);
+            margin: 0;
+            line-height: 0;
+            width: calc(33.333% - 14px);
+            background: white;
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
         }
 
         .grid-item img {
-            width:100%;
-            position:relative;
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            filter: grayscale(20%);
+            transition: filter 0.3s ease;
+        }
+
+        .grid-item:hover img {
+            filter: grayscale(0%);
         }
         
-    	.grid-item-span {
-    	    grid-column: 2 / span 2;
-    	}
+        .grid-item-span {
+            width: calc(66.666% - 14px);
+        }
 
         .footer {
             background-image: url('footer.png');
             background-size: cover;
             background-position: center;
             justify-content: center;
-            color: black;
-            font-size: 48px;
-    	    width: 100%;
-    	    height: 370px;
-    	    display: flex;
-    	    align-items: flex-end;
+            color: #2d3748;
+            font-size: 28px;
+            font-weight: 600;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 12px;
+        }
+
+        #gmsFixtures {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .gms-card {
+            background: #f8f9fa;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .gms-card:hover {
+            background: #e9ecef;
+            transform: translateX(4px);
         }
     </style>
 </head>
@@ -117,35 +232,30 @@
 
     <section>
         <div class="column column-left" align="center">
-	    <br/>
-	    <b>Changing Room</b>
-	    <br/><br/>
-	    <div id="dynamicDropdownsLeft"></div>
-	</div>
+            <b>Changing Room</b>
+            <div id="dynamicDropdownsLeft"></div>
+        </div>
 
         <div class="column column-middle">
-            <br><br><br>
             <div id="gmsFixtures"
-		class="gms-wrapper gms-ajax" 
-		data-method="api" 
-		data-show="fixtures+results" 
-		data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
-		data-sort_by="fixtureTime" 
-		data-options="showGender:yes, showList:yes, filter:home">
-	    </div>
+                class="gms-wrapper gms-ajax" 
+                data-method="api" 
+                data-show="fixtures+results" 
+                data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38"
+                data-sort_by="fixtureTime" 
+                data-options="showGender:yes, showList:yes, filter:home">
+            </div>
             <script src="https://gmsfeed.co.uk/js/api.js"></script>
         </div>
 
         <div class="column column-right" align="center">
-	    <br/>
-	    <b>Changing Room</b>
-	    <br/><br/>
-	    <div id="dynamicDropdownsRight"></div>
-	</div>
+            <b>Changing Room</b>
+            <div id="dynamicDropdownsRight"></div>
+        </div>
     </section>
 
     <div class="sponsors">
-        <h1>Thank you to our Sponsors:</h1>
+        <h1>Thank you to our Sponsors</h1>
     </div>
 
     <div class="grid-container">
@@ -198,8 +308,6 @@
                     }
         
                     container.appendChild(select);
-                    container.appendChild(document.createElement('br'));
-                    container.appendChild(document.createElement('br'));
         
                     // Set initial value to 1
                     select.value = '1';
@@ -227,8 +335,6 @@
                     }
         
                     container.appendChild(select);
-                    container.appendChild(document.createElement('br'));
-                    container.appendChild(document.createElement('br'));
         
                     // Set initial value to 1
                     select.value = '1';
@@ -253,8 +359,6 @@
                     document.querySelectorAll('[id^="dropdownLeft"]').forEach(select => {
                         leftColumnSelections.add(parseInt(select.value));
                     });
-                    // Regenerate right dropdowns to ensure no conflicts
-                    //generateRightDropdowns(countFixtures());
                 }
             }
             
@@ -305,14 +409,14 @@
                 var selectId = $(this).attr('id');
                 var roomNumber = $(this).val();
                 $.ajax({
-    				url: 'https://fixtures.chelmsfordhc.org.uk/changing/updategms',
-    				type:'POST',
-    				dataType: 'json',
-    				data: {'select_id' : selectId, 'room_number' : roomNumber},
-    				success: function(output_string){
-    				    alert('success');
-    				} // End of success function of ajax form
-    			});
+                    url: 'https://fixtures.chelmsfordhc.org.uk/changing/updategms',
+                    type:'POST',
+                    dataType: 'json',
+                    data: {'select_id' : selectId, 'room_number' : roomNumber},
+                    success: function(output_string){
+                        alert('success');
+                    }
+                });
             });
             
             var selects = {"dropdownLeft4":"3","dropdownLeft1":"3","dropdownLeft2":"1","dropdownLeft3":"5","dropdownRight1":"4","dropdownRight2":"2","dropdownRight3":"6","dropdownRight4":"4","dropdownRight8":"2","dropdownLeft6":"5","dropdownRight6":"6","dropdownLeft5":"1","dropdownRight5":"2","dropdownLeft8":"1","dropdownRight9":"4","dropdownLeft7":"1","dropdownRight7":"2","dropdownLeft9":"3","dropdownRight10":"2"};

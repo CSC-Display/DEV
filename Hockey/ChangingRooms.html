@@ -116,7 +116,7 @@
         .dropdown-options {
             font-size: 42px;
             padding: 16px 20px;
-            margin-bottom: 16px;
+            margin-bottom: 24px;
             border: 2px solid #e9ecef;
             border-radius: 12px;
             background: white;
@@ -230,6 +230,20 @@
         .gms-card:hover {
             background: #e9ecef;
             transform: translateX(4px);
+        }
+
+        /* Increase team names size */
+        #gmsFixtures .gms-team,
+        #gmsFixtures .team-name,
+        #gmsFixtures .home-team,
+        #gmsFixtures .away-team,
+        #gmsFixtures [class*="team"] {
+            font-size: 24px !important;
+            font-weight: 600 !important;
+        }
+
+        #gmsFixtures .gms-card-body {
+            font-size: 20px !important;
         }
     </style>
 </head>

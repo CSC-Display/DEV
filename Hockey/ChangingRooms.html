@@ -85,14 +85,15 @@
         .dropdown-container {
             display: flex;
             flex-direction: column;
-            gap: 0.8vh;
+            gap: 1.6vh;
             width: 100%;
             overflow-y: auto;
             flex: 1;
         }
 
         .dropdown-wrapper {
-            height: 5vh;
+            height: auto;
+            min-height: 8vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -136,6 +137,10 @@
             border-radius: 10px;
             border-left: 4px solid #16a34a;
             transition: background-color 0.2s;
+            min-height: 8vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .gms-card:hover {

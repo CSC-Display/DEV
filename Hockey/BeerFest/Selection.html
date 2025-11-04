@@ -537,11 +537,8 @@
                 // Update all stock displays
                 document.querySelectorAll('[data-drink]').forEach(element => {
                     const drinkName = element.getAttribute('data-drink');
-                    if (stockData[drinkName]) {
-                        element.innerHTML = createStockBar(stockData[drinkName]);
-                    } else {
-                        element.innerHTML = '<span style="color: #999;">N/A</span>';
-                    }
+                    const stockLevel = stockData[drinkName] || "0%";
+                    element.innerHTML = createStockBar(stockLevel);
                 });
 
             } catch (error) {

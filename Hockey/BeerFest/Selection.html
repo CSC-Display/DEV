@@ -70,19 +70,37 @@
 
         .item-header {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-columns: 60px 2fr 1fr 1fr;
             padding: 10px 0;
             font-weight: bold;
             border-bottom: 2px solid #333;
             margin-bottom: 10px;
+            gap: 15px;
         }
 
         .beer-item, .cider-item {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-columns: 60px 2fr 1fr 1fr;
             padding: 10px 0;
             border-bottom: 1px solid #eee;
             align-items: center;
+            gap: 15px;
+        }
+
+        .beer-label {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .beer-label-placeholder {
+            width: 60px;
+            height: 60px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            border: 1px solid #ddd;
         }
 
         .beer-info {
@@ -182,12 +200,14 @@
                 <h2>Festival Beers</h2>
                 
                 <div class="item-header">
+                    <div>Label</div>
                     <div>Name / Brewery</div>
                     <div>ABV</div>
                     <div style="text-align: right;">Amount Left</div>
                 </div>
                 
                 <div class="beer-item">
+                    <img src="Mighty_Oak_-_Lionheart.jpg" alt="Lionheart" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">LIONHEART</div>
                         <div class="brewery">Mighty Oak Brewery</div>
@@ -199,6 +219,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Settle_-_Ribblehead.jpg" alt="Ribblehead Bitter" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">RIBBLEHEAD BITTER</div>
                         <div class="brewery">Settle Brewery</div>
@@ -210,6 +231,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Tatton_-_Pennine_Dark_Mild.jpeg" alt="Pennine Dark Mild" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">PENNINE DARK MILD</div>
                         <div class="brewery">Tatton Brewery</div>
@@ -221,6 +243,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Brentwood_-_Legacy.jpg" alt="Legacy" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">LEGACY</div>
                         <div class="brewery">Brentwood Brewery</div>
@@ -232,6 +255,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Oakham_-_Inferno.png" alt="Inferno" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">INFERNO</div>
                         <div class="brewery">Oakham Ales</div>
@@ -243,6 +267,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Colchester_-_Sweeney_Todd.png" alt="Sweeney Todd" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">SWEENEY TODD</div>
                         <div class="brewery">Colchester Brewery</div>
@@ -254,6 +279,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Leigh_on_Sea_-_Six_Little_Ships.jpg" alt="Six Little Ships" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">SIX LITTLE SHIPS</div>
                         <div class="brewery">Leigh-on-Sea</div>
@@ -265,6 +291,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Skinners_-_Lushingtons.jpeg" alt="Lushingtons" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">LUSHINGTONS</div>
                         <div class="brewery">Skinners Brewery</div>
@@ -276,6 +303,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Wantsum_-_Heart_of_Darkness.png" alt="Heart of Darkness" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">HEART OF DARKNESS</div>
                         <div class="brewery">Wantsum</div>
@@ -287,6 +315,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Vale_-_Gravitas.jpeg" alt="Gravitas" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">GRAVITAS</div>
                         <div class="brewery">Vale Brewery</div>
@@ -300,6 +329,7 @@
                 <h3>Behind the Bar</h3>
 
                 <div class="beer-item">
+                    <img src="Mighty_Oak_-_Captain_Bob.jpg" alt="Captain Bob" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">CAPTAIN BOB</div>
                         <div class="brewery">Mighty Oak Brewery</div>
@@ -311,6 +341,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Mauldons_-_Silver_Adder.jpg" alt="Silver Adder" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">SILVER ADDER</div>
                         <div class="brewery">Mauldons Brewery</div>
@@ -327,6 +358,7 @@
                 <h2>Cider</h2>
                 
                 <div class="item-header">
+                    <div>Label</div>
                     <div>Name / Brewery</div>
                     <div>ABV</div>
                     <div style="text-align: right;">Amount Left</div>
@@ -335,6 +367,7 @@
                 <h3>Lilley's Cider</h3>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Fire_Dancer.jpg" alt="Firedancer" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">FIREDANCER</div>
                     </div>
@@ -345,6 +378,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Select.jpg" alt="Select" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">SELECT</div>
                     </div>
@@ -355,6 +389,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Red_Rabbit.jpg" alt="Red Rabbit" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">RED RABBIT</div>
                     </div>
@@ -365,6 +400,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Bee_Sting.jpg" alt="Bee Sting" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">BEE STING (Perry)</div>
                     </div>
@@ -377,6 +413,7 @@
                 <h3>Lilley's Flavoured Cider</h3>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Elderflower.jpg" alt="Elderflower" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">ELDERFLOWER</div>
                     </div>
@@ -387,6 +424,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Pina_Colada.jpg" alt="Pina Colada" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">PINA COLADA</div>
                     </div>
@@ -397,6 +435,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Raspberry_Mojito.jpg" alt="Raspberry Mojito" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">RASPBERRY MOJITO</div>
                     </div>
@@ -407,6 +446,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Wild_Berry.jpg" alt="Wild Berry" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">WILD BERRY</div>
                     </div>
@@ -417,6 +457,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Mango.jpg" alt="Man-Ghoooul" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">MAN-GHOOOUL (Mango)</div>
                     </div>
@@ -427,6 +468,7 @@
                 </div>
 
                 <div class="cider-item">
+                    <img src="Lilleys_-_Rhubarb.jpg" alt="Rhubarb" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">RHUBARB</div>
                     </div>
@@ -442,12 +484,14 @@
                 <h2>Low Alcohol (500ml bottles)</h2>
 
                 <div class="item-header">
+                    <div>Label</div>
                     <div>Name / Brewery</div>
                     <div>ABV</div>
                     <div style="text-align: right;">Amount Left</div>
                 </div>
 
                 <div class="beer-item">
+                    <img src="Shipyard_-_Low_Tide.png" alt="Low Tide" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">LOW TIDE</div>
                         <div class="brewery">Shipyard</div>
@@ -459,6 +503,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="St_Austell_-_Proper_Job_0_5_.jpg" alt="Proper Job" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">PROPER JOB</div>
                         <div class="brewery">St Austell</div>
@@ -470,6 +515,7 @@
                 </div>
 
                 <div class="beer-item">
+                    <img src="Adnams_-_Ghost_Ship_0_5_.jpg" alt="Ghost Ship" class="beer-label">
                     <div class="beer-info">
                         <div class="beer-name">GHOST SHIP</div>
                         <div class="brewery">Adnams (club bar)</div>

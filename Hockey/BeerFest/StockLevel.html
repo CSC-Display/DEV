@@ -118,6 +118,13 @@
             }
         }
         
+        // Get drink name from a stock cell
+        function getDrinkName(cell) {
+            const row = cell.parentElement;
+            const nameCell = row.querySelector('td:first-child');
+            return nameCell ? nameCell.textContent : null;
+        }
+        
         // Load stock levels from JSONBin on page load
         document.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded, initializing...');
@@ -152,12 +159,13 @@
                     
                     const stockLevels = data.record.stockLevels || {};
                     
-                    // Update each cell with saved data
+                    // Update each cell with saved data using drink names
                     const stockCells = document.querySelectorAll('.stock-cell');
-                    stockCells.forEach((cell, index) => {
-                        if (stockLevels[index] !== undefined) {
-                            cell.textContent = stockLevels[index];
-                            updateStockClass(cell, stockLevels[index]);
+                    stockCells.forEach((cell) => {
+                        const drinkName = getDrinkName(cell);
+                        if (drinkName && stockLevels[drinkName] !== undefined) {
+                            cell.textContent = stockLevels[drinkName];
+                            updateStockClass(cell, stockLevels[drinkName]);
                         } else {
                             updateStockClass(cell, cell.textContent);
                         }
@@ -199,8 +207,11 @@
                 const stockCells = document.querySelectorAll('.stock-cell');
                 const stockLevels = {};
                 
-                stockCells.forEach((cell, index) => {
-                    stockLevels[index] = cell.textContent;
+                stockCells.forEach((cell) => {
+                    const drinkName = getDrinkName(cell);
+                    if (drinkName) {
+                        stockLevels[drinkName] = cell.textContent;
+                    }
                 });
                 
                 console.log('Saving stock levels:', stockLevels);

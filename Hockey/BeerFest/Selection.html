@@ -110,22 +110,20 @@
         }
 
         .stock-bar-container {
-            display: flex;
-            gap: 3px;
-            justify-content: flex-end;
-            align-items: center;
-        }
-
-        .stock-box {
-            width: 18px;
-            height: 18px;
-            border: 2px solid #333;
+            width: 100%;
+            max-width: 120px;
+            height: 20px;
             background-color: #e0e0e0;
-            transition: background-color 0.3s ease;
+            border: 2px solid #333;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-left: auto;
         }
 
-        .stock-box.filled {
+        .stock-bar-fill {
+            height: 100%;
             background-color: #44aa44;
+            transition: width 0.5s ease;
         }
 
         .loading {
@@ -186,7 +184,7 @@
                 <div class="item-header">
                     <div>Name / Brewery</div>
                     <div>ABV</div>
-                    <div style="text-align: right;">Stock Level</div>
+                    <div style="text-align: right;">Amount Left</div>
                 </div>
                 
                 <div class="beer-item">
@@ -331,7 +329,7 @@
                 <div class="item-header">
                     <div>Name / Brewery</div>
                     <div>ABV</div>
-                    <div style="text-align: right;">Stock Level</div>
+                    <div style="text-align: right;">Amount Left</div>
                 </div>
                 
                 <h3>Lilley's Cider</h3>
@@ -446,7 +444,7 @@
                 <div class="item-header">
                     <div>Name / Brewery</div>
                     <div>ABV</div>
-                    <div style="text-align: right;">Stock Level</div>
+                    <div style="text-align: right;">Amount Left</div>
                 </div>
 
                 <div class="beer-item">
@@ -504,21 +502,13 @@
         const BIN_ID = '690a223c43b1c97be9987c36';
         const API_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
-        // Function to create stock bar with quarters
+        // Function to create stock bar
         function createStockBar(percentage) {
             console.log('createStockBar called with:', percentage, 'type:', typeof percentage);
             const value = parseInt(percentage);
             console.log('Parsed value:', value);
-            const filledBoxes = Math.round(value / 25);
-            console.log('Filled boxes:', filledBoxes);
             
-            let boxesHTML = '';
-            for (let i = 0; i < 4; i++) {
-                const filled = i < filledBoxes ? 'filled' : '';
-                boxesHTML += `<div class="stock-box ${filled}"></div>`;
-            }
-            
-            const result = `<div class="stock-bar-container">${boxesHTML}</div>`;
+            const result = `<div class="stock-bar-container"><div class="stock-bar-fill" style="width: ${value}%"></div></div>`;
             console.log('Generated HTML:', result);
             return result;
         }

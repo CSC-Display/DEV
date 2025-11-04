@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,31 +326,31 @@
             const stockBars = document.querySelectorAll('.stock-bar');
             
             stockBars.forEach((bar, index) => {
-                if (stockLevels[index] !== undefined) {
-                    const blocks = bar.querySelectorAll('.stock-block');
-                    const level = stockLevels[index];
-                    
-                    // Clear all blocks
-                    blocks.forEach(block => {
-                        block.classList.remove('filled', 'low', 'very-low');
-                    });
-                    
-                    // Set blocks based on saved level
-                    if (level >= 1) {
-                        blocks[0].classList.add('filled');
-                        if (level === 1) blocks[0].classList.add('very-low');
-                        else if (level === 2) blocks[0].classList.add('low');
-                    }
-                    if (level >= 2) {
-                        blocks[1].classList.add('filled');
-                        if (level === 2) blocks[1].classList.add('low');
-                    }
-                    if (level >= 3) {
-                        blocks[2].classList.add('filled');
-                    }
-                    if (level >= 4) {
-                        blocks[3].classList.add('filled');
-                    }
+                const blocks = bar.querySelectorAll('.stock-block');
+                
+                // Default to full stock (4 blocks) if no data exists
+                const level = stockLevels[index] !== undefined ? stockLevels[index] : 4;
+                
+                // Clear all blocks
+                blocks.forEach(block => {
+                    block.classList.remove('filled', 'low', 'very-low');
+                });
+                
+                // Set blocks based on saved level
+                if (level >= 1) {
+                    blocks[0].classList.add('filled');
+                    if (level === 1) blocks[0].classList.add('very-low');
+                    else if (level === 2) blocks[0].classList.add('low');
+                }
+                if (level >= 2) {
+                    blocks[1].classList.add('filled');
+                    if (level === 2) blocks[1].classList.add('low');
+                }
+                if (level >= 3) {
+                    blocks[2].classList.add('filled');
+                }
+                if (level >= 4) {
+                    blocks[3].classList.add('filled');
                 }
             });
         }
@@ -388,6 +387,7 @@
     - Updates every 5 seconds
     - When you click on phone, the display screen updates within 5 seconds
     - All changes are stored in JSONBin cloud
+    - Stock levels start at 100% (full) by default if no data exists in JSONBin
     
     HOW TO UPDATE STOCK LEVELS:
     - Click on any stock bar to cycle through levels
@@ -419,10 +419,10 @@
                         <div class="abv">3.6%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -432,10 +432,10 @@
                         <div class="abv">3.8%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -445,9 +445,9 @@
                         <div class="abv">3.9%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -458,8 +458,8 @@
                         <div class="abv">4.0%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled low"></div>
-                                <div class="stock-block filled low"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
@@ -471,9 +471,9 @@
                         <div class="abv">4.0%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -484,7 +484,7 @@
                         <div class="abv">4.2%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled very-low"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
@@ -497,10 +497,10 @@
                         <div class="abv">4.2%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -510,10 +510,10 @@
                         <div class="abv">4.2%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -523,8 +523,8 @@
                         <div class="abv">4.5%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled low"></div>
-                                <div class="stock-block filled low"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
@@ -536,9 +536,9 @@
                         <div class="abv">4.8%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -558,10 +558,10 @@
                         <div class="abv">3.8%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -571,10 +571,10 @@
                         <div class="abv">4.2%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -598,9 +598,9 @@
                         <div class="abv">4.5%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -611,10 +611,10 @@
                         <div class="abv">4.8%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -624,8 +624,8 @@
                         <div class="abv">6.0%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled low"></div>
-                                <div class="stock-block filled low"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
@@ -637,9 +637,9 @@
                         <div class="abv">6.8%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -659,10 +659,10 @@
                         <div class="abv">3.4%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -672,8 +672,8 @@
                         <div class="abv">3.4%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled low"></div>
-                                <div class="stock-block filled low"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
@@ -685,7 +685,7 @@
                         <div class="abv">3.4%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled very-low"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
@@ -698,10 +698,10 @@
                         <div class="abv">3.4%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -711,9 +711,9 @@
                         <div class="abv">4.0%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>
@@ -724,8 +724,8 @@
                         <div class="abv">4.0%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled low"></div>
-                                <div class="stock-block filled low"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
@@ -746,10 +746,10 @@
                         <div class="abv">0.5%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -759,10 +759,10 @@
                         <div class="abv">0.5%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                             </div>
                         </div>
                     </div>
@@ -772,9 +772,9 @@
                         <div class="abv">0.5%</div>
                         <div class="stock-column">
                             <div class="stock-bar">
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
-                                <div class="stock-block filled"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
+                                <div class="stock-block"></div>
                                 <div class="stock-block"></div>
                             </div>
                         </div>

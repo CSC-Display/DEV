@@ -506,8 +506,11 @@
 
         // Function to create stock bar with quarters
         function createStockBar(percentage) {
+            console.log('createStockBar called with:', percentage, 'type:', typeof percentage);
             const value = parseInt(percentage);
+            console.log('Parsed value:', value);
             const filledBoxes = Math.round(value / 25);
+            console.log('Filled boxes:', filledBoxes);
             
             let boxesHTML = '';
             for (let i = 0; i < 4; i++) {
@@ -515,29 +518,39 @@
                 boxesHTML += `<div class="stock-box ${filled}"></div>`;
             }
             
-            return `<div class="stock-bar-container">${boxesHTML}</div>`;
+            const result = `<div class="stock-bar-container">${boxesHTML}</div>`;
+            console.log('Generated HTML:', result);
+            return result;
         }
 
         // Fetch stock levels from JSONBin
         async function fetchStockLevels() {
             try {
+                console.log('Fetching from:', API_URL);
+                
                 const response = await fetch(API_URL, {
                     headers: {
                         'X-Master-Key': API_KEY
                     }
                 });
 
+                console.log('Response status:', response.status);
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
 
                 const data = await response.json();
-                const stockData = data.record;
+                console.log('Full API response:', data);
+                
+                const stockData = data.record.stockLevels;
+                console.log('Stock data:', stockData);
 
                 // Update all stock displays
                 document.querySelectorAll('[data-drink]').forEach(element => {
                     const drinkName = element.getAttribute('data-drink');
                     const stockLevel = stockData[drinkName] || "0%";
+                    console.log(`${drinkName}: ${stockLevel}`);
                     element.innerHTML = createStockBar(stockLevel);
                 });
 

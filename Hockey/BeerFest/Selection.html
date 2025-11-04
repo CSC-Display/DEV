@@ -109,37 +109,23 @@
             padding-left: 10px;
         }
 
-        .progress-bar-container {
-            width: 100%;
-            height: 20px;
-            background-color: #e0e0e0;
-            border-radius: 10px;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .progress-bar {
-            height: 100%;
-            background: linear-gradient(90deg, #ff4444 0%, #ffaa00 50%, #44ff44 100%);
-            transition: width 0.5s ease;
+        .stock-bar-container {
             display: flex;
+            gap: 3px;
+            justify-content: flex-end;
             align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 0.75em;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
-        .progress-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 0.75em;
-            font-weight: bold;
-            color: #333;
-            text-shadow: 0 0 3px white;
+        .stock-box {
+            width: 18px;
+            height: 18px;
+            border: 2px solid #333;
+            background-color: #e0e0e0;
+            transition: background-color 0.3s ease;
+        }
+
+        .stock-box.filled {
+            background-color: #44aa44;
         }
 
         .loading {
@@ -518,15 +504,18 @@
         const BIN_ID = '690a223c43b1c97be9987c36';
         const API_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
-        // Function to create progress bar
-        function createProgressBar(percentage) {
+        // Function to create stock bar with quarters
+        function createStockBar(percentage) {
             const value = parseInt(percentage);
-            return `
-                <div class="progress-bar-container">
-                    <div class="progress-bar" style="width: ${value}%"></div>
-                    <div class="progress-text">${percentage}</div>
-                </div>
-            `;
+            const filledBoxes = Math.round(value / 25);
+            
+            let boxesHTML = '';
+            for (let i = 0; i < 4; i++) {
+                const filled = i < filledBoxes ? 'filled' : '';
+                boxesHTML += `<div class="stock-box ${filled}"></div>`;
+            }
+            
+            return `<div class="stock-bar-container">${boxesHTML}</div>`;
         }
 
         // Fetch stock levels from JSONBin
@@ -549,7 +538,7 @@
                 document.querySelectorAll('[data-drink]').forEach(element => {
                     const drinkName = element.getAttribute('data-drink');
                     if (stockData[drinkName]) {
-                        element.innerHTML = createProgressBar(stockData[drinkName]);
+                        element.innerHTML = createStockBar(stockData[drinkName]);
                     } else {
                         element.innerHTML = '<span style="color: #999;">N/A</span>';
                     }

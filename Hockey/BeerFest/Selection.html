@@ -1,143 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chelmsford Hockey Club Beer & Cider Festival - November 2025</title>
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, sans-serif;
             background: #f5f5f5;
-            color: #222;
+            color: #333;
             padding: 20px;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: #fff;
+            background: white;
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 6px 18px rgba(0,0,0,0.06);
         }
 
-        header { text-align: center; margin-bottom: 36px; padding-bottom: 16px; border-bottom: 2px solid #333; }
-        h1 { font-size: 2rem; margin-bottom: 6px; }
-        .subtitle { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
-        .sponsor { color: #444; margin-bottom: 4px; }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #333;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .sponsor {
+            margin: 10px 0;
+            font-size: 1em;
+        }
 
         .content-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 28px;
-            margin-top: 18px;
+            gap: 30px;
+            margin-bottom: 30px;
         }
 
-        .section h2 { font-size: 1.25rem; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #e6e6e6; }
+        .section h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+        }
 
-        .section h3 { font-size: 1.05rem; margin-top: 18px; margin-bottom: 8px; }
+        .section h3 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
 
         .item-header {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
             padding: 10px 0;
-            font-weight: 700;
+            font-weight: bold;
             border-bottom: 2px solid #333;
             margin-bottom: 10px;
-            align-items: center;
         }
 
         .beer-item, .cider-item {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
-            padding: 12px 0;
+            padding: 10px 0;
             border-bottom: 1px solid #eee;
             align-items: center;
-            gap: 8px;
         }
 
-        .beer-info { display:flex; flex-direction: column; gap: 4px; }
-        .beer-name { font-weight: 700; font-size: 1rem; letter-spacing: 0.2px; }
-        .brewery { color:#666; font-size:0.87rem; }
-        .abv { font-weight:700; text-align: left; }
-
-        /* Stock column (prominent bar) */
-        .stock {
-            display:flex;
+        .beer-info {
+            display: flex;
             flex-direction: column;
-            align-items: flex-end;
-            gap:6px;
         }
 
-        .stock-bar {
+        .beer-name {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .brewery {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .abv {
+            font-weight: bold;
+        }
+
+        .stock {
+            text-align: right;
+            padding-left: 10px;
+        }
+
+        .progress-bar-container {
             width: 100%;
-            height: 20px; /* prominent height */
-            background: linear-gradient(180deg,#f0f0f0,#eaeaea);
+            height: 20px;
+            background-color: #e0e0e0;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
             position: relative;
         }
 
-        .stock-fill {
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #ff4444 0%, #ffaa00 50%, #44ff44 100%);
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.75em;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .progress-text {
             position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 0%;
-            border-radius: 10px 0 0 10px;
-            /* gradient for pleasant look */
-            background: linear-gradient(90deg, #4caf50, #2e7d32);
-            transition: width 500ms ease-in-out;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0.75em;
+            font-weight: bold;
+            color: #333;
+            text-shadow: 0 0 3px white;
         }
 
-        /* when 0% we keep the rounded corners on both sides */
-        .stock-fill.zero {
-            border-radius: 10px;
-        }
-
-        /* Optional small text below the bar (left blank intentionally because user requested no % displayed) */
-        .stock-caption {
-            font-size: 0.8rem;
-            color: #666;
-            height: 14px; /* keep layout consistent even if text empty */
-            width: 100%;
-            text-align: right;
+        .loading {
+            color: #999;
+            font-style: italic;
         }
 
         .sponsors-section {
             padding-top: 20px;
             border-top: 2px solid #333;
             text-align: center;
-            margin-top: 18px;
+        }
+
+        .sponsors-section h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
         }
 
         .sponsors-list {
-            display:flex;
-            justify-content:center;
-            flex-wrap:wrap;
-            gap:10px;
-            margin-top: 8px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .sponsor-item {
-            padding:6px 12px;
-            background:#f0f0f0;
-            border-radius:6px;
-            font-size:0.9rem;
+            padding: 5px 15px;
+            background: #f0f0f0;
         }
 
         @media (max-width: 1000px) {
-            .content-grid { grid-template-columns: 1fr 1fr; }
+            .content-grid {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
-        @media (max-width: 620px) {
-            .content-grid { grid-template-columns: 1fr; }
-            .item-header, .beer-item, .cider-item { grid-template-columns: 1.5fr 0.8fr 1fr; gap:6px; }
-            .abv { text-align: left; }
-            .stock { align-items: flex-start; }
+        @media (max-width: 600px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -154,22 +196,21 @@
             <!-- Festival Beers Section -->
             <div class="section">
                 <h2>Festival Beers</h2>
-
+                
                 <div class="item-header">
                     <div>Name / Brewery</div>
                     <div>ABV</div>
                     <div style="text-align: right;">Stock Level</div>
                 </div>
-
+                
                 <div class="beer-item">
                     <div class="beer-info">
                         <div class="beer-name">LIONHEART</div>
                         <div class="brewery">Mighty Oak Brewery</div>
                     </div>
                     <div class="abv">3.6%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="LIONHEART">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -179,9 +220,8 @@
                         <div class="brewery">Settle Brewery</div>
                     </div>
                     <div class="abv">3.8%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="RIBBLEHEAD BITTER">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -191,9 +231,8 @@
                         <div class="brewery">Tatton Brewery</div>
                     </div>
                     <div class="abv">3.9%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="PENNINE DARK MILD">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -203,9 +242,8 @@
                         <div class="brewery">Brentwood Brewery</div>
                     </div>
                     <div class="abv">4.0%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="LEGACY">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -215,9 +253,8 @@
                         <div class="brewery">Oakham Ales</div>
                     </div>
                     <div class="abv">4.0%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="INFERNO">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -227,9 +264,8 @@
                         <div class="brewery">Colchester Brewery</div>
                     </div>
                     <div class="abv">4.2%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="SWEENEY TODD">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -239,9 +275,8 @@
                         <div class="brewery">Leigh-on-Sea</div>
                     </div>
                     <div class="abv">4.2%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="SIX LITTLE SHIPS">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -251,9 +286,8 @@
                         <div class="brewery">Skinners Brewery</div>
                     </div>
                     <div class="abv">4.2%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="LUSHINGTONS">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -263,9 +297,8 @@
                         <div class="brewery">Wantsum</div>
                     </div>
                     <div class="abv">4.5%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="HEART OF DARKNESS">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -275,9 +308,8 @@
                         <div class="brewery">Vale Brewery</div>
                     </div>
                     <div class="abv">4.8%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="GRAVITAS">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -289,9 +321,8 @@
                         <div class="brewery">Mighty Oak Brewery</div>
                     </div>
                     <div class="abv">3.8%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="CAPTAIN BOB">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -301,9 +332,8 @@
                         <div class="brewery">Mauldons Brewery</div>
                     </div>
                     <div class="abv">4.2%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="SILVER ADDER">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
             </div>
@@ -311,13 +341,13 @@
             <!-- Cider Section -->
             <div class="section">
                 <h2>Cider</h2>
-
+                
                 <div class="item-header">
                     <div>Name / Brewery</div>
                     <div>ABV</div>
                     <div style="text-align: right;">Stock Level</div>
                 </div>
-
+                
                 <h3>Lilley's Cider</h3>
 
                 <div class="cider-item">
@@ -325,9 +355,8 @@
                         <div class="beer-name">FIREDANCER</div>
                     </div>
                     <div class="abv">4.5%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="FIREDANCER">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -336,9 +365,8 @@
                         <div class="beer-name">SELECT</div>
                     </div>
                     <div class="abv">4.8%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="SELECT">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -347,9 +375,8 @@
                         <div class="beer-name">RED RABBIT</div>
                     </div>
                     <div class="abv">6.0%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="RED RABBIT">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -358,9 +385,8 @@
                         <div class="beer-name">BEE STING (Perry)</div>
                     </div>
                     <div class="abv">6.8%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="BEE STING (Perry)">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -371,9 +397,8 @@
                         <div class="beer-name">ELDERFLOWER</div>
                     </div>
                     <div class="abv">3.4%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="ELDERFLOWER">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -382,9 +407,8 @@
                         <div class="beer-name">PINA COLADA</div>
                     </div>
                     <div class="abv">3.4%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="PINA COLADA">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -393,9 +417,8 @@
                         <div class="beer-name">RASPBERRY MOJITO</div>
                     </div>
                     <div class="abv">3.4%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="RASPBERRY MOJITO">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -404,9 +427,8 @@
                         <div class="beer-name">WILD BERRY</div>
                     </div>
                     <div class="abv">3.4%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="WILD BERRY">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -415,9 +437,8 @@
                         <div class="beer-name">MAN-GHOOOUL (Mango)</div>
                     </div>
                     <div class="abv">4.0%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="MAN-GHOOOUL (Mango)">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -426,9 +447,8 @@
                         <div class="beer-name">RHUBARB</div>
                     </div>
                     <div class="abv">4.0%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="RHUBARB">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
             </div>
@@ -449,9 +469,8 @@
                         <div class="brewery">Shipyard</div>
                     </div>
                     <div class="abv">0.5%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="LOW TIDE">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -461,9 +480,8 @@
                         <div class="brewery">St Austell</div>
                     </div>
                     <div class="abv">0.5%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="PROPER JOB">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
 
@@ -473,9 +491,8 @@
                         <div class="brewery">Adnams (club bar)</div>
                     </div>
                     <div class="abv">0.5%</div>
-                    <div class="stock">
-                        <div class="stock-bar"><div class="stock-fill" aria-hidden="true"></div></div>
-                        <div class="stock-caption"></div>
+                    <div class="stock" data-drink="GHOST SHIP">
+                        <span class="loading">Loading...</span>
                     </div>
                 </div>
             </div>
@@ -496,103 +513,61 @@
     </div>
 
     <script>
-        // JSONBin details (as provided)
-        const JSONBIN_BIN_ID = "690a223c43b1c97be9987c36";
-        const JSONBIN_KEY = "$2a$10$5J2bEaYJje4O1i40NLVVTu9u9Tz2kmlIl0xKoWpGr2vaIUPhp93ey";
+        // JSONBin configuration
+        const API_KEY = '$2a$10$5J2bEaYJje4O1i40NLVVTu9u9Tz2kmlIl0xKoWpGr2vaIUPhp93ey';
+        const BIN_ID = '690a223c43b1c97be9987c36';
+        const API_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
-        /**
-         * Normalize a drink name from the DOM to match keys in your JSON:
-         * - trim
-         * - convert to upper case
-         * - collapse multiple whitespace to single space
-         */
-        function normalizeName(text) {
-            return text.replace(/\s+/g, ' ').trim().toUpperCase();
+        // Function to create progress bar
+        function createProgressBar(percentage) {
+            const value = parseInt(percentage);
+            return `
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: ${value}%"></div>
+                    <div class="progress-text">${percentage}</div>
+                </div>
+            `;
         }
 
-        async function fetchStock() {
-            const url = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`;
+        // Fetch stock levels from JSONBin
+        async function fetchStockLevels() {
             try {
-                const res = await fetch(url, {
-                    headers: { "X-Master-Key": JSONBIN_KEY }
+                const response = await fetch(API_URL, {
+                    headers: {
+                        'X-Master-Key': API_KEY
+                    }
                 });
 
-                if (!res.ok) {
-                    console.error("JSONBin fetch failed:", res.status, res.statusText);
-                    return null;
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
 
-                const json = await res.json();
-                // JSONBin v3 returns the stored JSON in json.record
-                return json.record || null;
-            } catch (err) {
-                console.error("Error fetching JSONBin data:", err);
-                return null;
+                const data = await response.json();
+                const stockData = data.record;
+
+                // Update all stock displays
+                document.querySelectorAll('[data-drink]').forEach(element => {
+                    const drinkName = element.getAttribute('data-drink');
+                    if (stockData[drinkName]) {
+                        element.innerHTML = createProgressBar(stockData[drinkName]);
+                    } else {
+                        element.innerHTML = '<span style="color: #999;">N/A</span>';
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error fetching stock levels:', error);
+                document.querySelectorAll('[data-drink]').forEach(element => {
+                    element.innerHTML = '<span style="color: #ff0000;">Error</span>';
+                });
             }
         }
 
-        /**
-         * Update every .beer-item and .cider-item on the page with stock bar widths.
-         * If the JSON contains a matching key (normalized name), apply its value (e.g. "75%").
-         * Otherwise set to 0% (empty).
-         */
-        async function updateStockBars() {
-            const stockData = await fetchStock();
-            const items = Array.from(document.querySelectorAll('.beer-item, .cider-item'));
+        // Fetch stock levels on page load
+        fetchStockLevels();
 
-            items.forEach(item => {
-                const nameEl = item.querySelector('.beer-name');
-                const fillEl = item.querySelector('.stock-fill');
-                const captionEl = item.querySelector('.stock-caption');
-
-                if (!nameEl || !fillEl) return;
-
-                const normalized = normalizeName(nameEl.textContent || '');
-                let value = null;
-
-                if (stockData && Object.prototype.hasOwnProperty.call(stockData, normalized)) {
-                    value = stockData[normalized]; // e.g. "75%"
-                } else if (stockData && Object.prototype.hasOwnProperty.call(stockData, nameEl.textContent.trim())) {
-                    // fallback if JSON keys are exact-case
-                    value = stockData[nameEl.textContent.trim()];
-                }
-
-                if (typeof value === 'string') {
-                    // sanitize the value: allow "NN%" or "NN" or "NN %"
-                    const matched = value.match(/(\d{1,3})/);
-                    let pct = 0;
-                    if (matched) {
-                        pct = parseInt(matched[1], 10);
-                        if (isNaN(pct)) pct = 0;
-                        if (pct < 0) pct = 0;
-                        if (pct > 100) pct = 100;
-                    }
-                    fillEl.style.width = pct + '%';
-                    fillEl.classList.toggle('zero', pct === 0);
-                    // Accessibility: store aria-valuenow (but not visible)
-                    fillEl.setAttribute('role', 'progressbar');
-                    fillEl.setAttribute('aria-valuemin', '0');
-                    fillEl.setAttribute('aria-valuemax', '100');
-                    fillEl.setAttribute('aria-valuenow', String(pct));
-
-                    // user requested no visible % — keep caption blank
-                    if (captionEl) captionEl.textContent = '';
-                } else {
-                    // no data for this item
-                    fillEl.style.width = '0%';
-                    fillEl.classList.add('zero');
-                    if (captionEl) captionEl.textContent = '';
-                    fillEl.setAttribute('aria-valuenow', '0');
-                }
-            });
-        }
-
-        // Initial update
-        updateStockBars();
-
-        // Refresh regularly
-        const REFRESH_MS = 60 * 1000; // 60 seconds
-        setInterval(updateStockBars, REFRESH_MS);
+        // Optionally refresh every 60 seconds
+        setInterval(fetchStockLevels, 60000);
     </script>
 </body>
 </html>

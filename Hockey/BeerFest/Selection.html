@@ -508,7 +508,19 @@
             const value = parseInt(percentage);
             console.log('Parsed value:', value);
             
-            const result = `<div class="stock-bar-container"><div class="stock-bar-fill" style="width: ${value}%"></div></div>`;
+            // Determine color based on percentage
+            let color;
+            if (value <= 25) {
+                color = '#cc0000'; // Red
+            } else if (value <= 50) {
+                color = '#ff8800'; // Orange
+            } else if (value <= 75) {
+                color = '#88aa44'; // Duller green
+            } else {
+                color = '#44aa44'; // Bright green
+            }
+            
+            const result = `<div class="stock-bar-container"><div class="stock-bar-fill" style="width: ${value}%; background-color: ${color};"></div></div>`;
             console.log('Generated HTML:', result);
             return result;
         }

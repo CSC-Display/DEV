@@ -556,14 +556,16 @@
             
             // Determine color based on percentage
             let color;
-            if (value <= 25) {
-                color = '#cc0000'; // Red
+            if (value === 0) {
+                color = '#9e9e9e'; // Gray - out of stock
+            } else if (value <= 25) {
+                color = '#f44336'; // Red - very low
             } else if (value <= 50) {
-                color = '#ff8800'; // Orange
+                color = '#ff9800'; // Orange - low
             } else if (value <= 75) {
-                color = '#88aa44'; // Duller green
+                color = '#8bc34a'; // Light green - medium
             } else {
-                color = '#44aa44'; // Bright green
+                color = '#4caf50'; // Green - full stock
             }
             
             const result = `<div class="stock-bar-container"><div class="stock-bar-fill" style="width: ${value}%; background-color: ${color};"></div></div>`;

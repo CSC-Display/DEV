@@ -17,7 +17,7 @@
             color: #333;
             padding: 0;
             margin: 0;
-            font-size: 24px;
+            font-size: 32px;
             overflow: hidden;
             height: 100vh;
             width: 100vw;
@@ -29,53 +29,55 @@
             height: 100vh;
             margin: 0;
             background: white;
-            padding: 30px 40px;
+            padding: 25px 35px;
             box-shadow: none;
             display: flex;
             flex-direction: column;
+            border: 8px solid #2d5016;
+            box-sizing: border-box;
         }
 
         header {
             text-align: center;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
+            margin-bottom: 18px;
+            padding-bottom: 18px;
             border-bottom: 4px solid #2d5016;
         }
 
         h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
+            font-size: 3.5em;
+            margin-bottom: 8px;
             color: #2d5016;
             font-weight: bold;
             line-height: 1.1;
         }
 
         .subtitle {
-            font-size: 2.4em;
+            font-size: 2.8em;
             font-weight: bold;
-            margin: 10px 0;
+            margin: 8px 0;
             color: #333;
             letter-spacing: 2px;
         }
 
         .sponsor {
-            margin: 8px 0;
-            font-size: 1.5em;
+            margin: 6px 0;
+            font-size: 1.7em;
             color: #666;
         }
 
         .content-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 25px;
-            margin-bottom: 20px;
+            gap: 20px;
+            margin-bottom: 18px;
             flex: 1;
             overflow: hidden;
         }
 
         .section {
             overflow-y: auto;
-            padding-right: 10px;
+            padding-right: 8px;
         }
 
         .section::-webkit-scrollbar {
@@ -93,53 +95,53 @@
         }
 
         .section h2 {
-            font-size: 2.2em;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
+            font-size: 2.6em;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
             border-bottom: 3px solid #2d5016;
             color: #2d5016;
             font-weight: bold;
         }
 
         .section h3 {
-            font-size: 1.7em;
-            margin-top: 20px;
-            margin-bottom: 12px;
+            font-size: 2em;
+            margin-top: 15px;
+            margin-bottom: 10px;
             color: #2d5016;
             font-weight: bold;
         }
 
         .item-header {
             display: grid;
-            grid-template-columns: 80px 3fr 1fr 1.5fr;
-            padding: 10px 0;
+            grid-template-columns: 100px 3fr 1fr 2fr;
+            padding: 8px 0;
             font-weight: bold;
             border-bottom: 3px solid #2d5016;
-            margin-bottom: 10px;
-            gap: 15px;
+            margin-bottom: 8px;
+            gap: 12px;
             color: #2d5016;
-            font-size: 1.4em;
+            font-size: 1.6em;
         }
 
         .beer-item, .cider-item {
             display: grid;
-            grid-template-columns: 80px 3fr 1fr 1.5fr;
-            padding: 10px 0;
+            grid-template-columns: 100px 3fr 1fr 2fr;
+            padding: 8px 0;
             border-bottom: 1px solid #e8e8e8;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
         }
 
         .beer-label {
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             object-fit: cover;
             border-radius: 6px;
         }
 
         .beer-label-placeholder {
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             background-color: #f9f7f1;
             border-radius: 6px;
             border: 2px solid #ddd;
@@ -152,35 +154,35 @@
 
         .beer-name {
             font-weight: bold;
-            font-size: 1.3em;
+            font-size: 1.5em;
             color: #333;
-            margin-bottom: 4px;
+            margin-bottom: 3px;
         }
 
         .brewery {
             color: #666;
-            font-size: 1em;
+            font-size: 1.15em;
             font-style: italic;
         }
 
         .abv {
             font-weight: bold;
             color: #2d5016;
-            font-size: 1.4em;
+            font-size: 1.7em;
         }
 
         .stock {
             text-align: right;
-            padding-left: 10px;
+            padding-left: 8px;
         }
 
         .stock-bar-container {
             width: 100%;
-            max-width: 160px;
-            height: 35px;
+            max-width: 220px;
+            height: 55px;
             background-color: #f9f7f1;
-            border: 2px solid #2d5016;
-            border-radius: 6px;
+            border: 3px solid #2d5016;
+            border-radius: 8px;
             overflow: hidden;
             margin-left: auto;
         }
@@ -194,19 +196,19 @@
         .loading {
             color: #999;
             font-style: italic;
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
         .sponsors-section {
-            padding-top: 20px;
-            margin-top: 20px;
+            padding-top: 18px;
+            margin-top: 18px;
             border-top: 3px solid #2d5016;
             text-align: center;
         }
 
         .sponsors-section h2 {
-            font-size: 1.9em;
-            margin-bottom: 15px;
+            font-size: 2.2em;
+            margin-bottom: 12px;
             color: #2d5016;
             font-weight: bold;
         }
@@ -215,17 +217,17 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 12px;
         }
 
         .sponsor-item {
-            padding: 10px 25px;
+            padding: 10px 22px;
             background: #f9f7f1;
             border: 2px solid #2d5016;
             color: #2d5016;
             font-weight: bold;
             border-radius: 6px;
-            font-size: 1.2em;
+            font-size: 1.35em;
         }
     </style>
 </head>
@@ -532,7 +534,7 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top: 30px;">Low Alcohol</h2>
+                <h2 style="margin-top: 20px;">Low Alcohol</h2>
 
                 <div class="item-header">
                     <div></div>

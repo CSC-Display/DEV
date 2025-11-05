@@ -610,11 +610,14 @@
             const value = parseInt(percentage);
             console.log('Parsed value:', value);
             
+            // Show SOLD OUT text instead of bar when stock is 0
+            if (value === 0) {
+                return '<div style="font-weight: bold; color: #d32f2f; font-size: 1.3em; text-align: right;">SOLD OUT</div>';
+            }
+            
             // Determine color based on percentage
             let color;
-            if (value === 0) {
-                color = '#9e9e9e'; // Gray - out of stock
-            } else if (value <= 25) {
+            if (value <= 25) {
                 color = '#f44336'; // Red - very low
             } else if (value <= 50) {
                 color = '#ff9800'; // Orange - low

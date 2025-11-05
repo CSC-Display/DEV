@@ -19,7 +19,7 @@
             color: #333;
             padding: 0;
             margin: 0;
-            font-size: 38px;
+            font-size: 2vw;
             overflow: hidden;
             height: 100vh;
             width: 100vw;
@@ -27,28 +27,28 @@
 
         .container {
             max-width: none;
-            width: calc(100vw - 80px);
-            height: calc(100vh - 80px);
-            margin: 40px;
+            width: calc(100vw - 4vw);
+            height: calc(100vh - 4vh);
+            margin: 2vh 2vw;
             background: rgba(255, 255, 255, 0.85);
-            padding: 25px 35px;
+            padding: 1.5vh 2vw;
             box-shadow: none;
             display: flex;
             flex-direction: column;
-            border: 8px solid #2d5016;
+            border: 0.4vw solid #2d5016;
             box-sizing: border-box;
         }
 
         header {
             text-align: center;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 5px solid #2d5016;
+            margin-bottom: 1.2vh;
+            padding-bottom: 1.2vh;
+            border-bottom: 0.25vw solid #2d5016;
         }
 
         h1 {
             font-size: 4.2em;
-            margin-bottom: 10px;
+            margin-bottom: 0.5vh;
             color: #2d5016;
             font-weight: bold;
             line-height: 1.1;
@@ -57,13 +57,13 @@
         .subtitle {
             font-size: 3.5em;
             font-weight: bold;
-            margin: 10px 0;
+            margin: 0.5vh 0;
             color: #333;
-            letter-spacing: 2px;
+            letter-spacing: 0.1vw;
         }
 
         .sponsor {
-            margin: 8px 0;
+            margin: 0.4vh 0;
             font-size: 2em;
             color: #666;
         }
@@ -71,82 +71,82 @@
         .content-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-bottom: 18px;
+            gap: 1.5vw;
+            margin-bottom: 1vh;
             flex: 1;
             overflow: hidden;
         }
 
         .section {
             overflow-y: auto;
-            padding-right: 10px;
+            padding-right: 0.5vw;
         }
 
         .section::-webkit-scrollbar {
-            width: 10px;
+            width: 0.5vw;
         }
 
         .section::-webkit-scrollbar-track {
             background: #f9f7f1;
-            border-radius: 5px;
+            border-radius: 0.25vw;
         }
 
         .section::-webkit-scrollbar-thumb {
             background: #2d5016;
-            border-radius: 5px;
+            border-radius: 0.25vw;
         }
 
         .section h2 {
             font-size: 3.2em;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 4px solid #2d5016;
+            margin-bottom: 0.8vh;
+            padding-bottom: 0.5vh;
+            border-bottom: 0.2vw solid #2d5016;
             color: #2d5016;
             font-weight: bold;
         }
 
         .section h3 {
             font-size: 2.5em;
-            margin-top: 20px;
-            margin-bottom: 15px;
+            margin-top: 1.2vh;
+            margin-bottom: 0.8vh;
             color: #2d5016;
             font-weight: bold;
         }
 
         .item-header {
             display: grid;
-            grid-template-columns: 130px 3fr 1fr 2.5fr;
-            padding: 12px 0;
+            grid-template-columns: 6.8vw 3fr 1fr 2.5fr;
+            padding: 0.6vh 0;
             font-weight: bold;
-            border-bottom: 4px solid #2d5016;
-            margin-bottom: 12px;
-            gap: 18px;
+            border-bottom: 0.2vw solid #2d5016;
+            margin-bottom: 0.6vh;
+            gap: 0.9vw;
             color: #2d5016;
             font-size: 2em;
         }
 
         .beer-item, .cider-item {
             display: grid;
-            grid-template-columns: 130px 3fr 1fr 2.5fr;
-            padding: 12px 0;
-            border-bottom: 2px solid #e8e8e8;
+            grid-template-columns: 6.8vw 3fr 1fr 2.5fr;
+            padding: 0.6vh 0;
+            border-bottom: 0.1vw solid #e8e8e8;
             align-items: center;
-            gap: 18px;
+            gap: 0.9vw;
         }
 
         .beer-label {
-            width: 130px;
-            height: 130px;
+            width: 6.8vw;
+            height: 6.8vw;
             object-fit: cover;
-            border-radius: 8px;
+            border-radius: 0.4vw;
         }
 
         .beer-label-placeholder {
-            width: 130px;
-            height: 130px;
+            width: 6.8vw;
+            height: 6.8vw;
             background-color: #f9f7f1;
-            border-radius: 8px;
-            border: 3px solid #ddd;
+            border-radius: 0.4vw;
+            border: 0.15vw solid #ddd;
         }
 
         .beer-info {
@@ -158,7 +158,7 @@
             font-weight: bold;
             font-size: 1.8em;
             color: #333;
-            margin-bottom: 5px;
+            margin-bottom: 0.25vh;
         }
 
         .brewery {
@@ -175,16 +175,16 @@
 
         .stock {
             text-align: right;
-            padding-left: 10px;
+            padding-left: 0.5vw;
         }
 
         .stock-bar-container {
             width: 100%;
-            max-width: 400px;
-            height: 85px;
+            max-width: 21vw;
+            height: 4.5vh;
             background-color: #f9f7f1;
-            border: 5px solid #2d5016;
-            border-radius: 12px;
+            border: 0.25vw solid #2d5016;
+            border-radius: 0.6vw;
             overflow: hidden;
             margin-left: auto;
         }
@@ -202,15 +202,15 @@
         }
 
         .sponsors-section {
-            padding-top: 20px;
-            margin-top: 20px;
-            border-top: 4px solid #2d5016;
+            padding-top: 1vh;
+            margin-top: 1vh;
+            border-top: 0.2vw solid #2d5016;
             text-align: center;
         }
 
         .sponsors-section h2 {
             font-size: 2.6em;
-            margin-bottom: 15px;
+            margin-bottom: 0.8vh;
             color: #2d5016;
             font-weight: bold;
         }
@@ -237,7 +237,7 @@
             color: #2d5016;
             font-weight: bold;
             font-size: 1.5em;
-            margin: 0 15px;
+            margin: 0 0.8vw;
         }
     </style>
 </head>
@@ -532,7 +532,7 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top: 25px;">Low Alcohol</h2>
+                <h2 style="margin-top: 1.5vh;">Low Alcohol</h2>
 
                 <div class="item-header">
                     <div></div>
@@ -614,7 +614,7 @@
             
             // Show SOLD OUT text instead of bar when stock is 0
             if (value === 0) {
-                return '<div style="font-weight: bold; color: #d32f2f; font-size: 1.6em; text-align: right;">SOLD OUT</div>';
+                return '<div style="font-weight: bold; color: #d32f2f; font-size: 1.8em; text-align: right;">SOLD OUT</div>';
             }
             
             // Determine color based on percentage

@@ -6,6 +6,8 @@
     <title>Chelmsford Hockey Club</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
+        @import url('https://fonts.cdnfonts.com/css/myriad-pro');
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -13,7 +15,8 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Myriad Pro', 'Myriad Pro SemiCondensed', Myriad, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-weight: 600;
             background-color: #f8f9fa;
             padding: 40px;
             line-height: 1.6;
@@ -25,10 +28,11 @@
         }
 
         h3 {
-            color: #16a34a;
+            color: #52a635;
             font-size: 72px;
             font-weight: 600;
             letter-spacing: 1px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         section {
@@ -46,13 +50,14 @@
         }
 
         .column b {
-            color: #16a34a;
+            color: #52a635;
             font-size: 32px;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
             display: block;
             margin-bottom: 30px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .column-middle {
@@ -86,7 +91,8 @@
             width: 200px;
             height: 160px;
             font-size: 96px;
-            font-weight: bold;
+            font-weight: 600;
+            font-family: 'Myriad Pro', sans-serif;
             visibility: hidden;
             text-align: center;
             background: #f9fafb;
@@ -99,7 +105,7 @@
         }
 
         .dropdown-options:hover {
-            border-color: #16a34a;
+            border-color: #52a635;
             background: #f1f8f1;
         }
 
@@ -112,7 +118,7 @@
             padding: 30px;
             margin: 20px 0;
             border-radius: 20px;
-            border-left: 8px solid #16a34a;
+            border-left: 8px solid #52a635;
             transition: background-color 0.2s;
         }
 
@@ -122,11 +128,12 @@
 
         .gms-carddate {
             font-weight: 600;
-            color: #16a34a;
+            color: #52a635;
             margin-bottom: 16px;
             font-size: 28px;
             text-transform: uppercase;
             letter-spacing: 1px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .gms-cardfixture {
@@ -141,18 +148,21 @@
             color: #333;
             font-size: 32px;
             letter-spacing: 0.5px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .gms-cardtime {
             color: #6b7280;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 28px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .gms-cardvenue a {
             color: #1d4ed8;
             text-decoration: none;
             font-size: 24px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .gms-cardvenue a:hover {
@@ -165,11 +175,12 @@
         }
 
         .sponsors h1 {
-            color: #16a34a;
+            color: #52a635;
             font-size: 48px;
             font-weight: 600;
             letter-spacing: 1px;
             margin-bottom: 40px;
+            font-family: 'Myriad Pro', sans-serif;
         }
 
         .grid-container {
@@ -216,326 +227,22 @@
         .footer p {
             font-size: 16px;
             color: #6b7280;
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: 600;
         }
 
         .refresh-timer {
             font-size: 16px;
             color: #6b7280;
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: 600;
         }
 
         .gms-footnote {
             margin-top: 15px;
             font-size: 14px;
             color: #6b7280;
+            font-family: 'Myriad Pro', sans-serif;
         }
     </style>
 </head>
-<body>
-    <header>
-        <h3>Welcome to Chelmsford Hockey Club</h3>
-    </header>
-
-    <section>
-        <!-- Left Changing Room Column -->
-        <div class="column column-left" align="center">
-            <b>Changing Room</b>
-            <br><br>
-            <div id="dynamicDropdownsLeft" class="dropdown-container"></div>
-        </div>
-
-        <!-- Middle Fixtures Column -->
-        <div class="column column-middle">
-            <div id="gmsFixtures" class="gms-wrapper gms-ajax" 
-                 data-method="api" 
-                 data-show="fixtures" 
-                 data-club_id="e9ba26d3-7e18-4772-abb0-584e887c9d38" 
-                 data-sort_by="fixtureTime" 
-                 data-options="showGender:yes,showList:yes,filter:home">
-            </div>
-            <script src="https://gmsfeed.co.uk/js/api.js"></script>
-        </div>
-
-        <!-- Right Changing Room Column -->
-        <div class="column column-right" align="center">
-            <b>Changing Room</b>
-            <br><br>
-            <div id="dynamicDropdownsRight" class="dropdown-container"></div>
-        </div>
-    </section>
-
-    <!-- Sponsors Section -->
-    <div class="sponsors">
-        <h1>Thank you to our Sponsors:</h1>
-    </div>
-
-    <div class="grid-container">
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/gray and sons.png" alt="Gray and Sons">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/skippers.png" alt="Skippers">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/birketts.png" alt="Birketts">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/green recycling.png" alt="Green Recycling">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/st-cedds.png" alt="St Cedds">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/new-hall.png" alt="New Hall">
-        </div>
-        <div class="grid-item">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/old_park_meadow.svg" alt="Old Park Meadow">
-        </div>
-        <div class="grid-item grid-item-span">
-            <img src="//fixtures.chelmsfordhc.org.uk/img/meadow-oak.png" alt="Meadow Oak">
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        <p id="datetime">7:42 pm - 30 September 2025</p>
-        <p class="refresh-timer" id="refreshTimer">Next refresh in: 48:00:00</p>
-    </div>
-
-    <script>
-        // Display current time
-        function displayTime() {
-            const now = new Date();
-            const timeString = now.toLocaleString('en-GB', { 
-                hour: 'numeric', 
-                minute: '2-digit', 
-                hour12: true 
-            }) + ' - ' + now.toLocaleDateString('en-GB', { 
-                day: 'numeric', 
-                month: 'long', 
-                year: 'numeric' 
-            });
-            document.getElementById('datetime').textContent = timeString;
-        }
-
-        // Count fixtures on the page
-        function countFixtures() {
-            const fixturesDiv = document.getElementById('gmsFixtures');
-            const fixtures = fixturesDiv.querySelectorAll('.gms-card');
-            return fixtures.length;
-        }
-
-        let leftColumnSelections = new Set();
-
-        // Generate left column dropdowns
-        function generateLeftDropdowns(count) {
-            const container = document.getElementById('dynamicDropdownsLeft');
-            container.innerHTML = '';
-            leftColumnSelections.clear();
-
-            for (let i = 1; i <= count; i++) {
-                const wrapper = document.createElement('div');
-                wrapper.className = 'dropdown-wrapper';
-                
-                const select = document.createElement('select');
-                select.className = 'dropdown-options';
-                select.id = `dropdownLeft${i}`;
-                select.onchange = saveDropdownSelection;
-
-                for (let j = 1; j <= 6; j++) {
-                    const option = document.createElement('option');
-                    option.value = j.toString();
-                    option.textContent = j.toString();
-                    select.appendChild(option);
-                }
-
-                wrapper.appendChild(select);
-                container.appendChild(wrapper);
-
-                select.value = '1';
-                leftColumnSelections.add(1);
-            }
-
-            loadDropdownSelections('Left');
-        }
-
-        // Generate right column dropdowns
-        function generateRightDropdowns(count) {
-            const container = document.getElementById('dynamicDropdownsRight');
-            container.innerHTML = '';
-
-            for (let i = 1; i <= count; i++) {
-                const wrapper = document.createElement('div');
-                wrapper.className = 'dropdown-wrapper';
-                
-                const select = document.createElement('select');
-                select.className = 'dropdown-options';
-                select.id = `dropdownRight${i}`;
-                select.onchange = saveDropdownSelection;
-
-                for (let j = 1; j <= 6; j++) {
-                    const option = document.createElement('option');
-                    option.value = j.toString();
-                    option.textContent = j.toString();
-                    select.appendChild(option);
-                }
-
-                wrapper.appendChild(select);
-                container.appendChild(wrapper);
-
-                select.value = '1';
-            }
-
-            loadDropdownSelections('Right');
-        }
-
-        // Save dropdown selection
-        function saveDropdownSelection(event) {
-            const dropdown = event.target;
-            const selectedValue = dropdown.value;
-            const dropdownId = dropdown.id;
-
-            // Update selections in memory (not using browser storage per restrictions)
-            if (dropdownId.startsWith('dropdownLeft')) {
-                leftColumnSelections.clear();
-                document.querySelectorAll('[id^="dropdownLeft"]').forEach(select => {
-                    leftColumnSelections.add(parseInt(select.value));
-                });
-            }
-        }
-
-        // Load dropdown selections (placeholder for memory-based storage)
-        function loadDropdownSelections(side) {
-            // Memory-based implementation would go here
-        }
-
-        // Observe DOM changes for fixtures
-        const observer = new MutationObserver((mutations) => {
-            for (let mutation of mutations) {
-                if (mutation.type === 'childList') {
-                    for (let node of mutation.addedNodes) {
-                        if (node.nodeType === Node.ELEMENT_NODE) {
-                            const fixtureCount = countFixtures();
-                            generateLeftDropdowns(fixtureCount);
-                            generateRightDropdowns(fixtureCount);
-                            return;
-                        }
-                    }
-                }
-            }
-        });
-
-        const config = { childList: true, subtree: true };
-        observer.observe(document.getElementById('gmsFixtures'), config);
-
-        setTimeout(() => {
-            observer.disconnect();
-            console.log('Stopped observing after 30 seconds');
-            if (document.getElementById('dynamicDropdownsLeft').children.length === 0 || 
-                document.getElementById('dynamicDropdownsRight').children.length === 0) {
-                console.log('No fixtures found');
-            }
-        }, 30000);
-
-        displayTime();
-        setInterval(displayTime, 60000);
-
-        // 48-hour refresh timer
-        const refreshInterval = 48 * 60 * 60 * 1000; // 48 hours in milliseconds
-        const pageLoadTime = Date.now();
-        const refreshTime = pageLoadTime + refreshInterval;
-
-        // Update countdown timer
-        function updateRefreshTimer() {
-            const now = Date.now();
-            const timeRemaining = refreshTime - now;
-
-            if (timeRemaining <= 0) {
-                window.location.reload();
-                return;
-            }
-
-            const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
-            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-
-            const timerElement = document.getElementById('refreshTimer');
-            timerElement.textContent = `Next refresh in: ${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-        }
-
-        updateRefreshTimer();
-        setInterval(updateRefreshTimer, 1000);
-
-        // Check if API call was already made today
-        let lastApiCall = null;
-        
-        function canMakeApiCall() {
-            if (!lastApiCall) return true;
-            
-            const now = new Date();
-            const lastCall = new Date(lastApiCall);
-            
-            // Check if it's a different day
-            return now.toDateString() !== lastCall.toDateString();
-        }
-
-        // jQuery ready function
-        $(document).ready(function() {
-            $('section').on('change', '.dropdown-options', function() {
-                var selectId = $(this).attr('id');
-                var roomNumber = $(this).val();
-                
-                // Only make API call if not already made today
-                if (!canMakeApiCall()) {
-                    console.log('API call already made today. Skipping.');
-                    return;
-                }
-                
-                $.ajax({
-                    url: 'https://fixtures.chelmsfordhc.org.uk/changing/updategms',
-                    type: 'POST',
-                    dataType: 'json',
-                    data: {
-                        'select_id': selectId, 
-                        'room_number': roomNumber
-                    },
-                    success: function(output_string) {
-                        alert('success');
-                        lastApiCall = new Date().toISOString();
-                    }
-                });
-            });
-
-            var selects = {
-                "dropdownLeft1": "1",
-                "dropdownLeft2": "1",
-                "dropdownLeft3": "5",
-                "dropdownLeft4": "3",
-                "dropdownLeft5": "1",
-                "dropdownLeft6": "5",
-                "dropdownLeft7": "3",
-                "dropdownLeft8": "1",
-                "dropdownLeft9": "3",
-                "dropdownRight1": "2",
-                "dropdownRight2": "2",
-                "dropdownRight3": "6",
-                "dropdownRight4": "4",
-                "dropdownRight5": "2",
-                "dropdownRight6": "6",
-                "dropdownRight7": "4",
-                "dropdownRight8": "2",
-                "dropdownRight9": "4",
-                "dropdownRight10": "2"
-            };
-
-            setTimeout(function() {
-                $('.dropdown-options').each(function() {
-                    if ($(this).attr('id') in selects) {
-                        $(this).val(selects[$(this).attr('id')]);
-                    }
-                });
-                $('.dropdown-options').css('visibility', 'visible');
-            }, 1000);
-        });
-    </script>
-</body>
-</html>

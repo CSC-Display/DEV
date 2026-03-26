@@ -1,777 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏏 Chelmsford CC - Cricket Data</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recent Results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            min-height: 100vh;
-            color: #333;
-        }
+  html, body {
+    width: 100%;
+    height: 100%;
+    background: #e8ebe8;
+    overflow: hidden;
+  }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+  .stage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8ebe8;
+  }
 
-        .header {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            text-align: center;
-            margin-bottom: 30px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        }
+  /* 16:9 container that scales to fill viewport */
+  .board {
+    width: 100%;
+    height: 100%;
+    max-width: calc(100vh * 16 / 9);
+    max-height: calc(100vw * 9 / 16);
+    background: #f0f2f0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    overflow: hidden;
+  }
 
-        .header h1 {
-            font-size: 2.5em;
-            color: #1e3c72;
-            margin-bottom: 10px;
-            font-weight: 300;
-        }
+  /* ── HEADER ── */
+  .hdr {
+    flex: 0 0 auto;
+    background: #1a6b34;
+    border-bottom: 3px solid #145228;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    height: 12%;
+  }
 
-        .header p {
-            color: #666;
-            font-size: 1.1em;
-        }
+  .hdr-left {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+  }
 
-        .status-bar {
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 30px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
+  .club-crest {
+    width: clamp(28px, 4.5%, 52px);
+    height: clamp(28px, 4.5%, 52px);
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-        .status-item {
-            text-align: center;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #2a5298;
-        }
+  .club-crest svg { width: 60%; height: 60%; }
 
-        .status-value {
-            font-size: 2em;
-            font-weight: bold;
-            color: #1e3c72;
-            display: block;
-        }
+  .hdr-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(18px, 3.6vw, 42px);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+  }
 
-        .status-label {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 5px;
-        }
+  .hdr-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5%;
+  }
 
-        .controls {
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
+  .live-dot {
+    width: clamp(7px, 1%, 11px);
+    height: clamp(7px, 1%, 11px);
+    border-radius: 50%;
+    background: #a8f0c0;
+    animation: pulse 2s ease-in-out infinite;
+  }
 
-        .button-group {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
 
-        button {
-            background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
-            color: white;
-            border: none;
-            padding: 15px 25px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(42, 82, 152, 0.3);
-            min-width: 180px;
-        }
+  .hdr-season {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(11px, 1.6vw, 19px);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+  }
 
-        button:hover:not(:disabled) {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(42, 82, 152, 0.4);
-        }
+  /* ── MATCHES GRID ── */
+  .matches {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1.5% 2.5% 1%;
+    gap: 1.5%;
+    background: #e8ebe8;
+  }
 
-        button:disabled {
-            background: #6c757d;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
+  .match-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #d4d9d4;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
 
-        .primary-btn {
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
-        }
+  .match-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
-        .primary-btn:hover:not(:disabled) {
-            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
-        }
+  .card-top {
+    background: #f5f7f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    height: 28%;
+    border-bottom: 1px solid #e0e4e0;
+    flex-shrink: 0;
+  }
 
-        .loading {
-            text-align: center;
-            padding: 60px 20px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            margin: 20px 0;
-        }
+  .division-pill {
+    background: #1a6b34;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(8px, 1vw, 12px);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 10px 2px;
+    border-radius: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 65%;
+  }
 
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #2a5298;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
+  .match-date {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(9px, 1.1vw, 14px);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #8a9a8a;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+  .team-row {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    border-bottom: 1px solid #edf0ed;
+    position: relative;
+  }
 
-        .results {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
+  .team-row:last-child {
+    border-bottom: none;
+  }
 
-        .summary {
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-            padding: 25px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            border-left: 5px solid #2196f3;
-        }
+  .team-row.winner::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: #1a6b34;
+    border-radius: 0 2px 2px 0;
+  }
 
-        .summary h3 {
-            color: #1e3c72;
-            margin-bottom: 15px;
-        }
+  .team-info {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    min-width: 0;
+    flex: 1;
+  }
 
-        .match-card {
-            background: white;
-            border-radius: 15px;
-            margin-bottom: 25px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            transition: all 0.3s ease;
-        }
+  .team-shield {
+    flex-shrink: 0;
+    width: clamp(14px, 2.2%, 22px);
+    height: clamp(14px, 2.2%, 22px);
+    opacity: 0.35;
+  }
 
-        .match-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-        }
+  .team-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(11px, 1.7vw, 20px);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #5a6a5a;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+  }
 
-        .match-header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 20px 25px;
-        }
+  .team-row.winner .team-name {
+    color: #1a3a24;
+  }
 
-        .match-teams {
-            font-size: 1.3em;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
+  .score-wrap {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+  }
 
-        .match-details {
-            opacity: 0.9;
-            font-size: 0.95em;
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
+  .score-box {
+    background: #1a1a1a;
+    border: 1px solid #111;
+    border-radius: 4px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(12px, 1.9vw, 22px);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding: 3px 14px;
+    min-width: clamp(56px, 8%, 90px);
+    text-align: center;
+    line-height: 1.3;
+  }
 
-        .match-body {
-            padding: 25px;
-        }
+  .team-row.winner .score-box {
+    background: #1a6b34;
+    border-color: #145228;
+    color: #fff;
+  }
 
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-bottom: 25px;
-        }
+  .result-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(7px, 0.85vw, 10px);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #1a6b34;
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: clamp(30px, 5%, 55px);
+    text-align: right;
+  }
 
-        .info-section {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 12px;
-            border-left: 4px solid #2a5298;
-        }
+  /* ── FOOTER ── */
+  .ftr {
+    flex: 0 0 auto;
+    height: 7%;
+    background: #f5f7f5;
+    border-top: 1px solid #d4d9d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    overflow: hidden;
+  }
 
-        .info-section h4 {
-            color: #1e3c72;
-            margin-bottom: 15px;
-            font-size: 1.1em;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+  .ftr-left {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(8px, 1vw, 12px);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: #aab4aa;
+    text-transform: uppercase;
+  }
 
-        .info-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-            padding: 8px 0;
-            border-bottom: 1px solid #e9ecef;
-        }
+  .ftr-time {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(9px, 1.1vw, 13px);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: #aab4aa;
+    text-transform: uppercase;
+  }
 
-        .info-item:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-        }
+  /* ── STATES ── */
+  .state-msg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    padding: 3%;
+  }
 
-        .info-label {
-            font-weight: 500;
-            color: #495057;
-        }
+  .state-main {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(14px, 2.2vw, 26px);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #8a9a8a;
+    text-transform: uppercase;
+  }
 
-        .info-value {
-            color: #212529;
-            font-weight: 600;
-            text-align: right;
-        }
+  .state-sub {
+    font-family: 'Barlow', sans-serif;
+    font-size: clamp(9px, 1.1vw, 13px);
+    color: #aab4aa;
+    text-align: center;
+  }
 
-        .innings-section {
-            margin-top: 25px;
-        }
-
-        .innings-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .innings-card {
-            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
-            border: 2px solid #ff9800;
-            border-radius: 12px;
-            padding: 20px;
-            transition: transform 0.2s ease;
-        }
-
-        .innings-card:hover {
-            transform: scale(1.02);
-        }
-
-        .innings-title {
-            font-weight: 600;
-            color: #f57f17;
-            margin-bottom: 15px;
-            font-size: 1.1em;
-            text-align: center;
-        }
-
-        .error {
-            background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
-            color: #c62828;
-            padding: 25px;
-            border-radius: 15px;
-            border-left: 5px solid #f44336;
-            margin: 25px 0;
-        }
-
-        .error h3 {
-            margin-bottom: 15px;
-        }
-
-        .github-info {
-            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
-            padding: 25px;
-            border-radius: 15px;
-            margin-bottom: 25px;
-            border-left: 5px solid #4caf50;
-        }
-
-        .github-info h3 {
-            color: #2e7d32;
-            margin-bottom: 15px;
-        }
-
-        .update-time {
-            background: #2a5298;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 20px;
-            display: inline-block;
-            font-size: 0.9em;
-            margin-top: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-            
-            .header h1 {
-                font-size: 2em;
-            }
-            
-            .button-group {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            button {
-                width: 100%;
-                max-width: 300px;
-            }
-            
-            .status-bar {
-                grid-template-columns: 1fr;
-            }
-            
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+  /* shield SVG inline */
+  .shield-svg { display: inline-block; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🏏 Chelmsford CC - Cricket Data</h1>
-            <p>Live cricket match data updated every 15 minutes via GitHub Actions</p>
-        </div>
+<div class="stage">
+  <div class="board">
 
-        <div class="status-bar" id="statusBar">
-            <div class="status-item">
-                <span class="status-value" id="totalMatches">--</span>
-                <div class="status-label">Total Matches</div>
-            </div>
-            <div class="status-item">
-                <span class="status-value" id="lastUpdate">--</span>
-                <div class="status-label">Last Updated</div>
-            </div>
-            <div class="status-item">
-                <span class="status-value" id="updateFreq">15 min</span>
-                <div class="status-label">Update Frequency</div>
-            </div>
-            <div class="status-item">
-                <span class="status-value" id="dataSource">GitHub</span>
-                <div class="status-label">Data Source</div>
-            </div>
+    <div class="hdr">
+      <div class="hdr-left">
+        <div class="club-crest">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L4 6v6c0 5.25 3.5 10.15 8 11.35C16.5 22.15 20 17.25 20 12V6L12 2z" fill="#fff" opacity="0.9"/>
+          </svg>
         </div>
-
-        <div class="controls">
-            <div class="button-group">
-                <button onclick="loadGitHubData()" id="githubBtn" class="primary-btn">
-                    📁 Load Latest Data
-                </button>
-                <button onclick="showSummary()" id="summaryBtn">
-                    📊 Quick Summary
-                </button>
-                <button onclick="downloadJSON()" id="downloadBtn" disabled>
-                    💾 Download JSON
-                </button>
-                <button onclick="refreshData()" id="refreshBtn">
-                    🔄 Refresh
-                </button>
-            </div>
-        </div>
-
-        <div id="content">
-            <div class="results">
-                <div class="github-info">
-                    <h3>🚀 Automated Cricket Data System</h3>
-                    <p>This page displays cricket data that is automatically fetched and processed every 15 minutes using GitHub Actions. The system:</p>
-                    <ul style="margin: 15px 0; padding-left: 20px;">
-                        <li>✅ <strong>Fetches live data</strong> from Play Cricket API</li>
-                        <li>✅ <strong>Filters essential info</strong> (match details, results, innings)</li>
-                        <li>✅ <strong>Updates automatically</strong> every 15 minutes</li>
-                        <li>✅ <strong>No CORS issues</strong> - data served from GitHub</li>
-                        <li>✅ <strong>Always available</strong> - works offline</li>
-                    </ul>
-                    <div class="update-time">
-                        Next update: <span id="nextUpdate">In ~15 minutes</span>
-                    </div>
-                </div>
-                
-                <div class="summary">
-                    <h3>🎯 Getting Started</h3>
-                    <p>Click <strong>"Load Latest Data"</strong> to view the most recent cricket match information. The data includes match results, team details, ground information, and detailed innings statistics.</p>
-                </div>
-            </div>
-        </div>
+        <span class="hdr-title">Recent Results</span>
+      </div>
+      <div class="hdr-right">
+        <div class="live-dot"></div>
+        <span class="hdr-season">Season 2025</span>
+      </div>
     </div>
 
-    <script>
-        let currentFilteredData = null;
+    <div class="matches" id="matches">
+      <div class="state-msg">
+        <div class="state-main">Loading…</div>
+        <div class="state-sub">Fetching latest results</div>
+      </div>
+    </div>
 
-        // Load data from GitHub Actions
-        async function loadGitHubData() {
-            const githubBtn = document.getElementById('githubBtn');
-            const downloadBtn = document.getElementById('downloadBtn');
-            const content = document.getElementById('content');
-            
-            githubBtn.disabled = true;
-            githubBtn.innerHTML = '🔄 Loading...';
-            
-            content.innerHTML = `
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Loading cricket data from GitHub Actions...</p>
-                    <p><small>Data updated every 15 minutes automatically</small></p>
-                </div>
-            `;
+    <div class="ftr">
+      <span class="ftr-left">Play Cricket · Division 1</span>
+      <span class="ftr-time" id="clock"></span>
+    </div>
 
-            try {
-                // Load the main cricket data
-                const dataResponse = await fetch('./data/cricket_data.json');
-                
-                if (!dataResponse.ok) {
-                    throw new Error(`Data not found (${dataResponse.status}). GitHub Actions may still be setting up.`);
-                }
-                
-                currentFilteredData = await dataResponse.json();
-                
-                // Load summary data for additional info
-                let summaryData = null;
-                try {
-                    const summaryResponse = await fetch('./data/summary.json');
-                    if (summaryResponse.ok) {
-                        summaryData = await summaryResponse.json();
-                    }
-                } catch (e) {
-                    console.log('Summary data not available');
-                }
+  </div>
+</div>
 
-                // Update status bar
-                updateStatusBar(currentFilteredData, summaryData);
-                
-                // Display the data
-                displayFilteredData(currentFilteredData, summaryData);
-                downloadBtn.disabled = false;
-                
-            } catch (error) {
-                content.innerHTML = `
-                    <div class="error">
-                        <h3>❌ Data Loading Error</h3>
-                        <p><strong>Error:</strong> ${error.message}</p>
-                        
-                        <h4>💡 Troubleshooting:</h4>
-                        <ol>
-                            <li><strong>First time setup:</strong> GitHub Actions may still be running the first data fetch</li>
-                            <li><strong>Check Actions:</strong> Go to the "Actions" tab in your GitHub repo to see the workflow status</li>
-                            <li><strong>Manual trigger:</strong> In Actions, click "Fetch Cricket Data" → "Run workflow"</li>
-                            <li><strong>Wait time:</strong> Initial setup can take 2-3 minutes</li>
-                        </ol>
-                        
-                        <p><strong>Expected files:</strong> <code>data/cricket_data.json</code> and <code>data/summary.json</code></p>
-                        <p>Once GitHub Actions completes successfully, refresh this page!</p>
-                    </div>
-                `;
-                console.error('Error loading GitHub data:', error);
-            } finally {
-                githubBtn.disabled = false;
-                githubBtn.innerHTML = '📁 Load Latest Data';
-            }
-        }
+<script>
+const API_TOKEN = '8786d7c44061b7d624367d32177420e0';
+const SITE_ID   = '1786';
+const SEASON    = '2025';
+const BASE      = 'https://play-cricket.com/api/v2';
+const REFRESH_MS = 5 * 60 * 1000; // refresh every 5 minutes
 
-        // Update status bar with current data
-        function updateStatusBar(data, summary) {
-            document.getElementById('totalMatches').textContent = data.total_matches || '--';
-            
-            if (data.last_updated) {
-                const updateTime = new Date(data.last_updated);
-                document.getElementById('lastUpdate').textContent = updateTime.toLocaleTimeString();
-            }
-            
-            // Calculate next update time
-            if (data.last_updated) {
-                const lastUpdate = new Date(data.last_updated);
-                const nextUpdate = new Date(lastUpdate.getTime() + 15 * 60 * 1000);
-                const now = new Date();
-                const minutesLeft = Math.max(0, Math.floor((nextUpdate - now) / 60000));
-                document.getElementById('nextUpdate').textContent = minutesLeft > 0 ? `In ~${minutesLeft} minutes` : 'Any moment now';
-            }
-        }
+// ── Clock ──────────────────────────────────────────────
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent =
+    now.toLocaleDateString('en-GB', { weekday:'short', day:'numeric', month:'short' }) +
+    ' · ' +
+    now.toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' });
+}
+updateClock();
+setInterval(updateClock, 30000);
 
-        // Display filtered data in the UI
-        function displayFilteredData(data, summary) {
-            const content = document.getElementById('content');
-            
-            let html = `
-                <div class="results">
-                    <div class="github-info">
-                        <h3>📊 Live Cricket Data Loaded Successfully</h3>
-                        <p><strong>Total Matches:</strong> ${data.total_matches}</p>
-                        <p><strong>Last Updated:</strong> ${new Date(data.last_updated).toLocaleString()}</p>
-                        <p><strong>Data Source:</strong> GitHub Actions (updates every 15 minutes)</p>
-                        ${data.fetch_timestamp ? `<p><strong>Fetched:</strong> ${data.fetch_timestamp}</p>` : ''}
-                    </div>
-            `;
+// ── Shield SVG ─────────────────────────────────────────
+function shieldSVG(color) {
+  return `<svg class="team-shield" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 1L2 5v5c0 4.4 3 8.4 8 9.5C15 18.4 18 14.4 18 10V5L10 1z" fill="${color}"/>
+  </svg>`;
+}
 
-            // Show latest matches summary if available
-            if (summary && summary.latest_matches) {
-                html += `
-                    <div class="summary">
-                        <h3>🏏 Latest Matches</h3>
-                        <div style="overflow-x: auto;">
-                            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
-                                <thead>
-                                    <tr style="background: #f8f9fa;">
-                                        <th style="padding: 12px; text-align: left; border-bottom: 2px solid #dee2e6;">Date</th>
-                                        <th style="padding: 12px; text-align: left; border-bottom: 2px solid #dee2e6;">Home Team</th>
-                                        <th style="padding: 12px; text-align: left; border-bottom: 2px solid #dee2e6;">Away Team</th>
-                                        <th style="padding: 12px; text-align: left; border-bottom: 2px solid #dee2e6;">Result</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                `;
-                
-                summary.latest_matches.slice(0, 5).forEach(match => {
-                    html += `
-                        <tr style="border-bottom: 1px solid #dee2e6;">
-                            <td style="padding: 12px;">${match.date}</td>
-                            <td style="padding: 12px;">${match.home_team}</td>
-                            <td style="padding: 12px;">${match.away_team}</td>
-                            <td style="padding: 12px; font-weight: 500;">${match.result}</td>
-                        </tr>
-                    `;
-                });
-                
-                html += `
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                `;
-            }
+// ── Helpers ────────────────────────────────────────────
+function fmtDate(str) {
+  if (!str) return '';
+  const d = new Date(str);
+  if (isNaN(d)) return str;
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' });
+}
 
-            // Display full match details
-            data.matches.forEach(match => {
-                html += `
-                    <div class="match-card">
-                        <div class="match-header">
-                            <div class="match-teams">
-                                ${match.home_club_name} ${match.home_team_name} vs ${match.away_club_name} ${match.away_team_name}
-                            </div>
-                            <div class="match-details">
-                                <span>📅 ${match.match_date}</span>
-                                <span>🏆 ${match.competition_type}</span>
-                                <span>🎯 ${match.result_description}</span>
-                                <span>📍 ${match.ground_name || 'TBC'}</span>
-                            </div>
-                        </div>
-                        <div class="match-body">
-                            <div class="info-grid">
-                                <div class="info-section">
-                                    <h4>🏏 Match Information</h4>
-                                    <div class="info-item">
-                                        <span class="info-label">Match ID:</span>
-                                        <span class="info-value">${match.match_id}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Date:</span>
-                                        <span class="info-value">${match.match_date}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Ground:</span>
-                                        <span class="info-value">${match.ground_name || 'TBC'}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Status:</span>
-                                        <span class="info-value">${match.status}</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="info-section">
-                                    <h4>🎯 Competition Details</h4>
-                                    <div class="info-item">
-                                        <span class="info-label">Competition:</span>
-                                        <span class="info-value">${match.competition_name || 'Friendly'}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Type:</span>
-                                        <span class="info-value">${match.competition_type}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Match Type:</span>
-                                        <span class="info-value">${match.match_type}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Overs:</span>
-                                        <span class="info-value">${match.no_of_overs || 'Declaration'}</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="info-section">
-                                    <h4>⚡ Match Status</h4>
-                                    <div class="info-item">
-                                        <span class="info-label">Game Type:</span>
-                                        <span class="info-value">${match.game_type}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Season:</span>
-                                        <span class="info-value">${match.season}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Last Updated:</span>
-                                        <span class="info-value">${match.last_updated}</span>
-                                    </div>
-                                    <div class="info-item">
-                                        <span class="info-label">Toss:</span>
-                                        <span class="info-value">${match.toss || 'Not recorded'}</span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            ${match.innings && match.innings.length > 0 ? `
-                                <div class="innings-section">
-                                    <h4>📊 Innings Results</h4>
-                                    <div class="innings-grid">
-                                        ${match.innings.map(innings => `
-                                            <div class="innings-card">
-                                                <div class="innings-title">Innings ${innings.innings_number}</div>
-                                                <div class="info-item">
-                                                    <span class="info-label">Runs:</span>
-                                                    <span class="info-value">${innings.runs || 'N/A'}</span>
-                                                </div>
-                                                <div class="info-item">
-                                                    <span class="info-label">Wickets:</span>
-                                                    <span class="info-value">${innings.wickets || 'N/A'}</span>
-                                                </div>
-                                                <div class="info-item">
-                                                    <span class="info-label">Overs:</span>
-                                                    <span class="info-value">${innings.overs || 'N/A'}</span>
-                                                </div>
-                                                <div class="info-item">
-                                                    <span class="info-label">Extras:</span>
-                                                    <span class="info-value">${innings.total_extras || 'N/A'}</span>
-                                                </div>
-                                            </div>
-                                        `).join('')}
-                                    </div>
-                                </div>
-                            ` : '<p style="text-align: center; padding: 20px; color: #666;"><em>No innings data available</em></p>'}
-                        </div>
-                    </div>
-                `;
-            });
+function fmtScore(inning) {
+  if (!inning) return '—';
+  const runs = inning.runs != null ? inning.runs : '—';
+  if (runs === '—') return '—';
+  const w = inning.wickets;
+  if (w === undefined || w === null || w >= 10) return `${runs}`;
+  return `${runs}/${w}`;
+}
 
-            html += '</div>';
-            content.innerHTML = html;
-        }
+function detectWinner(match) {
+  const res = (match.result || '').toLowerCase();
+  if (!res || res === 'no result' || res.includes('draw') || res.includes('tie') || res.includes('abandon')) return null;
+  const homeName = (match.home_club_name || '').toLowerCase();
+  const awayName = (match.away_club_name || '').toLowerCase();
+  // simple heuristic — check if home/away team words appear before "won"
+  const wonIdx = res.indexOf('won');
+  if (wonIdx === -1) return null;
+  const before = res.substring(0, wonIdx);
+  const homeWords = homeName.split(/\s+/).filter(w => w.length > 3);
+  const awayWords = awayName.split(/\s+/).filter(w => w.length > 3);
+  const homeMatch = homeWords.some(w => before.includes(w));
+  const awayMatch = awayWords.some(w => before.includes(w));
+  if (homeMatch && !awayMatch) return 'home';
+  if (awayMatch && !homeMatch) return 'away';
+  return null;
+}
 
-        // Show quick summary
-        async function showSummary() {
-            try {
-                const summaryResponse = await fetch('../data/summary.json');
-                const lastUpdateResponse = await fetch('../data/last_update.txt');
-                
-                if (summaryResponse.ok) {
-                    const summary = await summaryResponse.json();
-                    let statusText = '';
-                    
-                    if (lastUpdateResponse.ok) {
-                        statusText = await lastUpdateResponse.text();
-                    }
-                    
-                    const content = document.getElementById('content');
-                    content.innerHTML = `
-                        <div class="results">
-                            <div class="summary">
-                                <h3>📊 Quick Summary</h3>
-                                <p><strong>Total Matches:</strong> ${summary.total_matches}</p>
-                                <p><strong>Last Updated:</strong> ${new Date(summary.last_updated).toLocaleString()}</p>
-                                <p><strong>Data Source:</strong> ${summary.data_source || 'GitHub Actions'}</p>
-                            </div>
-                            
-                            ${statusText ? `
-                                <div class="github-info">
-                                    <h3>🔄 System Status</h3>
-                                    <pre style="background: #f8f9fa; padding: 15px; border-radius: 8px; font-family: monospace;">${statusText}</pre>
-                                </div>
-                            ` : ''}
-                            
-                            <div class="summary">
-                                <h3>🏏 Recent Matches</h3>
-                                ${summary.latest_matches.map(match => `
-                                    <div style="padding: 15px; border-bottom: 1px solid #e9ecef; margin-bottom: 10px;">
-                                        <strong>${match.date}</strong><br>
-                                        ${match.home_team} vs ${match.away_team}<br>
-                                        <em>${match.result}</em>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    `;
-                }
-            } catch (error) {
-                console.error('Error loading summary:', error);
-            }
-        }
+// ── API ────────────────────────────────────────────────
+async function getMatches() {
+  const url = `${BASE}/matches?site_id=${SITE_ID}&season=${SEASON}&api_token=${API_TOKEN}&per_page=20`;
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`API ${r.status}`);
+  const d = await r.json();
+  return (d.matches || [])
+    .filter(m => m.status === 'Completed' || m.result)
+    .sort((a, b) => new Date(b.match_date) - new Date(a.match_date))
+    .slice(0, 4);
+}
 
-        // Download current data as JSON
-        function downloadJSON() {
-            if (!currentFilteredData) {
-                alert('No data to download. Please load data first.');
-                return;
-            }
+async function getDetail(id) {
+  try {
+    const r = await fetch(`${BASE}/match_detail?match_id=${id}&api_token=${API_TOKEN}`);
+    if (!r.ok) return null;
+    const d = await r.json();
+    return d.match_detail || null;
+  } catch { return null; }
+}
 
-            const dataStr = JSON.stringify(currentFilteredData, null, 2);
-            const dataBlob = new Blob([dataStr], {type: 'application/json'});
-            const url = URL.createObjectURL(dataBlob);
-            
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `cricket_data_${new Date().toISOString().split('T')[0]}.json`;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            URL.revokeObjectURL(url);
-        }
+// ── Render ─────────────────────────────────────────────
+function buildCard(match, detail, idx) {
+  const innings = detail?.innings || [];
+  const homeInning = innings.find(i => String(i.team_batting_id) === String(match.home_team_id));
+  const awayInning = innings.find(i => String(i.team_batting_id) === String(match.away_team_id));
 
-        // Refresh data
-        function refreshData() {
-            loadGitHubData();
-        }
+  const homeScore = homeInning ? fmtScore(homeInning) : (match.home_team_score || '—');
+  const awayScore = awayInning ? fmtScore(awayInning) : (match.away_team_score || '—');
 
-        // Auto-load data when page loads
-        window.addEventListener('load', function() {
-            // Give page a moment to fully load, then fetch data
-            setTimeout(loadGitHubData, 500);
-        });
+  const winner = detectWinner(match);
+  const homeWin = winner === 'home';
+  const awayWin = winner === 'away';
 
-        // Update next update time every minute
-        setInterval(function() {
-            if (currentFilteredData && currentFilteredData.last_updated) {
-                const lastUpdate = new Date(currentFilteredData.last_updated);
-                const nextUpdate = new Date(lastUpdate.getTime() + 15 * 60 * 1000);
-                const now = new Date();
-                const minutesLeft = Math.max(0, Math.floor((nextUpdate - now) / 60000));
-                const nextUpdateElement = document.getElementById('nextUpdate');
-                if (nextUpdateElement) {
-                    nextUpdateElement.textContent = minutesLeft > 0 ? `In ~${minutesLeft} minutes` : 'Any moment now';
-                }
-            }
-        }, 60000); // Update every minute
-    </script>
+  const resultTag = homeWin ? '<span class="result-label">Won</span>' :
+                    awayWin ? '<span class="result-label">Won</span>' : '';
+  const homeTag   = homeWin ? '<span class="result-label">Won</span>' : '<span class="result-label"></span>';
+  const awayTag   = awayWin ? '<span class="result-label">Won</span>' : '<span class="result-label"></span>';
+
+  const div = match.competition_name || 'League';
+
+  return `<div class="match-card" id="card-${idx}" style="transition-delay:${idx * 80}ms">
+    <div class="card-top">
+      <span class="division-pill">${div}</span>
+      <span class="match-date">${fmtDate(match.match_date)}</span>
+    </div>
+    <div class="team-row${homeWin ? ' winner' : ''}">
+      <div class="team-info">
+        ${shieldSVG(homeWin ? '#1a6b34' : '#b0bcb0')}
+        <span class="team-name">${match.home_club_name || 'Home'} – ${match.home_team_name || ''}</span>
+      </div>
+      <div class="score-wrap">
+        ${homeTag}
+        <span class="score-box">${homeScore}</span>
+      </div>
+    </div>
+    <div class="team-row${awayWin ? ' winner' : ''}">
+      <div class="team-info">
+        ${shieldSVG(awayWin ? '#1a6b34' : '#b0bcb0')}
+        <span class="team-name">${match.away_club_name || 'Away'} – ${match.away_team_name || ''}</span>
+      </div>
+      <div class="score-wrap">
+        ${awayTag}
+        <span class="score-box">${awayScore}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function showError(msg, sub) {
+  document.getElementById('matches').innerHTML = `
+    <div class="state-msg">
+      <div class="state-main">${msg}</div>
+      <div class="state-sub">${sub}</div>
+    </div>`;
+}
+
+async function load() {
+  try {
+    const matches = await getMatches();
+
+    if (!matches.length) {
+      showError('No Results Yet', 'Check back once the season is underway');
+      return;
+    }
+
+    const details = await Promise.all(matches.map(m => getDetail(m.id)));
+
+    let html = '';
+    matches.forEach((m, i) => { html += buildCard(m, details[i], i); });
+    document.getElementById('matches').innerHTML = html;
+
+    // stagger fade-in
+    matches.forEach((_, i) => {
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          const el = document.getElementById(`card-${i}`);
+          if (el) el.classList.add('visible');
+        }, i * 100);
+      });
+    });
+
+  } catch (err) {
+    showError('Could Not Load Data', err.message);
+  }
+}
+
+load();
+setInterval(load, REFRESH_MS);
+</script>
 </body>
 </html>

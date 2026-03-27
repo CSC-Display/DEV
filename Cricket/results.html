@@ -345,7 +345,7 @@
       </div>
       <div class="hdr-right">
         <div class="live-dot"></div>
-        <span class="hdr-season">Season 2024</span>
+        <span class="hdr-season">Season 2026</span>
       </div>
     </div>
 
@@ -367,7 +367,7 @@
 <script>
 const API_TOKEN = '8786d7c44061b7d624367d32177420e0';
 const SITE_ID   = '1786';
-const SEASON    = '2024';
+const SEASON    = '2026';
 const BASE      = 'https://play-cricket.com/api/v2';
 const REFRESH_MS = 5 * 60 * 1000; // refresh every 5 minutes
 
@@ -501,33 +501,66 @@ function showError(msg, sub) {
     </div>`;
 }
 
+function buildEmptyCard(idx) {
+  return `<div class="match-card visible" id="card-${idx}">
+    <div class="card-top">
+      <span class="division-pill" style="background:#ccc;color:#ccc;">——————</span>
+      <span class="match-date"></span>
+    </div>
+    <div class="team-row">
+      <div class="team-info">
+        ${shieldSVG('#ddd')}
+        <span class="team-name" style="color:#ddd;">——————————</span>
+      </div>
+      <div class="score-wrap">
+        <span class="result-label"></span>
+        <span class="score-box" style="background:#eee;color:#eee;">—</span>
+      </div>
+    </div>
+    <div class="team-row">
+      <div class="team-info">
+        ${shieldSVG('#ddd')}
+        <span class="team-name" style="color:#ddd;">——————————</span>
+      </div>
+      <div class="score-wrap">
+        <span class="result-label"></span>
+        <span class="score-box" style="background:#eee;color:#eee;">—</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderSkeletons() {
+  let html = '';
+  for (let i = 0; i < 6; i++) html += buildEmptyCard(i);
+  document.getElementById('matches').innerHTML = html;
+}
+
 async function load() {
+  // Always show 6 skeleton cards first
+  renderSkeletons();
+
   try {
     const matches = await getMatches();
-
-    if (!matches.length) {
-      showError('No Results Yet', 'Check back once the season is underway');
-      return;
-    }
-
     const details = await Promise.all(matches.map(m => getDetail(m.id)));
 
-    let html = '';
-    matches.forEach((m, i) => { html += buildCard(m, details[i], i); });
-    document.getElementById('matches').innerHTML = html;
-
-    // stagger fade-in
-    matches.forEach((_, i) => {
-      requestAnimationFrame(() => {
-        setTimeout(() => {
-          const el = document.getElementById(`card-${i}`);
-          if (el) el.classList.add('visible');
-        }, i * 100);
-      });
+    // Fill in real data over skeletons, leave empties for any unfilled slots
+    matches.forEach((m, i) => {
+      const el = document.getElementById(`card-${i}`);
+      if (el) {
+        el.outerHTML = buildCard(m, details[i], i);
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            const updated = document.getElementById(`card-${i}`);
+            if (updated) updated.classList.add('visible');
+          }, i * 100);
+        });
+      }
     });
 
   } catch (err) {
-    showError('Could Not Load Data', err.message);
+    console.warn('API error:', err.message);
+    // Skeletons remain visible — silently fail
   }
 }
 

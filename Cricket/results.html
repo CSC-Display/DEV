@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 3%;
-    height: 12%;
+    height: 10%;
   }
 
   .hdr-left {
@@ -112,16 +112,16 @@
   /* ── MATCHES GRID ── */
   .matches {
     flex: 1;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     overflow: hidden;
-    padding: 1.5% 2.5% 1%;
-    gap: 1.5%;
+    padding: 1.2% 2% 1%;
+    gap: 1.2%;
     background: #e8ebe8;
   }
 
   .match-card {
-    flex: 1;
     background: #ffffff;
     border-radius: 6px;
     border: 1px solid #d4d9d4;
@@ -144,7 +144,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 3%;
-    height: 28%;
+    height: 24%;
     border-bottom: 1px solid #e0e4e0;
     flex-shrink: 0;
   }
@@ -345,7 +345,7 @@
       </div>
       <div class="hdr-right">
         <div class="live-dot"></div>
-        <span class="hdr-season">Season 2024</span>
+        <span class="hdr-season">Season 2025</span>
       </div>
     </div>
 
@@ -367,7 +367,7 @@
 <script>
 const API_TOKEN = '8786d7c44061b7d624367d32177420e0';
 const SITE_ID   = '1786';
-const SEASON    = '2024';
+const SEASON    = '2025';
 const BASE      = 'https://play-cricket.com/api/v2';
 const REFRESH_MS = 5 * 60 * 1000; // refresh every 5 minutes
 
@@ -433,7 +433,7 @@ async function getMatches() {
   return (d.matches || [])
     .filter(m => m.status === 'Completed' || m.result)
     .sort((a, b) => new Date(b.match_date) - new Date(a.match_date))
-    .slice(0, 4);
+    .slice(0, 6);
 }
 
 async function getDetail(id) {

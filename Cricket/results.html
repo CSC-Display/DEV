@@ -504,27 +504,27 @@ function showError(msg, sub) {
 function buildEmptyCard(idx) {
   return `<div class="match-card visible" id="card-${idx}">
     <div class="card-top">
-      <span class="division-pill" style="background:#ccc;color:#ccc;">——————</span>
-      <span class="match-date"></span>
+      <span class="division-pill">Awaiting Result</span>
+      <span class="match-date">— — —</span>
     </div>
     <div class="team-row">
       <div class="team-info">
-        ${shieldSVG('#ddd')}
-        <span class="team-name" style="color:#ddd;">——————————</span>
+        ${shieldSVG('#b0bcb0')}
+        <span class="team-name" style="color:#bbc;"> Home Team</span>
       </div>
       <div class="score-wrap">
         <span class="result-label"></span>
-        <span class="score-box" style="background:#eee;color:#eee;">—</span>
+        <span class="score-box" style="background:#eee;border-color:#ddd;color:#bbb;">000</span>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        ${shieldSVG('#ddd')}
-        <span class="team-name" style="color:#ddd;">——————————</span>
+        ${shieldSVG('#b0bcb0')}
+        <span class="team-name" style="color:#bbc;">Away Team</span>
       </div>
       <div class="score-wrap">
         <span class="result-label"></span>
-        <span class="score-box" style="background:#eee;color:#eee;">—</span>
+        <span class="score-box" style="background:#eee;border-color:#ddd;color:#bbb;">000</span>
       </div>
     </div>
   </div>`;

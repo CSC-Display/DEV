@@ -24,11 +24,6 @@
 
 *{box-sizing:border-box}
 
-main {
-  flex: 1;
-  overflow-y: auto;
-}
-
 html, body {
   height: 100vh;
   margin: 0;
@@ -88,10 +83,11 @@ header .small{
 main {
   flex: 1;
   padding: 12px;
+  padding-bottom: 70px; /* stop footer overlap */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 12px;
+  overflow-y: auto;
 }
 
 @media (max-width:1400px){
@@ -359,9 +355,8 @@ function stripChelmsfordPrefix(label){
  .trim();
 }
 
-
 function pickList(json){
-  return json?.result_summary || [];
+  return json?.result_summary || json?.matches || [];
 }
 
 function pickLatest(list){
@@ -654,6 +649,7 @@ async function loadAndRender(){
   }));
 
   grid.innerHTML = results.map(x => renderCard(x.team, x.match, x.perf)).join("");
+  console.log(results);
 }
 
 // ========================

@@ -24,22 +24,27 @@
 
 *{box-sizing:border-box}
 
-html, body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  overflow: hidden; 
-  background: var(--bg);
+html {
+  height: 100%;
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;   /* keep this */
   display: flex;
   flex-direction: column;
   font-family: "Segoe UI", system-ui, sans-serif;
   color: var(--ink);
+  background: var(--bg);
 }
 
 header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background:var(--green);
   color:white;
   padding:14px 22px;
@@ -47,6 +52,7 @@ header{
   align-items:center;
   justify-content:space-between;
   gap:14px;
+  z-index: 10;
 }
 
 .brand{
@@ -83,12 +89,18 @@ header .small{
   color: white;
 }
 
+/* Main content (scrollable area) */
+
 main {
-  flex: 1;
+  position: absolute;
+  top: 90px;       /* height of header */
+  bottom: 56px;    /* height of footer */
+  left: 0;
+  right: 0;
   padding: 12px;
+  overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 12px;
 }
 
@@ -217,6 +229,8 @@ main {
   font-weight:500;
 }
 
+/* Footer (fixed) */
+
 .footer{
   position:fixed;
   left:0;
@@ -231,6 +245,7 @@ main {
   padding:0 18px;
   font-size:14px;
   color:#4a514a;
+  z-index: 10;
 }
 
 .footer .left{
@@ -266,6 +281,7 @@ main {
   height: 14px;
   width: 70%;
 }
+
 @keyframes shimmer{
   0%{ background-position: 200% 0; }
   100%{ background-position: -200% 0; }

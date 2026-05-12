@@ -14,7 +14,7 @@ const TARGET_TEAMS = [
   {
     label: "Saturday 4th XI",
     division_id: 135330
-  }
+  },
   {
     label: "Saturday 5th XI",
     division_id: 135332

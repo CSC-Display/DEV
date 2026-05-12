@@ -44,6 +44,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 20px;
         flex-shrink: 0;
     }
 
@@ -51,6 +52,7 @@
         display: flex;
         align-items: center;
         gap: 14px;
+        min-width: 0;
     }
 
     .brand img {
@@ -60,13 +62,20 @@
         background: rgba(255,255,255,.12);
         border-radius: 12px;
         padding: 6px;
+        flex-shrink: 0;
     }
 
     header h1 {
         margin: 0;
         letter-spacing: 2px;
         font-size: 24px;
+        line-height: 1.15;
         text-transform: uppercase;
+    }
+
+    .season-title {
+        white-space: nowrap;
+        text-align: right;
     }
 
     main {
@@ -76,9 +85,22 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
         overflow: hidden;
+        min-height: 0;
     }
 
     @media (max-width: 900px) {
+        header {
+            align-items: flex-start;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        .season-title {
+            font-size: 18px;
+        }
+
         main {
             grid-template-columns: 1fr;
             overflow-y: auto;
@@ -191,7 +213,8 @@
             <div style="font-size: 14px; opacity: 0.9;">Chelmsford Cricket Club</div>
         </div>
     </div>
-    <h1>Season 2026</h1>
+
+    <h1 class="season-title">Season 2026</h1>
 </header>
 
 <main id="tables-grid"></main>
@@ -201,14 +224,18 @@ const SITE_ID = 1786;
 const SEASON = "2026";
 
 /*
-    The API token is no longer stored in this HTML file.
+    This is the serverless Node endpoint.
 
-    This page calls your own serverless Node endpoint:
-        /api/playcricket?endpoint=...
+    Netlify Functions use:
+        /.netlify/functions/playcricket
 
-    The serverless function then adds the private Play-Cricket API token
-    from an environment variable.
+    Vercel would use:
+        /api/playcricket
+
+    Your current 404 happens because your live site does not currently have
+    a working function at /api/playcricket.
 */
+const API_PROXY_URL = "/.netlify/functions/playcricket";
 
 const TARGET_TEAMS = [
     {
@@ -244,7 +271,8 @@ const TARGET_TEAMS = [
 ];
 
 async function apiGet(endpoint) {
-    const response = await fetch(`/api/playcricket?endpoint=${encodeURIComponent(endpoint)}`);
+    const url = `${API_PROXY_URL}?endpoint=${encodeURIComponent(endpoint)}`;
+    const response = await fetch(url);
 
     if (!response.ok) {
         const errorText = await response.text();
@@ -378,7 +406,9 @@ async function init() {
 
         grid.innerHTML = `
             <div class="error">
-                League tables failed to load. Check the serverless Node function and the Play-Cricket API token.
+                League tables failed to load.<br>
+                Check that the serverless Node function exists at:<br>
+                <strong>${API_PROXY_URL}</strong>
             </div>
         `;
     }

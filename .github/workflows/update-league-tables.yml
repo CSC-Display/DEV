@@ -24,7 +24,7 @@ jobs:
       - name: Fetch latest league tables
         run: node scripts/fetch-league-tables.mjs
         env:
-          PLAYCRICKET_API_TOKEN: ${{ secrets.PLAYCRICKET_API_TOKEN }}
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
 
       - name: Commit updated league table JSON
         run: |

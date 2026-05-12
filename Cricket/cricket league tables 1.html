@@ -297,6 +297,56 @@ const DATA_URL = "../data/cricket-league-tables.json";
 const REFRESH_MS = 5 * 60 * 1000; // re-read generated JSON every 5 minutes
 const CLUB_NAME_MATCH = "chelmsford";
 
+const DISPLAY_COLUMNS = [
+  {
+    label: "Team",
+    type: "team",
+    source: ["Team"]
+  },
+  {
+    label: "P",
+    title: "Played",
+    source: ["p"]
+  },
+  {
+    label: "W",
+    title: "Won",
+    source: ["W"]
+  },
+  {
+    label: "L",
+    title: "Lost",
+    source: ["L"]
+  },
+  {
+    label: "D",
+    title: "Draw / Tied",
+    source: ["d", "t"],
+    combine: true
+  },
+  {
+    label: "Canc",
+    title: "Cancelled / Abandoned",
+    source: ["c", "a"],
+    combine: true
+  },
+  {
+    label: "BP",
+    title: "Bonus Points",
+    source: ["BP"]
+  },
+  {
+    label: "Pen",
+    title: "Penalties",
+    source: ["Pen"]
+  },
+  {
+    label: "Pts",
+    title: "Points",
+    source: ["Pts"]
+  }
+];
+
 function escapeHtml(value){
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -343,21 +393,75 @@ function isTeamColumn(columnKey, headingText){
   return columnKey === "column_1" || String(headingText || "").trim().toLowerCase() === "team";
 }
 
-function buildTableHtml(item){
+function normaliseHeading(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
+
+function findColumnByHeading(headings, wantedHeading) {
+  const wanted = normaliseHeading(wantedHeading);
+
+  return Object.keys(headings || {}).find(columnKey =>
+    normaliseHeading(headings[columnKey]) === wanted
+  );
+}
+
+function numericValue(value) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : 0;
+}
+
+function resolveDisplayColumns(headings) {
+  return DISPLAY_COLUMNS
+    .map(displayColumn => {
+      const sourceColumns = (displayColumn.source || [])
+        .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
+        .filter(Boolean);
+
+      return {
+        ...displayColumn,
+        sourceColumns
+      };
+    })
+    .filter(displayColumn => {
+      // Always keep Team. For all other columns, only show them if found.
+      return displayColumn.type === "team" || displayColumn.sourceColumns.length > 0;
+    });
+}
+
+function getDisplayValue(row, displayColumn) {
+  if (!displayColumn.sourceColumns.length) {
+    return "";
+  }
+
+  if (displayColumn.combine || displayColumn.sourceColumns.length > 1) {
+    return displayColumn.sourceColumns.reduce((total, columnKey) => {
+      return total + numericValue(row[columnKey]);
+    }, 0);
+  }
+
+  return row[displayColumn.sourceColumns[0]] ?? "";
+}
+
+function buildTableHtml(item) {
   const config = item.config || {};
   const tableData = item.data || {};
   const headings = tableData.headings || {};
   const values = Array.isArray(tableData.values) ? tableData.values : [];
-  const columns = getOrderedColumns(headings);
 
-  if(!columns.length){
+  const displayColumns = resolveDisplayColumns(headings);
+
+  if (!displayColumns.length) {
     return `
       <section class="table-container">
         <div class="table-header">
           <span class="team-label">${escapeHtml(config.label || "League table")}</span>
-          <span class="division-name">No headings found</span>
+          <span class="division-name">No display columns found</span>
         </div>
-        <div class="message warning">No table structure was found in the generated JSON.</div>
+        <div class="message warning">
+          No matching columns were found in the generated JSON.
+        </div>
       </section>`;
   }
 
@@ -365,10 +469,9 @@ function buildTableHtml(item){
     const teamName = String(row.column_1 || "");
     const isChelmsford = teamName.toLowerCase().includes(CLUB_NAME_MATCH);
 
-    const cells = columns.map(columnKey => {
-      const headingText = headings[columnKey];
-      const isTeam = isTeamColumn(columnKey, headingText);
-      const value = escapeHtml(row[columnKey]);
+    const cells = displayColumns.map(displayColumn => {
+      const value = escapeHtml(getDisplayValue(row, displayColumn));
+      const isTeam = displayColumn.type === "team";
 
       return isTeam
         ? `<td class="team-col bold"><span title="${value}">${value}</span></td>`
@@ -382,17 +485,23 @@ function buildTableHtml(item){
       </tr>`;
   }).join("");
 
-  const headerCells = columns.map(columnKey => {
-    const headingText = headings[columnKey];
-    const isTeam = isTeamColumn(columnKey, headingText);
-    return `<th class="${isTeam ? "team-col" : ""}">${escapeHtml(headingText)}</th>`;
+  const headerCells = displayColumns.map(displayColumn => {
+    const isTeam = displayColumn.type === "team";
+    const title = escapeHtml(displayColumn.title || displayColumn.label);
+
+    return `
+      <th class="${isTeam ? "team-col" : ""}" title="${title}">
+        ${escapeHtml(displayColumn.label)}
+      </th>`;
   }).join("");
 
   return `
     <section class="table-container">
       <div class="table-header">
         <span class="team-label">${escapeHtml(config.label || "League table")}</span>
-        <span class="division-name" title="${escapeHtml(tableData.name || "")}">${escapeHtml(tableData.name || "")}</span>
+        <span class="division-name" title="${escapeHtml(tableData.name || "")}">
+          ${escapeHtml(tableData.name || "")}
+        </span>
       </div>
       <div class="scroll-area">
         <table>
@@ -403,7 +512,7 @@ function buildTableHtml(item){
             </tr>
           </thead>
           <tbody>
-            ${rows || `<tr><td colspan="${columns.length + 1}">No rows found in league table.</td></tr>`}
+            ${rows || `<tr><td colspan="${displayColumns.length + 1}">No rows found in league table.</td></tr>`}
           </tbody>
         </table>
       </div>

@@ -85,10 +85,12 @@ const API_TOKEN = "8786d7c44061b7d624367d32177420e0";
     }
 ];
 
+    
 async function apiGet(endpoint) {
-    const targetUrl = `https://play-cricket.com/api/v2/${endpoint}&api_token=${API_TOKEN}`;
-    const response = await fetch(`/api/playcricket?endpoint=${encodeURIComponent(endpoint)}`);
-    if (!response.ok) throw new Error("API Connection Failed");
+    const response = await fetch(`/Cricket/playcricket.php?endpoint=${encodeURIComponent(endpoint)}`);
+    if (!response.ok) {
+        throw new Error(`API Connection Failed: ${response.status} ${response.statusText}`);
+    }
     return await response.json();
 }
 
@@ -153,6 +155,7 @@ async function init() {
     }
 }
 init();
+    
 </script>
 </body>
 </html>

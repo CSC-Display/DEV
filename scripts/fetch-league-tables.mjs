@@ -53,7 +53,7 @@ for (const team of TARGET_TEAMS) {
 
 await fs.mkdir("data", { recursive: true });
 await fs.writeFile(
-  "data/league-tables.json",
+  "data/cricket-league-tables.json",
   JSON.stringify(output, null, 2),
   "utf8"
 );

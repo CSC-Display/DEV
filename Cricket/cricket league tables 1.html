@@ -2,167 +2,485 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Chelmsford CC – League Tables (League Tables 1 of 3)</title>
+<title>Chelmsford CC – League Tables</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
-    :root{ --green:#1f6b3a; --green-soft:#e3f2e7; --bg:#f2f4f1; --card:#ffffff; --border:#d8ddd6; --muted:#7f887f; --ink:#1a1a1a; }
-    *{box-sizing:border-box}
-    html, body { height: 100vh; width: 100vw; margin: 0; overflow: hidden; background: var(--bg); font-family: "Segoe UI", sans-serif; color: var(--ink); }
-    body { display: flex; flex-direction: column; }
-    header { background: var(--green); color: white; padding: 14px 22px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
-    .brand { display: flex; align-items: center; gap: 14px; }
-    .brand img { width: 56px; height: 56px; object-fit: contain; background: rgba(255,255,255,.12); border-radius: 12px; padding: 6px; }
-    header h1 { margin: 0; letter-spacing: 2px; font-size: 24px; text-transform: uppercase; }
-    main { flex: 1; padding: 12px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; overflow: hidden; }
-    @media (max-width: 900px) { main { grid-template-columns: 1fr; overflow-y: auto; } }
-    .table-container { background: var(--card); border: 2px solid var(--border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
-    .table-header { background: var(--green); color: white; padding: 10px 16px; font-weight: 700; font-size: 14px; text-transform: uppercase; }
-    .scroll-area { flex: 1; overflow-y: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 11px; }
-    th { position: sticky; top: 0; background: #f8f9f7; text-align: left; padding: 8px 6px; border-bottom: 2px solid var(--border); color: var(--muted); z-index: 10; }
-    td { padding: 6px; border-bottom: 1px solid var(--border); white-space: nowrap; }
-    tr.highlight { background-color: var(--green-soft) !important; }
-    .bold { font-weight: 800; }
-    .num { text-align: center; }
-    .team-name { max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
-    .skeleton-box { background: #eee; height: 20px; margin: 10px; border-radius: 4px; animation: pulse 1.5s infinite; }
-    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+  :root{
+    --green:#1f6b3a;
+    --green-dark:#15512b;
+    --green-soft:#e3f2e7;
+    --bg:#f2f4f1;
+    --card:#ffffff;
+    --border:#d8ddd6;
+    --muted:#6f786f;
+    --ink:#1a1a1a;
+    --danger:#b42318;
+    --warning:#8a5a00;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,
+  body{
+    height:100vh;
+    width:100vw;
+    margin:0;
+    overflow:hidden;
+    background:var(--bg);
+    font-family:"Segoe UI", Arial, sans-serif;
+    color:var(--ink);
+  }
+
+  body{
+    display:flex;
+    flex-direction:column;
+  }
+
+  header{
+    background:var(--green);
+    color:#fff;
+    padding:14px 22px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-shrink:0;
+    gap:18px;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    min-width:0;
+  }
+
+  .brand img{
+    width:56px;
+    height:56px;
+    object-fit:contain;
+    background:rgba(255,255,255,.12);
+    border-radius:12px;
+    padding:6px;
+    flex-shrink:0;
+  }
+
+  header h1{
+    margin:0;
+    letter-spacing:2px;
+    font-size:24px;
+    line-height:1.1;
+    text-transform:uppercase;
+  }
+
+  .subtitle{
+    margin-top:3px;
+    font-size:14px;
+    opacity:.9;
+  }
+
+  .season-block{
+    text-align:right;
+    flex-shrink:0;
+  }
+
+  .season-block .season{
+    font-size:24px;
+    letter-spacing:2px;
+    font-weight:800;
+  }
+
+  .season-block .updated{
+    margin-top:3px;
+    font-size:12px;
+    opacity:.9;
+  }
+
+  main{
+    flex:1;
+    padding:12px;
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:12px;
+    overflow:hidden;
+    min-height:0;
+  }
+
+  @media (max-width:900px){
+    html, body{ overflow:auto; height:auto; min-height:100vh; }
+    body{ min-height:100vh; }
+    main{
+      grid-template-columns:1fr;
+      overflow:visible;
+    }
+    header{
+      align-items:flex-start;
+      flex-direction:column;
+    }
+    .season-block{
+      text-align:left;
+    }
+  }
+
+  .table-container{
+    background:var(--card);
+    border:2px solid var(--border);
+    border-radius:14px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+  }
+
+  .table-header{
+    background:var(--green);
+    color:#fff;
+    padding:10px 16px;
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    align-items:center;
+    font-weight:800;
+    font-size:14px;
+    text-transform:uppercase;
+    flex-shrink:0;
+  }
+
+  .table-header .division-name{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+
+  .table-header .team-label{
+    flex-shrink:0;
+  }
+
+  .scroll-area{
+    flex:1;
+    overflow:auto;
+    min-height:0;
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:11px;
+  }
+
+  th{
+    position:sticky;
+    top:0;
+    background:#f8f9f7;
+    text-align:center;
+    padding:8px 6px;
+    border-bottom:2px solid var(--border);
+    color:var(--muted);
+    z-index:2;
+    white-space:nowrap;
+  }
+
+  td{
+    padding:6px;
+    border-bottom:1px solid var(--border);
+    white-space:nowrap;
+    text-align:center;
+  }
+
+  th.team-col,
+  td.team-col{
+    text-align:left;
+    min-width:150px;
+    max-width:260px;
+  }
+
+  td.team-col span{
+    display:block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+  tr.highlight{
+    background-color:var(--green-soft) !important;
+  }
+
+  .bold{ font-weight:800; }
+
+  .skeleton-box{
+    background:#eee;
+    height:20px;
+    margin:10px;
+    border-radius:4px;
+    animation:pulse 1.5s infinite;
+  }
+
+  @keyframes pulse{
+    0%{ opacity:1; }
+    50%{ opacity:.5; }
+    100%{ opacity:1; }
+  }
+
+  .message{
+    grid-column:1 / -1;
+    background:#fff;
+    border:2px solid var(--border);
+    border-radius:14px;
+    padding:20px;
+    text-align:center;
+    font-size:15px;
+  }
+
+  .message.error{
+    color:var(--danger);
+    border-color:#f0b8b2;
+    background:#fff7f6;
+  }
+
+  .message.warning{
+    color:var(--warning);
+    border-color:#f1d28a;
+    background:#fff9e8;
+  }
+
+  footer{
+    background:var(--green-dark);
+    color:#fff;
+    min-height:30px;
+    padding:6px 14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    font-size:12px;
+    flex-shrink:0;
+  }
+
+  footer span:last-child{
+    text-align:right;
+  }
 </style>
 </head>
 <body>
-
 <header>
-    <div class="brand">
-        <img src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fclub_logos%2F78190%2FV4VHWNHTvWksHRqonMJ9_Website%20logo%20no%20bg2.png&h=180&w=180&t=square" alt="Logo" />
-        <div><h1>League Tables (1 of 3)</h1><div style="font-size: 14px; opacity: 0.9;">Chelmsford Cricket Club</div></div>
+  <div class="brand">
+    <img src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fclub_logos%2F78190%2FV4VHWNHTvWksHRqonMJ9_Website%20logo%20no%20bg2.png&h=180&w=180&t=square" alt="Chelmsford Cricket Club logo" />
+    <div>
+      <h1>League Tables</h1>
+      <div class="subtitle">Chelmsford Cricket Club</div>
     </div>
-    <h1>SEASON 2026</h1>
+  </div>
+  <div class="season-block">
+    <div class="season">SEASON 2026</div>
+    <div class="updated" id="last-updated">Loading latest tables…</div>
+  </div>
 </header>
 
-<main id="tables-grid"></main>
+<main id="tables-grid" aria-live="polite"></main>
+
+<footer>
+  <span>Data generated from Play-Cricket via GitHub Actions</span>
+  <span id="footer-clock"></span>
+</footer>
 
 <script>
-/** 
- * GLOBAL API SETTINGS
- */
-const SITE_ID = 1786;
-const SEASON  = "2026";
-const API_TOKEN = "8786d7c44061b7d624367d32177420e0";
-
 /**
- * Updated to reflect Saturday 1st and 2nd XI from file 1
+ * Chelmsford CC League Tables
+ *
+ * Option 3 version:
+ * - This page does NOT call the Play-Cricket API directly.
+ * - This page does NOT contain the API token.
+ * - GitHub Actions should generate /data/cricket-league-tables.json.
+ * - The browser simply reads that static JSON file from the same website.
  */
-  const TARGET_TEAMS = [
-    { 
-        label: "Saturday 1st XI", 
-        team_id: 24293, 
-        fallback_div: 135282,
-        display_columns: ["Pos", "Team", "P", "W", "L", "D", "Off", "BP", "Pen", "Pts"],
-        column_combinations: {
-            W: [3, 5, 7, 12], // Based on File 1 calc: column_3 + column_5 + column_7 + column_12
-            L: [4, 6, 8, 11], // Based on File 1 calc: column_4 + column_6 + column_8 + column_11
-            D: [13, 14],      // Based on File 1 calc: column_13 + column_14
-            Off: [9, 10],     // Based on File 1 calc: column_9 + column_10[cite: 14]
-            BP: [15],         // column_15[cite: 14]
-            Pen: [16],        // column_16[cite: 14]
-            Pts: [18]         // column_18[cite: 14]
-        }
-    },
-    { 
-        label: "Saturday 2nd XI", 
-        team_id: 24294, 
-        fallback_div: 135299,
-        display_columns: ["Pos", "Team", "P", "W", "L", "D", "Off", "BP", "Pen", "Pts"],
-        column_combinations: {
-            W: [3, 5, 7, 12], 
-            L: [4, 6, 8, 11], 
-            D: [13, 14],      
-            Off: [9, 10],
-            BP: [15],
-            Pen: [16],     
-            Pts: [18]        
-        }
-    }
-];
 
-async function apiGet(endpoint) {
-    const targetUrl = `https://play-cricket.com/api/v2/${endpoint}&api_token=${API_TOKEN}`;
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`;
-    const response = await fetch(proxyUrl);
-    if (!response.ok) throw new Error("API Connection Failed");
-    return await response.json();
+const DATA_URL = "../data/cricket-league-tables.json";
+const REFRESH_MS = 5 * 60 * 1000; // re-read generated JSON every 5 minutes
+const CLUB_NAME_MATCH = "chelmsford";
+
+function escapeHtml(value){
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
-const sumCols = (rowData, colIndexes) => {
-    if (!colIndexes) return 0; 
-    return colIndexes.reduce((acc, idx) => acc + (+rowData[`column_${idx}`] || 0), 0);
-};
+function formatDateTime(value){
+  if(!value) return "";
+  const d = new Date(value);
+  if(Number.isNaN(d.getTime())) return "";
+  return d.toLocaleString("en-GB", {
+    weekday:"short",
+    day:"2-digit",
+    month:"short",
+    hour:"2-digit",
+    minute:"2-digit"
+  });
+}
 
-function buildTableHtml(tableData, config) {
-    const rows = tableData.values.map(v => {
-        const isChelmsford = v.column_1.toLowerCase().includes("chelmsford");
-        const combos = config.column_combinations;
-        
-        const dataMap = {
-            "Pos": `<td class="num bold">${v.position}</td>`,
-            "Team": `<td class="team-name bold">${v.column_1}</td>`,
-            "P": `<td class="num">${v.column_2}</td>`,
-            "W": `<td class="num">${sumCols(v, combos.W)}</td>`,
-            "L": `<td class="num">${sumCols(v, combos.L)}</td>`,
-            "D": `<td class="num">${sumCols(v, combos.D)}</td>`,
-            "Off": `<td class="num">${sumCols(v, combos.Off)}</td>`,
-            "BP": `<td class="num">${sumCols(v, combos.BP)}</td>`,
-            "Pen": `<td class="num">${sumCols(v, combos.Pen)}</td>`,
-            "Pts": `<td class="num bold">${sumCols(v, combos.Pts)}</td>`
-        };
+function updateClock(){
+  const el = document.getElementById("footer-clock");
+  if(!el) return;
+  el.textContent = new Date().toLocaleString("en-GB", {
+    weekday:"short",
+    day:"2-digit",
+    month:"short",
+    year:"numeric",
+    hour:"2-digit",
+    minute:"2-digit",
+    second:"2-digit"
+  });
+}
 
-        return `<tr class="${isChelmsford ? 'highlight' : ''}">
-            ${config.display_columns.map(colName => dataMap[colName]).join('')}
-        </tr>`;
-    }).join('');
+function getOrderedColumns(headings){
+  return Object.keys(headings || {})
+    .filter(key => /^column_\d+$/.test(key))
+    .sort((a, b) => Number(a.replace("column_", "")) - Number(b.replace("column_", "")));
+}
+
+function isTeamColumn(columnKey, headingText){
+  return columnKey === "column_1" || String(headingText || "").trim().toLowerCase() === "team";
+}
+
+function buildTableHtml(item){
+  const config = item.config || {};
+  const tableData = item.data || {};
+  const headings = tableData.headings || {};
+  const values = Array.isArray(tableData.values) ? tableData.values : [];
+  const columns = getOrderedColumns(headings);
+
+  if(!columns.length){
+    return `
+      <section class="table-container">
+        <div class="table-header">
+          <span class="team-label">${escapeHtml(config.label || "League table")}</span>
+          <span class="division-name">No headings found</span>
+        </div>
+        <div class="message warning">No table structure was found in the generated JSON.</div>
+      </section>`;
+  }
+
+  const rows = values.map(row => {
+    const teamName = String(row.column_1 || "");
+    const isChelmsford = teamName.toLowerCase().includes(CLUB_NAME_MATCH);
+
+    const cells = columns.map(columnKey => {
+      const headingText = headings[columnKey];
+      const isTeam = isTeamColumn(columnKey, headingText);
+      const value = escapeHtml(row[columnKey]);
+
+      return isTeam
+        ? `<td class="team-col bold"><span title="${value}">${value}</span></td>`
+        : `<td>${value}</td>`;
+    }).join("");
 
     return `
-        <div class="table-container">
-            <div class="table-header">${config.label} - ${tableData.name}</div>
-            <div class="scroll-area">
-                <table>
-                    <thead>
-                        <tr>${config.display_columns.map(h => `<th class="num">${h}</th>`).join('')}</tr>
-                    </thead>
-                    <tbody>${rows}</tbody>
-                </table>
-            </div>
-        </div>`;
+      <tr class="${isChelmsford ? "highlight" : ""}">
+        <td class="bold">${escapeHtml(row.position)}</td>
+        ${cells}
+      </tr>`;
+  }).join("");
+
+  const headerCells = columns.map(columnKey => {
+    const headingText = headings[columnKey];
+    const isTeam = isTeamColumn(columnKey, headingText);
+    return `<th class="${isTeam ? "team-col" : ""}">${escapeHtml(headingText)}</th>`;
+  }).join("");
+
+  return `
+    <section class="table-container">
+      <div class="table-header">
+        <span class="team-label">${escapeHtml(config.label || "League table")}</span>
+        <span class="division-name" title="${escapeHtml(tableData.name || "")}">${escapeHtml(tableData.name || "")}</span>
+      </div>
+      <div class="scroll-area">
+        <table>
+          <thead>
+            <tr>
+              <th>Pos</th>
+              ${headerCells}
+            </tr>
+          </thead>
+          <tbody>
+            ${rows || `<tr><td colspan="${columns.length + 1}">No rows found in league table.</td></tr>`}
+          </tbody>
+        </table>
+      </div>
+    </section>`;
 }
 
-async function init() {
-    const grid = document.getElementById('tables-grid');
-    grid.innerHTML = '<div class="table-container"><div class="skeleton-box"></div></div>'.repeat(TARGET_TEAMS.length);
+function setLoadingState(){
+  const grid = document.getElementById("tables-grid");
+  grid.innerHTML = `
+    <section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>
+    <section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>`;
+}
 
-    try {
-        const matchData = await apiGet(`matches.json?site_id=${SITE_ID}&season=${SEASON}`);
-        const matches = matchData.matches || [];
+function setErrorState(message){
+  const grid = document.getElementById("tables-grid");
+  grid.innerHTML = `<div class="message error">${escapeHtml(message)}</div>`;
+}
 
-        const tables = await Promise.all(TARGET_TEAMS.map(async (target) => {
-            const match = matches.find(m => 
-                m.division_id && (String(m.home_team_id) === String(target.team_id) || String(m.away_team_id) === String(target.team_id))
-            );
-            
-            const divId = match ? match.division_id : target.fallback_div;
-            if (!divId) return null;
+async function loadLeagueTables(){
+  const response = await fetch(`${DATA_URL}?v=${Date.now()}`, {
+    cache:"no-store"
+  });
 
-            const res = await apiGet(`league_table.json?division_id=${divId}`);
-            return res.league_table ? { data: res.league_table[0], config: target } : null;
-        }));
+  if(!response.ok){
+    throw new Error(`Could not load ${DATA_URL}. HTTP status ${response.status}.`);
+  }
 
-        grid.innerHTML = tables.map(item => item ? buildTableHtml(item.data, item.config) : "").join('');
-    } catch (e) {
-        console.error(e);
-        grid.innerHTML = `<p style="padding:20px; color:red; text-align:center;">Load Failed. Check local server & API token.</p>`;
+  const json = await response.json();
+
+  if(!Array.isArray(json)){
+    throw new Error(`${DATA_URL} must contain a JSON array.`);
+  }
+
+  return json;
+}
+
+async function renderLeagueTables({showLoading = false} = {}){
+  const grid = document.getElementById("tables-grid");
+  const updatedEl = document.getElementById("last-updated");
+
+  if(showLoading) setLoadingState();
+
+  try{
+    const tables = await loadLeagueTables();
+
+    if(!tables.length){
+      setErrorState("The generated league-tables.json file is empty.");
+      updatedEl.textContent = "No tables available";
+      return;
     }
+
+    grid.innerHTML = tables.map(buildTableHtml).join("");
+
+    const fetchedDates = tables
+      .map(item => item?.config?.fetched_at)
+      .filter(Boolean)
+      .sort();
+
+    const latestFetched = fetchedDates.length ? fetchedDates[fetchedDates.length - 1] : null;
+    updatedEl.textContent = latestFetched
+      ? `Last updated: ${formatDateTime(latestFetched)}`
+      : "Last updated time not supplied";
+
+  }catch(err){
+    console.error(err);
+    setErrorState(
+      `League tables could not be loaded. Check that ${DATA_URL} exists and is valid JSON.`
+    );
+    updatedEl.textContent = "League tables failed to load";
+  }
 }
 
-init();
+updateClock();
+setInterval(updateClock, 1000);
+
+renderLeagueTables({showLoading:true});
+setInterval(() => renderLeagueTables(), REFRESH_MS);
 </script>
 </body>
 </html>

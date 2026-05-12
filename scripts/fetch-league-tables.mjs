@@ -1,9 +1,9 @@
 import fs from "fs/promises";
 
-const API_TOKEN = process.env.PLAYCRICKET_API_TOKEN;
+const API_TOKEN = process.env.PLAY_CRICKET_KEY;
 
 if (!API_TOKEN) {
-  throw new Error("Missing PLAYCRICKET_API_TOKEN");
+  throw new Error("Missing PLAY_CRICKET_KEY");
 }
 
 const TARGET_TEAMS = [

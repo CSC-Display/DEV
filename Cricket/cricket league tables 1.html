@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Chelmsford CC – League Tables</title>
+<title>Chelmsford CC – League Tables (1 of 3)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
   :root{
@@ -108,16 +108,16 @@
   @media (max-width:900px){
     html, body{ overflow:auto; height:auto; min-height:100vh; }
     body{ min-height:100vh; }
-    main{
-      grid-template-columns:1fr;
-      overflow:visible;
-    }
     header{
       align-items:flex-start;
       flex-direction:column;
     }
     .season-block{
       text-align:left;
+    }
+    main{
+      grid-template-columns:1fr;
+      overflow:visible;
     }
   }
 
@@ -146,14 +146,14 @@
     flex-shrink:0;
   }
 
+  .table-header .team-label{
+    flex-shrink:0;
+  }
+
   .table-header .division-name{
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
-  }
-
-  .table-header .team-label{
-    flex-shrink:0;
   }
 
   .scroll-area{
@@ -165,7 +165,7 @@
   table{
     width:100%;
     border-collapse:collapse;
-    font-size:18px;
+    font-size:16px;
   }
 
   th{
@@ -265,7 +265,7 @@
   <div class="brand">
     <img src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fclub_logos%2F78190%2FV4VHWNHTvWksHRqonMJ9_Website%20logo%20no%20bg2.png&h=180&w=180&t=square" alt="Chelmsford Cricket Club logo" />
     <div>
-      <h1>League Tables</h1>
+      <h1>League Tables (1 of 3)</h1>
       <div class="subtitle">Chelmsford Cricket Club</div>
     </div>
   </div>
@@ -284,13 +284,13 @@
 
 <script>
 /**
- * Chelmsford CC League Tables
+ * Chelmsford CC League Tables (1 of 3)
  *
- * Option 3 version:
+ * GitHub Actions/static JSON version:
  * - This page does NOT call the Play-Cricket API directly.
  * - This page does NOT contain the API token.
  * - GitHub Actions should generate /data/cricket-league-tables.json.
- * - The browser simply reads that static JSON file from the same website.
+ * - The browser reads that static JSON file from the same website.
  */
 
 const DATA_URL = "../data/cricket-league-tables.json";
@@ -311,16 +311,20 @@ const DISPLAY_COLUMNS = [
   {
     label: "W",
     title: "Won",
-    source: ["W"]
+    source: ["W"],
+    fallbackSource: ["w1", "w2", "w3", "wcn"],
+    combineFallback: true
   },
   {
     label: "L",
     title: "Lost",
-    source: ["L"]
+    source: ["L"],
+    fallbackSource: ["l1", "l2", "l3", "lcn"],
+    combineFallback: true
   },
   {
     label: "D",
-    title: "Draw / Tied",
+    title: "Drawn / Tied",
     source: ["d", "t"],
     combine: true
   },
@@ -333,17 +337,17 @@ const DISPLAY_COLUMNS = [
   {
     label: "BP",
     title: "Bonus Points",
-    source: ["BP"]
+    source: ["BP", "Bonus", "Bonus Points"]
   },
   {
     label: "Pen",
     title: "Penalties",
-    source: ["Pen"]
+    source: ["Pen", "Penalty", "Penalty Points"]
   },
   {
     label: "Pts",
     title: "Points",
-    source: ["Pts"]
+    source: ["Pts", "Points"]
   }
 ];
 
@@ -354,6 +358,12 @@ function escapeHtml(value){
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function decodeBasicEntities(value){
+  return String(value ?? "")
+    .replaceAll("&amp;", "&")
+    .replaceAll("&nbsp;", " ");
 }
 
 function formatDateTime(value){
@@ -383,59 +393,64 @@ function updateClock(){
   });
 }
 
-function getOrderedColumns(headings){
-  return Object.keys(headings || {})
-    .filter(key => /^column_\d+$/.test(key))
-    .sort((a, b) => Number(a.replace("column_", "")) - Number(b.replace("column_", "")));
-}
-
-function isTeamColumn(columnKey, headingText){
-  return columnKey === "column_1" || String(headingText || "").trim().toLowerCase() === "team";
-}
-
-function normaliseHeading(value) {
+function normaliseHeading(value){
   return String(value || "")
     .trim()
     .toLowerCase();
 }
 
-function findColumnByHeading(headings, wantedHeading) {
+function findColumnByHeading(headings, wantedHeading){
   const wanted = normaliseHeading(wantedHeading);
-
   return Object.keys(headings || {}).find(columnKey =>
     normaliseHeading(headings[columnKey]) === wanted
   );
 }
 
-function numericValue(value) {
+function numericValue(value){
   const n = Number(value);
   return Number.isFinite(n) ? n : 0;
 }
 
-function resolveDisplayColumns(headings) {
+function resolveDisplayColumns(headings){
   return DISPLAY_COLUMNS
     .map(displayColumn => {
-      const sourceColumns = (displayColumn.source || [])
-        .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
-        .filter(Boolean);
+      const primaryColumns = [...new Set(
+        (displayColumn.source || [])
+          .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
+          .filter(Boolean)
+      )];
+
+      if(primaryColumns.length > 0){
+        return {
+          ...displayColumn,
+          sourceColumns: primaryColumns,
+          combineActive: displayColumn.combine || primaryColumns.length > 1
+        };
+      }
+
+      const fallbackColumns = [...new Set(
+        (displayColumn.fallbackSource || [])
+          .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
+          .filter(Boolean)
+      )];
 
       return {
         ...displayColumn,
-        sourceColumns
+        sourceColumns: fallbackColumns,
+        combineActive: displayColumn.combineFallback || fallbackColumns.length > 1
       };
     })
     .filter(displayColumn => {
-      // Always keep Team. For all other columns, only show them if found.
       return displayColumn.type === "team" || displayColumn.sourceColumns.length > 0;
     });
 }
 
-function getDisplayValue(row, displayColumn) {
-  if (!displayColumn.sourceColumns.length) {
+function getDisplayValue(row, displayColumn){
+  if(!displayColumn.sourceColumns.length){
     return "";
   }
 
-  if (displayColumn.combine || displayColumn.sourceColumns.length > 1) {
+  if(displayColumn.combineActive){
     return displayColumn.sourceColumns.reduce((total, columnKey) => {
       return total + numericValue(row[columnKey]);
     }, 0);
@@ -444,33 +459,33 @@ function getDisplayValue(row, displayColumn) {
   return row[displayColumn.sourceColumns[0]] ?? "";
 }
 
-function buildTableHtml(item) {
+function buildTableHtml(item){
   const config = item.config || {};
   const tableData = item.data || {};
   const headings = tableData.headings || {};
   const values = Array.isArray(tableData.values) ? tableData.values : [];
-
   const displayColumns = resolveDisplayColumns(headings);
 
-  if (!displayColumns.length) {
+  if(!displayColumns.length){
     return `
       <section class="table-container">
         <div class="table-header">
           <span class="team-label">${escapeHtml(config.label || "League table")}</span>
           <span class="division-name">No display columns found</span>
         </div>
-        <div class="message warning">
-          No matching columns were found in the generated JSON.
-        </div>
+        <div class="message warning">No matching columns were found in the generated JSON.</div>
       </section>`;
   }
 
   const rows = values.map(row => {
-    const teamName = String(row.column_1 || "");
+    const teamName = decodeBasicEntities(row.column_1 || "");
     const isChelmsford = teamName.toLowerCase().includes(CLUB_NAME_MATCH);
 
     const cells = displayColumns.map(displayColumn => {
-      const value = escapeHtml(getDisplayValue(row, displayColumn));
+      const rawValue = getDisplayValue(row, displayColumn);
+      const value = displayColumn.type === "team"
+        ? escapeHtml(decodeBasicEntities(rawValue))
+        : escapeHtml(rawValue);
       const isTeam = displayColumn.type === "team";
 
       return isTeam
@@ -488,20 +503,14 @@ function buildTableHtml(item) {
   const headerCells = displayColumns.map(displayColumn => {
     const isTeam = displayColumn.type === "team";
     const title = escapeHtml(displayColumn.title || displayColumn.label);
-
-    return `
-      <th class="${isTeam ? "team-col" : ""}" title="${title}">
-        ${escapeHtml(displayColumn.label)}
-      </th>`;
+    return `<th class="${isTeam ? "team-col" : ""}" title="${title}">${escapeHtml(displayColumn.label)}</th>`;
   }).join("");
 
   return `
     <section class="table-container">
       <div class="table-header">
         <span class="team-label">${escapeHtml(config.label || "League table")}</span>
-        <span class="division-name" title="${escapeHtml(tableData.name || "")}">
-          ${escapeHtml(tableData.name || "")}
-        </span>
+        <span class="division-name" title="${escapeHtml(tableData.name || "")}">${escapeHtml(tableData.name || "")}</span>
       </div>
       <div class="scroll-area">
         <table>
@@ -550,7 +559,6 @@ async function loadLeagueTables(){
 }
 
 async function renderLeagueTables({showLoading = false} = {}){
-  const grid = document.getElementById("tables-grid");
   const updatedEl = document.getElementById("last-updated");
 
   if(showLoading) setLoadingState();
@@ -559,12 +567,12 @@ async function renderLeagueTables({showLoading = false} = {}){
     const tables = await loadLeagueTables();
 
     if(!tables.length){
-      setErrorState("The generated league-tables.json file is empty.");
+      setErrorState("The generated cricket-league-tables.json file is empty.");
       updatedEl.textContent = "No tables available";
       return;
     }
 
-    grid.innerHTML = tables.map(buildTableHtml).join("");
+    document.getElementById("tables-grid").innerHTML = tables.map(buildTableHtml).join("");
 
     const fetchedDates = tables
       .map(item => item?.config?.fetched_at)
@@ -587,7 +595,6 @@ async function renderLeagueTables({showLoading = false} = {}){
 
 updateClock();
 setInterval(updateClock, 1000);
-
 renderLeagueTables({showLoading:true});
 setInterval(() => renderLeagueTables(), REFRESH_MS);
 </script>

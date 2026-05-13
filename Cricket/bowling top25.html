@@ -331,7 +331,7 @@
 <script>
 const DATA_URL = "../data/cricket-club-statistics.json";
 const REFRESH_MS = 5 * 60 * 1000;
-const TOP_N = 25;
+const TOP_N = 20;
 
 function escapeHtml(value){
   return String(value ?? "")
@@ -431,7 +431,7 @@ function buildTable(rows){
     <section class="stats-container bowling-panel">
       <div class="table-header">
         <span class="label">Bowling</span>
-        <span class="summary">Top 25 by wickets</span>
+        <span class="summary">Top 20 by wickets</span>
       </div>
       <div class="scroll-area">
         <table class="bowling-table">

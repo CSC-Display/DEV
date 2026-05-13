@@ -5,6 +5,7 @@
 <title>Chelmsford CC – League Tables (3 of 3)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
+
   :root{
     --green:#1f6b3a;
     --green-dark:#15512b;
@@ -16,6 +17,16 @@
     --ink:#1a1a1a;
     --danger:#b42318;
     --warning:#8a5a00;
+    --grid-cols:2;
+    --main-pad:10px;
+    --grid-gap:10px;
+    --table-font:13px;
+    --cell-pad-y:5px;
+    --cell-pad-x:5px;
+    --team-min:170px;
+    --team-max:320px;
+    --header-font:24px;
+    --table-header-font:16px;
   }
 
   *{ box-sizing:border-box; }
@@ -39,7 +50,7 @@
   header{
     background:var(--green);
     color:#fff;
-    padding:14px 22px;
+    padding:10px 22px;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -55,26 +66,27 @@
   }
 
   .brand img{
-    width:56px;
-    height:56px;
+    width:50px;
+    height:50px;
     object-fit:contain;
     background:rgba(255,255,255,.12);
     border-radius:12px;
-    padding:6px;
+    padding:5px;
     flex-shrink:0;
   }
 
   header h1{
     margin:0;
-    letter-spacing:2px;
-    font-size:24px;
-    line-height:1.1;
+    letter-spacing:3px;
+    font-size:var(--header-font);
+    line-height:1.05;
     text-transform:uppercase;
+    white-space:nowrap;
   }
 
   .subtitle{
-    margin-top:3px;
-    font-size:14px;
+    margin-top:2px;
+    font-size:13px;
     opacity:.9;
   }
 
@@ -85,40 +97,25 @@
 
   .season-block .season{
     font-size:24px;
-    letter-spacing:2px;
+    letter-spacing:3px;
     font-weight:800;
+    white-space:nowrap;
   }
 
   .season-block .updated{
-    margin-top:3px;
-    font-size:12px;
+    margin-top:2px;
+    font-size:11px;
     opacity:.9;
   }
 
   main{
     flex:1;
-    padding:12px;
-    display:grid;
-    grid-template-columns:repeat(2, minmax(0, 1fr));
-    gap:12px;
-    overflow:hidden;
     min-height:0;
-  }
-
-  @media (max-width:900px){
-    html, body{ overflow:auto; height:auto; min-height:100vh; }
-    body{ min-height:100vh; }
-    header{
-      align-items:flex-start;
-      flex-direction:column;
-    }
-    .season-block{
-      text-align:left;
-    }
-    main{
-      grid-template-columns:1fr;
-      overflow:visible;
-    }
+    padding:var(--main-pad);
+    display:grid;
+    grid-template-columns:repeat(var(--grid-cols), minmax(0, 1fr));
+    gap:var(--grid-gap);
+    overflow:hidden;
   }
 
   .table-container{
@@ -135,15 +132,16 @@
   .table-header{
     background:var(--green);
     color:#fff;
-    padding:10px 16px;
+    padding:8px 14px;
     display:flex;
     justify-content:space-between;
-    gap:12px;
+    gap:10px;
     align-items:center;
     font-weight:800;
-    font-size:24px;
+    font-size:var(--table-header-font);
     text-transform:uppercase;
     flex-shrink:0;
+    line-height:1.1;
   }
 
   .table-header .team-label{
@@ -154,18 +152,19 @@
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
+    text-align:right;
   }
 
   .scroll-area{
     flex:1;
-    overflow:auto;
     min-height:0;
+    overflow:auto;
   }
 
   table{
     width:100%;
     border-collapse:collapse;
-    font-size:16px;
+    font-size:var(--table-font);
   }
 
   th{
@@ -173,25 +172,32 @@
     top:0;
     background:#f8f9f7;
     text-align:center;
-    padding:8px 6px;
+    padding:var(--cell-pad-y) var(--cell-pad-x);
     border-bottom:2px solid var(--border);
     color:var(--muted);
     z-index:2;
     white-space:nowrap;
+    font-weight:800;
   }
 
   td{
-    padding:6px;
+    padding:var(--cell-pad-y) var(--cell-pad-x);
     border-bottom:1px solid var(--border);
     white-space:nowrap;
     text-align:center;
+    line-height:1.2;
+  }
+
+  th.pos-col,
+  td.pos-col{
+    width:34px;
   }
 
   th.team-col,
   td.team-col{
     text-align:left;
-    min-width:150px;
-    max-width:280px;
+    min-width:var(--team-min);
+    max-width:var(--team-max);
   }
 
   td.team-col span{
@@ -245,8 +251,8 @@
   footer{
     background:var(--green-dark);
     color:#fff;
-    min-height:30px;
-    padding:6px 14px;
+    min-height:28px;
+    padding:4px 14px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -258,6 +264,39 @@
   footer span:last-child{
     text-align:right;
   }
+
+  @media (width:1920px) and (height:1080px){
+    html, body{ width:1920px; height:1080px; }
+  }
+
+  @media (max-width:1300px){
+    :root{ --grid-cols:2; }
+    main{ overflow-y:auto; }
+  }
+
+  @media (max-width:900px){
+    html, body{ overflow:auto; height:auto; min-height:100vh; }
+    body{ min-height:100vh; }
+    header{
+      align-items:flex-start;
+      flex-direction:column;
+    }
+    .season-block{ text-align:left; }
+    :root{ --grid-cols:1; }
+    main{ overflow:visible; }
+  }
+
+
+:root{
+  --grid-cols:2;
+  --table-font:14px;
+  --cell-pad-y:5px;
+  --cell-pad-x:5px;
+  --team-min:180px;
+  --team-max:330px;
+  --table-header-font:20px;
+}
+
 </style>
 </head>
 <body>
@@ -283,81 +322,25 @@
 </footer>
 
 <script>
-/**
- * Chelmsford CC League Tables (3 of 3)
- *
- * GitHub Actions/static JSON version:
- * - This page does NOT call the Play-Cricket API directly.
- * - This page does NOT contain the API token.
- * - GitHub Actions should generate /data/cricket-league-tables-3.json.
- * - The browser reads that static JSON file from the same website.
- */
-
 const DATA_URL = "../data/cricket-league-tables-3.json";
-const REFRESH_MS = 5 * 60 * 1000; // re-read generated JSON every 5 minutes
+const REFRESH_MS = 5 * 60 * 1000;
 const CLUB_NAME_MATCH = "chelmsford";
+const SKELETON_COUNT = 2;
 
 const DISPLAY_COLUMNS = [
-  {
-    label: "Team",
-    type: "team",
-    source: ["Team"]
-  },
-  {
-    label: "P",
-    title: "Played",
-    source: ["p"]
-  },
-  {
-    label: "W",
-    title: "Won",
-    source: ["w", "wcn"],
-    combine: true
-  },
-  {
-    label: "L",
-    title: "Lost",
-    source: ["l", "lcn"],
-    combine: true
-  },
-  {
-    label: "D",
-    title: "Tied",
-    source: ["t"]
-  },
-  {
-    label: "Canc",
-    title: "Cancelled / Abandoned",
-    source: ["c", "a"],
-    combine: true
-  },
-  {
-    label: "BP",
-    title: "Bonus Points",
-    source: ["BatP", "BowlP"],
-    combine: true
-  },
-  {
-    label: "Pen",
-    title: "Penalties",
-    source: ["Pen", "Penalty", "Penalty Points"]
-  },
-  {
-    label: "Pts",
-    title: "Points",
-    source: ["Pts", "Points"]
-  },
-  {
-    label: "NRR",
-    title: "Net Run Rate",
-    source: ["NRR", "Net Run Rate"]
-  },
-  {
-    label: "Ave",
-    title: "Average Points",
-    source: ["Ave", "Average", "Average Points"]
-  }
+  { label:"Team", type:"team", source:["Team"] },
+  { label:"P", title:"Played", source:["p"] },
+  { label:"W", title:"Won", source:["w", "wcn", "wcb"], combine:true },
+  { label:"L", title:"Lost", source:["l", "lcn"], combine:true },
+  { label:"D", title:"Tied", source:["t"] },
+  { label:"Canc", title:"Cancelled / Abandoned", source:["c", "a"], combine:true },
+  { label:"BP", title:"Bonus Points", source:["BatP", "BowlP"], combine:true },
+  { label:"Pen", title:"Penalties", source:["Pen", "Penalty", "Penalty Points"] },
+  { label:"Pts", title:"Points", source:["Pts", "Points"] },
+  { label:"NRR", title:"Net Run Rate", source:["NRR", "Net Run Rate"] },
+  { label:"Ave", title:"Average Points", source:["Ave", "Average", "Average Points"] }
 ];
+
 
 function escapeHtml(value){
   return String(value ?? "")
@@ -402,9 +385,7 @@ function updateClock(){
 }
 
 function normaliseHeading(value){
-  return String(value || "")
-    .trim()
-    .toLowerCase();
+  return String(value || "").trim().toLowerCase();
 }
 
 function findColumnByHeading(headings, wantedHeading){
@@ -422,28 +403,39 @@ function numericValue(value){
 function resolveDisplayColumns(headings){
   return DISPLAY_COLUMNS
     .map(displayColumn => {
-      const sourceColumns = [...new Set(
+      const primaryColumns = [...new Set(
         (displayColumn.source || [])
+          .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
+          .filter(Boolean)
+      )];
+
+      if(primaryColumns.length > 0){
+        return {
+          ...displayColumn,
+          sourceColumns: primaryColumns,
+          combineActive: displayColumn.combine || primaryColumns.length > 1
+        };
+      }
+
+      const fallbackColumns = [...new Set(
+        (displayColumn.fallbackSource || [])
           .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
           .filter(Boolean)
       )];
 
       return {
         ...displayColumn,
-        sourceColumns,
-        combineActive: displayColumn.combine || sourceColumns.length > 1
+        sourceColumns: fallbackColumns,
+        combineActive: displayColumn.combineFallback || fallbackColumns.length > 1
       };
     })
     .filter(displayColumn => {
-      // Always keep Team. For all other columns, only show columns found in that league table.
       return displayColumn.type === "team" || displayColumn.sourceColumns.length > 0;
     });
 }
 
 function getDisplayValue(row, displayColumn){
-  if(!displayColumn.sourceColumns.length){
-    return "";
-  }
+  if(!displayColumn.sourceColumns.length) return "";
 
   if(displayColumn.combineActive){
     return displayColumn.sourceColumns.reduce((total, columnKey) => {
@@ -481,24 +473,22 @@ function buildTableHtml(item){
       const value = displayColumn.type === "team"
         ? escapeHtml(decodeBasicEntities(rawValue))
         : escapeHtml(rawValue);
-      const isTeam = displayColumn.type === "team";
 
-      return isTeam
+      return displayColumn.type === "team"
         ? `<td class="team-col bold"><span title="${value}">${value}</span></td>`
         : `<td>${value}</td>`;
     }).join("");
 
     return `
       <tr class="${isChelmsford ? "highlight" : ""}">
-        <td class="bold">${escapeHtml(row.position)}</td>
+        <td class="pos-col bold">${escapeHtml(row.position)}</td>
         ${cells}
       </tr>`;
   }).join("");
 
   const headerCells = displayColumns.map(displayColumn => {
-    const isTeam = displayColumn.type === "team";
     const title = escapeHtml(displayColumn.title || displayColumn.label);
-    return `<th class="${isTeam ? "team-col" : ""}" title="${title}">${escapeHtml(displayColumn.label)}</th>`;
+    return `<th class="${displayColumn.type === "team" ? "team-col" : ""}" title="${title}">${escapeHtml(displayColumn.label)}</th>`;
   }).join("");
 
   return `
@@ -511,7 +501,7 @@ function buildTableHtml(item){
         <table>
           <thead>
             <tr>
-              <th>Pos</th>
+              <th class="pos-col">Pos</th>
               ${headerCells}
             </tr>
           </thead>
@@ -525,9 +515,7 @@ function buildTableHtml(item){
 
 function setLoadingState(){
   const grid = document.getElementById("tables-grid");
-  grid.innerHTML = `
-    <section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>
-    <section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>`;
+  grid.innerHTML = `<section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>`.repeat(SKELETON_COUNT);
 }
 
 function setErrorState(message){
@@ -536,9 +524,7 @@ function setErrorState(message){
 }
 
 async function loadLeagueTables(){
-  const response = await fetch(`${DATA_URL}?v=${Date.now()}`, {
-    cache:"no-store"
-  });
+  const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache:"no-store" });
 
   if(!response.ok){
     throw new Error(`Could not load ${DATA_URL}. HTTP status ${response.status}.`);
@@ -562,7 +548,7 @@ async function renderLeagueTables({showLoading = false} = {}){
     const tables = await loadLeagueTables();
 
     if(!tables.length){
-      setErrorState("The generated cricket-league-tables-3.json file is empty.");
+      setErrorState(`The generated ${DATA_URL} file is empty.`);
       updatedEl.textContent = "No tables available";
       return;
     }
@@ -581,9 +567,7 @@ async function renderLeagueTables({showLoading = false} = {}){
 
   }catch(err){
     console.error(err);
-    setErrorState(
-      `League tables could not be loaded. Check that ${DATA_URL} exists and is valid JSON.`
-    );
+    setErrorState(`League tables could not be loaded. Check that ${DATA_URL} exists and is valid JSON.`);
     updatedEl.textContent = "League tables failed to load";
   }
 }
@@ -592,6 +576,7 @@ updateClock();
 setInterval(updateClock, 1000);
 renderLeagueTables({showLoading:true});
 setInterval(() => renderLeagueTables(), REFRESH_MS);
+
 </script>
 </body>
 </html>

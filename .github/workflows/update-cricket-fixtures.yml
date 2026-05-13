@@ -1,0 +1,35 @@
+name: Update Play-Cricket fixtures
+
+on:
+  schedule:
+    - cron: "10 6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cricket-fixtures:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest cricket fixtures
+        run: node scripts/fetch-cricket-fixtures.mjs
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+
+      - name: Commit updated fixtures JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/cricket-fixtures.json
+          git diff --cached --quiet || git commit -m "Update cricket fixtures"
+          git push

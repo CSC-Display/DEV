@@ -1,0 +1,45 @@
+name: Update Play-Cricket club statistics
+
+on:
+  schedule:
+    # GitHub Actions cron runs in UTC.
+    # During UK BST this is 09:00 and 21:00 UK time.
+    # During UK GMT/winter, change this to "0 9,21 * * *" for 09:00 and 21:00 UK time.
+    - cron: "0 8,20 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: play-cricket-data-updates
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-club-statistics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest club statistics
+        run: node scripts/fetch-club-statistics.mjs
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+
+      - name: Commit updated club statistics JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/cricket-club-statistics.json
+          git diff --cached --quiet || git commit -m "Update club statistics"
+
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,4 +1,4 @@
-name: Update Play-Cricket league tables
+name: Update Play-Cricket league tables 1
 
 on:
   schedule:

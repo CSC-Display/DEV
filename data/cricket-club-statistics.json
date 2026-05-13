@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-05-13T15:40:59.799Z",
+  "generated_at": "2026-05-13T15:52:46.668Z",
   "match_count": 20,
   "scorecards_processed": 18,
   "batting": [
@@ -349,7 +349,7 @@
   "bowling": [
     {
       "player": "Piyush Singh",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI",
       "matches": 3,
       "innings": 3,
       "balls": 138,
@@ -368,7 +368,7 @@
     },
     {
       "player": "Tom Halsey",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 4,
       "innings": 4,
       "balls": 165,
@@ -387,7 +387,7 @@
     },
     {
       "player": "Ben Waring",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 4,
       "innings": 4,
       "balls": 174,
@@ -406,7 +406,7 @@
     },
     {
       "player": "Rory Skepelhorn",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 6,
       "innings": 6,
       "balls": 225,
@@ -425,7 +425,7 @@
     },
     {
       "player": "Harry Jacobs",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 2nd XI",
       "matches": 4,
       "innings": 4,
       "balls": 69,
@@ -444,7 +444,7 @@
     },
     {
       "player": "James Clifford",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 3,
       "innings": 3,
       "balls": 95,
@@ -463,7 +463,7 @@
     },
     {
       "player": "Alex Rowe-Goodey",
-      "teams": "Chelmsford CC",
+      "teams": "Womens 1st XI",
       "matches": 2,
       "innings": 2,
       "balls": 36,
@@ -482,7 +482,7 @@
     },
     {
       "player": "Neil Siriwardana",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI",
       "matches": 6,
       "innings": 6,
       "balls": 182,
@@ -501,7 +501,7 @@
     },
     {
       "player": "Alex Bayha",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 5,
       "innings": 5,
       "balls": 192,
@@ -520,7 +520,7 @@
     },
     {
       "player": "Freddie Ryan",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 2nd XI",
       "matches": 5,
       "innings": 5,
       "balls": 195,
@@ -539,7 +539,7 @@
     },
     {
       "player": "Deepak Reddy Singireddy",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 3,
       "innings": 3,
       "balls": 93,
@@ -558,7 +558,7 @@
     },
     {
       "player": "Thomas Duxson",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI, Sat 2nd XI",
       "matches": 3,
       "innings": 3,
       "balls": 125,
@@ -577,7 +577,7 @@
     },
     {
       "player": "Ashiqur Rahman",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 3rd XI",
       "matches": 2,
       "innings": 2,
       "balls": 102,
@@ -596,7 +596,7 @@
     },
     {
       "player": "Rishabh Upadhyay",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 4,
       "innings": 4,
       "balls": 108,
@@ -615,7 +615,7 @@
     },
     {
       "player": "Jack Parrish",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 1,
       "innings": 1,
       "balls": 48,
@@ -634,7 +634,7 @@
     },
     {
       "player": "Tom Hutchinson",
-      "teams": "Chelmsford CC",
+      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI",
       "matches": 5,
       "innings": 5,
       "balls": 222,
@@ -653,7 +653,7 @@
     },
     {
       "player": "Andy Styan",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 2,
       "innings": 2,
       "balls": 72,
@@ -672,7 +672,7 @@
     },
     {
       "player": "Harriet Goodey",
-      "teams": "Chelmsford CC",
+      "teams": "Womens 1st XI",
       "matches": 2,
       "innings": 2,
       "balls": 30,
@@ -691,7 +691,7 @@
     },
     {
       "player": "Sean Sullivan",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 1st XI",
       "matches": 2,
       "innings": 2,
       "balls": 60,
@@ -710,7 +710,7 @@
     },
     {
       "player": "Daniel Purchase",
-      "teams": "Chelmsford CC",
+      "teams": "Sat 4th XI",
       "matches": 2,
       "innings": 2,
       "balls": 102,

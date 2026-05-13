@@ -128,7 +128,7 @@
         }
       ]
     },
-    "fetched_at": "2026-05-13T12:32:02.438Z"
+    "fetched_at": "2026-05-13T15:31:17.659Z"
   },
   {
     "team": {
@@ -270,7 +270,7 @@
         }
       ]
     },
-    "fetched_at": "2026-05-13T12:32:03.223Z"
+    "fetched_at": "2026-05-13T15:31:18.264Z"
   },
   {
     "team": {
@@ -412,7 +412,7 @@
         }
       ]
     },
-    "fetched_at": "2026-05-13T12:32:03.990Z"
+    "fetched_at": "2026-05-13T15:31:18.811Z"
   },
   {
     "team": {
@@ -553,7 +553,7 @@
       ],
       "wickets": []
     },
-    "fetched_at": "2026-05-13T12:32:04.517Z"
+    "fetched_at": "2026-05-13T15:31:19.626Z"
   },
   {
     "team": {
@@ -689,7 +689,7 @@
       ],
       "wickets": []
     },
-    "fetched_at": "2026-05-13T12:32:05.277Z"
+    "fetched_at": "2026-05-13T15:31:20.245Z"
   },
   {
     "team": {
@@ -701,7 +701,7 @@
       "runs": [],
       "wickets": []
     },
-    "fetched_at": "2026-05-13T12:32:05.710Z"
+    "fetched_at": "2026-05-13T15:31:20.435Z"
   },
   {
     "team": {
@@ -843,7 +843,7 @@
         }
       ]
     },
-    "fetched_at": "2026-05-13T12:32:06.693Z"
+    "fetched_at": "2026-05-13T15:31:21.010Z"
   },
   {
     "team": {
@@ -855,7 +855,7 @@
       "runs": [],
       "wickets": []
     },
-    "fetched_at": "2026-05-13T12:32:06.890Z"
+    "fetched_at": "2026-05-13T15:31:21.211Z"
   },
   {
     "team": {
@@ -867,7 +867,7 @@
       "runs": [],
       "wickets": []
     },
-    "fetched_at": "2026-05-13T12:32:07.099Z"
+    "fetched_at": "2026-05-13T15:31:21.430Z"
   },
   {
     "team": {
@@ -878,7 +878,7 @@
       "id": 7399544,
       "status": "New",
       "published": "Yes",
-      "last_updated": "12/05/2026",
+      "last_updated": "13/05/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -922,7 +922,7 @@
       "result_applied_to": "213007",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -998,6 +998,6 @@
         }
       ]
     },
-    "fetched_at": "2026-05-13T12:32:08.189Z"
+    "fetched_at": "2026-05-13T15:31:22.056Z"
   }
 ]

@@ -146,6 +146,8 @@
       line-height:1.15;
       overflow:hidden;
       flex-shrink:0;
+      background:#fff; /* away/default fixtures */
+      color:var(--ink);
     }
 
     .fixture-row:last-child{ border-bottom:none; }
@@ -155,15 +157,16 @@
       justify-content:space-between;
       gap:8px;
       margin-bottom:2px;
-      font-weight:700;
+      font-weight:800; /* date and opposition bold */
     }
 
     .fixture-line-2{
       font-size:12px;
-      color:#555;
+      color:inherit;
       display:flex;
       justify-content:space-between;
       gap:8px;
+      font-weight:400; /* location and league not bold */
     }
 
     .fixture-line-1 span,
@@ -178,12 +181,10 @@
       text-align:right;
     }
 
-    /* Background logic */
-    .bg-league{ background-color:var(--league-bg); }
-    .bg-cup{ background-color:var(--cup-bg); }
-
-    /* Ground highlight logic */
-    .is-chelmer{ font-weight:800; }
+    /* Fixture formatting logic */
+    .fixture-row.is-chelmer{ background-color:var(--league-bg); } /* home at Chelmer Park */
+    .fixture-row.is-cup{ color:#7a1b1b; }      /* dark red text for cup matches */
+    .fixture-row.is-friendly{ color:#0057b8; } /* blue text for friendly matches */
 
     .muted{
       color:var(--muted);
@@ -381,10 +382,17 @@ function renderCard(team, fixtures) {
     const compType = (f.competition_type || "").toLowerCase();
     const compName = f.competition_name || "Friendly";
     const isChelmer = ground.includes("Chelmer Park");
-    const bgClass = compType === "league" ? "bg-league" : (compType === "cup" ? "bg-cup" : "");
+    const isCup = compType === "cup" || compName.toLowerCase().includes("cup");
+    const isFriendly = compType === "friendly" || compName.toLowerCase().includes("friendly");
+    const rowClass = [
+      "fixture-row",
+      isChelmer ? "is-chelmer" : "",
+      isCup ? "is-cup" : "",
+      isFriendly ? "is-friendly" : ""
+    ].filter(Boolean).join(" ");
 
     return `
-      <div class="fixture-row ${bgClass} ${isChelmer ? 'is-chelmer' : ''}">
+      <div class="${rowClass}">
         <div class="fixture-line-1">
           <span title="${escapeHtml(f.match_date)}">${escapeHtml(f.match_date)}</span>
           <span title="${escapeHtml(stripChelmsford(oppName))}">${escapeHtml(stripChelmsford(oppName))}</span>

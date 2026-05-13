@@ -53,11 +53,7 @@ function parseDMY(dmy) {
   const match = String(dmy || "").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
   if (!match) return null;
 
-  const day = Number(match[1]);
-  const month = Number(match[2]);
-  const year = Number(match[3]);
-
-  return new Date(year, month - 1, day);
+  return new Date(Number(match[3]), Number(match[2]) - 1, Number(match[1]));
 }
 
 function isOnOrBeforeToday(dmy) {
@@ -76,10 +72,7 @@ function parseOversToBalls(value) {
 
   const text = String(value).trim();
   const [oversText, ballsText = "0"] = text.split(".");
-  const overs = asNumber(oversText, 0);
-  const balls = asNumber(ballsText, 0);
-
-  return overs * 6 + balls;
+  return asNumber(oversText, 0) * 6 + asNumber(ballsText, 0);
 }
 
 function ballsToOvers(balls) {
@@ -104,7 +97,6 @@ function inningsBowlingTeamId(innings) {
 function isChelmsfordBattingInnings(innings) {
   const teamId = inningsBattingTeamId(innings);
   const teamName = String(firstValue(innings, ["team_batting_name", "batting_team_name", "team_name"], "")).toLowerCase();
-
   return TEAM_IDS.has(teamId) || teamName.includes(CLUB_MATCH_TEXT);
 }
 
@@ -112,35 +104,28 @@ function isChelmsfordBowlingInnings(innings) {
   const bowlingTeamId = inningsBowlingTeamId(innings);
   const bowlingTeamName = String(firstValue(innings, ["team_bowling_name", "bowling_team_name"], "")).toLowerCase();
 
-  if (TEAM_IDS.has(bowlingTeamId) || bowlingTeamName.includes(CLUB_MATCH_TEXT)) {
-    return true;
-  }
-
-  // If the batting innings is not Chelmsford in a Chelmsford match, then Chelmsford are the bowling side.
+  if (TEAM_IDS.has(bowlingTeamId) || bowlingTeamName.includes(CLUB_MATCH_TEXT)) return true;
   return !isChelmsfordBattingInnings(innings);
 }
 
-function getBattingTeamLabel(innings) {
+function getBattingTeamLabel(innings, match) {
   const teamId = inningsBattingTeamId(innings);
   if (TEAM_NAME_BY_ID.has(teamId)) return TEAM_NAME_BY_ID.get(teamId);
-
-  return normaliseName(firstValue(innings, ["team_batting_name", "team_name"], "Chelmsford CC"));
+  return normaliseName(firstValue(innings, ["team_batting_name", "team_name"], match.source_team || "Chelmsford CC"));
 }
 
-function getBowlingTeamLabel(innings) {
+function getBowlingTeamLabel(innings, match) {
   const teamId = inningsBowlingTeamId(innings);
   if (TEAM_NAME_BY_ID.has(teamId)) return TEAM_NAME_BY_ID.get(teamId);
 
-  return normaliseName(firstValue(innings, ["team_bowling_name", "bowling_team_name"], "Chelmsford CC"));
+  // Play-Cricket often does not expose the Chelmsford bowling team name in innings.bowl.
+  // The match was fetched through the specific Chelmsford team endpoint, so source_team is the best team label.
+  return normaliseName(match.source_team || firstValue(innings, ["team_bowling_name", "bowling_team_name"], "Chelmsford CC"));
 }
 
 async function fetchJson(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
-
-  if (!res.ok) {
-    throw new Error(`Fetch failed: ${res.status} ${url}`);
-  }
-
+  if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);
   return await res.json();
 }
 
@@ -193,7 +178,7 @@ async function fetchMatchDetail(matchId) {
 }
 
 function addBatting(battingMap, innings, match) {
-  const teamLabel = getBattingTeamLabel(innings);
+  const teamLabel = getBattingTeamLabel(innings, match);
 
   for (const bat of innings.bat || innings.batting || []) {
     const player = normaliseName(firstValue(bat, ["batsman_name", "player_name", "name"], ""));
@@ -203,8 +188,7 @@ function addBatting(battingMap, innings, match) {
     const balls = asNumber(firstValue(bat, ["balls", "balls_faced"], 0));
     const fours = asNumber(firstValue(bat, ["fours", "4s", "four"], 0));
     const sixes = asNumber(firstValue(bat, ["sixes", "6s", "six"], 0));
-    const howOut = firstValue(bat, ["how_out", "dismissal"], "");
-    const notOut = isNotOut(howOut);
+    const notOut = isNotOut(firstValue(bat, ["how_out", "dismissal"], ""));
 
     if (!battingMap.has(player)) {
       battingMap.set(player, {
@@ -244,7 +228,7 @@ function addBatting(battingMap, innings, match) {
 }
 
 function addBowling(bowlingMap, innings, match) {
-  const teamLabel = getBowlingTeamLabel(innings);
+  const teamLabel = getBowlingTeamLabel(innings, match);
 
   for (const bowl of innings.bowl || innings.bowling || []) {
     const player = normaliseName(firstValue(bowl, ["bowler_name", "player_name", "name"], ""));
@@ -289,10 +273,7 @@ function addBowling(bowlingMap, innings, match) {
     row.three_wickets += wickets >= 3 ? 1 : 0;
     row.five_wickets += wickets >= 5 ? 1 : 0;
 
-    if (
-      wickets > row.best_wickets ||
-      (wickets === row.best_wickets && wickets > 0 && runs < row.best_runs)
-    ) {
+    if (wickets > row.best_wickets || (wickets === row.best_wickets && wickets > 0 && runs < row.best_runs)) {
       row.best_wickets = wickets;
       row.best_runs = runs;
     }

@@ -12,6 +12,22 @@ const CLUB_MATCH_TEXT = "chelmsford";
 const OUTPUT_FILE = "data/cricket-club-statistics.json";
 const TOP_N = 20;
 
+const TEAMS = [
+  { name: "Sat 1st XI", id: 24293 },
+  { name: "Sat 2nd XI", id: 24294 },
+  { name: "Sat 3rd XI", id: 24295 },
+  { name: "Sat 4th XI", id: 30461 },
+  { name: "Sat 5th XI", id: 45348 },
+  { name: "Sat 6th XI", id: 105976 },
+  { name: "NECL 1st XI", id: 324716 },
+  { name: "Sun 1st XI", id: 30938 },
+  { name: "Twenty20", id: 133549 },
+  { name: "Womens 1st XI", id: 213007 }
+];
+
+const TEAM_IDS = new Set(TEAMS.map(team => String(team.id)));
+const TEAM_NAME_BY_ID = new Map(TEAMS.map(team => [String(team.id), team.name]));
+
 function asNumber(value, fallback = 0) {
   const n = Number(value);
   return Number.isFinite(n) ? n : fallback;
@@ -28,8 +44,31 @@ function firstValue(obj, keys, fallback = "") {
 
 function normaliseName(value) {
   return String(value || "")
+    .replace(/&amp;/g, "&")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function parseDMY(dmy) {
+  const match = String(dmy || "").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (!match) return null;
+
+  const day = Number(match[1]);
+  const month = Number(match[2]);
+  const year = Number(match[3]);
+
+  return new Date(year, month - 1, day);
+}
+
+function isOnOrBeforeToday(dmy) {
+  const matchDate = parseDMY(dmy);
+  if (!matchDate) return false;
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  matchDate.setHours(0, 0, 0, 0);
+
+  return matchDate <= today;
 }
 
 function parseOversToBalls(value) {
@@ -54,13 +93,45 @@ function isNotOut(howOut) {
   return text.includes("not out") || text === "no" || text === "retired not out";
 }
 
-function isChelmsfordInnings(innings) {
-  const teamName = String(firstValue(innings, ["team_batting_name", "batting_team_name", "team_name"], "")).toLowerCase();
-  return teamName.includes(CLUB_MATCH_TEXT);
+function inningsBattingTeamId(innings) {
+  return String(firstValue(innings, ["team_batting_id", "batting_team_id", "team_id"], ""));
 }
 
-function getTeamLabel(innings) {
-  return normaliseName(firstValue(innings, ["team_batting_name", "team_name"], "Chelmsford"));
+function inningsBowlingTeamId(innings) {
+  return String(firstValue(innings, ["team_bowling_id", "bowling_team_id"], ""));
+}
+
+function isChelmsfordBattingInnings(innings) {
+  const teamId = inningsBattingTeamId(innings);
+  const teamName = String(firstValue(innings, ["team_batting_name", "batting_team_name", "team_name"], "")).toLowerCase();
+
+  return TEAM_IDS.has(teamId) || teamName.includes(CLUB_MATCH_TEXT);
+}
+
+function isChelmsfordBowlingInnings(innings) {
+  const bowlingTeamId = inningsBowlingTeamId(innings);
+  const bowlingTeamName = String(firstValue(innings, ["team_bowling_name", "bowling_team_name"], "")).toLowerCase();
+
+  if (TEAM_IDS.has(bowlingTeamId) || bowlingTeamName.includes(CLUB_MATCH_TEXT)) {
+    return true;
+  }
+
+  // If the batting innings is not Chelmsford in a Chelmsford match, then Chelmsford are the bowling side.
+  return !isChelmsfordBattingInnings(innings);
+}
+
+function getBattingTeamLabel(innings) {
+  const teamId = inningsBattingTeamId(innings);
+  if (TEAM_NAME_BY_ID.has(teamId)) return TEAM_NAME_BY_ID.get(teamId);
+
+  return normaliseName(firstValue(innings, ["team_batting_name", "team_name"], "Chelmsford CC"));
+}
+
+function getBowlingTeamLabel(innings) {
+  const teamId = inningsBowlingTeamId(innings);
+  if (TEAM_NAME_BY_ID.has(teamId)) return TEAM_NAME_BY_ID.get(teamId);
+
+  return normaliseName(firstValue(innings, ["team_bowling_name", "bowling_team_name"], "Chelmsford CC"));
 }
 
 async function fetchJson(url) {
@@ -73,15 +144,42 @@ async function fetchJson(url) {
   return await res.json();
 }
 
-async function fetchMatches() {
+async function fetchMatchesForTeam(team) {
   const url =
     `https://play-cricket.com/api/v2/matches.json` +
     `?site_id=${encodeURIComponent(SITE_ID)}` +
     `&season=${encodeURIComponent(SEASON)}` +
+    `&team_id=${encodeURIComponent(team.id)}` +
     `&api_token=${encodeURIComponent(API_TOKEN)}`;
 
   const json = await fetchJson(url);
-  return json.matches || [];
+  return (json.matches || []).map(match => ({ ...match, source_team: team.name, source_team_id: team.id }));
+}
+
+async function fetchAllMatches() {
+  const allMatches = [];
+
+  for (const team of TEAMS) {
+    console.log(`Fetching matches for ${team.name}`);
+    const matches = await fetchMatchesForTeam(team);
+    allMatches.push(...matches);
+  }
+
+  const unique = new Map();
+
+  for (const match of allMatches) {
+    const matchId = String(firstValue(match, ["id", "match_id"], ""));
+    if (!matchId) continue;
+    if (!isOnOrBeforeToday(match.match_date)) continue;
+
+    unique.set(matchId, { ...match, id: matchId });
+  }
+
+  return [...unique.values()].sort((a, b) => {
+    const ad = parseDMY(a.match_date)?.getTime() || 0;
+    const bd = parseDMY(b.match_date)?.getTime() || 0;
+    return ad - bd;
+  });
 }
 
 async function fetchMatchDetail(matchId) {
@@ -91,13 +189,13 @@ async function fetchMatchDetail(matchId) {
     `&api_token=${encodeURIComponent(API_TOKEN)}`;
 
   const json = await fetchJson(url);
-  return json.match_details?.[0] || null;
+  return json.match_details?.[0] || json.match_detail?.[0] || json.match_details || null;
 }
 
 function addBatting(battingMap, innings, match) {
-  const teamLabel = getTeamLabel(innings);
+  const teamLabel = getBattingTeamLabel(innings);
 
-  for (const bat of innings.bat || []) {
+  for (const bat of innings.bat || innings.batting || []) {
     const player = normaliseName(firstValue(bat, ["batsman_name", "player_name", "name"], ""));
     if (!player) continue;
 
@@ -146,17 +244,9 @@ function addBatting(battingMap, innings, match) {
 }
 
 function addBowling(bowlingMap, innings, match) {
-  const bowlingTeamLabel = String(firstValue(innings, ["team_bowling_name", "bowling_team_name"], "Chelmsford"));
-  const battingTeamIsChelmsford = isChelmsfordInnings(innings);
+  const teamLabel = getBowlingTeamLabel(innings);
 
-  // Chelmsford bowling figures appear in the innings where the opposition is batting.
-  // Some Play-Cricket responses include team_bowling_name, some do not, so use both checks.
-  const bowlingTeamLooksChelmsford = bowlingTeamLabel.toLowerCase().includes(CLUB_MATCH_TEXT);
-  if (battingTeamIsChelmsford && !bowlingTeamLooksChelmsford) return;
-
-  const teamLabel = normaliseName(bowlingTeamLooksChelmsford ? bowlingTeamLabel : "Chelmsford CC");
-
-  for (const bowl of innings.bowl || []) {
+  for (const bowl of innings.bowl || innings.bowling || []) {
     const player = normaliseName(firstValue(bowl, ["bowler_name", "player_name", "name"], ""));
     if (!player) continue;
 
@@ -180,7 +270,7 @@ function addBowling(bowlingMap, innings, match) {
         wides: 0,
         no_balls: 0,
         best_wickets: 0,
-        best_runs: 0,
+        best_runs: 999999,
         three_wickets: 0,
         five_wickets: 0
       });
@@ -234,6 +324,7 @@ function finaliseBatting(battingMap) {
         hundreds: row.hundreds
       };
     })
+    .filter(row => row.innings > 0)
     .sort((a, b) => b.runs - a.runs || b.high_score - a.high_score || a.player.localeCompare(b.player))
     .slice(0, TOP_N);
 }
@@ -266,32 +357,40 @@ function finaliseBowling(bowlingMap) {
         five_wickets: row.five_wickets
       };
     })
-    .sort((a, b) => b.wickets - a.wickets || a.average - b.average || a.economy - b.economy || a.player.localeCompare(b.player))
+    .filter(row => row.innings > 0)
+    .sort((a, b) => b.wickets - a.wickets || b.innings - a.innings || a.player.localeCompare(b.player))
     .slice(0, TOP_N);
 }
 
-const matches = await fetchMatches();
-const completedMatches = matches
-  .filter(match => match.id && (match.result || match.result_description || match.result_locked === "true"));
-
-const uniqueMatches = [...new Map(completedMatches.map(match => [String(match.id), match])).values()];
+const uniqueMatches = await fetchAllMatches();
+console.log(`Found ${uniqueMatches.length} unique Chelmsford matches on or before today.`);
 
 const battingMap = new Map();
 const bowlingMap = new Map();
+let scorecardsProcessed = 0;
 
 for (const match of uniqueMatches) {
-  console.log(`Fetching scorecard for match ${match.id}`);
+  console.log(`Fetching scorecard for match ${match.id} (${match.match_date || "no date"})`);
 
   try {
     const detail = await fetchMatchDetail(match.id);
     if (!detail || !Array.isArray(detail.innings)) continue;
 
+    let processedThisMatch = false;
+
     for (const innings of detail.innings) {
-      if (isChelmsfordInnings(innings)) {
+      if (isChelmsfordBattingInnings(innings)) {
         addBatting(battingMap, innings, match);
+        processedThisMatch = true;
       }
-      addBowling(bowlingMap, innings, match);
+
+      if (isChelmsfordBowlingInnings(innings)) {
+        addBowling(bowlingMap, innings, match);
+        processedThisMatch = true;
+      }
     }
+
+    if (processedThisMatch) scorecardsProcessed += 1;
   } catch (err) {
     console.error(`Failed to process match ${match.id}`, err);
   }
@@ -302,6 +401,7 @@ const output = {
   season: SEASON,
   generated_at: new Date().toISOString(),
   match_count: uniqueMatches.length,
+  scorecards_processed: scorecardsProcessed,
   batting: finaliseBatting(battingMap),
   bowling: finaliseBowling(bowlingMap)
 };
@@ -310,3 +410,4 @@ await fs.mkdir("data", { recursive: true });
 await fs.writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2), "utf8");
 
 console.log(`Club statistics updated: ${OUTPUT_FILE}`);
+console.log(`Batters: ${output.batting.length}, bowlers: ${output.bowling.length}`);

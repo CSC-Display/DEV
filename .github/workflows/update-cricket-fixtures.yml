@@ -32,4 +32,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/cricket-fixtures.json
           git diff --cached --quiet || git commit -m "Update cricket fixtures"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

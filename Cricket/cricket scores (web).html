@@ -1,0 +1,742 @@
+<!doctype html><!doctype html="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chelmsford CC – This Week’s Results (2026)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --green:#1f6b3a;
+      --green-dark:#16522c;
+      --green-soft:#e3f2e7;
+      --win:#1f6b3a;      /* dark green */
+      --lost:#f3c6c6;     /* light red */
+      --tied:#f6e0b4;     /* light orange */
+      --other:#dff2e6;    /* light green */
+      --bg:#f2f4f1;
+      --card:#ffffff;
+      --border:#d8ddd6;
+      --muted:#7f887f;
+      --ink:#1a1a1a;
+
+      /* Measured in JS; fallbacks are deliberately compact */
+      --header-h: clamp(58px, 7vh, 84px);
+      --footer-h: clamp(30px, 3.8vh, 48px);
+
+      /* Autoscaling layout controls */
+      --page-pad: clamp(6px, 0.8vw, 14px);
+      --grid-gap: clamp(6px, 0.7vw, 14px);
+      --card-min-width: clamp(280px, 18vw, 380px);
+      --card-min-height: clamp(210px, 40vh, 390px);
+
+      /* Autoscaling type controls */
+      --header-title: clamp(18px, 1.35vw, 28px);
+      --header-small: clamp(11px, 0.8vw, 16px);
+      --card-status: clamp(15px, 1.1vw, 24px);
+      --card-summary: clamp(15px, 1.1vw, 24px);
+      --team-name: clamp(14px, 1.05vw, 22px);
+      --score-text: clamp(14px, 1.0vw, 22px);
+      --perf-text: clamp(12px, 0.9vw, 18px);
+      --meta-text: clamp(10px, 0.75vw, 14px);
+    }
+
+    *{ box-sizing:border-box; }
+
+    html,
+    body{
+      height:100vh;
+      width:100vw;
+      margin:0;
+      overflow:hidden;
+      background:var(--bg);
+    }
+
+    body{
+      font-family:"Segoe UI", system-ui, sans-serif;
+      color:var(--ink);
+    }
+
+    /* ---------- HEADER: fixed, but scales with screen size ---------- */
+    header{
+      background:var(--green);
+      color:#fff;
+      padding:clamp(7px, 0.8vh, 12px) clamp(12px, 1.2vw, 24px);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:clamp(8px, 0.8vw, 16px);
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      z-index:50;
+      min-height:0;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:clamp(8px, 0.8vw, 16px);
+      min-width:0;
+    }
+
+    .brand img{
+      width:clamp(38px, 3.1vw, 58px);
+      height:clamp(38px, 3.1vw, 58px);
+      object-fit:contain;
+      background:rgba(255,255,255,.12);
+      border-radius:12px;
+      padding:clamp(4px, 0.35vw, 6px);
+      flex-shrink:0;
+    }
+
+    header h1{
+      margin:0;
+      letter-spacing:clamp(1px, 0.18vw, 4px);
+      font-size:var(--header-title);
+      line-height:1.05;
+      white-space:nowrap;
+      text-transform:uppercase;
+    }
+
+    header .season{
+      font-size:clamp(16px, 1.2vw, 24px);
+      opacity:.95;
+      text-align:right;
+      white-space:nowrap;
+    }
+
+    header .small{
+      font-size:var(--header-small);
+      color:#fff;
+      white-space:nowrap;
+      margin-top:2px;
+    }
+
+    /* ---------- MAIN: auto-fit boxes; scrolls rather than compressing ---------- */
+    main{
+      position:fixed;
+      top:var(--header-h);
+      bottom:var(--footer-h);
+      left:0;
+      right:0;
+      overflow:auto;
+      padding:var(--page-pad);
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+      grid-auto-rows:minmax(var(--card-min-height), auto);
+      gap:var(--grid-gap);
+      align-content:start;
+    }
+
+    .match{
+      border:2px solid var(--border);
+      border-radius:14px;
+      background:var(--card);
+      display:flex;
+      flex-direction:column;
+      overflow:hidden;
+      min-height:var(--card-min-height);
+      box-shadow:0 2px 8px rgba(0,0,0,.05);
+    }
+
+    .match-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:clamp(6px, 0.5vw, 10px);
+      padding:clamp(6px, 0.7vh, 10px) clamp(8px, 0.7vw, 12px);
+      background:var(--other);
+      flex-shrink:0;
+      min-height:clamp(34px, 4vh, 48px);
+    }
+
+    .match-header.win{ background:var(--win); color:#fff; }
+    .match-header.lost{ background:var(--lost); color:#391a1a; }
+    .match-header.tied{ background:var(--tied); color:#3a2a10; }
+    .match-header.other{ background:var(--other); color:#16331f; }
+
+    .status{
+      background:rgba(0,0,0,.14);
+      color:inherit;
+      padding:clamp(2px, 0.35vh, 4px) clamp(6px, 0.5vw, 10px);
+      border-radius:8px;
+      font-size:var(--card-status);
+      font-weight:800;
+      letter-spacing:.3px;
+      white-space:nowrap;
+      flex-shrink:0;
+    }
+
+    .match-header.win .status{
+      background:rgba(255,255,255,.22);
+    }
+
+    .summary{
+      font-size:var(--card-summary);
+      font-weight:900;
+      letter-spacing:.5px;
+      text-transform:uppercase;
+      opacity:.95;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      min-width:0;
+    }
+
+    .teams{
+      padding:clamp(6px, 0.75vh, 12px) clamp(8px, 0.75vw, 14px);
+      min-height:0;
+      overflow:auto; /* never hides match details on smaller screens */
+      display:flex;
+      flex-direction:column;
+      flex:1;
+    }
+
+    .team{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      align-items:flex-start;
+      padding:clamp(4px, 0.6vh, 8px) 0;
+      border-top:1px solid var(--border);
+      min-height:0;
+      gap:2px 6px;
+    }
+
+    .team:first-child{ border-top:none; }
+
+    .team-name{
+      font-weight:700;
+      font-size:var(--team-name);
+      flex:1 1 55%;
+      min-width:0;
+      padding-right:8px;
+      line-height:1.15;
+      overflow:visible;
+      overflow-wrap:anywhere;
+      word-break:normal;
+    }
+
+    .scoreblock{
+      text-align:right;
+      min-width:clamp(86px, 6.6vw, 132px);
+      line-height:1.1;
+      flex-shrink:0;
+    }
+
+    .score{
+      font-weight:600;
+      font-size:var(--score-text);
+      white-space:nowrap;
+    }
+
+    .overs{
+      font-weight:500;
+      font-size:var(--score-text);
+      color:var(--muted);
+      margin-top:2px;
+      white-space:nowrap;
+    }
+
+    .perf-list{
+      width:100%;
+      margin-top:3px;
+      font-size:var(--perf-text);
+      color:#444;
+      font-weight:500;
+      overflow:visible;
+    }
+
+    .perf-item{
+      display:block;
+      line-height:1.2;
+      white-space:normal;
+      overflow-wrap:anywhere;
+    }
+
+    .meta{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      margin-top:auto;
+      padding-top:clamp(5px, 0.6vh, 8px);
+      border-top:1px dashed var(--border);
+      color:var(--muted);
+      font-size:var(--meta-text);
+      line-height:1.15;
+      flex-shrink:0;
+    }
+
+    .meta span{
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      min-width:0;
+    }
+
+    .muted{
+      color:var(--muted);
+      font-weight:600;
+      font-size:var(--team-name);
+      overflow-wrap:anywhere;
+    }
+
+    /* ---------- FOOTER: fixed and compact, scales slightly ---------- */
+    .footer{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      height:var(--footer-h);
+      background:#eef2ec;
+      border-top:2px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 clamp(10px, 1vw, 18px);
+      font-size:clamp(10px, 0.75vw, 13px);
+      color:#4a514a;
+      z-index:50;
+      gap:8px;
+    }
+
+    .footer .left{
+      display:flex;
+      gap:clamp(6px, 0.6vw, 10px);
+      align-items:center;
+      min-width:0;
+      overflow:hidden;
+    }
+
+    .pill{
+      background:#fff;
+      border:1px solid var(--border);
+      padding:clamp(3px, 0.4vh, 6px) clamp(7px, 0.6vw, 10px);
+      border-radius:999px;
+      font-size:clamp(10px, 0.75vw, 13px);
+      white-space:nowrap;
+    }
+
+    .small_footer{
+      font-size:clamp(10px, 0.7vw, 12px);
+      color:var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .skeleton{
+      background:linear-gradient(90deg, #f1f3f0, #e7ebe6, #f1f3f0);
+      background-size:200% 100%;
+      animation:shimmer 1.1s infinite;
+      border-radius:10px;
+      height:14px;
+      width:70%;
+    }
+
+    @keyframes shimmer{
+      0%{ background-position:200% 0; }
+      100%{ background-position:-200% 0; }
+    }
+
+    /* Large landscape screens: keep a dashboard-style 5x2 layout where it fits */
+    @media (min-width:1700px) and (min-height:900px){
+      :root{
+        --card-min-width:320px;
+        --card-min-height:calc((100vh - var(--header-h) - var(--footer-h) - (2 * var(--page-pad)) - var(--grid-gap)) / 2);
+      }
+      main{
+        grid-template-columns:repeat(5, minmax(0, 1fr));
+        grid-auto-rows:minmax(var(--card-min-height), auto);
+      }
+    }
+
+    /* Medium screens: fewer columns, bigger boxes, page scrolls */
+    @media (max-width:1400px){
+      :root{
+        --card-min-width:300px;
+        --card-min-height:230px;
+      }
+      main{
+        grid-template-columns:repeat(auto-fit, minmax(var(--card-min-width), 1fr));
+      }
+    }
+
+    /* Small screens: single column, natural document scrolling */
+    @media (max-width:700px){
+      html, body{
+        overflow:auto;
+        height:auto;
+        min-height:100vh;
+      }
+
+      header{
+        align-items:flex-start;
+        flex-direction:column;
+        position:relative;
+      }
+
+      header h1{
+        white-space:normal;
+      }
+
+      .footer{
+        position:relative;
+        height:auto;
+        min-height:var(--footer-h);
+        flex-wrap:wrap;
+        padding:6px 10px;
+      }
+
+      main{
+        position:relative;
+        top:auto;
+        bottom:auto;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-auto-rows:minmax(230px, auto);
+        overflow:visible;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <!-- Club badge (public URL). You can replace with a local file if preferred. -->
+    <img
+      src="https://img-res.pitchero.com/?url=images.pitchero.com%2Fclub_logos%2F78190%2FV4VHWNHTvWksHRqonMJ9_Website%20logo%20no%20bg2.png&bg=null&h=180&w=180&t=square&q=null"
+      alt="Chelmsford Cricket Club badge"
+    />
+    <div>
+      <h1>THIS WEEK’S RESULTS</h1>
+      <div class="small">Chelmsford Cricket Club</div>
+    </div>
+  </div>
+  <h1>SEASON 2026</h1>
+</header>
+
+<main id="grid"></main>
+
+<footer class="footer">
+  <div class="left">
+    <span class="pill">Refresh in <strong id="countdown">300</strong>s</span>
+    <span class="small_footer" id="lastRefreshed">Last refreshed: —</span>
+  </div>
+  <div class="right">
+    <span class="pill" id="clock">—</span>
+  </div>
+</footer>
+
+<script>
+  // ------------------------
+  // Layout sync (FIX)
+  // Measures actual header/footer heights and sets CSS vars so main sits correctly.
+  // ------------------------
+  function syncFixedLayoutHeights(){
+    const h = document.querySelector("header");
+    const f = document.querySelector("footer.footer");
+    if (h) document.documentElement.style.setProperty("--header-h", h.offsetHeight + "px");
+    if (f) document.documentElement.style.setProperty("--footer-h", f.offsetHeight + "px");
+  }
+  window.addEventListener("resize", syncFixedLayoutHeights);
+  window.addEventListener("load", syncFixedLayoutHeights);
+
+  // ========================
+  // CONFIG
+  // ========================
+  const SITE_ID = 1786;
+  const SEASON = "2026";
+  const DATA_URL = "../data/cricket-scores.json";
+
+  // Chelmsford teams
+  const TEAMS = [
+    { name:"Sat 1st XI", id:24293 },
+    { name:"Sat 2nd XI", id:24294 },
+    { name:"Sat 3rd XI", id:24295 },
+    { name:"Sat 4th XI", id:30461 },
+    { name:"Sat 5th XI", id:45348 },
+    { name:"Sat 6th XI", id:105976 },
+    { name:"NECL 1st XI", id:324716 },
+    { name:"Sun 1st XI", id:30938 },
+    { name:"Twenty20", id:133549 },
+    { name:"Womens 1st XI", id:213007 }
+  ];
+
+  const REFRESH_SECONDS = 300;
+
+  // ========================
+  // HELPERS (existing)
+  // ========================
+  function pad2(n){ return String(n).padStart(2, "0"); }
+  function nowLocalString(){
+    const d = new Date();
+    const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return `${days[d.getDay()]} ${d.getDate()} ${months[d.getMonth()]} ${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`;
+  }
+  function parseDMY(dmy){
+    const m = String(dmy || "").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    if (!m) return 0;
+    const dd = +m[1], mm = +m[2], yyyy = +m[3];
+    return new Date(yyyy, mm-1, dd).getTime();
+  }
+  function safeText(x){
+    return (x === null || x === undefined || x === "") ? "—" : String(x);
+  }
+  // Remove a leading "Chelmsford CC" or "Chelmsford Cricket Club" prefix from a label (case-insensitive).
+  function stripChelmsfordPrefix(label){
+    return String(label || "")
+      .replace(/^\s*Chelmsford\s+(?:CC|Cricket\s+Club)\s*/i, "")
+      .trim();
+  }
+  function pickList(json){
+    return json?.result_summary || [];
+  }
+  function pickLatest(list){
+    return (list || []).slice().sort((a,b) => {
+      const ad = parseDMY(a.match_date) || parseDMY(a.last_updated) || 0;
+      const bd = parseDMY(b.match_date) || parseDMY(b.last_updated) || 0;
+      if (bd !== ad) return bd - ad;
+      return (b.id || 0) - (a.id || 0);
+    })[0] || null;
+  }
+  function isLive(match){
+    const hasInningsRuns = (match.innings || []).some(i => i && i.runs !== "");
+    const hasResult = (match.result_description && match.result_description !== "") || (match.result && match.result !== "");
+    return hasInningsRuns && match.result_locked !== "true" && !hasResult;
+  }
+  function statusLabel(match){
+    if (!match) return "Awaiting";
+    if (isLive(match)) return "Live";
+    const hasResult = (match.result_description && match.result_description !== "") || (match.result && match.result !== "");
+    if (match.result_locked === "true" || hasResult) return "Result";
+    return "Awaiting";
+  }
+  function outcomeForChelmsford(match, chelmsfordTeamId){
+    if (!match) return { tag:"", cls:"other" };
+    const code = match.result;
+    const winner = String(match.result_applied_to || "");
+    const chel = String(chelmsfordTeamId);
+    if (code === "W" && winner){
+      if (winner === chel) return { tag:"WON", cls:"win" };
+      return { tag:"LOST", cls:"lost" };
+    }
+    if (code === "L") return { tag:"LOST", cls:"lost" };
+    if (code === "T") return { tag:"TIED", cls:"tied" };
+    if (code === "D") return { tag:"DRAWN", cls:"tied" };
+    if (code === "C") return { tag:"CANCELLED", cls:"other" };
+    if (code === "A") return { tag:"ABANDONED", cls:"other" };
+    if (code === "N") return { tag:"NO RESULT", cls:"other" };
+    const desc = (match.result_description || "").toLowerCase();
+    if (desc.includes("won") && desc.includes("chelmsford")) return { tag:"WON", cls:"win" };
+    if (desc.includes("won")) return { tag:"LOST", cls:"lost" };
+    return { tag:"", cls:"other" };
+  }
+  function scoreParts(match, teamId){
+    const inn = (match.innings || []).find(i => String(i.team_batting_id) === String(teamId));
+    if (!inn || inn.runs === "" || inn.wickets === "") return { score:"—", overs:"" };
+    const overs = inn.overs ? `${inn.overs} ov` : "";
+    return { score: `${inn.runs}/${inn.wickets}`, overs };
+  }
+  // Simple HTML escape for inserted text
+  function escapeHtml(str){
+    return String(str).replace(/[&<>"']/g, ch => ({
+      "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+    }[ch]));
+  }
+
+  // ========================
+  // UI rendering
+  // ========================
+  function renderSkeletonCard(teamName){
+    return `
+      <div class="match">
+        <div class="match-header other">
+          <span class="status">Loading</span>
+          <span class="summary"></span>
+        </div>
+        <div class="teams">
+          <div class="skeleton"></div>
+          <div style="height:10px"></div>
+          <div class="skeleton" style="width:90%"></div>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderCard(team, match, perf){
+    if (!match){
+      return `
+        <div class="match">
+          <div class="match-header other">
+            <span class="status">Awaiting</span>
+            <span class="summary"></span>
+          </div>
+          <div class="teams">
+            <div class="muted">${team.name} – No recent match</div>
+          </div>
+        </div>
+      `;
+    }
+
+    const state = statusLabel(match);
+    const out = outcomeForChelmsford(match, team.id);
+    const homeScore = scoreParts(match, match.home_team_id);
+    const awayScore = scoreParts(match, match.away_team_id);
+
+    // Identify which side is Chelmsford
+    const chelIsHome = String(match.home_team_id) === String(team.id);
+
+    // Chelmsford display name (strip club prefix home/away)
+    const chelName = stripChelmsfordPrefix(
+      safeText(chelIsHome ? match.home_team_name : match.away_team_name)
+    );
+
+    const oppName = chelIsHome
+      ? `${safeText(match.away_club_name)} ${safeText(match.away_team_name)}`
+      : `${safeText(match.home_club_name)} ${safeText(match.home_team_name)}`;
+
+    const chelScore = chelIsHome ? homeScore : awayScore;
+    const oppScore = chelIsHome ? awayScore : homeScore;
+
+    const runs = (perf && perf.runs) ? perf.runs : [];
+    const wickets = (perf && perf.wickets) ? perf.wickets : [];
+
+    const runHtml = runs.map(r =>
+      `<span class="perf-item">${escapeHtml(r.name)} ${r.score}${r.notOut ? '*' : ''}</span>`
+    ).join('');
+
+    const wickHtml = wickets.map(w =>
+      `<span class="perf-item">${escapeHtml(w.name)} ${w.w}-${w.r}</span>`
+    ).join('');
+
+    return `
+      <div class="match">
+        <div class="match-header ${out.cls}">
+          <span class="status">${state}</span>
+          <span class="summary">${out.tag}</span>
+        </div>
+        <div class="teams">
+          <div class="team">
+            <div class="team-name">${escapeHtml(chelName)}</div>
+            <div class="scoreblock">
+              <div class="score">${escapeHtml(chelScore.score)}</div>
+              <div class="overs">${escapeHtml(chelScore.overs || "\u00A0")}</div>
+            </div>
+            <div class="perf-list">${runHtml}</div>
+          </div>
+
+          <div class="team">
+            <div class="team-name">${escapeHtml(oppName)}</div>
+            <div class="scoreblock">
+              <div class="score">${escapeHtml(oppScore.score)}</div>
+              <div class="overs">${escapeHtml(oppScore.overs || "\u00A0")}</div>
+            </div>
+            <div class="perf-list">${wickHtml}</div>
+          </div>
+
+          <div class="meta">
+            <span>${safeText(match.match_date)}</span>
+            <span>${safeText(match.competition_name || "Friendly")}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  // ========================
+  // REFRESH + CLOCK
+  // ========================
+  let countdown = REFRESH_SECONDS;
+  let refreshTimer = null;
+  let clockTimer = null;
+
+  function startClock(){
+    const clockEl = document.getElementById("clock");
+    clockTimer = setInterval(() => {
+      clockEl.textContent = nowLocalString();
+    }, 1000);
+    clockEl.textContent = nowLocalString();
+  }
+
+  function startCountdown(){
+    const cdEl = document.getElementById("countdown");
+    const lastEl = document.getElementById("lastRefreshed");
+
+    if (refreshTimer) clearInterval(refreshTimer);
+
+    refreshTimer = setInterval(async () => {
+      countdown -= 1;
+      if (countdown <= 0){
+        cdEl.textContent = "0";
+        await loadAndRender();
+        lastEl.textContent = `Last refreshed: ${nowLocalString()}`;
+        countdown = REFRESH_SECONDS;
+      }
+      cdEl.textContent = String(countdown);
+    }, 1000);
+
+    cdEl.textContent = String(countdown);
+    lastEl.textContent = `Last refreshed: ${nowLocalString()}`;
+  }
+
+async function loadScoresData() {
+  const res = await fetch(`${DATA_URL}?v=${Date.now()}`, {
+    cache: "no-store"
+  });
+
+  if (!res.ok) {
+    throw new Error(`Could not load ${DATA_URL}. HTTP status ${res.status}`);
+  }
+
+  return await res.json();
+}
+
+async function loadAndRender() {
+  const grid = document.getElementById("grid");
+
+  grid.innerHTML = TEAMS.map(t => renderSkeletonCard(t.name)).join("");
+
+  try {
+    const results = await loadScoresData();
+
+    grid.innerHTML = results
+      .map(x => renderCard(x.team, x.match, x.perf))
+      .join("");
+
+  } catch (e) {
+    console.error(e);
+
+    grid.innerHTML = TEAMS.map(t => `
+      <div class="match">
+        <div class="match-header other">
+          <span class="status">Error</span>
+          <span class="summary"></span>
+        </div>
+        <div class="teams">
+          <div class="muted">${escapeHtml(t.name)} – Could not load scores JSON</div>
+        </div>
+      </div>
+    `).join("");
+  }
+}
+  // ========================
+  // INIT
+  // ========================
+  (async function init(){
+    // Ensure layout vars are correct before first render
+    syncFixedLayoutHeights();
+
+    await loadAndRender();
+
+    // Re-sync once content/fonts have settled (important on TVs)
+    setTimeout(syncFixedLayoutHeights, 50);
+
+    startClock();
+    startCountdown();
+  })();
+</script>
+</body>
+</html>

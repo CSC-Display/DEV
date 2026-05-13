@@ -26,10 +26,11 @@ jobs:
         env:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
 
-      - name: Commit updated league table JSON
+      - name: Commit updated JSON
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/cricket-league-tables-3.json
-          git diff --cached --quiet || git commit -m "Update league tables"
-          git push
+          git diff --cached --quiet || git commit -m "Update league tables 3"
+          git pull --rebase origin main
+          git push origin HEAD:main

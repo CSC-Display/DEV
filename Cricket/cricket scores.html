@@ -319,7 +319,7 @@
   // ========================
   const SITE_ID = 1786;
   const SEASON = "2026";
-  const API_TOKEN = "8786d7c44061b7d624367d32177420e0"; // <-- put your token here
+  const DATA_URL = "../data/cricket-scores.json";
 
   // Chelmsford teams
   const TEAMS = [
@@ -518,68 +518,6 @@
   }
 
   // ========================
-  // API calls
-  // ========================
-  async function fetchMatchDetails(matchId) {
-    const url = `https://play-cricket.com/api/v2/match_detail.json?match_id=${matchId}&api_token=${API_TOKEN}`;
-    const perf = { runs: [], wickets: [] };
-
-    try {
-      const res = await fetch(url);
-      const json = await res.json();
-      const details = json.match_details?.[0];
-      if (!details || !details.innings) return perf;
-
-      details.innings.forEach(inn => {
-        if (inn.team_batting_name && inn.team_batting_name.includes("Chelmsford")) {
-          if (inn.bat) {
-            inn.bat.forEach(b => {
-              const r = parseInt(b.runs);
-              if (!isNaN(r) && r >= 50) {
-                const isNotOut = b.how_out && b.how_out.toLowerCase().includes("not out");
-                perf.runs.push({
-                  name: b.batsman_name,
-                  score: r,
-                  notOut: isNotOut
-                });
-              }
-            });
-          }
-        } else {
-          if (inn.bowl) {
-            inn.bowl.forEach(bw => {
-              const w = parseInt(bw.wickets);
-              if (!isNaN(w) && w >= 3) {
-                perf.wickets.push({ name: bw.bowler_name, w: w, r: bw.runs });
-              }
-            });
-          }
-        }
-      });
-    } catch (e) {
-      console.error("Detail fetch failed", e);
-    }
-
-    return perf;
-  }
-
-  async function fetchLatestForTeam(teamId){
-    const url =
-      `https://play-cricket.com/api/v2/result_summary.json` +
-      `?site_id=${encodeURIComponent(SITE_ID)}` +
-      `&season=${encodeURIComponent(SEASON)}` +
-      `&team_id=${encodeURIComponent(teamId)}` +
-      `&api_token=${encodeURIComponent(API_TOKEN)}`;
-
-    const res = await fetch(url, { headers: { "Accept": "application/json" } });
-    if (!res.ok) return null;
-
-    const json = await res.json();
-    const list = pickList(json);
-    return pickLatest(list);
-  }
-
-  // ========================
   // REFRESH + CLOCK
   // ========================
   let countdown = REFRESH_SECONDS;
@@ -615,47 +553,52 @@
     lastEl.textContent = `Last refreshed: ${nowLocalString()}`;
   }
 
-  async function loadAndRender(){
-    const grid = document.getElementById("grid");
-    grid.innerHTML = TEAMS.map(t => renderSkeletonCard(t.name)).join("");
+async function loadScoresData() {
+  const res = await fetch(`${DATA_URL}?v=${Date.now()}`, {
+    cache: "no-store"
+  });
 
-    const results = await Promise.all(TEAMS.map(async (t) => {
-      const match = await fetchLatestForTeam(t.id);
-      let perf = { runs: [], wickets: [] };
-      if (match && match.id) {
-        perf = await fetchMatchDetails(match.id, t.id);
-      }
-      return { team: t, match, perf };
-    }));
-
-    grid.innerHTML = results.map(x => renderCard(x.team, x.match, x.perf)).join("");
+  if (!res.ok) {
+    throw new Error(`Could not load ${DATA_URL}. HTTP status ${res.status}`);
   }
 
+  return await res.json();
+}
+
+async function loadAndRender() {
+  const grid = document.getElementById("grid");
+
+  grid.innerHTML = TEAMS.map(t => renderSkeletonCard(t.name)).join("");
+
+  try {
+    const results = await loadScoresData();
+
+    grid.innerHTML = results
+      .map(x => renderCard(x.team, x.match, x.perf))
+      .join("");
+
+  } catch (e) {
+    console.error(e);
+
+    grid.innerHTML = TEAMS.map(t => `
+      <div class="match">
+        <div class="match-header other">
+          <span class="status">Error</span>
+          <span class="summary"></span>
+        </div>
+        <div class="teams">
+          <div class="muted">${escapeHtml(t.name)} – Could not load scores JSON</div>
+        </div>
+      </div>
+    `).join("");
+  }
+}
   // ========================
   // INIT
   // ========================
   (async function init(){
     // Ensure layout vars are correct before first render
     syncFixedLayoutHeights();
-
-    if (!API_TOKEN || API_TOKEN === "REPLACE_WITH_YOUR_API_TOKEN"){
-      document.getElementById("grid").innerHTML =
-        TEAMS.map(t => `
-          <div class="match">
-            <div class="match-header other">
-              <span class="status">Awaiting</span>
-              <span class="summary"></span>
-            </div>
-            <div class="teams">
-              <div class="muted">${t.name} – Add API token in code</div>
-            </div>
-          </div>
-        `).join("");
-
-      startClock();
-      startCountdown();
-      return;
-    }
 
     await loadAndRender();
 

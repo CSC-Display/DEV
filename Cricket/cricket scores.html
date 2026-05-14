@@ -267,6 +267,11 @@
       padding-top:12px;
     }
 
+    /* Let the body of each match card expand so the form footer is pushed to the bottom */
+    .teams{
+      flex:1 1 auto;
+    }
+
     /* ---------- MATCH FOOTER: mirrors match header and holds the form guide ---------- */
     .match-footer{
       display:flex;
@@ -280,6 +285,7 @@
       min-height:42px;
       border-top:2px solid var(--border);
       text-align:center;
+      margin-top:auto; /* anchor to the bottom of the match box */
     }
 
     .form-guide{

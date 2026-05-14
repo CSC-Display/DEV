@@ -1,4 +1,5 @@
-<!doctype html><!doctype html="en">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Chelmsford CC – This Week’s Results (2026)</title>
@@ -255,6 +256,82 @@
       white-space:nowrap;
     }
 
+
+    /* Larger vertical spacing requested:
+       - Bigger gap between Chelmsford and opposition
+       - Bigger gap between opposition and match metadata
+       - Separate form guide with a strong divider line */
+    .team.opposition{
+      margin-top:24px;
+    }
+
+    .meta{
+      margin-top:24px;
+      padding-top:12px;
+    }
+
+    .form-guide{
+      margin-top:20px;
+      padding-top:12px;
+      border-top:2px solid var(--border);
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-shrink:0;
+      font-size:16px;
+      font-weight:800;
+      color:#263126;
+    }
+
+    .form-label{
+      white-space:nowrap;
+    }
+
+    .form-dots{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      min-width:0;
+    }
+
+    .form-dot{
+      width:26px;
+      height:26px;
+      border-radius:50%;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border:2px solid transparent;
+      font-size:14px;
+      line-height:1;
+      font-weight:900;
+      flex:0 0 auto;
+    }
+
+    .form-dot.win{
+      background:#1f8f45;
+      color:#fff;
+      border-color:#1f8f45;
+    }
+
+    .form-dot.loss{
+      background:#d93025;
+      color:#fff;
+      border-color:#d93025;
+    }
+
+    .form-dot.other{
+      background:#ffd84d;
+      color:#1a1a1a;
+      border-color:#e0bd2f;
+    }
+
+    .form-dot.none{
+      background:#fff;
+      color:#fff;
+      border-color:#000;
+    }
+
     .muted{
       color:var(--muted);
       font-weight:600;
@@ -499,6 +576,126 @@
     }[ch]));
   }
 
+
+
+  // ========================
+  // FORM GUIDE HELPERS
+  // ========================
+  function dateValueForMatch(match){
+    if (!match) return 0;
+    return parseDMY(match.match_date) || parseDMY(match.last_updated) || 0;
+  }
+
+  function isCompletedForForm(match){
+    if (!match) return false;
+    const code = String(match.result || "").trim();
+    const desc = String(match.result_description || "").trim();
+    return Boolean(code || desc || match.result_locked === "true");
+  }
+
+  function normaliseFormCode(item, chelmsfordTeamId){
+    if (!item) return "none";
+
+    // Supports either full Play-Cricket match objects or simple values such as "W", "L", "D".
+    if (typeof item === "string"){
+      const code = item.trim().toUpperCase();
+      if (code === "W") return "win";
+      if (code === "L") return "loss";
+      if (["D", "T", "C", "A", "N"].includes(code)) return "other";
+      return "none";
+    }
+
+    const code = String(item.result || item.outcome || item.form || "").trim().toUpperCase();
+    const winner = String(item.result_applied_to || item.winner_team_id || "").trim();
+    const chel = String(chelmsfordTeamId);
+    const desc = String(item.result_description || "").toLowerCase();
+
+    if (code === "W"){
+      if (winner) return winner === chel ? "win" : "loss";
+      if (desc.includes("chelmsford") && desc.includes("won")) return "win";
+      return "win";
+    }
+
+    if (code === "L") return "loss";
+    if (["D", "T", "C", "A", "N"].includes(code)) return "other";
+
+    // Fallback for completed matches where only result_description is populated.
+    if (desc.includes("chelmsford") && desc.includes("won")) return "win";
+    if (desc.includes("won")) return "loss";
+    if (desc.includes("draw") || desc.includes("tie") || desc.includes("cancel") || desc.includes("abandon") || desc.includes("no result")) return "other";
+
+    return "other";
+  }
+
+  function getFormItems(source, currentMatch){
+    if (!source) source = {};
+
+    // Accept several likely property names so this works with either a richer JSON file
+    // or a simple existing file. Best option: have the JSON generator pass a form array
+    // containing the team's most recent completed matches.
+    const possibleArrays = [
+      source.form,
+      source.formGuide,
+      source.form_guide,
+      source.matches,
+      source.recentMatches,
+      source.recent_matches,
+      source.results,
+      source.result_summary
+    ];
+
+    let items = [];
+    for (const arr of possibleArrays){
+      if (Array.isArray(arr) && arr.length){
+        items = arr.slice();
+        break;
+      }
+    }
+
+    // If the JSON does not yet include history, use the current/latest match only.
+    // The display will still show five circles, with missing older matches shown as blanks.
+    if (!items.length && currentMatch) items = [currentMatch];
+
+    const areObjects = items.some(x => x && typeof x === "object" && !Array.isArray(x));
+
+    if (areObjects){
+      items = items
+        .filter(isCompletedForForm)
+        .sort((a,b) => {
+          const bd = dateValueForMatch(b);
+          const ad = dateValueForMatch(a);
+          if (bd !== ad) return bd - ad;
+          return (Number(b.id) || 0) - (Number(a.id) || 0);
+        })
+        .slice(0,5)
+        .reverse(); // oldest to most recent
+    } else {
+      // Assume any simple W/L/D/T/C/A values are already oldest-to-newest;
+      // keep the most recent five if more have been supplied.
+      items = items.slice(-5);
+    }
+
+    while (items.length < 5) items.unshift(null);
+    return items;
+  }
+
+  function renderFormGuide(teamId, source, currentMatch){
+    const items = getFormItems(source, currentMatch);
+    const dots = items.map(item => {
+      const cls = normaliseFormCode(item, teamId);
+      const letter = cls === "win" ? "W" : (cls === "loss" ? "L" : "");
+      const label = cls === "win" ? "Win" : (cls === "loss" ? "Loss" : (cls === "other" ? "Drawn, tied, cancelled, abandoned or no result" : "No match"));
+      return `<span class="form-dot ${cls}" title="${label}" aria-label="${label}">${letter}</span>`;
+    }).join("");
+
+    return `
+      <div class="form-guide" aria-label="Recent form guide, oldest to most recent">
+        <span class="form-label">Form:</span>
+        <span class="form-dots">${dots}</span>
+      </div>
+    `;
+  }
+
   // ========================
   // UI rendering
   // ========================
@@ -518,7 +715,9 @@
     `;
   }
 
-  function renderCard(team, match, perf){
+  function renderCard(team, match, perf, source){
+    const formHtml = renderFormGuide(team.id, source, match);
+
     if (!match){
       return `
         <div class="match">
@@ -528,6 +727,7 @@
           </div>
           <div class="teams">
             <div class="muted">${team.name} – No recent match</div>
+            ${formHtml}
           </div>
         </div>
       `;
@@ -570,8 +770,9 @@
           <span class="status">${state}</span>
           <span class="summary">${out.tag}</span>
         </div>
+
         <div class="teams">
-          <div class="team">
+          <div class="team chelmsford">
             <div class="team-name">${escapeHtml(chelName)}</div>
             <div class="scoreblock">
               <div class="score">${escapeHtml(chelScore.score)}</div>
@@ -580,7 +781,7 @@
             <div class="perf-list">${runHtml}</div>
           </div>
 
-          <div class="team">
+          <div class="team opposition">
             <div class="team-name">${escapeHtml(oppName)}</div>
             <div class="scoreblock">
               <div class="score">${escapeHtml(oppScore.score)}</div>
@@ -593,6 +794,8 @@
             <span>${safeText(match.match_date)}</span>
             <span>${safeText(match.competition_name || "Friendly")}</span>
           </div>
+
+          ${formHtml}
         </div>
       </div>
     `;
@@ -655,7 +858,7 @@ async function loadAndRender() {
     const results = await loadScoresData();
 
     grid.innerHTML = results
-      .map(x => renderCard(x.team, x.match, x.perf))
+      .map(x => renderCard(x.team, x.match, x.perf, x))
       .join("");
 
   } catch (e) {

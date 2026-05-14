@@ -110,8 +110,8 @@
     padding:var(--gap);
     display:grid;
     grid-template-columns:repeat(3, minmax(0, 1fr));
-    /* More space for the top three boxes; smaller Duck Hunt section */
-    grid-template-rows:72fr 28fr;
+    /* Larger top boxes; compact duck section sized for exactly 4 rows of 6 names */
+    grid-template-rows:81fr 19fr;
     gap:var(--gap);
     overflow:hidden;
   }
@@ -134,8 +134,8 @@
   .box-header{
     background:var(--green);
     color:#fff;
-    padding:7px 12px;
-    min-height:38px;
+    padding:6px 12px;
+    min-height:34px;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -144,7 +144,7 @@
   }
 
   .box-title{
-    font-size:19px;
+    font-size:18px;
     font-weight:900;
     text-transform:uppercase;
     letter-spacing:.4px;
@@ -152,7 +152,7 @@
   }
 
   .box-count{
-    font-size:12px;
+    font-size:11px;
     font-weight:900;
     background:rgba(255,255,255,.18);
     border-radius:999px;
@@ -169,7 +169,7 @@
   table{
     width:100%;
     border-collapse:collapse;
-    font-size:13px;
+    font-size:12.5px;
   }
 
   th{
@@ -178,7 +178,7 @@
     background:#f8f9f7;
     color:var(--muted);
     text-align:left;
-    padding:6px 5px;
+    padding:5px 5px;
     border-bottom:2px solid var(--border);
     z-index:2;
     white-space:nowrap;
@@ -186,17 +186,17 @@
   }
 
   td{
-    padding:5px;
+    padding:4px 5px;
     border-bottom:1px solid var(--border);
     vertical-align:top;
     font-weight:600;
-    line-height:1.15;
+    line-height:1.12;
   }
 
   .num-col{
-    width:58px;
+    width:56px;
     text-align:right;
-    font-size:16px;
+    font-size:15px;
     font-weight:900;
     color:var(--green-dark);
     white-space:nowrap;
@@ -204,7 +204,7 @@
 
   .player-col{
     font-weight:900;
-    min-width:110px;
+    min-width:105px;
   }
 
   .team-col,
@@ -215,7 +215,7 @@
   .date-col{
     color:var(--muted);
     white-space:nowrap;
-    width:54px;
+    width:50px;
   }
 
   .empty{
@@ -226,28 +226,39 @@
     font-size:13px;
   }
 
+  /* Duck Hunt is intentionally fixed to 6 columns x 4 rows. If fewer than 24 players exist,
+     unused cells simply do not render; if 24 exist, the section fits exactly with no spare row space. */
+  .duck-box .scroll-area{
+    overflow:hidden;
+  }
+
   .duck-list{
-    padding:9px;
+    height:100%;
+    padding:6px;
     display:grid;
-    grid-template-columns:repeat(4, minmax(0, 1fr));
-    gap:8px;
-    align-content:start;
+    grid-template-columns:repeat(6, minmax(0, 1fr));
+    grid-template-rows:repeat(4, minmax(0, 1fr));
+    gap:5px;
+    align-content:stretch;
   }
 
   .duck-card{
     border:1px solid var(--border);
     background:#fffdf2;
-    border-radius:10px;
-    padding:7px 9px;
+    border-radius:8px;
+    padding:4px 7px;
     min-width:0;
+    min-height:0;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:8px;
+    gap:6px;
+    overflow:hidden;
   }
 
   .duck-name{
-    font-size:13px;
+    font-size:12px;
+    line-height:1;
     font-weight:900;
     min-width:0;
     overflow:hidden;
@@ -258,27 +269,31 @@
   .duck-icons{
     display:flex;
     align-items:center;
-    gap:2px;
-    flex-wrap:wrap;
+    gap:1px;
+    flex-wrap:nowrap;
     justify-content:flex-end;
-    max-width:50%;
+    max-width:52%;
+    overflow:hidden;
+    flex-shrink:0;
   }
 
   .duck-icon{
-    width:18px;
-    height:18px;
-    line-height:18px;
-    font-size:15px;
+    width:15px;
+    height:15px;
+    line-height:15px;
+    font-size:13px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
+    flex:0 0 auto;
   }
 
   .duck-count{
-    font-size:11px;
+    font-size:10px;
     font-weight:900;
     color:var(--warning);
-    margin-left:3px;
+    margin-left:2px;
+    flex:0 0 auto;
   }
 
   .message{
@@ -352,7 +367,12 @@
     }
     .duck-box{ grid-column:auto; }
     .stat-box{ min-height:380px; }
-    .duck-list{ grid-template-columns:1fr; }
+    .duck-box .scroll-area{ overflow:auto; }
+    .duck-list{
+      height:auto;
+      grid-template-columns:1fr;
+      grid-template-rows:none;
+    }
   }
 </style>
 </head>
@@ -381,7 +401,7 @@
 <script>
 const DATA_URL = "../data/cricket-player-season-highlights.json";
 const REFRESH_MS = 5 * 60 * 1000;
-const TOP_DUCK_HUNTERS_LIMIT = 16;
+const TOP_DUCK_HUNTERS_LIMIT = 24;
 
 function escapeHtml(value){
   return String(value ?? "")

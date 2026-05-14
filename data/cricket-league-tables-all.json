@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:21.793Z"
+      "fetched_at": "2026-05-14T09:28:09.619Z"
     },
     "data": null,
     "error": "Could not infer division_id for Sat 1st XI. Add the current season divisionId to the TEAMS array in this script."
@@ -16,7 +16,7 @@
       "team_id": 24294,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:22.667Z"
+      "fetched_at": "2026-05-14T09:28:10.683Z"
     },
     "data": null,
     "error": "Could not infer division_id for Sat 2nd XI. Add the current season divisionId to the TEAMS array in this script."
@@ -27,7 +27,7 @@
       "team_id": 24295,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:22.940Z"
+      "fetched_at": "2026-05-14T09:28:11.234Z"
     },
     "data": null,
     "error": "Could not infer division_id for Sat 3rd XI. Add the current season divisionId to the TEAMS array in this script."
@@ -38,7 +38,7 @@
       "team_id": 30461,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:23.221Z"
+      "fetched_at": "2026-05-14T09:28:11.527Z"
     },
     "data": null,
     "error": "Could not infer division_id for Sat 4th XI. Add the current season divisionId to the TEAMS array in this script."
@@ -49,7 +49,7 @@
       "team_id": 45348,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:23.470Z"
+      "fetched_at": "2026-05-14T09:28:11.810Z"
     },
     "data": null,
     "error": "Could not infer division_id for Sat 5th XI. Add the current season divisionId to the TEAMS array in this script."
@@ -60,7 +60,7 @@
       "team_id": 324716,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:23.743Z"
+      "fetched_at": "2026-05-14T09:28:12.092Z"
     },
     "data": null,
     "error": "Could not infer division_id for NECL 1st XI. Add the current season divisionId to the TEAMS array in this script."
@@ -71,7 +71,7 @@
       "team_id": 213007,
       "division_id": null,
       "season": "2026",
-      "fetched_at": "2026-05-14T09:17:24.018Z"
+      "fetched_at": "2026-05-14T09:28:12.386Z"
     },
     "data": null,
     "error": "Could not infer division_id for Womens 1st XI. Add the current season divisionId to the TEAMS array in this script."

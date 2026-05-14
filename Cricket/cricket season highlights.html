@@ -110,7 +110,7 @@
     padding:var(--gap);
     display:grid;
     grid-template-columns:repeat(3, minmax(0, 1fr));
-    /* Larger top boxes; compact duck section sized for exactly 4 rows of 6 names */
+    /* Larger top boxes; compact duck section sized for exactly 4 rows of 5 names */
     grid-template-rows:81fr 19fr;
     gap:var(--gap);
     overflow:hidden;
@@ -226,8 +226,13 @@
     font-size:13px;
   }
 
-  /* Duck Hunt is intentionally fixed to 6 columns x 4 rows. If fewer than 24 players exist,
-     unused cells simply do not render; if 24 exist, the section fits exactly with no spare row space. */
+  /* ==========================================================
+     DUCK HUNT LAYOUT CONTROLS
+     To change the number of boxes across, amend grid-template-columns.
+     Example: repeat(5, ...) = 5 boxes across.
+     To change the number of rows, amend grid-template-rows.
+     Example: repeat(4, ...) = 4 rows deep.
+     ========================================================== */
   .duck-box .scroll-area{
     overflow:hidden;
   }
@@ -236,29 +241,40 @@
     height:100%;
     padding:6px;
     display:grid;
-    grid-template-columns:repeat(6, minmax(0, 1fr));
-    grid-template-rows:repeat(4, minmax(0, 1fr));
+    grid-template-columns:repeat(5, minmax(0, 1fr)); /* CHANGE THIS to alter boxes across */
+    grid-template-rows:repeat(4, minmax(0, 1fr));    /* CHANGE THIS to alter rows deep */
     gap:5px;
     align-content:stretch;
   }
 
+  /* ==========================================================
+     DUCK HUNT PLAYER BOUNDARY BOX CONTROLS
+     To make each player's boundary box larger/smaller, amend:
+       - padding
+       - border-radius
+       - gap
+     ========================================================== */
   .duck-card{
     border:1px solid var(--border);
     background:#fffdf2;
-    border-radius:10px;
-    padding:4px 7px;
+    border-radius:9px;     /* CHANGE THIS for rounder/squarer boundary boxes */
+    padding:5px 9px;       /* CHANGE THIS to alter boundary box internal size */
     min-width:0;
     min-height:0;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:6px;
+    gap:7px;               /* CHANGE THIS to alter gap between name and ducks */
     overflow:hidden;
   }
 
+  /* ==========================================================
+     DUCK HUNT PLAYER NAME TEXT CONTROL
+     To make player names larger/smaller, amend font-size below.
+     ========================================================== */
   .duck-name{
-    font-size:16px;
-    line-height:1.1;
+    font-size:11px;        /* CHANGE THIS to alter Duck Hunt player name size */
+    line-height:1;
     font-weight:900;
     min-width:0;
     overflow:hidden;
@@ -278,10 +294,10 @@
   }
 
   .duck-icon{
-    width:18px;
-    height:18px;
-    line-height:18px;
-    font-size:16px;
+    width:15px;
+    height:15px;
+    line-height:15px;
+    font-size:13px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -289,7 +305,7 @@
   }
 
   .duck-count{
-    font-size:16px;
+    font-size:10px;
     font-weight:900;
     color:var(--warning);
     margin-left:2px;
@@ -401,7 +417,7 @@
 <script>
 const DATA_URL = "../data/cricket-player-season-highlights.json";
 const REFRESH_MS = 5 * 60 * 1000;
-const TOP_DUCK_HUNTERS_LIMIT = 24;
+const TOP_DUCK_HUNTERS_LIMIT = 20; // CHANGE THIS to alter how many Duck Hunt players are shown
 
 function escapeHtml(value){
   return String(value ?? "")

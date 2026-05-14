@@ -26,7 +26,7 @@ jobs:
       - name: Generate player season highlights JSON
         env:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node generate-cricket-player-season-highlights.mjs
+        run: node scripts/generate-cricket-player-season-highlights.mjs
 
       - name: Commit updated player season highlights JSON
         uses: stefanzweifel/git-auto-commit-action@v5

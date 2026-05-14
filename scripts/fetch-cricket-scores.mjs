@@ -37,7 +37,7 @@ function pickList(json) {
   return json?.result_summary || [];
 }
 
-function pickLatest(list) {
+function sortMatchesNewestFirst(list) {
   return (list || []).slice().sort((a, b) => {
     const ad = parseDMY(a.match_date) || parseDMY(a.last_updated) || 0;
     const bd = parseDMY(b.match_date) || parseDMY(b.last_updated) || 0;
@@ -45,7 +45,29 @@ function pickLatest(list) {
     if (bd !== ad) return bd - ad;
 
     return (Number(b.id) || 0) - (Number(a.id) || 0);
-  })[0] || null;
+  });
+}
+
+function pickLatest(list) {
+  return sortMatchesNewestFirst(list)[0] || null;
+}
+
+function isCompletedResult(match) {
+  if (!match) return false;
+
+  const code = String(match.result || "").trim();
+  const desc = String(match.result_description || "").trim();
+
+  // Include only matches with a visible result, description, or locked result.
+  // This avoids future fixtures or matches where no result has yet been recorded.
+  return Boolean(code || desc || match.result_locked === "true");
+}
+
+function pickFormGuide(list, limit = 5) {
+  return sortMatchesNewestFirst(list)
+    .filter(isCompletedResult)
+    .slice(0, limit)
+    .reverse(); // oldest to most recent, as required by the webpage form guide
 }
 
 async function fetchJson(url) {
@@ -62,7 +84,7 @@ async function fetchJson(url) {
   return await res.json();
 }
 
-async function fetchLatestForTeam(teamId) {
+async function fetchResultsForTeam(teamId) {
   const url =
     `https://play-cricket.com/api/v2/result_summary.json` +
     `?site_id=${encodeURIComponent(SITE_ID)}` +
@@ -73,7 +95,14 @@ async function fetchLatestForTeam(teamId) {
   const json = await fetchJson(url);
   const list = pickList(json);
 
-  return pickLatest(list);
+  return {
+    // Keeps the latest-match scorebox behaviour unchanged.
+    match: pickLatest(list),
+
+    // New field for the webpage form guide.
+    // This is separate from match, so it does not affect the current latest-match display.
+    form: pickFormGuide(list, 5)
+  };
 }
 
 async function fetchMatchDetails(matchId) {
@@ -141,15 +170,17 @@ async function fetchMatchDetails(matchId) {
 const output = [];
 
 for (const team of TEAMS) {
-  console.log(`Fetching latest result for ${team.name}`);
+  console.log(`Fetching latest result and form guide for ${team.name}`);
 
-  const match = await fetchLatestForTeam(team.id);
+  const { match, form } = await fetchResultsForTeam(team.id);
 
   let perf = {
     runs: [],
     wickets: []
   };
 
+  // Performance highlights remain based only on the latest match.
+  // This keeps the existing webpage scorebox behaviour unchanged.
   if (match && match.id) {
     perf = await fetchMatchDetails(match.id);
   }
@@ -158,6 +189,7 @@ for (const team of TEAMS) {
     team,
     match,
     perf,
+    form,
     fetched_at: new Date().toISOString()
   });
 }

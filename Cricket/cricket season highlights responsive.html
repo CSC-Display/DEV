@@ -393,126 +393,46 @@
 </style>
 
 
-<!-- Responsive refactor: added to allow content to reflow and scroll on different screen sizes -->
-<style id="responsive-refactor">
-  /* Global responsive safeguards */
-  html,
-  body{
-    max-width:100%;
-  }
-
-  img{
-    max-width:100%;
-  }
-
-  header h1,
-  .season,
-  .season-block .season,
-  .subtitle,
-  header .small{
-    overflow:hidden;
-    text-overflow:ellipsis;
-  }
-
-  .scroll-area,
-  .teams,
-  .fixtures-list,
-  main{
-    scrollbar-width:auto;
-  }
-
-  /* Allow header/footer content to wrap instead of forcing overflow */
-  @media (max-width:900px){
-    header{
-      gap:8px !important;
-    }
-
-    header h1{
-      white-space:normal !important;
-      letter-spacing:1.5px !important;
-      font-size:clamp(18px, 5vw, 24px) !important;
-    }
-
-    .season,
-    .season-block .season{
-      white-space:normal !important;
-      font-size:clamp(18px, 5vw, 24px) !important;
-    }
-
-    .brand{
-      width:100%;
-    }
-  }
-</style>
-
-<style id="responsive-season-refactor">
-  /* Season highlights page */
-  main#stats-grid{
-    overflow:auto !important;
-  }
-
-  .stat-box{
-    min-height:260px !important;
-  }
-
-  .scroll-area{
-    overflow:auto !important;
-  }
-
-  table{
-    min-width:620px !important;
-  }
-
-  .duck-box .scroll-area{
-    overflow:auto !important;
-  }
-
-  .duck-list{
-    height:auto !important;
-    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)) !important;
-    grid-template-rows:none !important;
-    align-content:start !important;
-  }
-
-  @media (max-width:1200px){
-    html, body{
-      overflow:auto !important;
-      height:auto !important;
-      min-height:100vh !important;
-    }
-
-    header,
-    footer{
-      position:static !important;
-      height:auto !important;
-      flex-wrap:wrap !important;
-    }
-
+<!-- Final layout fix: force the three top highlight boxes to span the full available width equally -->
+<style id="top-highlight-equal-width-fix">
+  /*
+    The previous responsive layer used auto-fit, which can create spare empty columns
+    on wide screens. This explicitly keeps the top three statistic boxes as three
+    equal columns whenever there is enough width, and lets the Duck Hunters panel
+    span underneath them.
+  */
+  @media (min-width:900px){
     main#stats-grid{
-      position:static !important;
+      grid-template-columns:repeat(3, minmax(0, 1fr)) !important;
+      grid-template-rows:minmax(0, 1fr) auto !important;
+      align-content:stretch !important;
+    }
+
+    main#stats-grid > .stat-box:not(.duck-box){
+      width:100% !important;
+      min-width:0 !important;
+      max-width:none !important;
+    }
+
+    main#stats-grid > .duck-box{
+      grid-column:1 / -1 !important;
+      width:100% !important;
+      max-width:none !important;
+    }
+  }
+
+  /* On smaller screens, stack the boxes so nothing is squeezed or missed. */
+  @media (max-width:899px){
+    main#stats-grid{
       grid-template-columns:1fr !important;
       grid-template-rows:none !important;
-      overflow:visible !important;
-      padding:10px !important;
     }
 
-    .duck-box{
+    main#stats-grid > .stat-box,
+    main#stats-grid > .duck-box{
       grid-column:auto !important;
-    }
-
-    .stat-box{
-      min-height:420px !important;
-    }
-  }
-
-  @media (min-width:1201px){
-    main#stats-grid{
-      grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)) !important;
-      grid-auto-rows:minmax(250px, 1fr) !important;
-    }
-
-    .duck-box{
-      grid-column:1 / -1 !important;
+      width:100% !important;
+      max-width:none !important;
     }
   }
 </style>

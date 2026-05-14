@@ -16,9 +16,6 @@
     --ink:#1a1a1a;
     --danger:#b42318;
     --warning:#8a5a00;
-    --gold:#f6c453;
-    --blue-soft:#eaf3ff;
-    --duck:#ffd84d;
     --header-h:78px;
     --footer-h:32px;
     --gap:10px;
@@ -113,7 +110,8 @@
     padding:var(--gap);
     display:grid;
     grid-template-columns:repeat(3, minmax(0, 1fr));
-    grid-template-rows:60fr 40fr;
+    /* More space for the top three boxes; smaller Duck Hunt section */
+    grid-template-rows:72fr 28fr;
     gap:var(--gap);
     overflow:hidden;
   }
@@ -136,29 +134,29 @@
   .box-header{
     background:var(--green);
     color:#fff;
-    padding:8px 14px;
-    min-height:42px;
+    padding:7px 12px;
+    min-height:38px;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:12px;
+    gap:10px;
     flex-shrink:0;
   }
 
   .box-title{
-    font-size:22px;
+    font-size:19px;
     font-weight:900;
     text-transform:uppercase;
-    letter-spacing:.5px;
+    letter-spacing:.4px;
     white-space:nowrap;
   }
 
   .box-count{
-    font-size:14px;
+    font-size:12px;
     font-weight:900;
     background:rgba(255,255,255,.18);
     border-radius:999px;
-    padding:4px 10px;
+    padding:3px 8px;
     white-space:nowrap;
   }
 
@@ -171,7 +169,7 @@
   table{
     width:100%;
     border-collapse:collapse;
-    font-size:15px;
+    font-size:13px;
   }
 
   th{
@@ -180,7 +178,7 @@
     background:#f8f9f7;
     color:var(--muted);
     text-align:left;
-    padding:8px 7px;
+    padding:6px 5px;
     border-bottom:2px solid var(--border);
     z-index:2;
     white-space:nowrap;
@@ -188,16 +186,17 @@
   }
 
   td{
-    padding:7px;
+    padding:5px;
     border-bottom:1px solid var(--border);
     vertical-align:top;
     font-weight:600;
+    line-height:1.15;
   }
 
   .num-col{
-    width:70px;
+    width:58px;
     text-align:right;
-    font-size:19px;
+    font-size:16px;
     font-weight:900;
     color:var(--green-dark);
     white-space:nowrap;
@@ -205,7 +204,7 @@
 
   .player-col{
     font-weight:900;
-    min-width:130px;
+    min-width:110px;
   }
 
   .team-col,
@@ -216,42 +215,39 @@
   .date-col{
     color:var(--muted);
     white-space:nowrap;
-  }
-
-  .muted{
-    color:var(--muted);
-    font-weight:700;
+    width:54px;
   }
 
   .empty{
-    padding:24px;
+    padding:18px;
     color:var(--muted);
     text-align:center;
     font-weight:800;
+    font-size:13px;
   }
 
   .duck-list{
-    padding:12px;
+    padding:9px;
     display:grid;
     grid-template-columns:repeat(4, minmax(0, 1fr));
-    gap:10px;
+    gap:8px;
     align-content:start;
   }
 
   .duck-card{
     border:1px solid var(--border);
     background:#fffdf2;
-    border-radius:12px;
-    padding:10px 12px;
+    border-radius:10px;
+    padding:7px 9px;
     min-width:0;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:10px;
+    gap:8px;
   }
 
   .duck-name{
-    font-size:16px;
+    font-size:13px;
     font-weight:900;
     min-width:0;
     overflow:hidden;
@@ -262,27 +258,27 @@
   .duck-icons{
     display:flex;
     align-items:center;
-    gap:3px;
+    gap:2px;
     flex-wrap:wrap;
     justify-content:flex-end;
-    max-width:45%;
+    max-width:50%;
   }
 
   .duck-icon{
-    width:22px;
-    height:22px;
-    line-height:22px;
-    font-size:18px;
+    width:18px;
+    height:18px;
+    line-height:18px;
+    font-size:15px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
   }
 
   .duck-count{
-    font-size:13px;
+    font-size:11px;
     font-weight:900;
     color:var(--warning);
-    margin-left:4px;
+    margin-left:3px;
   }
 
   .message{
@@ -291,7 +287,7 @@
     border-radius:14px;
     padding:20px;
     text-align:center;
-    font-size:15px;
+    font-size:13px;
     font-weight:800;
   }
 
@@ -302,8 +298,8 @@
   }
 
   .skeleton{
-    height:18px;
-    margin:12px;
+    height:16px;
+    margin:10px;
     border-radius:8px;
     background:linear-gradient(90deg, #f1f3f0, #e7ebe6, #f1f3f0);
     background-size:200% 100%;
@@ -355,7 +351,7 @@
       overflow:visible;
     }
     .duck-box{ grid-column:auto; }
-    .stat-box{ min-height:420px; }
+    .stat-box{ min-height:380px; }
     .duck-list{ grid-template-columns:1fr; }
   }
 </style>
@@ -385,6 +381,7 @@
 <script>
 const DATA_URL = "../data/cricket-player-season-highlights.json";
 const REFRESH_MS = 5 * 60 * 1000;
+const TOP_DUCK_HUNTERS_LIMIT = 16;
 
 function escapeHtml(value){
   return String(value ?? "")
@@ -393,6 +390,13 @@ function escapeHtml(value){
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function shortDate(value){
+  const text = String(value || "").trim();
+  const m = text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if(!m) return text;
+  return `${m[1].padStart(2, "0")}/${m[2].padStart(2, "0")}`;
 }
 
 function formatDateTime(value){
@@ -451,7 +455,10 @@ function buildPerformanceBox(title, count, rows, columns){
 }
 
 function buildDuckBox(rows){
-  const cards = rows.map(row => {
+  const allRows = Array.isArray(rows) ? rows : [];
+  const topRows = allRows.slice(0, TOP_DUCK_HUNTERS_LIMIT);
+
+  const cards = topRows.map(row => {
     const duckIcons = Array.from({length: row.count}, () => `<span class="duck-icon" aria-hidden="true">🦆</span>`).join("");
     return `
       <div class="duck-card" title="${escapeHtml(row.player)} - ${row.count} duck${row.count === 1 ? "" : "s"}">
@@ -463,11 +470,11 @@ function buildDuckBox(rows){
   return `
     <section class="stat-box duck-box">
       <div class="box-header">
-        <div class="box-title">Duck Hunt</div>
-        <div class="box-count">${rows.length} players</div>
+        <div class="box-title">TOP DUCK HUNTERS</div>
+        <div class="box-count">Top ${Math.min(TOP_DUCK_HUNTERS_LIMIT, allRows.length)} of ${allRows.length}</div>
       </div>
       <div class="scroll-area">
-        ${rows.length ? `<div class="duck-list">${cards}</div>` : `<div class="empty">No ducks recorded yet.</div>`}
+        ${topRows.length ? `<div class="duck-list">${cards}</div>` : `<div class="empty">No ducks recorded yet.</div>`}
       </div>
     </section>`;
 }
@@ -478,7 +485,7 @@ function buildPage(data){
     { label:"Name", className:"player-col", value:r => r.player },
     { label:"Team", className:"team-col", value:r => r.team },
     { label:"Opposition", className:"opp-col", value:r => r.opposition },
-    { label:"Date", className:"date-col", value:r => r.date }
+    { label:"Date", className:"date-col", value:r => shortDate(r.date) }
   ];
 
   const bowlingColumns = [
@@ -486,7 +493,7 @@ function buildPage(data){
     { label:"Name", className:"player-col", value:r => r.player },
     { label:"Team", className:"team-col", value:r => r.team },
     { label:"Opposition", className:"opp-col", value:r => r.opposition },
-    { label:"Date", className:"date-col", value:r => r.date }
+    { label:"Date", className:"date-col", value:r => shortDate(r.date) }
   ];
 
   return [

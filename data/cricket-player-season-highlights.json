@@ -1,0 +1,471 @@
+{
+  "generated_at": "2026-05-14T13:18:06.156Z",
+  "season": "2026",
+  "centuries": [
+    {
+      "player": "Harry Jacobs",
+      "runs": 128,
+      "score": "128*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Abberton & District CC Sunday 1st XI",
+      "date": "10/05/2026",
+      "match_id": 7505924
+    },
+    {
+      "player": "George Wilson",
+      "runs": 114,
+      "score": "114*",
+      "not_out": true,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Shenfield CC 3rd XI",
+      "date": "09/05/2026",
+      "match_id": 7461824
+    },
+    {
+      "player": "Dan Hagen",
+      "runs": 111,
+      "score": "111*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Upminster CC Men's 2nd XI",
+      "date": "09/05/2026",
+      "match_id": 7325703
+    },
+    {
+      "player": "Tom Iliffe",
+      "runs": 106,
+      "score": "106*",
+      "not_out": true,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Orsett & Thurrock CC 6th XI",
+      "date": "09/05/2026",
+      "match_id": 7462367
+    }
+  ],
+  "half_centuries": [
+    {
+      "player": "Aarav Salil",
+      "runs": 93,
+      "score": "93",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Westcliff-On-Sea CC 1st XI",
+      "date": "25/04/2026",
+      "match_id": 7236831
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 90,
+      "score": "90",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Abberton & District CC Sunday 1st XI",
+      "date": "10/05/2026",
+      "match_id": 7505924
+    },
+    {
+      "player": "Jason Lofthouse",
+      "runs": 79,
+      "score": "79",
+      "not_out": false,
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Billericay CC 4th XI",
+      "date": "09/05/2026",
+      "match_id": 7462095
+    },
+    {
+      "player": "Ben Lawrence",
+      "runs": 74,
+      "score": "74*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Kirby CC Sunday 2nd XI",
+      "date": "26/04/2026",
+      "match_id": 7505909
+    },
+    {
+      "player": "Suhail Shahid",
+      "runs": 73,
+      "score": "73",
+      "not_out": false,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Orsett & Thurrock CC 6th XI",
+      "date": "09/05/2026",
+      "match_id": 7462367
+    },
+    {
+      "player": "Ben Lawrence",
+      "runs": 71,
+      "score": "71*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Westcliff-On-Sea CC 2nd XI",
+      "date": "25/04/2026",
+      "match_id": 7577468
+    },
+    {
+      "player": "Mohammed Baig",
+      "runs": 67,
+      "score": "67",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Shenfield CC 3rd XI",
+      "date": "09/05/2026",
+      "match_id": 7461824
+    },
+    {
+      "player": "Ben Lawrence",
+      "runs": 66,
+      "score": "66",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Harold Wood CC 3rd XI",
+      "date": "02/05/2026",
+      "match_id": 7262196
+    },
+    {
+      "player": "Jack Sterland",
+      "runs": 61,
+      "score": "61",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Westcliff-On-Sea CC 1st XI",
+      "date": "25/04/2026",
+      "match_id": 7236831
+    },
+    {
+      "player": "Alex Bayha",
+      "runs": 59,
+      "score": "59",
+      "not_out": false,
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Harold Wood CC 4th XI",
+      "date": "02/05/2026",
+      "match_id": 7262197
+    },
+    {
+      "player": "David Wilson",
+      "runs": 57,
+      "score": "57",
+      "not_out": false,
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Billericay CC 4th XI",
+      "date": "09/05/2026",
+      "match_id": 7462095
+    },
+    {
+      "player": "Harry Jacobs",
+      "runs": 57,
+      "score": "57*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Ardleigh CC 1st XI",
+      "date": "19/04/2026",
+      "match_id": 7505893
+    }
+  ],
+  "five_fors": [
+    {
+      "player": "Alex Rowe-Goodey",
+      "wickets": 5,
+      "runs": 4,
+      "figures": "5-4",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "08/05/2026",
+      "match_id": 7399544
+    },
+    {
+      "player": "Piyush Singh",
+      "wickets": 5,
+      "runs": 22,
+      "figures": "5-22",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Kirby CC Sunday 2nd XI",
+      "date": "26/04/2026",
+      "match_id": 7505909
+    }
+  ],
+  "ducks": [
+    {
+      "player": "Rishabh Upadhyay",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Bexley CC 1st XI",
+      "date": "18/04/2026",
+      "match_id": 7235356
+    },
+    {
+      "player": "Elliot Wenzel",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Springfield CC, Essex 1st XI",
+      "date": "02/05/2026",
+      "match_id": 7675532
+    },
+    {
+      "player": "Rishabh Upadhyay",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "09/05/2026",
+      "match_id": 7325252
+    },
+    {
+      "player": "Sean Sullivan",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "09/05/2026",
+      "match_id": 7325252
+    },
+    {
+      "player": "Tom Wilshaw",
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Westcliff-On-Sea CC 2nd XI",
+      "date": "25/04/2026",
+      "match_id": 7577468
+    },
+    {
+      "player": "Mohammed Baig",
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Harold Wood CC 3rd XI",
+      "date": "02/05/2026",
+      "match_id": 7262196
+    },
+    {
+      "player": "Chris Cory",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Harold Wood CC 4th XI",
+      "date": "02/05/2026",
+      "match_id": 7262197
+    },
+    {
+      "player": "Daniel Purchase",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Harold Wood CC 4th XI",
+      "date": "02/05/2026",
+      "match_id": 7262197
+    },
+    {
+      "player": "Poppy Moore",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "08/05/2026",
+      "match_id": 7399544
+    },
+    {
+      "player": "Deanne Nel",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "08/05/2026",
+      "match_id": 7399544
+    },
+    {
+      "player": "Mila Patel",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "08/05/2026",
+      "match_id": 7399544
+    },
+    {
+      "player": "Katie Rothstein",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "08/05/2026",
+      "match_id": 7399544
+    }
+  ],
+  "duck_hunt": [
+    {
+      "player": "Rishabh Upadhyay",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Rishabh Upadhyay",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Bexley CC 1st XI",
+          "date": "18/04/2026",
+          "match_id": 7235356
+        },
+        {
+          "player": "Rishabh Upadhyay",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Colchester and East Essex CC 1st XI",
+          "date": "09/05/2026",
+          "match_id": 7325252
+        }
+      ]
+    },
+    {
+      "player": "Chris Cory",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Chris Cory",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Harold Wood CC 4th XI",
+          "date": "02/05/2026",
+          "match_id": 7262197
+        }
+      ]
+    },
+    {
+      "player": "Daniel Purchase",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Daniel Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Harold Wood CC 4th XI",
+          "date": "02/05/2026",
+          "match_id": 7262197
+        }
+      ]
+    },
+    {
+      "player": "Deanne Nel",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Deanne Nel",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "08/05/2026",
+          "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Elliot Wenzel",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Elliot Wenzel",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Springfield CC, Essex 1st XI",
+          "date": "02/05/2026",
+          "match_id": 7675532
+        }
+      ]
+    },
+    {
+      "player": "Katie Rothstein",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Katie Rothstein",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "08/05/2026",
+          "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Mila Patel",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Mila Patel",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "08/05/2026",
+          "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Mohammed Baig",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Mohammed Baig",
+          "team": "Sat 3rd XI",
+          "team_id": 24295,
+          "opposition": "Harold Wood CC 3rd XI",
+          "date": "02/05/2026",
+          "match_id": 7262196
+        }
+      ]
+    },
+    {
+      "player": "Poppy Moore",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Poppy Moore",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "08/05/2026",
+          "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Sean Sullivan",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Sean Sullivan",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Colchester and East Essex CC 1st XI",
+          "date": "09/05/2026",
+          "match_id": 7325252
+        }
+      ]
+    },
+    {
+      "player": "Tom Wilshaw",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Tom Wilshaw",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Westcliff-On-Sea CC 2nd XI",
+          "date": "25/04/2026",
+          "match_id": 7577468
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

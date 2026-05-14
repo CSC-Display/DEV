@@ -20,9 +20,9 @@
   .season-block{ text-align:right; flex-shrink:0; }
   .season{ font-size:24px; letter-spacing:2.5px; font-weight:900; white-space:nowrap; }
   .updated{ margin-top:3px; font-size:12px; opacity:.92; white-space:nowrap; }
-  main{ position:fixed; top:var(--header-h); bottom:var(--footer-h); left:0; right:0; padding:var(--gap); display:grid; gap:var(--gap); overflow:hidden; grid-template-columns:repeat(2, minmax(0, 1fr)); grid-template-rows:60fr 40fr;
-  main > .table-container:nth-child(3), main > .message:nth-child(3){ grid-column:1 / -1; } }
+  main{ position:fixed; top:var(--header-h); bottom:var(--footer-h); left:0; right:0; padding:var(--gap); display:grid; gap:var(--gap); overflow:hidden; grid-template-columns:repeat(2, minmax(0, 1fr)); grid-template-rows:60fr 40fr; }
   .table-container{ background:var(--card); border:2px solid var(--border); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; min-height:0; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+  .league-table-team-213007{ grid-column:1 / -1; }
   .table-header{ background:var(--green); color:#fff; padding:8px 12px; display:flex; justify-content:space-between; gap:12px; align-items:center; font-weight:900; font-size:20px; text-transform:uppercase; flex-shrink:0; min-height:42px; }
   .team-label{ flex-shrink:0; white-space:nowrap; }
   .division-name{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:16px; opacity:.95; text-align:right; }
@@ -128,6 +128,10 @@ function numericValue(value){
   return Number.isFinite(n) ? n : 0;
 }
 
+function cssSafeTeamId(item){
+  return `league-table-team-${String(item?.config?.team_id || "missing")}`;
+}
+
 function resolveDisplayColumns(headings){
   return DISPLAY_COLUMNS
     .map(displayColumn => {
@@ -151,10 +155,11 @@ function getDisplayValue(row, displayColumn){
 
 function buildTableHtml(item){
   const label = item?.config?.label || "League table";
+  const cardClass = cssSafeTeamId(item);
 
   if(item?.error || !item?.data){
     return `
-      <section class="table-container">
+      <section class="table-container ${cardClass}">
         <div class="table-header"><span class="team-label">${escapeHtml(label)}</span><span class="division-name">Not available</span></div>
         <div class="message warning">${escapeHtml(item?.error || "No table data was generated for this team.")}</div>
       </section>`;
@@ -167,7 +172,7 @@ function buildTableHtml(item){
 
   if(!displayColumns.length){
     return `
-      <section class="table-container">
+      <section class="table-container ${cardClass}">
         <div class="table-header"><span class="team-label">${escapeHtml(label)}</span><span class="division-name">No display columns found</span></div>
         <div class="message warning">No matching columns were found in the generated JSON.</div>
       </section>`;
@@ -196,7 +201,7 @@ function buildTableHtml(item){
   }).join("");
 
   return `
-    <section class="table-container">
+    <section class="table-container ${cardClass}">
       <div class="table-header">
         <span class="team-label">${escapeHtml(label)}</span>
         <span class="division-name" title="${escapeHtml(tableData.name || "")}">${escapeHtml(tableData.name || "")}</span>
@@ -211,8 +216,8 @@ function buildTableHtml(item){
 }
 
 function setLoadingState(){
-  document.getElementById("tables-grid").innerHTML = TARGET_TEAM_IDS.map(() => `
-    <section class="table-container"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>`).join("");
+  document.getElementById("tables-grid").innerHTML = TARGET_TEAM_IDS.map(teamId => `
+    <section class="table-container league-table-team-${teamId}"><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div><div class="skeleton-box"></div></section>`).join("");
 }
 
 function setErrorState(message){

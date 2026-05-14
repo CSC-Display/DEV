@@ -257,6 +257,31 @@
     }
 
 
+    /* ---------- MATCH TEAM TITLE: new top header strip ---------- */
+    .match-team-title{
+      background:var(--green);
+      color:#fff;
+      padding:7px 10px;
+      min-height:34px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      font-size:20px;
+      font-weight:900;
+      letter-spacing:.2px;
+      line-height:1.05;
+      flex-shrink:0;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    /* Existing status/result header now sits beneath the team title */
+    .match-header{
+      border-radius:0;
+    }
+
     /* Larger spacing inside the match body */
     .team.opposition{
       margin-top:24px;
@@ -717,6 +742,7 @@
   function renderSkeletonCard(teamName){
     return `
       <div class="match">
+        <div class="match-team-title">${escapeHtml(teamName)}</div>
         <div class="match-header other">
           <span class="status">Loading</span>
           <span class="summary"></span>
@@ -736,12 +762,13 @@
     if (!match){
       return `
         <div class="match">
+          <div class="match-team-title">${escapeHtml(team.name)}</div>
           <div class="match-header other">
             <span class="status">Awaiting</span>
             <span class="summary"></span>
           </div>
           <div class="teams">
-            <div class="muted">${team.name} – No recent match</div>
+            <div class="muted">${escapeHtml(team.name)} – No recent match</div>
           </div>
           <div class="match-footer">
             ${formHtml}
@@ -783,6 +810,8 @@
 
     return `
       <div class="match">
+        <div class="match-team-title">${escapeHtml(team.name)}</div>
+
         <div class="match-header ${out.cls}">
           <span class="status">${state}</span>
           <span class="summary">${out.tag}</span>
@@ -885,6 +914,7 @@ async function loadAndRender() {
 
     grid.innerHTML = TEAMS.map(t => `
       <div class="match">
+        <div class="match-team-title">${escapeHtml(t.name)}</div>
         <div class="match-header other">
           <span class="status">Error</span>
           <span class="summary"></span>

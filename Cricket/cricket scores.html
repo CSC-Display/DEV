@@ -257,10 +257,7 @@
     }
 
 
-    /* Larger vertical spacing requested:
-       - Bigger gap between Chelmsford and opposition
-       - Bigger gap between opposition and match metadata
-       - Separate form guide with a strong divider line */
+    /* Larger spacing inside the match body */
     .team.opposition{
       margin-top:24px;
     }
@@ -270,39 +267,55 @@
       padding-top:12px;
     }
 
-    .form-guide{
-      margin-top:20px;
-      padding-top:12px;
-      border-top:2px solid var(--border);
+    /* ---------- MATCH FOOTER: mirrors match header and holds the form guide ---------- */
+    .match-footer{
       display:flex;
       align-items:center;
-      gap:10px;
+      justify-content:center;
+      gap:12px;
+      padding:7px 10px;
+      background:var(--other); /* always light green, irrespective of result */
+      color:#16331f;
       flex-shrink:0;
-      font-size:16px;
-      font-weight:800;
-      color:#263126;
+      min-height:42px;
+      border-top:2px solid var(--border);
+      text-align:center;
+    }
+
+    .form-guide{
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      font-size:18px;
+      font-weight:900;
+      color:#16331f;
     }
 
     .form-label{
+      font-size:20px;
+      letter-spacing:.2px;
       white-space:nowrap;
     }
 
     .form-dots{
       display:flex;
       align-items:center;
-      gap:8px;
+      justify-content:center;
+      gap:9px;
       min-width:0;
     }
 
     .form-dot{
-      width:26px;
-      height:26px;
+      width:28px;
+      height:28px;
       border-radius:50%;
       display:inline-flex;
       align-items:center;
       justify-content:center;
       border:2px solid transparent;
-      font-size:14px;
+      font-size:15px;
       line-height:1;
       font-weight:900;
       flex:0 0 auto;
@@ -630,9 +643,6 @@
   function getFormItems(source, currentMatch){
     if (!source) source = {};
 
-    // Accept several likely property names so this works with either a richer JSON file
-    // or a simple existing file. Best option: have the JSON generator pass a form array
-    // containing the team's most recent completed matches.
     const possibleArrays = [
       source.form,
       source.formGuide,
@@ -653,7 +663,6 @@
     }
 
     // If the JSON does not yet include history, use the current/latest match only.
-    // The display will still show five circles, with missing older matches shown as blanks.
     if (!items.length && currentMatch) items = [currentMatch];
 
     const areObjects = items.some(x => x && typeof x === "object" && !Array.isArray(x));
@@ -690,7 +699,7 @@
 
     return `
       <div class="form-guide" aria-label="Recent form guide, oldest to most recent">
-        <span class="form-label">Form:</span>
+        <span class="form-label">Form Guide</span>
         <span class="form-dots">${dots}</span>
       </div>
     `;
@@ -727,6 +736,8 @@
           </div>
           <div class="teams">
             <div class="muted">${team.name} – No recent match</div>
+          </div>
+          <div class="match-footer">
             ${formHtml}
           </div>
         </div>
@@ -794,7 +805,9 @@
             <span>${safeText(match.match_date)}</span>
             <span>${safeText(match.competition_name || "Friendly")}</span>
           </div>
+        </div>
 
+        <div class="match-footer">
           ${formHtml}
         </div>
       </div>

@@ -8,7 +8,7 @@ if (!API_TOKEN) {
 
 const SITE_ID = 1786;
 const SEASON = "2026";
-const FIXTURES_PER_TEAM = 7;
+const FIXTURES_PER_TEAM = 9;
 
 const TEAMS = [
   { name: "Sat 1st XI", id: 24293 },

@@ -294,13 +294,10 @@
   }
 
   .duck-icon{
-    width:15px;
-    height:15px;
-    line-height:15px;
-    font-size:13px;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
+    width:12px;
+    height:12px;
+    object-fit:contain;
+    display:block;
     flex:0 0 auto;
   }
 
@@ -495,7 +492,10 @@ function buildDuckBox(rows){
   const topRows = allRows.slice(0, TOP_DUCK_HUNTERS_LIMIT);
 
   const cards = topRows.map(row => {
-    const duckIcons = Array.from({length: row.count}, () => `<span class="duck-icon" aria-hidden="true">🦆</span>`).join("");
+    const duckIcons = Array.from(
+      {length: row.count},
+      () => `<img class="duck-icon" src="duck.png" alt="Duck" aria-hidden="true">`
+      ).join("");
     return `
       <div class="duck-card" title="${escapeHtml(row.player)} - ${row.count} duck${row.count === 1 ? "" : "s"}">
         <div class="duck-name">${escapeHtml(row.player)}</div>

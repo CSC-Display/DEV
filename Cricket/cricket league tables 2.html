@@ -145,14 +145,33 @@ function resolveDisplayColumns(headings){
     .filter(displayColumn => displayColumn.type === "team" || displayColumn.sourceColumns.length > 0);
 }
 
-function getDisplayValue(row, displayColumn){
+function getDisplayValue(row, displayColumn, teamId){
   if(!displayColumn.sourceColumns.length) return "";
+
+  // SPECIAL CASE:
+  // NECL 1st XI requires W + WCN combined
+  if(
+    String(teamId) === "213007" &&
+    displayColumn.label === "W"
+  ){
+    const wins =
+      numericValue(row.W) +
+      numericValue(row.w) +
+      numericValue(row.WCN) +
+      numericValue(row.wcn);
+
+    return wins;
+  }
+
   if(displayColumn.combineActive){
-    return displayColumn.sourceColumns.reduce((total, columnKey) => total + numericValue(row[columnKey]), 0);
+    return displayColumn.sourceColumns.reduce(
+      (total, columnKey) => total + numericValue(row[columnKey]),
+      0
+    );
   }
   return row[displayColumn.sourceColumns[0]] ?? "";
 }
-
+  
 function buildTableHtml(item){
   const label = item?.config?.label || "League table";
   const cardClass = cssSafeTeamId(item);
@@ -184,7 +203,11 @@ function buildTableHtml(item){
     const isChelmsford = teamName.toLowerCase().includes(CLUB_NAME_MATCH);
 
     const cells = displayColumns.map(displayColumn => {
-      const rawValue = getDisplayValue(row, displayColumn);
+      const rawValue = getDisplayValue(
+        row,
+        displayColumn,
+        item?.config?.team_id
+      );
       const value = displayColumn.type === "team" ? escapeHtml(decodeBasicEntities(rawValue)) : escapeHtml(rawValue);
       return displayColumn.type === "team"
         ? `<td class="team-col bold"><span title="${value}">${value}</span></td>`

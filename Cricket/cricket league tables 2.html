@@ -68,19 +68,50 @@ const DATA_URL = "../data/cricket-league-tables-all.json";
 const REFRESH_MS = 5 * 60 * 1000;
 const CLUB_NAME_MATCH = "chelmsford";
 
-const DISPLAY_COLUMNS = [
-  { label:"Team", type:"team", source:["Team"] },
-  { label:"P", title:"Played", source:["p", "P", "Played"] },
-  { label:"W", title:"Won", source:["W", "w", "Won"], fallbackSource:["w1", "w2", "w3", "wcn", "w24", "w20", "wd"], combineFallback:true },
-  { label:"L", title:"Lost", source:["L", "l", "Lost"], fallbackSource:["l1", "l2", "l3", "lcn", "ld"], combineFallback:true },
-  { label:"D", title:"Drawn / Tied", source:["d", "D", "t", "T"], combine:true },
-  { label:"Canc", title:"Cancelled / Abandoned", source:["c", "C", "a", "A"], combine:true },
-  { label:"BP", title:"Bonus Points", source:["BP", "Bonus", "Bonus Points", "BatP", "BowlP"], combine:true },
-  { label:"Pen", title:"Penalties", source:["Pen", "Penalty", "Penalty Points"] },
-  { label:"Pts", title:"Points", source:["Pts", "Points"] },
-  { label:"NRR", title:"Net Run Rate", source:["NRR", "Net Run Rate"] },
-  { label:"Ave", title:"Average Points", source:["Ave", "Average", "Average Points"] }
-];
+const TEAM_DISPLAY_COLUMNS = {
+
+  // SATURDAY 5TH XI
+  "45348": [
+    { label:"Team", type:"team", source:["Team"] },
+    { label:"P", source:["P", "p"] },
+    { label:"W", source:["W", "w3", "wcn"], combine:true },
+    { label:"L", source:["L", "l3", "lcn"], combine:true },
+    { label:"D", source:["d", "t"], combine:true },
+    { label:"Canc", source:["c", "a"], combine:true },
+    { label:"BP", source:["BP"] },
+    { label:"Pen", source:["Pen"] },
+    { label:"Pts", source:["Pts"] }
+  ],
+
+  // WOMEN'S 1ST XI
+  "324716": [
+    { label:"Team", type:"team", source:["Team"] },
+    { label:"P", source:["p"] },
+    { label:"W", source:["w", "wcn"], combine:true },
+    { label:"L", source:["l", "lcn"], combine:true },
+    { label:"D", source:["t"] },
+    { label:"Canc", source:["c", "a"], combine:true },
+    { label:"BP", source:["BatP", "BowlP"], combine:true },
+    { label:"Pen", source:["Pen"] },
+    { label:"Pts", source:["Pts"] },
+    { label:"NRR", source:["NRR"] },
+    { label:"Ave", source:["Ave"] }
+  ],
+
+  // NECL 1ST XI
+  "213007": [
+    { label:"Team", type:"team", source:["Team"] },
+    { label:"P", source:["p"] },
+    { label:"W", source:["w", "wcn"], combine:true },
+    { label:"L", source:["l", "lcn"], combine:true },
+    { label:"D", source:["t"] },
+    { label:"Canc", source:["c", "a"], combine:true },
+    { label:"BP", source:["BatP", "BowlP"], combine:true },
+    { label:"Pen", source:["Pen"] },
+    { label:"Pts", source:["Pts"] },
+    { label:"NRR", source:["NRR"] }
+  ]
+};
 
 function escapeHtml(value){
   return String(value ?? "")
@@ -132,45 +163,35 @@ function cssSafeTeamId(item){
   return `league-table-team-${String(item?.config?.team_id || "missing")}`;
 }
 
-function resolveDisplayColumns(headings){
-  return DISPLAY_COLUMNS
-    .map(displayColumn => {
-      const primaryColumns = [...new Set((displayColumn.source || []).map(sourceHeading => findColumnByHeading(headings, sourceHeading)).filter(Boolean))];
-      if(primaryColumns.length > 0){
-        return { ...displayColumn, sourceColumns:primaryColumns, combineActive:displayColumn.combine && primaryColumns.length > 1 };
-      }
-      const fallbackColumns = [...new Set((displayColumn.fallbackSource || []).map(sourceHeading => findColumnByHeading(headings, sourceHeading)).filter(Boolean))];
-      return { ...displayColumn, sourceColumns:fallbackColumns, combineActive:displayColumn.combineFallback && fallbackColumns.length > 1 };
-    })
-    .filter(displayColumn => displayColumn.type === "team" || displayColumn.sourceColumns.length > 0);
+function resolveDisplayColumns(headings, teamId){
+  const config = TEAM_DISPLAY_COLUMNS[String(teamId)] || [];
+  return config.map(displayColumn => {
+    const sourceColumns = (displayColumn.source || [])
+      .map(sourceHeading => findColumnByHeading(headings, sourceHeading))
+      .filter(Boolean);
+    return {
+      ...displayColumn,
+      sourceColumns
+    };
+  }).filter(displayColumn =>
+    displayColumn.type === "team" ||
+    displayColumn.sourceColumns.length > 0
+  );
 }
 
-function getDisplayValue(row, displayColumn, teamId){
-  if(!displayColumn.sourceColumns.length) return "";
-
-  // SPECIAL CASE:
-  // NECL 1st XI requires W + WCN combined
-  if(
-    String(teamId) === "213007" &&
-    displayColumn.label === "W"
-  ){
-    const wins =
-      numericValue(row.W) +
-      numericValue(row.w) +
-      numericValue(row.WCN) +
-      numericValue(row.wcn);
-
-    return wins;
+function getDisplayValue(row, displayColumn){
+  if(!displayColumn.sourceColumns.length){
+    return "";
   }
-
-  if(displayColumn.combineActive){
+  if(displayColumn.combine){
     return displayColumn.sourceColumns.reduce(
-      (total, columnKey) => total + numericValue(row[columnKey]),
+      (total, columnKey) =>
+        total + numericValue(row[columnKey]),
       0
     );
   }
   return row[displayColumn.sourceColumns[0]] ?? "";
-}
+} 
   
 function buildTableHtml(item){
   const label = item?.config?.label || "League table";
@@ -187,8 +208,11 @@ function buildTableHtml(item){
   const tableData = item.data || {};
   const headings = tableData.headings || {};
   const values = Array.isArray(tableData.values) ? tableData.values : [];
-  const displayColumns = resolveDisplayColumns(headings);
-
+  const displayColumns = resolveDisplayColumns(
+    headings,
+    item?.config?.team_id
+  );
+  
   if(!displayColumns.length){
     return `
       <section class="table-container ${cardClass}">
@@ -205,8 +229,7 @@ function buildTableHtml(item){
     const cells = displayColumns.map(displayColumn => {
       const rawValue = getDisplayValue(
         row,
-        displayColumn,
-        item?.config?.team_id
+        displayColumn
       );
       const value = displayColumn.type === "team" ? escapeHtml(decodeBasicEntities(rawValue)) : escapeHtml(rawValue);
       return displayColumn.type === "team"

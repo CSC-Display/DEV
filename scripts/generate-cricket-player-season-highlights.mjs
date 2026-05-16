@@ -189,7 +189,7 @@ function addBattingAndBowlingHighlights({ details, match, team, output }) {
 
         if (runs >= 100) {
           output.centuries.push(item);
-        } else if (runs >= 55 && runs <= 99) {
+        } else if (runs >= 50 && runs <= 99) {
           output.half_centuries.push(item);
         }
 

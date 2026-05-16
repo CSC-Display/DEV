@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T16:27:18.803Z",
+  "generated_at": "2026-05-16T16:33:17.297Z",
   "season": "2026",
   "centuries": [
     {
@@ -309,6 +309,22 @@
       "match_id": 7462100
     },
     {
+      "player": "Daniel Purchase",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+      "date": "16/05/2026",
+      "match_id": 7462100
+    },
+    {
+      "player": "Luke Purchase",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+      "date": "16/05/2026",
+      "match_id": 7462100
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -342,6 +358,28 @@
     }
   ],
   "duck_hunt": [
+    {
+      "player": "Daniel Purchase",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Daniel Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Harold Wood CC 4th XI",
+          "date": "02/05/2026",
+          "match_id": 7262197
+        },
+        {
+          "player": "Daniel Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+          "date": "16/05/2026",
+          "match_id": 7462100
+        }
+      ]
+    },
     {
       "player": "Rishabh Upadhyay",
       "count": 2,
@@ -384,20 +422,6 @@
       "ducks": [
         {
           "player": "Chris Cory",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Harold Wood CC 4th XI",
-          "date": "02/05/2026",
-          "match_id": 7262197
-        }
-      ]
-    },
-    {
-      "player": "Daniel Purchase",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Daniel Purchase",
           "team": "Sat 4th XI",
           "team_id": 30461,
           "opposition": "Harold Wood CC 4th XI",
@@ -459,6 +483,20 @@
           "opposition": "High Roding CC Womens 1st XI",
           "date": "08/05/2026",
           "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Luke Purchase",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Luke Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+          "date": "16/05/2026",
+          "match_id": 7462100
         }
       ]
     },

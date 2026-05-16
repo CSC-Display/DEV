@@ -428,7 +428,7 @@
         "id": 7325252,
         "status": "New",
         "published": "Yes",
-        "last_updated": "14/05/2026",
+        "last_updated": "16/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -473,7 +473,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n16.3 Chelmsford CC Sat 1st XI: 50 runs in 16.2 overs, 72 minutes, 14 extras<br/>32.7 Chelmsford CC Sat 1st XI: 100 runs in 33.0 overs, 135 minutes, 23 extras\n<br/>\n<br/>\n<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n11.3 Colchester and East Essex CC 1st XI: 50 runs in 11.3 overs, 44 minutes, 12 extras\n<br/>\n",
         "points": [
           {
@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:32.650Z"
+    "fetched_at": "2026-05-16T19:52:40.000Z"
   },
   {
     "team": {
@@ -889,7 +889,7 @@
         "id": 7325703,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/05/2026",
+        "last_updated": "16/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -934,7 +934,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "<b>Upminster CC Men's 2nd XI Innings</b><br/>\n10.6 Upminster CC Men's 2nd XI: 50 runs in 10.5 overs, 42 minutes, 9 extras<br/>23.4 Upminster CC Men's 2nd XI: 100 runs in 23.2 overs, 95 minutes, 19 extras<br/>26.3 6th Wicket: 50 runs in 41 balls, 32 minutes, Vansh Mehra 17 (18), Jamie Green 18 (23), 15 extras<br/>27.6 Upminster CC Men's 2nd XI: 150 runs in 27.4 overs, 112 minutes, 29 extras<br/>35.6 Upminster CC Men's 2nd XI: 200 runs in 36.0 overs, 143 minutes, 34 extras<br/>36.3 Vansh Mehra: 50 runs in 54 balls, 81 minutes (6x4)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.3 Chelmsford CC Sat 2nd XI: 50 runs in 9.3 overs, 43 minutes, 7 extras<br/>19.3 Dan Hagen: 50 runs in 63 balls, 76 minutes (7x4, 1x6)<br/>19.4 3rd Wicket: 50 runs in 71 balls, 42 minutes, Dan Hagen 25 (43), Thomas Duxson 22 (28), 3 extras<br/>20.5 Chelmsford CC Sat 2nd XI: 100 runs in 20.5 overs, 82 minutes, 11 extras<br/>28.5 3rd Wicket: 100 runs in 127 balls, 78 minutes, Dan Hagen 46 (74), Thomas Duxson 48 (53), 6 extras<br/>31.2 Chelmsford CC Sat 2nd XI: 150 runs in 31.2 overs, 125 minutes, 15 extras<br/>37.4 5th Wicket: 50 runs in 34 balls, 24 minutes, Dan Hagen 16 (15), Liam Keaney 31 (19), 3 extras<br/>37.4 Chelmsford CC Sat 2nd XI: 200 runs in 37.4 overs, 152 minutes, 18 extras<br/>40.1 Dan Hagen: 100 runs in 125 balls, 162 minutes (11x4, 2x6)\n<br/>\n",
         "points": [
           {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:33.519Z"
+    "fetched_at": "2026-05-16T19:52:40.525Z"
   },
   {
     "team": {
@@ -1167,7 +1167,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
       "result_applied_to": "24295",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -1438,7 +1438,7 @@
         "id": 7461824,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/05/2026",
+        "last_updated": "16/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1483,7 +1483,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1594,7 +1594,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
         "result_applied_to": "24295",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:34.526Z"
+    "fetched_at": "2026-05-16T19:52:41.054Z"
   },
   {
     "team": {
@@ -1893,7 +1893,7 @@
         "id": 7462095,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/05/2026",
+        "last_updated": "16/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -1938,7 +1938,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:35.629Z"
+    "fetched_at": "2026-05-16T19:52:41.838Z"
   },
   {
     "team": {
@@ -2259,7 +2259,7 @@
         "id": 7462367,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/05/2026",
+        "last_updated": "16/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -2304,7 +2304,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "<p>A&nbsp;superb&nbsp;high-scoring&nbsp;game&nbsp;of&nbsp;cricket&nbsp;played&nbsp;in&nbsp;excellent&nbsp;spirit&nbsp;by&nbsp;both&nbsp;sides.&nbsp;Chelmsford&nbsp;posted&nbsp;an&nbsp;impressive&nbsp;256&nbsp;for&nbsp;3&nbsp;from&nbsp;their&nbsp;40&nbsp;overs&nbsp;at&nbsp;6.4&nbsp;runs&nbsp;per&nbsp;over.&nbsp;Orsett&nbsp;were&nbsp;94&nbsp;after&nbsp;20&nbsp;overs,&nbsp;but&nbsp;a&nbsp;fine&nbsp;batting&nbsp;display&nbsp;in&nbsp;the&nbsp;second&nbsp;half&nbsp;of&nbsp;the&nbsp;innings&nbsp;saw&nbsp;them&nbsp;chase&nbsp;down&nbsp;the&nbsp;target&nbsp;with&nbsp;just&nbsp;three&nbsp;balls&nbsp;to&nbsp;spare.</p>\r\n",
         "points": [
           {
@@ -2484,7 +2484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:36.096Z"
+    "fetched_at": "2026-05-16T19:52:42.671Z"
   },
   {
     "team": {
@@ -2497,7 +2497,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T18:42:36.275Z"
+    "fetched_at": "2026-05-16T19:52:42.862Z"
   },
   {
     "team": {
@@ -3129,7 +3129,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:37.085Z"
+    "fetched_at": "2026-05-16T19:52:43.874Z"
   },
   {
     "team": {
@@ -3142,7 +3142,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T18:42:37.503Z"
+    "fetched_at": "2026-05-16T19:52:44.073Z"
   },
   {
     "team": {
@@ -3155,7 +3155,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T18:42:37.846Z"
+    "fetched_at": "2026-05-16T19:52:44.276Z"
   },
   {
     "team": {
@@ -3624,6 +3624,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T18:42:38.786Z"
+    "fetched_at": "2026-05-16T19:52:45.363Z"
   }
 ]

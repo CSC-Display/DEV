@@ -2,7 +2,7 @@ name: Play-Cricket Master Update
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/10 * * * *"   # every 10 mins (base trigger)
   workflow_dispatch:
 
 concurrency:
@@ -15,8 +15,7 @@ permissions:
 jobs:
   update-play-cricket-data:
     runs-on: ubuntu-latest
-
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
@@ -28,74 +27,138 @@ jobs:
           node-version: "20"
 
       ##########################################################
-      # League Tables
+      # Determine schedule bucket
       ##########################################################
+      - name: Determine schedule bucket
+        id: schedule
+        run: |
+          HOUR=$(date -u +"%H")
+          MINUTE=$(date -u +"%M")
 
-      - name: Generate league tables JSON
-        continue-on-error: true
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node scripts/fetch-league-tables.mjs
+          echo "hour=$HOUR" >> $GITHUB_OUTPUT
+          echo "minute=$MINUTE" >> $GITHUB_OUTPUT
 
-      ##########################################################
-      # Fixtures
-      ##########################################################
+          # hourly bucket (league tables)
+          if [ "$MINUTE" = "00" ]; then
+            echo "run_hourly=true" >> $GITHUB_OUTPUT
+          else
+            echo "run_hourly=false" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Fetch latest cricket fixtures
-        continue-on-error: true
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node scripts/fetch-cricket-fixtures.mjs
-
-      ##########################################################
-      # Club Statistics
-      ##########################################################
-
-      - name: Fetch latest club statistics
-        continue-on-error: true
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node scripts/fetch-club-statistics.mjs
+          # daily fixtures at 07:00 UTC
+          if [ "$HOUR" = "07" ] && [ "$MINUTE" = "00" ]; then
+            echo "run_daily=true" >> $GITHUB_OUTPUT
+          else
+            echo "run_daily=false" >> $GITHUB_OUTPUT
+          fi
 
       ##########################################################
-      # Player Season Highlights
+      # SAFE NODE EXECUTION WRAPPER
       ##########################################################
+      - name: Create retry helper
+        run: |
+          cat << 'EOF' > retry.sh
+          #!/bin/bash
+          set -e
 
-      - name: Generate player season highlights JSON
-        continue-on-error: true
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node scripts/generate-cricket-player-season-highlights.mjs
+          n=0
+          until [ $n -ge 3 ]
+          do
+            "$@" && break
+            n=$((n+1))
+            echo "Retry $n/3..."
+            sleep 5
+          done
+
+          if [ $n -ge 3 ]; then
+            echo "Command failed after 3 attempts"
+            exit 1
+          fi
+          EOF
+
+          chmod +x retry.sh
 
       ##########################################################
-      # Scores
+      # ALWAYS RUN (every 10 mins)
       ##########################################################
 
       - name: Fetch latest cricket scores
-        continue-on-error: true
         env:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: node scripts/fetch-cricket-scores.mjs
+        run: ./retry.sh node scripts/fetch-cricket-scores.mjs
+
+      - name: Fetch club statistics (frequent)
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/fetch-club-statistics.mjs
+
+      - name: Generate player highlights (frequent)
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/generate-cricket-player-season-highlights.mjs
 
       ##########################################################
-      # Commit & Push
+      # HOURLY ONLY (league tables)
       ##########################################################
 
-      - name: Commit updated JSON files
+      - name: Generate league tables JSON
+        if: steps.schedule.outputs.run_hourly == 'true'
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/fetch-league-tables.mjs
+
+      ##########################################################
+      # DAILY ONLY (fixtures)
+      ##########################################################
+
+      - name: Fetch latest cricket fixtures
+        if: steps.schedule.outputs.run_daily == 'true'
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/fetch-cricket-fixtures.mjs
+
+      ##########################################################
+      # SMART GIT COMMIT (per-file skip if unchanged)
+      ##########################################################
+
+      - name: Commit changes (only if needed)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add \
-            data/cricket-league-tables-all.json \
-            data/cricket-fixtures.json \
-            data/cricket-club-statistics.json \
-            data/cricket-player-season-highlights.json \
+          FILES=(
+            data/cricket-league-tables-all.json
+            data/cricket-fixtures.json
+            data/cricket-club-statistics.json
+            data/cricket-player-season-highlights.json
             data/cricket-scores.json
+          )
 
-          git diff --cached --quiet || git commit -m "Update Play-Cricket data"
+          CHANGED=0
+
+          for file in "${FILES[@]}"; do
+            if git status --porcelain "$file" | grep -q "^ M\|^??"; then
+              git add "$file"
+              CHANGED=1
+            fi
+          done
+
+          if [ "$CHANGED" -eq 1 ]; then
+            git commit -m "Update Play-Cricket data"
+          else
+            echo "No changes to commit"
+          fi
+
+      ##########################################################
+      # PUSH ONLY IF NEEDED
+      ##########################################################
 
       - name: Push changes
         run: |
+          if git diff --cached --quiet; then
+            echo "Nothing to push"
+            exit 0
+          fi
+
           git pull --rebase origin main
           git push origin HEAD:main

@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -584,7 +584,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:35.013Z"
+    "fetched_at": "2026-05-16T18:38:40.912Z"
   },
   {
     "team": {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:35.835Z"
+    "fetched_at": "2026-05-16T18:38:41.512Z"
   },
   {
     "team": {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:36.717Z"
+    "fetched_at": "2026-05-16T18:38:42.623Z"
   },
   {
     "team": {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:37.250Z"
+    "fetched_at": "2026-05-16T18:38:43.784Z"
   },
   {
     "team": {
@@ -2484,7 +2484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:37.994Z"
+    "fetched_at": "2026-05-16T18:38:44.877Z"
   },
   {
     "team": {
@@ -2497,7 +2497,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T17:29:38.187Z"
+    "fetched_at": "2026-05-16T18:38:45.362Z"
   },
   {
     "team": {
@@ -3129,7 +3129,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:38.908Z"
+    "fetched_at": "2026-05-16T18:38:46.522Z"
   },
   {
     "team": {
@@ -3142,7 +3142,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T17:29:39.110Z"
+    "fetched_at": "2026-05-16T18:38:47.020Z"
   },
   {
     "team": {
@@ -3155,7 +3155,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-16T17:29:39.535Z"
+    "fetched_at": "2026-05-16T18:38:47.523Z"
   },
   {
     "team": {
@@ -3624,6 +3624,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-16T17:29:40.556Z"
+    "fetched_at": "2026-05-16T18:38:48.477Z"
   }
 ]

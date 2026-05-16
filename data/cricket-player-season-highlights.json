@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T17:29:17.608Z",
+  "generated_at": "2026-05-16T18:39:08.603Z",
   "season": "2026",
   "centuries": [
     {
@@ -190,6 +190,116 @@
       "opposition": "Ardleigh CC 1st XI",
       "date": "19/04/2026",
       "match_id": 7505893
+    },
+    {
+      "player": "Ben Clifford",
+      "runs": 54,
+      "score": "54",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Westcliff-On-Sea CC 1st XI",
+      "date": "25/04/2026",
+      "match_id": 7236831
+    },
+    {
+      "player": "George Wilson",
+      "runs": 54,
+      "score": "54",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Kirby CC Sunday 2nd XI",
+      "date": "26/04/2026",
+      "match_id": 7505909
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 53,
+      "score": "53",
+      "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Westcliff-On-Sea CC 2nd XI",
+      "date": "25/04/2026",
+      "match_id": 7577468
+    },
+    {
+      "player": "James Clifford",
+      "runs": 53,
+      "score": "53",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Westcliff-On-Sea CC 1st XI",
+      "date": "25/04/2026",
+      "match_id": 7236831
+    },
+    {
+      "player": "Thom Wilshaw",
+      "runs": 53,
+      "score": "53",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Harold Wood CC 3rd XI",
+      "date": "02/05/2026",
+      "match_id": 7262196
+    },
+    {
+      "player": "Alex Bayha",
+      "runs": 51,
+      "score": "51*",
+      "not_out": true,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Braintree CC 3rd XI",
+      "date": "25/04/2026",
+      "match_id": 7506920
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 51,
+      "score": "51*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Ardleigh CC 1st XI",
+      "date": "19/04/2026",
+      "match_id": 7505893
+    },
+    {
+      "player": "James Burns",
+      "runs": 51,
+      "score": "51*",
+      "not_out": true,
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Billericay CC 4th XI",
+      "date": "09/05/2026",
+      "match_id": 7462095
+    },
+    {
+      "player": "Alex Bailey",
+      "runs": 50,
+      "score": "50*",
+      "not_out": true,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Braintree CC 3rd XI",
+      "date": "25/04/2026",
+      "match_id": 7506920
+    },
+    {
+      "player": "D Singireddy",
+      "runs": 50,
+      "score": "50*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Wanstead & Snaresbrook CC 2nd XI",
+      "date": "16/05/2026",
+      "match_id": 7325708
     }
   ],
   "five_fors": [

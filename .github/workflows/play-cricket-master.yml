@@ -129,28 +129,19 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          FILES=(
-            data/cricket-league-tables-all.json
-            data/cricket-fixtures.json
-            data/cricket-club-statistics.json
-            data/cricket-player-season-highlights.json
-            data/cricket-scores.json
-          )
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          CHANGED=0
+          # Stage all JSON outputs
+          git add data/
 
-          for file in "${FILES[@]}"; do
-            if git status --porcelain "$file" | grep -q "^ M\|^??"; then
-              git add "$file"
-              CHANGED=1
-            fi
-          done
-
-          if [ "$CHANGED" -eq 1 ]; then
-            git commit -m "Update Play-Cricket data"
-          else
+          # Reliable check: are there ANY staged changes?
+          if git diff --cached --quiet; then
             echo "No changes to commit"
+            exit 0
           fi
+
+          git commit -m "Update Play-Cricket data"
 
       ##########################################################
       # PUSH ONLY IF NEEDED
@@ -158,10 +149,5 @@ jobs:
 
       - name: Push changes
         run: |
-          if git diff --cached --quiet; then
-            echo "Nothing to push"
-            exit 0
-          fi
-
           git pull --rebase origin main
-          git push origin HEAD:main
+          git push origin HEAD:main || true

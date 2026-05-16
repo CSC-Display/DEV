@@ -249,53 +249,13 @@ const LADIES_TEAMS = [
 ];
 
 /* =========================================
-   API FETCH
+   GMS CARD RENDERING
 ========================================= */
 
-async function fetchMatch(teamId){
-
-  /*
-    Replace this with your actual
-    England Hockey GMS endpoint.
-  */
-
-  const url =
-    `https://gmsfeed.co.uk/js/api.js?data-team=${teamId}&data-show=results&data-whatson=180';
-
-  try{
-
-    const response = await fetch(url);
-
-    if(!response.ok){
-      throw new Error("API error");
-    }
-
-    const data = await response.json();
-
-    return data;
-
-  }catch(err){
-
-    console.error(teamId, err);
-
-    return null;
-  }
-}
-
-/* =========================================
-   CARD RENDERING
-========================================= */
-
-function createCard(teamName, data, type){
+function createGMSCard(teamName, teamId, type){
 
   const card = document.createElement("div");
   card.className = "card";
-
-  const isLive =
-    data?.status?.toLowerCase() === "live";
-
-  const scoreClass =
-    isLive ? "scoreline live" : "scoreline";
 
   card.innerHTML = `
     <div class="card-header ${type}">
@@ -304,51 +264,15 @@ function createCard(teamName, data, type){
 
     <div class="card-body">
 
-      ${
-        data ? `
-          <div class="fixture">
-
-            <div>
-
-              <div class="teams">
-                Chelmsford HC
-                ${data.homeAway === "A" ? "@" : "vs"}
-                ${data.opponent}
-              </div>
-
-              <div class="meta">
-                ${data.competition || ""}
-              </div>
-
-              <div class="meta">
-                ${data.startTime || ""}
-              </div>
-
-            </div>
-
-            <div class="score">
-
-              <div class="${scoreClass}">
-                ${data.homeScore ?? "-"}
-                -
-                ${data.awayScore ?? "-"}
-              </div>
-
-              <div class="status">
-                ${data.status || ""}
-              </div>
-
-            </div>
-
-          </div>
-        `
-        :
-        `
-          <div class="loading">
-            No fixture data available
-          </div>
-        `
-      }
+      <div
+        class="gms-wrapper gms-ajax"
+        data-method="api"
+        data-show="results"
+        data-team="${teamId}"
+        data-whatson="180"
+        data-sort_by="reverseDate"
+        data-options="showList:yes">
+      </div>
 
     </div>
   `;
@@ -360,7 +284,7 @@ function createCard(teamName, data, type){
    LOAD TEAMS
 ========================================= */
 
-async function loadTeams(){
+function loadTeams(){
 
   const mensGrid =
     document.getElementById("mens-grid");
@@ -373,22 +297,24 @@ async function loadTeams(){
 
   for(const team of MEN_TEAMS){
 
-    const data =
-      await fetchMatch(team.id);
-
     mensGrid.appendChild(
-      createCard(team.name, data, "men")
+      createGMSCard(team.name, team.id, "men")
     );
   }
 
   for(const team of LADIES_TEAMS){
 
-    const data =
-      await fetchMatch(team.id);
-
     ladiesGrid.appendChild(
-      createCard(team.name, data, "ladies")
+      createGMSCard(team.name, team.id, "ladies")
     );
+  }
+
+  /*
+    Re-trigger GMS parser
+  */
+
+  if(window.GMS_API){
+    window.GMS_API.init();
   }
 }
 
@@ -396,14 +322,13 @@ async function loadTeams(){
    INITIAL LOAD
 ========================================= */
 
-loadTeams();
+window.addEventListener("load", () => {
+  loadTeams();
+});
 
-/* =========================================
-   AUTO REFRESH
-========================================= */
-
-setInterval(loadTeams, 60000);
 </script>
+
+<script src="https://gmsfeed.co.uk/js/api.js"></script>
 
 </body>
 </html>

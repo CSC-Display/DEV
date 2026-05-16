@@ -1,9 +1,9 @@
 name: Update Play-Cricket scores
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "3,13,23,33,43,53 * * * *"
-  workflow_dispatch:
 
 concurrency:
   group: play-cricket-data-updates

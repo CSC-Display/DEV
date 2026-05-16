@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-05-16T21:57:30.686Z",
+  "generated_at": "2026-05-16T22:58:02.566Z",
   "match_count": 26,
   "scorecards_processed": 24,
   "batting": [
@@ -91,6 +91,23 @@
       "hundreds": 1
     },
     {
+      "player": "Suhail Shahid",
+      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 4,
+      "innings": 4,
+      "not_outs": 0,
+      "runs": 168,
+      "balls": 69,
+      "fours": 26,
+      "sixes": 1,
+      "high_score": 73,
+      "high_score_display": "73",
+      "average": 42,
+      "strike_rate": 243.47826086956525,
+      "fifties": 1,
+      "hundreds": 0
+    },
+    {
       "player": "Aarav Salil",
       "teams": "Sat 1st XI",
       "matches": 5,
@@ -155,23 +172,6 @@
       "high_score_display": "61",
       "average": 24.4,
       "strike_rate": 73.93939393939394,
-      "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Suhail Shahid",
-      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 3,
-      "innings": 3,
-      "not_outs": 0,
-      "runs": 121,
-      "balls": 69,
-      "fours": 18,
-      "sixes": 1,
-      "high_score": 73,
-      "high_score_display": "73",
-      "average": 40.333333333333336,
-      "strike_rate": 175.36231884057972,
       "fifties": 1,
       "hundreds": 0
     },
@@ -329,19 +329,19 @@
       "hundreds": 0
     },
     {
-      "player": "Thom Wilshaw",
-      "teams": "Sat 3rd XI",
+      "player": "Richard Goodey",
+      "teams": "Sat 5th XI",
       "matches": 1,
       "innings": 1,
       "not_outs": 0,
-      "runs": 53,
-      "balls": 30,
-      "fours": 10,
-      "sixes": 1,
-      "high_score": 53,
-      "high_score_display": "53",
-      "average": 53,
-      "strike_rate": 176.66666666666666,
+      "runs": 62,
+      "balls": 0,
+      "fours": 11,
+      "sixes": 0,
+      "high_score": 62,
+      "high_score_display": "62",
+      "average": 62,
+      "strike_rate": null,
       "fifties": 1,
       "hundreds": 0
     }

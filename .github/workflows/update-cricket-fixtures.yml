@@ -3,7 +3,7 @@ name: Update Play-Cricket fixtures
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 7,19 * * *"
+    - cron: "5 7,13,19 * * *"
 
 concurrency:
   group: play-cricket-data-updates

@@ -1,0 +1,99 @@
+name: Play-Cricket Master Update
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: play-cricket-master-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-play-cricket-data:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      ##########################################################
+      # League Tables
+      ##########################################################
+
+      - name: Generate league tables JSON
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: node scripts/fetch-league-tables.mjs
+
+      ##########################################################
+      # Fixtures
+      ##########################################################
+
+      - name: Fetch latest cricket fixtures
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: node scripts/fetch-cricket-fixtures.mjs
+
+      ##########################################################
+      # Club Statistics
+      ##########################################################
+
+      - name: Fetch latest club statistics
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: node scripts/fetch-club-statistics.mjs
+
+      ##########################################################
+      # Player Season Highlights
+      ##########################################################
+
+      - name: Generate player season highlights JSON
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: node scripts/generate-cricket-player-season-highlights.mjs
+
+      ##########################################################
+      # Scores
+      ##########################################################
+
+      - name: Fetch latest cricket scores
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: node scripts/fetch-cricket-scores.mjs
+
+      ##########################################################
+      # Commit & Push
+      ##########################################################
+
+      - name: Commit updated JSON files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add \
+            data/cricket-league-tables-all.json \
+            data/cricket-fixtures.json \
+            data/cricket-club-statistics.json \
+            data/cricket-player-season-highlights.json \
+            data/cricket-scores.json
+
+          git diff --cached --quiet || git commit -m "Update Play-Cricket data"
+
+      - name: Push changes
+        run: |
+          git pull --rebase origin main
+          git push origin HEAD:main

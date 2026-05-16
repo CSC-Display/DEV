@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-05-15T20:53:53.364Z",
-  "match_count": 21,
-  "scorecards_processed": 18,
+  "generated_at": "2026-05-16T08:05:33.613Z",
+  "match_count": 26,
+  "scorecards_processed": 20,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -244,6 +244,40 @@
       "hundreds": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 3,
+      "innings": 3,
+      "not_outs": 3,
+      "runs": 79,
+      "balls": 33,
+      "fours": 12,
+      "sixes": 2,
+      "high_score": 27,
+      "high_score_display": "27*",
+      "average": null,
+      "strike_rate": 239.3939393939394,
+      "fifties": 0,
+      "hundreds": 0
+    },
+    {
+      "player": "Alex Rowe-Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 3,
+      "innings": 3,
+      "not_outs": 2,
+      "runs": 78,
+      "balls": 52,
+      "fours": 12,
+      "sixes": 0,
+      "high_score": 27,
+      "high_score_display": "27*",
+      "average": 78,
+      "strike_rate": 150,
+      "fifties": 0,
+      "hundreds": 0
+    },
+    {
       "player": "Ben Clifford",
       "teams": "Sat 1st XI",
       "matches": 3,
@@ -295,23 +329,6 @@
       "hundreds": 0
     },
     {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 2,
-      "innings": 2,
-      "not_outs": 2,
-      "runs": 52,
-      "balls": 33,
-      "fours": 7,
-      "sixes": 2,
-      "high_score": 26,
-      "high_score_display": "26*",
-      "average": null,
-      "strike_rate": 157.57575757575756,
-      "fifties": 0,
-      "hundreds": 0
-    },
-    {
       "player": "James Burns",
       "teams": "Sat 4th XI",
       "matches": 1,
@@ -326,23 +343,6 @@
       "average": null,
       "strike_rate": null,
       "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Alex Rowe-Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 2,
-      "innings": 2,
-      "not_outs": 1,
-      "runs": 51,
-      "balls": 52,
-      "fours": 7,
-      "sixes": 0,
-      "high_score": 26,
-      "high_score_display": "26",
-      "average": 51,
-      "strike_rate": 98.07692307692307,
-      "fifties": 0,
       "hundreds": 0
     }
   ],
@@ -405,6 +405,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Alex Rowe-Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 3,
+      "innings": 3,
+      "balls": 54,
+      "overs": 9,
+      "maidens": 3,
+      "runs": 14,
+      "wickets": 7,
+      "wides": 1,
+      "no_balls": 1,
+      "best": "5-4",
+      "average": 2,
+      "economy": 1.5555555555555556,
+      "strike_rate": 7.714285714285714,
+      "three_wickets": 1,
+      "five_wickets": 1
+    },
+    {
       "player": "Rory Skepelhorn",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 6,
@@ -460,25 +479,6 @@
       "strike_rate": 15.833333333333334,
       "three_wickets": 1,
       "five_wickets": 0
-    },
-    {
-      "player": "Alex Rowe-Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 2,
-      "innings": 2,
-      "balls": 36,
-      "overs": 6,
-      "maidens": 1,
-      "runs": 13,
-      "wickets": 6,
-      "wides": 1,
-      "no_balls": 1,
-      "best": "5-4",
-      "average": 2.1666666666666665,
-      "economy": 2.1666666666666665,
-      "strike_rate": 6,
-      "three_wickets": 1,
-      "five_wickets": 1
     },
     {
       "player": "Neil Siriwardana",
@@ -614,6 +614,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 3,
+      "innings": 3,
+      "balls": 42,
+      "overs": 7,
+      "maidens": 2,
+      "runs": 9,
+      "wickets": 4,
+      "wides": 0,
+      "no_balls": 0,
+      "best": "2-7",
+      "average": 2.25,
+      "economy": 1.2857142857142858,
+      "strike_rate": 10.5,
+      "three_wickets": 0,
+      "five_wickets": 0
+    },
+    {
       "player": "Jack Parrish",
       "teams": "Sat 1st XI",
       "matches": 1,
@@ -652,6 +671,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Sienna Nel",
+      "teams": "Womens 1st XI",
+      "matches": 3,
+      "innings": 3,
+      "balls": 48,
+      "overs": 8,
+      "maidens": 0,
+      "runs": 52,
+      "wickets": 3,
+      "wides": 9,
+      "no_balls": 2,
+      "best": "2-19",
+      "average": 17.333333333333332,
+      "economy": 6.5,
+      "strike_rate": 16,
+      "three_wickets": 0,
+      "five_wickets": 0
+    },
+    {
       "player": "Andy Styan",
       "teams": "Sat 1st XI",
       "matches": 2,
@@ -671,25 +709,6 @@
       "five_wickets": 0
     },
     {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 2,
-      "innings": 2,
-      "balls": 30,
-      "overs": 5,
-      "maidens": 0,
-      "runs": 9,
-      "wickets": 3,
-      "wides": 0,
-      "no_balls": 0,
-      "best": "2-7",
-      "average": 3,
-      "economy": 1.8,
-      "strike_rate": 10,
-      "three_wickets": 0,
-      "five_wickets": 0
-    },
-    {
       "player": "Sean Sullivan",
       "teams": "Sat 1st XI",
       "matches": 2,
@@ -705,25 +724,6 @@
       "average": 20,
       "economy": 6,
       "strike_rate": 20,
-      "three_wickets": 0,
-      "five_wickets": 0
-    },
-    {
-      "player": "Daniel Purchase",
-      "teams": "Sat 4th XI",
-      "matches": 2,
-      "innings": 2,
-      "balls": 102,
-      "overs": 17,
-      "maidens": 2,
-      "runs": 78,
-      "wickets": 2,
-      "wides": 0,
-      "no_balls": 0,
-      "best": "2-35",
-      "average": 39,
-      "economy": 4.588235294117647,
-      "strike_rate": 51,
       "three_wickets": 0,
       "five_wickets": 0
     }

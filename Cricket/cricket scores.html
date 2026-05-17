@@ -13,6 +13,7 @@
       --lost:#f3c6c6;     /* light red */
       --tied:#f6e0b4;     /* light orange */
       --other:#dff2e6;    /* light green */
+      --live:#ff9800;      /* orange */
       --bg:#f2f4f1;
       --card:#ffffff;
       --border:#d8ddd6;
@@ -139,6 +140,7 @@
     .match-header.lost{ background:var(--lost); color:#391a1a; }
     .match-header.tied{ background:var(--tied); color:#3a2a10; }
     .match-header.other{ background:var(--other); color:#16331f; }
+    .match-header.live{ background:var(--live); color:#fff; }
 
     .status{
       background:rgba(0,0,0,.14);
@@ -575,18 +577,36 @@
       return (b.id || 0) - (a.id || 0);
     })[0] || null;
   }
+
   function isLive(match){
-    const hasInningsRuns = (match.innings || []).some(i => i && i.runs !== "");
-    const hasResult = (match.result_description && match.result_description !== "") || (match.result && match.result !== "");
-    return hasInningsRuns && match.result_locked !== "true" && !hasResult;
+    if (!match) return false;
+    const innings = match.innings || [];
+    const hasScoreData = innings.some(i =>
+      i &&
+      (
+        i.runs !== "" ||
+        i.wickets !== "" ||
+        i.overs !== ""
+      )
+    );
+    const hasResult =
+      (match.result_description && match.result_description !== "") ||
+      (match.result && match.result !== "") ||
+      match.result_locked === "true";
+    return hasScoreData && !hasResult;
   }
+  
   function statusLabel(match){
     if (!match) return "Awaiting";
-    if (isLive(match)) return "Live";
-    const hasResult = (match.result_description && match.result_description !== "") || (match.result && match.result !== "");
-    if (match.result_locked === "true" || hasResult) return "Result";
+    if (isLive(match)) return "LIVE";
+    const hasResult =
+      (match.result_description && match.result_description !== "") ||
+      (match.result && match.result !== "") ||
+      match.result_locked === "true";
+    if (hasResult) return "Result";
     return "Awaiting";
   }
+
   function outcomeForChelmsford(match, chelmsfordTeamId){
     if (!match) return { tag:"", cls:"other" };
     const code = match.result;
@@ -812,7 +832,7 @@
       <div class="match">
         <div class="match-team-title">${escapeHtml(team.name)}</div>
 
-        <div class="match-header ${out.cls}">
+        <div class="match-header ${isLive(match) ? 'live' : out.cls}">
           <span class="status">${state}</span>
           <span class="summary">${out.tag}</span>
         </div>

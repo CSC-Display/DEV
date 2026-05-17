@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:29.187Z"
+    "fetched_at": "2026-05-17T10:51:56.200Z"
   },
   {
     "team": {
@@ -706,8 +706,8 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
       "result_applied_to": "24294",
-      "home_confirmed": "false",
-      "away_confirmed": "false",
+      "home_confirmed": "true",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n12.6 1st Wicket: 50 runs in 78 balls, 43 minutes, Rod Martin 19 (39), Pavan Patel 27 (39), 4 extras<br/>12.6 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 4 extras<br/>25.1 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 25.1 overs, 89 minutes, 6 extras<br/>25.4 Pavan Patel: 50 runs in 71 balls, 91 minutes (5x4)<br/>37.5 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 37.5 overs, 134 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 10 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 100 runs in 25.0 overs, 93 minutes, 20 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 150 runs in 34.4 overs, 127 minutes, 23 extras<br/>37.2 6th Wicket: 50 runs in 43 balls, 25 minutes, Mohammed Baig 9 (17), D Singireddy 41 (26), 1 extra<br/>40.1 D Singireddy: 50 runs in 35 balls, 35 minutes (5x4, 2x6)\n<br/>\n",
@@ -1045,8 +1045,8 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
         "result_applied_to": "24294",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
+        "home_confirmed": "true",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n12.6 1st Wicket: 50 runs in 78 balls, 43 minutes, Rod Martin 19 (39), Pavan Patel 27 (39), 4 extras<br/>12.6 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 4 extras<br/>25.1 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 25.1 overs, 89 minutes, 6 extras<br/>25.4 Pavan Patel: 50 runs in 71 balls, 91 minutes (5x4)<br/>37.5 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 37.5 overs, 134 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 10 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 100 runs in 25.0 overs, 93 minutes, 20 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 150 runs in 34.4 overs, 127 minutes, 23 extras<br/>37.2 6th Wicket: 50 runs in 43 balls, 25 minutes, Mohammed Baig 9 (17), D Singireddy 41 (26), 1 extra<br/>40.1 D Singireddy: 50 runs in 35 balls, 35 minutes (5x4, 2x6)\n<br/>\n",
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:30.925Z"
+    "fetched_at": "2026-05-17T10:51:56.828Z"
   },
   {
     "team": {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:32.582Z"
+    "fetched_at": "2026-05-17T10:51:57.434Z"
   },
   {
     "team": {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:34.057Z"
+    "fetched_at": "2026-05-17T10:51:58.190Z"
   },
   {
     "team": {
@@ -2171,7 +2171,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
       "result_applied_to": "45348",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2416,7 +2416,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
         "result_applied_to": "45348",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2485,7 +2485,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:35.604Z"
+    "fetched_at": "2026-05-17T10:51:58.756Z"
   },
   {
     "team": {
@@ -2498,7 +2498,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T09:20:36.280Z"
+    "fetched_at": "2026-05-17T10:51:58.973Z"
   },
   {
     "team": {
@@ -3130,7 +3130,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:37.753Z"
+    "fetched_at": "2026-05-17T10:51:59.526Z"
   },
   {
     "team": {
@@ -3143,7 +3143,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T09:20:38.025Z"
+    "fetched_at": "2026-05-17T10:51:59.721Z"
   },
   {
     "team": {
@@ -3156,7 +3156,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T09:20:38.704Z"
+    "fetched_at": "2026-05-17T10:51:59.936Z"
   },
   {
     "team": {
@@ -3625,6 +3625,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T09:20:40.057Z"
+    "fetched_at": "2026-05-17T10:52:00.476Z"
   }
 ]

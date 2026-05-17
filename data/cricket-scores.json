@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:06.724Z"
+    "fetched_at": "2026-05-17T19:40:44.462Z"
   },
   {
     "team": {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:08.270Z"
+    "fetched_at": "2026-05-17T19:40:45.340Z"
   },
   {
     "team": {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:09.319Z"
+    "fetched_at": "2026-05-17T19:40:46.238Z"
   },
   {
     "team": {
@@ -1716,7 +1716,7 @@
       "result": "W",
       "result_description": "Oakfield Parkonians CC, Essex - 4th XI - Overs Win",
       "result_applied_to": "25628",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2049,7 +2049,7 @@
         "result": "W",
         "result_description": "Oakfield Parkonians CC, Essex - 4th XI - Overs Win",
         "result_applied_to": "25628",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:10.775Z"
+    "fetched_at": "2026-05-17T19:40:47.027Z"
   },
   {
     "team": {
@@ -2175,7 +2175,7 @@
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "",
+      "match_notes": "<p>Chelmsford&nbsp;5th&nbsp;XI&nbsp;fielded&nbsp;only&nbsp;9&nbsp;players</p>\r\n",
       "points": [
         {
           "team_id": 293194,
@@ -2420,7 +2420,7 @@
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "",
+        "match_notes": "<p>Chelmsford&nbsp;5th&nbsp;XI&nbsp;fielded&nbsp;only&nbsp;9&nbsp;players</p>\r\n",
         "points": [
           {
             "team_id": 293194,
@@ -2485,7 +2485,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:12.235Z"
+    "fetched_at": "2026-05-17T19:40:48.074Z"
   },
   {
     "team": {
@@ -2498,7 +2498,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T18:15:12.941Z"
+    "fetched_at": "2026-05-17T19:40:48.275Z"
   },
   {
     "team": {
@@ -3130,7 +3130,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:14.676Z"
+    "fetched_at": "2026-05-17T19:40:49.302Z"
   },
   {
     "team": {
@@ -3143,7 +3143,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T18:15:14.944Z"
+    "fetched_at": "2026-05-17T19:40:49.732Z"
   },
   {
     "team": {
@@ -3156,7 +3156,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T18:15:15.600Z"
+    "fetched_at": "2026-05-17T19:40:50.162Z"
   },
   {
     "team": {
@@ -3625,6 +3625,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T18:15:17.131Z"
+    "fetched_at": "2026-05-17T19:40:51.124Z"
   }
 ]

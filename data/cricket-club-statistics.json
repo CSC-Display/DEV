@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-05-17T07:20:50.208Z",
+  "generated_at": "2026-05-17T09:21:01.295Z",
   "match_count": 26,
   "scorecards_processed": 24,
   "batting": [
@@ -195,16 +195,16 @@
     {
       "player": "Tom Iliffe",
       "teams": "Sat 5th XI",
-      "matches": 1,
-      "innings": 1,
+      "matches": 2,
+      "innings": 2,
       "not_outs": 1,
-      "runs": 106,
+      "runs": 111,
       "balls": 0,
-      "fours": 13,
+      "fours": 14,
       "sixes": 1,
       "high_score": 106,
       "high_score_display": "106*",
-      "average": null,
+      "average": 111,
       "strike_rate": null,
       "fifties": 0,
       "hundreds": 1
@@ -223,6 +223,23 @@
       "high_score_display": "62",
       "average": 20.2,
       "strike_rate": 100,
+      "fifties": 1,
+      "hundreds": 0
+    },
+    {
+      "player": "Deepak Reddy Singireddy",
+      "teams": "Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
+      "matches": 4,
+      "innings": 4,
+      "not_outs": 2,
+      "runs": 100,
+      "balls": 61,
+      "fours": 12,
+      "sixes": 5,
+      "high_score": 50,
+      "high_score_display": "50*",
+      "average": 50,
+      "strike_rate": 163.9344262295082,
       "fifties": 1,
       "hundreds": 0
     },
@@ -325,23 +342,6 @@
       "high_score_display": "57",
       "average": 21.666666666666668,
       "strike_rate": 209.6774193548387,
-      "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Richard Goodey",
-      "teams": "Sat 5th XI",
-      "matches": 1,
-      "innings": 1,
-      "not_outs": 0,
-      "runs": 62,
-      "balls": 0,
-      "fours": 11,
-      "sixes": 0,
-      "high_score": 62,
-      "high_score_display": "62",
-      "average": 62,
-      "strike_rate": null,
       "fifties": 1,
       "hundreds": 0
     }

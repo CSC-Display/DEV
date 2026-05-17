@@ -8,7 +8,7 @@
       "id": 7325254,
       "status": "New",
       "published": "Yes",
-      "last_updated": "16/05/2026",
+      "last_updated": "17/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<p><strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.6&nbsp;1st&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;67&nbsp;balls,&nbsp;46&nbsp;minutes,&nbsp;Aarav&nbsp;Salil&nbsp;20&nbsp;(33),&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(34),&nbsp;11&nbsp;extras<br />\r\n10.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.0&nbsp;overs,&nbsp;46&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n23.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;24.0&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;13&nbsp;extras<br />\r\n30.3&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;64&nbsp;balls,&nbsp;39&nbsp;minutes,&nbsp;Rishabh&nbsp;Upadhyay&nbsp;37&nbsp;(34),&nbsp;James&nbsp;Clifford&nbsp;12&nbsp;(30),&nbsp;4&nbsp;extras<br />\r\n32.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.3&nbsp;overs,&nbsp;127&nbsp;minutes,&nbsp;17&nbsp;extras<br />\r\n32.4&nbsp;Rishabh&nbsp;Upadhyay:&nbsp;50&nbsp;runs&nbsp;in&nbsp;45&nbsp;balls,&nbsp;58&nbsp;minutes&nbsp;(3x4,&nbsp;4x6)<br />\r\n49.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;200&nbsp;runs&nbsp;in&nbsp;49.1&nbsp;overs,&nbsp;186&nbsp;minutes,&nbsp;19&nbsp;extras<br />\r\n<br />\r\n<strong>Epping&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n12.2&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;12.1&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;14&nbsp;extras<br />\r\n26.4&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;85&nbsp;balls,&nbsp;41&nbsp;minutes,&nbsp;Bilal&nbsp;Kamal&nbsp;36&nbsp;(51),&nbsp;Shafqat&nbsp;Ullah&nbsp;15&nbsp;(34),&nbsp;0&nbsp;extras<br />\r\n26.4&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;26.4&nbsp;overs,&nbsp;88&nbsp;minutes,&nbsp;14&nbsp;extras</p>\r\n",
@@ -542,7 +542,7 @@
         "id": 7325254,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/05/2026",
+        "last_updated": "17/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -585,7 +585,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<p><strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.6&nbsp;1st&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;67&nbsp;balls,&nbsp;46&nbsp;minutes,&nbsp;Aarav&nbsp;Salil&nbsp;20&nbsp;(33),&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(34),&nbsp;11&nbsp;extras<br />\r\n10.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.0&nbsp;overs,&nbsp;46&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n23.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;24.0&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;13&nbsp;extras<br />\r\n30.3&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;64&nbsp;balls,&nbsp;39&nbsp;minutes,&nbsp;Rishabh&nbsp;Upadhyay&nbsp;37&nbsp;(34),&nbsp;James&nbsp;Clifford&nbsp;12&nbsp;(30),&nbsp;4&nbsp;extras<br />\r\n32.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.3&nbsp;overs,&nbsp;127&nbsp;minutes,&nbsp;17&nbsp;extras<br />\r\n32.4&nbsp;Rishabh&nbsp;Upadhyay:&nbsp;50&nbsp;runs&nbsp;in&nbsp;45&nbsp;balls,&nbsp;58&nbsp;minutes&nbsp;(3x4,&nbsp;4x6)<br />\r\n49.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;200&nbsp;runs&nbsp;in&nbsp;49.1&nbsp;overs,&nbsp;186&nbsp;minutes,&nbsp;19&nbsp;extras<br />\r\n<br />\r\n<strong>Epping&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n12.2&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;12.1&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;14&nbsp;extras<br />\r\n26.4&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;85&nbsp;balls,&nbsp;41&nbsp;minutes,&nbsp;Bilal&nbsp;Kamal&nbsp;36&nbsp;(51),&nbsp;Shafqat&nbsp;Ullah&nbsp;15&nbsp;(34),&nbsp;0&nbsp;extras<br />\r\n26.4&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;26.4&nbsp;overs,&nbsp;88&nbsp;minutes,&nbsp;14&nbsp;extras</p>\r\n",
@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:00:55.811Z"
+    "fetched_at": "2026-05-17T04:19:47.662Z"
   },
   {
     "team": {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:00:57.204Z"
+    "fetched_at": "2026-05-17T04:19:48.708Z"
   },
   {
     "team": {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:00:58.305Z"
+    "fetched_at": "2026-05-17T04:19:49.746Z"
   },
   {
     "team": {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:00:59.530Z"
+    "fetched_at": "2026-05-17T04:19:50.796Z"
   },
   {
     "team": {
@@ -2485,7 +2485,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:01:00.963Z"
+    "fetched_at": "2026-05-17T04:19:51.800Z"
   },
   {
     "team": {
@@ -2498,7 +2498,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T00:01:01.497Z"
+    "fetched_at": "2026-05-17T04:19:52.241Z"
   },
   {
     "team": {
@@ -3130,7 +3130,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:01:02.596Z"
+    "fetched_at": "2026-05-17T04:19:53.263Z"
   },
   {
     "team": {
@@ -3143,7 +3143,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T00:01:03.098Z"
+    "fetched_at": "2026-05-17T04:19:53.703Z"
   },
   {
     "team": {
@@ -3156,7 +3156,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-17T00:01:03.620Z"
+    "fetched_at": "2026-05-17T04:19:54.140Z"
   },
   {
     "team": {
@@ -3625,6 +3625,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-17T00:01:04.795Z"
+    "fetched_at": "2026-05-17T04:19:55.190Z"
   }
 ]

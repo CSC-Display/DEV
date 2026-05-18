@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:44.025Z"
+    "fetched_at": "2026-05-18T06:20:15.787Z"
   },
   {
     "team": {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:45.017Z"
+    "fetched_at": "2026-05-18T06:20:16.828Z"
   },
   {
     "team": {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:46.013Z"
+    "fetched_at": "2026-05-18T06:20:17.821Z"
   },
   {
     "team": {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:47.038Z"
+    "fetched_at": "2026-05-18T06:20:18.801Z"
   },
   {
     "team": {
@@ -2129,7 +2129,7 @@
       "id": 7462371,
       "status": "New",
       "published": "Yes",
-      "last_updated": "17/05/2026",
+      "last_updated": "18/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2374,7 +2374,7 @@
         "id": 7462371,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/05/2026",
+        "last_updated": "18/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -2485,7 +2485,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:48.071Z"
+    "fetched_at": "2026-05-18T06:20:19.839Z"
   },
   {
     "team": {
@@ -2498,7 +2498,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-18T01:51:48.499Z"
+    "fetched_at": "2026-05-18T06:20:20.446Z"
   },
   {
     "team": {
@@ -3130,7 +3130,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:49.527Z"
+    "fetched_at": "2026-05-18T06:20:21.496Z"
   },
   {
     "team": {
@@ -3143,7 +3143,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-18T01:51:49.944Z"
+    "fetched_at": "2026-05-18T06:20:21.906Z"
   },
   {
     "team": {
@@ -3156,7 +3156,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-18T01:51:50.346Z"
+    "fetched_at": "2026-05-18T06:20:22.334Z"
   },
   {
     "team": {
@@ -3625,6 +3625,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-18T01:51:51.371Z"
+    "fetched_at": "2026-05-18T06:20:23.070Z"
   }
 ]

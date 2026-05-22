@@ -8,7 +8,7 @@
       "id": 7325254,
       "status": "New",
       "published": "Yes",
-      "last_updated": "17/05/2026",
+      "last_updated": "22/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -52,8 +52,8 @@
       "result_applied_to": "24293",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<p><strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.6&nbsp;1st&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;67&nbsp;balls,&nbsp;46&nbsp;minutes,&nbsp;Aarav&nbsp;Salil&nbsp;20&nbsp;(33),&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(34),&nbsp;11&nbsp;extras<br />\r\n10.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.0&nbsp;overs,&nbsp;46&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n23.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;24.0&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;13&nbsp;extras<br />\r\n30.3&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;64&nbsp;balls,&nbsp;39&nbsp;minutes,&nbsp;Rishabh&nbsp;Upadhyay&nbsp;37&nbsp;(34),&nbsp;James&nbsp;Clifford&nbsp;12&nbsp;(30),&nbsp;4&nbsp;extras<br />\r\n32.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.3&nbsp;overs,&nbsp;127&nbsp;minutes,&nbsp;17&nbsp;extras<br />\r\n32.4&nbsp;Rishabh&nbsp;Upadhyay:&nbsp;50&nbsp;runs&nbsp;in&nbsp;45&nbsp;balls,&nbsp;58&nbsp;minutes&nbsp;(3x4,&nbsp;4x6)<br />\r\n49.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;200&nbsp;runs&nbsp;in&nbsp;49.1&nbsp;overs,&nbsp;186&nbsp;minutes,&nbsp;19&nbsp;extras<br />\r\n<br />\r\n<strong>Epping&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n12.2&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;12.1&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;14&nbsp;extras<br />\r\n26.4&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;85&nbsp;balls,&nbsp;41&nbsp;minutes,&nbsp;Bilal&nbsp;Kamal&nbsp;36&nbsp;(51),&nbsp;Shafqat&nbsp;Ullah&nbsp;15&nbsp;(34),&nbsp;0&nbsp;extras<br />\r\n26.4&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;26.4&nbsp;overs,&nbsp;88&nbsp;minutes,&nbsp;14&nbsp;extras</p>\r\n",
       "points": [
         {
@@ -542,7 +542,7 @@
         "id": 7325254,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/05/2026",
+        "last_updated": "22/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -586,8 +586,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<p><strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.6&nbsp;1st&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;67&nbsp;balls,&nbsp;46&nbsp;minutes,&nbsp;Aarav&nbsp;Salil&nbsp;20&nbsp;(33),&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(34),&nbsp;11&nbsp;extras<br />\r\n10.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.0&nbsp;overs,&nbsp;46&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n23.6&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;24.0&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;13&nbsp;extras<br />\r\n30.3&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;64&nbsp;balls,&nbsp;39&nbsp;minutes,&nbsp;Rishabh&nbsp;Upadhyay&nbsp;37&nbsp;(34),&nbsp;James&nbsp;Clifford&nbsp;12&nbsp;(30),&nbsp;4&nbsp;extras<br />\r\n32.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.3&nbsp;overs,&nbsp;127&nbsp;minutes,&nbsp;17&nbsp;extras<br />\r\n32.4&nbsp;Rishabh&nbsp;Upadhyay:&nbsp;50&nbsp;runs&nbsp;in&nbsp;45&nbsp;balls,&nbsp;58&nbsp;minutes&nbsp;(3x4,&nbsp;4x6)<br />\r\n49.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;200&nbsp;runs&nbsp;in&nbsp;49.1&nbsp;overs,&nbsp;186&nbsp;minutes,&nbsp;19&nbsp;extras<br />\r\n<br />\r\n<strong>Epping&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n12.2&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;12.1&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;14&nbsp;extras<br />\r\n26.4&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;85&nbsp;balls,&nbsp;41&nbsp;minutes,&nbsp;Bilal&nbsp;Kamal&nbsp;36&nbsp;(51),&nbsp;Shafqat&nbsp;Ullah&nbsp;15&nbsp;(34),&nbsp;0&nbsp;extras<br />\r\n26.4&nbsp;Epping&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;26.4&nbsp;overs,&nbsp;88&nbsp;minutes,&nbsp;14&nbsp;extras</p>\r\n",
         "points": [
           {
@@ -653,7 +653,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:23.822Z"
+    "fetched_at": "2026-05-22T22:42:24.469Z"
   },
   {
     "team": {
@@ -664,7 +664,7 @@
       "id": 7325708,
       "status": "New",
       "published": "Yes",
-      "last_updated": "17/05/2026",
+      "last_updated": "22/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -708,8 +708,8 @@
       "result_applied_to": "24294",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n12.6 1st Wicket: 50 runs in 78 balls, 43 minutes, Rod Martin 19 (39), Pavan Patel 27 (39), 4 extras<br/>12.6 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 4 extras<br/>25.1 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 25.1 overs, 89 minutes, 6 extras<br/>25.4 Pavan Patel: 50 runs in 71 balls, 91 minutes (5x4)<br/>37.5 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 37.5 overs, 134 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 10 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 100 runs in 25.0 overs, 93 minutes, 20 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 150 runs in 34.4 overs, 127 minutes, 23 extras<br/>37.2 6th Wicket: 50 runs in 43 balls, 25 minutes, Mohammed Baig 9 (17), D Singireddy 41 (26), 1 extra<br/>40.1 D Singireddy: 50 runs in 35 balls, 35 minutes (5x4, 2x6)\n<br/>\n",
       "points": [
         {
@@ -1003,7 +1003,7 @@
         "id": 7325708,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/05/2026",
+        "last_updated": "22/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1047,8 +1047,8 @@
         "result_applied_to": "24294",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n12.6 1st Wicket: 50 runs in 78 balls, 43 minutes, Rod Martin 19 (39), Pavan Patel 27 (39), 4 extras<br/>12.6 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 4 extras<br/>25.1 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 25.1 overs, 89 minutes, 6 extras<br/>25.4 Pavan Patel: 50 runs in 71 balls, 91 minutes (5x4)<br/>37.5 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 37.5 overs, 134 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 10 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 100 runs in 25.0 overs, 93 minutes, 20 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 150 runs in 34.4 overs, 127 minutes, 23 extras<br/>37.2 6th Wicket: 50 runs in 43 balls, 25 minutes, Mohammed Baig 9 (17), D Singireddy 41 (26), 1 extra<br/>40.1 D Singireddy: 50 runs in 35 balls, 35 minutes (5x4, 2x6)\n<br/>\n",
         "points": [
           {
@@ -1114,7 +1114,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:24.791Z"
+    "fetched_at": "2026-05-22T22:42:25.573Z"
   },
   {
     "team": {
@@ -1125,7 +1125,7 @@
       "id": 7461826,
       "status": "New",
       "published": "Yes",
-      "last_updated": "16/05/2026",
+      "last_updated": "22/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1169,8 +1169,8 @@
       "result_applied_to": "24295",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1552,7 +1552,7 @@
         "id": 7461826,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/05/2026",
+        "last_updated": "22/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1596,8 +1596,8 @@
         "result_applied_to": "24295",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1663,7 +1663,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:25.770Z"
+    "fetched_at": "2026-05-22T22:42:26.718Z"
   },
   {
     "team": {
@@ -1674,7 +1674,7 @@
       "id": 7462100,
       "status": "New",
       "published": "Yes",
-      "last_updated": "17/05/2026",
+      "last_updated": "22/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -1718,8 +1718,8 @@
       "result_applied_to": "25628",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2007,7 +2007,7 @@
         "id": 7462100,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/05/2026",
+        "last_updated": "22/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2051,8 +2051,8 @@
         "result_applied_to": "25628",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:26.727Z"
+    "fetched_at": "2026-05-22T22:42:27.902Z"
   },
   {
     "team": {
@@ -2321,7 +2321,7 @@
         "id": 7462371,
         "status": "New",
         "published": "Yes",
-        "last_updated": "19/05/2026",
+        "last_updated": "22/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -2365,8 +2365,8 @@
         "result_applied_to": "45348",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<p>Chelmsford&nbsp;5th&nbsp;XI&nbsp;fielded&nbsp;only&nbsp;9&nbsp;players</p>\r\n",
         "points": [
           {
@@ -2505,7 +2505,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-05-22T21:39:27.672Z"
+    "fetched_at": "2026-05-22T22:42:28.986Z"
   },
   {
     "team": {
@@ -2518,7 +2518,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-22T21:39:28.072Z"
+    "fetched_at": "2026-05-22T22:42:29.472Z"
   },
   {
     "team": {
@@ -3150,7 +3150,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:29.054Z"
+    "fetched_at": "2026-05-22T22:42:30.596Z"
   },
   {
     "team": {
@@ -3163,7 +3163,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-22T21:39:29.466Z"
+    "fetched_at": "2026-05-22T22:42:31.096Z"
   },
   {
     "team": {
@@ -3176,7 +3176,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-22T21:39:29.882Z"
+    "fetched_at": "2026-05-22T22:42:31.604Z"
   },
   {
     "team": {
@@ -3645,6 +3645,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-22T21:39:30.840Z"
+    "fetched_at": "2026-05-22T22:42:32.732Z"
   }
 ]

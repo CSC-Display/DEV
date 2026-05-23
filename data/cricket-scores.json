@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
@@ -599,7 +599,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:34.564Z"
+    "fetched_at": "2026-05-23T18:48:19.148Z"
   },
   {
     "team": {
@@ -717,10 +717,10 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
-      "home_confirmed": "false",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
+      "result_applied_to": "24294",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -728,7 +728,7 @@
       "points": [
         {
           "team_id": 24294,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -739,9 +739,9 @@
           "team_id": 98793,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "5.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1169,10 +1169,10 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
-        "home_confirmed": "false",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
+        "result_applied_to": "24294",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -1180,7 +1180,7 @@
         "points": [
           {
             "team_id": 24294,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1191,9 +1191,9 @@
             "team_id": 98793,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "5.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:35.309Z"
+    "fetched_at": "2026-05-23T18:48:19.736Z"
   },
   {
     "team": {
@@ -1790,7 +1790,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:36.114Z"
+    "fetched_at": "2026-05-23T18:48:20.337Z"
   },
   {
     "team": {
@@ -2313,7 +2313,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:36.971Z"
+    "fetched_at": "2026-05-23T18:48:20.921Z"
   },
   {
     "team": {
@@ -2798,7 +2798,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:37.927Z"
+    "fetched_at": "2026-05-23T18:48:21.565Z"
   },
   {
     "team": {
@@ -2811,7 +2811,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T17:47:38.330Z"
+    "fetched_at": "2026-05-23T18:48:21.750Z"
   },
   {
     "team": {
@@ -3443,7 +3443,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:39.286Z"
+    "fetched_at": "2026-05-23T18:48:22.288Z"
   },
   {
     "team": {
@@ -3456,7 +3456,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T17:47:39.711Z"
+    "fetched_at": "2026-05-23T18:48:22.519Z"
   },
   {
     "team": {
@@ -3469,7 +3469,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T17:47:40.121Z"
+    "fetched_at": "2026-05-23T18:48:22.744Z"
   },
   {
     "team": {
@@ -3938,6 +3938,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T17:47:40.892Z"
+    "fetched_at": "2026-05-23T18:48:23.331Z"
   }
 ]

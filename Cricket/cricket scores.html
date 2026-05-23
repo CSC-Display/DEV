@@ -602,12 +602,12 @@ function isLive(match){
 
   // Explicit completed states
   const isCompleted =
-    desc.includes("won by") ||
-    desc.includes("match tied") ||
-    desc.includes("draw") ||
-    desc.includes("abandoned") ||
-    desc.includes("cancelled") ||
-    desc.includes("no result");
+  desc.includes("won") ||
+  desc.includes("tied") ||
+  desc.includes("draw") ||
+  desc.includes("abandoned") ||
+  desc.includes("cancelled") ||
+  desc.includes("no result");
 
   if (isCompleted){
     return false;

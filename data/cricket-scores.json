@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -598,7 +598,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:19.148Z"
+    "fetched_at": "2026-05-23T19:58:46.747Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:19.736Z"
+    "fetched_at": "2026-05-23T19:58:47.757Z"
   },
   {
     "team": {
@@ -1790,7 +1790,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:20.337Z"
+    "fetched_at": "2026-05-23T19:58:48.737Z"
   },
   {
     "team": {
@@ -1840,9 +1840,9 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Walthamstow CC - 3rd XI - Overs Win",
+      "result_applied_to": "29019",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1851,7 +1851,7 @@
       "points": [
         {
           "team_id": 29019,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1862,9 +1862,9 @@
           "team_id": 30461,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "4.0",
+          "bonus_points_batting": "2.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1882,6 +1882,26 @@
           "runs": "174",
           "wickets": "10",
           "overs": "36.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "29019",
+          "innings_number": 1,
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "178",
+          "wickets": "6",
+          "overs": "33",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2261,9 +2281,9 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Walthamstow CC - 3rd XI - Overs Win",
+        "result_applied_to": "29019",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2272,7 +2292,7 @@
         "points": [
           {
             "team_id": 29019,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2283,9 +2303,9 @@
             "team_id": 30461,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "4.0",
+            "bonus_points_batting": "2.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2309,11 +2329,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "45.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "29019",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "178",
+            "wickets": "6",
+            "overs": "33",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:20.921Z"
+    "fetched_at": "2026-05-23T19:58:49.726Z"
   },
   {
     "team": {
@@ -2798,7 +2838,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:21.565Z"
+    "fetched_at": "2026-05-23T19:58:50.457Z"
   },
   {
     "team": {
@@ -2811,7 +2851,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T18:48:21.750Z"
+    "fetched_at": "2026-05-23T19:58:50.872Z"
   },
   {
     "team": {
@@ -3443,7 +3483,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:22.288Z"
+    "fetched_at": "2026-05-23T19:58:51.668Z"
   },
   {
     "team": {
@@ -3456,7 +3496,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T18:48:22.519Z"
+    "fetched_at": "2026-05-23T19:58:52.092Z"
   },
   {
     "team": {
@@ -3469,7 +3509,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T18:48:22.744Z"
+    "fetched_at": "2026-05-23T19:58:52.522Z"
   },
   {
     "team": {
@@ -3938,6 +3978,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T18:48:23.331Z"
+    "fetched_at": "2026-05-23T19:58:53.513Z"
   }
 ]

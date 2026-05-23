@@ -600,14 +600,16 @@ function isLive(match){
 
   const desc = String(match.result_description || "").toLowerCase();
 
-  // Explicit completed states
+  const code = String(match.result || "").trim().toUpperCase();
+  
   const isCompleted =
-  desc.includes("won") ||
-  desc.includes("tied") ||
-  desc.includes("draw") ||
-  desc.includes("abandoned") ||
-  desc.includes("cancelled") ||
-  desc.includes("no result");
+    ["W","L","T","D","C","A","N"].includes(code) ||
+    desc.includes("won") ||
+    desc.includes("tied") ||
+    desc.includes("draw") ||
+    desc.includes("abandoned") ||
+    desc.includes("cancelled") ||
+    desc.includes("no result");
 
   if (isCompleted){
     return false;

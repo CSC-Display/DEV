@@ -557,6 +557,19 @@
     const dd = +m[1], mm = +m[2], yyyy = +m[3];
     return new Date(yyyy, mm-1, dd).getTime();
   }
+  function isTodayDMY(dmy){
+    const m = String(dmy || "").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    if (!m) return false;
+    const dd = Number(m[1]);
+    const mm = Number(m[2]) - 1;
+    const yyyy = Number(m[3]);
+    const now = new Date();
+    return (
+      now.getDate() === dd &&
+      now.getMonth() === mm &&
+      now.getFullYear() === yyyy
+    );
+  }
   function safeText(x){
     return (x === null || x === undefined || x === "") ? "—" : String(x);
   }

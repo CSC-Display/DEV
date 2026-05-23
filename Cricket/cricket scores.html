@@ -629,15 +629,14 @@ function isLive(match){
   // If today's match has score data and no completed result,
   // assume it is live
   const innings = match.innings || [];
-
-  const hasScoreData = innings.some(i =>
-    i &&
-    (
-      i.function isLive(match){runs !== "" ||
-      i.wickets !== "" ||
-      i.overs !== ""
-    )
-  );
+const hasScoreData = innings.some(i =>
+  i &&
+  (
+    i.runs !== "" ||
+    i.wickets !== "" ||
+    i.overs !== ""
+  )
+);
 
   return hasScoreData;
 }

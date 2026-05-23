@@ -590,25 +590,17 @@
       return (b.id || 0) - (a.id || 0);
     })[0] || null;
   }
-
 function isLive(match){
   if (!match) return false;
 
-  const desc = String(match.result_description || "").toLowerCase();
-
-  // Explicit live/in-progress wording from Play-Cricket
-  if (
-    desc.includes("in progress") ||
-    desc.includes("live") ||
-    desc.includes("innings break") ||
-    desc.includes("interval") ||
-    desc.includes("tea") ||
-    desc.includes("lunch")
-  ){
-    return true;
+  // Only today's matches can ever be live
+  if (!isTodayDMY(match.match_date)){
+    return false;
   }
 
-  // Genuine completed result wording
+  const desc = String(match.result_description || "").toLowerCase();
+
+  // Explicit completed states
   const isCompleted =
     desc.includes("won by") ||
     desc.includes("match tied") ||
@@ -621,14 +613,27 @@ function isLive(match){
     return false;
   }
 
+  // Explicit live wording
+  if (
+    desc.includes("in progress") ||
+    desc.includes("live") ||
+    desc.includes("innings break") ||
+    desc.includes("interval") ||
+    desc.includes("tea") ||
+    desc.includes("lunch")
+  ){
+    return true;
+  }
+
   // Fallback:
-  // if scores exist but no completed result exists, assume live
+  // If today's match has score data and no completed result,
+  // assume it is live
   const innings = match.innings || [];
 
   const hasScoreData = innings.some(i =>
     i &&
     (
-      i.runs !== "" ||
+      i.function isLive(match){runs !== "" ||
       i.wickets !== "" ||
       i.overs !== ""
     )

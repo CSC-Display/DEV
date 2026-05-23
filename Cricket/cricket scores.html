@@ -578,37 +578,81 @@
     })[0] || null;
   }
 
-  function isLive(match){
-    if (!match) return false;
-    const innings = match.innings || [];
-    const hasScoreData = innings.some(i =>
-      i &&
-      (
-        i.runs !== "" ||
-        i.wickets !== "" ||
-        i.overs !== ""
-      )
-    );
-    const hasResult =
-      (match.result_description && match.result_description !== "") ||
-      (match.result && match.result !== "") ||
-      match.result_locked === "true";
-    return hasScoreData && !hasResult;
+function isLive(match){
+  if (!match) return false;
+
+  const desc = String(match.result_description || "").toLowerCase();
+
+  // Explicit live/in-progress wording from Play-Cricket
+  if (
+    desc.includes("in progress") ||
+    desc.includes("live") ||
+    desc.includes("innings break") ||
+    desc.includes("interval") ||
+    desc.includes("tea") ||
+    desc.includes("lunch")
+  ){
+    return true;
   }
-  
-  function statusLabel(match){
-    if (!match) return "Awaiting";
-    if (isLive(match)) return "LIVE";
-    const hasResult =
-      (match.result_description && match.result_description !== "") ||
-      (match.result && match.result !== "") ||
-      match.result_locked === "true";
-    if (hasResult) return "Result";
-    return "Awaiting";
+
+  // Genuine completed result wording
+  const isCompleted =
+    desc.includes("won by") ||
+    desc.includes("match tied") ||
+    desc.includes("draw") ||
+    desc.includes("abandoned") ||
+    desc.includes("cancelled") ||
+    desc.includes("no result");
+
+  if (isCompleted){
+    return false;
   }
+
+  // Fallback:
+  // if scores exist but no completed result exists, assume live
+  const innings = match.innings || [];
+
+  const hasScoreData = innings.some(i =>
+    i &&
+    (
+      i.runs !== "" ||
+      i.wickets !== "" ||
+      i.overs !== ""
+    )
+  );
+
+  return hasScoreData;
+}
+
+function statusLabel(match){
+  if (!match) return "Awaiting";
+
+  const desc = String(match.result_description || "").toLowerCase();
+
+  if (isLive(match)){
+    return "LIVE";
+  }
+
+  const isCompleted =
+    desc.includes("won by") ||
+    desc.includes("match tied") ||
+    desc.includes("draw") ||
+    desc.includes("abandoned") ||
+    desc.includes("cancelled") ||
+    desc.includes("no result");
+
+  if (isCompleted){
+    return "Result";
+  }
+
+  return "Awaiting";
+}
 
   function outcomeForChelmsford(match, chelmsfordTeamId){
     if (!match) return { tag:"", cls:"other" };
+    if (isLive(match)){
+      return { tag:"LIVE", cls:"live" };
+    }
     const code = match.result;
     const winner = String(match.result_applied_to || "");
     const chel = String(chelmsfordTeamId);
@@ -639,8 +683,6 @@
       "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
     }[ch]));
   }
-
-
 
   // ========================
   // FORM GUIDE HELPERS
@@ -834,7 +876,7 @@
 
         <div class="match-header ${isLive(match) ? 'live' : out.cls}">
           <span class="status">${state}</span>
-          <span class="summary">${out.tag}</span>
+          <span class="summary">${isLive(match) ? "MATCH IN PROGRESS" : out.tag}</span>
         </div>
 
         <div class="teams">

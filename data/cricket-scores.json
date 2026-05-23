@@ -47,27 +47,27 @@
       "no_of_overs": "50",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
+      "result_applied_to": "24293",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra\n<br/>\n",
+      "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
       "points": [
         {
           "team_id": 28275,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "1.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -100,15 +100,15 @@
           "team_batting_id": "24293",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "2",
-          "extra_wides": "1",
+          "extra_leg_byes": "3",
+          "extra_wides": "2",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "3",
-          "runs": "71",
+          "total_extras": "5",
+          "runs": "109",
           "wickets": "4",
-          "overs": "17",
+          "overs": "28",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -595,27 +595,27 @@
         "no_of_overs": "50",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
+        "result_applied_to": "24293",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra\n<br/>\n",
+        "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
         "points": [
           {
             "team_id": 28275,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "1.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -648,15 +648,15 @@
             "team_batting_id": "24293",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "2",
-            "extra_wides": "1",
+            "extra_leg_byes": "3",
+            "extra_wides": "2",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "3",
-            "runs": "71",
+            "total_extras": "5",
+            "runs": "109",
             "wickets": "4",
-            "overs": "17",
+            "overs": "28",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:39.782Z"
+    "fetched_at": "2026-05-23T15:44:05.507Z"
   },
   {
     "team": {
@@ -770,15 +770,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "8",
-          "extra_leg_byes": "1",
-          "extra_wides": "4",
+          "extra_leg_byes": "3",
+          "extra_wides": "8",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "15",
-          "runs": "70",
-          "wickets": "1",
-          "overs": "8.0",
+          "total_extras": "21",
+          "runs": "133",
+          "wickets": "2",
+          "overs": "21.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1211,15 +1211,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "8",
-            "extra_leg_byes": "1",
-            "extra_wides": "4",
+            "extra_leg_byes": "3",
+            "extra_wides": "8",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "15",
-            "runs": "70",
-            "wickets": "1",
-            "overs": "8.0",
+            "total_extras": "21",
+            "runs": "133",
+            "wickets": "2",
+            "overs": "21.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1230,7 +1230,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:41.170Z"
+    "fetched_at": "2026-05-23T15:44:06.340Z"
   },
   {
     "team": {
@@ -1779,7 +1779,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:42.163Z"
+    "fetched_at": "2026-05-23T15:44:08.164Z"
   },
   {
     "team": {
@@ -2302,7 +2302,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:43.105Z"
+    "fetched_at": "2026-05-23T15:44:09.296Z"
   },
   {
     "team": {
@@ -2352,9 +2352,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "result_applied_to": "45348",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2363,7 +2363,7 @@
       "points": [
         {
           "team_id": 45348,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2374,9 +2374,9 @@
           "team_id": 22637,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "2.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2404,16 +2404,16 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "1",
+          "extra_byes": "4",
           "extra_leg_byes": "2",
-          "extra_wides": "3",
-          "extra_no_balls": "2",
+          "extra_wides": "6",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "56",
-          "wickets": "3",
-          "overs": "15.0",
+          "total_extras": "15",
+          "runs": "86",
+          "wickets": "5",
+          "overs": "19.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2715,9 +2715,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+        "result_applied_to": "45348",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2726,7 +2726,7 @@
         "points": [
           {
             "team_id": 45348,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2737,9 +2737,9 @@
             "team_id": 22637,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "2.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2767,16 +2767,16 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "1",
+            "extra_byes": "4",
             "extra_leg_byes": "2",
-            "extra_wides": "3",
-            "extra_no_balls": "2",
+            "extra_wides": "6",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "56",
-            "wickets": "3",
-            "overs": "15.0",
+            "total_extras": "15",
+            "runs": "86",
+            "wickets": "5",
+            "overs": "19.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2787,7 +2787,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:44.133Z"
+    "fetched_at": "2026-05-23T15:44:10.269Z"
   },
   {
     "team": {
@@ -2800,7 +2800,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T14:53:44.558Z"
+    "fetched_at": "2026-05-23T15:44:10.756Z"
   },
   {
     "team": {
@@ -3432,7 +3432,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:46.096Z"
+    "fetched_at": "2026-05-23T15:44:12.014Z"
   },
   {
     "team": {
@@ -3445,7 +3445,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T14:53:46.582Z"
+    "fetched_at": "2026-05-23T15:44:12.497Z"
   },
   {
     "team": {
@@ -3458,7 +3458,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T14:53:47.525Z"
+    "fetched_at": "2026-05-23T15:44:13.069Z"
   },
   {
     "team": {
@@ -3927,6 +3927,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T14:53:48.762Z"
+    "fetched_at": "2026-05-23T15:44:13.954Z"
   }
 ]

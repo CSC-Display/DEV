@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:05.507Z"
+    "fetched_at": "2026-05-23T16:43:54.488Z"
   },
   {
     "team": {
@@ -770,15 +770,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "8",
-          "extra_leg_byes": "3",
-          "extra_wides": "8",
-          "extra_no_balls": "2",
+          "extra_leg_byes": "5",
+          "extra_wides": "21",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "21",
-          "runs": "133",
-          "wickets": "2",
-          "overs": "21.0",
+          "total_extras": "37",
+          "runs": "228",
+          "wickets": "4",
+          "overs": "33.1",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -789,7 +789,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Thomas Duxson",
+          "score": 70,
+          "notOut": true
+        },
+        {
+          "name": "Elliot Wenzel",
+          "score": 64,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -1211,15 +1222,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "8",
-            "extra_leg_byes": "3",
-            "extra_wides": "8",
-            "extra_no_balls": "2",
+            "extra_leg_byes": "5",
+            "extra_wides": "21",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "21",
-            "runs": "133",
-            "wickets": "2",
-            "overs": "21.0",
+            "total_extras": "37",
+            "runs": "228",
+            "wickets": "4",
+            "overs": "33.1",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1230,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:06.340Z"
+    "fetched_at": "2026-05-23T16:43:55.539Z"
   },
   {
     "team": {
@@ -1779,7 +1790,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:08.164Z"
+    "fetched_at": "2026-05-23T16:43:56.774Z"
   },
   {
     "team": {
@@ -2302,7 +2313,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:09.296Z"
+    "fetched_at": "2026-05-23T16:43:57.665Z"
   },
   {
     "team": {
@@ -2787,7 +2798,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:10.269Z"
+    "fetched_at": "2026-05-23T16:43:59.240Z"
   },
   {
     "team": {
@@ -2800,7 +2811,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T15:44:10.756Z"
+    "fetched_at": "2026-05-23T16:43:59.765Z"
   },
   {
     "team": {
@@ -3432,7 +3443,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:12.014Z"
+    "fetched_at": "2026-05-23T16:44:01.376Z"
   },
   {
     "team": {
@@ -3445,7 +3456,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T15:44:12.497Z"
+    "fetched_at": "2026-05-23T16:44:01.862Z"
   },
   {
     "team": {
@@ -3458,7 +3469,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-23T15:44:13.069Z"
+    "fetched_at": "2026-05-23T16:44:02.618Z"
   },
   {
     "team": {
@@ -3927,6 +3938,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-23T15:44:13.954Z"
+    "fetched_at": "2026-05-23T16:44:04.032Z"
   }
 ]

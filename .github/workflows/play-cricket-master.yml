@@ -5,7 +5,17 @@ env:
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 mins (base trigger)
+    # Live scores every 10 minutes
+    - cron: "*/10 * * * *"
+
+    # Full refreshes at:
+    # 7am BST  = 06:00 UTC
+    # 6pm BST  = 17:00 UTC
+    # 11pm BST = 22:00 UTC
+    - cron: "0 6 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 22 * * *"
+
   workflow_dispatch:
 
 concurrency:
@@ -30,34 +40,29 @@ jobs:
           node-version: "24"
 
       ##########################################################
-      # Determine schedule bucket
+      # DETERMINE RUN TYPE
       ##########################################################
-      - name: Determine schedule bucket
+
+      - name: Determine refresh type
         id: schedule
         run: |
-          HOUR=$(date -u +"%H")
-          MINUTE=$(date -u +"%M")
+          CRON="${{ github.event.schedule }}"
 
-          echo "hour=$HOUR" >> $GITHUB_OUTPUT
-          echo "minute=$MINUTE" >> $GITHUB_OUTPUT
+          echo "cron=$CRON"
 
-          # hourly bucket (league tables)
-          if [ "$MINUTE" = "00" ]; then
-            echo "run_hourly=true" >> $GITHUB_OUTPUT
+          # Full refresh times
+          if [ "$CRON" = "0 6 * * *" ] || \
+             [ "$CRON" = "0 17 * * *" ] || \
+             [ "$CRON" = "0 22 * * *" ]; then
+            echo "run_full=true" >> $GITHUB_OUTPUT
           else
-            echo "run_hourly=false" >> $GITHUB_OUTPUT
-          fi
-
-          # daily fixtures at 07:00 UTC
-          if [ "$HOUR" = "07" ] && [ "$MINUTE" = "00" ]; then
-            echo "run_daily=true" >> $GITHUB_OUTPUT
-          else
-            echo "run_daily=false" >> $GITHUB_OUTPUT
+            echo "run_full=false" >> $GITHUB_OUTPUT
           fi
 
       ##########################################################
       # SAFE NODE EXECUTION WRAPPER
       ##########################################################
+
       - name: Create retry helper
         run: |
           cat << 'EOF' > retry.sh
@@ -90,38 +95,36 @@ jobs:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
         run: ./retry.sh node scripts/fetch-cricket-scores.mjs
 
-      - name: Fetch club statistics (frequent)
+      ##########################################################
+      # FULL REFRESHES ONLY
+      ##########################################################
+
+      - name: Fetch league tables
+        if: steps.schedule.outputs.run_full == 'true'
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/fetch-league-tables.mjs
+
+      - name: Fetch latest cricket fixtures
+        if: steps.schedule.outputs.run_full == 'true'
+        env:
+          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
+        run: ./retry.sh node scripts/fetch-cricket-fixtures.mjs
+
+      - name: Fetch club statistics
+        if: steps.schedule.outputs.run_full == 'true'
         env:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
         run: ./retry.sh node scripts/fetch-club-statistics.mjs
 
-      - name: Generate player highlights (frequent)
+      - name: Generate player highlights
+        if: steps.schedule.outputs.run_full == 'true'
         env:
           PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
         run: ./retry.sh node scripts/generate-cricket-player-season-highlights.mjs
 
       ##########################################################
-      # HOURLY ONLY (league tables)
-      ##########################################################
-
-      - name: Generate league tables JSON
-        if: steps.schedule.outputs.run_hourly == 'true'
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: ./retry.sh node scripts/fetch-league-tables.mjs
-
-      ##########################################################
-      # DAILY ONLY (fixtures)
-      ##########################################################
-
-      - name: Fetch latest cricket fixtures
-        if: steps.schedule.outputs.run_daily == 'true'
-        env:
-          PLAY_CRICKET_KEY: ${{ secrets.PLAY_CRICKET_KEY }}
-        run: ./retry.sh node scripts/fetch-cricket-fixtures.mjs
-
-      ##########################################################
-      # SMART GIT COMMIT (per-file skip if unchanged)
+      # COMMIT CHANGES
       ##########################################################
 
       - name: Commit changes (only if needed)
@@ -129,13 +132,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          # Stage all JSON outputs
           git add data/
 
-          # Reliable check: are there ANY staged changes?
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -144,10 +142,10 @@ jobs:
           git commit -m "Update Play-Cricket data"
 
       ##########################################################
-      # PUSH ONLY IF NEEDED
+      # PUSH CHANGES
       ##########################################################
 
       - name: Push changes
         run: |
           git pull --rebase origin main
-          git push origin HEAD:main || true
+          git push origin HEAD:main

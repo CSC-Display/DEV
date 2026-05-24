@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:00:11.133Z",
+  "generated_at": "2026-05-24T17:51:25.651Z",
   "season": "2026",
   "centuries": [
     {
@@ -80,6 +80,17 @@
       "opposition": "Billericay CC 4th XI",
       "date": "09/05/2026",
       "match_id": 7462095
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 77,
+      "score": "77",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Wivenhoe Town CC Sunday XI",
+      "date": "24/05/2026",
+      "match_id": 7507126
     },
     {
       "player": "Ben Lawrence",

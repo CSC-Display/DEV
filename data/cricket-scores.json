@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:34.129Z"
+    "fetched_at": "2026-05-25T16:27:24.742Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:35.121Z"
+    "fetched_at": "2026-05-25T16:27:26.260Z"
   },
   {
     "team": {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:36.165Z"
+    "fetched_at": "2026-05-25T16:27:27.752Z"
   },
   {
     "team": {
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:37.087Z"
+    "fetched_at": "2026-05-25T16:27:29.279Z"
   },
   {
     "team": {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:38.055Z"
+    "fetched_at": "2026-05-25T16:27:30.767Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-25T14:02:38.474Z"
+    "fetched_at": "2026-05-25T16:27:31.428Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:39.440Z"
+    "fetched_at": "2026-05-25T16:27:32.517Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-25T14:02:39.859Z"
+    "fetched_at": "2026-05-25T16:27:32.792Z"
   },
   {
     "team": {
@@ -3701,9 +3701,9 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Twenty20 - Won",
+      "result_applied_to": "133549",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3736,14 +3736,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "1",
-          "extra_wides": "1",
-          "extra_no_balls": "0",
+          "extra_wides": "5",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "2",
-          "runs": "53",
-          "wickets": "2",
-          "overs": "5.0",
+          "total_extras": "7",
+          "runs": "154",
+          "wickets": "10",
+          "overs": "18.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3766,7 +3766,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Ben Clifford",
+          "w": 4,
+          "r": "21"
+        }
+      ]
     },
     "form": [
       {
@@ -3812,9 +3818,9 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Twenty20 - Won",
+        "result_applied_to": "133549",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3847,14 +3853,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "1",
-            "extra_wides": "1",
-            "extra_no_balls": "0",
+            "extra_wides": "5",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "2",
-            "runs": "53",
-            "wickets": "2",
-            "overs": "5.0",
+            "total_extras": "7",
+            "runs": "154",
+            "wickets": "10",
+            "overs": "18.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3865,7 +3871,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:40.817Z"
+    "fetched_at": "2026-05-25T16:27:34.308Z"
   },
   {
     "team": {
@@ -4334,6 +4340,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T14:02:41.784Z"
+    "fetched_at": "2026-05-25T16:27:35.785Z"
   }
 ]

@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:08.221Z"
+    "fetched_at": "2026-05-25T12:15:10.416Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:09.652Z"
+    "fetched_at": "2026-05-25T12:15:11.877Z"
   },
   {
     "team": {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:11.117Z"
+    "fetched_at": "2026-05-25T12:15:12.989Z"
   },
   {
     "team": {
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:12.527Z"
+    "fetched_at": "2026-05-25T12:15:15.124Z"
   },
   {
     "team": {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:13.562Z"
+    "fetched_at": "2026-05-25T12:15:16.918Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-25T10:50:13.825Z"
+    "fetched_at": "2026-05-25T12:15:17.163Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:15.268Z"
+    "fetched_at": "2026-05-25T12:15:18.706Z"
   },
   {
     "team": {
@@ -3651,20 +3651,170 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-25T10:50:15.932Z"
+    "fetched_at": "2026-05-25T12:15:19.381Z"
   },
   {
     "team": {
       "name": "Twenty20",
       "id": 133549
     },
-    "match": null,
+    "match": {
+      "id": 7236815,
+      "status": "New",
+      "published": "Yes",
+      "last_updated": "25/05/2026",
+      "league_name": "Essex League",
+      "league_id": "7300",
+      "competition_name": "Dukes Essex Twenty20 Cup",
+      "competition_id": "68991",
+      "competition_type": "Cup",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "countdown_cricket": "no",
+      "match_date": "25/05/2026",
+      "match_time": "13:00",
+      "ground_name": "Upminster Park",
+      "ground_id": "14117",
+      "home_team_name": "Twenty20",
+      "home_team_id": "133549",
+      "home_club_name": "Chelmsford CC",
+      "home_club_id": "1786",
+      "away_team_name": "1st XI",
+      "away_team_id": "110451",
+      "away_club_name": "Gidea Park & Romford CC",
+      "away_club_id": "164",
+      "umpire_1_name": "Keith Oram",
+      "umpire_1_id": "4173431",
+      "umpire_2_name": "",
+      "umpire_2_id": "",
+      "umpire_3_name": "",
+      "umpire_3_id": "",
+      "referee_name": "",
+      "referee_id": "",
+      "scorer_1_name": "Richo Sasimohan",
+      "scorer_1_id": "6937570",
+      "scorer_2_name": "Peter Collier",
+      "scorer_2_id": "5407783",
+      "toss_won_by_team_id": "133549",
+      "toss": "Chelmsford CC - Twenty20 won the toss and elected to bat",
+      "batted_first": "133549",
+      "no_of_overs": "",
+      "balls_per_innings": "",
+      "no_of_innings": "1",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
+      "match_notes": "",
+      "points": [],
+      "innings": [
+        {
+          "team_batting_id": "133549",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "22",
+          "wickets": "0",
+          "overs": "2",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "20.0",
+          "revised_target_balls": ""
+        }
+      ]
+    },
     "perf": {
       "runs": [],
       "wickets": []
     },
-    "form": [],
-    "fetched_at": "2026-05-25T10:50:16.200Z"
+    "form": [
+      {
+        "id": 7236815,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "25/05/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Dukes Essex Twenty20 Cup",
+        "competition_id": "68991",
+        "competition_type": "Cup",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "25/05/2026",
+        "match_time": "13:00",
+        "ground_name": "Upminster Park",
+        "ground_id": "14117",
+        "home_team_name": "Twenty20",
+        "home_team_id": "133549",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "1st XI",
+        "away_team_id": "110451",
+        "away_club_name": "Gidea Park & Romford CC",
+        "away_club_id": "164",
+        "umpire_1_name": "Keith Oram",
+        "umpire_1_id": "4173431",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "Richo Sasimohan",
+        "scorer_1_id": "6937570",
+        "scorer_2_name": "Peter Collier",
+        "scorer_2_id": "5407783",
+        "toss_won_by_team_id": "133549",
+        "toss": "Chelmsford CC - Twenty20 won the toss and elected to bat",
+        "batted_first": "133549",
+        "no_of_overs": "",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [],
+        "innings": [
+          {
+            "team_batting_id": "133549",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "22",
+            "wickets": "0",
+            "overs": "2",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          }
+        ]
+      }
+    ],
+    "fetched_at": "2026-05-25T12:15:21.359Z"
   },
   {
     "team": {
@@ -4133,6 +4283,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-25T10:50:17.692Z"
+    "fetched_at": "2026-05-25T12:15:22.677Z"
   }
 ]

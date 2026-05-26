@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:29.631Z"
+    "fetched_at": "2026-05-26T16:36:59.340Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:30.197Z"
+    "fetched_at": "2026-05-26T16:37:00.294Z"
   },
   {
     "team": {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:30.751Z"
+    "fetched_at": "2026-05-26T16:37:01.253Z"
   },
   {
     "team": {
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:31.306Z"
+    "fetched_at": "2026-05-26T16:37:02.200Z"
   },
   {
     "team": {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:31.836Z"
+    "fetched_at": "2026-05-26T16:37:03.145Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T12:49:32.027Z"
+    "fetched_at": "2026-05-26T16:37:03.565Z"
   },
   {
     "team": {
@@ -2987,7 +2987,7 @@
       "id": 7507126,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3016,8 +3016,8 @@
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "",
-      "scorer_1_id": "",
+      "scorer_1_name": "John Graham",
+      "scorer_1_id": "5962869",
       "scorer_2_name": "",
       "scorer_2_id": "",
       "toss_won_by_team_id": "207268",
@@ -3527,7 +3527,7 @@
         "id": 7507126,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3556,8 +3556,8 @@
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "John Graham",
+        "scorer_1_id": "5962869",
         "scorer_2_name": "",
         "scorer_2_id": "",
         "toss_won_by_team_id": "207268",
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:32.562Z"
+    "fetched_at": "2026-05-26T16:37:04.528Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T12:49:32.796Z"
+    "fetched_at": "2026-05-26T16:37:04.944Z"
   },
   {
     "team": {
@@ -3955,7 +3955,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:33.329Z"
+    "fetched_at": "2026-05-26T16:37:05.894Z"
   },
   {
     "team": {
@@ -4424,6 +4424,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T12:49:33.862Z"
+    "fetched_at": "2026-05-26T16:37:06.871Z"
   }
 ]

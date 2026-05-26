@@ -8,7 +8,7 @@
       "id": 7325263,
       "status": "New",
       "published": "Yes",
-      "last_updated": "23/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -556,7 +556,7 @@
         "id": 7325263,
         "status": "New",
         "published": "Yes",
-        "last_updated": "23/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:08.367Z"
+    "fetched_at": "2026-05-26T10:08:10.713Z"
   },
   {
     "team": {
@@ -678,7 +678,7 @@
       "id": 7325713,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1130,7 +1130,7 @@
         "id": 7325713,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:09.297Z"
+    "fetched_at": "2026-05-26T10:08:12.250Z"
   },
   {
     "team": {
@@ -1252,7 +1252,7 @@
       "id": 7461835,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1804,7 +1804,7 @@
         "id": 7461835,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:10.604Z"
+    "fetched_at": "2026-05-26T10:08:13.377Z"
   },
   {
     "team": {
@@ -1926,7 +1926,7 @@
       "id": 7462103,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2367,7 +2367,7 @@
         "id": 7462103,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:11.509Z"
+    "fetched_at": "2026-05-26T10:08:14.888Z"
   },
   {
     "team": {
@@ -2489,7 +2489,7 @@
       "id": 7462380,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2852,7 +2852,7 @@
         "id": 7462380,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:12.231Z"
+    "fetched_at": "2026-05-26T10:08:16.397Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T09:30:12.739Z"
+    "fetched_at": "2026-05-26T10:08:17.120Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:13.604Z"
+    "fetched_at": "2026-05-26T10:08:18.644Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T09:30:13.857Z"
+    "fetched_at": "2026-05-26T10:08:19.317Z"
   },
   {
     "team": {
@@ -3704,7 +3704,7 @@
       "result": "W",
       "result_description": "Upminster CC - Men's 1st XI - T20 - Won",
       "result_applied_to": "75924",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -3899,7 +3899,7 @@
         "result": "W",
         "result_description": "Upminster CC - Men's 1st XI - T20 - Won",
         "result_applied_to": "75924",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -3949,7 +3949,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:14.983Z"
+    "fetched_at": "2026-05-26T10:08:20.790Z"
   },
   {
     "team": {
@@ -4418,6 +4418,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T09:30:16.129Z"
+    "fetched_at": "2026-05-26T10:08:21.487Z"
   }
 ]

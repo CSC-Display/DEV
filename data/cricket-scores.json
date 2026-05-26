@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:20.033Z"
+    "fetched_at": "2026-05-26T09:30:08.367Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:21.160Z"
+    "fetched_at": "2026-05-26T09:30:09.297Z"
   },
   {
     "team": {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:22.277Z"
+    "fetched_at": "2026-05-26T09:30:10.604Z"
   },
   {
     "team": {
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:23.385Z"
+    "fetched_at": "2026-05-26T09:30:11.509Z"
   },
   {
     "team": {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:24.520Z"
+    "fetched_at": "2026-05-26T09:30:12.231Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T05:54:25.025Z"
+    "fetched_at": "2026-05-26T09:30:12.739Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:26.164Z"
+    "fetched_at": "2026-05-26T09:30:13.604Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T05:54:26.667Z"
+    "fetched_at": "2026-05-26T09:30:13.857Z"
   },
   {
     "team": {
@@ -3741,9 +3741,9 @@
           "extra_penalty_runs": "",
           "penalties_runs_awarded_in_other_innings": "",
           "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
+          "runs": "198",
+          "wickets": "9",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3762,7 +3762,7 @@
         "id": 7236815,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex Twenty20 Cup",
@@ -3785,8 +3785,8 @@
         "away_club_id": "164",
         "umpire_1_name": "Keith Oram",
         "umpire_1_id": "4173431",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
+        "umpire_2_name": "David Skinner",
+        "umpire_2_id": "4374622",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
@@ -3805,7 +3805,7 @@
         "result_description": "Chelmsford CC - Twenty20 - Won",
         "result_applied_to": "133549",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3936,9 +3936,9 @@
             "extra_penalty_runs": "",
             "penalties_runs_awarded_in_other_innings": "",
             "total_extras": "",
-            "runs": "",
-            "wickets": "",
-            "overs": "",
+            "runs": "198",
+            "wickets": "9",
+            "overs": "20",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3949,7 +3949,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:27.767Z"
+    "fetched_at": "2026-05-26T09:30:14.983Z"
   },
   {
     "team": {
@@ -3960,7 +3960,7 @@
       "id": 7399547,
       "status": "New",
       "published": "Yes",
-      "last_updated": "16/05/2026",
+      "last_updated": "26/05/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -4004,7 +4004,7 @@
       "result_applied_to": "213007",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -4307,7 +4307,7 @@
         "id": 7399547,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/05/2026",
+        "last_updated": "26/05/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -4351,7 +4351,7 @@
         "result_applied_to": "213007",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -4418,6 +4418,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T05:54:28.901Z"
+    "fetched_at": "2026-05-26T09:30:16.129Z"
   }
 ]

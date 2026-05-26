@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:36:59.340Z"
+    "fetched_at": "2026-05-26T19:08:49.552Z"
   },
   {
     "team": {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:00.294Z"
+    "fetched_at": "2026-05-26T19:08:50.538Z"
   },
   {
     "team": {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:01.253Z"
+    "fetched_at": "2026-05-26T19:08:51.479Z"
   },
   {
     "team": {
@@ -1969,7 +1969,7 @@
       "result_description": "Walthamstow CC - 3rd XI - Overs Win",
       "result_applied_to": "29019",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2410,7 +2410,7 @@
         "result_description": "Walthamstow CC - 3rd XI - Overs Win",
         "result_applied_to": "29019",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:02.200Z"
+    "fetched_at": "2026-05-26T19:08:52.501Z"
   },
   {
     "team": {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:03.145Z"
+    "fetched_at": "2026-05-26T19:08:53.469Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T16:37:03.565Z"
+    "fetched_at": "2026-05-26T19:08:53.884Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:04.528Z"
+    "fetched_at": "2026-05-26T19:08:54.911Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-26T16:37:04.944Z"
+    "fetched_at": "2026-05-26T19:08:55.340Z"
   },
   {
     "team": {
@@ -3955,7 +3955,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:05.894Z"
+    "fetched_at": "2026-05-26T19:08:56.380Z"
   },
   {
     "team": {
@@ -4424,6 +4424,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-26T16:37:06.871Z"
+    "fetched_at": "2026-05-26T19:08:57.378Z"
   }
 ]

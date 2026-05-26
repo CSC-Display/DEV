@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T09:30:49.175Z",
+  "generated_at": "2026-05-26T19:13:46.821Z",
   "season": "2026",
   "centuries": [
     {
@@ -223,6 +223,17 @@
       "opposition": "Harold Wood CC 4th XI",
       "date": "02/05/2026",
       "match_id": 7262197
+    },
+    {
+      "player": "Thomas Duxson",
+      "runs": 58,
+      "score": "58",
+      "not_out": false,
+      "team": "Twenty20",
+      "team_id": 133549,
+      "opposition": "Upminster CC Men's 1st XI - T20",
+      "date": "25/05/2026",
+      "match_id": 7697883
     },
     {
       "player": "Aarav Salil",

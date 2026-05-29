@@ -8,7 +8,7 @@
       "id": 7325263,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -52,8 +52,8 @@
       "result_applied_to": "24293",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
       "points": [
         {
@@ -556,7 +556,7 @@
         "id": 7325263,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -600,8 +600,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n14.1 Buckhurst Hill CC Saturday 1st XI: 50 runs in 14.1 overs, 60 minutes, 4 extras<br/>30.2 Buckhurst Hill CC Saturday 1st XI: 100 runs in 30.2 overs, 112 minutes, 6 extras<br/>33.2 9th Wicket: 50 runs in 106 balls, 52 minutes, Daniel Parkinson 36 (72), Prahathen Jayarooban 12 (34), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 1st Wicket: 50 runs in 57 balls, 37 minutes, Aarav Salil 16 (24), Jack Sterland 33 (33), 1 extra<br/>9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>25.7 Chelmsford CC Sat 1st XI: 100 runs in 26.0 overs, 98 minutes, 5 extras\n<br/>\n",
         "points": [
           {
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:49.282Z"
+    "fetched_at": "2026-05-29T22:41:53.152Z"
   },
   {
     "team": {
@@ -678,7 +678,7 @@
       "id": 7325713,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -722,8 +722,8 @@
       "result_applied_to": "24294",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1130,7 +1130,7 @@
         "id": 7325713,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1174,8 +1174,8 @@
         "result_applied_to": "24294",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1241,7 +1241,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:50.549Z"
+    "fetched_at": "2026-05-29T22:41:54.127Z"
   },
   {
     "team": {
@@ -1252,7 +1252,7 @@
       "id": 7461835,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1296,8 +1296,8 @@
       "result_applied_to": "19019",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1804,7 +1804,7 @@
         "id": 7461835,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1848,8 +1848,8 @@
         "result_applied_to": "19019",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1915,7 +1915,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:51.689Z"
+    "fetched_at": "2026-05-29T22:41:54.881Z"
   },
   {
     "team": {
@@ -1926,7 +1926,7 @@
       "id": 7462103,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -1970,8 +1970,8 @@
       "result_applied_to": "29019",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2367,7 +2367,7 @@
         "id": 7462103,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2411,8 +2411,8 @@
         "result_applied_to": "29019",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:52.819Z"
+    "fetched_at": "2026-05-29T22:41:55.850Z"
   },
   {
     "team": {
@@ -2489,7 +2489,7 @@
       "id": 7462380,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2533,8 +2533,8 @@
       "result_applied_to": "45348",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2852,7 +2852,7 @@
         "id": 7462380,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -2896,8 +2896,8 @@
         "result_applied_to": "45348",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2963,7 +2963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:53.956Z"
+    "fetched_at": "2026-05-29T22:41:56.826Z"
   },
   {
     "team": {
@@ -2976,7 +2976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-29T21:03:54.433Z"
+    "fetched_at": "2026-05-29T22:41:57.257Z"
   },
   {
     "team": {
@@ -3638,7 +3638,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:55.608Z"
+    "fetched_at": "2026-05-29T22:41:58.039Z"
   },
   {
     "team": {
@@ -3651,7 +3651,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-29T21:03:56.103Z"
+    "fetched_at": "2026-05-29T22:41:58.465Z"
   },
   {
     "team": {
@@ -3662,7 +3662,7 @@
       "id": 7697883,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "29/05/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Dukes Essex Twenty20 Cup",
@@ -3705,7 +3705,7 @@
       "result_description": "Upminster CC - Men's 1st XI - T20 - Won",
       "result_applied_to": "75924",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3863,7 +3863,7 @@
         "id": 7697883,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "29/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex Twenty20 Cup",
@@ -3906,7 +3906,7 @@
         "result_description": "Upminster CC - Men's 1st XI - T20 - Won",
         "result_applied_to": "75924",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3955,7 +3955,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:57.283Z"
+    "fetched_at": "2026-05-29T22:41:59.402Z"
   },
   {
     "team": {
@@ -4424,6 +4424,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-29T21:03:58.432Z"
+    "fetched_at": "2026-05-29T22:42:00.379Z"
   }
 ]

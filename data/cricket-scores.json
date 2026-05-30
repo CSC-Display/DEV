@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras\n<br/>\n",
+      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -81,14 +81,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "1",
-          "extra_wides": "8",
+          "extra_wides": "9",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "11",
-          "runs": "61",
-          "wickets": "4",
-          "overs": "18",
+          "total_extras": "12",
+          "runs": "111",
+          "wickets": "10",
+          "overs": "41.4",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -104,7 +104,12 @@
         {
           "name": "James Clifford",
           "w": 3,
-          "r": "8"
+          "r": "15"
+        },
+        {
+          "name": "Jack Parrish",
+          "w": 3,
+          "r": "18"
         }
       ]
     },
@@ -596,7 +601,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras\n<br/>\n",
+        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -623,14 +628,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "1",
-            "extra_wides": "8",
+            "extra_wides": "9",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "11",
-            "runs": "61",
-            "wickets": "4",
-            "overs": "18",
+            "total_extras": "12",
+            "runs": "111",
+            "wickets": "10",
+            "overs": "41.4",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -641,7 +646,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:00.693Z"
+    "fetched_at": "2026-05-30T13:44:23.921Z"
   },
   {
     "team": {
@@ -698,7 +703,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n",
       "points": [
         {
           "team_id": 31316,
@@ -724,15 +729,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "1",
-          "extra_wides": "9",
-          "extra_no_balls": "1",
+          "extra_leg_byes": "4",
+          "extra_wides": "17",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "11",
-          "runs": "75",
-          "wickets": "3",
-          "overs": "18",
+          "total_extras": "23",
+          "runs": "254",
+          "wickets": "7",
+          "overs": "40",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -743,7 +748,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Elliot Wenzel",
+          "score": 83,
+          "notOut": false
+        },
+        {
+          "name": "Harry Green",
+          "score": 79,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -1233,7 +1249,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n",
         "points": [
           {
             "team_id": 31316,
@@ -1259,15 +1275,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "1",
-            "extra_wides": "9",
-            "extra_no_balls": "1",
+            "extra_leg_byes": "4",
+            "extra_wides": "17",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "11",
-            "runs": "75",
-            "wickets": "3",
-            "overs": "18",
+            "total_extras": "23",
+            "runs": "254",
+            "wickets": "7",
+            "overs": "40",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1278,7 +1294,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:01.504Z"
+    "fetched_at": "2026-05-30T13:44:25.414Z"
   },
   {
     "team": {
@@ -1362,14 +1378,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "5",
-          "extra_wides": "1",
-          "extra_no_balls": "3",
+          "extra_wides": "3",
+          "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "9",
-          "runs": "59",
-          "wickets": "2",
-          "overs": "16.0",
+          "total_extras": "12",
+          "runs": "171",
+          "wickets": "5",
+          "overs": "35.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1380,7 +1396,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "George Wilson",
+          "score": 74,
+          "notOut": false
+        },
+        {
+          "name": "Ben Lawrence",
+          "score": 56,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -1897,14 +1924,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "5",
-            "extra_wides": "1",
-            "extra_no_balls": "3",
+            "extra_wides": "3",
+            "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "9",
-            "runs": "59",
-            "wickets": "2",
-            "overs": "16.0",
+            "total_extras": "12",
+            "runs": "171",
+            "wickets": "5",
+            "overs": "35.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1915,7 +1942,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:02.137Z"
+    "fetched_at": "2026-05-30T13:44:26.793Z"
   },
   {
     "team": {
@@ -1997,6 +2024,26 @@
         {
           "team_batting_id": "30461",
           "innings_number": 1,
+          "extra_byes": "3",
+          "extra_leg_byes": "2",
+          "extra_wides": "3",
+          "extra_no_balls": "2",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "10",
+          "runs": "148",
+          "wickets": "9",
+          "overs": "30.3",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "19811",
+          "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
@@ -2004,9 +2051,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "0",
-          "runs": "0",
+          "runs": "10",
           "wickets": "0",
-          "overs": "0.0",
+          "overs": "1.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2017,7 +2064,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Jason Lofthouse",
+          "score": 50,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -2532,6 +2585,26 @@
           {
             "team_batting_id": "30461",
             "innings_number": 1,
+            "extra_byes": "3",
+            "extra_leg_byes": "2",
+            "extra_wides": "3",
+            "extra_no_balls": "2",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "10",
+            "runs": "148",
+            "wickets": "9",
+            "overs": "30.3",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "19811",
+            "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
@@ -2539,9 +2612,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "0",
-            "runs": "0",
+            "runs": "10",
             "wickets": "0",
-            "overs": "0.0",
+            "overs": "1.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2552,7 +2625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:02.833Z"
+    "fetched_at": "2026-05-30T13:44:29.097Z"
   },
   {
     "team": {
@@ -2634,16 +2707,16 @@
         {
           "team_batting_id": "25531",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "3",
-          "extra_no_balls": "2",
+          "extra_byes": "6",
+          "extra_leg_byes": "1",
+          "extra_wides": "15",
+          "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "81",
-          "wickets": "1",
-          "overs": "16.0",
+          "total_extras": "26",
+          "runs": "242",
+          "wickets": "3",
+          "overs": "32.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3075,16 +3148,16 @@
           {
             "team_batting_id": "25531",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "3",
-            "extra_no_balls": "2",
+            "extra_byes": "6",
+            "extra_leg_byes": "1",
+            "extra_wides": "15",
+            "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "81",
-            "wickets": "1",
-            "overs": "16.0",
+            "total_extras": "26",
+            "runs": "242",
+            "wickets": "3",
+            "overs": "32.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3095,7 +3168,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:03.469Z"
+    "fetched_at": "2026-05-30T13:44:30.472Z"
   },
   {
     "team": {
@@ -3108,7 +3181,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T12:15:03.690Z"
+    "fetched_at": "2026-05-30T13:44:31.288Z"
   },
   {
     "team": {
@@ -3770,7 +3843,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:04.815Z"
+    "fetched_at": "2026-05-30T13:44:33.269Z"
   },
   {
     "team": {
@@ -3783,7 +3856,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T12:15:05.253Z"
+    "fetched_at": "2026-05-30T13:44:33.979Z"
   },
   {
     "team": {
@@ -4087,7 +4160,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:06.008Z"
+    "fetched_at": "2026-05-30T13:44:35.328Z"
   },
   {
     "team": {
@@ -4556,6 +4629,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T12:15:06.718Z"
+    "fetched_at": "2026-05-30T13:44:36.803Z"
   }
 ]

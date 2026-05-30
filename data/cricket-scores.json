@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
@@ -618,7 +618,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:02.787Z"
+    "fetched_at": "2026-05-30T22:40:13.868Z"
   },
   {
     "team": {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:04.300Z"
+    "fetched_at": "2026-05-30T22:40:14.433Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:05.768Z"
+    "fetched_at": "2026-05-30T22:40:14.973Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:06.551Z"
+    "fetched_at": "2026-05-30T22:40:15.516Z"
   },
   {
     "team": {
@@ -2801,9 +2801,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Stanford Le Hope CC - 4th XI - Overs Win",
+      "result_applied_to": "25531",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2814,14 +2814,14 @@
           "team_id": 45348,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "5.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 25531,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2849,11 +2849,42 @@
           "revised_target_runs": "",
           "revised_target_overs": "40.0",
           "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "extra_byes": "4",
+          "extra_leg_byes": "2",
+          "extra_wides": "19",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "26",
+          "runs": "290",
+          "wickets": "3",
+          "overs": "40",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "40.0",
+          "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Suhail Shahid",
+          "score": 108,
+          "notOut": false
+        },
+        {
+          "name": "Tom Iliffe",
+          "score": 77,
+          "notOut": true
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -3242,9 +3273,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Stanford Le Hope CC - 4th XI - Overs Win",
+        "result_applied_to": "25531",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3255,14 +3286,14 @@
             "team_id": 45348,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "5.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 25531,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -3290,11 +3321,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "40.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "45348",
+            "innings_number": 1,
+            "extra_byes": "4",
+            "extra_leg_byes": "2",
+            "extra_wides": "19",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "26",
+            "runs": "290",
+            "wickets": "3",
+            "overs": "40",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:07.604Z"
+    "fetched_at": "2026-05-30T22:40:16.026Z"
   },
   {
     "team": {
@@ -3307,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T21:40:08.259Z"
+    "fetched_at": "2026-05-30T22:40:16.298Z"
   },
   {
     "team": {
@@ -3969,7 +4020,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:09.462Z"
+    "fetched_at": "2026-05-30T22:40:16.831Z"
   },
   {
     "team": {
@@ -3982,7 +4033,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T21:40:09.974Z"
+    "fetched_at": "2026-05-30T22:40:17.027Z"
   },
   {
     "team": {
@@ -4286,7 +4337,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:10.690Z"
+    "fetched_at": "2026-05-30T22:40:17.533Z"
   },
   {
     "team": {
@@ -4755,6 +4806,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T21:40:12.154Z"
+    "fetched_at": "2026-05-30T22:40:18.069Z"
   }
 ]

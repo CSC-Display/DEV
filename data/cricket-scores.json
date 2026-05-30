@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:17.571Z"
+    "fetched_at": "2026-05-30T19:25:48.040Z"
   },
   {
     "team": {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:18.567Z"
+    "fetched_at": "2026-05-30T19:25:48.646Z"
   },
   {
     "team": {
@@ -1424,9 +1424,9 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+      "result_applied_to": "24295",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1435,7 +1435,7 @@
       "points": [
         {
           "team_id": 24295,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1446,9 +1446,9 @@
           "team_id": 21673,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "7.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1476,16 +1476,16 @@
         {
           "team_batting_id": "21673",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "4",
-          "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_byes": "11",
+          "extra_leg_byes": "11",
+          "extra_wides": "8",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "21",
-          "wickets": "2",
-          "overs": "7.0",
+          "total_extras": "35",
+          "runs": "227",
+          "wickets": "9",
+          "overs": "45.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1508,7 +1508,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Alex Bayha",
+          "w": 4,
+          "r": "48"
+        }
+      ]
     },
     "form": [
       {
@@ -1990,9 +1996,9 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+        "result_applied_to": "24295",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2001,7 +2007,7 @@
         "points": [
           {
             "team_id": 24295,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2012,9 +2018,9 @@
             "team_id": 21673,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "7.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2042,16 +2048,16 @@
           {
             "team_batting_id": "21673",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "4",
-            "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_byes": "11",
+            "extra_leg_byes": "11",
+            "extra_wides": "8",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "21",
-            "wickets": "2",
-            "overs": "7.0",
+            "total_extras": "35",
+            "runs": "227",
+            "wickets": "9",
+            "overs": "45.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2062,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:19.282Z"
+    "fetched_at": "2026-05-30T19:25:49.225Z"
   },
   {
     "team": {
@@ -2745,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:20.357Z"
+    "fetched_at": "2026-05-30T19:25:49.813Z"
   },
   {
     "team": {
@@ -3288,7 +3294,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:21.320Z"
+    "fetched_at": "2026-05-30T19:25:50.363Z"
   },
   {
     "team": {
@@ -3301,7 +3307,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T18:16:21.508Z"
+    "fetched_at": "2026-05-30T19:25:50.580Z"
   },
   {
     "team": {
@@ -3963,7 +3969,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:22.510Z"
+    "fetched_at": "2026-05-30T19:25:51.165Z"
   },
   {
     "team": {
@@ -3976,7 +3982,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T18:16:22.894Z"
+    "fetched_at": "2026-05-30T19:25:51.369Z"
   },
   {
     "team": {
@@ -4280,7 +4286,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:23.841Z"
+    "fetched_at": "2026-05-30T19:25:51.949Z"
   },
   {
     "team": {
@@ -4749,6 +4755,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T18:16:24.780Z"
+    "fetched_at": "2026-05-30T19:25:52.521Z"
   }
 ]

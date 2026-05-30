@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:14.795Z"
+    "fetched_at": "2026-05-30T17:52:02.484Z"
   },
   {
     "team": {
@@ -743,7 +743,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras\n<br/>\n",
       "points": [
         {
           "team_id": 31316,
@@ -790,14 +790,14 @@
           "innings_number": 1,
           "extra_byes": "1",
           "extra_leg_byes": "0",
-          "extra_wides": "22",
+          "extra_wides": "26",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "23",
-          "runs": "190",
-          "wickets": "3",
-          "overs": "32",
+          "total_extras": "27",
+          "runs": "219",
+          "wickets": "5",
+          "overs": "39",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1309,7 +1309,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras\n<br/>\n",
         "points": [
           {
             "team_id": 31316,
@@ -1356,14 +1356,14 @@
             "innings_number": 1,
             "extra_byes": "1",
             "extra_leg_byes": "0",
-            "extra_wides": "22",
+            "extra_wides": "26",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "23",
-            "runs": "190",
-            "wickets": "3",
-            "overs": "32",
+            "total_extras": "27",
+            "runs": "219",
+            "wickets": "5",
+            "overs": "39",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:16.630Z"
+    "fetched_at": "2026-05-30T17:52:03.101Z"
   },
   {
     "team": {
@@ -2062,7 +2062,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:17.567Z"
+    "fetched_at": "2026-05-30T17:52:03.702Z"
   },
   {
     "team": {
@@ -2745,7 +2745,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:19.449Z"
+    "fetched_at": "2026-05-30T17:52:04.510Z"
   },
   {
     "team": {
@@ -3288,7 +3288,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:21.625Z"
+    "fetched_at": "2026-05-30T17:52:05.540Z"
   },
   {
     "team": {
@@ -3301,7 +3301,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T16:43:22.762Z"
+    "fetched_at": "2026-05-30T17:52:05.741Z"
   },
   {
     "team": {
@@ -3963,7 +3963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:25.301Z"
+    "fetched_at": "2026-05-30T17:52:06.623Z"
   },
   {
     "team": {
@@ -3976,7 +3976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T16:43:26.089Z"
+    "fetched_at": "2026-05-30T17:52:07.133Z"
   },
   {
     "team": {
@@ -4280,7 +4280,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:27.979Z"
+    "fetched_at": "2026-05-30T17:52:07.688Z"
   },
   {
     "team": {
@@ -4749,6 +4749,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T16:43:30.475Z"
+    "fetched_at": "2026-05-30T17:52:08.475Z"
   }
 ]

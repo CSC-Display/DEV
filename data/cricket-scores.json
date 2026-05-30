@@ -47,18 +47,18 @@
       "no_of_overs": "50",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
+      "result_applied_to": "24293",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras\n<br/>\n",
+      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "4",
           "extra_leg_byes": "0",
-          "extra_wides": "2",
+          "extra_wides": "3",
           "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "50",
-          "wickets": "0",
-          "overs": "10",
+          "total_extras": "10",
+          "runs": "114",
+          "wickets": "1",
+          "overs": "23.1",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -614,18 +614,18 @@
         "no_of_overs": "50",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
+        "result_applied_to": "24293",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras\n<br/>\n",
+        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -666,16 +666,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "4",
             "extra_leg_byes": "0",
-            "extra_wides": "2",
+            "extra_wides": "3",
             "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "50",
-            "wickets": "0",
-            "overs": "10",
+            "total_extras": "10",
+            "runs": "114",
+            "wickets": "1",
+            "overs": "23.1",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:35.271Z"
+    "fetched_at": "2026-05-30T15:37:41.978Z"
   },
   {
     "team": {
@@ -743,7 +743,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras\n<br/>\n",
       "points": [
         {
           "team_id": 31316,
@@ -790,14 +790,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_wides": "13",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0",
+          "total_extras": "13",
+          "runs": "74",
+          "wickets": "2",
+          "overs": "14",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1309,7 +1309,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras\n<br/>\n",
         "points": [
           {
             "team_id": 31316,
@@ -1356,14 +1356,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "0",
-            "extra_wides": "0",
+            "extra_wides": "13",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0",
+            "total_extras": "13",
+            "runs": "74",
+            "wickets": "2",
+            "overs": "14",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:36.390Z"
+    "fetched_at": "2026-05-30T15:37:44.062Z"
   },
   {
     "team": {
@@ -1466,6 +1466,26 @@
           "runs": "238",
           "wickets": "8",
           "overs": "45.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "21673",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "4",
+          "extra_wides": "0",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "5",
+          "runs": "21",
+          "wickets": "2",
+          "overs": "7.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2018,11 +2038,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "45.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "21673",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "4",
+            "extra_wides": "0",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "5",
+            "runs": "21",
+            "wickets": "2",
+            "overs": "7.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:37.506Z"
+    "fetched_at": "2026-05-30T15:37:45.649Z"
   },
   {
     "team": {
@@ -2072,9 +2112,9 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Frenford CC - 4th XI - Overs Win",
+      "result_applied_to": "19811",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2083,7 +2123,7 @@
       "points": [
         {
           "team_id": 19811,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2094,9 +2134,9 @@
           "team_id": 30461,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "2.0",
+          "bonus_points_batting": "1.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2125,15 +2165,15 @@
           "team_batting_id": "19811",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "1",
-          "extra_wides": "4",
+          "extra_leg_byes": "2",
+          "extra_wides": "6",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "88",
-          "wickets": "1",
-          "overs": "13.0",
+          "total_extras": "8",
+          "runs": "150",
+          "wickets": "3",
+          "overs": "18.2",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2633,9 +2673,9 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Frenford CC - 4th XI - Overs Win",
+        "result_applied_to": "19811",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2644,7 +2684,7 @@
         "points": [
           {
             "team_id": 19811,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2655,9 +2695,9 @@
             "team_id": 30461,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "2.0",
+            "bonus_points_batting": "1.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2686,15 +2726,15 @@
             "team_batting_id": "19811",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "1",
-            "extra_wides": "4",
+            "extra_leg_byes": "2",
+            "extra_wides": "6",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "88",
-            "wickets": "1",
-            "overs": "13.0",
+            "total_extras": "8",
+            "runs": "150",
+            "wickets": "3",
+            "overs": "18.2",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2705,7 +2745,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:39.558Z"
+    "fetched_at": "2026-05-30T15:37:48.061Z"
   },
   {
     "team": {
@@ -3248,7 +3288,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:41.224Z"
+    "fetched_at": "2026-05-30T15:37:50.762Z"
   },
   {
     "team": {
@@ -3261,7 +3301,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T14:39:41.801Z"
+    "fetched_at": "2026-05-30T15:37:52.065Z"
   },
   {
     "team": {
@@ -3923,7 +3963,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:43.369Z"
+    "fetched_at": "2026-05-30T15:37:53.242Z"
   },
   {
     "team": {
@@ -3936,7 +3976,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T14:39:44.000Z"
+    "fetched_at": "2026-05-30T15:37:53.775Z"
   },
   {
     "team": {
@@ -4240,7 +4280,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:46.456Z"
+    "fetched_at": "2026-05-30T15:37:55.140Z"
   },
   {
     "team": {
@@ -4709,6 +4749,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T14:39:47.710Z"
+    "fetched_at": "2026-05-30T15:37:56.331Z"
   }
 ]

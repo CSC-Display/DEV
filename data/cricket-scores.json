@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:33:57.797Z"
+    "fetched_at": "2026-05-30T21:40:02.787Z"
   },
   {
     "team": {
@@ -739,7 +739,7 @@
       "result": "W",
       "result_description": "Woodford Wells CC - 2nd XI - Overs Win",
       "result_applied_to": "31316",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -1305,7 +1305,7 @@
         "result": "W",
         "result_description": "Woodford Wells CC - 2nd XI - Overs Win",
         "result_applied_to": "31316",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:33:58.593Z"
+    "fetched_at": "2026-05-30T21:40:04.300Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:33:59.574Z"
+    "fetched_at": "2026-05-30T21:40:05.768Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:34:00.544Z"
+    "fetched_at": "2026-05-30T21:40:06.551Z"
   },
   {
     "team": {
@@ -3294,7 +3294,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:34:01.483Z"
+    "fetched_at": "2026-05-30T21:40:07.604Z"
   },
   {
     "team": {
@@ -3307,7 +3307,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T20:34:01.679Z"
+    "fetched_at": "2026-05-30T21:40:08.259Z"
   },
   {
     "team": {
@@ -3969,7 +3969,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:34:02.638Z"
+    "fetched_at": "2026-05-30T21:40:09.462Z"
   },
   {
     "team": {
@@ -3982,7 +3982,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-30T20:34:02.822Z"
+    "fetched_at": "2026-05-30T21:40:09.974Z"
   },
   {
     "team": {
@@ -4286,7 +4286,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:34:03.285Z"
+    "fetched_at": "2026-05-30T21:40:10.690Z"
   },
   {
     "team": {
@@ -4755,6 +4755,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-30T20:34:04.057Z"
+    "fetched_at": "2026-05-30T21:40:12.154Z"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-05-30T22:56:12.871Z",
-  "match_count": 40,
+  "generated_at": "2026-05-31T08:32:18.235Z",
+  "match_count": 41,
   "scorecards_processed": 37,
   "batting": [
     {
@@ -98,8 +98,8 @@
       "not_outs": 0,
       "runs": 281,
       "balls": 78,
-      "fours": 27,
-      "sixes": 1,
+      "fours": 45,
+      "sixes": 2,
       "high_score": 108,
       "high_score_display": "108",
       "average": 46.833333333333336,
@@ -149,8 +149,8 @@
       "not_outs": 2,
       "runs": 188,
       "balls": 0,
-      "fours": 14,
-      "sixes": 1,
+      "fours": 22,
+      "sixes": 2,
       "high_score": 106,
       "high_score_display": "106*",
       "average": 188,

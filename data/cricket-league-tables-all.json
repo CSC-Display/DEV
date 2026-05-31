@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:42.613Z"
+      "fetched_at": "2026-05-31T08:31:42.387Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:43.323Z"
+      "fetched_at": "2026-05-31T08:31:43.372Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:43.669Z"
+      "fetched_at": "2026-05-31T08:31:43.934Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:44.226Z"
+      "fetched_at": "2026-05-31T08:31:44.454Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:44.782Z"
+      "fetched_at": "2026-05-31T08:31:44.942Z"
     },
     "data": {
       "id": 135332,
@@ -1060,6 +1060,24 @@
         },
         {
           "position": "2",
+          "team_id": "288362",
+          "column_1": "Westcliff-On-Sea CC - 5th XI",
+          "column_2": "4",
+          "column_3": "3",
+          "column_4": "0",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "1",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "4",
+          "column_14": "80"
+        },
+        {
+          "position": "3",
           "team_id": "198992",
           "column_1": "Orsett & Thurrock CC - 6th XI",
           "column_2": "4",
@@ -1077,7 +1095,7 @@
           "column_14": "66"
         },
         {
-          "position": "3",
+          "position": "4",
           "team_id": "84968",
           "column_1": "Leigh On Sea CC - Saturday 4th XI",
           "column_2": "4",
@@ -1095,7 +1113,7 @@
           "column_14": "65"
         },
         {
-          "position": "4",
+          "position": "5",
           "team_id": "207139",
           "column_1": "Shenfield CC - 5th XI",
           "column_2": "4",
@@ -1111,24 +1129,6 @@
           "column_12": "0",
           "column_13": "3",
           "column_14": "63"
-        },
-        {
-          "position": "5",
-          "team_id": "288362",
-          "column_1": "Westcliff-On-Sea CC - 5th XI",
-          "column_2": "3",
-          "column_3": "2",
-          "column_4": "0",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "3",
-          "column_14": "60"
         },
         {
           "position": "6",
@@ -1258,6 +1258,24 @@
         },
         {
           "position": "13",
+          "team_id": "134369",
+          "column_1": "Old Southendian & Southchurch CC - 5th XI",
+          "column_2": "4",
+          "column_3": "0",
+          "column_4": "4",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "8",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "8"
+        },
+        {
+          "position": "14",
           "team_id": "318025",
           "column_1": "Billericay CC - 6th XI",
           "column_2": "4",
@@ -1273,24 +1291,6 @@
           "column_12": "5",
           "column_13": "0",
           "column_14": "7"
-        },
-        {
-          "position": "14",
-          "team_id": "134369",
-          "column_1": "Old Southendian & Southchurch CC - 5th XI",
-          "column_2": "3",
-          "column_3": "0",
-          "column_4": "3",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "4",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "4"
         }
       ],
       "key": "p - Played,&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (8),&nbsp;d - Draw (0),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;Pts - Points"
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:45.394Z"
+      "fetched_at": "2026-05-31T08:31:45.964Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-05-30T22:55:46.030Z"
+      "fetched_at": "2026-05-31T08:31:46.578Z"
     },
     "data": {
       "id": 137056,

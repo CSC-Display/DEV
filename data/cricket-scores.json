@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:27.384Z"
+    "fetched_at": "2026-05-31T21:12:13.539Z"
   },
   {
     "team": {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:28.483Z"
+    "fetched_at": "2026-05-31T21:12:14.460Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:29.099Z"
+    "fetched_at": "2026-05-31T21:12:15.206Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:30.215Z"
+    "fetched_at": "2026-05-31T21:12:15.919Z"
   },
   {
     "team": {
@@ -3345,7 +3345,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:31.061Z"
+    "fetched_at": "2026-05-31T21:12:16.896Z"
   },
   {
     "team": {
@@ -3358,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T19:59:31.304Z"
+    "fetched_at": "2026-05-31T21:12:17.076Z"
   },
   {
     "team": {
@@ -3408,9 +3408,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Frinton On Sea CC - Sunday Challenge - Won",
+      "result_applied_to": "207266",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3419,10 +3419,10 @@
       "points": [
         {
           "team_id": 207266,
-          "game_points": "0",
+          "game_points": "15",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
+          "bonus_points_together": "5.0",
+          "bonus_points_batting": "5.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
@@ -3430,9 +3430,9 @@
           "team_id": 324716,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "10.0",
+          "bonus_points_batting": "5.0",
+          "bonus_points_bowling": "5.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -3468,8 +3468,8 @@
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "6",
           "runs": "203",
-          "wickets": "8",
-          "overs": "36.0",
+          "wickets": "10",
+          "overs": "36.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3942,9 +3942,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Frinton On Sea CC - Sunday Challenge - Won",
+        "result_applied_to": "207266",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3953,10 +3953,10 @@
         "points": [
           {
             "team_id": 207266,
-            "game_points": "0",
+            "game_points": "15",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
+            "bonus_points_together": "5.0",
+            "bonus_points_batting": "5.0",
             "bonus_points_bowling": "0.0",
             "bonus_points_2nd_innings_together": ""
           },
@@ -3964,9 +3964,9 @@
             "team_id": 324716,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "10.0",
+            "bonus_points_batting": "5.0",
+            "bonus_points_bowling": "5.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -4002,8 +4002,8 @@
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "6",
             "runs": "203",
-            "wickets": "8",
-            "overs": "36.0",
+            "wickets": "10",
+            "overs": "36.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4014,7 +4014,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:32.392Z"
+    "fetched_at": "2026-05-31T21:12:17.770Z"
   },
   {
     "team": {
@@ -4027,7 +4027,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T19:59:32.880Z"
+    "fetched_at": "2026-05-31T21:12:18.151Z"
   },
   {
     "team": {
@@ -4331,7 +4331,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:33.701Z"
+    "fetched_at": "2026-05-31T21:12:18.804Z"
   },
   {
     "team": {
@@ -4800,6 +4800,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T19:59:34.554Z"
+    "fetched_at": "2026-05-31T21:12:19.532Z"
   }
 ]

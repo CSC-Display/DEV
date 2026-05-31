@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T17:53:35.330Z",
+  "generated_at": "2026-05-31T22:57:57.584Z",
   "season": "2026",
   "centuries": [
     {
@@ -659,6 +659,14 @@
       "match_id": 7507142
     },
     {
+      "player": "Alistair Fergus",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Frinton On Sea CC Sunday Challenge",
+      "date": "31/05/2026",
+      "match_id": 7507142
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -750,6 +758,20 @@
       "ducks": [
         {
           "player": "Alex Bayha",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "Frinton On Sea CC Sunday Challenge",
+          "date": "31/05/2026",
+          "match_id": 7507142
+        }
+      ]
+    },
+    {
+      "player": "Alistair Fergus",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Alistair Fergus",
           "team": "NECL 1st XI",
           "team_id": 324716,
           "opposition": "Frinton On Sea CC Sunday Challenge",

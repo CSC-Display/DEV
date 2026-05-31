@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:05.613Z"
+      "fetched_at": "2026-05-31T22:57:30.445Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:06.167Z"
+      "fetched_at": "2026-05-31T22:57:31.336Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:06.807Z"
+      "fetched_at": "2026-05-31T22:57:31.723Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:07.243Z"
+      "fetched_at": "2026-05-31T22:57:32.085Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:07.838Z"
+      "fetched_at": "2026-05-31T22:57:32.694Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:08.521Z"
+      "fetched_at": "2026-05-31T22:57:33.364Z"
     },
     "data": {
       "id": 134513,
@@ -1326,39 +1326,39 @@
       "values": [
         {
           "position": "1",
-          "team_id": "324716",
-          "column_1": "Chelmsford CC",
-          "column_2": "6",
-          "column_3": "4",
-          "column_4": "0",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "15",
-          "column_12": "0",
-          "column_13": "101",
-          "column_14": "1.61"
-        },
-        {
-          "position": "2",
           "team_id": "207266",
           "column_1": "Frinton On Sea CC",
-          "column_2": "7",
-          "column_3": "4",
+          "column_2": "8",
+          "column_3": "5",
           "column_4": "3",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "10",
+          "column_10": "15",
           "column_11": "28",
           "column_12": "0",
-          "column_13": "98",
-          "column_14": "0"
+          "column_13": "118",
+          "column_14": "0.09"
+        },
+        {
+          "position": "2",
+          "team_id": "324716",
+          "column_1": "Chelmsford CC",
+          "column_2": "7",
+          "column_3": "4",
+          "column_4": "1",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "1",
+          "column_9": "0",
+          "column_10": "5",
+          "column_11": "20",
+          "column_12": "0",
+          "column_13": "111",
+          "column_14": "1.16"
         },
         {
           "position": "3",
@@ -1444,10 +1444,10 @@
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "17",
+          "column_10": "19",
           "column_11": "25",
           "column_12": "0",
-          "column_13": "72",
+          "column_13": "74",
           "column_14": "-0.77"
         },
         {
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-05-31T17:53:09.236Z"
+      "fetched_at": "2026-05-31T22:57:33.828Z"
     },
     "data": {
       "id": 137056,

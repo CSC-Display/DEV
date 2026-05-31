@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:15.080Z"
+    "fetched_at": "2026-05-31T16:15:58.678Z"
   },
   {
     "team": {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:15.868Z"
+    "fetched_at": "2026-05-31T16:15:59.341Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:16.521Z"
+    "fetched_at": "2026-05-31T16:15:59.951Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:17.275Z"
+    "fetched_at": "2026-05-31T16:16:00.556Z"
   },
   {
     "team": {
@@ -3345,7 +3345,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:18.184Z"
+    "fetched_at": "2026-05-31T16:16:01.109Z"
   },
   {
     "team": {
@@ -3358,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T14:50:18.377Z"
+    "fetched_at": "2026-05-31T16:16:01.453Z"
   },
   {
     "team": {
@@ -3366,10 +3366,10 @@
       "id": 324716
     },
     "match": {
-      "id": 7507126,
+      "id": 7507142,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/05/2026",
+      "last_updated": "31/05/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3378,18 +3378,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "24/05/2026",
+      "match_date": "31/05/2026",
       "match_time": "13:00",
-      "ground_name": "Chelmer Park",
-      "ground_id": "10646",
-      "home_team_name": "NECL 1st XI",
-      "home_team_id": "324716",
-      "home_club_name": "Chelmsford CC",
-      "home_club_id": "1786",
-      "away_team_name": "Sunday XI",
-      "away_team_id": "207268",
-      "away_club_name": "Wivenhoe Town CC",
-      "away_club_id": "7015",
+      "ground_name": "Frinton On Sea Cricket Club Main Field",
+      "ground_id": "5277",
+      "home_team_name": "Sunday Challenge",
+      "home_team_id": "207266",
+      "home_club_name": "Frinton On Sea CC",
+      "home_club_id": "2819",
+      "away_team_name": "NECL 1st XI",
+      "away_team_id": "324716",
+      "away_club_name": "Chelmsford CC",
+      "away_club_id": "1786",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -3402,54 +3402,54 @@
       "scorer_1_id": "5962869",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "207268",
-      "toss": "Wivenhoe Town CC - Sunday XI won the toss and elected to bat",
-      "batted_first": "207268",
+      "toss_won_by_team_id": "207266",
+      "toss": "Frinton On Sea CC - Sunday Challenge won the toss and elected to bat",
+      "batted_first": "207266",
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - NECL 1st XI - Won",
-      "result_applied_to": "324716",
-      "home_confirmed": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 324716,
-          "game_points": "15",
+          "team_id": 207266,
+          "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "2.0",
+          "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "2.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 207268,
+          "team_id": 324716,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "6.0",
-          "bonus_points_batting": "5.0",
-          "bonus_points_bowling": "1.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
       "innings": [
         {
-          "team_batting_id": "207268",
+          "team_batting_id": "207266",
           "innings_number": 1,
-          "extra_byes": "6",
-          "extra_leg_byes": "1",
-          "extra_wides": "25",
-          "extra_no_balls": "2",
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "34",
-          "runs": "203",
-          "wickets": "5",
-          "overs": "40.0",
+          "total_extras": "0",
+          "runs": "226",
+          "wickets": "10",
+          "overs": "37.5",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3460,16 +3460,16 @@
         {
           "team_batting_id": "324716",
           "innings_number": 1,
-          "extra_byes": "9",
+          "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "6",
-          "extra_no_balls": "2",
+          "extra_wides": "1",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "17",
-          "runs": "206",
-          "wickets": "3",
-          "overs": "30.4",
+          "total_extras": "1",
+          "runs": "88",
+          "wickets": "2",
+          "overs": "13.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3480,130 +3480,10 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Elliot Wenzel",
-          "score": 77,
-          "notOut": false
-        }
-      ],
+      "runs": [],
       "wickets": []
     },
     "form": [
-      {
-        "id": 7505893,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "20/04/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "19/04/2026",
-        "match_time": "12:30",
-        "ground_name": "Ardleigh Recreation Ground",
-        "ground_id": "60031",
-        "home_team_name": "1st XI",
-        "home_team_id": "70131",
-        "home_club_name": "Ardleigh CC",
-        "home_club_id": "744",
-        "away_team_name": "NECL 1st XI",
-        "away_team_id": "324716",
-        "away_club_name": "Chelmsford CC",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "70131",
-        "toss": "Ardleigh CC - 1st XI won the toss and elected to bat",
-        "batted_first": "70131",
-        "no_of_overs": "40",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - NECL 1st XI - Won",
-        "result_applied_to": "324716",
-        "home_confirmed": "false",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "<p><strong>Ardleigh&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.5&nbsp;2nd&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;64&nbsp;balls,&nbsp;42&nbsp;minutes,&nbsp;Venuganan&nbsp;Kalyanarathnam&nbsp;22&nbsp;(30),&nbsp;Arun&nbsp;Ramachandran&nbsp;17&nbsp;(34),&nbsp;12&nbsp;extras<br />\r\n10.5&nbsp;Ardleigh&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;10.5&nbsp;overs,&nbsp;44&nbsp;minutes,&nbsp;12&nbsp;extras<br />\r\n25.2&nbsp;Ardleigh&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;25.2&nbsp;overs,&nbsp;110&nbsp;minutes,&nbsp;17&nbsp;extras<br />\r\n32.3&nbsp;Rory&nbsp;Skepelhorn:&nbsp;Hat-trick&nbsp;(3.3-2-3-4)<br />\r\n<br />\r\n<strong>Chelmsford&nbsp;CC&nbsp;NECL&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n17.5&nbsp;Chelmsford&nbsp;CC&nbsp;NECL&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;17.5&nbsp;overs,&nbsp;55&nbsp;minutes,&nbsp;1&nbsp;extra<br />\r\n28.2&nbsp;Harry&nbsp;Jacobs:&nbsp;50&nbsp;runs&nbsp;in&nbsp;74&nbsp;balls,&nbsp;91&nbsp;minutes&nbsp;(5x4)<br />\r\n28.6&nbsp;2nd&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;73&nbsp;balls,&nbsp;42&nbsp;minutes,&nbsp;Harry&nbsp;Jacobs&nbsp;15&nbsp;(27),&nbsp;Elliot&nbsp;Wenzel&nbsp;34&nbsp;(46),&nbsp;1&nbsp;extra<br />\r\n29.3&nbsp;Chelmsford&nbsp;CC&nbsp;NECL&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;29.3&nbsp;overs,&nbsp;96&nbsp;minutes,&nbsp;2&nbsp;extras<br />\r\n31.4&nbsp;Elliot&nbsp;Wenzel:&nbsp;50&nbsp;runs&nbsp;in&nbsp;54&nbsp;balls,&nbsp;52&nbsp;minutes&nbsp;(6x4,&nbsp;1x6)</p>\r\n",
-        "points": [
-          {
-            "team_id": 70131,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "2.0",
-            "bonus_points_batting": "2.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 324716,
-            "game_points": "15",
-            "penalty_points": "0.0",
-            "bonus_points_together": "5.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "5.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "70131",
-            "innings_number": 1,
-            "extra_byes": "3",
-            "extra_leg_byes": "0",
-            "extra_wides": "17",
-            "extra_no_balls": "0",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "20",
-            "runs": "119",
-            "wickets": "10",
-            "overs": "31.3",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "324716",
-            "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "1",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "2",
-            "runs": "120",
-            "wickets": "1",
-            "overs": "31.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7505909,
         "status": "New",
@@ -4018,9 +3898,123 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7507142,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "31/05/2026",
+        "league_name": "Two Counties Cricket Championship",
+        "league_id": "7277",
+        "competition_name": "Sunday League",
+        "competition_id": "134513",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "31/05/2026",
+        "match_time": "13:00",
+        "ground_name": "Frinton On Sea Cricket Club Main Field",
+        "ground_id": "5277",
+        "home_team_name": "Sunday Challenge",
+        "home_team_id": "207266",
+        "home_club_name": "Frinton On Sea CC",
+        "home_club_id": "2819",
+        "away_team_name": "NECL 1st XI",
+        "away_team_id": "324716",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "John Graham",
+        "scorer_1_id": "5962869",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "207266",
+        "toss": "Frinton On Sea CC - Sunday Challenge won the toss and elected to bat",
+        "batted_first": "207266",
+        "no_of_overs": "40",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 207266,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 324716,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "207266",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "226",
+            "wickets": "10",
+            "overs": "37.5",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "324716",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "1",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "1",
+            "runs": "88",
+            "wickets": "2",
+            "overs": "13.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:18.965Z"
+    "fetched_at": "2026-05-31T16:16:02.069Z"
   },
   {
     "team": {
@@ -4033,7 +4027,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T14:50:19.177Z"
+    "fetched_at": "2026-05-31T16:16:02.287Z"
   },
   {
     "team": {
@@ -4337,7 +4331,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:19.726Z"
+    "fetched_at": "2026-05-31T16:16:02.816Z"
   },
   {
     "team": {
@@ -4806,6 +4800,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T14:50:20.268Z"
+    "fetched_at": "2026-05-31T16:16:03.411Z"
   }
 ]

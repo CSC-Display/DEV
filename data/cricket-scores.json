@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:49.028Z"
+    "fetched_at": "2026-06-01T11:03:42.697Z"
   },
   {
     "team": {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:49.934Z"
+    "fetched_at": "2026-06-01T11:03:44.196Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:50.823Z"
+    "fetched_at": "2026-06-01T11:03:45.692Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:51.695Z"
+    "fetched_at": "2026-06-01T11:03:47.168Z"
   },
   {
     "team": {
@@ -3345,7 +3345,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:52.810Z"
+    "fetched_at": "2026-06-01T11:03:48.636Z"
   },
   {
     "team": {
@@ -3358,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-01T07:21:53.310Z"
+    "fetched_at": "2026-06-01T11:03:49.297Z"
   },
   {
     "team": {
@@ -3369,7 +3369,7 @@
       "id": 7507142,
       "status": "New",
       "published": "Yes",
-      "last_updated": "31/05/2026",
+      "last_updated": "01/06/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3440,13 +3440,13 @@
         {
           "team_batting_id": "207266",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_byes": "4",
+          "extra_leg_byes": "2",
+          "extra_wides": "7",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
+          "total_extras": "15",
           "runs": "226",
           "wickets": "10",
           "overs": "37.5",
@@ -3481,7 +3481,18 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Alex Bayha",
+          "w": 3,
+          "r": "33"
+        },
+        {
+          "name": "Jordan Campion",
+          "w": 3,
+          "r": "38"
+        }
+      ]
     },
     "form": [
       {
@@ -3903,7 +3914,7 @@
         "id": 7507142,
         "status": "New",
         "published": "Yes",
-        "last_updated": "31/05/2026",
+        "last_updated": "01/06/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3974,13 +3985,13 @@
           {
             "team_batting_id": "207266",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_byes": "4",
+            "extra_leg_byes": "2",
+            "extra_wides": "7",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
+            "total_extras": "15",
             "runs": "226",
             "wickets": "10",
             "overs": "37.5",
@@ -4014,7 +4025,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:54.455Z"
+    "fetched_at": "2026-06-01T11:03:50.811Z"
   },
   {
     "team": {
@@ -4027,7 +4038,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-01T07:21:54.698Z"
+    "fetched_at": "2026-06-01T11:03:51.484Z"
   },
   {
     "team": {
@@ -4331,7 +4342,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:55.805Z"
+    "fetched_at": "2026-06-01T11:03:52.544Z"
   },
   {
     "team": {
@@ -4800,6 +4811,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-01T07:21:56.923Z"
+    "fetched_at": "2026-06-01T11:03:53.228Z"
   }
 ]

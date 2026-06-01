@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:36.969Z"
+    "fetched_at": "2026-06-01T07:21:49.028Z"
   },
   {
     "team": {
@@ -697,7 +697,7 @@
       "id": 7325717,
       "status": "New",
       "published": "Yes",
-      "last_updated": "30/05/2026",
+      "last_updated": "01/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -740,7 +740,7 @@
       "result_description": "Woodford Wells CC - 2nd XI - Overs Win",
       "result_applied_to": "31316",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras<br/>40.7 Woodford Wells CC 2nd XI: 250 runs in 41.0 overs, 153 minutes, 30 extras<br/>43.1 Harrison Rogers: 50 runs in 34 balls, 35 minutes (1x4, 4x6)\n<br/>\n",
@@ -1263,7 +1263,7 @@
         "id": 7325717,
         "status": "New",
         "published": "Yes",
-        "last_updated": "30/05/2026",
+        "last_updated": "01/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1306,7 +1306,7 @@
         "result_description": "Woodford Wells CC - 2nd XI - Overs Win",
         "result_applied_to": "31316",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras<br/>40.7 Woodford Wells CC 2nd XI: 250 runs in 41.0 overs, 153 minutes, 30 extras<br/>43.1 Harrison Rogers: 50 runs in 34 balls, 35 minutes (1x4, 4x6)\n<br/>\n",
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:37.571Z"
+    "fetched_at": "2026-06-01T07:21:49.934Z"
   },
   {
     "team": {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:38.123Z"
+    "fetched_at": "2026-06-01T07:21:50.823Z"
   },
   {
     "team": {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:38.670Z"
+    "fetched_at": "2026-06-01T07:21:51.695Z"
   },
   {
     "team": {
@@ -3345,7 +3345,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:39.254Z"
+    "fetched_at": "2026-06-01T07:21:52.810Z"
   },
   {
     "team": {
@@ -3358,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T23:40:39.448Z"
+    "fetched_at": "2026-06-01T07:21:53.310Z"
   },
   {
     "team": {
@@ -4014,7 +4014,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:40.013Z"
+    "fetched_at": "2026-06-01T07:21:54.455Z"
   },
   {
     "team": {
@@ -4027,7 +4027,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-05-31T23:40:40.221Z"
+    "fetched_at": "2026-06-01T07:21:54.698Z"
   },
   {
     "team": {
@@ -4331,7 +4331,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:40.762Z"
+    "fetched_at": "2026-06-01T07:21:55.805Z"
   },
   {
     "team": {
@@ -4800,6 +4800,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-05-31T23:40:41.301Z"
+    "fetched_at": "2026-06-01T07:21:56.923Z"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-02T09:57:52.383Z",
+  "generated_at": "2026-06-02T23:43:46.181Z",
   "match_count": 41,
   "scorecards_processed": 38,
   "batting": [
@@ -278,6 +278,23 @@
       "hundreds": 0
     },
     {
+      "player": "Thom Wilshaw",
+      "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
+      "matches": 6,
+      "innings": 6,
+      "not_outs": 1,
+      "runs": 111,
+      "balls": 76,
+      "fours": 15,
+      "sixes": 1,
+      "high_score": 53,
+      "high_score_display": "53",
+      "average": 22.2,
+      "strike_rate": 146.05263157894737,
+      "fifties": 1,
+      "hundreds": 0
+    },
+    {
       "player": "Alex Bailey",
       "teams": "Sat 3rd XI, Sat 4th XI, Sat 5th XI",
       "matches": 6,
@@ -326,23 +343,6 @@
       "average": 33.333333333333336,
       "strike_rate": 136.986301369863,
       "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Jordan Campion",
-      "teams": "NECL 1st XI, Sat 4th XI",
-      "matches": 3,
-      "innings": 3,
-      "not_outs": 0,
-      "runs": 90,
-      "balls": 104,
-      "fours": 16,
-      "sixes": 0,
-      "high_score": 39,
-      "high_score_display": "39",
-      "average": 30,
-      "strike_rate": 86.53846153846155,
-      "fifties": 0,
       "hundreds": 0
     }
   ],
@@ -595,7 +595,7 @@
       "five_wickets": 1
     },
     {
-      "player": "Tom Wilshaw",
+      "player": "Thom Wilshaw",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 5,
       "innings": 5,

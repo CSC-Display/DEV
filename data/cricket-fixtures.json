@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:00.568Z"
+    "fetched_at": "2026-06-04T23:06:50.974Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:01.284Z"
+    "fetched_at": "2026-06-04T23:06:51.458Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:01.612Z"
+    "fetched_at": "2026-06-04T23:06:51.947Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:01.892Z"
+    "fetched_at": "2026-06-04T23:06:52.422Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:02.601Z"
+    "fetched_at": "2026-06-04T23:06:52.896Z"
   },
   {
     "team": {
@@ -2051,7 +2051,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:03.271Z"
+    "fetched_at": "2026-06-04T23:06:53.356Z"
   },
   {
     "team": {
@@ -2063,7 +2063,7 @@
         "id": 7507154,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/02/2026",
+        "last_updated": "04/06/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -2094,8 +2094,8 @@
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "John Graham",
+        "scorer_1_id": "5962869",
         "scorer_2_name": "",
         "scorer_2_id": ""
       },
@@ -2420,7 +2420,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:03.590Z"
+    "fetched_at": "2026-06-04T23:06:53.818Z"
   },
   {
     "team": {
@@ -2469,7 +2469,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:03.874Z"
+    "fetched_at": "2026-06-04T23:06:54.237Z"
   },
   {
     "team": {
@@ -2518,7 +2518,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:04.175Z"
+    "fetched_at": "2026-06-04T23:06:54.672Z"
   },
   {
     "team": {
@@ -2807,6 +2807,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-04T09:39:04.866Z"
+    "fetched_at": "2026-06-04T23:06:55.145Z"
   }
 ]

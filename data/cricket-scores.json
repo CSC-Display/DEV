@@ -8,7 +8,7 @@
       "id": 7325268,
       "status": "New",
       "published": "Yes",
-      "last_updated": "31/05/2026",
+      "last_updated": "05/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -52,8 +52,8 @@
       "result_applied_to": "24293",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
       "points": [
         {
@@ -575,7 +575,7 @@
         "id": 7325268,
         "status": "New",
         "published": "Yes",
-        "last_updated": "31/05/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -619,8 +619,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n11.2 Hutton CC 1st XI: 50 runs in 11.2 overs, 44 minutes, 7 extras<br/>37.6 Hutton CC 1st XI: 100 runs in 38.0 overs, 133 minutes, 12 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.6 1st Wicket: 50 runs in 63 balls, 38 minutes, Aarav Salil 18 (22), Jack Sterland 27 (41), 5 extras<br/>9.6 Chelmsford CC Sat 1st XI: 50 runs in 10.0 overs, 38 minutes, 5 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 84 minutes, 10 extras\n<br/>\n",
         "points": [
           {
@@ -686,7 +686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:39.882Z"
+    "fetched_at": "2026-06-05T23:04:58.972Z"
   },
   {
     "team": {
@@ -697,7 +697,7 @@
       "id": 7325717,
       "status": "New",
       "published": "Yes",
-      "last_updated": "01/06/2026",
+      "last_updated": "05/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -741,8 +741,8 @@
       "result_applied_to": "31316",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras<br/>40.7 Woodford Wells CC 2nd XI: 250 runs in 41.0 overs, 153 minutes, 30 extras<br/>43.1 Harrison Rogers: 50 runs in 34 balls, 35 minutes (1x4, 4x6)\n<br/>\n",
       "points": [
         {
@@ -1263,7 +1263,7 @@
         "id": 7325717,
         "status": "New",
         "published": "Yes",
-        "last_updated": "01/06/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1307,8 +1307,8 @@
         "result_applied_to": "31316",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n9.4 1st Wicket: 50 runs in 59 balls, 42 minutes, Miles Clark 20 (31), Dan Hagen 24 (28), 7 extras<br/>9.4 Chelmsford CC Sat 2nd XI: 50 runs in 9.4 overs, 42 minutes, 7 extras<br/>22.4 Chelmsford CC Sat 2nd XI: 100 runs in 22.2 overs, 92 minutes, 14 extras<br/>27.5 5th Wicket: 50 runs in 48 balls, 23 minutes, Elliot Wenzel 29 (28), Harry Green 16 (20), 5 extras<br/>31.1 Chelmsford CC Sat 2nd XI: 150 runs in 31.1 overs, 124 minutes, 18 extras<br/>32.6 Harry Green: 50 runs in 44 balls, 45 minutes (10x4)<br/>33.1 5th Wicket: 100 runs in 80 balls, 49 minutes, Elliot Wenzel 35 (35), Harry Green 59 (45), 7 extras<br/>34.4 Chelmsford CC Sat 2nd XI: 200 runs in 34.4 overs, 138 minutes, 19 extras<br/>34.5 Elliot Wenzel: 50 runs in 58 balls, 79 minutes (3x4, 2x6)<br/>38.4 Chelmsford CC Sat 2nd XI: 250 runs in 38.4 overs, 159 minutes, 22 extras\n<br/>\n<br/>\n<b>Woodford Wells CC 2nd XI Innings</b><br/>\n10.6 Woodford Wells CC 2nd XI: 50 runs in 10.5 overs, 43 minutes, 13 extras<br/>18.4 3rd Wicket: 50 runs in 49 balls, 31 minutes, Harry Neicho 17 (22), Ashish Gandhi 31 (27), 2 extras<br/>18.5 Woodford Wells CC 2nd XI: 100 runs in 18.5 overs, 74 minutes, 15 extras<br/>23.5 Ashish Gandhi: 50 runs in 46 balls, 49 minutes (7x4)<br/>25.4 Woodford Wells CC 2nd XI: 150 runs in 25.3 overs, 96 minutes, 19 extras<br/>26.4 4th Wicket: 50 runs in 39 balls, 21 minutes, Ashish Gandhi 23 (22), Deven Solanki 23 (17), 4 extras<br/>33.6 Woodford Wells CC 2nd XI: 200 runs in 33.4 overs, 127 minutes, 25 extras<br/>40.7 Woodford Wells CC 2nd XI: 250 runs in 41.0 overs, 153 minutes, 30 extras<br/>43.1 Harrison Rogers: 50 runs in 34 balls, 35 minutes (1x4, 4x6)\n<br/>\n",
         "points": [
           {
@@ -1374,7 +1374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:41.358Z"
+    "fetched_at": "2026-06-05T23:04:59.563Z"
   },
   {
     "team": {
@@ -1385,7 +1385,7 @@
       "id": 7461840,
       "status": "New",
       "published": "Yes",
-      "last_updated": "01/06/2026",
+      "last_updated": "05/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1429,8 +1429,8 @@
       "result_applied_to": "24295",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1957,7 +1957,7 @@
         "id": 7461840,
         "status": "New",
         "published": "Yes",
-        "last_updated": "01/06/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2001,8 +2001,8 @@
         "result_applied_to": "24295",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2068,7 +2068,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:42.835Z"
+    "fetched_at": "2026-06-05T23:05:00.157Z"
   },
   {
     "team": {
@@ -2079,7 +2079,7 @@
       "id": 7462109,
       "status": "New",
       "published": "Yes",
-      "last_updated": "31/05/2026",
+      "last_updated": "05/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2123,8 +2123,8 @@
       "result_applied_to": "19811",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2640,7 +2640,7 @@
         "id": 7462109,
         "status": "New",
         "published": "Yes",
-        "last_updated": "31/05/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2684,8 +2684,8 @@
         "result_applied_to": "19811",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2751,7 +2751,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:44.388Z"
+    "fetched_at": "2026-06-05T23:05:00.721Z"
   },
   {
     "team": {
@@ -2762,7 +2762,7 @@
       "id": 7462388,
       "status": "New",
       "published": "Yes",
-      "last_updated": "31/05/2026",
+      "last_updated": "05/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2806,8 +2806,8 @@
       "result_applied_to": "25531",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -3234,7 +3234,7 @@
         "id": 7462388,
         "status": "New",
         "published": "Yes",
-        "last_updated": "31/05/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3278,8 +3278,8 @@
         "result_applied_to": "25531",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3345,7 +3345,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:45.877Z"
+    "fetched_at": "2026-06-05T23:05:01.316Z"
   },
   {
     "team": {
@@ -3358,7 +3358,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-05T22:02:46.537Z"
+    "fetched_at": "2026-06-05T23:05:01.532Z"
   },
   {
     "team": {
@@ -4025,7 +4025,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:47.682Z"
+    "fetched_at": "2026-06-05T23:05:02.104Z"
   },
   {
     "team": {
@@ -4038,7 +4038,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-05T22:02:48.344Z"
+    "fetched_at": "2026-06-05T23:05:02.356Z"
   },
   {
     "team": {
@@ -4342,7 +4342,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:49.755Z"
+    "fetched_at": "2026-06-05T23:05:02.969Z"
   },
   {
     "team": {
@@ -4811,6 +4811,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-05T22:02:51.203Z"
+    "fetched_at": "2026-06-05T23:05:03.539Z"
   }
 ]

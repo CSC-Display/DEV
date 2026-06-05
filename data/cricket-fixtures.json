@@ -9,7 +9,7 @@
         "id": 7325273,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "05/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -32,10 +32,10 @@
         "away_team_name": "1st XI",
         "away_team_id": "16619",
         "away_club_id": "2738",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
+        "umpire_1_name": "Gary Marshall",
+        "umpire_1_id": "4494841",
+        "umpire_2_name": "Charles Osbourn",
+        "umpire_2_id": "4715072",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:49.108Z"
+    "fetched_at": "2026-06-05T18:53:12.566Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:49.444Z"
+    "fetched_at": "2026-06-05T18:53:13.030Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:50.177Z"
+    "fetched_at": "2026-06-05T18:53:13.483Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:50.540Z"
+    "fetched_at": "2026-06-05T18:53:14.022Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:50.890Z"
+    "fetched_at": "2026-06-05T18:53:14.621Z"
   },
   {
     "team": {
@@ -2049,9 +2049,49 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
+      },
+      {
+        "id": 7704448,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "05/06/2026",
+        "league_name": "",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "12/09/2026",
+        "match_time": "12:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "Sat 6th XI",
+        "home_team_id": "105976",
+        "home_club_id": "1786",
+        "away_club_name": "Galleywood CC",
+        "away_team_name": "5th XI",
+        "away_team_id": "390590",
+        "away_club_id": "2847",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:51.193Z"
+    "fetched_at": "2026-06-05T18:53:15.047Z"
   },
   {
     "team": {
@@ -2420,7 +2460,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:51.652Z"
+    "fetched_at": "2026-06-05T18:53:15.496Z"
   },
   {
     "team": {
@@ -2469,7 +2509,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:52.429Z"
+    "fetched_at": "2026-06-05T18:53:15.919Z"
   },
   {
     "team": {
@@ -2518,7 +2558,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:52.784Z"
+    "fetched_at": "2026-06-05T18:53:16.460Z"
   },
   {
     "team": {
@@ -2767,6 +2807,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-05T09:00:53.547Z"
+    "fetched_at": "2026-06-05T18:53:16.931Z"
   }
 ]

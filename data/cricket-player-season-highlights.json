@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T08:20:40.002Z",
+  "generated_at": "2026-06-06T14:05:56.576Z",
   "season": "2026",
   "centuries": [
     {
@@ -124,6 +124,17 @@
       "opposition": "Billericay CC 4th XI",
       "date": "09/05/2026",
       "match_id": 7462095
+    },
+    {
+      "player": "Harry Green",
+      "runs": 78,
+      "score": "78",
+      "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Harold Wood CC 2nd XI",
+      "date": "06/06/2026",
+      "match_id": 7325720
     },
     {
       "player": "Elliot Wenzel",
@@ -563,6 +574,14 @@
       "match_id": 7577468
     },
     {
+      "player": "Brian Kaludewa",
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Harold Wood CC 2nd XI",
+      "date": "06/06/2026",
+      "match_id": 7325720
+    },
+    {
       "player": "Mohammed Baig",
       "team": "Sat 3rd XI",
       "team_id": 24295,
@@ -843,6 +862,20 @@
           "opposition": "Epping CC 1st XI",
           "date": "16/05/2026",
           "match_id": 7325254
+        }
+      ]
+    },
+    {
+      "player": "Brian Kaludewa",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Brian Kaludewa",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Harold Wood CC 2nd XI",
+          "date": "06/06/2026",
+          "match_id": 7325720
         }
       ]
     },

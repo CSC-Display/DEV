@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:48.587Z"
+    "fetched_at": "2026-06-06T22:59:45.306Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:50.102Z"
+    "fetched_at": "2026-06-06T22:59:45.872Z"
   },
   {
     "team": {
@@ -1451,7 +1451,7 @@
       "result_description": "Cancelled",
       "result_applied_to": "",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2026,7 +2026,7 @@
         "result_description": "Cancelled",
         "result_applied_to": "",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:51.581Z"
+    "fetched_at": "2026-06-06T22:59:46.447Z"
   },
   {
     "team": {
@@ -2102,10 +2102,10 @@
       "id": 30461
     },
     "match": {
-      "id": 7462109,
+      "id": 7462115,
       "status": "New",
       "published": "Yes",
-      "last_updated": "05/06/2026",
+      "last_updated": "06/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2114,18 +2114,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "30/05/2026",
+      "match_date": "06/06/2026",
       "match_time": "12:00",
-      "ground_name": "Jack Carter Centre",
-      "ground_id": "13060",
-      "home_team_name": "4th XI",
-      "home_team_id": "19811",
-      "home_club_name": "Frenford CC",
-      "home_club_id": "3103",
-      "away_team_name": "Sat 4th XI",
-      "away_team_id": "30461",
-      "away_club_name": "Chelmsford CC",
-      "away_club_id": "1786",
+      "ground_name": "Chelmer Park",
+      "ground_id": "10646",
+      "home_team_name": "Sat 4th XI",
+      "home_team_id": "30461",
+      "home_club_name": "Chelmsford CC",
+      "home_club_id": "1786",
+      "away_team_name": "3rd XI",
+      "away_team_id": "42755",
+      "away_club_name": "Stanford Le Hope CC",
+      "away_club_id": "5999",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -2138,37 +2138,37 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "30461",
-      "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
-      "batted_first": "30461",
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Frenford CC - 4th XI - Overs Win",
-      "result_applied_to": "19811",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
-      "scorecard_locked": "true",
+      "result": "A",
+      "result_description": "Abandoned",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 19811,
-          "game_points": "20",
-          "penalty_points": "0.0",
+          "team_id": 30461,
+          "game_points": "6",
+          "penalty_points": "",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 30461,
-          "game_points": "0",
-          "penalty_points": "0.0",
-          "bonus_points_together": "2.0",
-          "bonus_points_batting": "1.0",
-          "bonus_points_bowling": "1.0",
+          "team_id": 42755,
+          "game_points": "6",
+          "penalty_points": "",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2176,16 +2176,16 @@
         {
           "team_batting_id": "30461",
           "innings_number": 1,
-          "extra_byes": "3",
-          "extra_leg_byes": "2",
-          "extra_wides": "3",
-          "extra_no_balls": "2",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "10",
-          "runs": "148",
-          "wickets": "9",
-          "overs": "30.3",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2194,18 +2194,18 @@
           "revised_target_balls": ""
         },
         {
-          "team_batting_id": "19811",
+          "team_batting_id": "42755",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "2",
-          "extra_wides": "6",
-          "extra_no_balls": "0",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "150",
-          "wickets": "3",
-          "overs": "18.2",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2216,110 +2216,10 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Jason Lofthouse",
-          "score": 50,
-          "notOut": false
-        }
-      ],
+      "runs": [],
       "wickets": []
     },
     "form": [
-      {
-        "id": 7262197,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "02/05/2026",
-        "league_id": "",
-        "competition_name": "",
-        "competition_id": "",
-        "competition_type": "Friendly",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "02/05/2026",
-        "match_time": "12:30",
-        "ground_name": "Harold Wood Park",
-        "ground_id": "11427",
-        "home_team_name": "4th XI",
-        "home_team_id": "19020",
-        "home_club_name": "Harold Wood CC",
-        "home_club_id": "3181",
-        "away_team_name": "Sat 4th XI",
-        "away_team_id": "30461",
-        "away_club_name": "Chelmsford CC",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "30461",
-        "toss": "Chelmsford CC - Sat 4th XI won the toss and elected to bat",
-        "batted_first": "30461",
-        "no_of_overs": "",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Harold Wood CC - 4th XI - Won",
-        "result_applied_to": "19020",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
-        "result_locked": "false",
-        "scorecard_locked": "false",
-        "match_notes": "",
-        "points": [],
-        "innings": [
-          {
-            "team_batting_id": "30461",
-            "innings_number": 1,
-            "extra_byes": "4",
-            "extra_leg_byes": "3",
-            "extra_wides": "5",
-            "extra_no_balls": "1",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "187",
-            "wickets": "10",
-            "overs": "38.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "19020",
-            "innings_number": 1,
-            "extra_byes": "6",
-            "extra_leg_byes": "2",
-            "extra_wides": "16",
-            "extra_no_balls": "2",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "26",
-            "runs": "190",
-            "wickets": "8",
-            "overs": "35.2",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7462095,
         "status": "New",
@@ -2775,9 +2675,123 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7462115,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "06/06/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 13 - 3rd XI Division Three",
+        "competition_id": "135330",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "06/06/2026",
+        "match_time": "12:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "home_team_name": "Sat 4th XI",
+        "home_team_id": "30461",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "3rd XI",
+        "away_team_id": "42755",
+        "away_club_name": "Stanford Le Hope CC",
+        "away_club_id": "5999",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "45",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "A",
+        "result_description": "Abandoned",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 30461,
+            "game_points": "6",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 42755,
+            "game_points": "6",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "30461",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "42755",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:53.072Z"
+    "fetched_at": "2026-06-06T22:59:47.042Z"
   },
   {
     "team": {
@@ -3474,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:54.148Z"
+    "fetched_at": "2026-06-06T22:59:47.568Z"
   },
   {
     "team": {
@@ -3487,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T21:54:54.829Z"
+    "fetched_at": "2026-06-06T22:59:47.759Z"
   },
   {
     "team": {
@@ -4154,7 +4168,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:56.299Z"
+    "fetched_at": "2026-06-06T22:59:48.409Z"
   },
   {
     "team": {
@@ -4167,7 +4181,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T21:54:56.588Z"
+    "fetched_at": "2026-06-06T22:59:48.637Z"
   },
   {
     "team": {
@@ -4471,7 +4485,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:57.649Z"
+    "fetched_at": "2026-06-06T22:59:49.244Z"
   },
   {
     "team": {
@@ -5054,6 +5068,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T21:54:58.739Z"
+    "fetched_at": "2026-06-06T22:59:49.849Z"
   }
 ]

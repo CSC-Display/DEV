@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-05T23:05:25.249Z",
-  "match_count": 42,
-  "scorecards_processed": 38,
+  "generated_at": "2026-06-06T08:20:39.809Z",
+  "match_count": 47,
+  "scorecards_processed": 39,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -312,6 +312,23 @@
       "hundreds": 0
     },
     {
+      "player": "Alex Rowe-Goodey",
+      "teams": "Sat 5th XI, Womens 1st XI",
+      "matches": 5,
+      "innings": 5,
+      "not_outs": 4,
+      "runs": 107,
+      "balls": 52,
+      "fours": 17,
+      "sixes": 0,
+      "high_score": 27,
+      "high_score_display": "27*",
+      "average": 107,
+      "strike_rate": 205.76923076923075,
+      "fifties": 0,
+      "hundreds": 0
+    },
+    {
       "player": "Deepak Reddy Singireddy",
       "teams": "Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 6,
@@ -325,23 +342,6 @@
       "high_score_display": "50*",
       "average": 35.333333333333336,
       "strike_rate": 165.625,
-      "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Harry Green",
-      "teams": "Sat 2nd XI, Twenty20",
-      "matches": 4,
-      "innings": 4,
-      "not_outs": 1,
-      "runs": 100,
-      "balls": 73,
-      "fours": 17,
-      "sixes": 1,
-      "high_score": 79,
-      "high_score_display": "79",
-      "average": 33.333333333333336,
-      "strike_rate": 136.986301369863,
       "fifties": 1,
       "hundreds": 0
     }
@@ -635,19 +635,19 @@
     {
       "player": "Alex Rowe-Goodey",
       "teams": "Sat 5th XI, Womens 1st XI",
-      "matches": 4,
-      "innings": 4,
-      "balls": 90,
-      "overs": 15,
+      "matches": 5,
+      "innings": 5,
+      "balls": 102,
+      "overs": 17,
       "maidens": 3,
-      "runs": 38,
+      "runs": 40,
       "wickets": 8,
       "wides": 1,
       "no_balls": 1,
       "best": "5-4",
-      "average": 4.75,
-      "economy": 2.533333333333333,
-      "strike_rate": 11.25,
+      "average": 5,
+      "economy": 2.3529411764705883,
+      "strike_rate": 12.75,
       "three_wickets": 1,
       "five_wickets": 1
     },

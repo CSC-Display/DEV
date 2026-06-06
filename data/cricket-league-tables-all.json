@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:16.063Z"
+      "fetched_at": "2026-06-06T15:16:50.284Z"
     },
     "data": {
       "id": 135282,
@@ -34,9 +34,9 @@
       "values": [
         {
           "position": "1",
-          "team_id": "24293",
-          "column_1": "Chelmsford CC",
-          "column_2": "4",
+          "team_id": "27688",
+          "column_1": "Brentwood CC",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -45,7 +45,7 @@
           "column_8": "0",
           "column_9": "0",
           "column_10": "0",
-          "column_11": "0",
+          "column_11": "1",
           "column_12": "0",
           "column_13": "0",
           "column_14": "0",
@@ -53,12 +53,12 @@
           "column_16": "0",
           "column_17": "4",
           "column_18": "0",
-          "column_19": "80"
+          "column_19": "86"
         },
         {
           "position": "2",
-          "team_id": "27688",
-          "column_1": "Brentwood CC",
+          "team_id": "24293",
+          "column_1": "Chelmsford CC",
           "column_2": "4",
           "column_3": "0",
           "column_4": "0",
@@ -105,7 +105,7 @@
           "position": "4",
           "team_id": "26283",
           "column_1": "Epping CC",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -114,7 +114,7 @@
           "column_8": "2",
           "column_9": "0",
           "column_10": "0",
-          "column_11": "0",
+          "column_11": "1",
           "column_12": "0",
           "column_13": "0",
           "column_14": "0",
@@ -122,13 +122,13 @@
           "column_16": "0",
           "column_17": "2",
           "column_18": "2",
-          "column_19": "52"
+          "column_19": "58"
         },
         {
           "position": "5",
           "team_id": "21949",
           "column_1": "Hutton CC",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -137,7 +137,7 @@
           "column_8": "2",
           "column_9": "0",
           "column_10": "0",
-          "column_11": "0",
+          "column_11": "1",
           "column_12": "0",
           "column_13": "0",
           "column_14": "0",
@@ -145,13 +145,13 @@
           "column_16": "0",
           "column_17": "2",
           "column_18": "2",
-          "column_19": "45"
+          "column_19": "51"
         },
         {
           "position": "6",
           "team_id": "28275",
           "column_1": "Buckhurst Hill CC",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -160,7 +160,7 @@
           "column_8": "2",
           "column_9": "0",
           "column_10": "0",
-          "column_11": "0",
+          "column_11": "1",
           "column_12": "0",
           "column_13": "0",
           "column_14": "0",
@@ -168,7 +168,7 @@
           "column_16": "0",
           "column_17": "2",
           "column_18": "2",
-          "column_19": "44"
+          "column_19": "50"
         },
         {
           "position": "7",
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:16.987Z"
+      "fetched_at": "2026-06-06T15:16:51.332Z"
     },
     "data": {
       "id": 135299,
@@ -300,6 +300,28 @@
       "values": [
         {
           "position": "1",
+          "team_id": "98793",
+          "column_1": "Billericay CC - 2nd XI",
+          "column_2": "5",
+          "column_3": "0",
+          "column_4": "0",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "3",
+          "column_8": "1",
+          "column_9": "0",
+          "column_10": "1",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "5",
+          "column_16": "0",
+          "column_17": "3",
+          "column_18": "71"
+        },
+        {
+          "position": "2",
           "team_id": "21634",
           "column_1": "Brentwood CC - 2nd XI",
           "column_2": "4",
@@ -321,7 +343,7 @@
           "column_18": "68"
         },
         {
-          "position": "2",
+          "position": "3",
           "team_id": "24294",
           "column_1": "Chelmsford CC - Sat 2nd XI",
           "column_2": "4",
@@ -341,28 +363,6 @@
           "column_16": "0",
           "column_17": "3",
           "column_18": "66"
-        },
-        {
-          "position": "3",
-          "team_id": "98793",
-          "column_1": "Billericay CC - 2nd XI",
-          "column_2": "4",
-          "column_3": "0",
-          "column_4": "0",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "3",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "5",
-          "column_16": "0",
-          "column_17": "3",
-          "column_18": "65"
         },
         {
           "position": "4",
@@ -434,7 +434,7 @@
           "position": "7",
           "team_id": "16610",
           "column_1": "Upminster CC - Men's 2nd XI",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -442,7 +442,7 @@
           "column_7": "1",
           "column_8": "2",
           "column_9": "0",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -450,7 +450,7 @@
           "column_15": "18",
           "column_16": "0",
           "column_17": "1",
-          "column_18": "38"
+          "column_18": "44"
         },
         {
           "position": "8",
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:17.383Z"
+      "fetched_at": "2026-06-06T15:16:51.986Z"
     },
     "data": {
       "id": 135312,
@@ -646,7 +646,7 @@
           "position": "5",
           "team_id": "21673",
           "column_1": "Brentwood CC - 3rd XI",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -654,7 +654,7 @@
           "column_7": "2",
           "column_8": "2",
           "column_9": "0",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -662,20 +662,20 @@
           "column_15": "11",
           "column_16": "0",
           "column_17": "2",
-          "column_18": "51"
+          "column_18": "57"
         },
         {
           "position": "6",
           "team_id": "31317",
           "column_1": "Woodford Wells CC - 3rd XI",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
           "column_6": "0",
           "column_7": "2",
           "column_8": "2",
-          "column_9": "0",
+          "column_9": "1",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
@@ -684,13 +684,13 @@
           "column_15": "10",
           "column_16": "0",
           "column_17": "2",
-          "column_18": "50"
+          "column_18": "56"
         },
         {
           "position": "7",
           "team_id": "163277",
           "column_1": "West Essex CC - 3rd XI",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
@@ -698,7 +698,7 @@
           "column_7": "2",
           "column_8": "2",
           "column_9": "0",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -706,7 +706,7 @@
           "column_15": "9",
           "column_16": "0",
           "column_17": "2",
-          "column_18": "49"
+          "column_18": "55"
         },
         {
           "position": "8",
@@ -756,14 +756,14 @@
           "position": "10",
           "team_id": "37539",
           "column_1": "Hornchurch CC - 3rd XI",
-          "column_2": "4",
+          "column_2": "5",
           "column_3": "0",
           "column_4": "0",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "4",
-          "column_9": "0",
+          "column_9": "1",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
@@ -772,7 +772,7 @@
           "column_15": "15",
           "column_16": "0",
           "column_17": "0",
-          "column_18": "15"
+          "column_18": "21"
         }
       ],
       "key": "p - Played,&nbsp;w1 - Time Win (bat 1st) (25),&nbsp;l1 - Time Lose (bat 2nd) (0),&nbsp;w2 - Time Win (bat 2nd) (20),&nbsp;l2 - Time Lose (bat 1st) (0),&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (8),&nbsp;d - Draw (0),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;Pts - Points"
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:18.028Z"
+      "fetched_at": "2026-06-06T15:16:52.704Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:18.712Z"
+      "fetched_at": "2026-06-06T15:16:53.400Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:19.429Z"
+      "fetched_at": "2026-06-06T15:16:54.195Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-06-06T14:05:20.151Z"
+      "fetched_at": "2026-06-06T15:16:54.914Z"
     },
     "data": {
       "id": 137056,

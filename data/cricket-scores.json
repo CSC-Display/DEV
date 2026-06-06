@@ -47,8 +47,8 @@
       "no_of_overs": "50",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "A",
+      "result_description": "Abandoned",
       "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
@@ -58,7 +58,7 @@
       "points": [
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "6",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -67,7 +67,7 @@
         },
         {
           "team_id": 16619,
-          "game_points": "0",
+          "game_points": "6",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -94,6 +94,26 @@
           "forfeited_innings": false,
           "revised_target_runs": "",
           "revised_target_overs": "50.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24293",
+          "innings_number": 1,
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
           "revised_target_balls": ""
         }
       ]
@@ -602,8 +622,8 @@
         "no_of_overs": "50",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "A",
+        "result_description": "Abandoned",
         "result_applied_to": "",
         "home_confirmed": "false",
         "away_confirmed": "false",
@@ -613,7 +633,7 @@
         "points": [
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "6",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -622,7 +642,7 @@
           },
           {
             "team_id": 16619,
-            "game_points": "0",
+            "game_points": "6",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -650,11 +670,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "50.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24293",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:48.801Z"
+    "fetched_at": "2026-06-06T16:47:11.773Z"
   },
   {
     "team": {
@@ -704,8 +744,8 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "A",
+      "result_description": "Abandoned",
       "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
@@ -715,7 +755,7 @@
       "points": [
         {
           "team_id": 19018,
-          "game_points": "0",
+          "game_points": "6",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -724,7 +764,7 @@
         },
         {
           "team_id": 24294,
-          "game_points": "0",
+          "game_points": "6",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -751,6 +791,26 @@
           "forfeited_innings": false,
           "revised_target_runs": "",
           "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "19018",
+          "innings_number": 1,
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
           "revised_target_balls": ""
         }
       ]
@@ -1265,8 +1325,8 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "A",
+        "result_description": "Abandoned",
         "result_applied_to": "",
         "home_confirmed": "false",
         "away_confirmed": "false",
@@ -1276,7 +1336,7 @@
         "points": [
           {
             "team_id": 19018,
-            "game_points": "0",
+            "game_points": "6",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1285,7 +1345,7 @@
           },
           {
             "team_id": 24294,
-            "game_points": "0",
+            "game_points": "6",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1313,11 +1373,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "45.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "19018",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:50.446Z"
+    "fetched_at": "2026-06-06T16:47:13.228Z"
   },
   {
     "team": {
@@ -2014,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:51.944Z"
+    "fetched_at": "2026-06-06T16:47:14.347Z"
   },
   {
     "team": {
@@ -2697,7 +2777,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:53.356Z"
+    "fetched_at": "2026-06-06T16:47:15.881Z"
   },
   {
     "team": {
@@ -3394,7 +3474,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:54.756Z"
+    "fetched_at": "2026-06-06T16:47:17.301Z"
   },
   {
     "team": {
@@ -3407,7 +3487,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T15:38:55.400Z"
+    "fetched_at": "2026-06-06T16:47:17.960Z"
   },
   {
     "team": {
@@ -4074,7 +4154,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:56.881Z"
+    "fetched_at": "2026-06-06T16:47:19.425Z"
   },
   {
     "team": {
@@ -4087,7 +4167,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T15:38:57.119Z"
+    "fetched_at": "2026-06-06T16:47:20.099Z"
   },
   {
     "team": {
@@ -4391,7 +4471,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:38:58.527Z"
+    "fetched_at": "2026-06-06T16:47:21.148Z"
   },
   {
     "team": {
@@ -4974,6 +5054,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T15:39:00.385Z"
+    "fetched_at": "2026-06-06T16:47:22.677Z"
   }
 ]

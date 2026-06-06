@@ -51,7 +51,7 @@
       "result_description": "Abandoned",
       "result_applied_to": "",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Fives and Heronians CC 1st XI Innings</b><br/>\n9.5 2nd Wicket: 50 runs in 54 balls, 37 minutes, Kabir Sungeen 30 (25), Bradley Copper 15 (29), 5 extras<br/>9.5 Fives and Heronians CC 1st XI: 50 runs in 9.4 overs, 39 minutes, 5 extras\n<br/>\n",
@@ -626,7 +626,7 @@
         "result_description": "Abandoned",
         "result_applied_to": "",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Fives and Heronians CC 1st XI Innings</b><br/>\n9.5 2nd Wicket: 50 runs in 54 balls, 37 minutes, Kabir Sungeen 30 (25), Bradley Copper 15 (29), 5 extras<br/>9.5 Fives and Heronians CC 1st XI: 50 runs in 9.4 overs, 39 minutes, 5 extras\n<br/>\n",
@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:11.773Z"
+    "fetched_at": "2026-06-06T17:56:28.790Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:13.228Z"
+    "fetched_at": "2026-06-06T17:56:29.750Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:14.347Z"
+    "fetched_at": "2026-06-06T17:56:30.741Z"
   },
   {
     "team": {
@@ -2777,7 +2777,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:15.881Z"
+    "fetched_at": "2026-06-06T17:56:31.657Z"
   },
   {
     "team": {
@@ -3474,7 +3474,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:17.301Z"
+    "fetched_at": "2026-06-06T17:56:32.582Z"
   },
   {
     "team": {
@@ -3487,7 +3487,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T16:47:17.960Z"
+    "fetched_at": "2026-06-06T17:56:32.965Z"
   },
   {
     "team": {
@@ -4154,7 +4154,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:19.425Z"
+    "fetched_at": "2026-06-06T17:56:33.944Z"
   },
   {
     "team": {
@@ -4167,7 +4167,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-06T16:47:20.099Z"
+    "fetched_at": "2026-06-06T17:56:34.398Z"
   },
   {
     "team": {
@@ -4471,7 +4471,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:21.148Z"
+    "fetched_at": "2026-06-06T17:56:35.308Z"
   },
   {
     "team": {
@@ -5054,6 +5054,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-06T16:47:22.677Z"
+    "fetched_at": "2026-06-06T17:56:36.262Z"
   }
 ]

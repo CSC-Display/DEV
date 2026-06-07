@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T08:41:57.916Z",
+  "generated_at": "2026-06-07T17:58:14.024Z",
   "season": "2026",
   "centuries": [
     {
@@ -355,6 +355,17 @@
       "opposition": "Brentwood CC 3rd XI",
       "date": "30/05/2026",
       "match_id": 7461840
+    },
+    {
+      "player": "George Wilson",
+      "runs": 56,
+      "score": "56",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Great Bentley CC 1st XI",
+      "date": "07/06/2026",
+      "match_id": 7507154
     },
     {
       "player": "Ben Clifford",

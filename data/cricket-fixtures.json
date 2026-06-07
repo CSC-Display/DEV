@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:54.705Z"
+    "fetched_at": "2026-06-07T08:41:25.666Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:54.969Z"
+    "fetched_at": "2026-06-07T08:41:26.128Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:55.228Z"
+    "fetched_at": "2026-06-07T08:41:26.560Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:55.470Z"
+    "fetched_at": "2026-06-07T08:41:26.775Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:55.737Z"
+    "fetched_at": "2026-06-07T08:41:27.210Z"
   },
   {
     "team": {
@@ -2091,7 +2091,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:55.981Z"
+    "fetched_at": "2026-06-07T08:41:27.653Z"
   },
   {
     "team": {
@@ -2099,46 +2099,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7507154,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "04/06/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "07/06/2026",
-        "match_time": "13:00",
-        "ground_name": "The Green",
-        "ground_id": "1941",
-        "ground_latitude": "51.85515299999999",
-        "ground_longitude": "1.064014",
-        "home_club_name": "Great Bentley CC",
-        "home_team_name": "1st XI",
-        "home_team_id": "45577",
-        "home_club_id": "2988",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "NECL 1st XI",
-        "away_team_id": "324716",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "John Graham",
-        "scorer_1_id": "5962869",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7507165,
         "status": "New",
@@ -2458,9 +2418,49 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
+      },
+      {
+        "id": 7510292,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "25/02/2026",
+        "league_name": "Two Counties Cricket Championship",
+        "league_id": "7277",
+        "competition_name": "Sunday League",
+        "competition_id": "134513",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "16/08/2026",
+        "match_time": "13:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "NECL 1st XI",
+        "home_team_id": "324716",
+        "home_club_id": "1786",
+        "away_club_name": "Ardleigh CC",
+        "away_team_name": "1st XI",
+        "away_team_id": "70131",
+        "away_club_id": "744",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:56.253Z"
+    "fetched_at": "2026-06-07T08:41:28.108Z"
   },
   {
     "team": {
@@ -2509,7 +2509,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:56.484Z"
+    "fetched_at": "2026-06-07T08:41:28.556Z"
   },
   {
     "team": {
@@ -2558,7 +2558,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:56.741Z"
+    "fetched_at": "2026-06-07T08:41:29.021Z"
   },
   {
     "team": {
@@ -2807,6 +2807,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-06T22:59:57.015Z"
+    "fetched_at": "2026-06-07T08:41:29.494Z"
   }
 ]

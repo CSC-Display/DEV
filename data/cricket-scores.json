@@ -8,7 +8,7 @@
       "id": 7325273,
       "status": "New",
       "published": "Yes",
-      "last_updated": "07/06/2026",
+      "last_updated": "08/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -52,8 +52,8 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Fives and Heronians CC 1st XI Innings</b><br/>\n9.5 2nd Wicket: 50 runs in 54 balls, 37 minutes, Kabir Sungeen 30 (25), Bradley Copper 15 (29), 5 extras<br/>9.5 Fives and Heronians CC 1st XI: 50 runs in 9.4 overs, 39 minutes, 5 extras\n<br/>\n",
       "points": [
         {
@@ -583,7 +583,7 @@
         "id": 7325273,
         "status": "New",
         "published": "Yes",
-        "last_updated": "07/06/2026",
+        "last_updated": "08/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -627,8 +627,8 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Fives and Heronians CC 1st XI Innings</b><br/>\n9.5 2nd Wicket: 50 runs in 54 balls, 37 minutes, Kabir Sungeen 30 (25), Bradley Copper 15 (29), 5 extras<br/>9.5 Fives and Heronians CC 1st XI: 50 runs in 9.4 overs, 39 minutes, 5 extras\n<br/>\n",
         "points": [
           {
@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:18.525Z"
+    "fetched_at": "2026-06-08T23:00:09.411Z"
   },
   {
     "team": {
@@ -749,8 +749,8 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1330,8 +1330,8 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:19.321Z"
+    "fetched_at": "2026-06-08T23:00:11.186Z"
   },
   {
     "team": {
@@ -1408,7 +1408,7 @@
       "id": 7461843,
       "status": "New",
       "published": "Yes",
-      "last_updated": "06/06/2026",
+      "last_updated": "08/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1452,8 +1452,8 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1983,7 +1983,7 @@
         "id": 7461843,
         "status": "New",
         "published": "Yes",
-        "last_updated": "06/06/2026",
+        "last_updated": "08/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2027,8 +2027,8 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:20.293Z"
+    "fetched_at": "2026-06-08T23:00:13.348Z"
   },
   {
     "team": {
@@ -2149,8 +2149,8 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2724,8 +2724,8 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:21.358Z"
+    "fetched_at": "2026-06-08T23:00:15.013Z"
   },
   {
     "team": {
@@ -2846,8 +2846,8 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<p>Game&nbsp;cancelled&nbsp;to&nbsp;rain.&nbsp;</p>\r\n",
       "points": [
         {
@@ -3421,8 +3421,8 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<p>Game&nbsp;cancelled&nbsp;to&nbsp;rain.&nbsp;</p>\r\n",
         "points": [
           {
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:23.488Z"
+    "fetched_at": "2026-06-08T23:00:16.504Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-08T21:26:23.681Z"
+    "fetched_at": "2026-06-08T23:00:18.004Z"
   },
   {
     "team": {
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:24.451Z"
+    "fetched_at": "2026-06-08T23:00:19.504Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-08T21:26:24.640Z"
+    "fetched_at": "2026-06-08T23:00:20.138Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:25.373Z"
+    "fetched_at": "2026-06-08T23:00:21.321Z"
   },
   {
     "team": {
@@ -5069,6 +5069,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T21:26:25.922Z"
+    "fetched_at": "2026-06-08T23:00:22.501Z"
   }
 ]

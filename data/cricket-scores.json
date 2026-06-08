@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:46.691Z"
+    "fetched_at": "2026-06-08T16:59:31.477Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:47.214Z"
+    "fetched_at": "2026-06-08T16:59:32.388Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:47.736Z"
+    "fetched_at": "2026-06-08T16:59:32.841Z"
   },
   {
     "team": {
@@ -2105,7 +2105,7 @@
       "id": 7462115,
       "status": "New",
       "published": "Yes",
-      "last_updated": "07/06/2026",
+      "last_updated": "08/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2147,7 +2147,7 @@
       "result": "C",
       "result_description": "Cancelled",
       "result_applied_to": "",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2680,7 +2680,7 @@
         "id": 7462115,
         "status": "New",
         "published": "Yes",
-        "last_updated": "07/06/2026",
+        "last_updated": "08/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2722,7 +2722,7 @@
         "result": "C",
         "result_description": "Cancelled",
         "result_applied_to": "",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:48.228Z"
+    "fetched_at": "2026-06-08T16:59:33.495Z"
   },
   {
     "team": {
@@ -2802,7 +2802,7 @@
       "id": 7462391,
       "status": "New",
       "published": "Yes",
-      "last_updated": "07/06/2026",
+      "last_updated": "08/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2845,7 +2845,7 @@
       "result_description": "Cancelled",
       "result_applied_to": "",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<p>Game&nbsp;cancelled&nbsp;to&nbsp;rain.&nbsp;</p>\r\n",
@@ -3377,7 +3377,7 @@
         "id": 7462391,
         "status": "New",
         "published": "Yes",
-        "last_updated": "07/06/2026",
+        "last_updated": "08/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3420,7 +3420,7 @@
         "result_description": "Cancelled",
         "result_applied_to": "",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<p>Game&nbsp;cancelled&nbsp;to&nbsp;rain.&nbsp;</p>\r\n",
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:48.727Z"
+    "fetched_at": "2026-06-08T16:59:34.295Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-08T13:47:48.933Z"
+    "fetched_at": "2026-06-08T16:59:34.682Z"
   },
   {
     "team": {
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:49.475Z"
+    "fetched_at": "2026-06-08T16:59:35.371Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-08T13:47:49.685Z"
+    "fetched_at": "2026-06-08T16:59:35.554Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:50.150Z"
+    "fetched_at": "2026-06-08T16:59:36.194Z"
   },
   {
     "team": {
@@ -4497,7 +4497,7 @@
       "id": 7399545,
       "status": "New",
       "published": "Yes",
-      "last_updated": "06/06/2026",
+      "last_updated": "08/06/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -4539,7 +4539,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Womens 1st XI - Won",
       "result_applied_to": "213007",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -4958,7 +4958,7 @@
         "id": 7399545,
         "status": "New",
         "published": "Yes",
-        "last_updated": "06/06/2026",
+        "last_updated": "08/06/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -5000,7 +5000,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Womens 1st XI - Won",
         "result_applied_to": "213007",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -5069,6 +5069,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-08T13:47:50.627Z"
+    "fetched_at": "2026-06-08T16:59:37.080Z"
   }
 ]

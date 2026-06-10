@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:42.621Z"
+    "fetched_at": "2026-06-10T12:10:00.209Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:43.757Z"
+    "fetched_at": "2026-06-10T12:10:01.358Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:44.672Z"
+    "fetched_at": "2026-06-10T12:10:02.459Z"
   },
   {
     "team": {
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:45.817Z"
+    "fetched_at": "2026-06-10T12:10:03.589Z"
   },
   {
     "team": {
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:46.939Z"
+    "fetched_at": "2026-06-10T12:10:04.468Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-10T09:35:47.456Z"
+    "fetched_at": "2026-06-10T12:10:04.964Z"
   },
   {
     "team": {
@@ -3512,7 +3512,7 @@
       "id": 7507154,
       "status": "New",
       "published": "Yes",
-      "last_updated": "07/06/2026",
+      "last_updated": "10/06/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3555,7 +3555,7 @@
       "result_description": "Chelmsford CC - NECL 1st XI - Won",
       "result_applied_to": "324716",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -4058,7 +4058,7 @@
         "id": 7507154,
         "status": "New",
         "published": "Yes",
-        "last_updated": "07/06/2026",
+        "last_updated": "10/06/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -4101,7 +4101,7 @@
         "result_description": "Chelmsford CC - NECL 1st XI - Won",
         "result_applied_to": "324716",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:48.612Z"
+    "fetched_at": "2026-06-10T12:10:06.077Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-10T09:35:49.122Z"
+    "fetched_at": "2026-06-10T12:10:06.580Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:50.252Z"
+    "fetched_at": "2026-06-10T12:10:07.688Z"
   },
   {
     "team": {
@@ -5069,6 +5069,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-10T09:35:51.543Z"
+    "fetched_at": "2026-06-10T12:10:08.793Z"
   }
 ]

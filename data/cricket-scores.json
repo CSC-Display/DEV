@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:38.771Z"
+    "fetched_at": "2026-06-12T20:03:49.354Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:39.737Z"
+    "fetched_at": "2026-06-12T20:03:50.292Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:40.688Z"
+    "fetched_at": "2026-06-12T20:03:51.262Z"
   },
   {
     "team": {
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:41.669Z"
+    "fetched_at": "2026-06-12T20:03:52.193Z"
   },
   {
     "team": {
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:42.584Z"
+    "fetched_at": "2026-06-12T20:03:53.152Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T19:31:42.969Z"
+    "fetched_at": "2026-06-12T20:03:53.540Z"
   },
   {
     "team": {
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:43.940Z"
+    "fetched_at": "2026-06-12T20:03:54.487Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T19:31:44.341Z"
+    "fetched_at": "2026-06-12T20:03:54.898Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:45.299Z"
+    "fetched_at": "2026-06-12T20:03:55.955Z"
   },
   {
     "team": {
@@ -4536,9 +4536,9 @@
       "no_of_overs": "20",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Womens 1st XI - Won",
+      "result_applied_to": "213007",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -4549,14 +4549,14 @@
           "team_id": 382272,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "10.0",
+          "bonus_points_batting": "5.0",
+          "bonus_points_bowling": "5.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 213007,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -4588,16 +4588,16 @@
         {
           "team_batting_id": "382272",
           "innings_number": 1,
-          "extra_byes": "2",
+          "extra_byes": "3",
           "extra_leg_byes": "1",
-          "extra_wides": "5",
-          "extra_no_balls": "10",
+          "extra_wides": "7",
+          "extra_no_balls": "13",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "56",
-          "wickets": "7",
-          "overs": "15.0",
+          "total_extras": "24",
+          "runs": "82",
+          "wickets": "8",
+          "overs": "20.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4613,7 +4613,7 @@
         {
           "name": "Holly Wright",
           "w": 3,
-          "r": "4"
+          "r": "10"
         }
       ]
     },
@@ -5117,9 +5117,9 @@
         "no_of_overs": "20",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Womens 1st XI - Won",
+        "result_applied_to": "213007",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -5130,14 +5130,14 @@
             "team_id": 382272,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "10.0",
+            "bonus_points_batting": "5.0",
+            "bonus_points_bowling": "5.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 213007,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -5169,16 +5169,16 @@
           {
             "team_batting_id": "382272",
             "innings_number": 1,
-            "extra_byes": "2",
+            "extra_byes": "3",
             "extra_leg_byes": "1",
-            "extra_wides": "5",
-            "extra_no_balls": "10",
+            "extra_wides": "7",
+            "extra_no_balls": "13",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "56",
-            "wickets": "7",
-            "overs": "15.0",
+            "total_extras": "24",
+            "runs": "82",
+            "wickets": "8",
+            "overs": "20.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5189,6 +5189,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T19:31:45.979Z"
+    "fetched_at": "2026-06-12T20:03:56.883Z"
   }
 ]

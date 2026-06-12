@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:13.053Z"
+    "fetched_at": "2026-06-12T19:31:38.771Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:14.067Z"
+    "fetched_at": "2026-06-12T19:31:39.737Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:15.020Z"
+    "fetched_at": "2026-06-12T19:31:40.688Z"
   },
   {
     "team": {
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:15.920Z"
+    "fetched_at": "2026-06-12T19:31:41.669Z"
   },
   {
     "team": {
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:16.886Z"
+    "fetched_at": "2026-06-12T19:31:42.584Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T18:57:17.373Z"
+    "fetched_at": "2026-06-12T19:31:42.969Z"
   },
   {
     "team": {
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:18.315Z"
+    "fetched_at": "2026-06-12T19:31:43.940Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T18:57:18.703Z"
+    "fetched_at": "2026-06-12T19:31:44.341Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:19.673Z"
+    "fetched_at": "2026-06-12T19:31:45.299Z"
   },
   {
     "team": {
@@ -4588,16 +4588,16 @@
         {
           "team_batting_id": "382272",
           "innings_number": 1,
-          "extra_byes": "1",
+          "extra_byes": "2",
           "extra_leg_byes": "1",
-          "extra_wides": "2",
-          "extra_no_balls": "0",
+          "extra_wides": "5",
+          "extra_no_balls": "10",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "4",
-          "runs": "11",
-          "wickets": "4",
-          "overs": "6.0",
+          "total_extras": "18",
+          "runs": "56",
+          "wickets": "7",
+          "overs": "15.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4609,7 +4609,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Holly Wright",
+          "w": 3,
+          "r": "4"
+        }
+      ]
     },
     "form": [
       {
@@ -5163,16 +5169,16 @@
           {
             "team_batting_id": "382272",
             "innings_number": 1,
-            "extra_byes": "1",
+            "extra_byes": "2",
             "extra_leg_byes": "1",
-            "extra_wides": "2",
-            "extra_no_balls": "0",
+            "extra_wides": "5",
+            "extra_no_balls": "10",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "4",
-            "runs": "11",
-            "wickets": "4",
-            "overs": "6.0",
+            "total_extras": "18",
+            "runs": "56",
+            "wickets": "7",
+            "overs": "15.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5183,6 +5189,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:57:20.623Z"
+    "fetched_at": "2026-06-12T19:31:45.979Z"
   }
 ]

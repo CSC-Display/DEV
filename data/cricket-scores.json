@@ -694,7 +694,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:11.093Z"
+    "fetched_at": "2026-06-12T18:57:13.053Z"
   },
   {
     "team": {
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:12.028Z"
+    "fetched_at": "2026-06-12T18:57:14.067Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:12.923Z"
+    "fetched_at": "2026-06-12T18:57:15.020Z"
   },
   {
     "team": {
@@ -2791,7 +2791,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:13.877Z"
+    "fetched_at": "2026-06-12T18:57:15.920Z"
   },
   {
     "team": {
@@ -3488,7 +3488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:14.884Z"
+    "fetched_at": "2026-06-12T18:57:16.886Z"
   },
   {
     "team": {
@@ -3501,7 +3501,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T18:14:15.048Z"
+    "fetched_at": "2026-06-12T18:57:17.373Z"
   },
   {
     "team": {
@@ -4169,7 +4169,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:15.973Z"
+    "fetched_at": "2026-06-12T18:57:18.315Z"
   },
   {
     "team": {
@@ -4182,7 +4182,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-12T18:14:16.391Z"
+    "fetched_at": "2026-06-12T18:57:18.703Z"
   },
   {
     "team": {
@@ -4486,7 +4486,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:17.075Z"
+    "fetched_at": "2026-06-12T18:57:19.673Z"
   },
   {
     "team": {
@@ -4568,16 +4568,16 @@
         {
           "team_batting_id": "213007",
           "innings_number": 1,
-          "extra_byes": "3",
+          "extra_byes": "4",
           "extra_leg_byes": "4",
           "extra_wides": "12",
           "extra_no_balls": "8",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "27",
-          "runs": "106",
-          "wickets": "8",
-          "overs": "17.0",
+          "total_extras": "28",
+          "runs": "126",
+          "wickets": "10",
+          "overs": "19.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4588,16 +4588,16 @@
         {
           "team_batting_id": "382272",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_byes": "1",
+          "extra_leg_byes": "1",
+          "extra_wides": "2",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0.0",
+          "total_extras": "4",
+          "runs": "11",
+          "wickets": "4",
+          "overs": "6.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -5143,16 +5143,16 @@
           {
             "team_batting_id": "213007",
             "innings_number": 1,
-            "extra_byes": "3",
+            "extra_byes": "4",
             "extra_leg_byes": "4",
             "extra_wides": "12",
             "extra_no_balls": "8",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "27",
-            "runs": "106",
-            "wickets": "8",
-            "overs": "17.0",
+            "total_extras": "28",
+            "runs": "126",
+            "wickets": "10",
+            "overs": "19.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5163,16 +5163,16 @@
           {
             "team_batting_id": "382272",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
+            "extra_byes": "1",
+            "extra_leg_byes": "1",
+            "extra_wides": "2",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0.0",
+            "total_extras": "4",
+            "runs": "11",
+            "wickets": "4",
+            "overs": "6.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5183,6 +5183,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-12T18:14:18.014Z"
+    "fetched_at": "2026-06-12T18:57:20.623Z"
   }
 ]

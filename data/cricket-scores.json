@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:23.706Z"
+    "fetched_at": "2026-06-13T17:43:41.418Z"
   },
   {
     "team": {
@@ -756,18 +756,18 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
+      "result_applied_to": "24294",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n11.1 2nd Wicket: 50 runs in 51 balls, 36 minutes, Harry Jacobs 16 (22), Thomas Duxson 30 (29), 4 extras<br/>11.1 Chelmsford CC Sat 2nd XI: 50 runs in 11.1 overs, 47 minutes, 4 extras<br/>24.3 Chelmsford CC Sat 2nd XI: 100 runs in 24.3 overs, 101 minutes, 5 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n11.1 2nd Wicket: 50 runs in 51 balls, 36 minutes, Harry Jacobs 16 (22), Thomas Duxson 30 (29), 4 extras<br/>11.1 Chelmsford CC Sat 2nd XI: 50 runs in 11.1 overs, 47 minutes, 4 extras<br/>24.3 Chelmsford CC Sat 2nd XI: 100 runs in 24.3 overs, 101 minutes, 5 extras<br/>31.7 5th Wicket: 50 runs in 64 balls, 41 minutes, Elliot Wenzel 24 (20), Mohammed Baig 22 (44), 4 extras<br/>32.2 Chelmsford CC Sat 2nd XI: 150 runs in 32.2 overs, 132 minutes, 8 extras<br/>36.2 Elliot Wenzel: 50 runs in 43 balls, 71 minutes (6x4)\n<br/>\n",
       "points": [
         {
           "team_id": 24294,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -778,9 +778,9 @@
           "team_id": 21634,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "7.0",
+          "bonus_points_batting": "6.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -810,14 +810,14 @@
           "innings_number": 1,
           "extra_byes": "6",
           "extra_leg_byes": "1",
-          "extra_wides": "0",
+          "extra_wides": "2",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "141",
+          "total_extras": "9",
+          "runs": "191",
           "wickets": "4",
-          "overs": "31",
+          "overs": "37.4",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -828,7 +828,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Elliot Wenzel",
+          "score": 58,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Thomas Duxson",
@@ -1342,18 +1348,18 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
+        "result_applied_to": "24294",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n11.1 2nd Wicket: 50 runs in 51 balls, 36 minutes, Harry Jacobs 16 (22), Thomas Duxson 30 (29), 4 extras<br/>11.1 Chelmsford CC Sat 2nd XI: 50 runs in 11.1 overs, 47 minutes, 4 extras<br/>24.3 Chelmsford CC Sat 2nd XI: 100 runs in 24.3 overs, 101 minutes, 5 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n11.1 2nd Wicket: 50 runs in 51 balls, 36 minutes, Harry Jacobs 16 (22), Thomas Duxson 30 (29), 4 extras<br/>11.1 Chelmsford CC Sat 2nd XI: 50 runs in 11.1 overs, 47 minutes, 4 extras<br/>24.3 Chelmsford CC Sat 2nd XI: 100 runs in 24.3 overs, 101 minutes, 5 extras<br/>31.7 5th Wicket: 50 runs in 64 balls, 41 minutes, Elliot Wenzel 24 (20), Mohammed Baig 22 (44), 4 extras<br/>32.2 Chelmsford CC Sat 2nd XI: 150 runs in 32.2 overs, 132 minutes, 8 extras<br/>36.2 Elliot Wenzel: 50 runs in 43 balls, 71 minutes (6x4)\n<br/>\n",
         "points": [
           {
             "team_id": 24294,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1364,9 +1370,9 @@
             "team_id": 21634,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "7.0",
+            "bonus_points_batting": "6.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1396,14 +1402,14 @@
             "innings_number": 1,
             "extra_byes": "6",
             "extra_leg_byes": "1",
-            "extra_wides": "0",
+            "extra_wides": "2",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "141",
+            "total_extras": "9",
+            "runs": "191",
             "wickets": "4",
-            "overs": "31",
+            "overs": "37.4",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1414,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:26.134Z"
+    "fetched_at": "2026-06-13T17:43:42.041Z"
   },
   {
     "team": {
@@ -1516,16 +1522,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "15",
-          "extra_leg_byes": "0",
+          "extra_byes": "19",
+          "extra_leg_byes": "1",
           "extra_wides": "3",
-          "extra_no_balls": "1",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "19",
-          "runs": "77",
-          "wickets": "5",
-          "overs": "24.0",
+          "total_extras": "26",
+          "runs": "162",
+          "wickets": "6",
+          "overs": "41.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1536,7 +1542,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "George Wilson",
+          "score": 87,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Steve Bond",
@@ -2107,16 +2119,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "15",
-            "extra_leg_byes": "0",
+            "extra_byes": "19",
+            "extra_leg_byes": "1",
             "extra_wides": "3",
-            "extra_no_balls": "1",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "19",
-            "runs": "77",
-            "wickets": "5",
-            "overs": "24.0",
+            "total_extras": "26",
+            "runs": "162",
+            "wickets": "6",
+            "overs": "41.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2127,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:33.495Z"
+    "fetched_at": "2026-06-13T17:43:42.739Z"
   },
   {
     "team": {
@@ -2824,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:35.025Z"
+    "fetched_at": "2026-06-13T17:43:43.675Z"
   },
   {
     "team": {
@@ -3521,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:39.273Z"
+    "fetched_at": "2026-06-13T17:43:44.333Z"
   },
   {
     "team": {
@@ -3534,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T16:28:40.043Z"
+    "fetched_at": "2026-06-13T17:43:44.546Z"
   },
   {
     "team": {
@@ -4202,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:42.038Z"
+    "fetched_at": "2026-06-13T17:43:45.188Z"
   },
   {
     "team": {
@@ -4215,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T16:28:43.992Z"
+    "fetched_at": "2026-06-13T17:43:45.403Z"
   },
   {
     "team": {
@@ -4519,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:50.491Z"
+    "fetched_at": "2026-06-13T17:43:45.952Z"
   },
   {
     "team": {
@@ -5222,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:28:53.972Z"
+    "fetched_at": "2026-06-13T17:43:46.484Z"
   }
 ]

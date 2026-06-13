@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T13:53:40.191Z",
+  "generated_at": "2026-06-13T15:16:01.512Z",
   "season": "2026",
   "centuries": [
     {
@@ -368,6 +368,17 @@
       "match_id": 7507154
     },
     {
+      "player": "Aarav Salil",
+      "runs": 54,
+      "score": "54*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Brentwood CC 1st XI",
+      "date": "13/06/2026",
+      "match_id": 7325277
+    },
+    {
       "player": "Ben Clifford",
       "runs": 54,
       "score": "54",
@@ -524,17 +535,6 @@
       "match_id": 7461835
     },
     {
-      "player": "Ben Waring",
-      "wickets": 5,
-      "runs": 22,
-      "figures": "5-22",
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Brentwood CC 1st XI",
-      "date": "13/06/2026",
-      "match_id": 7325277
-    },
-    {
       "player": "Piyush Singh",
       "wickets": 5,
       "runs": 22,
@@ -544,6 +544,17 @@
       "opposition": "Kirby CC Sunday 2nd XI",
       "date": "26/04/2026",
       "match_id": 7505909
+    },
+    {
+      "player": "Ben Waring",
+      "wickets": 5,
+      "runs": 23,
+      "figures": "5-23",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Brentwood CC 1st XI",
+      "date": "13/06/2026",
+      "match_id": 7325277
     }
   ],
   "ducks": [
@@ -602,6 +613,14 @@
       "opposition": "Harold Wood CC 2nd XI",
       "date": "06/06/2026",
       "match_id": 7325720
+    },
+    {
+      "player": "Miles Clark",
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Brentwood CC 2nd XI",
+      "date": "13/06/2026",
+      "match_id": 7325728
     },
     {
       "player": "Mohammed Baig",
@@ -1048,6 +1067,20 @@
           "opposition": "High Roding CC Womens 1st XI",
           "date": "08/05/2026",
           "match_id": 7399544
+        }
+      ]
+    },
+    {
+      "player": "Miles Clark",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Miles Clark",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Brentwood CC 2nd XI",
+          "date": "13/06/2026",
+          "match_id": 7325728
         }
       ]
     },

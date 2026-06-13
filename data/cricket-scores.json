@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:31.846Z"
+    "fetched_at": "2026-06-13T20:39:19.380Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:32.493Z"
+    "fetched_at": "2026-06-13T20:39:20.845Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "24295",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2070,7 +2070,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "24295",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:33.161Z"
+    "fetched_at": "2026-06-13T20:39:22.401Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:34.029Z"
+    "fetched_at": "2026-06-13T20:39:23.902Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:34.682Z"
+    "fetched_at": "2026-06-13T20:39:27.746Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T20:21:34.911Z"
+    "fetched_at": "2026-06-13T20:39:28.412Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:35.532Z"
+    "fetched_at": "2026-06-13T20:39:29.482Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T20:21:35.824Z"
+    "fetched_at": "2026-06-13T20:39:30.157Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:36.543Z"
+    "fetched_at": "2026-06-13T20:39:31.755Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:21:37.163Z"
+    "fetched_at": "2026-06-13T20:39:32.828Z"
   }
 ]

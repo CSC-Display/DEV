@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)\n<br/>\n",
       "points": [
         {
           "team_id": 27688,
@@ -82,13 +82,13 @@
           "extra_byes": "8",
           "extra_leg_byes": "5",
           "extra_wides": "0",
-          "extra_no_balls": "4",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "17",
-          "runs": "142",
-          "wickets": "6",
-          "overs": "41",
+          "total_extras": "18",
+          "runs": "165",
+          "wickets": "8",
+          "overs": "50",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -103,8 +103,8 @@
       "wickets": [
         {
           "name": "Ben Waring",
-          "w": 3,
-          "r": "14"
+          "w": 5,
+          "r": "22"
         }
       ]
     },
@@ -615,7 +615,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)\n<br/>\n",
         "points": [
           {
             "team_id": 27688,
@@ -643,13 +643,13 @@
             "extra_byes": "8",
             "extra_leg_byes": "5",
             "extra_wides": "0",
-            "extra_no_balls": "4",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "17",
-            "runs": "142",
-            "wickets": "6",
-            "overs": "41",
+            "total_extras": "18",
+            "runs": "165",
+            "wickets": "8",
+            "overs": "50",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -660,7 +660,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:13.868Z"
+    "fetched_at": "2026-06-13T13:50:59.750Z"
   },
   {
     "team": {
@@ -717,7 +717,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24294,
@@ -742,16 +742,16 @@
         {
           "team_batting_id": "21634",
           "innings_number": 1,
-          "extra_byes": "5",
+          "extra_byes": "8",
           "extra_leg_byes": "1",
           "extra_wides": "0",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "89",
-          "wickets": "2",
-          "overs": "25",
+          "total_extras": "10",
+          "runs": "189",
+          "wickets": "9",
+          "overs": "50",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -763,7 +763,18 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Thomas Duxson",
+          "w": 3,
+          "r": "64"
+        },
+        {
+          "name": "Tom Halsey",
+          "w": 3,
+          "r": "37"
+        }
+      ]
     },
     "form": [
       {
@@ -1272,7 +1283,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n13.6 Brentwood CC 2nd XI: 50 runs in 14.0 overs, 47 minutes, 7 extras<br/>16.5 2nd Wicket: 50 runs in 72 balls, 36 minutes, Paul Hurworth 25 (34), Josh Knightbridge 25 (38), 0 extras<br/>28.2 Brentwood CC 2nd XI: 100 runs in 28.2 overs, 92 minutes, 7 extras<br/>43.3 Brentwood CC 2nd XI: 150 runs in 43.3 overs, 143 minutes, 10 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24294,
@@ -1297,16 +1308,16 @@
           {
             "team_batting_id": "21634",
             "innings_number": 1,
-            "extra_byes": "5",
+            "extra_byes": "8",
             "extra_leg_byes": "1",
             "extra_wides": "0",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "89",
-            "wickets": "2",
-            "overs": "25",
+            "total_extras": "10",
+            "runs": "189",
+            "wickets": "9",
+            "overs": "50",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1317,7 +1328,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:15.768Z"
+    "fetched_at": "2026-06-13T13:51:01.768Z"
   },
   {
     "team": {
@@ -1399,16 +1410,16 @@
         {
           "team_batting_id": "163277",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "7",
           "extra_leg_byes": "7",
-          "extra_wides": "1",
+          "extra_wides": "3",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "51",
-          "wickets": "4",
-          "overs": "18.0",
+          "total_extras": "17",
+          "runs": "182",
+          "wickets": "7",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1424,7 +1435,12 @@
         {
           "name": "Steve Bond",
           "w": 3,
-          "r": "23"
+          "r": "24"
+        },
+        {
+          "name": "Neil Siriwardana",
+          "w": 3,
+          "r": "56"
         }
       ]
     },
@@ -1960,16 +1976,16 @@
           {
             "team_batting_id": "163277",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "7",
             "extra_leg_byes": "7",
-            "extra_wides": "1",
+            "extra_wides": "3",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "51",
-            "wickets": "4",
-            "overs": "18.0",
+            "total_extras": "17",
+            "runs": "182",
+            "wickets": "7",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1980,7 +1996,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:17.038Z"
+    "fetched_at": "2026-06-13T13:51:04.718Z"
   },
   {
     "team": {
@@ -2677,7 +2693,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:18.679Z"
+    "fetched_at": "2026-06-13T13:51:06.643Z"
   },
   {
     "team": {
@@ -3374,7 +3390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:21.429Z"
+    "fetched_at": "2026-06-13T13:51:08.715Z"
   },
   {
     "team": {
@@ -3387,7 +3403,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T12:18:21.784Z"
+    "fetched_at": "2026-06-13T13:51:09.279Z"
   },
   {
     "team": {
@@ -4055,7 +4071,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:24.060Z"
+    "fetched_at": "2026-06-13T13:51:11.736Z"
   },
   {
     "team": {
@@ -4068,7 +4084,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T12:18:25.142Z"
+    "fetched_at": "2026-06-13T13:51:13.518Z"
   },
   {
     "team": {
@@ -4372,7 +4388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:27.253Z"
+    "fetched_at": "2026-06-13T13:51:15.090Z"
   },
   {
     "team": {
@@ -5075,6 +5091,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:18:28.892Z"
+    "fetched_at": "2026-06-13T13:51:17.862Z"
   }
 ]

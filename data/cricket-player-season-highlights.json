@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T12:04:05.945Z",
+  "generated_at": "2026-06-13T13:53:40.191Z",
   "season": "2026",
   "centuries": [
     {
@@ -522,6 +522,17 @@
       "opposition": "Harold Wood CC 3rd XI",
       "date": "23/05/2026",
       "match_id": 7461835
+    },
+    {
+      "player": "Ben Waring",
+      "wickets": 5,
+      "runs": 22,
+      "figures": "5-22",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Brentwood CC 1st XI",
+      "date": "13/06/2026",
+      "match_id": 7325277
     },
     {
       "player": "Piyush Singh",

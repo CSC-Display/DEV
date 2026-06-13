@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras\n<br/>\n",
       "points": [
         {
           "team_id": 27688,
@@ -79,16 +79,16 @@
         {
           "team_batting_id": "27688",
           "innings_number": 1,
-          "extra_byes": "4",
+          "extra_byes": "8",
           "extra_leg_byes": "5",
           "extra_wides": "0",
           "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "13",
-          "runs": "108",
+          "total_extras": "17",
+          "runs": "142",
           "wickets": "6",
-          "overs": "36",
+          "overs": "41",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -615,7 +615,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras\n<br/>\n",
         "points": [
           {
             "team_id": 27688,
@@ -640,16 +640,16 @@
           {
             "team_batting_id": "27688",
             "innings_number": 1,
-            "extra_byes": "4",
+            "extra_byes": "8",
             "extra_leg_byes": "5",
             "extra_wides": "0",
             "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "108",
+            "total_extras": "17",
+            "runs": "142",
             "wickets": "6",
-            "overs": "36",
+            "overs": "41",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -660,7 +660,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:32.059Z"
+    "fetched_at": "2026-06-13T12:18:13.868Z"
   },
   {
     "team": {
@@ -749,9 +749,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "7",
-          "runs": "76",
-          "wickets": "1",
-          "overs": "19",
+          "runs": "89",
+          "wickets": "2",
+          "overs": "25",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1304,9 +1304,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "7",
-            "runs": "76",
-            "wickets": "1",
-            "overs": "19",
+            "runs": "89",
+            "wickets": "2",
+            "overs": "25",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1317,7 +1317,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:35.240Z"
+    "fetched_at": "2026-06-13T12:18:15.768Z"
   },
   {
     "team": {
@@ -1400,15 +1400,15 @@
           "team_batting_id": "163277",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "6",
+          "extra_leg_byes": "7",
           "extra_wides": "1",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "33",
+          "total_extras": "8",
+          "runs": "51",
           "wickets": "4",
-          "overs": "14.0",
+          "overs": "18.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1424,7 +1424,7 @@
         {
           "name": "Steve Bond",
           "w": 3,
-          "r": "13"
+          "r": "23"
         }
       ]
     },
@@ -1961,15 +1961,15 @@
             "team_batting_id": "163277",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "6",
+            "extra_leg_byes": "7",
             "extra_wides": "1",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "33",
+            "total_extras": "8",
+            "runs": "51",
             "wickets": "4",
-            "overs": "14.0",
+            "overs": "18.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1980,7 +1980,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:37.890Z"
+    "fetched_at": "2026-06-13T12:18:17.038Z"
   },
   {
     "team": {
@@ -2677,7 +2677,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:40.426Z"
+    "fetched_at": "2026-06-13T12:18:18.679Z"
   },
   {
     "team": {
@@ -3374,7 +3374,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:41.898Z"
+    "fetched_at": "2026-06-13T12:18:21.429Z"
   },
   {
     "team": {
@@ -3387,7 +3387,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T12:02:44.029Z"
+    "fetched_at": "2026-06-13T12:18:21.784Z"
   },
   {
     "team": {
@@ -4055,7 +4055,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:45.878Z"
+    "fetched_at": "2026-06-13T12:18:24.060Z"
   },
   {
     "team": {
@@ -4068,7 +4068,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T12:02:47.156Z"
+    "fetched_at": "2026-06-13T12:18:25.142Z"
   },
   {
     "team": {
@@ -4372,7 +4372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:49.942Z"
+    "fetched_at": "2026-06-13T12:18:27.253Z"
   },
   {
     "team": {
@@ -5075,6 +5075,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T12:02:54.546Z"
+    "fetched_at": "2026-06-13T12:18:28.892Z"
   }
 ]

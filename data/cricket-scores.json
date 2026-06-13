@@ -47,27 +47,27 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
+      "result_applied_to": "24293",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras<br/>29.1 2nd Wicket: 50 runs in 35 balls, 26 minutes, Aarav Salil 19 (14), Dan Hagen 30 (21), 1 extra<br/>34.1 Aarav Salil: 100 runs in 100 balls, 124 minutes (17x4)\n<br/>\n",
       "points": [
         {
           "team_id": 27688,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
+          "bonus_points_together": "4.0",
+          "bonus_points_batting": "4.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -102,13 +102,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "1",
           "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "2",
-          "runs": "154",
+          "total_extras": "3",
+          "runs": "186",
           "wickets": "1",
-          "overs": "28",
+          "overs": "34.1",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -122,7 +122,7 @@
       "runs": [
         {
           "name": "Aarav Salil",
-          "score": 84,
+          "score": 103,
           "notOut": true
         }
       ],
@@ -634,27 +634,27 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
+        "result_applied_to": "24293",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras<br/>29.1 2nd Wicket: 50 runs in 35 balls, 26 minutes, Aarav Salil 19 (14), Dan Hagen 30 (21), 1 extra<br/>34.1 Aarav Salil: 100 runs in 100 balls, 124 minutes (17x4)\n<br/>\n",
         "points": [
           {
             "team_id": 27688,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
+            "bonus_points_together": "4.0",
+            "bonus_points_batting": "4.0",
             "bonus_points_bowling": "0.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -689,13 +689,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "1",
             "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "2",
-            "runs": "154",
+            "total_extras": "3",
+            "runs": "186",
             "wickets": "1",
-            "overs": "28",
+            "overs": "34.1",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:03:34.288Z"
+    "fetched_at": "2026-06-13T16:28:23.706Z"
   },
   {
     "team": {
@@ -815,9 +815,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "7",
-          "runs": "103",
+          "runs": "141",
           "wickets": "4",
-          "overs": "25",
+          "overs": "31",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1401,9 +1401,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "7",
-            "runs": "103",
+            "runs": "141",
             "wickets": "4",
-            "overs": "25",
+            "overs": "31",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1414,7 +1414,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:03:36.118Z"
+    "fetched_at": "2026-06-13T16:28:26.134Z"
   },
   {
     "team": {
@@ -1516,16 +1516,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "14",
+          "extra_byes": "15",
           "extra_leg_byes": "0",
           "extra_wides": "3",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "65",
+          "total_extras": "19",
+          "runs": "77",
           "wickets": "5",
-          "overs": "18.0",
+          "overs": "24.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2107,16 +2107,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "14",
+            "extra_byes": "15",
             "extra_leg_byes": "0",
             "extra_wides": "3",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "65",
+            "total_extras": "19",
+            "runs": "77",
             "wickets": "5",
-            "overs": "18.0",
+            "overs": "24.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2127,7 +2127,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:03:37.938Z"
+    "fetched_at": "2026-06-13T16:28:33.495Z"
   },
   {
     "team": {
@@ -2824,7 +2824,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:03:40.018Z"
+    "fetched_at": "2026-06-13T16:28:35.025Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:03:46.669Z"
+    "fetched_at": "2026-06-13T16:28:39.273Z"
   },
   {
     "team": {
@@ -3534,7 +3534,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T16:04:11.797Z"
+    "fetched_at": "2026-06-13T16:28:40.043Z"
   },
   {
     "team": {
@@ -4202,7 +4202,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:04:13.542Z"
+    "fetched_at": "2026-06-13T16:28:42.038Z"
   },
   {
     "team": {
@@ -4215,7 +4215,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T16:04:14.061Z"
+    "fetched_at": "2026-06-13T16:28:43.992Z"
   },
   {
     "team": {
@@ -4519,7 +4519,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:04:16.189Z"
+    "fetched_at": "2026-06-13T16:28:50.491Z"
   },
   {
     "team": {
@@ -5222,6 +5222,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T16:04:17.205Z"
+    "fetched_at": "2026-06-13T16:28:53.972Z"
   }
 ]

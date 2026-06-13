@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T15:16:01.512Z",
+  "generated_at": "2026-06-13T16:34:21.734Z",
   "season": "2026",
   "centuries": [
     {
@@ -56,6 +56,17 @@
       "opposition": "Orsett & Thurrock CC 6th XI",
       "date": "09/05/2026",
       "match_id": 7462367
+    },
+    {
+      "player": "Aarav Salil",
+      "runs": 103,
+      "score": "103*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Brentwood CC 1st XI",
+      "date": "13/06/2026",
+      "match_id": 7325277
     },
     {
       "player": "Ben Clifford",
@@ -258,17 +269,6 @@
       "match_id": 7462371
     },
     {
-      "player": "Rishabh Upadhyay",
-      "runs": 62,
-      "score": "62",
-      "not_out": false,
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Epping CC 1st XI",
-      "date": "16/05/2026",
-      "match_id": 7325254
-    },
-    {
       "player": "Jack Sterland",
       "runs": 61,
       "score": "61",
@@ -366,17 +366,6 @@
       "opposition": "Great Bentley CC 1st XI",
       "date": "07/06/2026",
       "match_id": 7507154
-    },
-    {
-      "player": "Aarav Salil",
-      "runs": 54,
-      "score": "54*",
-      "not_out": true,
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Brentwood CC 1st XI",
-      "date": "13/06/2026",
-      "match_id": 7325277
     },
     {
       "player": "Ben Clifford",
@@ -591,14 +580,6 @@
       "match_id": 7325252
     },
     {
-      "player": "Ben Clifford",
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Epping CC 1st XI",
-      "date": "16/05/2026",
-      "match_id": 7325254
-    },
-    {
       "player": "Thom Wilshaw",
       "team": "Sat 2nd XI",
       "team_id": 24294,
@@ -629,6 +610,22 @@
       "opposition": "Harold Wood CC 3rd XI",
       "date": "02/05/2026",
       "match_id": 7262196
+    },
+    {
+      "player": "Ben Lawrence",
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "West Essex CC 3rd XI",
+      "date": "13/06/2026",
+      "match_id": 7461849
+    },
+    {
+      "player": "Danish Shah",
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "West Essex CC 3rd XI",
+      "date": "13/06/2026",
+      "match_id": 7461849
     },
     {
       "player": "Chris Cory",
@@ -931,16 +928,16 @@
       ]
     },
     {
-      "player": "Ben Clifford",
+      "player": "Ben Lawrence",
       "count": 1,
       "ducks": [
         {
-          "player": "Ben Clifford",
-          "team": "Sat 1st XI",
-          "team_id": 24293,
-          "opposition": "Epping CC 1st XI",
-          "date": "16/05/2026",
-          "match_id": 7325254
+          "player": "Ben Lawrence",
+          "team": "Sat 3rd XI",
+          "team_id": 24295,
+          "opposition": "West Essex CC 3rd XI",
+          "date": "13/06/2026",
+          "match_id": 7461849
         }
       ]
     },
@@ -983,6 +980,20 @@
           "opposition": "Harold Wood CC 4th XI",
           "date": "02/05/2026",
           "match_id": 7262197
+        }
+      ]
+    },
+    {
+      "player": "Danish Shah",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Danish Shah",
+          "team": "Sat 3rd XI",
+          "team_id": 24295,
+          "opposition": "West Essex CC 3rd XI",
+          "date": "13/06/2026",
+          "match_id": 7461849
         }
       ]
     },
@@ -1169,5 +1180,12 @@
       ]
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "match_id": 7325254,
+      "error": "Fetch failed: 504 https://play-cricket.com/api/v2/match_detail.json?match_id=7325254&api_token=8786d7c44061b7d624367d32177420e0"
+    }
+  ]
 }

@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:41.418Z"
+    "fetched_at": "2026-06-13T18:02:16.733Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:42.041Z"
+    "fetched_at": "2026-06-13T18:02:17.400Z"
   },
   {
     "team": {
@@ -1525,13 +1525,13 @@
           "extra_byes": "19",
           "extra_leg_byes": "1",
           "extra_wides": "3",
-          "extra_no_balls": "3",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "26",
-          "runs": "162",
-          "wickets": "6",
-          "overs": "41.0",
+          "total_extras": "29",
+          "runs": "193",
+          "wickets": "7",
+          "overs": "45.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1545,7 +1545,7 @@
       "runs": [
         {
           "name": "George Wilson",
-          "score": 87,
+          "score": 104,
           "notOut": true
         }
       ],
@@ -2122,13 +2122,13 @@
             "extra_byes": "19",
             "extra_leg_byes": "1",
             "extra_wides": "3",
-            "extra_no_balls": "3",
+            "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "26",
-            "runs": "162",
-            "wickets": "6",
-            "overs": "41.0",
+            "total_extras": "29",
+            "runs": "193",
+            "wickets": "7",
+            "overs": "45.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:42.739Z"
+    "fetched_at": "2026-06-13T18:02:18.101Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:43.675Z"
+    "fetched_at": "2026-06-13T18:02:18.673Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:44.333Z"
+    "fetched_at": "2026-06-13T18:02:19.287Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T17:43:44.546Z"
+    "fetched_at": "2026-06-13T18:02:19.532Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:45.188Z"
+    "fetched_at": "2026-06-13T18:02:20.139Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T17:43:45.403Z"
+    "fetched_at": "2026-06-13T18:02:20.393Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:45.952Z"
+    "fetched_at": "2026-06-13T18:02:20.951Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T17:43:46.484Z"
+    "fetched_at": "2026-06-13T18:02:21.592Z"
   }
 ]

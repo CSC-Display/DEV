@@ -29,16 +29,16 @@
       "away_team_id": "24293",
       "away_club_name": "Chelmsford CC",
       "away_club_id": "1786",
-      "umpire_1_name": "",
-      "umpire_1_id": "",
+      "umpire_1_name": "Vikash Amin",
+      "umpire_1_id": "4725471",
       "umpire_2_name": "Keith Oram",
       "umpire_2_id": "6014787",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "",
-      "scorer_1_id": "",
+      "scorer_1_name": "Mick Tucker",
+      "scorer_1_id": "4425171",
       "scorer_2_name": "Richo Sasimohan",
       "scorer_2_id": "6937570",
       "toss_won_by_team_id": "24293",
@@ -616,16 +616,16 @@
         "away_team_id": "24293",
         "away_club_name": "Chelmsford CC",
         "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
+        "umpire_1_name": "Vikash Amin",
+        "umpire_1_id": "4725471",
         "umpire_2_name": "Keith Oram",
         "umpire_2_id": "6014787",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "Mick Tucker",
+        "scorer_1_id": "4425171",
         "scorer_2_name": "Richo Sasimohan",
         "scorer_2_id": "6937570",
         "toss_won_by_team_id": "24293",
@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:19.380Z"
+    "fetched_at": "2026-06-13T21:51:20.228Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:20.845Z"
+    "fetched_at": "2026-06-13T21:51:21.253Z"
   },
   {
     "team": {
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:22.401Z"
+    "fetched_at": "2026-06-13T21:51:22.356Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:23.902Z"
+    "fetched_at": "2026-06-13T21:51:23.746Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:27.746Z"
+    "fetched_at": "2026-06-13T21:51:24.561Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T20:39:28.412Z"
+    "fetched_at": "2026-06-13T21:51:24.979Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:29.482Z"
+    "fetched_at": "2026-06-13T21:51:25.927Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T20:39:30.157Z"
+    "fetched_at": "2026-06-13T21:51:26.339Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:31.755Z"
+    "fetched_at": "2026-06-13T21:51:27.031Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T20:39:32.828Z"
+    "fetched_at": "2026-06-13T21:51:28.495Z"
   }
 ]

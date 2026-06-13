@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:16.733Z"
+    "fetched_at": "2026-06-13T18:50:27.998Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:17.400Z"
+    "fetched_at": "2026-06-13T18:50:29.018Z"
   },
   {
     "team": {
@@ -1470,9 +1470,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
+      "result_applied_to": "24295",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1483,14 +1483,14 @@
           "team_id": 163277,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "11.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24295,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1522,16 +1522,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "19",
+          "extra_byes": "23",
           "extra_leg_byes": "1",
           "extra_wides": "3",
           "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "29",
-          "runs": "193",
+          "total_extras": "33",
+          "runs": "215",
           "wickets": "7",
-          "overs": "45.0",
+          "overs": "48.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1545,7 +1545,7 @@
       "runs": [
         {
           "name": "George Wilson",
-          "score": 104,
+          "score": 119,
           "notOut": true
         }
       ],
@@ -2067,9 +2067,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
+        "result_applied_to": "24295",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2080,14 +2080,14 @@
             "team_id": 163277,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "11.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 24295,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2119,16 +2119,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "19",
+            "extra_byes": "23",
             "extra_leg_byes": "1",
             "extra_wides": "3",
             "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "29",
-            "runs": "193",
+            "total_extras": "33",
+            "runs": "215",
             "wickets": "7",
-            "overs": "45.0",
+            "overs": "48.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:18.101Z"
+    "fetched_at": "2026-06-13T18:50:30.746Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:18.673Z"
+    "fetched_at": "2026-06-13T18:50:31.735Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:19.287Z"
+    "fetched_at": "2026-06-13T18:50:32.692Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T18:02:19.532Z"
+    "fetched_at": "2026-06-13T18:50:33.136Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:20.139Z"
+    "fetched_at": "2026-06-13T18:50:34.150Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T18:02:20.393Z"
+    "fetched_at": "2026-06-13T18:50:34.545Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:20.951Z"
+    "fetched_at": "2026-06-13T18:50:35.127Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T18:02:21.592Z"
+    "fetched_at": "2026-06-13T18:50:36.147Z"
   }
 ]

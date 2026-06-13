@@ -6,46 +6,6 @@
     },
     "fix": [
       {
-        "id": 7325277,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "26/05/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 01 - 1st XI Premier Division",
-        "competition_id": "135282",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "13/06/2026",
-        "match_time": "11:00",
-        "ground_name": "Old County Ground",
-        "ground_id": "16120",
-        "ground_latitude": "51.6227076",
-        "ground_longitude": "0.3090439",
-        "home_club_name": "Brentwood CC",
-        "home_team_name": "1st XI",
-        "home_team_id": "27688",
-        "home_club_id": "1374",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sat 1st XI",
-        "away_team_id": "24293",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
-      {
         "id": 7681513,
         "status": "New",
         "published": "Yes",
@@ -364,43 +324,34 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      }
-    ],
-    "fetched_at": "2026-06-12T23:14:30.415Z"
-  },
-  {
-    "team": {
-      "name": "Sat 2nd XI",
-      "id": 24294
-    },
-    "fix": [
+      },
       {
-        "id": 7325728,
+        "id": 7325315,
         "status": "New",
         "published": "Yes",
         "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
-        "competition_name": "Division 06 - 2nd XI Premier Division",
-        "competition_id": "135299",
+        "competition_name": "Division 01 - 1st XI Premier Division",
+        "competition_id": "135282",
         "competition_type": "League",
         "match_type": "Limited Overs",
         "game_type": "Standard",
         "season": "2026",
-        "match_date": "13/06/2026",
-        "match_time": "12:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "Sat 2nd XI",
-        "home_team_id": "24294",
-        "home_club_id": "1786",
-        "away_club_name": "Brentwood CC",
-        "away_team_name": "2nd XI",
-        "away_team_id": "21634",
-        "away_club_id": "1374",
+        "match_date": "08/08/2026",
+        "match_time": "11:00",
+        "ground_name": "Castle Park",
+        "ground_id": "12314",
+        "ground_latitude": "51.89643090000001",
+        "ground_longitude": "0.9009403999999999",
+        "home_club_name": "Colchester and East Essex CC",
+        "home_team_name": "1st XI",
+        "home_team_id": "58739",
+        "home_club_id": "1968",
+        "away_club_name": "Chelmsford CC",
+        "away_team_name": "Sat 1st XI",
+        "away_team_id": "24293",
+        "away_club_id": "1786",
         "umpire_1_name": "",
         "umpire_1_id": "",
         "umpire_2_name": "",
@@ -413,7 +364,16 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      },
+      }
+    ],
+    "fetched_at": "2026-06-13T08:43:05.677Z"
+  },
+  {
+    "team": {
+      "name": "Sat 2nd XI",
+      "id": 24294
+    },
+    "fix": [
       {
         "id": 7325732,
         "status": "New",
@@ -733,42 +693,33 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      }
-    ],
-    "fetched_at": "2026-06-12T23:14:30.980Z"
-  },
-  {
-    "team": {
-      "name": "Sat 3rd XI",
-      "id": 24295
-    },
-    "fix": [
+      },
       {
-        "id": 7461849,
+        "id": 7325772,
         "status": "New",
         "published": "Yes",
         "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
-        "competition_name": "Division 10 - 3rd XI Premier Division",
-        "competition_id": "135312",
+        "competition_name": "Division 06 - 2nd XI Premier Division",
+        "competition_id": "135299",
         "competition_type": "League",
         "match_type": "Limited Overs",
         "game_type": "Standard",
         "season": "2026",
-        "match_date": "13/06/2026",
+        "match_date": "15/08/2026",
         "match_time": "12:00",
-        "ground_name": "Rolls Sportsground Pitch 2",
-        "ground_id": "39248",
-        "ground_latitude": "51.6095472",
-        "ground_longitude": "-0.0061382",
-        "home_club_name": "West Essex CC",
-        "home_team_name": "3rd XI",
-        "home_team_id": "163277",
-        "home_club_id": "6768",
+        "ground_name": "Valentines Park",
+        "ground_id": "10091",
+        "ground_latitude": "51.5676901",
+        "ground_longitude": "0.0653611",
+        "home_club_name": "Ilford CC",
+        "home_team_name": "2nd XI",
+        "home_team_id": "28636",
+        "home_club_id": "3588",
         "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sat 3rd XI",
-        "away_team_id": "24295",
+        "away_team_name": "Sat 2nd XI",
+        "away_team_id": "24294",
         "away_club_id": "1786",
         "umpire_1_name": "",
         "umpire_1_id": "",
@@ -782,7 +733,16 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      },
+      }
+    ],
+    "fetched_at": "2026-06-13T08:43:05.989Z"
+  },
+  {
+    "team": {
+      "name": "Sat 3rd XI",
+      "id": 24295
+    },
+    "fix": [
       {
         "id": 7461855,
         "status": "New",
@@ -1102,43 +1062,34 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      }
-    ],
-    "fetched_at": "2026-06-12T23:14:31.536Z"
-  },
-  {
-    "team": {
-      "name": "Sat 4th XI",
-      "id": 30461
-    },
-    "fix": [
+      },
       {
-        "id": 7462120,
+        "id": 7461895,
         "status": "New",
         "published": "Yes",
         "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
-        "competition_name": "Division 13 - 3rd XI Division Three",
-        "competition_id": "135330",
+        "competition_name": "Division 10 - 3rd XI Premier Division",
+        "competition_id": "135312",
         "competition_type": "League",
         "match_type": "Limited Overs",
         "game_type": "Standard",
         "season": "2026",
-        "match_date": "13/06/2026",
+        "match_date": "15/08/2026",
         "match_time": "12:00",
         "ground_name": "Chelmer Park",
         "ground_id": "10646",
         "ground_latitude": "51.7037755",
         "ground_longitude": "0.4694193",
         "home_club_name": "Chelmsford CC",
-        "home_team_name": "Sat 4th XI",
-        "home_team_id": "30461",
+        "home_team_name": "Sat 3rd XI",
+        "home_team_id": "24295",
         "home_club_id": "1786",
-        "away_club_name": "Walthamstow CC",
+        "away_club_name": "Harlow CC",
         "away_team_name": "3rd XI",
-        "away_team_id": "29019",
-        "away_club_id": "6636",
+        "away_team_id": "44651",
+        "away_club_id": "3177",
         "umpire_1_name": "",
         "umpire_1_id": "",
         "umpire_2_name": "",
@@ -1151,7 +1102,16 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      },
+      }
+    ],
+    "fetched_at": "2026-06-13T08:43:06.322Z"
+  },
+  {
+    "team": {
+      "name": "Sat 4th XI",
+      "id": 30461
+    },
+    "fix": [
       {
         "id": 7462125,
         "status": "New",
@@ -1471,43 +1431,34 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      }
-    ],
-    "fetched_at": "2026-06-12T23:14:32.082Z"
-  },
-  {
-    "team": {
-      "name": "Sat 5th XI",
-      "id": 45348
-    },
-    "fix": [
+      },
       {
-        "id": 7462401,
+        "id": 7462175,
         "status": "New",
         "published": "Yes",
         "last_updated": "26/05/2026",
         "league_name": "Essex League",
         "league_id": "7300",
-        "competition_name": "Division 16 - 4th XI Division One East",
-        "competition_id": "135332",
+        "competition_name": "Division 13 - 3rd XI Division Three",
+        "competition_id": "135330",
         "competition_type": "League",
         "match_type": "Limited Overs",
         "game_type": "Standard",
         "season": "2026",
-        "match_date": "13/06/2026",
+        "match_date": "29/08/2026",
         "match_time": "12:00",
         "ground_name": "Chelmer Park",
         "ground_id": "10646",
         "ground_latitude": "51.7037755",
         "ground_longitude": "0.4694193",
         "home_club_name": "Chelmsford CC",
-        "home_team_name": "Sat 5th XI",
-        "home_team_id": "45348",
+        "home_team_name": "Sat 4th XI",
+        "home_team_id": "30461",
         "home_club_id": "1786",
-        "away_club_name": "Westcliff-On-Sea CC",
-        "away_team_name": "5th XI",
-        "away_team_id": "288362",
-        "away_club_id": "6806",
+        "away_club_name": "Old Brentwoods CC",
+        "away_team_name": "3rd XI",
+        "away_team_id": "25557",
+        "away_club_id": "4769",
         "umpire_1_name": "",
         "umpire_1_id": "",
         "umpire_2_name": "",
@@ -1520,7 +1471,16 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      },
+      }
+    ],
+    "fetched_at": "2026-06-13T08:43:06.727Z"
+  },
+  {
+    "team": {
+      "name": "Sat 5th XI",
+      "id": 45348
+    },
+    "fix": [
       {
         "id": 7462408,
         "status": "New",
@@ -1840,9 +1800,49 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
+      },
+      {
+        "id": 7462460,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "26/05/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 16 - 4th XI Division One East",
+        "competition_id": "135332",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "15/08/2026",
+        "match_time": "12:00",
+        "ground_name": "Woodlands School",
+        "ground_id": "62120",
+        "ground_latitude": "51.6283821",
+        "ground_longitude": "0.3692083",
+        "home_club_name": "Billericay CC",
+        "home_team_name": "5th XI",
+        "home_team_id": "93863",
+        "home_club_id": "1131",
+        "away_club_name": "Chelmsford CC",
+        "away_team_name": "Sat 5th XI",
+        "away_team_id": "45348",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:32.621Z"
+    "fetched_at": "2026-06-13T08:43:07.074Z"
   },
   {
     "team": {
@@ -2091,7 +2091,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:33.149Z"
+    "fetched_at": "2026-06-13T08:43:07.776Z"
   },
   {
     "team": {
@@ -2460,7 +2460,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:33.686Z"
+    "fetched_at": "2026-06-13T08:43:08.476Z"
   },
   {
     "team": {
@@ -2509,7 +2509,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:34.345Z"
+    "fetched_at": "2026-06-13T08:43:09.169Z"
   },
   {
     "team": {
@@ -2558,7 +2558,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:34.884Z"
+    "fetched_at": "2026-06-13T08:43:09.875Z"
   },
   {
     "team": {
@@ -2767,6 +2767,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-12T23:14:35.437Z"
+    "fetched_at": "2026-06-13T08:43:10.260Z"
   }
 ]

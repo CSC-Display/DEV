@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:07:32.258Z",
+  "generated_at": "2026-06-14T18:58:50.518Z",
   "season": "2026",
   "centuries": [
     {
@@ -267,6 +267,17 @@
       "opposition": "Harold Wood CC 3rd XI",
       "date": "02/05/2026",
       "match_id": 7262196
+    },
+    {
+      "player": "Aarav Salil",
+      "runs": 64,
+      "score": "64",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Old Southendian & Southchurch CC 1st XI",
+      "date": "14/06/2026",
+      "match_id": 7681513
     },
     {
       "player": "Elliot Wenzel",
@@ -632,6 +643,30 @@
       "match_id": 7325254
     },
     {
+      "player": "Dan Hagen",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Old Southendian & Southchurch CC 1st XI",
+      "date": "14/06/2026",
+      "match_id": 7681513
+    },
+    {
+      "player": "Oliver Devenish",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Old Southendian & Southchurch CC 1st XI",
+      "date": "14/06/2026",
+      "match_id": 7681513
+    },
+    {
+      "player": "Sean Sullivan",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Old Southendian & Southchurch CC 1st XI",
+      "date": "14/06/2026",
+      "match_id": 7681513
+    },
+    {
       "player": "Thom Wilshaw",
       "team": "Sat 2nd XI",
       "team_id": 24294,
@@ -976,6 +1011,28 @@
       ]
     },
     {
+      "player": "Sean Sullivan",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Sean Sullivan",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Colchester and East Essex CC 1st XI",
+          "date": "09/05/2026",
+          "match_id": 7325252
+        },
+        {
+          "player": "Sean Sullivan",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Old Southendian & Southchurch CC 1st XI",
+          "date": "14/06/2026",
+          "match_id": 7681513
+        }
+      ]
+    },
+    {
       "player": "Alex Bayha",
       "count": 1,
       "ducks": [
@@ -1084,6 +1141,20 @@
           "opposition": "Harold Wood CC 4th XI",
           "date": "02/05/2026",
           "match_id": 7262197
+        }
+      ]
+    },
+    {
+      "player": "Dan Hagen",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Dan Hagen",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Old Southendian & Southchurch CC 1st XI",
+          "date": "14/06/2026",
+          "match_id": 7681513
         }
       ]
     },
@@ -1200,6 +1271,20 @@
       ]
     },
     {
+      "player": "Oliver Devenish",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Oliver Devenish",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Old Southendian & Southchurch CC 1st XI",
+          "date": "14/06/2026",
+          "match_id": 7681513
+        }
+      ]
+    },
+    {
       "player": "Rudy Jackman",
       "count": 1,
       "ducks": [
@@ -1210,20 +1295,6 @@
           "opposition": "Frenford CC 4th XI",
           "date": "30/05/2026",
           "match_id": 7462109
-        }
-      ]
-    },
-    {
-      "player": "Sean Sullivan",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Sean Sullivan",
-          "team": "Sat 1st XI",
-          "team_id": 24293,
-          "opposition": "Colchester and East Essex CC 1st XI",
-          "date": "09/05/2026",
-          "match_id": 7325252
         }
       ]
     },

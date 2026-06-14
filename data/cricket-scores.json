@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:42.588Z"
+    "fetched_at": "2026-06-14T10:04:32.007Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:43.175Z"
+    "fetched_at": "2026-06-14T10:04:32.936Z"
   },
   {
     "team": {
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:43.810Z"
+    "fetched_at": "2026-06-14T10:04:33.967Z"
   },
   {
     "team": {
@@ -2221,13 +2221,13 @@
         {
           "team_batting_id": "30461",
           "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
+          "extra_byes": "4",
+          "extra_leg_byes": "4",
+          "extra_wides": "9",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
+          "total_extras": "18",
           "runs": "167",
           "wickets": "8",
           "overs": "50",
@@ -2241,14 +2241,14 @@
         {
           "team_batting_id": "29019",
           "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
+          "extra_byes": "6",
+          "extra_leg_byes": "14",
+          "extra_wides": "6",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
-          "runs": "168",
+          "total_extras": "27",
+          "runs": "171",
           "wickets": "2",
           "overs": "39",
           "balls": "",
@@ -2796,13 +2796,13 @@
           {
             "team_batting_id": "30461",
             "innings_number": 1,
-            "extra_byes": "",
-            "extra_leg_byes": "",
-            "extra_wides": "",
-            "extra_no_balls": "",
-            "extra_penalty_runs": "",
+            "extra_byes": "4",
+            "extra_leg_byes": "4",
+            "extra_wides": "9",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "",
+            "total_extras": "18",
             "runs": "167",
             "wickets": "8",
             "overs": "50",
@@ -2816,14 +2816,14 @@
           {
             "team_batting_id": "29019",
             "innings_number": 1,
-            "extra_byes": "",
-            "extra_leg_byes": "",
-            "extra_wides": "",
-            "extra_no_balls": "",
-            "extra_penalty_runs": "",
+            "extra_byes": "6",
+            "extra_leg_byes": "14",
+            "extra_wides": "6",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "",
-            "runs": "168",
+            "total_extras": "27",
+            "runs": "171",
             "wickets": "2",
             "overs": "39",
             "balls": "",
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:44.355Z"
+    "fetched_at": "2026-06-14T10:04:34.953Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:44.931Z"
+    "fetched_at": "2026-06-14T10:04:35.936Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-14T08:58:45.151Z"
+    "fetched_at": "2026-06-14T10:04:36.478Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:45.699Z"
+    "fetched_at": "2026-06-14T10:04:37.888Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-14T08:58:45.992Z"
+    "fetched_at": "2026-06-14T10:04:38.293Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:46.564Z"
+    "fetched_at": "2026-06-14T10:04:39.307Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T08:58:47.126Z"
+    "fetched_at": "2026-06-14T10:04:40.255Z"
   }
 ]

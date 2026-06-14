@@ -6,46 +6,6 @@
     },
     "fix": [
       {
-        "id": 7681513,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "26/05/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Dukes Essex League Cup",
-        "competition_id": "68990",
-        "competition_type": "Cup",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "14/06/2026",
-        "match_time": "12:00",
-        "ground_name": "Garon Park",
-        "ground_id": "50048",
-        "ground_latitude": "51.5543498",
-        "ground_longitude": "0.7347425000000001",
-        "home_club_name": "Old Southendian & Southchurch CC",
-        "home_team_name": "1st XI",
-        "home_team_id": "23957",
-        "home_club_id": "4848",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sat 1st XI",
-        "away_team_id": "24293",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
-      {
         "id": 7325282,
         "status": "New",
         "published": "Yes",
@@ -364,9 +324,49 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
+      },
+      {
+        "id": 7325323,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "26/05/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 01 - 1st XI Premier Division",
+        "competition_id": "135282",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "15/08/2026",
+        "match_time": "11:30",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "Sat 1st XI",
+        "home_team_id": "24293",
+        "home_club_id": "1786",
+        "away_club_name": "Hornchurch CC",
+        "away_team_name": "1st XI",
+        "away_team_id": "37537",
+        "away_club_id": "3482",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:30.720Z"
+    "fetched_at": "2026-06-14T08:58:52.502Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:31.058Z"
+    "fetched_at": "2026-06-14T08:58:52.762Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:31.409Z"
+    "fetched_at": "2026-06-14T08:58:53.002Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:31.736Z"
+    "fetched_at": "2026-06-14T08:58:53.279Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:32.086Z"
+    "fetched_at": "2026-06-14T08:58:53.507Z"
   },
   {
     "team": {
@@ -2091,7 +2091,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:32.488Z"
+    "fetched_at": "2026-06-14T08:58:53.747Z"
   },
   {
     "team": {
@@ -2099,46 +2099,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7507165,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "24/02/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "14/06/2026",
-        "match_time": "13:00",
-        "ground_name": "MISTLEY CC",
-        "ground_id": "14357",
-        "ground_latitude": "51.94445460000001",
-        "ground_longitude": "1.0737975",
-        "home_club_name": "Mistley CC",
-        "home_team_name": "TC Div C",
-        "home_team_id": "37504",
-        "home_club_id": "4383",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "NECL 1st XI",
-        "away_team_id": "324716",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7507172,
         "status": "New",
@@ -2458,9 +2418,49 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
+      },
+      {
+        "id": 7510300,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "25/02/2026",
+        "league_name": "Two Counties Cricket Championship",
+        "league_id": "7277",
+        "competition_name": "Sunday League",
+        "competition_id": "134513",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "23/08/2026",
+        "match_time": "13:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "NECL 1st XI",
+        "home_team_id": "324716",
+        "home_club_id": "1786",
+        "away_club_name": "Great Bentley CC",
+        "away_team_name": "1st XI",
+        "away_team_id": "45577",
+        "away_club_id": "2988",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:32.856Z"
+    "fetched_at": "2026-06-14T08:58:54.055Z"
   },
   {
     "team": {
@@ -2509,7 +2509,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:33.563Z"
+    "fetched_at": "2026-06-14T08:58:54.344Z"
   },
   {
     "team": {
@@ -2558,7 +2558,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:34.291Z"
+    "fetched_at": "2026-06-14T08:58:54.623Z"
   },
   {
     "team": {
@@ -2767,6 +2767,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-13T23:01:34.616Z"
+    "fetched_at": "2026-06-14T08:58:54.871Z"
   }
 ]

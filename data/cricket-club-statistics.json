@@ -1,8 +1,8 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-13T23:01:58.653Z",
-  "match_count": 53,
+  "generated_at": "2026-06-14T08:59:14.471Z",
+  "match_count": 55,
   "scorecards_processed": 51,
   "batting": [
     {
@@ -431,13 +431,13 @@
       "balls": 349,
       "overs": 58.1,
       "maidens": 2,
-      "runs": 332,
+      "runs": 328,
       "wickets": 13,
       "wides": 23,
       "no_balls": 2,
       "best": "3-33",
-      "average": 25.53846153846154,
-      "economy": 5.707736389684814,
+      "average": 25.23076923076923,
+      "economy": 5.638968481375358,
       "strike_rate": 26.846153846153847,
       "three_wickets": 2,
       "five_wickets": 0

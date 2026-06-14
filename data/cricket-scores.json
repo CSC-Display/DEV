@@ -8,7 +8,7 @@
       "id": 7325277,
       "status": "New",
       "published": "Yes",
-      "last_updated": "13/06/2026",
+      "last_updated": "14/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
       "result_applied_to": "24293",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras<br/>29.1 2nd Wicket: 50 runs in 35 balls, 26 minutes, Aarav Salil 19 (14), Dan Hagen 30 (21), 1 extra<br/>34.1 Aarav Salil: 100 runs in 100 balls, 124 minutes (17x4)\n<br/>\n",
@@ -595,7 +595,7 @@
         "id": 7325277,
         "status": "New",
         "published": "Yes",
-        "last_updated": "13/06/2026",
+        "last_updated": "14/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -638,7 +638,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
         "result_applied_to": "24293",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n25.2 Brentwood CC 1st XI: 50 runs in 25.2 overs, 88 minutes, 5 extras<br/>32.1 Tom Sewell-Oakley: 50 runs in 63 balls, 56 minutes (7x4, 1x6)<br/>34.4 Brentwood CC 1st XI: 100 runs in 34.3 overs, 117 minutes, 13 extras<br/>38.6 7th Wicket: 50 runs in 65 balls, 31 minutes, Tom Sewell-Oakley 35 (36), Joe Hawkins 7 (29), 8 extras<br/>43.3 Brentwood CC 1st XI: 150 runs in 43.3 overs, 144 minutes, 18 extras<br/>47.3 Ben Waring: 5 wickets (16.3-3-21-5)<br/>52.3 Tom Sewell-Oakley: 100 runs in 123 balls, 151 minutes (12x4, 2x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.5 1st Wicket: 50 runs in 66 balls, 40 minutes, Aarav Salil 32 (33), Jack Sterland 17 (33), 1 extra<br/>10.5 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 40 minutes, 1 extra<br/>16.4 Aarav Salil: 50 runs in 57 balls, 55 minutes (9x4)<br/>21.5 1st Wicket: 100 runs in 132 balls, 75 minutes, Aarav Salil 67 (71), Jack Sterland 34 (61), 2 extras<br/>21.5 Chelmsford CC Sat 1st XI: 100 runs in 21.5 overs, 75 minutes, 2 extras<br/>27.3 Chelmsford CC Sat 1st XI: 150 runs in 27.3 overs, 100 minutes, 2 extras<br/>29.1 2nd Wicket: 50 runs in 35 balls, 26 minutes, Aarav Salil 19 (14), Dan Hagen 30 (21), 1 extra<br/>34.1 Aarav Salil: 100 runs in 100 balls, 124 minutes (17x4)\n<br/>\n",
@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:34.298Z"
+    "fetched_at": "2026-06-14T01:39:08.500Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:35.497Z"
+    "fetched_at": "2026-06-14T01:39:09.288Z"
   },
   {
     "team": {
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:36.678Z"
+    "fetched_at": "2026-06-14T01:39:10.086Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:37.860Z"
+    "fetched_at": "2026-06-14T01:39:10.853Z"
   },
   {
     "team": {
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:38.998Z"
+    "fetched_at": "2026-06-14T01:39:11.606Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T23:11:39.512Z"
+    "fetched_at": "2026-06-14T01:39:12.030Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:40.672Z"
+    "fetched_at": "2026-06-14T01:39:13.014Z"
   },
   {
     "team": {
@@ -4227,7 +4227,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-13T23:11:41.153Z"
+    "fetched_at": "2026-06-14T01:39:13.210Z"
   },
   {
     "team": {
@@ -4531,7 +4531,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:42.338Z"
+    "fetched_at": "2026-06-14T01:39:14.202Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-13T23:11:43.447Z"
+    "fetched_at": "2026-06-14T01:39:15.236Z"
   }
 ]

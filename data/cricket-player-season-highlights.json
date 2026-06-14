@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T08:59:14.537Z",
+  "generated_at": "2026-06-14T18:07:32.258Z",
   "season": "2026",
   "centuries": [
     {
@@ -234,6 +234,17 @@
       "opposition": "Billericay CC 2nd XI",
       "date": "23/05/2026",
       "match_id": 7325713
+    },
+    {
+      "player": "George Wilson",
+      "runs": 67,
+      "score": "67",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Mistley CC TC Div C",
+      "date": "14/06/2026",
+      "match_id": 7507165
     },
     {
       "player": "Mohammed Baig",
@@ -741,6 +752,22 @@
       "match_id": 7462109
     },
     {
+      "player": "Luke Purchase",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Walthamstow CC 3rd XI",
+      "date": "13/06/2026",
+      "match_id": 7462120
+    },
+    {
+      "player": "Tom Hutchinson",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Walthamstow CC 3rd XI",
+      "date": "13/06/2026",
+      "match_id": 7462120
+    },
+    {
       "player": "Chetan Shetty",
       "team": "Sat 5th XI",
       "team_id": 45348,
@@ -879,6 +906,28 @@
           "opposition": "Hadleigh & Thundersley CC, Essex Womens 1st XI",
           "date": "12/06/2026",
           "match_id": 7399543
+        }
+      ]
+    },
+    {
+      "player": "Luke Purchase",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Luke Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+          "date": "16/05/2026",
+          "match_id": 7462100
+        },
+        {
+          "player": "Luke Purchase",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Walthamstow CC 3rd XI",
+          "date": "13/06/2026",
+          "match_id": 7462120
         }
       ]
     },
@@ -1109,20 +1158,6 @@
       ]
     },
     {
-      "player": "Luke Purchase",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Luke Purchase",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Oakfield Parkonians CC, Essex 4th XI",
-          "date": "16/05/2026",
-          "match_id": 7462100
-        }
-      ]
-    },
-    {
       "player": "Mila Patel",
       "count": 1,
       "ducks": [
@@ -1217,6 +1252,20 @@
           "opposition": "Westcliff-On-Sea CC 2nd XI",
           "date": "25/04/2026",
           "match_id": 7577468
+        }
+      ]
+    },
+    {
+      "player": "Tom Hutchinson",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Tom Hutchinson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Walthamstow CC 3rd XI",
+          "date": "13/06/2026",
+          "match_id": 7462120
         }
       ]
     },

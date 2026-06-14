@@ -706,7 +706,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:47.329Z"
+    "fetched_at": "2026-06-14T17:53:32.378Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:48.332Z"
+    "fetched_at": "2026-06-14T17:53:33.152Z"
   },
   {
     "team": {
@@ -1474,7 +1474,7 @@
       "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "24295",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2071,7 +2071,7 @@
         "result_description": "Chelmsford CC - Sat 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "24295",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2139,7 +2139,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:48.937Z"
+    "fetched_at": "2026-06-14T17:53:34.129Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:49.549Z"
+    "fetched_at": "2026-06-14T17:53:35.141Z"
   },
   {
     "team": {
@@ -2847,7 +2847,7 @@
       "id": 7462401,
       "status": "New",
       "published": "Yes",
-      "last_updated": "13/06/2026",
+      "last_updated": "14/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2880,15 +2880,15 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "288362",
+      "toss": "Westcliff-On-Sea CC - 5th XI won the toss and elected to field",
+      "batted_first": "45348",
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Westcliff-On-Sea CC - 5th XI - Overs Win",
+      "result_applied_to": "288362",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2899,14 +2899,14 @@
           "team_id": 45348,
           "game_points": "0",
           "penalty_points": "",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 288362,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2925,9 +2925,9 @@
           "extra_penalty_runs": "",
           "penalties_runs_awarded_in_other_innings": "",
           "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
+          "runs": "204",
+          "wickets": "8",
+          "overs": "40",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2945,8 +2945,8 @@
           "extra_penalty_runs": "",
           "penalties_runs_awarded_in_other_innings": "",
           "total_extras": "",
-          "runs": "",
-          "wickets": "",
+          "runs": "205",
+          "wickets": "5",
           "overs": "",
           "balls": "",
           "declared": false,
@@ -3422,7 +3422,7 @@
         "id": 7462401,
         "status": "New",
         "published": "Yes",
-        "last_updated": "13/06/2026",
+        "last_updated": "14/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3455,15 +3455,15 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "288362",
+        "toss": "Westcliff-On-Sea CC - 5th XI won the toss and elected to field",
+        "batted_first": "45348",
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Westcliff-On-Sea CC - 5th XI - Overs Win",
+        "result_applied_to": "288362",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3474,14 +3474,14 @@
             "team_id": 45348,
             "game_points": "0",
             "penalty_points": "",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 288362,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -3500,9 +3500,9 @@
             "extra_penalty_runs": "",
             "penalties_runs_awarded_in_other_innings": "",
             "total_extras": "",
-            "runs": "",
-            "wickets": "",
-            "overs": "",
+            "runs": "204",
+            "wickets": "8",
+            "overs": "40",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3520,8 +3520,8 @@
             "extra_penalty_runs": "",
             "penalties_runs_awarded_in_other_innings": "",
             "total_extras": "",
-            "runs": "",
-            "wickets": "",
+            "runs": "205",
+            "wickets": "5",
             "overs": "",
             "balls": "",
             "declared": false,
@@ -3533,7 +3533,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:50.103Z"
+    "fetched_at": "2026-06-14T17:53:36.091Z"
   },
   {
     "team": {
@@ -3546,7 +3546,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-14T16:10:50.431Z"
+    "fetched_at": "2026-06-14T17:53:36.509Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:51.009Z"
+    "fetched_at": "2026-06-14T17:53:37.427Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-14T16:10:51.460Z"
+    "fetched_at": "2026-06-14T17:53:37.837Z"
   },
   {
     "team": {
@@ -4526,7 +4526,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:52.152Z"
+    "fetched_at": "2026-06-14T17:53:38.803Z"
   },
   {
     "team": {
@@ -5229,6 +5229,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-14T16:10:53.017Z"
+    "fetched_at": "2026-06-14T17:53:39.756Z"
   }
 ]

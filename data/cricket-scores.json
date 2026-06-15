@@ -673,7 +673,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:36.615Z"
+    "fetched_at": "2026-06-15T13:40:29.005Z"
   },
   {
     "team": {
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:37.829Z"
+    "fetched_at": "2026-06-15T13:40:30.271Z"
   },
   {
     "team": {
@@ -1398,7 +1398,7 @@
       "id": 7461849,
       "status": "New",
       "published": "Yes",
-      "last_updated": "14/06/2026",
+      "last_updated": "15/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1469,13 +1469,13 @@
         {
           "team_batting_id": "163277",
           "innings_number": 1,
-          "extra_byes": "11",
+          "extra_byes": "7",
           "extra_leg_byes": "9",
           "extra_wides": "3",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "24",
+          "total_extras": "20",
           "runs": "214",
           "wickets": "10",
           "overs": "45.3",
@@ -1520,12 +1520,12 @@
         {
           "name": "Steve Bond",
           "w": 3,
-          "r": "24"
+          "r": "25"
         },
         {
           "name": "Rory Skepelhorn",
           "w": 3,
-          "r": "48"
+          "r": "49"
         },
         {
           "name": "Neil Siriwardana",
@@ -1995,7 +1995,7 @@
         "id": 7461849,
         "status": "New",
         "published": "Yes",
-        "last_updated": "14/06/2026",
+        "last_updated": "15/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2066,13 +2066,13 @@
           {
             "team_batting_id": "163277",
             "innings_number": 1,
-            "extra_byes": "11",
+            "extra_byes": "7",
             "extra_leg_byes": "9",
             "extra_wides": "3",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "24",
+            "total_extras": "20",
             "runs": "214",
             "wickets": "10",
             "overs": "45.3",
@@ -2106,7 +2106,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:39.023Z"
+    "fetched_at": "2026-06-15T13:40:31.358Z"
   },
   {
     "team": {
@@ -2803,7 +2803,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:39.966Z"
+    "fetched_at": "2026-06-15T13:40:32.353Z"
   },
   {
     "team": {
@@ -3512,7 +3512,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:40.861Z"
+    "fetched_at": "2026-06-15T13:40:33.400Z"
   },
   {
     "team": {
@@ -3525,7 +3525,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-15T11:38:41.351Z"
+    "fetched_at": "2026-06-15T13:40:33.835Z"
   },
   {
     "team": {
@@ -4228,7 +4228,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:42.543Z"
+    "fetched_at": "2026-06-15T13:40:35.330Z"
   },
   {
     "team": {
@@ -4241,7 +4241,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-15T11:38:43.046Z"
+    "fetched_at": "2026-06-15T13:40:35.724Z"
   },
   {
     "team": {
@@ -4545,7 +4545,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:44.230Z"
+    "fetched_at": "2026-06-15T13:40:36.731Z"
   },
   {
     "team": {
@@ -5248,6 +5248,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-15T11:38:45.122Z"
+    "fetched_at": "2026-06-15T13:40:37.719Z"
   }
 ]

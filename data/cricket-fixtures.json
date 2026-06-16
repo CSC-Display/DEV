@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:20.714Z"
+    "fetched_at": "2026-06-16T23:22:09.008Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:21.182Z"
+    "fetched_at": "2026-06-16T23:22:09.462Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:21.668Z"
+    "fetched_at": "2026-06-16T23:22:09.923Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:22.137Z"
+    "fetched_at": "2026-06-16T23:22:10.373Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:22.577Z"
+    "fetched_at": "2026-06-16T23:22:10.602Z"
   },
   {
     "team": {
@@ -2091,7 +2091,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:23.072Z"
+    "fetched_at": "2026-06-16T23:22:11.011Z"
   },
   {
     "team": {
@@ -2460,7 +2460,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:23.554Z"
+    "fetched_at": "2026-06-16T23:22:11.203Z"
   },
   {
     "team": {
@@ -2509,7 +2509,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:23.802Z"
+    "fetched_at": "2026-06-16T23:22:11.629Z"
   },
   {
     "team": {
@@ -2558,7 +2558,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:24.317Z"
+    "fetched_at": "2026-06-16T23:22:12.082Z"
   },
   {
     "team": {
@@ -2570,7 +2570,7 @@
         "id": 7399548,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/04/2026",
+        "last_updated": "16/06/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -2593,16 +2593,16 @@
         "away_team_name": "Womens 1st XI",
         "away_team_id": "319144",
         "away_club_id": "2847",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
+        "umpire_1_name": "Andy Pyne",
+        "umpire_1_id": "6715415",
         "umpire_2_name": "",
         "umpire_2_id": "",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "Nick Clayden",
+        "scorer_1_id": "1087667",
         "scorer_2_name": "",
         "scorer_2_id": ""
       },
@@ -2767,6 +2767,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-16T20:01:24.770Z"
+    "fetched_at": "2026-06-16T23:22:12.531Z"
   }
 ]

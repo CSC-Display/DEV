@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T19:15:53.587Z",
+  "generated_at": "2026-06-18T23:43:28.624Z",
   "season": "2026",
   "centuries": [
     {
@@ -610,6 +610,17 @@
       "opposition": "Brentwood CC 1st XI",
       "date": "13/06/2026",
       "match_id": 7325277
+    },
+    {
+      "player": "Abdul Baig",
+      "wickets": 5,
+      "runs": 26,
+      "figures": "5-26",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Mistley CC TC Div C",
+      "date": "14/06/2026",
+      "match_id": 7507165
     }
   ],
   "ducks": [

@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-19T10:08:14.578Z",
+  "generated_at": "2026-06-19T17:35:46.253Z",
   "match_count": 56,
-  "scorecards_processed": 51,
+  "scorecards_processed": 52,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -278,6 +278,23 @@
       "hundreds": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 6,
+      "innings": 6,
+      "not_outs": 5,
+      "runs": 170,
+      "balls": 78,
+      "fours": 24,
+      "sixes": 4,
+      "high_score": 39,
+      "high_score_display": "39",
+      "average": 170,
+      "strike_rate": 217.94871794871793,
+      "fifties": 0,
+      "hundreds": 0
+    },
+    {
       "player": "Deepak Reddy Singireddy",
       "teams": "Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 8,
@@ -312,36 +329,19 @@
       "hundreds": 0
     },
     {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 5,
-      "innings": 5,
-      "not_outs": 4,
-      "runs": 143,
-      "balls": 60,
-      "fours": 19,
-      "sixes": 4,
-      "high_score": 39,
-      "high_score_display": "39",
-      "average": 143,
-      "strike_rate": 238.33333333333334,
-      "fifties": 0,
-      "hundreds": 0
-    },
-    {
       "player": "Alex Rowe-Goodey",
       "teams": "Sat 5th XI, Womens 1st XI",
-      "matches": 6,
-      "innings": 6,
+      "matches": 7,
+      "innings": 7,
       "not_outs": 4,
-      "runs": 137,
-      "balls": 90,
+      "runs": 140,
+      "balls": 93,
       "fours": 18,
       "sixes": 0,
       "high_score": 30,
       "high_score_display": "30",
-      "average": 68.5,
-      "strike_rate": 152.22222222222223,
+      "average": 46.666666666666664,
+      "strike_rate": 150.53763440860214,
       "fifties": 0,
       "hundreds": 0
     }

@@ -673,7 +673,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:11.015Z"
+    "fetched_at": "2026-06-19T20:10:29.811Z"
   },
   {
     "team": {
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:12.594Z"
+    "fetched_at": "2026-06-19T20:10:30.925Z"
   },
   {
     "team": {
@@ -2065,7 +2065,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:13.658Z"
+    "fetched_at": "2026-06-19T20:10:32.052Z"
   },
   {
     "team": {
@@ -2721,7 +2721,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:14.962Z"
+    "fetched_at": "2026-06-19T20:10:33.127Z"
   },
   {
     "team": {
@@ -3430,7 +3430,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:16.447Z"
+    "fetched_at": "2026-06-19T20:10:34.247Z"
   },
   {
     "team": {
@@ -3443,7 +3443,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T18:27:17.121Z"
+    "fetched_at": "2026-06-19T20:10:34.737Z"
   },
   {
     "team": {
@@ -4152,7 +4152,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:18.586Z"
+    "fetched_at": "2026-06-19T20:10:35.697Z"
   },
   {
     "team": {
@@ -4165,7 +4165,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T18:27:19.231Z"
+    "fetched_at": "2026-06-19T20:10:36.173Z"
   },
   {
     "team": {
@@ -4469,7 +4469,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:20.697Z"
+    "fetched_at": "2026-06-19T20:10:37.186Z"
   },
   {
     "team": {
@@ -4526,7 +4526,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras\n<br/>\n",
       "points": [
         {
           "team_id": 213007,
@@ -4554,13 +4554,33 @@
           "extra_byes": "1",
           "extra_leg_byes": "2",
           "extra_wides": "12",
-          "extra_no_balls": "14",
+          "extra_no_balls": "18",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "29",
-          "runs": "126",
+          "total_extras": "33",
+          "runs": "158",
           "wickets": "8",
-          "overs": "16",
+          "overs": "20",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "20.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "319144",
+          "innings_number": 1,
+          "extra_byes": "8",
+          "extra_leg_byes": "0",
+          "extra_wides": "11",
+          "extra_no_balls": "11",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "30",
+          "runs": "110",
+          "wickets": "9",
+          "overs": "18.4",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4571,8 +4591,20 @@
       ]
     },
     "perf": {
-      "runs": [],
-      "wickets": []
+      "runs": [
+        {
+          "name": "Harriet Goodey",
+          "score": 60,
+          "notOut": true
+        }
+      ],
+      "wickets": [
+        {
+          "name": "Harriet Goodey",
+          "w": 3,
+          "r": "15"
+        }
+      ]
     },
     "form": [
       {
@@ -5081,7 +5113,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras\n<br/>\n",
         "points": [
           {
             "team_id": 213007,
@@ -5109,13 +5141,33 @@
             "extra_byes": "1",
             "extra_leg_byes": "2",
             "extra_wides": "12",
-            "extra_no_balls": "14",
+            "extra_no_balls": "18",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "29",
-            "runs": "126",
+            "total_extras": "33",
+            "runs": "158",
             "wickets": "8",
-            "overs": "16",
+            "overs": "20",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "319144",
+            "innings_number": 1,
+            "extra_byes": "8",
+            "extra_leg_byes": "0",
+            "extra_wides": "11",
+            "extra_no_balls": "11",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "30",
+            "runs": "110",
+            "wickets": "9",
+            "overs": "18.4",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5126,6 +5178,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T18:27:21.765Z"
+    "fetched_at": "2026-06-19T20:10:38.178Z"
   }
 ]

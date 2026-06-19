@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:28.864Z"
+    "fetched_at": "2026-06-19T22:53:33.373Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:29.187Z"
+    "fetched_at": "2026-06-19T22:53:33.944Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:29.784Z"
+    "fetched_at": "2026-06-19T22:53:34.491Z"
   },
   {
     "team": {
@@ -1473,7 +1473,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:30.101Z"
+    "fetched_at": "2026-06-19T22:53:35.016Z"
   },
   {
     "team": {
@@ -1842,7 +1842,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:30.848Z"
+    "fetched_at": "2026-06-19T22:53:35.563Z"
   },
   {
     "team": {
@@ -1850,6 +1850,46 @@
       "id": 105976
     },
     "fix": [
+      {
+        "id": 7714255,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "19/06/2026",
+        "league_name": "",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "27/06/2026",
+        "match_time": "12:30",
+        "ground_name": "SLHCC Second Square",
+        "ground_id": "8248",
+        "ground_latitude": "51.514121",
+        "ground_longitude": "0.42854",
+        "home_club_name": "Stanford Le Hope CC",
+        "home_team_name": "5th XI",
+        "home_team_id": "145441",
+        "home_club_id": "5999",
+        "away_club_name": "Chelmsford CC",
+        "away_team_name": "Sat 6th XI",
+        "away_team_id": "105976",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
+      },
       {
         "id": 7536680,
         "status": "New",
@@ -2091,7 +2131,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:31.522Z"
+    "fetched_at": "2026-06-19T22:53:36.100Z"
   },
   {
     "team": {
@@ -2460,7 +2500,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:32.232Z"
+    "fetched_at": "2026-06-19T22:53:36.637Z"
   },
   {
     "team": {
@@ -2509,7 +2549,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:32.530Z"
+    "fetched_at": "2026-06-19T22:53:37.154Z"
   },
   {
     "team": {
@@ -2558,7 +2598,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:32.872Z"
+    "fetched_at": "2026-06-19T22:53:37.698Z"
   },
   {
     "team": {
@@ -2727,6 +2767,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-06-19T18:27:33.649Z"
+    "fetched_at": "2026-06-19T22:53:38.242Z"
   }
 ]

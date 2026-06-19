@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T18:28:00.866Z",
+  "generated_at": "2026-06-19T22:54:14.218Z",
   "season": "2026",
   "centuries": [
     {
@@ -333,6 +333,17 @@
       "opposition": "Westcliff-On-Sea CC 1st XI",
       "date": "25/04/2026",
       "match_id": 7236831
+    },
+    {
+      "player": "Harriet Goodey",
+      "runs": 60,
+      "score": "60*",
+      "not_out": true,
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "Galleywood CC Womens 1st XI",
+      "date": "19/06/2026",
+      "match_id": 7399548
     },
     {
       "player": "Alex Bayha",

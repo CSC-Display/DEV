@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-19T17:35:46.253Z",
+  "generated_at": "2026-06-19T18:28:00.801Z",
   "match_count": 56,
   "scorecards_processed": 52,
   "batting": [
@@ -227,6 +227,23 @@
       "hundreds": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 6,
+      "innings": 6,
+      "not_outs": 5,
+      "runs": 190,
+      "balls": 83,
+      "fours": 29,
+      "sixes": 4,
+      "high_score": 47,
+      "high_score_display": "47*",
+      "average": 190,
+      "strike_rate": 228.91566265060243,
+      "fifties": 0,
+      "hundreds": 0
+    },
+    {
       "player": "Ben Clifford",
       "teams": "Sat 1st XI, Twenty20",
       "matches": 9,
@@ -275,23 +292,6 @@
       "average": 24.571428571428573,
       "strike_rate": 111.68831168831169,
       "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 6,
-      "innings": 6,
-      "not_outs": 5,
-      "runs": 170,
-      "balls": 78,
-      "fours": 24,
-      "sixes": 4,
-      "high_score": 39,
-      "high_score_display": "39",
-      "average": 170,
-      "strike_rate": 217.94871794871793,
-      "fifties": 0,
       "hundreds": 0
     },
     {

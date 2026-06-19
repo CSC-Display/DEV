@@ -673,7 +673,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:29.811Z"
+    "fetched_at": "2026-06-19T21:38:08.198Z"
   },
   {
     "team": {
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:30.925Z"
+    "fetched_at": "2026-06-19T21:38:09.200Z"
   },
   {
     "team": {
@@ -2065,7 +2065,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:32.052Z"
+    "fetched_at": "2026-06-19T21:38:10.197Z"
   },
   {
     "team": {
@@ -2721,7 +2721,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:33.127Z"
+    "fetched_at": "2026-06-19T21:38:11.154Z"
   },
   {
     "team": {
@@ -3430,7 +3430,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:34.247Z"
+    "fetched_at": "2026-06-19T21:38:12.145Z"
   },
   {
     "team": {
@@ -3443,7 +3443,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T20:10:34.737Z"
+    "fetched_at": "2026-06-19T21:38:12.567Z"
   },
   {
     "team": {
@@ -4152,7 +4152,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:35.697Z"
+    "fetched_at": "2026-06-19T21:38:13.533Z"
   },
   {
     "team": {
@@ -4165,7 +4165,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T20:10:36.173Z"
+    "fetched_at": "2026-06-19T21:38:13.960Z"
   },
   {
     "team": {
@@ -4469,7 +4469,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:37.186Z"
+    "fetched_at": "2026-06-19T21:38:14.904Z"
   },
   {
     "team": {
@@ -4519,18 +4519,18 @@
       "no_of_overs": "20",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Womens 1st XI - Won",
+      "result_applied_to": "213007",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
       "points": [
         {
           "team_id": 213007,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -4541,9 +4541,9 @@
           "team_id": 319144,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "11.0",
+          "bonus_points_batting": "7.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -4578,9 +4578,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "30",
-          "runs": "110",
-          "wickets": "9",
-          "overs": "18.4",
+          "runs": "118",
+          "wickets": "10",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4599,6 +4599,11 @@
         }
       ],
       "wickets": [
+        {
+          "name": "Alex Rowe-Goodey",
+          "w": 3,
+          "r": "18"
+        },
         {
           "name": "Harriet Goodey",
           "w": 3,
@@ -5106,18 +5111,18 @@
         "no_of_overs": "20",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Womens 1st XI - Won",
+        "result_applied_to": "213007",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
         "points": [
           {
             "team_id": 213007,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -5128,9 +5133,9 @@
             "team_id": 319144,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "11.0",
+            "bonus_points_batting": "7.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -5165,9 +5170,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "30",
-            "runs": "110",
-            "wickets": "9",
-            "overs": "18.4",
+            "runs": "118",
+            "wickets": "10",
+            "overs": "20",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5178,6 +5183,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T20:10:38.178Z"
+    "fetched_at": "2026-06-19T21:38:15.886Z"
   }
 ]

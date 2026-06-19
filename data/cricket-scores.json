@@ -673,7 +673,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:08.198Z"
+    "fetched_at": "2026-06-19T22:37:48.977Z"
   },
   {
     "team": {
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:09.200Z"
+    "fetched_at": "2026-06-19T22:37:50.473Z"
   },
   {
     "team": {
@@ -2065,7 +2065,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:10.197Z"
+    "fetched_at": "2026-06-19T22:37:51.120Z"
   },
   {
     "team": {
@@ -2721,7 +2721,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:11.154Z"
+    "fetched_at": "2026-06-19T22:37:52.194Z"
   },
   {
     "team": {
@@ -3430,7 +3430,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:12.145Z"
+    "fetched_at": "2026-06-19T22:37:53.639Z"
   },
   {
     "team": {
@@ -3443,7 +3443,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T21:38:12.567Z"
+    "fetched_at": "2026-06-19T22:37:54.301Z"
   },
   {
     "team": {
@@ -4152,7 +4152,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:13.533Z"
+    "fetched_at": "2026-06-19T22:37:55.351Z"
   },
   {
     "team": {
@@ -4165,7 +4165,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T21:38:13.960Z"
+    "fetched_at": "2026-06-19T22:37:55.610Z"
   },
   {
     "team": {
@@ -4469,7 +4469,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:14.904Z"
+    "fetched_at": "2026-06-19T22:37:56.616Z"
   },
   {
     "team": {
@@ -4503,16 +4503,16 @@
       "away_club_id": "2847",
       "umpire_1_name": "Andy Pyne",
       "umpire_1_id": "6715415",
-      "umpire_2_name": "Andy Pyne",
-      "umpire_2_id": "6715415",
+      "umpire_2_name": "Priyantha Siriwardana",
+      "umpire_2_id": "7120840",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
       "scorer_1_name": "Nick Clayden",
       "scorer_1_id": "1087667",
-      "scorer_2_name": "",
-      "scorer_2_id": "",
+      "scorer_2_name": "Richard Goodey",
+      "scorer_2_id": "7120839",
       "toss_won_by_team_id": "319144",
       "toss": "Galleywood CC - Womens 1st XI won the toss and elected to field",
       "batted_first": "213007",
@@ -4523,7 +4523,7 @@
       "result_description": "Chelmsford CC - Womens 1st XI - Won",
       "result_applied_to": "213007",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
@@ -5095,16 +5095,16 @@
         "away_club_id": "2847",
         "umpire_1_name": "Andy Pyne",
         "umpire_1_id": "6715415",
-        "umpire_2_name": "Andy Pyne",
-        "umpire_2_id": "6715415",
+        "umpire_2_name": "Priyantha Siriwardana",
+        "umpire_2_id": "7120840",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
         "scorer_1_name": "Nick Clayden",
         "scorer_1_id": "1087667",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
+        "scorer_2_name": "Richard Goodey",
+        "scorer_2_id": "7120839",
         "toss_won_by_team_id": "319144",
         "toss": "Galleywood CC - Womens 1st XI won the toss and elected to field",
         "batted_first": "213007",
@@ -5115,7 +5115,7 @@
         "result_description": "Chelmsford CC - Womens 1st XI - Won",
         "result_applied_to": "213007",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
@@ -5183,6 +5183,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T21:38:15.886Z"
+    "fetched_at": "2026-06-19T22:37:57.246Z"
   }
 ]

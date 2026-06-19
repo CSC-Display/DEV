@@ -673,7 +673,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:52.409Z"
+    "fetched_at": "2026-06-19T18:18:45.912Z"
   },
   {
     "team": {
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:53.411Z"
+    "fetched_at": "2026-06-19T18:18:46.987Z"
   },
   {
     "team": {
@@ -2065,7 +2065,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:54.378Z"
+    "fetched_at": "2026-06-19T18:18:47.984Z"
   },
   {
     "team": {
@@ -2721,7 +2721,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:55.386Z"
+    "fetched_at": "2026-06-19T18:18:49.054Z"
   },
   {
     "team": {
@@ -3430,7 +3430,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:56.349Z"
+    "fetched_at": "2026-06-19T18:18:50.058Z"
   },
   {
     "team": {
@@ -3443,7 +3443,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T17:34:56.843Z"
+    "fetched_at": "2026-06-19T18:18:50.476Z"
   },
   {
     "team": {
@@ -4152,7 +4152,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:57.824Z"
+    "fetched_at": "2026-06-19T18:18:51.447Z"
   },
   {
     "team": {
@@ -4165,7 +4165,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-19T17:34:58.218Z"
+    "fetched_at": "2026-06-19T18:18:51.852Z"
   },
   {
     "team": {
@@ -4469,7 +4469,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:34:59.168Z"
+    "fetched_at": "2026-06-19T18:18:52.811Z"
   },
   {
     "team": {
@@ -4526,7 +4526,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "",
+      "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras\n<br/>\n",
       "points": [
         {
           "team_id": 213007,
@@ -4551,16 +4551,16 @@
         {
           "team_batting_id": "213007",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "1",
-          "extra_wides": "0",
-          "extra_no_balls": "6",
+          "extra_byes": "1",
+          "extra_leg_byes": "2",
+          "extra_wides": "11",
+          "extra_no_balls": "14",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "46",
-          "wickets": "3",
-          "overs": "6",
+          "total_extras": "28",
+          "runs": "97",
+          "wickets": "7",
+          "overs": "14",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -5081,7 +5081,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "",
+        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras\n<br/>\n",
         "points": [
           {
             "team_id": 213007,
@@ -5106,16 +5106,16 @@
           {
             "team_batting_id": "213007",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "1",
-            "extra_wides": "0",
-            "extra_no_balls": "6",
+            "extra_byes": "1",
+            "extra_leg_byes": "2",
+            "extra_wides": "11",
+            "extra_no_balls": "14",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "46",
-            "wickets": "3",
-            "overs": "6",
+            "total_extras": "28",
+            "runs": "97",
+            "wickets": "7",
+            "overs": "14",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -5126,6 +5126,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-19T17:35:00.132Z"
+    "fetched_at": "2026-06-19T18:18:53.770Z"
   }
 ]

@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n<br/>\n<b>Epping CC 1st XI Innings</b><br/>\n14.4 Epping CC 1st XI: 50 runs in 14.4 overs, 56 minutes, 1 extra\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -106,9 +106,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "1",
-          "runs": "24",
-          "wickets": "2",
-          "overs": "4",
+          "runs": "52",
+          "wickets": "5",
+          "overs": "17",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -136,7 +136,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Andy Styan",
+          "w": 3,
+          "r": "22"
+        }
+      ]
     },
     "form": [
       {
@@ -626,7 +632,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n<br/>\n<b>Epping CC 1st XI Innings</b><br/>\n14.4 Epping CC 1st XI: 50 runs in 14.4 overs, 56 minutes, 1 extra\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -678,9 +684,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "1",
-            "runs": "24",
-            "wickets": "2",
-            "overs": "4",
+            "runs": "52",
+            "wickets": "5",
+            "overs": "17",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -691,7 +697,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:03:57.928Z"
+    "fetched_at": "2026-06-20T16:03:05.183Z"
   },
   {
     "team": {
@@ -1405,7 +1411,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:03:59.279Z"
+    "fetched_at": "2026-06-20T16:03:06.738Z"
   },
   {
     "team": {
@@ -1507,16 +1513,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "2",
+          "extra_byes": "6",
           "extra_leg_byes": "5",
           "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "50",
-          "wickets": "0",
-          "overs": "15.0",
+          "total_extras": "14",
+          "runs": "112",
+          "wickets": "1",
+          "overs": "26.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2052,16 +2058,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "2",
+            "extra_byes": "6",
             "extra_leg_byes": "5",
             "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "50",
-            "wickets": "0",
-            "overs": "15.0",
+            "total_extras": "14",
+            "runs": "112",
+            "wickets": "1",
+            "overs": "26.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2072,7 +2078,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:00.297Z"
+    "fetched_at": "2026-06-20T16:03:07.764Z"
   },
   {
     "team": {
@@ -2170,11 +2176,37 @@
           "revised_target_runs": "",
           "revised_target_overs": "",
           "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "1",
+          "extra_wides": "2",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "3",
+          "runs": "74",
+          "wickets": "0",
+          "overs": "16.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Jordan Campion",
+          "score": 50,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Piyush Singh",
@@ -2690,11 +2722,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "30461",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "1",
+            "extra_wides": "2",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "3",
+            "runs": "74",
+            "wickets": "0",
+            "overs": "16.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:01.372Z"
+    "fetched_at": "2026-06-20T16:03:09.848Z"
   },
   {
     "team": {
@@ -2796,16 +2848,16 @@
         {
           "team_batting_id": "353321",
           "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "20",
+          "extra_no_balls": "9",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "29",
+          "runs": "87",
+          "wickets": "2",
+          "overs": "11.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3387,16 +3439,16 @@
           {
             "team_batting_id": "353321",
             "innings_number": 1,
-            "extra_byes": "",
-            "extra_leg_byes": "",
-            "extra_wides": "",
-            "extra_no_balls": "",
-            "extra_penalty_runs": "",
-            "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "",
-            "runs": "",
-            "wickets": "",
-            "overs": "",
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "20",
+            "extra_no_balls": "9",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "29",
+            "runs": "87",
+            "wickets": "2",
+            "overs": "11.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3407,7 +3459,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:02.658Z"
+    "fetched_at": "2026-06-20T16:03:12.158Z"
   },
   {
     "team": {
@@ -3420,7 +3472,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T15:04:03.074Z"
+    "fetched_at": "2026-06-20T16:03:12.977Z"
   },
   {
     "team": {
@@ -4129,7 +4181,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:04.215Z"
+    "fetched_at": "2026-06-20T16:03:14.150Z"
   },
   {
     "team": {
@@ -4142,7 +4194,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T15:04:04.719Z"
+    "fetched_at": "2026-06-20T16:03:14.875Z"
   },
   {
     "team": {
@@ -4446,7 +4498,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:06.114Z"
+    "fetched_at": "2026-06-20T16:03:15.964Z"
   },
   {
     "team": {
@@ -5160,6 +5212,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T15:04:07.627Z"
+    "fetched_at": "2026-06-20T16:03:17.600Z"
   }
 ]

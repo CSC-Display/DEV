@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T14:24:24.989Z",
+  "generated_at": "2026-06-20T15:05:05.800Z",
   "season": "2026",
   "centuries": [
     {
@@ -126,6 +126,17 @@
       "match_id": 7505924
     },
     {
+      "player": "Ben Clifford",
+      "runs": 89,
+      "score": "89",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Epping CC 1st XI",
+      "date": "20/06/2026",
+      "match_id": 7325282
+    },
+    {
       "player": "Tom Iliffe",
       "runs": 85,
       "score": "85",
@@ -135,17 +146,6 @@
       "opposition": "Westcliff-On-Sea CC 5th XI",
       "date": "13/06/2026",
       "match_id": 7462401
-    },
-    {
-      "player": "Ben Clifford",
-      "runs": 84,
-      "score": "84*",
-      "not_out": true,
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Epping CC 1st XI",
-      "date": "20/06/2026",
-      "match_id": 7325282
     },
     {
       "player": "Elliot Wenzel",
@@ -799,6 +799,14 @@
       "match_id": 7681513
     },
     {
+      "player": "Ben Waring",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Epping CC 1st XI",
+      "date": "20/06/2026",
+      "match_id": 7325282
+    },
+    {
       "player": "Thom Wilshaw",
       "team": "Sat 2nd XI",
       "team_id": 24294,
@@ -1279,6 +1287,20 @@
           "opposition": "West Essex CC 3rd XI",
           "date": "13/06/2026",
           "match_id": 7461849
+        }
+      ]
+    },
+    {
+      "player": "Ben Waring",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Ben Waring",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Epping CC 1st XI",
+          "date": "20/06/2026",
+          "match_id": 7325282
         }
       ]
     },

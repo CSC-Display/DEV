@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -633,7 +633,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:37.085Z"
+    "fetched_at": "2026-06-20T20:40:15.614Z"
   },
   {
     "team": {
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:38.116Z"
+    "fetched_at": "2026-06-20T20:40:16.247Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:39.132Z"
+    "fetched_at": "2026-06-20T20:40:16.844Z"
   },
   {
     "team": {
@@ -2762,7 +2762,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:40.123Z"
+    "fetched_at": "2026-06-20T20:40:17.489Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:40.839Z"
+    "fetched_at": "2026-06-20T20:40:18.116Z"
   },
   {
     "team": {
@@ -3494,7 +3494,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T19:02:41.022Z"
+    "fetched_at": "2026-06-20T20:40:18.344Z"
   },
   {
     "team": {
@@ -4203,7 +4203,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:41.764Z"
+    "fetched_at": "2026-06-20T20:40:18.961Z"
   },
   {
     "team": {
@@ -4216,7 +4216,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T19:02:42.169Z"
+    "fetched_at": "2026-06-20T20:40:19.174Z"
   },
   {
     "team": {
@@ -4520,7 +4520,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:43.085Z"
+    "fetched_at": "2026-06-20T20:40:19.740Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T19:02:43.965Z"
+    "fetched_at": "2026-06-20T20:40:20.346Z"
   }
 ]

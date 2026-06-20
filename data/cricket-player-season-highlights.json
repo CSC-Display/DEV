@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T08:37:44.475Z",
+  "generated_at": "2026-06-20T14:24:24.989Z",
   "season": "2026",
   "centuries": [
     {
@@ -80,6 +80,17 @@
       "match_id": 7325277
     },
     {
+      "player": "David Wilson",
+      "runs": 103,
+      "score": "103*",
+      "not_out": true,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Orsett & Thurrock CC 7th XI",
+      "date": "20/06/2026",
+      "match_id": 7462408
+    },
+    {
       "player": "Ben Clifford",
       "runs": 101,
       "score": "101*",
@@ -124,6 +135,17 @@
       "opposition": "Westcliff-On-Sea CC 5th XI",
       "date": "13/06/2026",
       "match_id": 7462401
+    },
+    {
+      "player": "Ben Clifford",
+      "runs": 84,
+      "score": "84*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Epping CC 1st XI",
+      "date": "20/06/2026",
+      "match_id": 7325282
     },
     {
       "player": "Elliot Wenzel",
@@ -215,6 +237,17 @@
     },
     {
       "player": "Suhail Shahid",
+      "runs": 74,
+      "score": "74",
+      "not_out": false,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Orsett & Thurrock CC 7th XI",
+      "date": "20/06/2026",
+      "match_id": 7462408
+    },
+    {
+      "player": "Suhail Shahid",
       "runs": 73,
       "score": "73",
       "not_out": false,
@@ -234,6 +267,17 @@
       "opposition": "Westcliff-On-Sea CC 2nd XI",
       "date": "25/04/2026",
       "match_id": 7577468
+    },
+    {
+      "player": "James Clifford",
+      "runs": 70,
+      "score": "70",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Epping CC 1st XI",
+      "date": "20/06/2026",
+      "match_id": 7325282
     },
     {
       "player": "Thomas Duxson",
@@ -335,6 +379,17 @@
       "match_id": 7236831
     },
     {
+      "player": "Thomas Duxson",
+      "runs": 61,
+      "score": "61*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Billericay CC 2nd XI",
+      "date": "20/06/2026",
+      "match_id": 7325732
+    },
+    {
       "player": "Harriet Goodey",
       "runs": 60,
       "score": "60*",
@@ -355,6 +410,17 @@
       "opposition": "Harold Wood CC 4th XI",
       "date": "02/05/2026",
       "match_id": 7262197
+    },
+    {
+      "player": "Jack Sterland",
+      "runs": 59,
+      "score": "59",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Epping CC 1st XI",
+      "date": "20/06/2026",
+      "match_id": 7325282
     },
     {
       "player": "Elliot Wenzel",
@@ -533,6 +599,17 @@
       "match_id": 7462095
     },
     {
+      "player": "Abhijeet Kumar",
+      "runs": 50,
+      "score": "50",
+      "not_out": false,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Orsett & Thurrock CC 7th XI",
+      "date": "20/06/2026",
+      "match_id": 7462408
+    },
+    {
       "player": "Alex Bailey",
       "runs": 50,
       "score": "50*",
@@ -632,6 +709,28 @@
       "opposition": "Mistley CC TC Div C",
       "date": "14/06/2026",
       "match_id": 7507165
+    },
+    {
+      "player": "Thom Wilshaw",
+      "wickets": 5,
+      "runs": 32,
+      "figures": "5-32",
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Hornchurch CC 3rd XI",
+      "date": "20/06/2026",
+      "match_id": 7461855
+    },
+    {
+      "player": "Piyush Singh",
+      "wickets": 5,
+      "runs": 49,
+      "figures": "5-49",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Oakfield Parkonians CC, Essex 4th XI",
+      "date": "20/06/2026",
+      "match_id": 7462125
     }
   ],
   "ducks": [

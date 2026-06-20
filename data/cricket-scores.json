@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
       "result_applied_to": "24293",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n<br/>\n<b>Epping CC 1st XI Innings</b><br/>\n14.4 Epping CC 1st XI: 50 runs in 14.4 overs, 56 minutes, 1 extra\n<br/>\n",
@@ -634,7 +634,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
         "result_applied_to": "24293",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n18.2 Chelmsford CC Sat 1st XI: 50 runs in 18.2 overs, 72 minutes, 2 extras<br/>22.6 Jack Sterland: 50 runs in 79 balls, 90 minutes (9x4)<br/>28.2 Chelmsford CC Sat 1st XI: 100 runs in 28.2 overs, 112 minutes, 2 extras<br/>38.2 4th Wicket: 50 runs in 85 balls, 49 minutes, Ben Clifford 15 (39), James Clifford 33 (46), 2 extras<br/>40.4 Chelmsford CC Sat 1st XI: 150 runs in 40.4 overs, 154 minutes, 4 extras<br/>42.3 James Clifford: 50 runs in 63 balls, 61 minutes (10x4)<br/>47.4 4th Wicket: 100 runs in 141 balls, 77 minutes, Ben Clifford 30 (59), James Clifford 68 (82), 2 extras<br/>48.5 Ben Clifford: 50 runs in 87 balls, 120 minutes (5x4)<br/>53.6 Chelmsford CC Sat 1st XI: 200 runs in 54.0 overs, 196 minutes, 4 extras<br/>61.1 Chelmsford CC Sat 1st XI: 250 runs in 61.1 overs, 220 minutes, 9 extras<br/>63.5 Mehad Khan: 5 wickets (11.5-4-41-5)\n<br/>\n<br/>\n<b>Epping CC 1st XI Innings</b><br/>\n14.4 Epping CC 1st XI: 50 runs in 14.4 overs, 56 minutes, 1 extra\n<br/>\n",
@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:36.976Z"
+    "fetched_at": "2026-06-20T18:15:55.749Z"
   },
   {
     "team": {
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:38.177Z"
+    "fetched_at": "2026-06-20T18:15:57.616Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:39.334Z"
+    "fetched_at": "2026-06-20T18:15:59.338Z"
   },
   {
     "team": {
@@ -2144,9 +2144,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
+      "result_applied_to": "30461",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2157,14 +2157,14 @@
           "team_id": 25628,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 30461,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2203,9 +2203,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "8",
-          "runs": "174",
+          "runs": "175",
           "wickets": "6",
-          "overs": "40.0",
+          "overs": "40.2",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2690,9 +2690,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
+        "result_applied_to": "30461",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2703,14 +2703,14 @@
             "team_id": 25628,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 30461,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2749,9 +2749,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "8",
-            "runs": "174",
+            "runs": "175",
             "wickets": "6",
-            "overs": "40.0",
+            "overs": "40.2",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2762,7 +2762,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:40.314Z"
+    "fetched_at": "2026-06-20T18:16:00.853Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:41.263Z"
+    "fetched_at": "2026-06-20T18:16:02.368Z"
   },
   {
     "team": {
@@ -3494,7 +3494,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T17:45:41.685Z"
+    "fetched_at": "2026-06-20T18:16:03.056Z"
   },
   {
     "team": {
@@ -4203,7 +4203,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:43.390Z"
+    "fetched_at": "2026-06-20T18:16:04.473Z"
   },
   {
     "team": {
@@ -4216,7 +4216,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-20T17:45:43.812Z"
+    "fetched_at": "2026-06-20T18:16:04.718Z"
   },
   {
     "team": {
@@ -4520,7 +4520,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:44.753Z"
+    "fetched_at": "2026-06-20T18:16:06.158Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-20T17:45:45.912Z"
+    "fetched_at": "2026-06-20T18:16:07.630Z"
   }
 ]

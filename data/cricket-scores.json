@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:48.115Z"
+    "fetched_at": "2026-06-21T10:21:36.517Z"
   },
   {
     "team": {
@@ -713,7 +713,7 @@
       "id": 7325732,
       "status": "New",
       "published": "Yes",
-      "last_updated": "20/06/2026",
+      "last_updated": "21/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -755,7 +755,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
       "result_applied_to": "24294",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -1305,7 +1305,7 @@
         "id": 7325732,
         "status": "New",
         "published": "Yes",
-        "last_updated": "20/06/2026",
+        "last_updated": "21/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1347,7 +1347,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
         "result_applied_to": "24294",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:48.876Z"
+    "fetched_at": "2026-06-21T10:21:37.515Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:49.873Z"
+    "fetched_at": "2026-06-21T10:21:38.293Z"
   },
   {
     "team": {
@@ -2105,7 +2105,7 @@
       "id": 7462125,
       "status": "New",
       "published": "Yes",
-      "last_updated": "20/06/2026",
+      "last_updated": "21/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2148,7 +2148,7 @@
       "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
       "result_applied_to": "30461",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2651,7 +2651,7 @@
         "id": 7462125,
         "status": "New",
         "published": "Yes",
-        "last_updated": "20/06/2026",
+        "last_updated": "21/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2694,7 +2694,7 @@
         "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
         "result_applied_to": "30461",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2762,7 +2762,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:50.875Z"
+    "fetched_at": "2026-06-21T10:21:39.305Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:51.880Z"
+    "fetched_at": "2026-06-21T10:21:40.273Z"
   },
   {
     "team": {
@@ -3494,7 +3494,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-21T06:38:52.068Z"
+    "fetched_at": "2026-06-21T10:21:40.686Z"
   },
   {
     "team": {
@@ -4203,7 +4203,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:52.817Z"
+    "fetched_at": "2026-06-21T10:21:41.859Z"
   },
   {
     "team": {
@@ -4216,7 +4216,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-21T06:38:53.228Z"
+    "fetched_at": "2026-06-21T10:21:42.277Z"
   },
   {
     "team": {
@@ -4520,7 +4520,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:54.169Z"
+    "fetched_at": "2026-06-21T10:21:43.049Z"
   },
   {
     "team": {
@@ -5234,6 +5234,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T06:38:55.149Z"
+    "fetched_at": "2026-06-21T10:21:43.656Z"
   }
 ]

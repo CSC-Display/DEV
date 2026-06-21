@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T23:05:03.572Z",
+  "generated_at": "2026-06-21T18:14:21.228Z",
   "season": "2026",
   "centuries": [
     {
@@ -100,6 +100,17 @@
       "opposition": "Gidea Park & Romford CC 1st XI",
       "date": "25/05/2026",
       "match_id": 7236815
+    },
+    {
+      "player": "Mohammed Baig",
+      "runs": 101,
+      "score": "101",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "IPSCOL CC Sunday 1st XI",
+      "date": "21/06/2026",
+      "match_id": 7507172
     }
   ],
   "half_centuries": [
@@ -520,6 +531,17 @@
       "opposition": "Great Bentley CC 1st XI",
       "date": "07/06/2026",
       "match_id": 7507154
+    },
+    {
+      "player": "David Wilson",
+      "runs": 55,
+      "score": "55",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "IPSCOL CC Sunday 1st XI",
+      "date": "21/06/2026",
+      "match_id": 7507172
     },
     {
       "player": "Ben Clifford",
@@ -1011,6 +1033,14 @@
       "match_id": 7507142
     },
     {
+      "player": "George Wilson",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "IPSCOL CC Sunday 1st XI",
+      "date": "21/06/2026",
+      "match_id": 7507172
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -1429,6 +1459,20 @@
           "opposition": "Springfield CC, Essex 1st XI",
           "date": "02/05/2026",
           "match_id": 7675532
+        }
+      ]
+    },
+    {
+      "player": "George Wilson",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "George Wilson",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "IPSCOL CC Sunday 1st XI",
+          "date": "21/06/2026",
+          "match_id": 7507172
         }
       ]
     },

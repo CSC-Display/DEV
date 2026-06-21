@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:36.517Z"
+    "fetched_at": "2026-06-21T12:25:45.481Z"
   },
   {
     "team": {
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:37.515Z"
+    "fetched_at": "2026-06-21T12:25:46.609Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:38.293Z"
+    "fetched_at": "2026-06-21T12:25:47.669Z"
   },
   {
     "team": {
@@ -2147,7 +2147,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
       "result_applied_to": "30461",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2693,7 +2693,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 2nd)",
         "result_applied_to": "30461",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2762,7 +2762,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:39.305Z"
+    "fetched_at": "2026-06-21T12:25:48.702Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:40.273Z"
+    "fetched_at": "2026-06-21T12:25:49.738Z"
   },
   {
     "team": {
@@ -3494,7 +3494,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-21T10:21:40.686Z"
+    "fetched_at": "2026-06-21T12:25:50.165Z"
   },
   {
     "team": {
@@ -3502,10 +3502,10 @@
       "id": 324716
     },
     "match": {
-      "id": 7507165,
+      "id": 7507172,
       "status": "New",
       "published": "Yes",
-      "last_updated": "18/06/2026",
+      "last_updated": "21/06/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3514,14 +3514,14 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "14/06/2026",
+      "match_date": "21/06/2026",
       "match_time": "13:00",
-      "ground_name": "MISTLEY CC",
-      "ground_id": "14357",
-      "home_team_name": "TC Div C",
-      "home_team_id": "37504",
-      "home_club_name": "Mistley CC",
-      "home_club_id": "4383",
+      "ground_name": "University of Essex",
+      "ground_id": "59428",
+      "home_team_name": "Sunday 1st XI",
+      "home_team_id": "348717",
+      "home_club_name": "IPSCOL CC",
+      "home_club_id": "22912",
       "away_team_name": "NECL 1st XI",
       "away_team_id": "324716",
       "away_club_name": "Chelmsford CC",
@@ -3544,9 +3544,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - NECL 1st XI - Won",
-      "result_applied_to": "324716",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3554,21 +3554,21 @@
       "match_notes": "",
       "points": [
         {
-          "team_id": 37504,
+          "team_id": 348717,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "8.0",
-          "bonus_points_batting": "3.0",
-          "bonus_points_bowling": "5.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 324716,
-          "game_points": "15",
+          "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "5.0",
+          "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "5.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -3576,36 +3576,16 @@
         {
           "team_batting_id": "324716",
           "innings_number": 1,
-          "extra_byes": "22",
+          "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "22",
-          "extra_no_balls": "1",
+          "extra_wides": "1",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "45",
-          "runs": "258",
-          "wickets": "10",
-          "overs": "40.0",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "40.0",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "37504",
-          "innings_number": 1,
-          "extra_byes": "20",
-          "extra_leg_byes": "2",
-          "extra_wides": "7",
-          "extra_no_balls": "4",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "33",
-          "runs": "162",
-          "wickets": "10",
-          "overs": "38.5",
+          "total_extras": "1",
+          "runs": "32",
+          "wickets": "0",
+          "overs": "6.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3616,136 +3596,10 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "George Wilson",
-          "score": 67,
-          "notOut": false
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Abdul Baig",
-          "w": 5,
-          "r": "26"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7505924,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "01/06/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "10/05/2026",
-        "match_time": "13:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "NECL 1st XI",
-        "home_team_id": "324716",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "Sunday 1st XI",
-        "away_team_id": "207263",
-        "away_club_name": "Abberton & District CC",
-        "away_club_id": "7812",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "324716",
-        "toss": "Chelmsford CC - NECL 1st XI won the toss and elected to bat",
-        "batted_first": "324716",
-        "no_of_overs": "40",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - NECL 1st XI - Won",
-        "result_applied_to": "324716",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 324716,
-            "game_points": "15",
-            "penalty_points": "0.0",
-            "bonus_points_together": "4.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "4.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 207263,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "5.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "1.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "324716",
-            "innings_number": 1,
-            "extra_byes": "17",
-            "extra_leg_byes": "1",
-            "extra_wides": "8",
-            "extra_no_balls": "3",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "29",
-            "runs": "279",
-            "wickets": "3",
-            "overs": "40.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "207263",
-            "innings_number": 1,
-            "extra_byes": "10",
-            "extra_leg_byes": "5",
-            "extra_wides": "6",
-            "extra_no_balls": "4",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "25",
-            "runs": "167",
-            "wickets": "8",
-            "overs": "40.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7507126,
         "status": "New",
@@ -4201,9 +4055,103 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7507172,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "21/06/2026",
+        "league_name": "Two Counties Cricket Championship",
+        "league_id": "7277",
+        "competition_name": "Sunday League",
+        "competition_id": "134513",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "21/06/2026",
+        "match_time": "13:00",
+        "ground_name": "University of Essex",
+        "ground_id": "59428",
+        "home_team_name": "Sunday 1st XI",
+        "home_team_id": "348717",
+        "home_club_name": "IPSCOL CC",
+        "home_club_id": "22912",
+        "away_team_name": "NECL 1st XI",
+        "away_team_id": "324716",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "324716",
+        "toss": "Chelmsford CC - NECL 1st XI won the toss and elected to bat",
+        "batted_first": "324716",
+        "no_of_overs": "40",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 348717,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 324716,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "324716",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "1",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "1",
+            "runs": "32",
+            "wickets": "0",
+            "overs": "6.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:41.859Z"
+    "fetched_at": "2026-06-21T12:25:51.127Z"
   },
   {
     "team": {
@@ -4216,7 +4164,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-21T10:21:42.277Z"
+    "fetched_at": "2026-06-21T12:25:51.697Z"
   },
   {
     "team": {
@@ -4520,7 +4468,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:43.049Z"
+    "fetched_at": "2026-06-21T12:25:52.813Z"
   },
   {
     "team": {
@@ -5234,6 +5182,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-21T10:21:43.656Z"
+    "fetched_at": "2026-06-21T12:25:53.837Z"
   }
 ]

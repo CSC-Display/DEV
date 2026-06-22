@@ -702,7 +702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:49.660Z"
+    "fetched_at": "2026-06-22T16:12:01.158Z"
   },
   {
     "team": {
@@ -713,7 +713,7 @@
       "id": 7325732,
       "status": "New",
       "published": "Yes",
-      "last_updated": "21/06/2026",
+      "last_updated": "22/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -756,7 +756,7 @@
       "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
       "result_applied_to": "24294",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -1305,7 +1305,7 @@
         "id": 7325732,
         "status": "New",
         "published": "Yes",
-        "last_updated": "21/06/2026",
+        "last_updated": "22/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1348,7 +1348,7 @@
         "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
         "result_applied_to": "24294",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:51.175Z"
+    "fetched_at": "2026-06-22T16:12:02.185Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:52.636Z"
+    "fetched_at": "2026-06-22T16:12:03.217Z"
   },
   {
     "team": {
@@ -2762,7 +2762,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:54.151Z"
+    "fetched_at": "2026-06-22T16:12:04.350Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:55.652Z"
+    "fetched_at": "2026-06-22T16:12:05.382Z"
   },
   {
     "team": {
@@ -3494,7 +3494,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-22T11:27:56.334Z"
+    "fetched_at": "2026-06-22T16:12:05.942Z"
   },
   {
     "team": {
@@ -4213,7 +4213,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:57.841Z"
+    "fetched_at": "2026-06-22T16:12:06.930Z"
   },
   {
     "team": {
@@ -4226,7 +4226,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-22T11:27:58.506Z"
+    "fetched_at": "2026-06-22T16:12:07.330Z"
   },
   {
     "team": {
@@ -4530,7 +4530,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:27:59.547Z"
+    "fetched_at": "2026-06-22T16:12:08.269Z"
   },
   {
     "team": {
@@ -5244,6 +5244,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-22T11:28:00.615Z"
+    "fetched_at": "2026-06-22T16:12:09.281Z"
   }
 ]

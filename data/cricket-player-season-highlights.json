@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T18:22:06.118Z",
+  "generated_at": "2026-06-26T23:03:39.277Z",
   "season": "2026",
   "centuries": [
     {
@@ -1135,9 +1135,63 @@
       "opposition": "Galleywood CC Womens 1st XI",
       "date": "19/06/2026",
       "match_id": 7399548
+    },
+    {
+      "player": "Eleni Cooke",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "26/06/2026",
+      "match_id": 7399558
+    },
+    {
+      "player": "Poppy Moore",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "High Roding CC Womens 1st XI",
+      "date": "26/06/2026",
+      "match_id": 7399558
     }
   ],
   "duck_hunt": [
+    {
+      "player": "Poppy Moore",
+      "count": 4,
+      "ducks": [
+        {
+          "player": "Poppy Moore",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "08/05/2026",
+          "match_id": 7399544
+        },
+        {
+          "player": "Poppy Moore",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "Maldon CC Womens 1st XI",
+          "date": "05/06/2026",
+          "match_id": 7399545
+        },
+        {
+          "player": "Poppy Moore",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "Galleywood CC Womens 1st XI",
+          "date": "19/06/2026",
+          "match_id": 7399548
+        },
+        {
+          "player": "Poppy Moore",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "26/06/2026",
+          "match_id": 7399558
+        }
+      ]
+    },
     {
       "player": "Daniel Purchase",
       "count": 3,
@@ -1165,36 +1219,6 @@
           "opposition": "Frenford CC 4th XI",
           "date": "30/05/2026",
           "match_id": 7462109
-        }
-      ]
-    },
-    {
-      "player": "Poppy Moore",
-      "count": 3,
-      "ducks": [
-        {
-          "player": "Poppy Moore",
-          "team": "Womens 1st XI",
-          "team_id": 213007,
-          "opposition": "High Roding CC Womens 1st XI",
-          "date": "08/05/2026",
-          "match_id": 7399544
-        },
-        {
-          "player": "Poppy Moore",
-          "team": "Womens 1st XI",
-          "team_id": 213007,
-          "opposition": "Maldon CC Womens 1st XI",
-          "date": "05/06/2026",
-          "match_id": 7399545
-        },
-        {
-          "player": "Poppy Moore",
-          "team": "Womens 1st XI",
-          "team_id": 213007,
-          "opposition": "Galleywood CC Womens 1st XI",
-          "date": "19/06/2026",
-          "match_id": 7399548
         }
       ]
     },
@@ -1445,6 +1469,20 @@
           "opposition": "West Essex CC 3rd XI",
           "date": "13/06/2026",
           "match_id": 7461849
+        }
+      ]
+    },
+    {
+      "player": "Eleni Cooke",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Eleni Cooke",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "High Roding CC Womens 1st XI",
+          "date": "26/06/2026",
+          "match_id": 7399558
         }
       ]
     },

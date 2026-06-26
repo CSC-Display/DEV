@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-26T18:22:05.884Z",
+  "generated_at": "2026-06-26T23:03:38.866Z",
   "match_count": 63,
   "scorecards_processed": 59,
   "batting": [
@@ -227,6 +227,23 @@
       "hundreds": 1
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 7,
+      "innings": 7,
+      "not_outs": 6,
+      "runs": 230,
+      "balls": 107,
+      "fours": 33,
+      "sixes": 6,
+      "high_score": 60,
+      "high_score_display": "60*",
+      "average": 230,
+      "strike_rate": 214.9532710280374,
+      "fifties": 1,
+      "hundreds": 0
+    },
+    {
       "player": "Alex Bayha",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 12,
@@ -241,23 +258,6 @@
       "average": 24.11111111111111,
       "strike_rate": 107.96019900497514,
       "fifties": 2,
-      "hundreds": 0
-    },
-    {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 6,
-      "innings": 6,
-      "not_outs": 5,
-      "runs": 203,
-      "balls": 90,
-      "fours": 30,
-      "sixes": 5,
-      "high_score": 60,
-      "high_score_display": "60*",
-      "average": 203,
-      "strike_rate": 225.55555555555554,
-      "fifties": 1,
       "hundreds": 0
     },
     {
@@ -618,17 +618,17 @@
       "teams": "Sat 5th XI, Womens 1st XI",
       "matches": 8,
       "innings": 8,
-      "balls": 156,
-      "overs": 26,
+      "balls": 168,
+      "overs": 28,
       "maidens": 4,
-      "runs": 82,
+      "runs": 87,
       "wickets": 12,
       "wides": 1,
       "no_balls": 1,
       "best": "5-4",
-      "average": 6.833333333333333,
-      "economy": 3.1538461538461537,
-      "strike_rate": 13,
+      "average": 7.25,
+      "economy": 3.107142857142857,
+      "strike_rate": 14,
       "three_wickets": 2,
       "five_wickets": 1
     },
@@ -690,6 +690,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 7,
+      "innings": 7,
+      "balls": 114,
+      "overs": 19,
+      "maidens": 5,
+      "runs": 55,
+      "wickets": 10,
+      "wides": 2,
+      "no_balls": 0,
+      "best": "3-15",
+      "average": 5.5,
+      "economy": 2.8947368421052633,
+      "strike_rate": 11.4,
+      "three_wickets": 1,
+      "five_wickets": 0
+    },
+    {
       "player": "Harry Jacobs",
       "teams": "NECL 1st XI, Sat 2nd XI",
       "matches": 7,
@@ -706,25 +725,6 @@
       "economy": 7.2,
       "strike_rate": 10.5,
       "three_wickets": 2,
-      "five_wickets": 0
-    },
-    {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 6,
-      "innings": 6,
-      "balls": 96,
-      "overs": 16,
-      "maidens": 5,
-      "runs": 30,
-      "wickets": 9,
-      "wides": 0,
-      "no_balls": 0,
-      "best": "3-15",
-      "average": 3.3333333333333335,
-      "economy": 1.875,
-      "strike_rate": 10.666666666666666,
-      "three_wickets": 1,
       "five_wickets": 0
     }
   ]

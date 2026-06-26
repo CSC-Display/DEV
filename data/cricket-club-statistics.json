@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-26T08:46:04.253Z",
+  "generated_at": "2026-06-26T18:22:05.884Z",
   "match_count": 63,
-  "scorecards_processed": 58,
+  "scorecards_processed": 59,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -614,6 +614,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Alex Rowe-Goodey",
+      "teams": "Sat 5th XI, Womens 1st XI",
+      "matches": 8,
+      "innings": 8,
+      "balls": 156,
+      "overs": 26,
+      "maidens": 4,
+      "runs": 82,
+      "wickets": 12,
+      "wides": 1,
+      "no_balls": 1,
+      "best": "5-4",
+      "average": 6.833333333333333,
+      "economy": 3.1538461538461537,
+      "strike_rate": 13,
+      "three_wickets": 2,
+      "five_wickets": 1
+    },
+    {
       "player": "Freddie Ryan",
       "teams": "NECL 1st XI, Sat 2nd XI",
       "matches": 14,
@@ -669,25 +688,6 @@
       "strike_rate": 45.27272727272727,
       "three_wickets": 2,
       "five_wickets": 0
-    },
-    {
-      "player": "Alex Rowe-Goodey",
-      "teams": "Sat 5th XI, Womens 1st XI",
-      "matches": 7,
-      "innings": 7,
-      "balls": 144,
-      "overs": 24,
-      "maidens": 4,
-      "runs": 64,
-      "wickets": 11,
-      "wides": 1,
-      "no_balls": 1,
-      "best": "5-4",
-      "average": 5.818181818181818,
-      "economy": 2.6666666666666665,
-      "strike_rate": 13.090909090909092,
-      "three_wickets": 2,
-      "five_wickets": 1
     },
     {
       "player": "Harry Jacobs",

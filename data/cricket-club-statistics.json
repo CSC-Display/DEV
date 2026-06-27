@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-06-27T17:54:48.370Z",
+  "generated_at": "2026-06-27T22:59:51.381Z",
   "match_count": 68,
-  "scorecards_processed": 62,
+  "scorecards_processed": 63,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -91,6 +91,23 @@
       "hundreds": 0
     },
     {
+      "player": "Suhail Shahid",
+      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 9,
+      "innings": 9,
+      "not_outs": 0,
+      "runs": 427,
+      "balls": 134,
+      "fours": 74,
+      "sixes": 2,
+      "high_score": 108,
+      "high_score_display": "108",
+      "average": 47.44444444444444,
+      "strike_rate": 318.65671641791045,
+      "fifties": 3,
+      "hundreds": 1
+    },
+    {
       "player": "Jack Sterland",
       "teams": "Sat 1st XI, Twenty20",
       "matches": 13,
@@ -106,23 +123,6 @@
       "strike_rate": 79.95642701525054,
       "fifties": 2,
       "hundreds": 0
-    },
-    {
-      "player": "Suhail Shahid",
-      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 8,
-      "innings": 8,
-      "not_outs": 0,
-      "runs": 360,
-      "balls": 134,
-      "fours": 61,
-      "sixes": 2,
-      "high_score": 108,
-      "high_score_display": "108",
-      "average": 45,
-      "strike_rate": 268.65671641791045,
-      "fifties": 2,
-      "hundreds": 1
     },
     {
       "player": "Mohammed Baig",
@@ -229,17 +229,17 @@
     {
       "player": "David Wilson",
       "teams": "NECL 1st XI, Sat 4th XI, Sat 5th XI",
-      "matches": 6,
-      "innings": 6,
+      "matches": 7,
+      "innings": 7,
       "not_outs": 1,
-      "runs": 234,
+      "runs": 254,
       "balls": 252,
-      "fours": 29,
+      "fours": 32,
       "sixes": 0,
       "high_score": 103,
       "high_score_display": "103*",
-      "average": 46.8,
-      "strike_rate": 92.85714285714286,
+      "average": 42.333333333333336,
+      "strike_rate": 100.79365079365078,
       "fifties": 2,
       "hundreds": 1
     },
@@ -519,6 +519,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Tom Hutchinson",
+      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 15,
+      "innings": 15,
+      "balls": 476,
+      "overs": 79.2,
+      "maidens": 5,
+      "runs": 430,
+      "wickets": 13,
+      "wides": 71,
+      "no_balls": 18,
+      "best": "3-29",
+      "average": 33.07692307692308,
+      "economy": 5.420168067226891,
+      "strike_rate": 36.61538461538461,
+      "three_wickets": 1,
+      "five_wickets": 0
+    },
+    {
       "player": "Neil Siriwardana",
       "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI",
       "matches": 13,
@@ -612,25 +631,6 @@
       "strike_rate": 22.076923076923077,
       "three_wickets": 2,
       "five_wickets": 1
-    },
-    {
-      "player": "Tom Hutchinson",
-      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 14,
-      "innings": 14,
-      "balls": 446,
-      "overs": 74.2,
-      "maidens": 5,
-      "runs": 411,
-      "wickets": 12,
-      "wides": 71,
-      "no_balls": 18,
-      "best": "3-29",
-      "average": 34.25,
-      "economy": 5.5291479820627805,
-      "strike_rate": 37.166666666666664,
-      "three_wickets": 1,
-      "five_wickets": 0
     },
     {
       "player": "Alex Rowe-Goodey",

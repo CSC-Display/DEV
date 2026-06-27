@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:31.894Z"
+    "fetched_at": "2026-06-27T22:59:14.836Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:33.066Z"
+    "fetched_at": "2026-06-27T22:59:15.470Z"
   },
   {
     "team": {
@@ -1438,7 +1438,7 @@
       "result_description": "Upminster CC - Men's 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "16611",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -1978,7 +1978,7 @@
         "result_description": "Upminster CC - Men's 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "16611",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:34.336Z"
+    "fetched_at": "2026-06-27T22:59:16.106Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-27T22:33:35.518Z"
+    "fetched_at": "2026-06-27T22:59:16.719Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:36.776Z"
+    "fetched_at": "2026-06-27T22:59:17.335Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T22:33:37.278Z"
+    "fetched_at": "2026-06-27T22:59:17.657Z"
   },
   {
     "team": {
@@ -4061,7 +4061,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:38.430Z"
+    "fetched_at": "2026-06-27T22:59:18.644Z"
   },
   {
     "team": {
@@ -4074,7 +4074,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T22:33:38.934Z"
+    "fetched_at": "2026-06-27T22:59:18.937Z"
   },
   {
     "team": {
@@ -4378,7 +4378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:40.113Z"
+    "fetched_at": "2026-06-27T22:59:19.532Z"
   },
   {
     "team": {
@@ -5075,6 +5075,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T22:33:41.278Z"
+    "fetched_at": "2026-06-27T22:59:20.205Z"
   }
 ]

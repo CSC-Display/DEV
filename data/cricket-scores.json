@@ -106,9 +106,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "1",
-          "runs": "35",
+          "runs": "40",
           "wickets": "1",
-          "overs": "7",
+          "overs": "8",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -668,9 +668,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "1",
-            "runs": "35",
+            "runs": "40",
             "wickets": "1",
-            "overs": "7",
+            "overs": "8",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:34.802Z"
+    "fetched_at": "2026-06-27T14:50:24.115Z"
   },
   {
     "team": {
@@ -790,9 +790,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "0",
-          "runs": "22",
+          "runs": "26",
           "wickets": "0",
-          "overs": "3.0",
+          "overs": "4.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1365,9 +1365,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "0",
-            "runs": "22",
+            "runs": "26",
             "wickets": "0",
-            "overs": "3.0",
+            "overs": "4.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1378,7 +1378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:35.534Z"
+    "fetched_at": "2026-06-27T14:50:24.858Z"
   },
   {
     "team": {
@@ -1994,7 +1994,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:36.187Z"
+    "fetched_at": "2026-06-27T14:50:25.486Z"
   },
   {
     "team": {
@@ -2568,7 +2568,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-27T14:48:36.833Z"
+    "fetched_at": "2026-06-27T14:50:26.080Z"
   },
   {
     "team": {
@@ -3287,7 +3287,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:37.469Z"
+    "fetched_at": "2026-06-27T14:50:26.784Z"
   },
   {
     "team": {
@@ -3300,7 +3300,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T14:48:37.684Z"
+    "fetched_at": "2026-06-27T14:50:27.051Z"
   },
   {
     "team": {
@@ -4019,7 +4019,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:38.309Z"
+    "fetched_at": "2026-06-27T14:50:27.746Z"
   },
   {
     "team": {
@@ -4032,7 +4032,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T14:48:38.588Z"
+    "fetched_at": "2026-06-27T14:50:28.037Z"
   },
   {
     "team": {
@@ -4336,7 +4336,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:39.116Z"
+    "fetched_at": "2026-06-27T14:50:29.122Z"
   },
   {
     "team": {
@@ -5033,6 +5033,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T14:48:39.772Z"
+    "fetched_at": "2026-06-27T14:50:29.931Z"
   }
 ]

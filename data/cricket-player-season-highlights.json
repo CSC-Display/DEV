@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:49:12.569Z",
+  "generated_at": "2026-06-27T17:54:48.571Z",
   "season": "2026",
   "centuries": [
     {
@@ -355,6 +355,17 @@
       "opposition": "Billericay CC 2nd XI",
       "date": "23/05/2026",
       "match_id": 7325713
+    },
+    {
+      "player": "Harry Green",
+      "runs": 64,
+      "score": "64",
+      "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Ilford CC 2nd XI",
+      "date": "27/06/2026",
+      "match_id": 7325738
     },
     {
       "player": "Richard Goodey",

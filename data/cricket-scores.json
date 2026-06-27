@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "",
+      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras\n<br/>\n",
       "points": [
         {
           "team_id": 21949,
@@ -82,13 +82,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0",
+          "total_extras": "6",
+          "runs": "99",
+          "wickets": "6",
+          "overs": "25",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -100,7 +100,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Ben Waring",
+          "w": 3,
+          "r": "26"
+        }
+      ]
     },
     "form": [
       {
@@ -590,7 +596,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "",
+        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras\n<br/>\n",
         "points": [
           {
             "team_id": 21949,
@@ -618,13 +624,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0",
+            "total_extras": "6",
+            "runs": "99",
+            "wickets": "6",
+            "overs": "25",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +641,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:32.071Z"
+    "fetched_at": "2026-06-27T11:39:33.083Z"
   },
   {
     "team": {
@@ -643,7 +649,7 @@
       "id": 24294
     },
     "match": {
-      "id": 7325732,
+      "id": 7325738,
       "status": "New",
       "published": "Yes",
       "last_updated": "27/06/2026",
@@ -655,18 +661,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "20/06/2026",
+      "match_date": "27/06/2026",
       "match_time": "12:00",
-      "ground_name": "Billericay CC",
-      "ground_id": "10065",
-      "home_team_name": "2nd XI",
-      "home_team_id": "98793",
-      "home_club_name": "Billericay CC",
-      "home_club_id": "1131",
-      "away_team_name": "Sat 2nd XI",
-      "away_team_id": "24294",
-      "away_club_name": "Chelmsford CC",
-      "away_club_id": "1786",
+      "ground_name": "Chelmer Park",
+      "ground_id": "10646",
+      "home_team_name": "Sat 2nd XI",
+      "home_team_id": "24294",
+      "home_club_name": "Chelmsford CC",
+      "home_club_id": "1786",
+      "away_team_name": "2nd XI",
+      "away_team_id": "28636",
+      "away_club_name": "Ilford CC",
+      "away_club_id": "3588",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -679,23 +685,23 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "24294",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to field",
-      "batted_first": "98793",
+      "toss_won_by_team_id": "28636",
+      "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
+      "batted_first": "28636",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
-      "result_applied_to": "24294",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 98793,
+          "team_id": 24294,
           "game_points": "0",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
@@ -704,8 +710,8 @@
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 24294,
-          "game_points": "20",
+          "team_id": 28636,
+          "game_points": "0",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -715,38 +721,18 @@
       ],
       "innings": [
         {
-          "team_batting_id": "98793",
+          "team_batting_id": "28636",
           "innings_number": 1,
-          "extra_byes": "5",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_byes": "4",
+          "extra_leg_byes": "5",
+          "extra_wides": "2",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "98",
-          "wickets": "10",
-          "overs": "31.5",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "extra_byes": "5",
-          "extra_leg_byes": "2",
-          "extra_wides": "7",
-          "extra_no_balls": "0",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "14",
-          "runs": "101",
+          "total_extras": "11",
+          "runs": "35",
           "wickets": "1",
-          "overs": "18.3",
+          "overs": "9.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -757,141 +743,10 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Thomas Duxson",
-          "score": 61,
-          "notOut": true
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Oliver Devenish",
-          "w": 3,
-          "r": "28"
-        },
-        {
-          "name": "Stuart Everard",
-          "w": 4,
-          "r": "13"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7325713,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "27/06/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 06 - 2nd XI Premier Division",
-        "competition_id": "135299",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "23/05/2026",
-        "match_time": "12:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Sat 2nd XI",
-        "home_team_id": "24294",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "2nd XI",
-        "away_team_id": "98793",
-        "away_club_name": "Billericay CC",
-        "away_club_id": "1131",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "98793",
-        "toss": "Billericay CC - 2nd XI won the toss and elected to bat",
-        "batted_first": "98793",
-        "no_of_overs": "45",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Sat 2nd XI - Overs Win",
-        "result_applied_to": "24294",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "false",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 24294,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 98793,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "5.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "1.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "98793",
-            "innings_number": 1,
-            "extra_byes": "2",
-            "extra_leg_byes": "0",
-            "extra_wides": "19",
-            "extra_no_balls": "2",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "23",
-            "runs": "225",
-            "wickets": "6",
-            "overs": "45.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "45.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "24294",
-            "innings_number": 1,
-            "extra_byes": "8",
-            "extra_leg_byes": "5",
-            "extra_wides": "21",
-            "extra_no_balls": "3",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "37",
-            "runs": "228",
-            "wickets": "4",
-            "overs": "33.1",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "45.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7325717,
         "status": "New",
@@ -1347,9 +1202,103 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7325738,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "27/06/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 06 - 2nd XI Premier Division",
+        "competition_id": "135299",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "27/06/2026",
+        "match_time": "12:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "home_team_name": "Sat 2nd XI",
+        "home_team_id": "24294",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "2nd XI",
+        "away_team_id": "28636",
+        "away_club_name": "Ilford CC",
+        "away_club_id": "3588",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "28636",
+        "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
+        "batted_first": "28636",
+        "no_of_overs": 0,
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 24294,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 28636,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "28636",
+            "innings_number": 1,
+            "extra_byes": "4",
+            "extra_leg_byes": "5",
+            "extra_wides": "2",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "11",
+            "runs": "35",
+            "wickets": "1",
+            "overs": "9.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:33.607Z"
+    "fetched_at": "2026-06-27T11:39:34.315Z"
   },
   {
     "team": {
@@ -1360,7 +1309,7 @@
       "id": 7461860,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/06/2026",
+      "last_updated": "27/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1393,9 +1342,9 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "16611",
+      "toss": "Upminster CC - Men's 3rd XI won the toss and elected to field",
+      "batted_first": "24295",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -1427,7 +1376,28 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": []
+      "innings": [
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "1",
+          "extra_wides": "3",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "5",
+          "runs": "21",
+          "wickets": "0",
+          "overs": "7.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        }
+      ]
     },
     "perf": {
       "runs": [],
@@ -1853,7 +1823,7 @@
         "id": 7461860,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/06/2026",
+        "last_updated": "27/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1886,9 +1856,9 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "16611",
+        "toss": "Upminster CC - Men's 3rd XI won the toss and elected to field",
+        "batted_first": "24295",
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -1920,10 +1890,31 @@
             "bonus_points_2nd_innings_together": ""
           }
         ],
-        "innings": []
+        "innings": [
+          {
+            "team_batting_id": "24295",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "1",
+            "extra_wides": "3",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "5",
+            "runs": "21",
+            "wickets": "0",
+            "overs": "7.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:35.066Z"
+    "fetched_at": "2026-06-27T11:39:35.265Z"
   },
   {
     "team": {
@@ -2591,7 +2582,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:36.558Z"
+    "fetched_at": "2026-06-27T11:39:36.355Z"
   },
   {
     "team": {
@@ -3310,7 +3301,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:38.078Z"
+    "fetched_at": "2026-06-27T11:39:37.315Z"
   },
   {
     "team": {
@@ -3323,7 +3314,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T09:50:38.739Z"
+    "fetched_at": "2026-06-27T11:39:37.733Z"
   },
   {
     "team": {
@@ -4042,7 +4033,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:39.875Z"
+    "fetched_at": "2026-06-27T11:39:38.824Z"
   },
   {
     "team": {
@@ -4055,7 +4046,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T09:50:40.744Z"
+    "fetched_at": "2026-06-27T11:39:39.446Z"
   },
   {
     "team": {
@@ -4359,7 +4350,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:41.804Z"
+    "fetched_at": "2026-06-27T11:39:40.354Z"
   },
   {
     "team": {
@@ -5056,6 +5047,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T09:50:42.890Z"
+    "fetched_at": "2026-06-27T11:39:41.334Z"
   }
 ]

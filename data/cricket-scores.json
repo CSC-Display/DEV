@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras\n<br/>\n",
+      "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras<br/>41.6 Hutton CC 1st XI: 150 runs in 42.0 overs, 182 minutes, 6 extras<br/>48.5 Ben Waring: 5 wickets (18.5-3-49-5)<br/>50.1 Julian Whetstone: 50 runs in 86 balls, 121 minutes (5x4, 1x6)<br/>60.5 Hutton CC 1st XI: 200 runs in 60.3 overs, 238 minutes, 8 extras<br/>62.4 10th Wicket: 50 runs in 84 balls, 44 minutes, Julian Whetstone 53 (59), Alex Harvey 0 (25), 2 extras\n<br/>\n",
       "points": [
         {
           "team_id": 21949,
@@ -81,14 +81,34 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_wides": "2",
           "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "6",
-          "runs": "139",
-          "wickets": "7",
-          "overs": "40",
+          "total_extras": "8",
+          "runs": "220",
+          "wickets": "10",
+          "overs": "63.5",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24293",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "1",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "1",
+          "runs": "35",
+          "wickets": "1",
+          "overs": "7",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -103,8 +123,8 @@
       "wickets": [
         {
           "name": "Ben Waring",
-          "w": 3,
-          "r": "38"
+          "w": 5,
+          "r": "57"
         }
       ]
     },
@@ -596,7 +616,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras\n<br/>\n",
+        "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras<br/>41.6 Hutton CC 1st XI: 150 runs in 42.0 overs, 182 minutes, 6 extras<br/>48.5 Ben Waring: 5 wickets (18.5-3-49-5)<br/>50.1 Julian Whetstone: 50 runs in 86 balls, 121 minutes (5x4, 1x6)<br/>60.5 Hutton CC 1st XI: 200 runs in 60.3 overs, 238 minutes, 8 extras<br/>62.4 10th Wicket: 50 runs in 84 balls, 44 minutes, Julian Whetstone 53 (59), Alex Harvey 0 (25), 2 extras\n<br/>\n",
         "points": [
           {
             "team_id": 21949,
@@ -623,14 +643,34 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "0",
-            "extra_wides": "0",
+            "extra_wides": "2",
             "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "139",
-            "wickets": "7",
-            "overs": "40",
+            "total_extras": "8",
+            "runs": "220",
+            "wickets": "10",
+            "overs": "63.5",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24293",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "1",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "1",
+            "runs": "35",
+            "wickets": "1",
+            "overs": "7",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -641,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:56:54.286Z"
+    "fetched_at": "2026-06-27T14:48:34.802Z"
   },
   {
     "team": {
@@ -724,15 +764,35 @@
           "team_batting_id": "28636",
           "innings_number": 1,
           "extra_byes": "6",
-          "extra_leg_byes": "8",
-          "extra_wides": "2",
+          "extra_leg_byes": "9",
+          "extra_wides": "3",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "16",
-          "runs": "101",
-          "wickets": "5",
-          "overs": "34.0",
+          "total_extras": "18",
+          "runs": "191",
+          "wickets": "10",
+          "overs": "49.4",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "22",
+          "wickets": "0",
+          "overs": "3.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1279,15 +1339,35 @@
             "team_batting_id": "28636",
             "innings_number": 1,
             "extra_byes": "6",
-            "extra_leg_byes": "8",
-            "extra_wides": "2",
+            "extra_leg_byes": "9",
+            "extra_wides": "3",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "16",
-            "runs": "101",
-            "wickets": "5",
-            "overs": "34.0",
+            "total_extras": "18",
+            "runs": "191",
+            "wickets": "10",
+            "overs": "49.4",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24294",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "22",
+            "wickets": "0",
+            "overs": "3.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1298,7 +1378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:56:55.303Z"
+    "fetched_at": "2026-06-27T14:48:35.534Z"
   },
   {
     "team": {
@@ -1380,16 +1460,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "9",
-          "extra_leg_byes": "1",
+          "extra_byes": "13",
+          "extra_leg_byes": "2",
           "extra_wides": "7",
           "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "21",
-          "runs": "86",
-          "wickets": "4",
-          "overs": "25.0",
+          "total_extras": "26",
+          "runs": "140",
+          "wickets": "10",
+          "overs": "42.2",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1894,16 +1974,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "9",
-            "extra_leg_byes": "1",
+            "extra_byes": "13",
+            "extra_leg_byes": "2",
             "extra_wides": "7",
             "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "21",
-            "runs": "86",
-            "wickets": "4",
-            "overs": "25.0",
+            "total_extras": "26",
+            "runs": "140",
+            "wickets": "10",
+            "overs": "42.2",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1914,7 +1994,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:56:55.871Z"
+    "fetched_at": "2026-06-27T14:48:36.187Z"
   },
   {
     "team": {
@@ -1965,8 +2045,8 @@
       "balls_per_innings": "",
       "no_of_innings": "1",
       "result": "CON",
-      "result_description": "Old Brentwoods CC - 3rd XI - Conceded",
-      "result_applied_to": "30461",
+      "result_description": "Chelmsford CC - Sat 4th XI - Conceded",
+      "result_applied_to": "25557",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1975,7 +2055,7 @@
       "points": [
         {
           "team_id": 25557,
-          "game_points": "-5",
+          "game_points": "20",
           "penalty_points": "",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1984,7 +2064,7 @@
         },
         {
           "team_id": 30461,
-          "game_points": "20",
+          "game_points": "-5",
           "penalty_points": "",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2458,8 +2538,8 @@
         "balls_per_innings": "",
         "no_of_innings": "1",
         "result": "CON",
-        "result_description": "Old Brentwoods CC - 3rd XI - Conceded",
-        "result_applied_to": "30461",
+        "result_description": "Chelmsford CC - Sat 4th XI - Conceded",
+        "result_applied_to": "25557",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2468,7 +2548,7 @@
         "points": [
           {
             "team_id": 25557,
-            "game_points": "-5",
+            "game_points": "20",
             "penalty_points": "",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2477,7 +2557,7 @@
           },
           {
             "team_id": 30461,
-            "game_points": "20",
+            "game_points": "-5",
             "penalty_points": "",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2488,7 +2568,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-27T12:56:56.795Z"
+    "fetched_at": "2026-06-27T14:48:36.833Z"
   },
   {
     "team": {
@@ -3207,7 +3287,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:56:57.481Z"
+    "fetched_at": "2026-06-27T14:48:37.469Z"
   },
   {
     "team": {
@@ -3220,7 +3300,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T12:56:57.691Z"
+    "fetched_at": "2026-06-27T14:48:37.684Z"
   },
   {
     "team": {
@@ -3939,7 +4019,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:56:59.275Z"
+    "fetched_at": "2026-06-27T14:48:38.309Z"
   },
   {
     "team": {
@@ -3952,7 +4032,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T12:56:59.498Z"
+    "fetched_at": "2026-06-27T14:48:38.588Z"
   },
   {
     "team": {
@@ -4256,7 +4336,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:57:00.043Z"
+    "fetched_at": "2026-06-27T14:48:39.116Z"
   },
   {
     "team": {
@@ -4953,6 +5033,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T12:57:00.647Z"
+    "fetched_at": "2026-06-27T14:48:39.772Z"
   }
 ]

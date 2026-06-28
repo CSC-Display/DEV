@@ -29,8 +29,8 @@
       "away_team_id": "24293",
       "away_club_name": "Chelmsford CC",
       "away_club_id": "1786",
-      "umpire_1_name": "",
-      "umpire_1_id": "",
+      "umpire_1_name": "Todd Holland",
+      "umpire_1_id": "416119",
       "umpire_2_name": "Rafiq Patel",
       "umpire_2_id": "4200089",
       "umpire_3_name": "",
@@ -591,8 +591,8 @@
         "away_team_id": "24293",
         "away_club_name": "Chelmsford CC",
         "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
+        "umpire_1_name": "Todd Holland",
+        "umpire_1_id": "416119",
         "umpire_2_name": "Rafiq Patel",
         "umpire_2_id": "4200089",
         "umpire_3_name": "",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:44.015Z"
+    "fetched_at": "2026-06-28T08:37:03.804Z"
   },
   {
     "team": {
@@ -692,7 +692,7 @@
       "id": 7325738,
       "status": "New",
       "published": "Yes",
-      "last_updated": "27/06/2026",
+      "last_updated": "28/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1273,7 +1273,7 @@
         "id": 7325738,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/06/2026",
+        "last_updated": "28/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:44.977Z"
+    "fetched_at": "2026-06-28T08:37:05.329Z"
   },
   {
     "team": {
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:45.942Z"
+    "fetched_at": "2026-06-28T08:37:06.815Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-28T06:24:46.888Z"
+    "fetched_at": "2026-06-28T08:37:08.310Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:47.830Z"
+    "fetched_at": "2026-06-28T08:37:09.845Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T06:24:48.240Z"
+    "fetched_at": "2026-06-28T08:37:10.131Z"
   },
   {
     "team": {
@@ -4061,7 +4061,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:49.160Z"
+    "fetched_at": "2026-06-28T08:37:10.784Z"
   },
   {
     "team": {
@@ -4074,7 +4074,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T06:24:49.533Z"
+    "fetched_at": "2026-06-28T08:37:11.461Z"
   },
   {
     "team": {
@@ -4378,7 +4378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:50.446Z"
+    "fetched_at": "2026-06-28T08:37:13.156Z"
   },
   {
     "team": {
@@ -5075,6 +5075,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T06:24:51.408Z"
+    "fetched_at": "2026-06-28T08:37:14.222Z"
   }
 ]

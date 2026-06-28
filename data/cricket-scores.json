@@ -51,7 +51,7 @@
       "result_description": "Hutton CC - 1st XI - Time Win (bat 1st)",
       "result_applied_to": "21949",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras<br/>41.6 Hutton CC 1st XI: 150 runs in 42.0 overs, 182 minutes, 6 extras<br/>48.5 Ben Waring: 5 wickets (18.5-3-49-5)<br/>50.1 Julian Whetstone: 50 runs in 86 balls, 121 minutes (5x4, 1x6)<br/>60.5 Hutton CC 1st XI: 200 runs in 60.3 overs, 238 minutes, 8 extras<br/>62.4 10th Wicket: 50 runs in 84 balls, 44 minutes, Julian Whetstone 53 (59), Alex Harvey 0 (25), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>10.1 2nd Wicket: 50 runs in 51 balls, 35 minutes, Aarav Salil 28 (30), Dan Hagen 22 (21), 1 extra<br/>19.1 Chelmsford CC Sat 1st XI: 100 runs in 19.1 overs, 76 minutes, 1 extra<br/>36.1 Chelmsford CC Sat 1st XI: 150 runs in 36.1 overs, 133 minutes, 1 extra\n<br/>\n",
@@ -613,7 +613,7 @@
         "result_description": "Hutton CC - 1st XI - Time Win (bat 1st)",
         "result_applied_to": "21949",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Hutton CC 1st XI Innings</b><br/>\n9.5 Hutton CC 1st XI: 50 runs in 9.5 overs, 43 minutes, 6 extras<br/>25.3 Hutton CC 1st XI: 100 runs in 25.3 overs, 99 minutes, 6 extras<br/>41.6 Hutton CC 1st XI: 150 runs in 42.0 overs, 182 minutes, 6 extras<br/>48.5 Ben Waring: 5 wickets (18.5-3-49-5)<br/>50.1 Julian Whetstone: 50 runs in 86 balls, 121 minutes (5x4, 1x6)<br/>60.5 Hutton CC 1st XI: 200 runs in 60.3 overs, 238 minutes, 8 extras<br/>62.4 10th Wicket: 50 runs in 84 balls, 44 minutes, Julian Whetstone 53 (59), Alex Harvey 0 (25), 2 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.3 Chelmsford CC Sat 1st XI: 50 runs in 9.3 overs, 37 minutes, 1 extra<br/>10.1 2nd Wicket: 50 runs in 51 balls, 35 minutes, Aarav Salil 28 (30), Dan Hagen 22 (21), 1 extra<br/>19.1 Chelmsford CC Sat 1st XI: 100 runs in 19.1 overs, 76 minutes, 1 extra<br/>36.1 Chelmsford CC Sat 1st XI: 150 runs in 36.1 overs, 133 minutes, 1 extra\n<br/>\n",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:16.716Z"
+    "fetched_at": "2026-06-28T11:27:12.581Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:22.004Z"
+    "fetched_at": "2026-06-28T11:27:13.674Z"
   },
   {
     "team": {
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:33.441Z"
+    "fetched_at": "2026-06-28T11:27:14.683Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-28T09:43:34.153Z"
+    "fetched_at": "2026-06-28T11:27:15.644Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:34.717Z"
+    "fetched_at": "2026-06-28T11:27:16.611Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T09:43:34.947Z"
+    "fetched_at": "2026-06-28T11:27:17.029Z"
   },
   {
     "team": {
@@ -4061,7 +4061,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:35.806Z"
+    "fetched_at": "2026-06-28T11:27:18.121Z"
   },
   {
     "team": {
@@ -4074,7 +4074,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T09:43:43.140Z"
+    "fetched_at": "2026-06-28T11:27:18.537Z"
   },
   {
     "team": {
@@ -4378,7 +4378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:44.017Z"
+    "fetched_at": "2026-06-28T11:27:19.510Z"
   },
   {
     "team": {
@@ -5075,6 +5075,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T09:43:45.398Z"
+    "fetched_at": "2026-06-28T11:27:20.515Z"
   }
 ]

@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:27.555Z"
+    "fetched_at": "2026-06-28T17:57:43.179Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:28.320Z"
+    "fetched_at": "2026-06-28T17:57:44.216Z"
   },
   {
     "team": {
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:29.099Z"
+    "fetched_at": "2026-06-28T17:57:45.237Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-28T17:45:30.043Z"
+    "fetched_at": "2026-06-28T17:57:46.201Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:31.059Z"
+    "fetched_at": "2026-06-28T17:57:47.184Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T17:45:31.247Z"
+    "fetched_at": "2026-06-28T17:57:47.580Z"
   },
   {
     "team": {
@@ -3451,9 +3451,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "20",
-          "runs": "241",
-          "wickets": "7",
-          "overs": "38.0",
+          "runs": "254",
+          "wickets": "8",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4043,9 +4043,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "20",
-            "runs": "241",
-            "wickets": "7",
-            "overs": "38.0",
+            "runs": "254",
+            "wickets": "8",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4056,7 +4056,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:32.255Z"
+    "fetched_at": "2026-06-28T17:57:48.560Z"
   },
   {
     "team": {
@@ -4069,7 +4069,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-28T17:45:32.442Z"
+    "fetched_at": "2026-06-28T17:57:48.990Z"
   },
   {
     "team": {
@@ -4373,7 +4373,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:33.428Z"
+    "fetched_at": "2026-06-28T17:57:49.942Z"
   },
   {
     "team": {
@@ -5070,6 +5070,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-28T17:45:34.182Z"
+    "fetched_at": "2026-06-28T17:57:50.696Z"
   }
 ]

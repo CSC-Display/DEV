@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T08:37:58.862Z",
+  "generated_at": "2026-06-28T17:58:38.013Z",
   "season": "2026",
   "centuries": [
     {
@@ -111,6 +111,17 @@
       "opposition": "IPSCOL CC Sunday 1st XI",
       "date": "21/06/2026",
       "match_id": 7507172
+    },
+    {
+      "player": "Mohammed Baig",
+      "runs": 101,
+      "score": "101*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Abberton & District CC Sunday 1st XI",
+      "date": "28/06/2026",
+      "match_id": 7507178
     }
   ],
   "half_centuries": [
@@ -344,6 +355,17 @@
       "opposition": "Harold Wood CC 3rd XI",
       "date": "02/05/2026",
       "match_id": 7262196
+    },
+    {
+      "player": "George Wilson",
+      "runs": 66,
+      "score": "66",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Abberton & District CC Sunday 1st XI",
+      "date": "28/06/2026",
+      "match_id": 7507178
     },
     {
       "player": "Aarav Salil",
@@ -1098,6 +1120,14 @@
       "match_id": 7507172
     },
     {
+      "player": "David Wilson",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Abberton & District CC Sunday 1st XI",
+      "date": "28/06/2026",
+      "match_id": 7507178
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -1540,6 +1570,20 @@
           "opposition": "West Essex CC 3rd XI",
           "date": "13/06/2026",
           "match_id": 7461849
+        }
+      ]
+    },
+    {
+      "player": "David Wilson",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "David Wilson",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "Abberton & District CC Sunday 1st XI",
+          "date": "28/06/2026",
+          "match_id": 7507178
         }
       ]
     },

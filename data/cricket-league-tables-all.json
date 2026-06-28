@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:14.267Z"
+      "fetched_at": "2026-06-28T17:57:50.744Z"
     },
     "data": {
       "id": 135282,
@@ -172,6 +172,52 @@
         },
         {
           "position": "7",
+          "team_id": "58739",
+          "column_1": "Colchester and East Essex CC",
+          "column_2": "8",
+          "column_3": "0",
+          "column_4": "0",
+          "column_5": "1",
+          "column_6": "1",
+          "column_7": "1",
+          "column_8": "3",
+          "column_9": "1",
+          "column_10": "0",
+          "column_11": "1",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "26",
+          "column_16": "0",
+          "column_17": "2",
+          "column_18": "4",
+          "column_19": "75"
+        },
+        {
+          "position": "8",
+          "team_id": "37537",
+          "column_1": "Hornchurch CC",
+          "column_2": "8",
+          "column_3": "0",
+          "column_4": "0",
+          "column_5": "0",
+          "column_6": "1",
+          "column_7": "1",
+          "column_8": "3",
+          "column_9": "2",
+          "column_10": "0",
+          "column_11": "1",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "43",
+          "column_16": "0",
+          "column_17": "1",
+          "column_18": "4",
+          "column_19": "75"
+        },
+        {
+          "position": "9",
           "team_id": "7631",
           "column_1": "Loughton CC",
           "column_2": "8",
@@ -192,52 +238,6 @@
           "column_17": "2",
           "column_18": "5",
           "column_19": "74"
-        },
-        {
-          "position": "8",
-          "team_id": "58739",
-          "column_1": "Colchester and East Essex CC",
-          "column_2": "8",
-          "column_3": "0",
-          "column_4": "0",
-          "column_5": "1",
-          "column_6": "1",
-          "column_7": "1",
-          "column_8": "3",
-          "column_9": "1",
-          "column_10": "0",
-          "column_11": "1",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "25",
-          "column_16": "0",
-          "column_17": "2",
-          "column_18": "4",
-          "column_19": "74"
-        },
-        {
-          "position": "9",
-          "team_id": "37537",
-          "column_1": "Hornchurch CC",
-          "column_2": "8",
-          "column_3": "0",
-          "column_4": "0",
-          "column_5": "0",
-          "column_6": "1",
-          "column_7": "1",
-          "column_8": "3",
-          "column_9": "2",
-          "column_10": "0",
-          "column_11": "1",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "41",
-          "column_16": "0",
-          "column_17": "1",
-          "column_18": "4",
-          "column_19": "73"
         },
         {
           "position": "10",
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:15.523Z"
+      "fetched_at": "2026-06-28T17:57:51.720Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:16.154Z"
+      "fetched_at": "2026-06-28T17:57:52.372Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:16.742Z"
+      "fetched_at": "2026-06-28T17:57:53.053Z"
     },
     "data": {
       "id": 135330,
@@ -915,10 +915,10 @@
           "column_12": "0",
           "column_13": "0",
           "column_14": "1",
-          "column_15": "20",
+          "column_15": "21",
           "column_16": "0",
           "column_17": "3",
-          "column_18": "86"
+          "column_18": "87"
         },
         {
           "position": "6",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:17.615Z"
+      "fetched_at": "2026-06-28T17:57:53.695Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:18.272Z"
+      "fetched_at": "2026-06-28T17:57:54.580Z"
     },
     "data": {
       "id": 134513,
@@ -1362,6 +1362,24 @@
         },
         {
           "position": "3",
+          "team_id": "348773",
+          "column_1": "West Bergholt CC",
+          "column_2": "9",
+          "column_3": "6",
+          "column_4": "2",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "5",
+          "column_11": "34",
+          "column_12": "0",
+          "column_13": "135",
+          "column_14": "1.73"
+        },
+        {
+          "position": "4",
           "team_id": "37504",
           "column_1": "Mistley CC",
           "column_2": "10",
@@ -1379,7 +1397,7 @@
           "column_14": "-0.44"
         },
         {
-          "position": "4",
+          "position": "5",
           "team_id": "207263",
           "column_1": "Abberton & District CC",
           "column_2": "10",
@@ -1397,40 +1415,22 @@
           "column_14": "-0.18"
         },
         {
-          "position": "5",
-          "team_id": "348773",
-          "column_1": "West Bergholt CC",
-          "column_2": "8",
-          "column_3": "5",
-          "column_4": "2",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "5",
-          "column_11": "29",
-          "column_12": "0",
-          "column_13": "115",
-          "column_14": "1.29"
-        },
-        {
           "position": "6",
           "team_id": "351841",
           "column_1": "Kirby CC",
-          "column_2": "9",
+          "column_2": "10",
           "column_3": "4",
-          "column_4": "5",
+          "column_4": "6",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "22",
-          "column_11": "33",
+          "column_10": "23",
+          "column_11": "35",
           "column_12": "0",
-          "column_13": "115",
-          "column_14": "0.2"
+          "column_13": "118",
+          "column_14": "-0.31"
         },
         {
           "position": "7",
@@ -1452,6 +1452,42 @@
         },
         {
           "position": "8",
+          "team_id": "348717",
+          "column_1": "IPSCOL CC",
+          "column_2": "9",
+          "column_3": "4",
+          "column_4": "4",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "1",
+          "column_10": "14",
+          "column_11": "32",
+          "column_12": "0",
+          "column_13": "111",
+          "column_14": "-0.08"
+        },
+        {
+          "position": "9",
+          "team_id": "45577",
+          "column_1": "Great Bentley CC",
+          "column_2": "9",
+          "column_3": "4",
+          "column_4": "5",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "16",
+          "column_11": "30",
+          "column_12": "0",
+          "column_13": "106",
+          "column_14": "0.24"
+        },
+        {
+          "position": "10",
           "team_id": "303958",
           "column_1": "Brightlingsea CC",
           "column_2": "11",
@@ -1467,42 +1503,6 @@
           "column_12": "0",
           "column_13": "101",
           "column_14": "-0.7"
-        },
-        {
-          "position": "9",
-          "team_id": "45577",
-          "column_1": "Great Bentley CC",
-          "column_2": "8",
-          "column_3": "4",
-          "column_4": "4",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "15",
-          "column_11": "25",
-          "column_12": "0",
-          "column_13": "100",
-          "column_14": "0.41"
-        },
-        {
-          "position": "10",
-          "team_id": "348717",
-          "column_1": "IPSCOL CC",
-          "column_2": "8",
-          "column_3": "3",
-          "column_4": "4",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "1",
-          "column_10": "14",
-          "column_11": "27",
-          "column_12": "0",
-          "column_13": "91",
-          "column_14": "-0.22"
         },
         {
           "position": "11",
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-06-28T08:37:19.360Z"
+      "fetched_at": "2026-06-28T17:57:55.520Z"
     },
     "data": {
       "id": 137056,

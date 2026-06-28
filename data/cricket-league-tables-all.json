@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:50.744Z"
+      "fetched_at": "2026-06-28T22:59:19.547Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:51.720Z"
+      "fetched_at": "2026-06-28T22:59:20.615Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:52.372Z"
+      "fetched_at": "2026-06-28T22:59:21.353Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:53.053Z"
+      "fetched_at": "2026-06-28T22:59:22.080Z"
     },
     "data": {
       "id": 135330,
@@ -834,6 +834,28 @@
         },
         {
           "position": "2",
+          "team_id": "25557",
+          "column_1": "Old Brentwoods CC - 3rd XI",
+          "column_2": "7",
+          "column_3": "2",
+          "column_4": "0",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "2",
+          "column_8": "1",
+          "column_9": "1",
+          "column_10": "0",
+          "column_11": "0",
+          "column_12": "1",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "6",
+          "column_16": "5",
+          "column_17": "5",
+          "column_18": "117"
+        },
+        {
+          "position": "3",
           "team_id": "25628",
           "column_1": "Oakfield Parkonians CC, Essex - 4th XI",
           "column_2": "7",
@@ -855,7 +877,7 @@
           "column_18": "112"
         },
         {
-          "position": "3",
+          "position": "4",
           "team_id": "19811",
           "column_1": "Frenford CC - 4th XI",
           "column_2": "7",
@@ -875,28 +897,6 @@
           "column_16": "0",
           "column_17": "4",
           "column_18": "100"
-        },
-        {
-          "position": "4",
-          "team_id": "25557",
-          "column_1": "Old Brentwoods CC - 3rd XI",
-          "column_2": "7",
-          "column_3": "2",
-          "column_4": "0",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "2",
-          "column_8": "1",
-          "column_9": "1",
-          "column_10": "0",
-          "column_11": "1",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "6",
-          "column_16": "5",
-          "column_17": "4",
-          "column_18": "92"
         },
         {
           "position": "5",
@@ -933,14 +933,14 @@
           "column_8": "3",
           "column_9": "1",
           "column_10": "0",
-          "column_11": "0",
-          "column_12": "1",
+          "column_11": "1",
+          "column_12": "0",
           "column_13": "0",
           "column_14": "0",
           "column_15": "14",
           "column_16": "0",
-          "column_17": "3",
-          "column_18": "80"
+          "column_17": "2",
+          "column_18": "55"
         },
         {
           "position": "7",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:53.695Z"
+      "fetched_at": "2026-06-28T22:59:22.522Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:54.580Z"
+      "fetched_at": "2026-06-28T22:59:23.342Z"
     },
     "data": {
       "id": 134513,
@@ -1328,8 +1328,8 @@
           "position": "1",
           "team_id": "324716",
           "column_1": "Chelmsford CC",
-          "column_2": "10",
-          "column_3": "7",
+          "column_2": "11",
+          "column_3": "8",
           "column_4": "1",
           "column_5": "1",
           "column_6": "0",
@@ -1337,31 +1337,67 @@
           "column_8": "1",
           "column_9": "0",
           "column_10": "5",
-          "column_11": "33",
+          "column_11": "37",
           "column_12": "0",
-          "column_13": "169",
-          "column_14": "1.32"
+          "column_13": "188",
+          "column_14": "1.26"
         },
         {
           "position": "2",
           "team_id": "207266",
           "column_1": "Frinton On Sea CC",
-          "column_2": "11",
+          "column_2": "12",
           "column_3": "7",
-          "column_4": "4",
+          "column_4": "5",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "12",
-          "column_11": "41",
+          "column_10": "17",
+          "column_11": "43",
           "column_12": "0",
-          "column_13": "158",
-          "column_14": "0.04"
+          "column_13": "165",
+          "column_14": "-0.02"
         },
         {
           "position": "3",
+          "team_id": "37504",
+          "column_1": "Mistley CC",
+          "column_2": "11",
+          "column_3": "6",
+          "column_4": "4",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "1",
+          "column_10": "18",
+          "column_11": "39",
+          "column_12": "0",
+          "column_13": "152",
+          "column_14": "-0.18"
+        },
+        {
+          "position": "4",
+          "team_id": "207268",
+          "column_1": "Wivenhoe Town CC",
+          "column_2": "11",
+          "column_3": "5",
+          "column_4": "6",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "19",
+          "column_11": "43",
+          "column_12": "0",
+          "column_13": "137",
+          "column_14": "-0.69"
+        },
+        {
+          "position": "5",
           "team_id": "348773",
           "column_1": "West Bergholt CC",
           "column_2": "9",
@@ -1379,43 +1415,25 @@
           "column_14": "1.73"
         },
         {
-          "position": "4",
-          "team_id": "37504",
-          "column_1": "Mistley CC",
-          "column_2": "10",
-          "column_3": "5",
-          "column_4": "4",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "1",
-          "column_10": "18",
-          "column_11": "34",
-          "column_12": "0",
-          "column_13": "132",
-          "column_14": "-0.44"
-        },
-        {
-          "position": "5",
+          "position": "6",
           "team_id": "207263",
           "column_1": "Abberton & District CC",
-          "column_2": "10",
+          "column_2": "11",
           "column_3": "4",
-          "column_4": "6",
+          "column_4": "7",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "24",
-          "column_11": "37",
+          "column_10": "29",
+          "column_11": "39",
           "column_12": "0",
-          "column_13": "121",
-          "column_14": "-0.18"
+          "column_13": "128",
+          "column_14": "-0.22"
         },
         {
-          "position": "6",
+          "position": "7",
           "team_id": "351841",
           "column_1": "Kirby CC",
           "column_2": "10",
@@ -1431,24 +1449,6 @@
           "column_12": "0",
           "column_13": "118",
           "column_14": "-0.31"
-        },
-        {
-          "position": "7",
-          "team_id": "207268",
-          "column_1": "Wivenhoe Town CC",
-          "column_2": "10",
-          "column_3": "4",
-          "column_4": "6",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "14",
-          "column_11": "39",
-          "column_12": "0",
-          "column_13": "113",
-          "column_14": "-0.82"
         },
         {
           "position": "8",
@@ -1508,19 +1508,19 @@
           "position": "11",
           "team_id": "70131",
           "column_1": "Ardleigh CC",
-          "column_2": "9",
+          "column_2": "10",
           "column_3": "3",
-          "column_4": "6",
+          "column_4": "7",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "19",
-          "column_11": "21",
+          "column_10": "24",
+          "column_11": "24",
           "column_12": "0",
-          "column_13": "85",
-          "column_14": "-0.2"
+          "column_13": "93",
+          "column_14": "-0.45"
         }
       ],
       "key": "p - Played,&nbsp;w - Won (15),&nbsp;l - Lost (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (0),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (5),&nbsp;BatP - Batting Bonus Points,&nbsp;BowlP - Bowling Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;Pts - Points,&nbsp;NRR - Net run rate"
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-06-28T17:57:55.520Z"
+      "fetched_at": "2026-06-28T22:59:24.305Z"
     },
     "data": {
       "id": 137056,

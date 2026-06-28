@@ -8,7 +8,7 @@
       "id": 7325288,
       "status": "New",
       "published": "Yes",
-      "last_updated": "27/06/2026",
+      "last_updated": "28/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Hutton CC - 1st XI - Time Win (bat 1st)",
       "result_applied_to": "21949",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -570,7 +570,7 @@
         "id": 7325288,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/06/2026",
+        "last_updated": "28/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -612,7 +612,7 @@
         "result": "W",
         "result_description": "Hutton CC - 1st XI - Time Win (bat 1st)",
         "result_applied_to": "21949",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:05.389Z"
+    "fetched_at": "2026-06-28T01:53:34.379Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:06.034Z"
+    "fetched_at": "2026-06-28T01:53:35.556Z"
   },
   {
     "team": {
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:06.673Z"
+    "fetched_at": "2026-06-28T01:53:36.716Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-27T23:40:07.257Z"
+    "fetched_at": "2026-06-28T01:53:37.809Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:07.819Z"
+    "fetched_at": "2026-06-28T01:53:38.982Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T23:40:08.057Z"
+    "fetched_at": "2026-06-28T01:53:39.484Z"
   },
   {
     "team": {
@@ -4061,7 +4061,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:08.668Z"
+    "fetched_at": "2026-06-28T01:53:40.630Z"
   },
   {
     "team": {
@@ -4074,7 +4074,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-27T23:40:08.858Z"
+    "fetched_at": "2026-06-28T01:53:41.109Z"
   },
   {
     "team": {
@@ -4378,7 +4378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:09.443Z"
+    "fetched_at": "2026-06-28T01:53:42.207Z"
   },
   {
     "team": {
@@ -5075,6 +5075,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-27T23:40:10.023Z"
+    "fetched_at": "2026-06-28T01:53:43.345Z"
   }
 ]

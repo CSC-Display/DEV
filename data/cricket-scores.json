@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:37.605Z"
+    "fetched_at": "2026-06-29T16:48:37.795Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:39.124Z"
+    "fetched_at": "2026-06-29T16:48:39.321Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
       "id": 7461860,
       "status": "New",
       "published": "Yes",
-      "last_updated": "28/06/2026",
+      "last_updated": "29/06/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1935,7 +1935,7 @@
         "id": 7461860,
         "status": "New",
         "published": "Yes",
-        "last_updated": "28/06/2026",
+        "last_updated": "29/06/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:40.634Z"
+    "fetched_at": "2026-06-29T16:48:40.799Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-29T10:15:42.096Z"
+    "fetched_at": "2026-06-29T16:48:42.297Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:43.570Z"
+    "fetched_at": "2026-06-29T16:48:43.768Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-29T10:15:43.904Z"
+    "fetched_at": "2026-06-29T16:48:43.999Z"
   },
   {
     "team": {
@@ -4056,7 +4056,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:44.569Z"
+    "fetched_at": "2026-06-29T16:48:45.086Z"
   },
   {
     "team": {
@@ -4069,7 +4069,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-29T10:15:44.827Z"
+    "fetched_at": "2026-06-29T16:48:45.725Z"
   },
   {
     "team": {
@@ -4373,7 +4373,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:45.864Z"
+    "fetched_at": "2026-06-29T16:48:46.788Z"
   },
   {
     "team": {
@@ -5070,6 +5070,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-29T10:15:46.940Z"
+    "fetched_at": "2026-06-29T16:48:48.262Z"
   }
 ]

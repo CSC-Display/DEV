@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:50:56.443Z"
+    "fetched_at": "2026-06-30T12:14:31.669Z"
   },
   {
     "team": {
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:50:57.508Z"
+    "fetched_at": "2026-06-30T12:14:32.676Z"
   },
   {
     "team": {
@@ -2046,7 +2046,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:50:58.515Z"
+    "fetched_at": "2026-06-30T12:14:33.750Z"
   },
   {
     "team": {
@@ -2620,7 +2620,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-06-30T09:50:59.586Z"
+    "fetched_at": "2026-06-30T12:14:34.688Z"
   },
   {
     "team": {
@@ -3329,7 +3329,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:51:00.555Z"
+    "fetched_at": "2026-06-30T12:14:35.717Z"
   },
   {
     "team": {
@@ -3342,7 +3342,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-30T09:51:00.972Z"
+    "fetched_at": "2026-06-30T12:14:36.132Z"
   },
   {
     "team": {
@@ -4056,7 +4056,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:51:01.964Z"
+    "fetched_at": "2026-06-30T12:14:37.089Z"
   },
   {
     "team": {
@@ -4069,7 +4069,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-06-30T09:51:02.380Z"
+    "fetched_at": "2026-06-30T12:14:37.508Z"
   },
   {
     "team": {
@@ -4373,7 +4373,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:51:03.400Z"
+    "fetched_at": "2026-06-30T12:14:38.422Z"
   },
   {
     "team": {
@@ -4384,7 +4384,7 @@
       "id": 7399558,
       "status": "New",
       "published": "Yes",
-      "last_updated": "27/06/2026",
+      "last_updated": "30/06/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -4428,7 +4428,7 @@
       "result_applied_to": "213007",
       "home_confirmed": "true",
       "away_confirmed": "false",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -4845,7 +4845,7 @@
         "id": 7399548,
         "status": "New",
         "published": "Yes",
-        "last_updated": "21/06/2026",
+        "last_updated": "30/06/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -4889,7 +4889,7 @@
         "result_applied_to": "213007",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
         "points": [
@@ -4959,7 +4959,7 @@
         "id": 7399558,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/06/2026",
+        "last_updated": "30/06/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -5003,7 +5003,7 @@
         "result_applied_to": "213007",
         "home_confirmed": "true",
         "away_confirmed": "false",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -5070,6 +5070,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-06-30T09:51:04.405Z"
+    "fetched_at": "2026-06-30T12:14:39.352Z"
   }
 ]

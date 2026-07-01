@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:17.256Z"
+    "fetched_at": "2026-07-01T18:54:23.248Z"
   },
   {
     "team": {
@@ -378,7 +378,7 @@
         "id": 7325742,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "01/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -409,8 +409,8 @@
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "John Pluck",
+        "scorer_1_id": "1745335",
         "scorer_2_name": "",
         "scorer_2_id": ""
       },
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:17.599Z"
+    "fetched_at": "2026-07-01T18:54:26.069Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:17.926Z"
+    "fetched_at": "2026-07-01T18:54:26.551Z"
   },
   {
     "team": {
@@ -1433,7 +1433,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:18.264Z"
+    "fetched_at": "2026-07-01T18:54:27.002Z"
   },
   {
     "team": {
@@ -1802,7 +1802,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:18.586Z"
+    "fetched_at": "2026-07-01T18:54:27.548Z"
   },
   {
     "team": {
@@ -2051,7 +2051,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:18.887Z"
+    "fetched_at": "2026-07-01T18:54:27.999Z"
   },
   {
     "team": {
@@ -2420,7 +2420,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:19.259Z"
+    "fetched_at": "2026-07-01T18:54:28.478Z"
   },
   {
     "team": {
@@ -2469,7 +2469,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:19.555Z"
+    "fetched_at": "2026-07-01T18:54:28.978Z"
   },
   {
     "team": {
@@ -2518,7 +2518,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:19.871Z"
+    "fetched_at": "2026-07-01T18:54:29.416Z"
   },
   {
     "team": {
@@ -2647,6 +2647,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-01T09:24:20.205Z"
+    "fetched_at": "2026-07-01T18:54:29.872Z"
   }
 ]

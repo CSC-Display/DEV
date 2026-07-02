@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:43.074Z"
+      "fetched_at": "2026-07-02T18:21:58.697Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:45.026Z"
+      "fetched_at": "2026-07-02T18:21:59.574Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:45.651Z"
+      "fetched_at": "2026-07-02T18:22:00.285Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:46.235Z"
+      "fetched_at": "2026-07-02T18:22:00.998Z"
     },
     "data": {
       "id": 135330,
@@ -834,28 +834,6 @@
         },
         {
           "position": "2",
-          "team_id": "25557",
-          "column_1": "Old Brentwoods CC - 3rd XI",
-          "column_2": "7",
-          "column_3": "2",
-          "column_4": "0",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "2",
-          "column_8": "1",
-          "column_9": "1",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "1",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "6",
-          "column_16": "5",
-          "column_17": "5",
-          "column_18": "117"
-        },
-        {
-          "position": "3",
           "team_id": "25628",
           "column_1": "Oakfield Parkonians CC, Essex - 4th XI",
           "column_2": "7",
@@ -877,7 +855,7 @@
           "column_18": "112"
         },
         {
-          "position": "4",
+          "position": "3",
           "team_id": "19811",
           "column_1": "Frenford CC - 4th XI",
           "column_2": "7",
@@ -897,6 +875,28 @@
           "column_16": "0",
           "column_17": "4",
           "column_18": "100"
+        },
+        {
+          "position": "4",
+          "team_id": "25557",
+          "column_1": "Old Brentwoods CC - 3rd XI",
+          "column_2": "7",
+          "column_3": "2",
+          "column_4": "0",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "2",
+          "column_8": "1",
+          "column_9": "1",
+          "column_10": "0",
+          "column_11": "1",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "6",
+          "column_16": "5",
+          "column_17": "4",
+          "column_18": "92"
         },
         {
           "position": "5",
@@ -933,14 +933,14 @@
           "column_8": "3",
           "column_9": "1",
           "column_10": "0",
-          "column_11": "1",
-          "column_12": "0",
+          "column_11": "0",
+          "column_12": "1",
           "column_13": "0",
           "column_14": "0",
           "column_15": "14",
           "column_16": "0",
-          "column_17": "2",
-          "column_18": "55"
+          "column_17": "3",
+          "column_18": "80"
         },
         {
           "position": "7",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:46.776Z"
+      "fetched_at": "2026-07-02T18:22:01.671Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:47.450Z"
+      "fetched_at": "2026-07-02T18:22:02.475Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-07-02T08:37:48.211Z"
+      "fetched_at": "2026-07-02T18:22:03.341Z"
     },
     "data": {
       "id": 137056,

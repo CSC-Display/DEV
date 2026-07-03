@@ -9,7 +9,7 @@
         "id": 7325292,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "03/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -32,18 +32,18 @@
         "away_team_name": "1st XI",
         "away_team_id": "7631",
         "away_club_id": "4110",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
+        "umpire_1_name": "Todd Holland",
+        "umpire_1_id": "6422205",
+        "umpire_2_name": "Raza Maniar",
+        "umpire_2_id": "6701313",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
         "scorer_1_name": "",
         "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
+        "scorer_2_name": "Azher Hussain",
+        "scorer_2_id": "5026131"
       },
       {
         "id": 7325296,
@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:03.858Z"
+    "fetched_at": "2026-07-03T22:58:53.861Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:04.351Z"
+    "fetched_at": "2026-07-03T22:58:54.171Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:04.815Z"
+    "fetched_at": "2026-07-03T22:58:54.482Z"
   },
   {
     "team": {
@@ -1433,7 +1433,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:05.286Z"
+    "fetched_at": "2026-07-03T22:58:54.787Z"
   },
   {
     "team": {
@@ -1802,7 +1802,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:05.757Z"
+    "fetched_at": "2026-07-03T22:58:55.086Z"
   },
   {
     "team": {
@@ -2051,7 +2051,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:06.186Z"
+    "fetched_at": "2026-07-03T22:58:55.775Z"
   },
   {
     "team": {
@@ -2420,7 +2420,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:06.660Z"
+    "fetched_at": "2026-07-03T22:58:56.098Z"
   },
   {
     "team": {
@@ -2469,7 +2469,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:07.115Z"
+    "fetched_at": "2026-07-03T22:58:56.376Z"
   },
   {
     "team": {
@@ -2518,7 +2518,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:07.587Z"
+    "fetched_at": "2026-07-03T22:58:56.678Z"
   },
   {
     "team": {
@@ -2607,6 +2607,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-03T18:07:08.054Z"
+    "fetched_at": "2026-07-03T22:58:57.401Z"
   }
 ]

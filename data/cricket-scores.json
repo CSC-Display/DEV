@@ -8,7 +8,7 @@
       "id": 7325292,
       "status": "New",
       "published": "Yes",
-      "last_updated": "04/07/2026",
+      "last_updated": "05/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
       "result_applied_to": "24293",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras<br/>31.3 Loughton CC 1st XI: 100 runs in 31.3 overs, 111 minutes, 4 extras\n<br/>\n",
@@ -570,7 +570,7 @@
         "id": 7325292,
         "status": "New",
         "published": "Yes",
-        "last_updated": "04/07/2026",
+        "last_updated": "05/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -613,7 +613,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
         "result_applied_to": "24293",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras<br/>31.3 Loughton CC 1st XI: 100 runs in 31.3 overs, 111 minutes, 4 extras\n<br/>\n",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:20.330Z"
+    "fetched_at": "2026-07-04T23:26:02.066Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:21.335Z"
+    "fetched_at": "2026-07-04T23:26:03.081Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:23.483Z"
+    "fetched_at": "2026-07-04T23:26:03.613Z"
   },
   {
     "team": {
@@ -2679,7 +2679,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:24.225Z"
+    "fetched_at": "2026-07-04T23:26:04.592Z"
   },
   {
     "team": {
@@ -3388,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:24.986Z"
+    "fetched_at": "2026-07-04T23:26:05.531Z"
   },
   {
     "team": {
@@ -3401,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T22:55:25.405Z"
+    "fetched_at": "2026-07-04T23:26:05.945Z"
   },
   {
     "team": {
@@ -4115,7 +4115,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:26.113Z"
+    "fetched_at": "2026-07-04T23:26:06.918Z"
   },
   {
     "team": {
@@ -4128,7 +4128,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T22:55:26.578Z"
+    "fetched_at": "2026-07-04T23:26:07.335Z"
   },
   {
     "team": {
@@ -4432,7 +4432,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:27.501Z"
+    "fetched_at": "2026-07-04T23:26:08.282Z"
   },
   {
     "team": {
@@ -5129,6 +5129,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:55:28.475Z"
+    "fetched_at": "2026-07-04T23:26:08.997Z"
   }
 ]

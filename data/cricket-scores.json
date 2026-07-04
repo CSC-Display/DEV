@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:31.307Z"
+    "fetched_at": "2026-07-04T18:57:44.610Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:31.886Z"
+    "fetched_at": "2026-07-04T18:57:46.446Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:32.612Z"
+    "fetched_at": "2026-07-04T18:57:47.888Z"
   },
   {
     "team": {
@@ -2679,7 +2679,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:33.459Z"
+    "fetched_at": "2026-07-04T18:57:49.323Z"
   },
   {
     "team": {
@@ -3388,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:34.271Z"
+    "fetched_at": "2026-07-04T18:57:50.820Z"
   },
   {
     "team": {
@@ -3401,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T17:54:34.556Z"
+    "fetched_at": "2026-07-04T18:57:52.061Z"
   },
   {
     "team": {
@@ -4115,7 +4115,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:35.298Z"
+    "fetched_at": "2026-07-04T18:57:53.499Z"
   },
   {
     "team": {
@@ -4128,7 +4128,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T17:54:35.519Z"
+    "fetched_at": "2026-07-04T18:57:54.180Z"
   },
   {
     "team": {
@@ -4432,7 +4432,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:36.083Z"
+    "fetched_at": "2026-07-04T18:57:55.189Z"
   },
   {
     "team": {
@@ -4440,10 +4440,10 @@
       "id": 213007
     },
     "match": {
-      "id": 7399558,
+      "id": 7399563,
       "status": "New",
       "published": "Yes",
-      "last_updated": "30/06/2026",
+      "last_updated": "04/07/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -4452,20 +4452,20 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "26/06/2026",
+      "match_date": "03/07/2026",
       "match_time": "18:00",
-      "ground_name": "Chelmer Park",
-      "ground_id": "10646",
+      "ground_name": "The New Ground, Rawreth Lane",
+      "ground_id": "9345",
       "home_team_name": "Womens 1st XI",
-      "home_team_id": "213007",
-      "home_club_name": "Chelmsford CC",
-      "home_club_id": "1786",
+      "home_team_id": "114597",
+      "home_club_name": "Rayleigh CC",
+      "home_club_id": "5276",
       "away_team_name": "Womens 1st XI",
-      "away_team_id": "297163",
-      "away_club_name": "High Roding CC",
-      "away_club_id": "3368",
-      "umpire_1_name": "Hiriweddalahewage Siriwardana",
-      "umpire_1_id": "4094642",
+      "away_team_id": "213007",
+      "away_club_name": "Chelmsford CC",
+      "away_club_id": "1786",
+      "umpire_1_name": "",
+      "umpire_1_id": "",
       "umpire_2_name": "",
       "umpire_2_id": "",
       "umpire_3_name": "",
@@ -4476,54 +4476,54 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "213007",
-      "toss": "Chelmsford CC - Womens 1st XI won the toss and elected to field",
-      "batted_first": "297163",
+      "toss_won_by_team_id": "114597",
+      "toss": "Rayleigh CC - Womens 1st XI won the toss and elected to field",
+      "batted_first": "213007",
       "no_of_overs": "20",
       "balls_per_innings": "",
       "no_of_innings": "1",
       "result": "W",
       "result_description": "Chelmsford CC - Womens 1st XI - Won",
       "result_applied_to": "213007",
-      "home_confirmed": "true",
+      "home_confirmed": "false",
       "away_confirmed": "false",
-      "result_locked": "true",
+      "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 213007,
-          "game_points": "20",
-          "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "team_id": 114597,
+          "game_points": "0",
+          "penalty_points": "",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "5.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 297163,
-          "game_points": "0",
-          "penalty_points": "0.0",
-          "bonus_points_together": "10.0",
-          "bonus_points_batting": "7.0",
-          "bonus_points_bowling": "3.0",
+          "team_id": 213007,
+          "game_points": "20",
+          "penalty_points": "",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
       "innings": [
         {
-          "team_batting_id": "297163",
+          "team_batting_id": "213007",
           "innings_number": 1,
           "extra_byes": "13",
-          "extra_leg_byes": "1",
-          "extra_wides": "9",
-          "extra_no_balls": "4",
+          "extra_leg_byes": "2",
+          "extra_wides": "2",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "27",
-          "runs": "118",
-          "wickets": "6",
-          "overs": "16.0",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "23",
+          "runs": "156",
+          "wickets": "2",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4532,18 +4532,18 @@
           "revised_target_balls": ""
         },
         {
-          "team_batting_id": "213007",
+          "team_batting_id": "114597",
           "innings_number": 1,
-          "extra_byes": "16",
-          "extra_leg_byes": "7",
-          "extra_wides": "7",
-          "extra_no_balls": "8",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "38",
-          "runs": "122",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "81",
           "wickets": "6",
-          "overs": "14.1",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4558,120 +4558,6 @@
       "wickets": []
     },
     "form": [
-      {
-        "id": 7399547,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "26/05/2026",
-        "league_name": "Essex Women's T20 League",
-        "league_id": "12600",
-        "competition_name": "South Division 2",
-        "competition_id": "137056",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "15/05/2026",
-        "match_time": "18:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Womens 1st XI",
-        "home_team_id": "213007",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "Womens 1st XI",
-        "away_team_id": "114597",
-        "away_club_name": "Rayleigh CC",
-        "away_club_id": "5276",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "213007",
-        "toss": "Chelmsford CC - Womens 1st XI won the toss and elected to field",
-        "batted_first": "114597",
-        "no_of_overs": "20",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Womens 1st XI - Won",
-        "result_applied_to": "213007",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "false",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 213007,
-            "game_points": "20",
-            "penalty_points": "",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 114597,
-            "game_points": "0",
-            "penalty_points": "",
-            "bonus_points_together": "4.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "114597",
-            "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "0",
-            "extra_wides": "12",
-            "extra_no_balls": "13",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "26",
-            "runs": "76",
-            "wickets": "6",
-            "overs": "18",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "213007",
-            "innings_number": 1,
-            "extra_byes": "2",
-            "extra_leg_byes": "1",
-            "extra_wides": "2",
-            "extra_no_balls": "3",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "8",
-            "runs": "77",
-            "wickets": "1",
-            "overs": "7.5",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7399545,
         "status": "New",
@@ -5127,8 +5013,122 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7399563,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "04/07/2026",
+        "league_name": "Essex Women's T20 League",
+        "league_id": "12600",
+        "competition_name": "South Division 2",
+        "competition_id": "137056",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "03/07/2026",
+        "match_time": "18:00",
+        "ground_name": "The New Ground, Rawreth Lane",
+        "ground_id": "9345",
+        "home_team_name": "Womens 1st XI",
+        "home_team_id": "114597",
+        "home_club_name": "Rayleigh CC",
+        "home_club_id": "5276",
+        "away_team_name": "Womens 1st XI",
+        "away_team_id": "213007",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "114597",
+        "toss": "Rayleigh CC - Womens 1st XI won the toss and elected to field",
+        "batted_first": "213007",
+        "no_of_overs": "20",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "W",
+        "result_description": "Chelmsford CC - Womens 1st XI - Won",
+        "result_applied_to": "213007",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 114597,
+            "game_points": "0",
+            "penalty_points": "",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "5.0",
+            "bonus_points_bowling": "1.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 213007,
+            "game_points": "20",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "213007",
+            "innings_number": 1,
+            "extra_byes": "13",
+            "extra_leg_byes": "2",
+            "extra_wides": "2",
+            "extra_no_balls": "6",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "23",
+            "runs": "156",
+            "wickets": "2",
+            "overs": "20",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "114597",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "81",
+            "wickets": "6",
+            "overs": "20",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-07-04T17:54:36.682Z"
+    "fetched_at": "2026-07-04T18:57:55.793Z"
   }
 ]

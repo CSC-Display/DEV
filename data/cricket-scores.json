@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -79,16 +79,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "2",
+          "extra_byes": "6",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "3",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "153",
-          "wickets": "5",
-          "overs": "46",
+          "total_extras": "12",
+          "runs": "200",
+          "wickets": "7",
+          "overs": "59",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -590,7 +590,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -615,16 +615,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "2",
+            "extra_byes": "6",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "3",
+            "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "153",
-            "wickets": "5",
-            "overs": "46",
+            "total_extras": "12",
+            "runs": "200",
+            "wickets": "7",
+            "overs": "59",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +635,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:10.922Z"
+    "fetched_at": "2026-07-04T14:20:27.241Z"
   },
   {
     "team": {
@@ -724,9 +724,29 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "4",
-          "runs": "217",
-          "wickets": "3",
-          "overs": "45",
+          "runs": "246",
+          "wickets": "6",
+          "overs": "50",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -738,7 +758,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Liam Keaney",
+          "w": 4,
+          "r": "70"
+        }
+      ]
     },
     "form": [
       {
@@ -1279,9 +1305,29 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "4",
-            "runs": "217",
-            "wickets": "3",
-            "overs": "45",
+            "runs": "246",
+            "wickets": "6",
+            "overs": "50",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24294",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1292,7 +1338,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:11.892Z"
+    "fetched_at": "2026-07-04T14:20:28.806Z"
   },
   {
     "team": {
@@ -1375,15 +1421,15 @@
           "team_batting_id": "24295",
           "innings_number": 1,
           "extra_byes": "6",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "5",
           "extra_wides": "5",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "11",
-          "runs": "134",
-          "wickets": "5",
-          "overs": "34.0",
+          "total_extras": "16",
+          "runs": "205",
+          "wickets": "8",
+          "overs": "45.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1397,7 +1443,7 @@
       "runs": [
         {
           "name": "Ayman Hossain",
-          "score": 68,
+          "score": 101,
           "notOut": true
         }
       ],
@@ -1895,15 +1941,15 @@
             "team_batting_id": "24295",
             "innings_number": 1,
             "extra_byes": "6",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "5",
             "extra_wides": "5",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "11",
-            "runs": "134",
-            "wickets": "5",
-            "overs": "34.0",
+            "total_extras": "16",
+            "runs": "205",
+            "wickets": "8",
+            "overs": "45.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1914,7 +1960,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:13.102Z"
+    "fetched_at": "2026-07-04T14:20:30.160Z"
   },
   {
     "team": {
@@ -1996,18 +2042,18 @@
         {
           "team_batting_id": "19811",
           "innings_number": 1,
-          "extra_byes": "1",
-          "extra_leg_byes": "4",
-          "extra_wides": "2",
+          "extra_byes": "5",
+          "extra_leg_byes": "7",
+          "extra_wides": "7",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "133",
-          "wickets": "5",
-          "overs": "34.0",
+          "total_extras": "19",
+          "runs": "176",
+          "wickets": "9",
+          "overs": "46.0",
           "balls": "",
-          "declared": false,
+          "declared": true,
           "forfeited_innings": false,
           "revised_target_runs": "",
           "revised_target_overs": "",
@@ -2020,8 +2066,8 @@
       "wickets": [
         {
           "name": "Daniel Purchase",
-          "w": 3,
-          "r": "48"
+          "w": 6,
+          "r": "49"
         }
       ]
     },
@@ -2475,18 +2521,18 @@
           {
             "team_batting_id": "19811",
             "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "4",
-            "extra_wides": "2",
+            "extra_byes": "5",
+            "extra_leg_byes": "7",
+            "extra_wides": "7",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "133",
-            "wickets": "5",
-            "overs": "34.0",
+            "total_extras": "19",
+            "runs": "176",
+            "wickets": "9",
+            "overs": "46.0",
             "balls": "",
-            "declared": false,
+            "declared": true,
             "forfeited_innings": false,
             "revised_target_runs": "",
             "revised_target_overs": "",
@@ -2495,7 +2541,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:14.520Z"
+    "fetched_at": "2026-07-04T14:20:31.214Z"
   },
   {
     "team": {
@@ -2577,16 +2623,16 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "6",
-          "extra_leg_byes": "2",
+          "extra_byes": "13",
+          "extra_leg_byes": "4",
           "extra_wides": "5",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "14",
-          "runs": "167",
+          "total_extras": "23",
+          "runs": "228",
           "wickets": "5",
-          "overs": "32.0",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3138,16 +3184,16 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "6",
-            "extra_leg_byes": "2",
+            "extra_byes": "13",
+            "extra_leg_byes": "4",
             "extra_wides": "5",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "14",
-            "runs": "167",
+            "total_extras": "23",
+            "runs": "228",
             "wickets": "5",
-            "overs": "32.0",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3158,7 +3204,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:15.270Z"
+    "fetched_at": "2026-07-04T14:20:32.181Z"
   },
   {
     "team": {
@@ -3171,7 +3217,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T13:33:15.972Z"
+    "fetched_at": "2026-07-04T14:20:32.627Z"
   },
   {
     "team": {
@@ -3885,7 +3931,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:16.848Z"
+    "fetched_at": "2026-07-04T14:20:33.644Z"
   },
   {
     "team": {
@@ -3898,7 +3944,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T13:33:17.142Z"
+    "fetched_at": "2026-07-04T14:20:34.064Z"
   },
   {
     "team": {
@@ -4202,7 +4248,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:18.950Z"
+    "fetched_at": "2026-07-04T14:20:35.526Z"
   },
   {
     "team": {
@@ -4899,6 +4945,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T13:33:19.886Z"
+    "fetched_at": "2026-07-04T14:20:36.479Z"
   }
 ]

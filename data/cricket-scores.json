@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:05.581Z"
+    "fetched_at": "2026-07-04T22:55:20.330Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:06.599Z"
+    "fetched_at": "2026-07-04T22:55:21.335Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:07.558Z"
+    "fetched_at": "2026-07-04T22:55:23.483Z"
   },
   {
     "team": {
@@ -2679,7 +2679,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:08.541Z"
+    "fetched_at": "2026-07-04T22:55:24.225Z"
   },
   {
     "team": {
@@ -3388,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:09.528Z"
+    "fetched_at": "2026-07-04T22:55:24.986Z"
   },
   {
     "team": {
@@ -3401,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T22:15:09.943Z"
+    "fetched_at": "2026-07-04T22:55:25.405Z"
   },
   {
     "team": {
@@ -4115,7 +4115,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:10.920Z"
+    "fetched_at": "2026-07-04T22:55:26.113Z"
   },
   {
     "team": {
@@ -4128,7 +4128,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T22:15:11.323Z"
+    "fetched_at": "2026-07-04T22:55:26.578Z"
   },
   {
     "team": {
@@ -4432,7 +4432,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:12.266Z"
+    "fetched_at": "2026-07-04T22:55:27.501Z"
   },
   {
     "team": {
@@ -4485,7 +4485,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Womens 1st XI - Won",
       "result_applied_to": "213007",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -5060,7 +5060,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Womens 1st XI - Won",
         "result_applied_to": "213007",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -5129,6 +5129,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T22:15:13.214Z"
+    "fetched_at": "2026-07-04T22:55:28.475Z"
   }
 ]

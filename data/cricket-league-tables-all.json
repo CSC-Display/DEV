@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:18.784Z"
+      "fetched_at": "2026-07-04T22:55:28.521Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:19.422Z"
+      "fetched_at": "2026-07-04T22:55:29.431Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:19.894Z"
+      "fetched_at": "2026-07-04T22:55:30.258Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:20.630Z"
+      "fetched_at": "2026-07-04T22:55:30.686Z"
     },
     "data": {
       "id": 135330,
@@ -814,10 +814,10 @@
           "position": "1",
           "team_id": "29019",
           "column_1": "Walthamstow CC - 3rd XI",
-          "column_2": "8",
+          "column_2": "9",
           "column_3": "0",
           "column_4": "0",
-          "column_5": "3",
+          "column_5": "4",
           "column_6": "0",
           "column_7": "4",
           "column_8": "0",
@@ -829,8 +829,8 @@
           "column_14": "0",
           "column_15": "0",
           "column_16": "5",
-          "column_17": "7",
-          "column_18": "141"
+          "column_17": "8",
+          "column_18": "161"
         },
         {
           "position": "2",
@@ -880,11 +880,11 @@
           "position": "4",
           "team_id": "25557",
           "column_1": "Old Brentwoods CC - 3rd XI",
-          "column_2": "7",
+          "column_2": "8",
           "column_3": "2",
           "column_4": "0",
           "column_5": "0",
-          "column_6": "0",
+          "column_6": "1",
           "column_7": "2",
           "column_8": "1",
           "column_9": "1",
@@ -893,10 +893,10 @@
           "column_12": "0",
           "column_13": "0",
           "column_14": "0",
-          "column_15": "6",
+          "column_15": "9",
           "column_16": "5",
           "column_17": "4",
-          "column_18": "92"
+          "column_18": "95"
         },
         {
           "position": "5",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:21.310Z"
+      "fetched_at": "2026-07-04T22:55:32.459Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:22.142Z"
+      "fetched_at": "2026-07-04T22:55:33.273Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-07-04T21:14:22.986Z"
+      "fetched_at": "2026-07-04T22:55:34.056Z"
     },
     "data": {
       "id": 137056,

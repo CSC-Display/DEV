@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T17:55:13.468Z",
+  "generated_at": "2026-07-04T21:15:05.449Z",
   "season": "2026",
   "centuries": [
     {
@@ -1330,6 +1330,14 @@
       "opposition": "High Roding CC Womens 1st XI",
       "date": "26/06/2026",
       "match_id": 7399558
+    },
+    {
+      "player": "Claire Medhurst",
+      "team": "Womens 1st XI",
+      "team_id": 213007,
+      "opposition": "Rayleigh CC Womens 1st XI",
+      "date": "03/07/2026",
+      "match_id": 7399563
     }
   ],
   "duck_hunt": [
@@ -1722,6 +1730,20 @@
           "opposition": "Harold Wood CC 4th XI",
           "date": "02/05/2026",
           "match_id": 7262197
+        }
+      ]
+    },
+    {
+      "player": "Claire Medhurst",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Claire Medhurst",
+          "team": "Womens 1st XI",
+          "team_id": 213007,
+          "opposition": "Rayleigh CC Womens 1st XI",
+          "date": "03/07/2026",
+          "match_id": 7399563
         }
       ]
     },

@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -102,13 +102,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "1",
-          "runs": "4",
-          "wickets": "1",
-          "overs": "2",
+          "total_extras": "3",
+          "runs": "50",
+          "wickets": "4",
+          "overs": "13",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -610,7 +610,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -658,13 +658,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "1",
-            "runs": "4",
-            "wickets": "1",
-            "overs": "2",
+            "total_extras": "3",
+            "runs": "50",
+            "wickets": "4",
+            "overs": "13",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:15.222Z"
+    "fetched_at": "2026-07-04T15:43:04.287Z"
   },
   {
     "team": {
@@ -732,7 +732,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n",
+      "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra\n<br/>\n",
       "points": [
         {
           "team_id": 21520,
@@ -778,15 +778,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "3",
           "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "30",
-          "wickets": "0",
-          "overs": "7",
+          "total_extras": "3",
+          "runs": "90",
+          "wickets": "2",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1313,7 +1313,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n",
+        "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra\n<br/>\n",
         "points": [
           {
             "team_id": 21520,
@@ -1359,15 +1359,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "3",
             "extra_wides": "0",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "30",
-            "wickets": "0",
-            "overs": "7",
+            "total_extras": "3",
+            "runs": "90",
+            "wickets": "2",
+            "overs": "20",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1378,7 +1378,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:16.244Z"
+    "fetched_at": "2026-07-04T15:43:05.961Z"
   },
   {
     "team": {
@@ -1470,6 +1470,26 @@
           "runs": "227",
           "wickets": "10",
           "overs": "48.4",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "21673",
+          "innings_number": 1,
+          "extra_byes": "1",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "1",
+          "runs": "40",
+          "wickets": "1",
+          "overs": "8.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1996,11 +2016,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "21673",
+            "innings_number": 1,
+            "extra_byes": "1",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "1",
+            "runs": "40",
+            "wickets": "1",
+            "overs": "8.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:17.419Z"
+    "fetched_at": "2026-07-04T15:43:07.450Z"
   },
   {
     "team": {
@@ -2581,7 +2621,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:18.386Z"
+    "fetched_at": "2026-07-04T15:43:08.983Z"
   },
   {
     "team": {
@@ -2683,16 +2723,16 @@
         {
           "team_batting_id": "93863",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "1",
+          "extra_byes": "6",
+          "extra_leg_byes": "1",
+          "extra_wides": "3",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "1",
-          "runs": "6",
+          "total_extras": "10",
+          "runs": "73",
           "wickets": "0",
-          "overs": "3.0",
+          "overs": "17.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3264,16 +3304,16 @@
           {
             "team_batting_id": "93863",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "1",
+            "extra_byes": "6",
+            "extra_leg_byes": "1",
+            "extra_wides": "3",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "1",
-            "runs": "6",
+            "total_extras": "10",
+            "runs": "73",
             "wickets": "0",
-            "overs": "3.0",
+            "overs": "17.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3284,7 +3324,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:19.632Z"
+    "fetched_at": "2026-07-04T15:43:11.043Z"
   },
   {
     "team": {
@@ -3297,7 +3337,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T14:55:19.954Z"
+    "fetched_at": "2026-07-04T15:43:11.376Z"
   },
   {
     "team": {
@@ -4011,7 +4051,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:20.900Z"
+    "fetched_at": "2026-07-04T15:43:12.857Z"
   },
   {
     "team": {
@@ -4024,7 +4064,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T14:55:21.196Z"
+    "fetched_at": "2026-07-04T15:43:13.908Z"
   },
   {
     "team": {
@@ -4328,7 +4368,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:21.996Z"
+    "fetched_at": "2026-07-04T15:43:16.011Z"
   },
   {
     "team": {
@@ -5025,6 +5065,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T14:55:23.133Z"
+    "fetched_at": "2026-07-04T15:43:17.818Z"
   }
 ]

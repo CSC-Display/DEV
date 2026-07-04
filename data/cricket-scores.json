@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras<br/>31.3 Loughton CC 1st XI: 100 runs in 31.3 overs, 111 minutes, 4 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -102,13 +102,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "3",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "3",
-          "runs": "74",
-          "wickets": "6",
-          "overs": "26",
+          "total_extras": "5",
+          "runs": "125",
+          "wickets": "9",
+          "overs": "47",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -610,7 +610,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras<br/>31.3 Loughton CC 1st XI: 100 runs in 31.3 overs, 111 minutes, 4 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -658,13 +658,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "3",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "3",
-            "runs": "74",
-            "wickets": "6",
-            "overs": "26",
+            "total_extras": "5",
+            "runs": "125",
+            "wickets": "9",
+            "overs": "47",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:46.772Z"
+    "fetched_at": "2026-07-04T17:49:59.899Z"
   },
   {
     "team": {
@@ -725,31 +725,31 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "D",
+      "result_description": "Draw",
       "result_applied_to": "",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra<br/>21.3 Chelmsford CC Sat 2nd XI: 100 runs in 21.3 overs, 79 minutes, 3 extras<br/>29.1 Thomas Duxson: 50 runs in 63 balls, 81 minutes (7x4)<br/>31.4 Chelmsford CC Sat 2nd XI: 150 runs in 31.4 overs, 120 minutes, 7 extras<br/>33.1 4th Wicket: 50 runs in 63 balls, 41 minutes, Thomas Duxson 29 (31), Elliot Wenzel 17 (32), 4 extras\n<br/>\n",
+      "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra<br/>21.3 Chelmsford CC Sat 2nd XI: 100 runs in 21.3 overs, 79 minutes, 3 extras<br/>29.1 Thomas Duxson: 50 runs in 63 balls, 81 minutes (7x4)<br/>31.4 Chelmsford CC Sat 2nd XI: 150 runs in 31.4 overs, 120 minutes, 7 extras<br/>33.1 4th Wicket: 50 runs in 63 balls, 41 minutes, Thomas Duxson 29 (31), Elliot Wenzel 17 (32), 4 extras<br/>40.3 Chelmsford CC Sat 2nd XI: 200 runs in 40.3 overs, 157 minutes, 8 extras\n<br/>\n",
       "points": [
         {
           "team_id": 21520,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "11.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24294,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -784,9 +784,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "8",
-          "runs": "186",
-          "wickets": "3",
-          "overs": "36",
+          "runs": "233",
+          "wickets": "8",
+          "overs": "45",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -801,7 +801,7 @@
         {
           "name": "Thomas Duxson",
           "score": 76,
-          "notOut": true
+          "notOut": false
         }
       ],
       "wickets": [
@@ -1312,31 +1312,31 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "D",
+        "result_description": "Draw",
         "result_applied_to": "",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra<br/>21.3 Chelmsford CC Sat 2nd XI: 100 runs in 21.3 overs, 79 minutes, 3 extras<br/>29.1 Thomas Duxson: 50 runs in 63 balls, 81 minutes (7x4)<br/>31.4 Chelmsford CC Sat 2nd XI: 150 runs in 31.4 overs, 120 minutes, 7 extras<br/>33.1 4th Wicket: 50 runs in 63 balls, 41 minutes, Thomas Duxson 29 (31), Elliot Wenzel 17 (32), 4 extras\n<br/>\n",
+        "match_notes": "<b>Wanstead & Snaresbrook CC 2nd XI Innings</b><br/>\n13.3 Wanstead & Snaresbrook CC 2nd XI: 50 runs in 13.2 overs, 48 minutes, 2 extras<br/>16.1 2nd Wicket: 50 runs in 70 balls, 38 minutes, Rod Martin 29 (33), Zafar Saiyed 20 (37), 1 extra<br/>19.6 Rod Martin: 50 runs in 67 balls, 64 minutes (6x4)<br/>21.2 Wanstead & Snaresbrook CC 2nd XI: 100 runs in 21.2 overs, 69 minutes, 2 extras<br/>25.4 2nd Wicket: 100 runs in 127 balls, 68 minutes, Rod Martin 58 (71), Zafar Saiyed 41 (56), 1 extra<br/>28.5 Zafar Saiyed: 50 runs in 64 balls, 77 minutes (4x4, 1x6)<br/>32.1 Wanstead & Snaresbrook CC 2nd XI: 150 runs in 32.1 overs, 105 minutes, 2 extras<br/>35.3 2nd Wicket: 150 runs in 185 balls, 99 minutes, Rod Martin 85 (99), Zafar Saiyed 64 (86), 2 extras<br/>37.3 Rod Martin: 100 runs in 125 balls, 121 minutes (8x4, 1x6)<br/>42.2 Wanstead & Snaresbrook CC 2nd XI: 200 runs in 42.2 overs, 137 minutes, 3 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n12.5 Chelmsford CC Sat 2nd XI: 50 runs in 12.5 overs, 48 minutes, 1 extra<br/>21.3 Chelmsford CC Sat 2nd XI: 100 runs in 21.3 overs, 79 minutes, 3 extras<br/>29.1 Thomas Duxson: 50 runs in 63 balls, 81 minutes (7x4)<br/>31.4 Chelmsford CC Sat 2nd XI: 150 runs in 31.4 overs, 120 minutes, 7 extras<br/>33.1 4th Wicket: 50 runs in 63 balls, 41 minutes, Thomas Duxson 29 (31), Elliot Wenzel 17 (32), 4 extras<br/>40.3 Chelmsford CC Sat 2nd XI: 200 runs in 40.3 overs, 157 minutes, 8 extras\n<br/>\n",
         "points": [
           {
             "team_id": 21520,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "11.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 24294,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1371,9 +1371,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "8",
-            "runs": "186",
-            "wickets": "3",
-            "overs": "36",
+            "runs": "233",
+            "wickets": "8",
+            "overs": "45",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:47.825Z"
+    "fetched_at": "2026-07-04T17:50:01.044Z"
   },
   {
     "team": {
@@ -1434,9 +1434,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Brentwood CC - 3rd XI - Time Win (bat 2nd)",
+      "result_applied_to": "21673",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1445,7 +1445,7 @@
       "points": [
         {
           "team_id": 21673,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1456,9 +1456,9 @@
           "team_id": 24295,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "9.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1486,16 +1486,16 @@
         {
           "team_batting_id": "21673",
           "innings_number": 1,
-          "extra_byes": "3",
+          "extra_byes": "4",
           "extra_leg_byes": "0",
           "extra_wides": "1",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "4",
-          "runs": "111",
+          "total_extras": "5",
+          "runs": "231",
           "wickets": "4",
-          "overs": "22.0",
+          "overs": "36.5",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1517,7 +1517,7 @@
         {
           "name": "Piyush Singh",
           "w": 3,
-          "r": "30"
+          "r": "54"
         }
       ]
     },
@@ -1980,9 +1980,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Brentwood CC - 3rd XI - Time Win (bat 2nd)",
+        "result_applied_to": "21673",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -1991,7 +1991,7 @@
         "points": [
           {
             "team_id": 21673,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2002,9 +2002,9 @@
             "team_id": 24295,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "9.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2032,16 +2032,16 @@
           {
             "team_batting_id": "21673",
             "innings_number": 1,
-            "extra_byes": "3",
+            "extra_byes": "4",
             "extra_leg_byes": "0",
             "extra_wides": "1",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "4",
-            "runs": "111",
+            "total_extras": "5",
+            "runs": "231",
             "wickets": "4",
-            "overs": "22.0",
+            "overs": "36.5",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2052,7 +2052,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:49.631Z"
+    "fetched_at": "2026-07-04T17:50:02.183Z"
   },
   {
     "team": {
@@ -2102,9 +2102,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Frenford CC - 4th XI - Time Win (bat 1st)",
+      "result_applied_to": "19811",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2115,14 +2115,14 @@
           "team_id": 30461,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "4.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 19811,
-          "game_points": "0",
+          "game_points": "25",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2146,6 +2146,26 @@
           "overs": "46.0",
           "balls": "",
           "declared": true,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "30461",
+          "innings_number": 1,
+          "extra_byes": "12",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "12",
+          "runs": "104",
+          "wickets": "10",
+          "overs": "27.5",
+          "balls": "",
+          "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
           "revised_target_overs": "",
@@ -2581,9 +2601,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Frenford CC - 4th XI - Time Win (bat 1st)",
+        "result_applied_to": "19811",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2594,14 +2614,14 @@
             "team_id": 30461,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "4.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 19811,
-            "game_points": "0",
+            "game_points": "25",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2629,11 +2649,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "30461",
+            "innings_number": 1,
+            "extra_byes": "12",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "12",
+            "runs": "104",
+            "wickets": "10",
+            "overs": "27.5",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:50.539Z"
+    "fetched_at": "2026-07-04T17:50:03.093Z"
   },
   {
     "team": {
@@ -2683,9 +2723,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+      "result_applied_to": "45348",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2694,7 +2734,7 @@
       "points": [
         {
           "team_id": 45348,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2705,9 +2745,9 @@
           "team_id": 93863,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2735,16 +2775,16 @@
         {
           "team_batting_id": "93863",
           "innings_number": 1,
-          "extra_byes": "7",
-          "extra_leg_byes": "2",
-          "extra_wides": "3",
-          "extra_no_balls": "1",
+          "extra_byes": "11",
+          "extra_leg_byes": "3",
+          "extra_wides": "4",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "13",
-          "runs": "156",
-          "wickets": "3",
-          "overs": "30.0",
+          "total_extras": "21",
+          "runs": "204",
+          "wickets": "8",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2762,7 +2802,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Basil Samson",
+          "w": 4,
+          "r": "30"
+        }
+      ]
     },
     "form": [
       {
@@ -3264,9 +3310,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
+        "result_applied_to": "45348",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3275,7 +3321,7 @@
         "points": [
           {
             "team_id": 45348,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -3286,9 +3332,9 @@
             "team_id": 93863,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -3316,16 +3362,16 @@
           {
             "team_batting_id": "93863",
             "innings_number": 1,
-            "extra_byes": "7",
-            "extra_leg_byes": "2",
-            "extra_wides": "3",
-            "extra_no_balls": "1",
+            "extra_byes": "11",
+            "extra_leg_byes": "3",
+            "extra_wides": "4",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "156",
-            "wickets": "3",
-            "overs": "30.0",
+            "total_extras": "21",
+            "runs": "204",
+            "wickets": "8",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3336,7 +3382,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:51.848Z"
+    "fetched_at": "2026-07-04T17:50:03.719Z"
   },
   {
     "team": {
@@ -3349,7 +3395,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T16:44:52.265Z"
+    "fetched_at": "2026-07-04T17:50:04.231Z"
   },
   {
     "team": {
@@ -4063,7 +4109,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:53.250Z"
+    "fetched_at": "2026-07-04T17:50:05.375Z"
   },
   {
     "team": {
@@ -4076,7 +4122,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-04T16:44:53.526Z"
+    "fetched_at": "2026-07-04T17:50:05.622Z"
   },
   {
     "team": {
@@ -4380,7 +4426,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:54.493Z"
+    "fetched_at": "2026-07-04T17:50:06.737Z"
   },
   {
     "team": {
@@ -5077,6 +5123,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-04T16:44:55.565Z"
+    "fetched_at": "2026-07-04T17:50:07.655Z"
   }
 ]

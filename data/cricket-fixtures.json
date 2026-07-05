@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:35.764Z"
+    "fetched_at": "2026-07-05T08:35:48.823Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:36.000Z"
+    "fetched_at": "2026-07-05T08:35:49.146Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:36.469Z"
+    "fetched_at": "2026-07-05T08:35:49.869Z"
   },
   {
     "team": {
@@ -1393,7 +1393,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:36.926Z"
+    "fetched_at": "2026-07-05T08:35:50.144Z"
   },
   {
     "team": {
@@ -1762,7 +1762,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:37.369Z"
+    "fetched_at": "2026-07-05T08:35:50.845Z"
   },
   {
     "team": {
@@ -2011,7 +2011,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:38.685Z"
+    "fetched_at": "2026-07-05T08:35:51.545Z"
   },
   {
     "team": {
@@ -2019,46 +2019,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7507202,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "24/02/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "05/07/2026",
-        "match_time": "13:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "NECL 1st XI",
-        "home_team_id": "324716",
-        "home_club_id": "1786",
-        "away_club_name": "Mistley CC",
-        "away_team_name": "TC Div C",
-        "away_team_id": "37504",
-        "away_club_id": "4383",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7507207,
         "status": "New",
@@ -2380,7 +2340,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:39.168Z"
+    "fetched_at": "2026-07-05T08:35:51.850Z"
   },
   {
     "team": {
@@ -2429,7 +2389,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:39.606Z"
+    "fetched_at": "2026-07-05T08:35:52.552Z"
   },
   {
     "team": {
@@ -2478,7 +2438,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:40.037Z"
+    "fetched_at": "2026-07-05T08:35:52.863Z"
   },
   {
     "team": {
@@ -2567,6 +2527,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-04T22:55:40.504Z"
+    "fetched_at": "2026-07-05T08:35:53.158Z"
   }
 ]

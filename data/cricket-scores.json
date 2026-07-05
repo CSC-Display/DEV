@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:03.974Z"
+    "fetched_at": "2026-07-05T14:06:38.235Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:05.476Z"
+    "fetched_at": "2026-07-05T14:06:39.057Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:06.962Z"
+    "fetched_at": "2026-07-05T14:06:40.201Z"
   },
   {
     "team": {
@@ -2679,7 +2679,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:08.458Z"
+    "fetched_at": "2026-07-05T14:06:41.230Z"
   },
   {
     "team": {
@@ -3388,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:09.916Z"
+    "fetched_at": "2026-07-05T14:06:42.108Z"
   },
   {
     "team": {
@@ -3401,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-05T12:05:10.585Z"
+    "fetched_at": "2026-07-05T14:06:42.524Z"
   },
   {
     "team": {
@@ -3483,16 +3483,16 @@
         {
           "team_batting_id": "324716",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "4",
-          "extra_wides": "0",
+          "extra_byes": "11",
+          "extra_leg_byes": "11",
+          "extra_wides": "5",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "6",
-          "runs": "103",
-          "wickets": "0",
-          "overs": "14.0",
+          "total_extras": "29",
+          "runs": "239",
+          "wickets": "6",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3506,8 +3506,8 @@
       "runs": [
         {
           "name": "Elliot Wenzel",
-          "score": 55,
-          "notOut": true
+          "score": 71,
+          "notOut": false
         }
       ],
       "wickets": []
@@ -4044,16 +4044,16 @@
           {
             "team_batting_id": "324716",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "4",
-            "extra_wides": "0",
+            "extra_byes": "11",
+            "extra_leg_byes": "11",
+            "extra_wides": "5",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "103",
-            "wickets": "0",
-            "overs": "14.0",
+            "total_extras": "29",
+            "runs": "239",
+            "wickets": "6",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4064,7 +4064,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:12.090Z"
+    "fetched_at": "2026-07-05T14:06:43.255Z"
   },
   {
     "team": {
@@ -4077,7 +4077,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-05T12:05:12.742Z"
+    "fetched_at": "2026-07-05T14:06:43.691Z"
   },
   {
     "team": {
@@ -4381,7 +4381,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:14.237Z"
+    "fetched_at": "2026-07-05T14:06:44.672Z"
   },
   {
     "team": {
@@ -5078,6 +5078,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T12:05:15.783Z"
+    "fetched_at": "2026-07-05T14:06:45.469Z"
   }
 ]

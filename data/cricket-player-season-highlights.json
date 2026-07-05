@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T08:36:29.944Z",
+  "generated_at": "2026-07-05T17:55:21.535Z",
   "season": "2026",
   "centuries": [
     {
@@ -322,6 +322,17 @@
       "opposition": "Westcliff-On-Sea CC 2nd XI",
       "date": "25/04/2026",
       "match_id": 7577468
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 71,
+      "score": "71",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Mistley CC TC Div C",
+      "date": "05/07/2026",
+      "match_id": 7507202
     },
     {
       "player": "James Clifford",
@@ -832,6 +843,17 @@
       "match_id": 7461835
     },
     {
+      "player": "Abdul Baig",
+      "wickets": 5,
+      "runs": 21,
+      "figures": "5-21",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Mistley CC TC Div C",
+      "date": "05/07/2026",
+      "match_id": 7507202
+    },
+    {
       "player": "Piyush Singh",
       "wickets": 5,
       "runs": 22,
@@ -1220,6 +1242,14 @@
       "match_id": 7507178
     },
     {
+      "player": "Abdul Baig",
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Mistley CC TC Div C",
+      "date": "05/07/2026",
+      "match_id": 7507202
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -1604,6 +1634,20 @@
           "opposition": "Wanstead & Snaresbrook CC 2nd XI",
           "date": "04/07/2026",
           "match_id": 7325742
+        }
+      ]
+    },
+    {
+      "player": "Abdul Baig",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Abdul Baig",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "Mistley CC TC Div C",
+          "date": "05/07/2026",
+          "match_id": 7507202
         }
       ]
     },

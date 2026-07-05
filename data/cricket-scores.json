@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:26.274Z"
+    "fetched_at": "2026-07-05T19:25:45.297Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:27.291Z"
+    "fetched_at": "2026-07-05T19:25:46.825Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:28.263Z"
+    "fetched_at": "2026-07-05T19:25:48.342Z"
   },
   {
     "team": {
@@ -2679,7 +2679,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:29.242Z"
+    "fetched_at": "2026-07-05T19:25:49.859Z"
   },
   {
     "team": {
@@ -2690,7 +2690,7 @@
       "id": 7462422,
       "status": "New",
       "published": "Yes",
-      "last_updated": "04/07/2026",
+      "last_updated": "05/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2732,7 +2732,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
       "result_applied_to": "45348",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -3277,7 +3277,7 @@
         "id": 7462422,
         "status": "New",
         "published": "Yes",
-        "last_updated": "04/07/2026",
+        "last_updated": "05/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3319,7 +3319,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
         "result_applied_to": "45348",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -3388,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:30.222Z"
+    "fetched_at": "2026-07-05T19:25:51.368Z"
   },
   {
     "team": {
@@ -3401,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-05T17:54:30.632Z"
+    "fetched_at": "2026-07-05T19:25:52.030Z"
   },
   {
     "team": {
@@ -4110,7 +4110,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:31.599Z"
+    "fetched_at": "2026-07-05T19:25:53.112Z"
   },
   {
     "team": {
@@ -4123,7 +4123,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-05T17:54:32.043Z"
+    "fetched_at": "2026-07-05T19:25:53.778Z"
   },
   {
     "team": {
@@ -4427,7 +4427,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:33.071Z"
+    "fetched_at": "2026-07-05T19:25:55.207Z"
   },
   {
     "team": {
@@ -4438,7 +4438,7 @@
       "id": 7399563,
       "status": "New",
       "published": "Yes",
-      "last_updated": "04/07/2026",
+      "last_updated": "05/07/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -5013,7 +5013,7 @@
         "id": 7399563,
         "status": "New",
         "published": "Yes",
-        "last_updated": "04/07/2026",
+        "last_updated": "05/07/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -5124,6 +5124,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-05T17:54:34.035Z"
+    "fetched_at": "2026-07-05T19:25:56.379Z"
   }
 ]

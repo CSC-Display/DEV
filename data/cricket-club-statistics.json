@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-06T23:03:59.892Z",
+  "generated_at": "2026-07-07T09:01:53.538Z",
   "match_count": 76,
   "scorecards_processed": 71,
   "batting": [
@@ -525,7 +525,7 @@
       "innings": 16,
       "balls": 463,
       "overs": 77.1,
-      "maidens": 2,
+      "maidens": 3,
       "runs": 434,
       "wickets": 15,
       "wides": 34,

@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:33.057Z"
+    "fetched_at": "2026-07-07T15:13:06.721Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:33.667Z"
+    "fetched_at": "2026-07-07T15:13:08.263Z"
   },
   {
     "team": {
@@ -2058,7 +2058,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:34.309Z"
+    "fetched_at": "2026-07-07T15:13:09.767Z"
   },
   {
     "team": {
@@ -2495,7 +2495,7 @@
         "id": 7462127,
         "status": "New",
         "published": "Yes",
-        "last_updated": "03/07/2026",
+        "last_updated": "07/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2534,18 +2534,18 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "CON",
-        "result_description": "Old Brentwoods CC - 3rd XI - Conceded",
-        "result_applied_to": "30461",
-        "home_confirmed": "false",
+        "result": "A",
+        "result_description": "Abandoned",
+        "result_applied_to": "",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
         "scorecard_locked": "true",
-        "match_notes": "<p>Chelmsford&nbsp;CC&nbsp;have&nbsp;emailed&nbsp;League&nbsp;to&nbsp;confirm&nbsp;result&nbsp;.</p>\r\n",
+        "match_notes": "<p>Generic&nbsp;Rule&nbsp;8c&nbsp;-&nbsp;&nbsp;If&nbsp;a&nbsp;ground&nbsp;arranged&nbsp;for&nbsp;a&nbsp;scheduled&nbsp;home&nbsp;fixture&nbsp;is&nbsp;unavailable,&nbsp;inaccessible&nbsp;or&nbsp;unplayable&nbsp;for&nbsp;any&nbsp;reason&nbsp;other&nbsp;than&nbsp;the&nbsp;weather&nbsp;then&nbsp;the&nbsp;visiting&nbsp;side&nbsp;shall&nbsp;receive&nbsp;the&nbsp;maximum&nbsp;points&nbsp;(25&nbsp;for&nbsp;a&nbsp;Time&nbsp;Based&nbsp;match,&nbsp;20&nbsp;for&nbsp;a&nbsp;Limited&nbsp;Over&nbsp;format&nbsp;match)&nbsp;and&nbsp;the&nbsp;home&nbsp;side&nbsp;6&nbsp;points.&nbsp;This&nbsp;is&nbsp;subject&nbsp;to&nbsp;the&nbsp;League&nbsp;Executive&rsquo;s&nbsp;confirmation&nbsp;on&nbsp;each&nbsp;occasion.</p>\r\n",
         "points": [
           {
             "team_id": 25557,
-            "game_points": "-5",
+            "game_points": "6",
             "penalty_points": "",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2554,15 +2554,56 @@
           },
           {
             "team_id": 30461,
-            "game_points": "20",
+            "game_points": "6",
             "penalty_points": "",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
+            "bonus_points_together": "19.0",
+            "bonus_points_batting": "19.0",
             "bonus_points_bowling": "0.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
-        "innings": []
+        "innings": [
+          {
+            "team_batting_id": "25557",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "30461",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       },
       {
         "id": 7462135,
@@ -2679,7 +2720,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:34.922Z"
+    "fetched_at": "2026-07-07T15:13:10.898Z"
   },
   {
     "team": {
@@ -3388,7 +3429,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:35.487Z"
+    "fetched_at": "2026-07-07T15:13:12.394Z"
   },
   {
     "team": {
@@ -3401,7 +3442,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-07T12:06:35.694Z"
+    "fetched_at": "2026-07-07T15:13:13.067Z"
   },
   {
     "team": {
@@ -4110,7 +4151,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:36.300Z"
+    "fetched_at": "2026-07-07T15:13:14.575Z"
   },
   {
     "team": {
@@ -4123,7 +4164,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-07T12:06:36.507Z"
+    "fetched_at": "2026-07-07T15:13:15.251Z"
   },
   {
     "team": {
@@ -4427,7 +4468,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:37.019Z"
+    "fetched_at": "2026-07-07T15:13:16.721Z"
   },
   {
     "team": {
@@ -5124,6 +5165,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-07T12:06:37.575Z"
+    "fetched_at": "2026-07-07T15:13:17.831Z"
   }
 ]

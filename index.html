@@ -8,10 +8,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/csc.png">
 </head>
 <body>
-
         <!-- Header placeholder -->
     <div id="header-placeholder"></div>
-
     <!-- Main Content -->
     <main class="main-content">
         <section class="featured-content">
@@ -24,7 +22,6 @@
                 The home of both <a href="http://chelmsfordcc.co.uk/">Chelmsford Cricket Club</a> and <a href="http://chelmsfordhc.org.uk/">Chelmsford Hockey Club</a>.
             </p>
         </section>
-
         <div class="content-grid">
             <!-- Cricket Block -->
             <div class="content-block cricket-block" id="cricket">
@@ -35,11 +32,12 @@
                 <div class="block-content">
                     <ul class="block-links">
                         <li><a href="/Cricket/cricket scores responsive.html" class="block-link">Latest Scores</a></li>
+                        <li><a href="https://chelmsfordcc.co.uk/" class="block-link" target="_blank" rel="noopener">Club Website</a></li>
+                        <li><a href="https://www.pitchero.com/clubs/chelmsfordcricketclub/" class="block-link" target="_blank" rel="noopener">Pitchero</a></li>
                         <li><a href="/Cricket/cricket fixtures responsive.html" class="block-link">Fixtures</a></li>
                     </ul>
                 </div>
             </div>
-
             <!-- Hockey Block -->
             <div class="content-block hockey-block" id="hockey">
                 <div class="block-header">
@@ -48,12 +46,13 @@
                 </div>
                 <div class="block-content">
                     <ul class="block-links">
+                        <li><a href="https://chelmsfordhc.org.uk/" class="block-link" target="_blank" rel="noopener">Club Website</a></li>
+                        <li><a href="https://www.pitchero.com/clubs/chelmsfordhockeyclub" class="block-link" target="_blank" rel="noopener">Pitchero</a></li>
                         <li><a href="/Hockey/Fixtures.html" class="block-link">Fixtures</a></li>
                         <li><a href="/Hockey/Results.html" class="block-link">Results</a></li>
                     </ul>
                 </div>
             </div>
-
             <!-- Club Services Block -->
             <div class="content-block club-block" id="club">
                 <div class="block-header">
@@ -69,14 +68,12 @@
             </div>
         </div>
     </main>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <p class="footer-text">© 2026 Chelmsford Sports Club. All rights reserved.</p>
         </div>
     </footer>
-
     <!-- Load header via JavaScript -->
     <script>
         fetch('/header.html')

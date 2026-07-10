@@ -9,7 +9,7 @@
         "id": 7325296,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "10/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -32,16 +32,16 @@
         "away_team_name": "Sat 1st XI",
         "away_team_id": "24293",
         "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
+        "umpire_1_name": "Todd Holland",
+        "umpire_1_id": "4475160",
+        "umpire_2_name": "Gary Marshall",
+        "umpire_2_id": "4207701",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "Pauline Osborn",
+        "scorer_1_id": "5991211",
         "scorer_2_name": "",
         "scorer_2_id": ""
       },
@@ -366,7 +366,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:32.590Z"
+    "fetched_at": "2026-07-10T18:16:10.052Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:32.894Z"
+    "fetched_at": "2026-07-10T18:16:10.504Z"
   },
   {
     "team": {
@@ -1104,7 +1104,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:33.214Z"
+    "fetched_at": "2026-07-10T18:16:10.991Z"
   },
   {
     "team": {
@@ -1393,7 +1393,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:33.936Z"
+    "fetched_at": "2026-07-10T18:16:11.465Z"
   },
   {
     "team": {
@@ -1762,7 +1762,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:34.225Z"
+    "fetched_at": "2026-07-10T18:16:11.913Z"
   },
   {
     "team": {
@@ -2011,7 +2011,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:34.516Z"
+    "fetched_at": "2026-07-10T18:16:12.352Z"
   },
   {
     "team": {
@@ -2340,7 +2340,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:34.840Z"
+    "fetched_at": "2026-07-10T18:16:12.789Z"
   },
   {
     "team": {
@@ -2389,7 +2389,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:35.135Z"
+    "fetched_at": "2026-07-10T18:16:13.205Z"
   },
   {
     "team": {
@@ -2438,7 +2438,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:35.851Z"
+    "fetched_at": "2026-07-10T18:16:13.671Z"
   },
   {
     "team": {
@@ -2527,6 +2527,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-10T08:55:36.175Z"
+    "fetched_at": "2026-07-10T18:16:14.146Z"
   }
 ]

@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:07.130Z"
+    "fetched_at": "2026-07-11T19:35:52.870Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:08.660Z"
+    "fetched_at": "2026-07-11T19:35:53.481Z"
   },
   {
     "team": {
@@ -1440,8 +1440,8 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "D",
+      "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
@@ -1453,18 +1453,18 @@
           "team_id": 24295,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "8.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 21674,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "12.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1493,15 +1493,15 @@
           "team_batting_id": "24295",
           "innings_number": 1,
           "extra_byes": "6",
-          "extra_leg_byes": "5",
+          "extra_leg_byes": "6",
           "extra_wides": "5",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "234",
-          "wickets": "5",
-          "overs": "41.0",
+          "total_extras": "19",
+          "runs": "247",
+          "wickets": "9",
+          "overs": "48.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2032,8 +2032,8 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "D",
+        "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
         "away_confirmed": "false",
@@ -2045,18 +2045,18 @@
             "team_id": 24295,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "8.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 21674,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "12.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2085,15 +2085,15 @@
             "team_batting_id": "24295",
             "innings_number": 1,
             "extra_byes": "6",
-            "extra_leg_byes": "5",
+            "extra_leg_byes": "6",
             "extra_wides": "5",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "234",
-            "wickets": "5",
-            "overs": "41.0",
+            "total_extras": "19",
+            "runs": "247",
+            "wickets": "9",
+            "overs": "48.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:10.172Z"
+    "fetched_at": "2026-07-11T19:35:54.169Z"
   },
   {
     "team": {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:11.679Z"
+    "fetched_at": "2026-07-11T19:35:54.768Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:13.197Z"
+    "fetched_at": "2026-07-11T19:35:55.372Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T18:11:13.865Z"
+    "fetched_at": "2026-07-11T19:35:55.581Z"
   },
   {
     "team": {
@@ -4202,7 +4202,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:15.116Z"
+    "fetched_at": "2026-07-11T19:35:56.182Z"
   },
   {
     "team": {
@@ -4215,7 +4215,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T18:11:15.780Z"
+    "fetched_at": "2026-07-11T19:35:56.373Z"
   },
   {
     "team": {
@@ -4519,7 +4519,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:17.278Z"
+    "fetched_at": "2026-07-11T19:35:56.875Z"
   },
   {
     "team": {
@@ -5216,6 +5216,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T18:11:18.447Z"
+    "fetched_at": "2026-07-11T19:35:57.432Z"
   }
 ]

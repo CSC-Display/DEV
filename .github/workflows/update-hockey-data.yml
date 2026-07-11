@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
- stamp: '18'
+          node-version: '18'
 
       - name: Fetch Hockey Data
         run: node scripts/fetch-hockey-data.mjs

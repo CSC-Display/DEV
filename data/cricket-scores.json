@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
       "points": [
         {
           "team_id": 17709,
@@ -100,15 +100,15 @@
           "team_batting_id": "17709",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "1",
           "extra_wides": "0",
-          "extra_no_balls": "2",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "2",
-          "runs": "90",
-          "wickets": "0",
-          "overs": "20",
+          "total_extras": "6",
+          "runs": "188",
+          "wickets": "3",
+          "overs": "38",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -616,7 +616,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
         "points": [
           {
             "team_id": 17709,
@@ -662,15 +662,15 @@
             "team_batting_id": "17709",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "1",
             "extra_wides": "0",
-            "extra_no_balls": "2",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "2",
-            "runs": "90",
-            "wickets": "0",
-            "overs": "20",
+            "total_extras": "6",
+            "runs": "188",
+            "wickets": "3",
+            "overs": "38",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:03:59.109Z"
+    "fetched_at": "2026-07-11T17:13:36.963Z"
   },
   {
     "team": {
@@ -784,15 +784,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "2",
           "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "78",
-          "wickets": "2",
-          "overs": "20.0",
+          "total_extras": "2",
+          "runs": "185",
+          "wickets": "6",
+          "overs": "38.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -803,7 +803,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Mohammed Baig",
+          "score": 78,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Tom Halsey",
@@ -1365,15 +1371,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "2",
             "extra_wides": "0",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "78",
-            "wickets": "2",
-            "overs": "20.0",
+            "total_extras": "2",
+            "runs": "185",
+            "wickets": "6",
+            "overs": "38.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:00.128Z"
+    "fetched_at": "2026-07-11T17:13:37.569Z"
   },
   {
     "team": {
@@ -1488,14 +1494,14 @@
           "innings_number": 1,
           "extra_byes": "5",
           "extra_leg_byes": "5",
-          "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_wides": "5",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "10",
-          "runs": "76",
-          "wickets": "1",
-          "overs": "12.0",
+          "total_extras": "16",
+          "runs": "197",
+          "wickets": "2",
+          "overs": "32.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1506,7 +1512,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Dinil Siriwardana",
+          "score": 94,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Oakley Bromfield",
@@ -2069,14 +2081,14 @@
             "innings_number": 1,
             "extra_byes": "5",
             "extra_leg_byes": "5",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_wides": "5",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "10",
-            "runs": "76",
-            "wickets": "1",
-            "overs": "12.0",
+            "total_extras": "16",
+            "runs": "197",
+            "wickets": "2",
+            "overs": "32.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2087,7 +2099,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:00.982Z"
+    "fetched_at": "2026-07-11T17:13:38.179Z"
   },
   {
     "team": {
@@ -2749,7 +2761,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:02.028Z"
+    "fetched_at": "2026-07-11T17:13:38.795Z"
   },
   {
     "team": {
@@ -2799,9 +2811,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
+      "result_applied_to": "84968",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2810,7 +2822,7 @@
       "points": [
         {
           "team_id": 84968,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -2821,9 +2833,9 @@
           "team_id": 45348,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "3.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2847,11 +2859,42 @@
           "revised_target_runs": "",
           "revised_target_overs": "40.0",
           "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "extra_byes": "3",
+          "extra_leg_byes": "6",
+          "extra_wides": "23",
+          "extra_no_balls": "3",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "35",
+          "runs": "181",
+          "wickets": "9",
+          "overs": "32.2",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "40.0",
+          "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Abhijeet Kumar",
+          "score": 58,
+          "notOut": false
+        },
+        {
+          "name": "Henry Wright",
+          "score": 50,
+          "notOut": false
+        }
+      ],
       "wickets": [
         {
           "name": "Ragath Gopinath",
@@ -3360,9 +3403,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
+        "result_applied_to": "84968",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3371,7 +3414,7 @@
         "points": [
           {
             "team_id": 84968,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -3382,9 +3425,9 @@
             "team_id": 45348,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "3.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -3408,11 +3451,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "40.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "45348",
+            "innings_number": 1,
+            "extra_byes": "3",
+            "extra_leg_byes": "6",
+            "extra_wides": "23",
+            "extra_no_balls": "3",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "35",
+            "runs": "181",
+            "wickets": "9",
+            "overs": "32.2",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:02.916Z"
+    "fetched_at": "2026-07-11T17:13:39.375Z"
   },
   {
     "team": {
@@ -3425,7 +3488,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T16:04:03.335Z"
+    "fetched_at": "2026-07-11T17:13:39.611Z"
   },
   {
     "team": {
@@ -4134,7 +4197,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:04.337Z"
+    "fetched_at": "2026-07-11T17:13:40.217Z"
   },
   {
     "team": {
@@ -4147,7 +4210,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T16:04:04.766Z"
+    "fetched_at": "2026-07-11T17:13:40.459Z"
   },
   {
     "team": {
@@ -4451,7 +4514,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:05.694Z"
+    "fetched_at": "2026-07-11T17:13:41.120Z"
   },
   {
     "team": {
@@ -5148,6 +5211,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T16:04:06.711Z"
+    "fetched_at": "2026-07-11T17:13:42.005Z"
   }
 ]

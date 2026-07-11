@@ -51,7 +51,7 @@
       "result_description": "Wanstead & Snaresbrook CC - 1st XI - Time Win (bat 2nd)",
       "result_applied_to": "17709",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
@@ -613,7 +613,7 @@
         "result_description": "Wanstead & Snaresbrook CC - 1st XI - Time Win (bat 2nd)",
         "result_applied_to": "17709",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:50.803Z"
+    "fetched_at": "2026-07-11T23:32:07.098Z"
   },
   {
     "team": {
@@ -735,7 +735,7 @@
       "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -1322,7 +1322,7 @@
         "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:51.390Z"
+    "fetched_at": "2026-07-11T23:32:07.616Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:51.985Z"
+    "fetched_at": "2026-07-11T23:32:08.379Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:52.607Z"
+    "fetched_at": "2026-07-11T23:32:09.158Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:53.192Z"
+    "fetched_at": "2026-07-11T23:32:09.677Z"
   },
   {
     "team": {
@@ -3534,7 +3534,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T22:42:53.400Z"
+    "fetched_at": "2026-07-11T23:32:09.872Z"
   },
   {
     "team": {
@@ -4243,7 +4243,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:53.964Z"
+    "fetched_at": "2026-07-11T23:32:10.597Z"
   },
   {
     "team": {
@@ -4256,7 +4256,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T22:42:54.173Z"
+    "fetched_at": "2026-07-11T23:32:10.987Z"
   },
   {
     "team": {
@@ -4560,7 +4560,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:54.683Z"
+    "fetched_at": "2026-07-11T23:32:11.661Z"
   },
   {
     "team": {
@@ -5257,6 +5257,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T22:42:55.258Z"
+    "fetched_at": "2026-07-11T23:32:12.176Z"
   }
 ]

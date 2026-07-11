@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:21.085Z"
+      "fetched_at": "2026-07-11T13:11:00.673Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:21.945Z"
+      "fetched_at": "2026-07-11T13:11:02.118Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:22.666Z"
+      "fetched_at": "2026-07-11T13:11:03.240Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:23.309Z"
+      "fetched_at": "2026-07-11T13:11:04.678Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:24.013Z"
+      "fetched_at": "2026-07-11T13:11:05.717Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:24.851Z"
+      "fetched_at": "2026-07-11T13:11:07.239Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-07-11T07:28:25.860Z"
+      "fetched_at": "2026-07-11T13:11:08.207Z"
     },
     "data": {
       "id": 137056,
@@ -1578,8 +1578,8 @@
           "position": "2",
           "team_id": "297163",
           "column_1": "High Roding CC - Womens 1st XI",
-          "column_2": "7",
-          "column_3": "3",
+          "column_2": "8",
+          "column_3": "4",
           "column_4": "4",
           "column_5": "0",
           "column_6": "0",
@@ -1589,31 +1589,12 @@
           "column_10": "24",
           "column_11": "17",
           "column_12": "0",
-          "column_13": "0.75",
-          "column_14": "101",
-          "column_15": "14.43"
+          "column_13": "0.69",
+          "column_14": "121",
+          "column_15": "15.13"
         },
         {
           "position": "3",
-          "team_id": "382272",
-          "column_1": "Hadleigh & Thundersley CC, Essex - Womens 1st XI",
-          "column_2": "7",
-          "column_3": "3",
-          "column_4": "3",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "1",
-          "column_10": "20",
-          "column_11": "12",
-          "column_12": "0",
-          "column_13": "-0.42",
-          "column_14": "97",
-          "column_15": "13.86"
-        },
-        {
-          "position": "4",
           "team_id": "319144",
           "column_1": "Galleywood CC - Womens 1st XI",
           "column_2": "8",
@@ -1632,7 +1613,7 @@
           "column_15": "13.75"
         },
         {
-          "position": "5",
+          "position": "4",
           "team_id": "31296",
           "column_1": "Maldon CC - Womens 1st XI",
           "column_2": "6",
@@ -1649,6 +1630,25 @@
           "column_13": "-0.59",
           "column_14": "80",
           "column_15": "13.33"
+        },
+        {
+          "position": "5",
+          "team_id": "382272",
+          "column_1": "Hadleigh & Thundersley CC, Essex - Womens 1st XI",
+          "column_2": "8",
+          "column_3": "3",
+          "column_4": "4",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "1",
+          "column_10": "27",
+          "column_11": "14",
+          "column_12": "0",
+          "column_13": "-0.35",
+          "column_14": "106",
+          "column_15": "13.25"
         },
         {
           "position": "6",

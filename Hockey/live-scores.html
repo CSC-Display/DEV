@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford HC - Live Scores</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta http-equiv="refresh" content="30">
+    <style>
+        .live-card {
+            background: rgba(0, 32, 91, 0.85);
+            border: 2px solid #00a8cc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 800px;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 10px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+        .score-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .scorers {
+            font-size: 0.85em;
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .live-badge {
+            background-color: #e63946;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            animation: blink 1.5s infinite;
+        }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body class="bg-dark">
+    <div class="header">
+        <img src="../images/Primary_Solid_Logo.png" alt="Chelmsford Sport Club Logo" class="logo">
+        <h1>Chelmsford Hockey Club - Live Scores</h1>
+    </div>
+
+    <div id="live-container">
+        <p style="text-align: center; color: white;">Loading live games...</p>
+    </div>
+
+    <script>
+        async function loadLiveScores() {
+            try {
+                const res = await fetch('../data/hockey-data.json');
+                const data = await res.json();
+                const container = document.getElementById('live-container');
+
+                if (!data.liveGames || data.liveGames.length === 0) {
+                    container.innerHTML = `<div class="live-card" style="text-align:center;"><h2>No live matches currently in progress.</h2></div>`;
+                    return;
+                }
+
+                container.innerHTML = data.liveGames.map(game => `
+                    <div class="live-card">
+                        <div class="match-header">
+                            <span><span class="live-badge">LIVE</span> ${game.venue || 'TBC'}</span>
+                            <span>Start: ${game.start_time || 'N/A'}</span>
+                        </div>
+                        <div class="score-container">
+                            <div>${game.home_team_name}</div>
+                            <div>${game.home_score ?? 0} - ${game.away_score ?? 0}</div>
+                            <div>${game.away_team_name}</div>
+                        </div>
+                        <div class="scorers">
+                            <strong>Goalscorers:</strong><br>
+                            ${game.scorers && game.scorers.length > 0 ? game.scorers.join(', ') : 'None reported yet'}
+                        </div>
+                    </div>
+                `).join('');
+            } catch (err) {
+                console.error("Error fetching live scores:", err);
+            }
+        }
+        loadLiveScores();
+    </script>
+</body>
+</html>

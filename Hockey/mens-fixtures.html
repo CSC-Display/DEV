@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford HC - Men's Fixtures</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .team-card {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .team-card h2 {
+            margin-top: 0;
+            color: #00205b;
+            border-bottom: 2px solid #00205b;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.85em;
+        }
+        th, td {
+            padding: 6px 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th { background-color: #f2f2f2; }
+        .highlight-team {
+            background-color: #ffeb3b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="../images/Primary_Solid_Logo.png" alt="Logo" class="logo">
+        <h1>Men's Teams - Next 5 Fixtures</h1>
+    </div>
+
+    <div class="grid-container" id="teams-grid"></div>
+
+    <script>
+        async function loadFixtures() {
+            const res = await fetch('../data/hockey-data.json');
+            const data = await res.json();
+            const grid = document.getElementById('teams-grid');
+
+            const mensTeams = data.teams.filter(t => t.category === 'mens');
+
+            grid.innerHTML = mensTeams.map(team => {
+                if (!team.id) {
+                    return `
+                        <div class="team-card">
+                            <h2>${team.name}</h2>
+                            <p><em>Team is currently not being run this season.</em></p>
+                        </div>`;
+                }
+
+                const rows = team.fixtures.length > 0 ? team.fixtures.map(f => `
+                    <tr>
+                        <td>${new Date(f.date).toLocaleDateString()}</td>
+                        <td>${f.home_team_name} vs ${f.away_team_name}</td>
+                        <td>${f.venue || 'TBD'}</td>
+                    </tr>
+                `).join('') : '<tr><td colspan="3">No upcoming fixtures scheduled.</td></tr>';
+
+                return `
+                    <div class="team-card">
+                        <h2>${team.name}</h2>
+                        <table>
+                            <thead>
+                                <tr><th>Date</th><th>Match</th><th>Venue</th></tr>
+                            </thead>
+                            <tbody>${rows}</tbody>
+                        </table>
+                    </div>`;
+            }).join('');
+        }
+        loadFixtures();
+    </script>
+</body>
+</html>

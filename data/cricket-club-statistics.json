@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-11T17:44:54.662Z",
+  "generated_at": "2026-07-11T22:43:28.487Z",
   "match_count": 81,
-  "scorecards_processed": 76,
+  "scorecards_processed": 77,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -576,6 +576,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Daniel Purchase",
+      "teams": "Sat 4th XI",
+      "matches": 9,
+      "innings": 9,
+      "balls": 410,
+      "overs": 68.2,
+      "maidens": 8,
+      "runs": 344,
+      "wickets": 15,
+      "wides": 4,
+      "no_balls": 2,
+      "best": "6-49",
+      "average": 22.933333333333334,
+      "economy": 5.034146341463415,
+      "strike_rate": 27.333333333333332,
+      "three_wickets": 1,
+      "five_wickets": 1
+    },
+    {
       "player": "Alex Bayha",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 12,
@@ -593,25 +612,6 @@
       "strike_rate": 36.42857142857143,
       "three_wickets": 3,
       "five_wickets": 0
-    },
-    {
-      "player": "Daniel Purchase",
-      "teams": "Sat 4th XI",
-      "matches": 8,
-      "innings": 8,
-      "balls": 362,
-      "overs": 60.2,
-      "maidens": 8,
-      "runs": 288,
-      "wickets": 14,
-      "wides": 4,
-      "no_balls": 2,
-      "best": "6-49",
-      "average": 20.571428571428573,
-      "economy": 4.773480662983426,
-      "strike_rate": 25.857142857142858,
-      "three_wickets": 1,
-      "five_wickets": 1
     },
     {
       "player": "Tom Hutchinson",

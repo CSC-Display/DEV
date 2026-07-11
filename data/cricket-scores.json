@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n",
       "points": [
         {
           "team_id": 17709,
@@ -82,13 +82,33 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "3",
+          "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "3",
-          "runs": "154",
-          "wickets": "6",
-          "overs": "48",
+          "total_extras": "4",
+          "runs": "193",
+          "wickets": "10",
+          "overs": "58.3",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "17709",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "7",
+          "wickets": "0",
+          "overs": "3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -99,7 +119,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Rishabh Upadhyay",
+          "score": 64,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -590,7 +616,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n",
         "points": [
           {
             "team_id": 17709,
@@ -618,13 +644,33 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "3",
+            "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "3",
-            "runs": "154",
-            "wickets": "6",
-            "overs": "48",
+            "total_extras": "4",
+            "runs": "193",
+            "wickets": "10",
+            "overs": "58.3",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "17709",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "7",
+            "wickets": "0",
+            "overs": "3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:38.239Z"
+    "fetched_at": "2026-07-11T14:59:35.892Z"
   },
   {
     "team": {
@@ -717,16 +763,36 @@
         {
           "team_batting_id": "16610",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "1",
+          "extra_byes": "2",
+          "extra_leg_byes": "2",
           "extra_wides": "6",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "248",
-          "wickets": "7",
-          "overs": "45.0",
+          "total_extras": "11",
+          "runs": "270",
+          "wickets": "9",
+          "overs": "50.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "4",
+          "wickets": "0",
+          "overs": "3.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -741,8 +807,8 @@
       "wickets": [
         {
           "name": "Tom Halsey",
-          "w": 4,
-          "r": "31"
+          "w": 5,
+          "r": "44"
         }
       ]
     },
@@ -1278,16 +1344,36 @@
           {
             "team_batting_id": "16610",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "1",
+            "extra_byes": "2",
+            "extra_leg_byes": "2",
             "extra_wides": "6",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "248",
-            "wickets": "7",
-            "overs": "45.0",
+            "total_extras": "11",
+            "runs": "270",
+            "wickets": "9",
+            "overs": "50.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24294",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "4",
+            "wickets": "0",
+            "overs": "3.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1298,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:39.488Z"
+    "fetched_at": "2026-07-11T14:59:37.391Z"
   },
   {
     "team": {
@@ -1380,16 +1466,16 @@
         {
           "team_batting_id": "21674",
           "innings_number": 1,
-          "extra_byes": "5",
-          "extra_leg_byes": "1",
-          "extra_wides": "10",
+          "extra_byes": "7",
+          "extra_leg_byes": "2",
+          "extra_wides": "15",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "241",
-          "wickets": "4",
-          "overs": "43.0",
+          "total_extras": "26",
+          "runs": "269",
+          "wickets": "9",
+          "overs": "46.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1401,7 +1487,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Oakley Bromfield",
+          "w": 3,
+          "r": "49"
+        }
+      ]
     },
     "form": [
       {
@@ -1935,16 +2027,16 @@
           {
             "team_batting_id": "21674",
             "innings_number": 1,
-            "extra_byes": "5",
-            "extra_leg_byes": "1",
-            "extra_wides": "10",
+            "extra_byes": "7",
+            "extra_leg_byes": "2",
+            "extra_wides": "15",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "241",
-            "wickets": "4",
-            "overs": "43.0",
+            "total_extras": "26",
+            "runs": "269",
+            "wickets": "9",
+            "overs": "46.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1955,7 +2047,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:40.449Z"
+    "fetched_at": "2026-07-11T14:59:39.117Z"
   },
   {
     "team": {
@@ -2617,7 +2709,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:41.550Z"
+    "fetched_at": "2026-07-11T14:59:40.921Z"
   },
   {
     "team": {
@@ -2706,9 +2798,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "36",
-          "runs": "220",
-          "wickets": "5",
-          "overs": "38.0",
+          "runs": "249",
+          "wickets": "7",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2720,7 +2812,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Ragath Gopinath",
+          "w": 3,
+          "r": "38"
+        }
+      ]
     },
     "form": [
       {
@@ -3261,9 +3359,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "36",
-            "runs": "220",
-            "wickets": "5",
-            "overs": "38.0",
+            "runs": "249",
+            "wickets": "7",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3274,7 +3372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:42.483Z"
+    "fetched_at": "2026-07-11T14:59:44.506Z"
   },
   {
     "team": {
@@ -3287,7 +3385,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T13:54:42.901Z"
+    "fetched_at": "2026-07-11T14:59:45.157Z"
   },
   {
     "team": {
@@ -3996,7 +4094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:44.097Z"
+    "fetched_at": "2026-07-11T14:59:47.065Z"
   },
   {
     "team": {
@@ -4009,7 +4107,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T13:54:44.528Z"
+    "fetched_at": "2026-07-11T14:59:47.804Z"
   },
   {
     "team": {
@@ -4313,7 +4411,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:45.945Z"
+    "fetched_at": "2026-07-11T14:59:48.870Z"
   },
   {
     "team": {
@@ -5010,6 +5108,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T13:54:46.981Z"
+    "fetched_at": "2026-07-11T14:59:50.689Z"
   }
 ]

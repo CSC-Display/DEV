@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T13:12:08.872Z",
+  "generated_at": "2026-07-11T17:44:54.728Z",
   "season": "2026",
   "centuries": [
     {
@@ -56,6 +56,28 @@
       "opposition": "Upminster CC Men's 2nd XI",
       "date": "09/05/2026",
       "match_id": 7325703
+    },
+    {
+      "player": "Dinil Siriwardana",
+      "runs": 109,
+      "score": "109",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Wanstead & Snaresbrook CC 3rd XI",
+      "date": "11/07/2026",
+      "match_id": 7461870
+    },
+    {
+      "player": "Mohammed Baig",
+      "runs": 108,
+      "score": "108*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Upminster CC Men's 2nd XI",
+      "date": "11/07/2026",
+      "match_id": 7325748
     },
     {
       "player": "Suhail Shahid",
@@ -445,6 +467,17 @@
       "match_id": 7325738
     },
     {
+      "player": "Rishabh Upadhyay",
+      "runs": 64,
+      "score": "64",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Wanstead & Snaresbrook CC 1st XI",
+      "date": "11/07/2026",
+      "match_id": 7325296
+    },
+    {
       "player": "Richard Goodey",
       "runs": 62,
       "score": "62",
@@ -531,6 +564,17 @@
       "opposition": "Epping CC 1st XI",
       "date": "20/06/2026",
       "match_id": 7325282
+    },
+    {
+      "player": "Abhijeet Kumar",
+      "runs": 58,
+      "score": "58",
+      "not_out": false,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
     },
     {
       "player": "Elliot Wenzel",
@@ -720,6 +764,17 @@
       "match_id": 7506920
     },
     {
+      "player": "Ben Lawrence",
+      "runs": 51,
+      "score": "51",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Wanstead & Snaresbrook CC 3rd XI",
+      "date": "11/07/2026",
+      "match_id": 7461870
+    },
+    {
       "player": "Elliot Wenzel",
       "runs": 51,
       "score": "51*",
@@ -773,6 +828,17 @@
       "opposition": "Wanstead & Snaresbrook CC 2nd XI",
       "date": "16/05/2026",
       "match_id": 7325708
+    },
+    {
+      "player": "Henry Wright",
+      "runs": 50,
+      "score": "50",
+      "not_out": false,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
     },
     {
       "player": "Jason Lofthouse",
@@ -898,6 +964,17 @@
       "match_id": 7461855
     },
     {
+      "player": "Tom Halsey",
+      "wickets": 5,
+      "runs": 44,
+      "figures": "5-44",
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Upminster CC Men's 2nd XI",
+      "date": "11/07/2026",
+      "match_id": 7325748
+    },
+    {
       "player": "Piyush Singh",
       "wickets": 5,
       "runs": 49,
@@ -1010,6 +1087,14 @@
       "match_id": 7325292
     },
     {
+      "player": "Jack Parrish",
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Wanstead & Snaresbrook CC 1st XI",
+      "date": "11/07/2026",
+      "match_id": 7325296
+    },
+    {
       "player": "Thom Wilshaw",
       "team": "Sat 2nd XI",
       "team_id": 24294,
@@ -1040,6 +1125,14 @@
       "opposition": "Wanstead & Snaresbrook CC 2nd XI",
       "date": "04/07/2026",
       "match_id": 7325742
+    },
+    {
+      "player": "Deepak Reddy Singireddy",
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Upminster CC Men's 2nd XI",
+      "date": "11/07/2026",
+      "match_id": 7325748
     },
     {
       "player": "Mohammed Baig",
@@ -1208,6 +1301,38 @@
       "opposition": "Billericay CC 5th XI",
       "date": "04/07/2026",
       "match_id": 7462422
+    },
+    {
+      "player": "Suhail Shahid",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
+    },
+    {
+      "player": "Rupert Redman",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
+    },
+    {
+      "player": "Jim Iliffe",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
+    },
+    {
+      "player": "Abraham Kurian",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Leigh On Sea CC Saturday 4th XI",
+      "date": "11/07/2026",
+      "match_id": 7462430
     },
     {
       "player": "Alex Bayha",
@@ -1652,6 +1777,20 @@
       ]
     },
     {
+      "player": "Abraham Kurian",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Abraham Kurian",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Leigh On Sea CC Saturday 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462430
+        }
+      ]
+    },
+    {
       "player": "Alex Bayha",
       "count": 1,
       "ducks": [
@@ -1792,6 +1931,20 @@
       ]
     },
     {
+      "player": "Deepak Reddy Singireddy",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Deepak Reddy Singireddy",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Upminster CC Men's 2nd XI",
+          "date": "11/07/2026",
+          "match_id": 7325748
+        }
+      ]
+    },
+    {
       "player": "Eleni Cooke",
       "count": 1,
       "ducks": [
@@ -1834,6 +1987,20 @@
       ]
     },
     {
+      "player": "Jack Parrish",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Jack Parrish",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Wanstead & Snaresbrook CC 1st XI",
+          "date": "11/07/2026",
+          "match_id": 7325296
+        }
+      ]
+    },
+    {
       "player": "Jack Sterland",
       "count": 1,
       "ducks": [
@@ -1872,6 +2039,20 @@
           "opposition": "Oakfield Parkonians CC, Essex 4th XI",
           "date": "16/05/2026",
           "match_id": 7462100
+        }
+      ]
+    },
+    {
+      "player": "Jim Iliffe",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Jim Iliffe",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Leigh On Sea CC Saturday 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462430
         }
       ]
     },
@@ -2002,6 +2183,20 @@
       ]
     },
     {
+      "player": "Rupert Redman",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Rupert Redman",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Leigh On Sea CC Saturday 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462430
+        }
+      ]
+    },
+    {
       "player": "Sarah Yuen",
       "count": 1,
       "ducks": [
@@ -2026,6 +2221,20 @@
           "opposition": "Hadleigh & Thundersley CC, Essex Womens 1st XI",
           "date": "12/06/2026",
           "match_id": 7399543
+        }
+      ]
+    },
+    {
+      "player": "Suhail Shahid",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Suhail Shahid",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Leigh On Sea CC Saturday 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462430
         }
       ]
     },

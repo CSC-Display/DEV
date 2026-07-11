@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras\n<br/>\n",
       "points": [
         {
           "team_id": 17709,
@@ -102,13 +102,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "7",
+          "total_extras": "2",
+          "runs": "90",
           "wickets": "0",
-          "overs": "3",
+          "overs": "20",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -616,7 +616,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras\n<br/>\n",
         "points": [
           {
             "team_id": 17709,
@@ -664,13 +664,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "7",
+            "total_extras": "2",
+            "runs": "90",
             "wickets": "0",
-            "overs": "3",
+            "overs": "20",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:35.892Z"
+    "fetched_at": "2026-07-11T16:03:59.109Z"
   },
   {
     "team": {
@@ -790,9 +790,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "0",
-          "runs": "4",
-          "wickets": "0",
-          "overs": "3.0",
+          "runs": "78",
+          "wickets": "2",
+          "overs": "20.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1371,9 +1371,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "0",
-            "runs": "4",
-            "wickets": "0",
-            "overs": "3.0",
+            "runs": "78",
+            "wickets": "2",
+            "overs": "20.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:37.391Z"
+    "fetched_at": "2026-07-11T16:04:00.128Z"
   },
   {
     "team": {
@@ -1476,6 +1476,26 @@
           "runs": "269",
           "wickets": "9",
           "overs": "46.3",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24295",
+          "innings_number": 1,
+          "extra_byes": "5",
+          "extra_leg_byes": "5",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "10",
+          "runs": "76",
+          "wickets": "1",
+          "overs": "12.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2043,11 +2063,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24295",
+            "innings_number": 1,
+            "extra_byes": "5",
+            "extra_leg_byes": "5",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "10",
+            "runs": "76",
+            "wickets": "1",
+            "overs": "12.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:39.117Z"
+    "fetched_at": "2026-07-11T16:04:00.982Z"
   },
   {
     "team": {
@@ -2709,7 +2749,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:40.921Z"
+    "fetched_at": "2026-07-11T16:04:02.028Z"
   },
   {
     "team": {
@@ -3372,7 +3412,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:44.506Z"
+    "fetched_at": "2026-07-11T16:04:02.916Z"
   },
   {
     "team": {
@@ -3385,7 +3425,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T14:59:45.157Z"
+    "fetched_at": "2026-07-11T16:04:03.335Z"
   },
   {
     "team": {
@@ -4094,7 +4134,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:47.065Z"
+    "fetched_at": "2026-07-11T16:04:04.337Z"
   },
   {
     "team": {
@@ -4107,7 +4147,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-11T14:59:47.804Z"
+    "fetched_at": "2026-07-11T16:04:04.766Z"
   },
   {
     "team": {
@@ -4411,7 +4451,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:48.870Z"
+    "fetched_at": "2026-07-11T16:04:05.694Z"
   },
   {
     "team": {
@@ -5108,6 +5148,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-11T14:59:50.689Z"
+    "fetched_at": "2026-07-11T16:04:06.711Z"
   }
 ]

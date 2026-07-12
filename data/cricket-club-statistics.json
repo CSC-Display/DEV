@@ -1,8 +1,8 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-11T22:43:28.487Z",
-  "match_count": 81,
+  "generated_at": "2026-07-12T07:54:03.559Z",
+  "match_count": 82,
   "scorecards_processed": 77,
   "batting": [
     {
@@ -538,6 +538,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Tom Hutchinson",
+      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 17,
+      "innings": 17,
+      "balls": 536,
+      "overs": 89.2,
+      "maidens": 5,
+      "runs": 488,
+      "wickets": 15,
+      "wides": 73,
+      "no_balls": 18,
+      "best": "3-29",
+      "average": 32.53333333333333,
+      "economy": 5.462686567164179,
+      "strike_rate": 35.733333333333334,
+      "three_wickets": 1,
+      "five_wickets": 0
+    },
+    {
       "player": "Rishabh Upadhyay",
       "teams": "Sat 1st XI, Twenty20",
       "matches": 14,
@@ -611,25 +630,6 @@
       "economy": 4.4941176470588236,
       "strike_rate": 36.42857142857143,
       "three_wickets": 3,
-      "five_wickets": 0
-    },
-    {
-      "player": "Tom Hutchinson",
-      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 16,
-      "innings": 16,
-      "balls": 488,
-      "overs": 81.2,
-      "maidens": 5,
-      "runs": 453,
-      "wickets": 13,
-      "wides": 73,
-      "no_balls": 18,
-      "best": "3-29",
-      "average": 34.84615384615385,
-      "economy": 5.5696721311475414,
-      "strike_rate": 37.53846153846154,
-      "three_wickets": 1,
       "five_wickets": 0
     },
     {

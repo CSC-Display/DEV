@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:03.939Z"
+    "fetched_at": "2026-07-12T09:24:11.422Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:04.977Z"
+    "fetched_at": "2026-07-12T09:24:12.420Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
       "id": 7461870,
       "status": "New",
       "published": "Yes",
-      "last_updated": "11/07/2026",
+      "last_updated": "12/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1444,7 +1444,7 @@
       "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -1993,7 +1993,7 @@
         "id": 7461870,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/07/2026",
+        "last_updated": "12/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2036,7 +2036,7 @@
         "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:05.972Z"
+    "fetched_at": "2026-07-12T09:24:13.424Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:06.695Z"
+    "fetched_at": "2026-07-12T09:24:14.467Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
       "id": 7462430,
       "status": "New",
       "published": "Yes",
-      "last_updated": "11/07/2026",
+      "last_updated": "12/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2860,7 +2860,7 @@
       "result": "W",
       "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
       "result_applied_to": "84968",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -3410,7 +3410,7 @@
         "id": 7462430,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/07/2026",
+        "last_updated": "12/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3452,7 +3452,7 @@
         "result": "W",
         "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
         "result_applied_to": "84968",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:07.692Z"
+    "fetched_at": "2026-07-12T09:24:15.463Z"
   },
   {
     "team": {
@@ -3534,7 +3534,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-12T07:53:08.105Z"
+    "fetched_at": "2026-07-12T09:24:15.881Z"
   },
   {
     "team": {
@@ -4243,7 +4243,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:08.838Z"
+    "fetched_at": "2026-07-12T09:24:16.832Z"
   },
   {
     "team": {
@@ -4256,7 +4256,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-12T07:53:09.271Z"
+    "fetched_at": "2026-07-12T09:24:17.220Z"
   },
   {
     "team": {
@@ -4560,7 +4560,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:10.252Z"
+    "fetched_at": "2026-07-12T09:24:18.176Z"
   },
   {
     "team": {
@@ -5257,6 +5257,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-12T07:53:11.212Z"
+    "fetched_at": "2026-07-12T09:24:19.165Z"
   }
 ]

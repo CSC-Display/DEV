@@ -326,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:30.293Z"
+    "fetched_at": "2026-07-12T22:42:48.589Z"
   },
   {
     "team": {
@@ -655,7 +655,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:30.544Z"
+    "fetched_at": "2026-07-12T22:42:49.060Z"
   },
   {
     "team": {
@@ -984,7 +984,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:30.806Z"
+    "fetched_at": "2026-07-12T22:42:49.532Z"
   },
   {
     "team": {
@@ -1233,7 +1233,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:31.075Z"
+    "fetched_at": "2026-07-12T22:42:50.001Z"
   },
   {
     "team": {
@@ -1562,7 +1562,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:31.339Z"
+    "fetched_at": "2026-07-12T22:42:50.240Z"
   },
   {
     "team": {
@@ -1570,6 +1570,46 @@
       "id": 105976
     },
     "fix": [
+      {
+        "id": 7727261,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "12/07/2026",
+        "league_name": "",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "18/07/2026",
+        "match_time": "",
+        "ground_name": "Coopers Company and Coborn School (Non Turf Pitch 1)",
+        "ground_id": "37669",
+        "ground_latitude": "51.557242",
+        "ground_longitude": "0.2624391",
+        "home_club_name": "Upminster CC",
+        "home_team_name": "Men's Friendly XI",
+        "home_team_id": "74840",
+        "home_club_id": "6546",
+        "away_club_name": "Chelmsford CC",
+        "away_team_name": "Sat 6th XI",
+        "away_team_id": "105976",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
+      },
       {
         "id": 7536680,
         "status": "New",
@@ -1811,7 +1851,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:31.576Z"
+    "fetched_at": "2026-07-12T22:42:50.461Z"
   },
   {
     "team": {
@@ -2100,7 +2140,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:31.823Z"
+    "fetched_at": "2026-07-12T22:42:50.902Z"
   },
   {
     "team": {
@@ -2149,7 +2189,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:32.075Z"
+    "fetched_at": "2026-07-12T22:42:51.119Z"
   },
   {
     "team": {
@@ -2198,7 +2238,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:32.316Z"
+    "fetched_at": "2026-07-12T22:42:51.340Z"
   },
   {
     "team": {
@@ -2287,6 +2327,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-12T17:49:32.579Z"
+    "fetched_at": "2026-07-12T22:42:51.572Z"
   }
 ]

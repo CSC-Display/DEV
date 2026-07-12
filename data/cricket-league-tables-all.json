@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:25.085Z"
+      "fetched_at": "2026-07-12T22:42:42.897Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:26.291Z"
+      "fetched_at": "2026-07-12T22:42:43.607Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:26.787Z"
+      "fetched_at": "2026-07-12T22:42:44.384Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:27.298Z"
+      "fetched_at": "2026-07-12T22:42:44.896Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:27.713Z"
+      "fetched_at": "2026-07-12T22:42:45.632Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:28.389Z"
+      "fetched_at": "2026-07-12T22:42:46.480Z"
     },
     "data": {
       "id": 134513,
@@ -1328,8 +1328,8 @@
           "position": "1",
           "team_id": "324716",
           "column_1": "Chelmsford CC",
-          "column_2": "12",
-          "column_3": "9",
+          "column_2": "13",
+          "column_3": "10",
           "column_4": "1",
           "column_5": "1",
           "column_6": "0",
@@ -1337,31 +1337,85 @@
           "column_8": "1",
           "column_9": "0",
           "column_10": "5",
-          "column_11": "42",
+          "column_11": "46",
           "column_12": "0",
-          "column_13": "208",
-          "column_14": "1.47"
+          "column_13": "227",
+          "column_14": "1.69"
         },
         {
           "position": "2",
+          "team_id": "348773",
+          "column_1": "West Bergholt CC",
+          "column_2": "11",
+          "column_3": "8",
+          "column_4": "2",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "5",
+          "column_11": "43",
+          "column_12": "0",
+          "column_13": "174",
+          "column_14": "1.61"
+        },
+        {
+          "position": "3",
           "team_id": "207266",
           "column_1": "Frinton On Sea CC",
-          "column_2": "12",
+          "column_2": "13",
           "column_3": "7",
-          "column_4": "5",
+          "column_4": "6",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "17",
-          "column_11": "43",
+          "column_10": "21",
+          "column_11": "47",
           "column_12": "0",
-          "column_13": "165",
+          "column_13": "173",
           "column_14": "-0.02"
         },
         {
-          "position": "3",
+          "position": "4",
+          "team_id": "207268",
+          "column_1": "Wivenhoe Town CC",
+          "column_2": "13",
+          "column_3": "7",
+          "column_4": "6",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "14",
+          "column_11": "53",
+          "column_12": "0",
+          "column_13": "172",
+          "column_14": "-0.37"
+        },
+        {
+          "position": "5",
+          "team_id": "207263",
+          "column_1": "Abberton & District CC",
+          "column_2": "13",
+          "column_3": "5",
+          "column_4": "8",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "34",
+          "column_11": "46",
+          "column_12": "0",
+          "column_13": "155",
+          "column_14": "-0.35"
+        },
+        {
+          "position": "6",
           "team_id": "37504",
           "column_1": "Mistley CC",
           "column_2": "12",
@@ -1379,45 +1433,27 @@
           "column_14": "-0.47"
         },
         {
-          "position": "4",
-          "team_id": "348773",
-          "column_1": "West Bergholt CC",
-          "column_2": "10",
-          "column_3": "7",
-          "column_4": "2",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "5",
-          "column_11": "38",
-          "column_12": "0",
-          "column_13": "154",
-          "column_14": "1.8"
-        },
-        {
-          "position": "5",
-          "team_id": "207268",
-          "column_1": "Wivenhoe Town CC",
-          "column_2": "12",
-          "column_3": "6",
+          "position": "7",
+          "team_id": "45577",
+          "column_1": "Great Bentley CC",
+          "column_2": "11",
+          "column_3": "5",
           "column_4": "6",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "14",
-          "column_11": "48",
+          "column_10": "21",
+          "column_11": "36",
           "column_12": "0",
-          "column_13": "152",
-          "column_14": "-0.46"
+          "column_13": "132",
+          "column_14": "0.27"
         },
         {
-          "position": "6",
-          "team_id": "207263",
-          "column_1": "Abberton & District CC",
+          "position": "8",
+          "team_id": "351841",
+          "column_1": "Kirby CC",
           "column_2": "12",
           "column_3": "4",
           "column_4": "8",
@@ -1426,65 +1462,29 @@
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "34",
-          "column_11": "41",
+          "column_10": "33",
+          "column_11": "39",
           "column_12": "0",
-          "column_13": "135",
-          "column_14": "-0.38"
-        },
-        {
-          "position": "7",
-          "team_id": "45577",
-          "column_1": "Great Bentley CC",
-          "column_2": "10",
-          "column_3": "5",
-          "column_4": "5",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "16",
-          "column_11": "34",
-          "column_12": "0",
-          "column_13": "125",
-          "column_14": "0.35"
-        },
-        {
-          "position": "8",
-          "team_id": "351841",
-          "column_1": "Kirby CC",
-          "column_2": "11",
-          "column_3": "4",
-          "column_4": "7",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "28",
-          "column_11": "36",
-          "column_12": "0",
-          "column_13": "124",
-          "column_14": "-0.37"
+          "column_13": "132",
+          "column_14": "-0.34"
         },
         {
           "position": "9",
           "team_id": "348717",
           "column_1": "IPSCOL CC",
-          "column_2": "10",
+          "column_2": "11",
           "column_3": "4",
-          "column_4": "5",
+          "column_4": "6",
           "column_5": "0",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "1",
-          "column_10": "16",
-          "column_11": "35",
+          "column_10": "20",
+          "column_11": "38",
           "column_12": "0",
-          "column_13": "116",
-          "column_14": "-0.27"
+          "column_13": "123",
+          "column_14": "-0.61"
         },
         {
           "position": "10",
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-07-12T17:49:29.013Z"
+      "fetched_at": "2026-07-12T22:42:47.300Z"
     },
     "data": {
       "id": 137056,

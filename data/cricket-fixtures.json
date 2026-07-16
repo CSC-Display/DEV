@@ -326,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:48.998Z"
+    "fetched_at": "2026-07-16T17:58:05.203Z"
   },
   {
     "team": {
@@ -655,7 +655,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:49.319Z"
+    "fetched_at": "2026-07-16T17:58:05.462Z"
   },
   {
     "team": {
@@ -984,7 +984,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:49.610Z"
+    "fetched_at": "2026-07-16T17:58:05.728Z"
   },
   {
     "team": {
@@ -1233,7 +1233,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:49.919Z"
+    "fetched_at": "2026-07-16T17:58:05.959Z"
   },
   {
     "team": {
@@ -1268,6 +1268,46 @@
         "away_team_name": "Saturday 5th XI",
         "away_team_id": "165360",
         "away_club_id": "6909",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
+      },
+      {
+        "id": 7729761,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "16/07/2026",
+        "league_name": "",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "18/07/2026",
+        "match_time": "12:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "Sat 5th XI",
+        "home_team_id": "45348",
+        "home_club_id": "1786",
+        "away_club_name": "Shenfield CC",
+        "away_team_name": "6th XI",
+        "away_team_id": "283560",
+        "away_club_id": "214",
         "umpire_1_name": "",
         "umpire_1_id": "",
         "umpire_2_name": "",
@@ -1562,7 +1602,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:50.236Z"
+    "fetched_at": "2026-07-16T17:58:06.234Z"
   },
   {
     "team": {
@@ -1570,46 +1610,6 @@
       "id": 105976
     },
     "fix": [
-      {
-        "id": 7727261,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "12/07/2026",
-        "league_name": "",
-        "league_id": "",
-        "competition_name": "",
-        "competition_id": "",
-        "competition_type": "Friendly",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "18/07/2026",
-        "match_time": "",
-        "ground_name": "Coopers Company and Coborn School (Non Turf Pitch 1)",
-        "ground_id": "37669",
-        "ground_latitude": "51.557242",
-        "ground_longitude": "0.2624391",
-        "home_club_name": "Upminster CC",
-        "home_team_name": "Men's Friendly XI",
-        "home_team_id": "74840",
-        "home_club_id": "6546",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sat 6th XI",
-        "away_team_id": "105976",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7536680,
         "status": "New",
@@ -1851,7 +1851,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:50.529Z"
+    "fetched_at": "2026-07-16T17:58:06.464Z"
   },
   {
     "team": {
@@ -2140,7 +2140,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:50.843Z"
+    "fetched_at": "2026-07-16T17:58:06.723Z"
   },
   {
     "team": {
@@ -2229,7 +2229,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:51.542Z"
+    "fetched_at": "2026-07-16T17:58:06.971Z"
   },
   {
     "team": {
@@ -2237,7 +2237,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-16T07:50:51.850Z"
+    "fetched_at": "2026-07-16T17:58:07.238Z"
   },
   {
     "team": {
@@ -2366,6 +2366,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T07:50:52.167Z"
+    "fetched_at": "2026-07-16T17:58:07.507Z"
   }
 ]

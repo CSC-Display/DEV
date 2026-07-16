@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T07:51:25.320Z",
+  "generated_at": "2026-07-16T17:58:34.694Z",
   "season": "2026",
   "centuries": [
     {
@@ -764,6 +764,17 @@
       "match_id": 7262196
     },
     {
+      "player": "Ben Clifford",
+      "runs": 52,
+      "score": "52*",
+      "not_out": true,
+      "team": "Twenty20",
+      "team_id": 133549,
+      "opposition": "Springfield CC, Essex Twenty20",
+      "date": "16/07/2026",
+      "match_id": 7340810
+    },
+    {
       "player": "George Wilson",
       "runs": 52,
       "score": "52*",
@@ -1432,6 +1443,14 @@
       "match_id": 7507207
     },
     {
+      "player": "Elliot Wenzel",
+      "team": "Twenty20",
+      "team_id": 133549,
+      "opposition": "Springfield CC, Essex Twenty20",
+      "date": "16/07/2026",
+      "match_id": 7340810
+    },
+    {
       "player": "Poppy Moore",
       "team": "Womens 1st XI",
       "team_id": 213007,
@@ -1622,6 +1641,36 @@
       ]
     },
     {
+      "player": "Elliot Wenzel",
+      "count": 3,
+      "ducks": [
+        {
+          "player": "Elliot Wenzel",
+          "team": "Sat 1st XI",
+          "team_id": 24293,
+          "opposition": "Springfield CC, Essex 1st XI",
+          "date": "02/05/2026",
+          "match_id": 7675532
+        },
+        {
+          "player": "Elliot Wenzel",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "IPSCOL CC Sunday 1st XI",
+          "date": "12/07/2026",
+          "match_id": 7507207
+        },
+        {
+          "player": "Elliot Wenzel",
+          "team": "Twenty20",
+          "team_id": 133549,
+          "opposition": "Springfield CC, Essex Twenty20",
+          "date": "16/07/2026",
+          "match_id": 7340810
+        }
+      ]
+    },
+    {
       "player": "Abdul Baig",
       "count": 2,
       "ducks": [
@@ -1750,28 +1799,6 @@
           "opposition": "Hadleigh & Thundersley CC, Essex Womens 1st XI",
           "date": "12/06/2026",
           "match_id": 7399543
-        }
-      ]
-    },
-    {
-      "player": "Elliot Wenzel",
-      "count": 2,
-      "ducks": [
-        {
-          "player": "Elliot Wenzel",
-          "team": "Sat 1st XI",
-          "team_id": 24293,
-          "opposition": "Springfield CC, Essex 1st XI",
-          "date": "02/05/2026",
-          "match_id": 7675532
-        },
-        {
-          "player": "Elliot Wenzel",
-          "team": "NECL 1st XI",
-          "team_id": 324716,
-          "opposition": "IPSCOL CC Sunday 1st XI",
-          "date": "12/07/2026",
-          "match_id": 7507207
         }
       ]
     },

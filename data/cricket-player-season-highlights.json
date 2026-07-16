@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T17:58:34.694Z",
+  "generated_at": "2026-07-16T22:55:14.975Z",
   "season": "2026",
   "centuries": [
     {
@@ -223,6 +223,17 @@
       "opposition": "Westcliff-On-Sea CC 5th XI",
       "date": "13/06/2026",
       "match_id": 7462401
+    },
+    {
+      "player": "Ben Clifford",
+      "runs": 84,
+      "score": "84*",
+      "not_out": true,
+      "team": "Twenty20",
+      "team_id": 133549,
+      "opposition": "Springfield CC, Essex Twenty20",
+      "date": "16/07/2026",
+      "match_id": 7340810
     },
     {
       "player": "Dinil Siriwardana",
@@ -762,17 +773,6 @@
       "opposition": "Harold Wood CC 3rd XI",
       "date": "02/05/2026",
       "match_id": 7262196
-    },
-    {
-      "player": "Ben Clifford",
-      "runs": 52,
-      "score": "52*",
-      "not_out": true,
-      "team": "Twenty20",
-      "team_id": 133549,
-      "opposition": "Springfield CC, Essex Twenty20",
-      "date": "16/07/2026",
-      "match_id": 7340810
     },
     {
       "player": "George Wilson",

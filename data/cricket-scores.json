@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:27.110Z"
+    "fetched_at": "2026-07-16T17:34:51.954Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:28.565Z"
+    "fetched_at": "2026-07-16T17:34:52.622Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:30.022Z"
+    "fetched_at": "2026-07-16T17:34:53.319Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:31.464Z"
+    "fetched_at": "2026-07-16T17:34:53.916Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
       "id": 7462430,
       "status": "New",
       "published": "Yes",
-      "last_updated": "12/07/2026",
+      "last_updated": "16/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2861,7 +2861,7 @@
       "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
       "result_applied_to": "84968",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3404,7 +3404,7 @@
         "id": 7462430,
         "status": "New",
         "published": "Yes",
-        "last_updated": "12/07/2026",
+        "last_updated": "16/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3447,7 +3447,7 @@
         "result_description": "Leigh On Sea CC - Saturday 4th XI - Overs Win",
         "result_applied_to": "84968",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3515,7 +3515,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:32.887Z"
+    "fetched_at": "2026-07-16T17:34:54.615Z"
   },
   {
     "team": {
@@ -3528,7 +3528,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-16T15:57:33.547Z"
+    "fetched_at": "2026-07-16T17:34:54.827Z"
   },
   {
     "team": {
@@ -4242,7 +4242,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:35.009Z"
+    "fetched_at": "2026-07-16T17:34:55.469Z"
   },
   {
     "team": {
@@ -4255,7 +4255,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-16T15:57:35.661Z"
+    "fetched_at": "2026-07-16T17:34:55.675Z"
   },
   {
     "team": {
@@ -4263,26 +4263,25 @@
       "id": 133549
     },
     "match": {
-      "id": 7697883,
+      "id": 7340810,
       "status": "New",
       "published": "Yes",
-      "last_updated": "27/06/2026",
-      "league_name": "Essex League",
-      "league_id": "7300",
-      "competition_name": "Dukes Essex Twenty20 Cup",
-      "competition_id": "68991",
-      "competition_type": "Cup",
+      "last_updated": "16/07/2026",
+      "league_id": "",
+      "competition_name": "",
+      "competition_id": "",
+      "competition_type": "Friendly",
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "25/05/2026",
-      "match_time": "16:00",
-      "ground_name": "Upminster Park",
-      "ground_id": "14117",
-      "home_team_name": "Men's 1st XI - T20",
-      "home_team_id": "75924",
-      "home_club_name": "Upminster CC",
-      "home_club_id": "6546",
+      "match_date": "16/07/2026",
+      "match_time": "18:00",
+      "ground_name": "Coronation Park",
+      "ground_id": "9214",
+      "home_team_name": "Twenty20",
+      "home_team_id": "317502",
+      "home_club_name": "Springfield CC, Essex",
+      "home_club_id": "5866",
       "away_team_name": "Twenty20",
       "away_team_id": "133549",
       "away_club_name": "Chelmsford CC",
@@ -4299,72 +4298,46 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "75924",
-      "toss": "Upminster CC - Men's 1st XI - T20 won the toss and elected to bat",
-      "batted_first": "75924",
+      "toss_won_by_team_id": "133549",
+      "toss": "Chelmsford CC - Twenty20 won the toss and elected to bat",
+      "batted_first": "133549",
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Upminster CC - Men's 1st XI - T20 - Won",
-      "result_applied_to": "75924",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [],
       "innings": [
         {
-          "team_batting_id": "75924",
-          "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "2",
-          "extra_wides": "5",
-          "extra_no_balls": "1",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "8",
-          "runs": "221",
-          "wickets": "5",
-          "overs": "20.0",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "20.0",
-          "revised_target_balls": ""
-        },
-        {
           "team_batting_id": "133549",
           "innings_number": 1,
-          "extra_byes": "2",
-          "extra_leg_byes": "4",
-          "extra_wides": "5",
-          "extra_no_balls": "2",
+          "extra_byes": "0",
+          "extra_leg_byes": "3",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "13",
-          "runs": "198",
-          "wickets": "9",
-          "overs": "20",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "3",
+          "runs": "35",
+          "wickets": "4",
+          "overs": "6.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "20.0",
+          "revised_target_overs": "",
           "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Thomas Duxson",
-          "score": 58,
-          "notOut": false
-        }
-      ],
+      "runs": [],
       "wickets": []
     },
     "form": [
@@ -4557,9 +4530,83 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7340810,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "16/07/2026",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "16/07/2026",
+        "match_time": "18:00",
+        "ground_name": "Coronation Park",
+        "ground_id": "9214",
+        "home_team_name": "Twenty20",
+        "home_team_id": "317502",
+        "home_club_name": "Springfield CC, Essex",
+        "home_club_id": "5866",
+        "away_team_name": "Twenty20",
+        "away_team_id": "133549",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "133549",
+        "toss": "Chelmsford CC - Twenty20 won the toss and elected to bat",
+        "batted_first": "133549",
+        "no_of_overs": "",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [],
+        "innings": [
+          {
+            "team_batting_id": "133549",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "3",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "3",
+            "runs": "35",
+            "wickets": "4",
+            "overs": "6.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:36.675Z"
+    "fetched_at": "2026-07-16T17:34:56.224Z"
   },
   {
     "team": {
@@ -5256,6 +5303,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T15:57:38.100Z"
+    "fetched_at": "2026-07-16T17:34:56.826Z"
   }
 ]

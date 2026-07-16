@@ -326,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:45.931Z"
+    "fetched_at": "2026-07-16T07:50:48.998Z"
   },
   {
     "team": {
@@ -655,7 +655,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:46.371Z"
+    "fetched_at": "2026-07-16T07:50:49.319Z"
   },
   {
     "team": {
@@ -984,7 +984,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:46.836Z"
+    "fetched_at": "2026-07-16T07:50:49.610Z"
   },
   {
     "team": {
@@ -1233,7 +1233,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:47.289Z"
+    "fetched_at": "2026-07-16T07:50:49.919Z"
   },
   {
     "team": {
@@ -1562,7 +1562,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:47.517Z"
+    "fetched_at": "2026-07-16T07:50:50.236Z"
   },
   {
     "team": {
@@ -1851,7 +1851,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:48.088Z"
+    "fetched_at": "2026-07-16T07:50:50.529Z"
   },
   {
     "team": {
@@ -2140,7 +2140,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:48.544Z"
+    "fetched_at": "2026-07-16T07:50:50.843Z"
   },
   {
     "team": {
@@ -2229,19 +2229,27 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:48.744Z"
+    "fetched_at": "2026-07-16T07:50:51.542Z"
   },
   {
     "team": {
       "name": "Twenty20",
       "id": 133549
     },
+    "fix": [],
+    "fetched_at": "2026-07-16T07:50:51.850Z"
+  },
+  {
+    "team": {
+      "name": "Womens 1st XI",
+      "id": 213007
+    },
     "fix": [
       {
-        "id": 7340810,
+        "id": 7729358,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/01/2026",
+        "last_updated": "16/07/2026",
         "league_name": "",
         "league_id": "",
         "competition_name": "",
@@ -2250,19 +2258,19 @@
         "match_type": "Limited Overs",
         "game_type": "Standard",
         "season": "2026",
-        "match_date": "16/07/2026",
+        "match_date": "17/07/2026",
         "match_time": "18:00",
-        "ground_name": "Coronation Park",
-        "ground_id": "9214",
-        "ground_latitude": "51.7417639",
-        "ground_longitude": "0.4961655",
-        "home_club_name": "Springfield CC, Essex",
-        "home_team_name": "Twenty20",
-        "home_team_id": "317502",
-        "home_club_id": "5866",
+        "ground_name": "Rye Mill Lane Ground",
+        "ground_id": "16292",
+        "ground_latitude": "51.8456346",
+        "ground_longitude": "0.7131271",
+        "home_club_name": "Kelvedon and Feering CC",
+        "home_team_name": "Womens 1st XI",
+        "home_team_id": "153004",
+        "home_club_id": "3698",
         "away_club_name": "Chelmsford CC",
-        "away_team_name": "Twenty20",
-        "away_team_id": "133549",
+        "away_team_name": "Womens 1st XI",
+        "away_team_id": "213007",
         "away_club_id": "1786",
         "umpire_1_name": "",
         "umpire_1_id": "",
@@ -2276,16 +2284,7 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": ""
-      }
-    ],
-    "fetched_at": "2026-07-15T22:55:49.230Z"
-  },
-  {
-    "team": {
-      "name": "Womens 1st XI",
-      "id": 213007
-    },
-    "fix": [
+      },
       {
         "id": 7399586,
         "status": "New",
@@ -2367,6 +2366,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-15T22:55:49.708Z"
+    "fetched_at": "2026-07-16T07:50:52.167Z"
   }
 ]

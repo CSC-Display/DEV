@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:54.518Z"
+    "fetched_at": "2026-07-16T19:51:19.212Z"
   },
   {
     "team": {
@@ -1390,7 +1390,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:55.174Z"
+    "fetched_at": "2026-07-16T19:51:20.206Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:56.043Z"
+    "fetched_at": "2026-07-16T19:51:21.232Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:57.021Z"
+    "fetched_at": "2026-07-16T19:51:22.250Z"
   },
   {
     "team": {
@@ -3515,7 +3515,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:57.983Z"
+    "fetched_at": "2026-07-16T19:51:23.254Z"
   },
   {
     "team": {
@@ -3528,7 +3528,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-16T18:45:58.190Z"
+    "fetched_at": "2026-07-16T19:51:23.676Z"
   },
   {
     "team": {
@@ -4242,7 +4242,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:58.760Z"
+    "fetched_at": "2026-07-16T19:51:24.695Z"
   },
   {
     "team": {
@@ -4255,7 +4255,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-16T18:45:58.979Z"
+    "fetched_at": "2026-07-16T19:51:25.108Z"
   },
   {
     "team": {
@@ -4304,9 +4304,9 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Springfield CC, Essex - Twenty20 - Won",
+      "result_applied_to": "317502",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -4337,16 +4337,16 @@
         {
           "team_batting_id": "317502",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "1",
           "extra_leg_byes": "1",
-          "extra_wides": "0",
+          "extra_wides": "9",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "1",
-          "runs": "20",
-          "wickets": "1",
-          "overs": "2.5",
+          "total_extras": "11",
+          "runs": "151",
+          "wickets": "9",
+          "overs": "19.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4364,7 +4364,13 @@
           "notOut": true
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Harry Jacobs",
+          "w": 3,
+          "r": "27"
+        }
+      ]
     },
     "form": [
       {
@@ -4599,9 +4605,9 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Springfield CC, Essex - Twenty20 - Won",
+        "result_applied_to": "317502",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -4632,16 +4638,16 @@
           {
             "team_batting_id": "317502",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "1",
             "extra_leg_byes": "1",
-            "extra_wides": "0",
+            "extra_wides": "9",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "1",
-            "runs": "20",
-            "wickets": "1",
-            "overs": "2.5",
+            "total_extras": "11",
+            "runs": "151",
+            "wickets": "9",
+            "overs": "19.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4652,7 +4658,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:45:59.803Z"
+    "fetched_at": "2026-07-16T19:51:26.080Z"
   },
   {
     "team": {
@@ -5349,6 +5355,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-16T18:46:00.674Z"
+    "fetched_at": "2026-07-16T19:51:27.067Z"
   }
 ]

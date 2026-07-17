@@ -326,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:18.943Z"
+    "fetched_at": "2026-07-17T07:48:09.008Z"
   },
   {
     "team": {
@@ -655,7 +655,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:19.231Z"
+    "fetched_at": "2026-07-17T07:48:09.473Z"
   },
   {
     "team": {
@@ -984,7 +984,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:19.522Z"
+    "fetched_at": "2026-07-17T07:48:09.938Z"
   },
   {
     "team": {
@@ -1233,7 +1233,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:19.787Z"
+    "fetched_at": "2026-07-17T07:48:10.390Z"
   },
   {
     "team": {
@@ -1602,7 +1602,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:20.073Z"
+    "fetched_at": "2026-07-17T07:48:10.849Z"
   },
   {
     "team": {
@@ -1851,7 +1851,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:20.322Z"
+    "fetched_at": "2026-07-17T07:48:11.289Z"
   },
   {
     "team": {
@@ -2140,7 +2140,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:20.602Z"
+    "fetched_at": "2026-07-17T07:48:11.752Z"
   },
   {
     "team": {
@@ -2229,7 +2229,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:20.851Z"
+    "fetched_at": "2026-07-17T07:48:12.198Z"
   },
   {
     "team": {
@@ -2237,7 +2237,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-16T22:54:21.115Z"
+    "fetched_at": "2026-07-17T07:48:12.650Z"
   },
   {
     "team": {
@@ -2245,46 +2245,6 @@
       "id": 213007
     },
     "fix": [
-      {
-        "id": 7729358,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "16/07/2026",
-        "league_name": "",
-        "league_id": "",
-        "competition_name": "",
-        "competition_id": "",
-        "competition_type": "Friendly",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "17/07/2026",
-        "match_time": "18:00",
-        "ground_name": "Rye Mill Lane Ground",
-        "ground_id": "16292",
-        "ground_latitude": "51.8456346",
-        "ground_longitude": "0.7131271",
-        "home_club_name": "Kelvedon and Feering CC",
-        "home_team_name": "Womens 1st XI",
-        "home_team_id": "153004",
-        "home_club_id": "3698",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Womens 1st XI",
-        "away_team_id": "213007",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7399586,
         "status": "New",
@@ -2366,6 +2326,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-16T22:54:21.392Z"
+    "fetched_at": "2026-07-17T07:48:13.118Z"
   }
 ]

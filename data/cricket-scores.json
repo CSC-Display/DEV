@@ -51,7 +51,7 @@
       "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)<br/>46.3 6th Wicket: 50 runs in 75 balls, 57 minutes, James Clifford 25 (27), Brad Green 23 (48), 2 extras<br/>47.5 Chelmsford CC Sat 1st XI: 200 runs in 47.5 overs, 192 minutes, 18 extras<br/>53.3 James Clifford: 100 runs in 119 balls, 153 minutes (16x4)<br/>53.3 6th Wicket: 100 runs in 117 balls, 80 minutes, James Clifford 59 (54), Brad Green 39 (63), 2 extras<br/>54.2 Chelmsford CC Sat 1st XI: 250 runs in 54.2 overs, 215 minutes, 22 extras<br/>55.1 Brad Green: 50 runs in 71 balls, 86 minutes (7x4)\n<br/>\n",
@@ -643,7 +643,7 @@
         "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)<br/>46.3 6th Wicket: 50 runs in 75 balls, 57 minutes, James Clifford 25 (27), Brad Green 23 (48), 2 extras<br/>47.5 Chelmsford CC Sat 1st XI: 200 runs in 47.5 overs, 192 minutes, 18 extras<br/>53.3 James Clifford: 100 runs in 119 balls, 153 minutes (16x4)<br/>53.3 6th Wicket: 100 runs in 117 balls, 80 minutes, James Clifford 59 (54), Brad Green 39 (63), 2 extras<br/>54.2 Chelmsford CC Sat 1st XI: 250 runs in 54.2 overs, 215 minutes, 22 extras<br/>55.1 Brad Green: 50 runs in 71 balls, 86 minutes (7x4)\n<br/>\n",
@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:21.597Z"
+    "fetched_at": "2026-07-18T22:30:13.579Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:22.241Z"
+    "fetched_at": "2026-07-18T22:30:15.135Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:22.896Z"
+    "fetched_at": "2026-07-18T22:30:16.727Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:23.540Z"
+    "fetched_at": "2026-07-18T22:30:18.537Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:24.134Z"
+    "fetched_at": "2026-07-18T22:30:19.771Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T21:32:24.328Z"
+    "fetched_at": "2026-07-18T22:30:20.452Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:24.936Z"
+    "fetched_at": "2026-07-18T22:30:21.942Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T21:32:25.145Z"
+    "fetched_at": "2026-07-18T22:30:22.633Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:25.663Z"
+    "fetched_at": "2026-07-18T22:30:23.678Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T21:32:26.251Z"
+    "fetched_at": "2026-07-18T22:30:25.180Z"
   }
 ]

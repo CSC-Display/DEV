@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:03.306Z"
+    "fetched_at": "2026-07-18T19:46:38.764Z"
   },
   {
     "team": {
@@ -765,7 +765,7 @@
       "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
       "result_applied_to": "24294",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Woodford Wells CC 2nd XI Innings</b><br/>\n12.6 Woodford Wells CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.5 Chelmsford CC Sat 2nd XI: 50 runs in 10.5 overs, 32 minutes, 2 extras\n<br/>\n",
@@ -1351,7 +1351,7 @@
         "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
         "result_applied_to": "24294",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Woodford Wells CC 2nd XI Innings</b><br/>\n12.6 Woodford Wells CC 2nd XI: 50 runs in 13.0 overs, 43 minutes, 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.5 Chelmsford CC Sat 2nd XI: 50 runs in 10.5 overs, 32 minutes, 2 extras\n<br/>\n",
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:04.928Z"
+    "fetched_at": "2026-07-18T19:46:40.263Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:06.461Z"
+    "fetched_at": "2026-07-18T19:46:41.759Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:08.120Z"
+    "fetched_at": "2026-07-18T19:46:43.258Z"
   },
   {
     "team": {
@@ -2874,9 +2874,9 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 5th XI - Won",
+      "result_applied_to": "45348",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -2907,16 +2907,16 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "129",
+          "wickets": "4",
+          "overs": "30.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3429,9 +3429,9 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 5th XI - Won",
+        "result_applied_to": "45348",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3462,16 +3462,16 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "",
-            "extra_leg_byes": "",
-            "extra_wides": "",
-            "extra_no_balls": "",
-            "extra_penalty_runs": "",
-            "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "",
-            "runs": "",
-            "wickets": "",
-            "overs": "",
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "129",
+            "wickets": "4",
+            "overs": "30.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:09.652Z"
+    "fetched_at": "2026-07-18T19:46:44.694Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T18:30:10.322Z"
+    "fetched_at": "2026-07-18T19:46:45.360Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:11.873Z"
+    "fetched_at": "2026-07-18T19:46:46.832Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T18:30:12.608Z"
+    "fetched_at": "2026-07-18T19:46:47.487Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:14.083Z"
+    "fetched_at": "2026-07-18T19:46:48.899Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T18:30:15.596Z"
+    "fetched_at": "2026-07-18T19:46:50.362Z"
   }
 ]

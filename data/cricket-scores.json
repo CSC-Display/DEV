@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n",
+      "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras\n<br/>\n",
       "points": [
         {
           "team_id": 37537,
@@ -86,9 +86,29 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "14",
-          "runs": "318",
+          "runs": "328",
           "wickets": "6",
-          "overs": "63",
+          "overs": "64",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24293",
+          "innings_number": 1,
+          "extra_byes": "4",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "5",
+          "runs": "55",
+          "wickets": "2",
+          "overs": "11",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -615,7 +635,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n",
+        "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras\n<br/>\n",
         "points": [
           {
             "team_id": 37537,
@@ -647,9 +667,29 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "14",
-            "runs": "318",
+            "runs": "328",
             "wickets": "6",
-            "overs": "63",
+            "overs": "64",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24293",
+            "innings_number": 1,
+            "extra_byes": "4",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "5",
+            "runs": "55",
+            "wickets": "2",
+            "overs": "11",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -660,7 +700,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:26.678Z"
+    "fetched_at": "2026-07-18T15:15:46.738Z"
   },
   {
     "team": {
@@ -713,7 +753,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
       "result_applied_to": "24294",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -1299,7 +1339,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 2nd)",
         "result_applied_to": "24294",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -1368,7 +1408,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:27.747Z"
+    "fetched_at": "2026-07-18T15:15:47.527Z"
   },
   {
     "team": {
@@ -1460,6 +1500,26 @@
           "runs": "203",
           "wickets": "10",
           "overs": "49.5",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "19019",
+          "innings_number": 1,
+          "extra_byes": "2",
+          "extra_leg_byes": "0",
+          "extra_wides": "1",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "3",
+          "runs": "54",
+          "wickets": "0",
+          "overs": "13.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2021,11 +2081,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "19019",
+            "innings_number": 1,
+            "extra_byes": "2",
+            "extra_leg_byes": "0",
+            "extra_wides": "1",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "3",
+            "runs": "54",
+            "wickets": "0",
+            "overs": "13.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:29.261Z"
+    "fetched_at": "2026-07-18T15:15:48.935Z"
   },
   {
     "team": {
@@ -2728,7 +2808,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:30.027Z"
+    "fetched_at": "2026-07-18T15:15:49.695Z"
   },
   {
     "team": {
@@ -3345,7 +3425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:31.962Z"
+    "fetched_at": "2026-07-18T15:15:51.192Z"
   },
   {
     "team": {
@@ -3358,7 +3438,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T14:09:32.364Z"
+    "fetched_at": "2026-07-18T15:15:51.483Z"
   },
   {
     "team": {
@@ -4072,7 +4152,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:33.490Z"
+    "fetched_at": "2026-07-18T15:15:52.151Z"
   },
   {
     "team": {
@@ -4085,7 +4165,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T14:09:33.915Z"
+    "fetched_at": "2026-07-18T15:15:52.617Z"
   },
   {
     "team": {
@@ -4488,7 +4568,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:35.934Z"
+    "fetched_at": "2026-07-18T15:15:53.462Z"
   },
   {
     "team": {
@@ -5185,6 +5265,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T14:09:37.142Z"
+    "fetched_at": "2026-07-18T15:15:54.615Z"
   }
 ]

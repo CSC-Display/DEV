@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-18T17:46:08.506Z",
+  "generated_at": "2026-07-18T22:44:55.807Z",
   "match_count": 89,
   "scorecards_processed": 84,
   "batting": [
@@ -176,6 +176,23 @@
       "hundreds": 1
     },
     {
+      "player": "James Clifford",
+      "teams": "Sat 1st XI, Twenty20",
+      "matches": 12,
+      "innings": 12,
+      "not_outs": 3,
+      "runs": 364,
+      "balls": 494,
+      "fours": 52,
+      "sixes": 3,
+      "high_score": 106,
+      "high_score_display": "106*",
+      "average": 40.44444444444444,
+      "strike_rate": 73.68421052631578,
+      "fifties": 2,
+      "hundreds": 1
+    },
+    {
       "player": "Dan Hagen",
       "teams": "Sat 1st XI, Sat 2nd XI",
       "matches": 14,
@@ -191,23 +208,6 @@
       "strike_rate": 73.13131313131314,
       "fifties": 0,
       "hundreds": 1
-    },
-    {
-      "player": "James Clifford",
-      "teams": "Sat 1st XI, Twenty20",
-      "matches": 12,
-      "innings": 12,
-      "not_outs": 3,
-      "runs": 317,
-      "balls": 453,
-      "fours": 44,
-      "sixes": 3,
-      "high_score": 70,
-      "high_score_display": "70",
-      "average": 35.22222222222222,
-      "strike_rate": 69.97792494481236,
-      "fifties": 3,
-      "hundreds": 0
     },
     {
       "player": "Dinil Siriwardana",

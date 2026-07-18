@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:46:08.587Z",
+  "generated_at": "2026-07-18T22:44:55.990Z",
   "season": "2026",
   "centuries": [
     {
@@ -100,6 +100,17 @@
       "opposition": "Stanford Le Hope CC 4th XI",
       "date": "30/05/2026",
       "match_id": 7462388
+    },
+    {
+      "player": "James Clifford",
+      "runs": 106,
+      "score": "106*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Hornchurch CC 1st XI",
+      "date": "18/07/2026",
+      "match_id": 7325301
     },
     {
       "player": "Tom Iliffe",
@@ -599,17 +610,6 @@
       "match_id": 7325282
     },
     {
-      "player": "James Clifford",
-      "runs": 59,
-      "score": "59*",
-      "not_out": true,
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Hornchurch CC 1st XI",
-      "date": "18/07/2026",
-      "match_id": 7325301
-    },
-    {
       "player": "Abhijeet Kumar",
       "runs": 58,
       "score": "58",
@@ -872,6 +872,17 @@
       "opposition": "Braintree CC 3rd XI",
       "date": "25/04/2026",
       "match_id": 7506920
+    },
+    {
+      "player": "Brad Green",
+      "runs": 50,
+      "score": "50*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Hornchurch CC 1st XI",
+      "date": "18/07/2026",
+      "match_id": 7325301
     },
     {
       "player": "Deepak Reddy Singireddy",

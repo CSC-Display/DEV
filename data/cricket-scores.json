@@ -47,31 +47,31 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "D",
+      "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)\n<br/>\n",
+      "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)<br/>46.3 6th Wicket: 50 runs in 75 balls, 57 minutes, James Clifford 25 (27), Brad Green 23 (48), 2 extras<br/>47.5 Chelmsford CC Sat 1st XI: 200 runs in 47.5 overs, 192 minutes, 18 extras<br/>53.3 James Clifford: 100 runs in 119 balls, 153 minutes (16x4)<br/>53.3 6th Wicket: 100 runs in 117 balls, 80 minutes, James Clifford 59 (54), Brad Green 39 (63), 2 extras<br/>54.2 Chelmsford CC Sat 1st XI: 250 runs in 54.2 overs, 215 minutes, 22 extras<br/>55.1 Brad Green: 50 runs in 71 balls, 86 minutes (7x4)\n<br/>\n",
       "points": [
         {
           "team_id": 37537,
-          "game_points": "0",
+          "game_points": "3",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "10.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "3",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "10",
+          "extra_byes": "14",
           "extra_leg_byes": "6",
           "extra_wides": "0",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "181",
+          "total_extras": "22",
+          "runs": "260",
           "wickets": "5",
-          "overs": "44",
+          "overs": "56",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -122,7 +122,12 @@
       "runs": [
         {
           "name": "James Clifford",
-          "score": 59,
+          "score": 106,
+          "notOut": true
+        },
+        {
+          "name": "Brad Green",
+          "score": 50,
           "notOut": true
         }
       ],
@@ -634,31 +639,31 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "D",
+        "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)\n<br/>\n",
+        "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n13.1 Hornchurch CC 1st XI: 50 runs in 13.1 overs, 51 minutes, 12 extras<br/>29.4 Hornchurch CC 1st XI: 100 runs in 29.4 overs, 104 minutes, 14 extras<br/>41.3 George Hankins: 50 runs in 93 balls, 75 minutes (6x4)<br/>42.1 Hornchurch CC 1st XI: 150 runs in 42.1 overs, 136 minutes, 14 extras<br/>43.4 5th Wicket: 50 runs in 58 balls, 26 minutes, George Hankins 23 (34), Adeel Malik 27 (24), 0 extras<br/>48.3 Hornchurch CC 1st XI: 200 runs in 48.3 overs, 153 minutes, 14 extras<br/>48.5 Adeel Malik: 50 runs in 40 balls, 39 minutes (5x4, 3x6)<br/>48.5 5th Wicket: 100 runs in 89 balls, 39 minutes, George Hankins 50 (49), Adeel Malik 51 (40), 0 extras<br/>54.4 Hornchurch CC 1st XI: 250 runs in 54.4 overs, 177 minutes, 14 extras<br/>60.4 Hornchurch CC 1st XI: 300 runs in 60.4 overs, 199 minutes, 14 extras<br/>62.1 Adeel Malik: 100 runs in 77 balls, 89 minutes (10x4, 4x6)\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n9.2 Chelmsford CC Sat 1st XI: 50 runs in 9.2 overs, 44 minutes, 5 extras<br/>26.1 Chelmsford CC Sat 1st XI: 100 runs in 26.1 overs, 101 minutes, 8 extras<br/>28.1 4th Wicket: 50 runs in 91 balls, 50 minutes, Dan Hagen 13 (42), James Clifford 31 (49), 7 extras<br/>39.2 Chelmsford CC Sat 1st XI: 150 runs in 39.2 overs, 155 minutes, 16 extras<br/>40.6 James Clifford: 50 runs in 79 balls, 105 minutes (8x4)<br/>46.3 6th Wicket: 50 runs in 75 balls, 57 minutes, James Clifford 25 (27), Brad Green 23 (48), 2 extras<br/>47.5 Chelmsford CC Sat 1st XI: 200 runs in 47.5 overs, 192 minutes, 18 extras<br/>53.3 James Clifford: 100 runs in 119 balls, 153 minutes (16x4)<br/>53.3 6th Wicket: 100 runs in 117 balls, 80 minutes, James Clifford 59 (54), Brad Green 39 (63), 2 extras<br/>54.2 Chelmsford CC Sat 1st XI: 250 runs in 54.2 overs, 215 minutes, 22 extras<br/>55.1 Brad Green: 50 runs in 71 balls, 86 minutes (7x4)\n<br/>\n",
         "points": [
           {
             "team_id": 37537,
-            "game_points": "0",
+            "game_points": "3",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "10.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "3",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -686,16 +691,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "10",
+            "extra_byes": "14",
             "extra_leg_byes": "6",
             "extra_wides": "0",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "181",
+            "total_extras": "22",
+            "runs": "260",
             "wickets": "5",
-            "overs": "44",
+            "overs": "56",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -706,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:44:51.765Z"
+    "fetched_at": "2026-07-18T18:30:03.306Z"
   },
   {
     "team": {
@@ -1414,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:44:53.339Z"
+    "fetched_at": "2026-07-18T18:30:04.928Z"
   },
   {
     "team": {
@@ -2117,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:44:55.064Z"
+    "fetched_at": "2026-07-18T18:30:06.461Z"
   },
   {
     "team": {
@@ -2820,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:44:56.175Z"
+    "fetched_at": "2026-07-18T18:30:08.120Z"
   },
   {
     "team": {
@@ -3477,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:44:57.757Z"
+    "fetched_at": "2026-07-18T18:30:09.652Z"
   },
   {
     "team": {
@@ -3490,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T17:44:58.519Z"
+    "fetched_at": "2026-07-18T18:30:10.322Z"
   },
   {
     "team": {
@@ -4204,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:45:00.010Z"
+    "fetched_at": "2026-07-18T18:30:11.873Z"
   },
   {
     "team": {
@@ -4217,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-18T17:45:00.681Z"
+    "fetched_at": "2026-07-18T18:30:12.608Z"
   },
   {
     "team": {
@@ -4620,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:45:02.146Z"
+    "fetched_at": "2026-07-18T18:30:14.083Z"
   },
   {
     "team": {
@@ -5317,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-18T17:45:03.321Z"
+    "fetched_at": "2026-07-18T18:30:15.596Z"
   }
 ]

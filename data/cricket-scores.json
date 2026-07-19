@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:46.923Z"
+    "fetched_at": "2026-07-19T07:13:44.513Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:47.947Z"
+    "fetched_at": "2026-07-19T07:13:46.089Z"
   },
   {
     "team": {
@@ -1430,7 +1430,7 @@
       "id": 7461872,
       "status": "New",
       "published": "Yes",
-      "last_updated": "18/07/2026",
+      "last_updated": "19/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1472,7 +1472,7 @@
       "result": "W",
       "result_description": "Harold Wood CC - 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "19019",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2011,7 +2011,7 @@
         "id": 7461872,
         "status": "New",
         "published": "Yes",
-        "last_updated": "18/07/2026",
+        "last_updated": "19/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2053,7 +2053,7 @@
         "result": "W",
         "result_description": "Harold Wood CC - 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "19019",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:48.981Z"
+    "fetched_at": "2026-07-19T07:13:47.246Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:50.001Z"
+    "fetched_at": "2026-07-19T07:13:48.815Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:51.001Z"
+    "fetched_at": "2026-07-19T07:13:50.311Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T04:35:51.425Z"
+    "fetched_at": "2026-07-19T07:13:50.950Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:52.411Z"
+    "fetched_at": "2026-07-19T07:13:52.471Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T04:35:52.854Z"
+    "fetched_at": "2026-07-19T07:13:53.149Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:53.798Z"
+    "fetched_at": "2026-07-19T07:13:54.164Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T04:35:54.806Z"
+    "fetched_at": "2026-07-19T07:13:55.263Z"
   }
 ]

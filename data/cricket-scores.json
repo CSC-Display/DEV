@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:26.409Z"
+    "fetched_at": "2026-07-19T18:42:08.681Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:27.973Z"
+    "fetched_at": "2026-07-19T18:42:09.714Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:29.532Z"
+    "fetched_at": "2026-07-19T18:42:10.750Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:31.063Z"
+    "fetched_at": "2026-07-19T18:42:11.791Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:32.568Z"
+    "fetched_at": "2026-07-19T18:42:12.773Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T17:46:33.219Z"
+    "fetched_at": "2026-07-19T18:42:13.217Z"
   },
   {
     "team": {
@@ -3545,9 +3545,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - NECL 1st XI - Won",
+      "result_applied_to": "324716",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3556,20 +3556,20 @@
       "points": [
         {
           "team_id": 324716,
-          "game_points": "0",
+          "game_points": "15",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "5.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "5.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 207266,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "7.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -3597,16 +3597,16 @@
         {
           "team_batting_id": "207266",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "9",
-          "extra_no_balls": "4",
+          "extra_byes": "5",
+          "extra_leg_byes": "1",
+          "extra_wides": "17",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "13",
-          "runs": "95",
-          "wickets": "6",
-          "overs": "21.0",
+          "total_extras": "28",
+          "runs": "178",
+          "wickets": "10",
+          "overs": "34.2",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3629,6 +3629,11 @@
           "name": "Alex Bayha",
           "w": 3,
           "r": "30"
+        },
+        {
+          "name": "Thom Wilshaw",
+          "w": 3,
+          "r": "15"
         }
       ]
     },
@@ -4132,9 +4137,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - NECL 1st XI - Won",
+        "result_applied_to": "324716",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -4143,20 +4148,20 @@
         "points": [
           {
             "team_id": 324716,
-            "game_points": "0",
+            "game_points": "15",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "5.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "5.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 207266,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "7.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -4184,16 +4189,16 @@
           {
             "team_batting_id": "207266",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "9",
-            "extra_no_balls": "4",
+            "extra_byes": "5",
+            "extra_leg_byes": "1",
+            "extra_wides": "17",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "95",
-            "wickets": "6",
-            "overs": "21.0",
+            "total_extras": "28",
+            "runs": "178",
+            "wickets": "10",
+            "overs": "34.2",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4204,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:34.717Z"
+    "fetched_at": "2026-07-19T18:42:14.214Z"
   },
   {
     "team": {
@@ -4217,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T17:46:35.363Z"
+    "fetched_at": "2026-07-19T18:42:14.650Z"
   },
   {
     "team": {
@@ -4620,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:36.813Z"
+    "fetched_at": "2026-07-19T18:42:15.601Z"
   },
   {
     "team": {
@@ -5317,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T17:46:38.229Z"
+    "fetched_at": "2026-07-19T18:42:16.594Z"
   }
 ]

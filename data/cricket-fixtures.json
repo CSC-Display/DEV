@@ -246,6 +246,46 @@
         "scorer_2_id": ""
       },
       {
+        "id": 7731669,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "19/07/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Dukes Essex League Cup",
+        "competition_id": "68990",
+        "competition_type": "Cup",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "31/08/2026",
+        "match_time": "12:00",
+        "ground_name": "Wanstead Cricket Club",
+        "ground_id": "11878",
+        "ground_latitude": "51.5716446",
+        "ground_longitude": "0.0340633",
+        "home_club_name": "Wanstead & Snaresbrook CC",
+        "home_team_name": "1st XI LC ",
+        "home_team_id": "178206",
+        "home_club_id": "6647",
+        "away_club_name": "Chelmsford CC",
+        "away_team_name": "Sat 1st XI",
+        "away_team_id": "24293",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
+      },
+      {
         "id": 7325338,
         "status": "New",
         "published": "Yes",
@@ -286,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:46.281Z"
+    "fetched_at": "2026-07-19T22:47:20.105Z"
   },
   {
     "team": {
@@ -575,7 +615,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:47.031Z"
+    "fetched_at": "2026-07-19T22:47:20.588Z"
   },
   {
     "team": {
@@ -864,7 +904,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:47.351Z"
+    "fetched_at": "2026-07-19T22:47:21.071Z"
   },
   {
     "team": {
@@ -1113,7 +1153,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:48.058Z"
+    "fetched_at": "2026-07-19T22:47:21.541Z"
   },
   {
     "team": {
@@ -1402,7 +1442,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:48.774Z"
+    "fetched_at": "2026-07-19T22:47:21.980Z"
   },
   {
     "team": {
@@ -1651,7 +1691,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:49.458Z"
+    "fetched_at": "2026-07-19T22:47:22.434Z"
   },
   {
     "team": {
@@ -1900,7 +1940,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:50.189Z"
+    "fetched_at": "2026-07-19T22:47:22.906Z"
   },
   {
     "team": {
@@ -1989,7 +2029,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:50.882Z"
+    "fetched_at": "2026-07-19T22:47:23.377Z"
   },
   {
     "team": {
@@ -1997,7 +2037,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-19T17:46:51.179Z"
+    "fetched_at": "2026-07-19T22:47:23.597Z"
   },
   {
     "team": {
@@ -2086,6 +2126,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-19T17:46:51.485Z"
+    "fetched_at": "2026-07-19T22:47:24.064Z"
   }
 ]

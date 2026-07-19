@@ -8,7 +8,7 @@
       "id": 7325301,
       "status": "New",
       "published": "Yes",
-      "last_updated": "18/07/2026",
+      "last_updated": "19/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -50,7 +50,7 @@
       "result": "D",
       "result_description": "Draw",
       "result_applied_to": "",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -600,7 +600,7 @@
         "id": 7325301,
         "status": "New",
         "published": "Yes",
-        "last_updated": "18/07/2026",
+        "last_updated": "19/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -642,7 +642,7 @@
         "result": "D",
         "result_description": "Draw",
         "result_applied_to": "",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:36.164Z"
+    "fetched_at": "2026-07-19T22:47:05.374Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:37.216Z"
+    "fetched_at": "2026-07-19T22:47:06.417Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:38.264Z"
+    "fetched_at": "2026-07-19T22:47:07.400Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:39.302Z"
+    "fetched_at": "2026-07-19T22:47:08.468Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:40.286Z"
+    "fetched_at": "2026-07-19T22:47:09.418Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T22:07:40.717Z"
+    "fetched_at": "2026-07-19T22:47:09.838Z"
   },
   {
     "team": {
@@ -3527,16 +3527,16 @@
       "away_team_id": "207266",
       "away_club_name": "Frinton On Sea CC",
       "away_club_id": "2819",
-      "umpire_1_name": "",
-      "umpire_1_id": "",
+      "umpire_1_name": "Stuart Careless",
+      "umpire_1_id": "7168673",
       "umpire_2_name": "",
       "umpire_2_id": "",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "",
-      "scorer_1_id": "",
+      "scorer_1_name": "John Graham",
+      "scorer_1_id": "5962869",
       "scorer_2_name": "",
       "scorer_2_id": "",
       "toss_won_by_team_id": "324716",
@@ -4119,16 +4119,16 @@
         "away_team_id": "207266",
         "away_club_name": "Frinton On Sea CC",
         "away_club_id": "2819",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
+        "umpire_1_name": "Stuart Careless",
+        "umpire_1_id": "7168673",
         "umpire_2_name": "",
         "umpire_2_id": "",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "John Graham",
+        "scorer_1_id": "5962869",
         "scorer_2_name": "",
         "scorer_2_id": "",
         "toss_won_by_team_id": "324716",
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:41.750Z"
+    "fetched_at": "2026-07-19T22:47:10.855Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T22:07:42.160Z"
+    "fetched_at": "2026-07-19T22:47:11.277Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:43.133Z"
+    "fetched_at": "2026-07-19T22:47:12.199Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T22:07:44.153Z"
+    "fetched_at": "2026-07-19T22:47:13.191Z"
   }
 ]

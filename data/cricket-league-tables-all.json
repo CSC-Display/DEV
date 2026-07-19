@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:12.591Z"
+      "fetched_at": "2026-07-19T07:53:32.395Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:13.769Z"
+      "fetched_at": "2026-07-19T07:53:33.592Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:14.268Z"
+      "fetched_at": "2026-07-19T07:53:34.452Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:14.828Z"
+      "fetched_at": "2026-07-19T07:53:35.300Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:15.350Z"
+      "fetched_at": "2026-07-19T07:53:35.801Z"
     },
     "data": {
       "id": 135332,
@@ -1060,6 +1060,24 @@
         },
         {
           "position": "2",
+          "team_id": "198992",
+          "column_1": "Orsett & Thurrock CC - 6th XI",
+          "column_2": "11",
+          "column_3": "6",
+          "column_4": "2",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "2",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "10",
+          "column_12": "0",
+          "column_13": "8",
+          "column_14": "176"
+        },
+        {
+          "position": "3",
           "team_id": "207139",
           "column_1": "Shenfield CC - 5th XI",
           "column_2": "11",
@@ -1077,7 +1095,7 @@
           "column_14": "176"
         },
         {
-          "position": "3",
+          "position": "4",
           "team_id": "23961",
           "column_1": "Old Southendian & Southchurch CC - 4th XI",
           "column_2": "11",
@@ -1093,24 +1111,6 @@
           "column_12": "0",
           "column_13": "7",
           "column_14": "158"
-        },
-        {
-          "position": "4",
-          "team_id": "198992",
-          "column_1": "Orsett & Thurrock CC - 6th XI",
-          "column_2": "10",
-          "column_3": "6",
-          "column_4": "2",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "10",
-          "column_12": "0",
-          "column_13": "7",
-          "column_14": "156"
         },
         {
           "position": "5",
@@ -1222,24 +1222,6 @@
         },
         {
           "position": "11",
-          "team_id": "318025",
-          "column_1": "Billericay CC - 6th XI",
-          "column_2": "10",
-          "column_3": "3",
-          "column_4": "5",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "1",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "25",
-          "column_12": "10",
-          "column_13": "3",
-          "column_14": "76"
-        },
-        {
-          "position": "12",
           "team_id": "293194",
           "column_1": "Westcliff-On-Sea CC - 6th XI",
           "column_2": "11",
@@ -1255,6 +1237,24 @@
           "column_12": "0",
           "column_13": "3",
           "column_14": "75"
+        },
+        {
+          "position": "12",
+          "team_id": "318025",
+          "column_1": "Billericay CC - 6th XI",
+          "column_2": "11",
+          "column_3": "3",
+          "column_4": "5",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "2",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "25",
+          "column_12": "10",
+          "column_13": "3",
+          "column_14": "71"
         },
         {
           "position": "13",
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:15.997Z"
+      "fetched_at": "2026-07-19T07:53:36.755Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-07-18T22:44:16.716Z"
+      "fetched_at": "2026-07-19T07:53:38.244Z"
     },
     "data": {
       "id": 137056,

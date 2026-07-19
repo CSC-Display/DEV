@@ -286,7 +286,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:18.197Z"
+    "fetched_at": "2026-07-19T07:53:40.110Z"
   },
   {
     "team": {
@@ -575,7 +575,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:18.514Z"
+    "fetched_at": "2026-07-19T07:53:40.598Z"
   },
   {
     "team": {
@@ -864,7 +864,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:19.216Z"
+    "fetched_at": "2026-07-19T07:53:41.769Z"
   },
   {
     "team": {
@@ -1113,7 +1113,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:19.530Z"
+    "fetched_at": "2026-07-19T07:53:42.251Z"
   },
   {
     "team": {
@@ -1402,7 +1402,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:19.853Z"
+    "fetched_at": "2026-07-19T07:53:42.727Z"
   },
   {
     "team": {
@@ -1651,7 +1651,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:20.140Z"
+    "fetched_at": "2026-07-19T07:53:43.188Z"
   },
   {
     "team": {
@@ -1659,46 +1659,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7507212,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "24/02/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "19/07/2026",
-        "match_time": "13:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "NECL 1st XI",
-        "home_team_id": "324716",
-        "home_club_id": "1786",
-        "away_club_name": "Frinton On Sea CC",
-        "away_team_name": "Sunday Challenge",
-        "away_team_id": "207266",
-        "away_club_id": "2819",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7510284,
         "status": "New",
@@ -1940,7 +1900,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:20.439Z"
+    "fetched_at": "2026-07-19T07:53:43.661Z"
   },
   {
     "team": {
@@ -2029,7 +1989,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:20.731Z"
+    "fetched_at": "2026-07-19T07:53:44.087Z"
   },
   {
     "team": {
@@ -2037,7 +1997,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-18T22:44:21.047Z"
+    "fetched_at": "2026-07-19T07:53:44.565Z"
   },
   {
     "team": {
@@ -2126,6 +2086,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-18T22:44:21.355Z"
+    "fetched_at": "2026-07-19T07:53:45.072Z"
   }
 ]

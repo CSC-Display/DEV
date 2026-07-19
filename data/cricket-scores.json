@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:01.987Z"
+    "fetched_at": "2026-07-19T16:39:20.588Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:02.688Z"
+    "fetched_at": "2026-07-19T16:39:21.650Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:03.476Z"
+    "fetched_at": "2026-07-19T16:39:22.728Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:04.888Z"
+    "fetched_at": "2026-07-19T16:39:23.753Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:06.213Z"
+    "fetched_at": "2026-07-19T16:39:24.726Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T15:42:06.411Z"
+    "fetched_at": "2026-07-19T16:39:24.918Z"
   },
   {
     "team": {
@@ -3604,9 +3604,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "13",
-          "runs": "33",
-          "wickets": "1",
-          "overs": "5.0",
+          "runs": "72",
+          "wickets": "4",
+          "overs": "17.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3624,7 +3624,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Alex Bayha",
+          "w": 3,
+          "r": "30"
+        }
+      ]
     },
     "form": [
       {
@@ -4185,9 +4191,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "13",
-            "runs": "33",
-            "wickets": "1",
-            "overs": "5.0",
+            "runs": "72",
+            "wickets": "4",
+            "overs": "17.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4198,7 +4204,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:07.096Z"
+    "fetched_at": "2026-07-19T16:39:25.935Z"
   },
   {
     "team": {
@@ -4211,7 +4217,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-19T15:42:07.314Z"
+    "fetched_at": "2026-07-19T16:39:26.353Z"
   },
   {
     "team": {
@@ -4614,7 +4620,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:07.853Z"
+    "fetched_at": "2026-07-19T16:39:27.070Z"
   },
   {
     "team": {
@@ -5311,6 +5317,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-19T15:42:08.476Z"
+    "fetched_at": "2026-07-19T16:39:28.049Z"
   }
 ]

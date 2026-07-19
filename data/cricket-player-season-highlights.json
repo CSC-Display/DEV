@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T07:54:36.445Z",
+  "generated_at": "2026-07-19T17:47:37.139Z",
   "season": "2026",
   "centuries": [
     {
@@ -256,6 +256,17 @@
       "opposition": "IPSCOL CC Sunday 1st XI",
       "date": "12/07/2026",
       "match_id": 7507207
+    },
+    {
+      "player": "Harry Jacobs",
+      "runs": 84,
+      "score": "84",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Frinton On Sea CC Sunday Challenge",
+      "date": "19/07/2026",
+      "match_id": 7507212
     },
     {
       "player": "Elliot Wenzel",

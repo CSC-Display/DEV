@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:53.578Z"
+    "fetched_at": "2026-07-20T07:34:56.469Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:54.259Z"
+    "fetched_at": "2026-07-20T07:34:57.953Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:54.922Z"
+    "fetched_at": "2026-07-20T07:34:59.405Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:55.574Z"
+    "fetched_at": "2026-07-20T07:35:00.903Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
       "id": 7729761,
       "status": "New",
       "published": "Yes",
-      "last_updated": "18/07/2026",
+      "last_updated": "20/07/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -2878,7 +2878,7 @@
       "result_description": "Chelmsford CC - Sat 5th XI - Won",
       "result_applied_to": "45348",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3391,7 +3391,7 @@
         "id": 7729761,
         "status": "New",
         "published": "Yes",
-        "last_updated": "18/07/2026",
+        "last_updated": "20/07/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -3433,7 +3433,7 @@
         "result_description": "Chelmsford CC - Sat 5th XI - Won",
         "result_applied_to": "45348",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:56.163Z"
+    "fetched_at": "2026-07-20T07:35:02.344Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-20T04:10:56.364Z"
+    "fetched_at": "2026-07-20T07:35:02.968Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:56.962Z"
+    "fetched_at": "2026-07-20T07:35:04.451Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-20T04:10:57.176Z"
+    "fetched_at": "2026-07-20T07:35:05.100Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:57.738Z"
+    "fetched_at": "2026-07-20T07:35:06.516Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-20T04:10:58.336Z"
+    "fetched_at": "2026-07-20T07:35:07.974Z"
   }
 ]

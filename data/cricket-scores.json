@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:52:56.530Z"
+    "fetched_at": "2026-07-21T14:05:35.219Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:52:58.154Z"
+    "fetched_at": "2026-07-21T14:05:35.907Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:52:59.709Z"
+    "fetched_at": "2026-07-21T14:05:37.037Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:53:01.272Z"
+    "fetched_at": "2026-07-21T14:05:37.868Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:53:02.791Z"
+    "fetched_at": "2026-07-21T14:05:38.655Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-21T11:53:03.489Z"
+    "fetched_at": "2026-07-21T14:05:39.080Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:53:04.231Z"
+    "fetched_at": "2026-07-21T14:05:40.087Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-21T11:53:04.916Z"
+    "fetched_at": "2026-07-21T14:05:40.512Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:53:06.033Z"
+    "fetched_at": "2026-07-21T14:05:41.220Z"
   },
   {
     "team": {
@@ -4636,7 +4636,7 @@
       "id": 7399563,
       "status": "New",
       "published": "Yes",
-      "last_updated": "05/07/2026",
+      "last_updated": "21/07/2026",
       "league_name": "Essex Women's T20 League",
       "league_id": "12600",
       "competition_name": "South Division 2",
@@ -4680,7 +4680,7 @@
       "result_applied_to": "213007",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -5211,7 +5211,7 @@
         "id": 7399563,
         "status": "New",
         "published": "Yes",
-        "last_updated": "05/07/2026",
+        "last_updated": "21/07/2026",
         "league_name": "Essex Women's T20 League",
         "league_id": "12600",
         "competition_name": "South Division 2",
@@ -5255,7 +5255,7 @@
         "result_applied_to": "213007",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T11:53:07.158Z"
+    "fetched_at": "2026-07-21T14:05:42.211Z"
   }
 ]

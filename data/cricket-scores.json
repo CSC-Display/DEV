@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:51:58.023Z"
+    "fetched_at": "2026-07-21T17:26:17.130Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:51:58.772Z"
+    "fetched_at": "2026-07-21T17:26:18.604Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:51:59.393Z"
+    "fetched_at": "2026-07-21T17:26:20.115Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:52:00.115Z"
+    "fetched_at": "2026-07-21T17:26:21.680Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:52:00.740Z"
+    "fetched_at": "2026-07-21T17:26:23.126Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-21T15:52:00.956Z"
+    "fetched_at": "2026-07-21T17:26:23.789Z"
   },
   {
     "team": {
@@ -3506,7 +3506,7 @@
       "id": 7507212,
       "status": "New",
       "published": "Yes",
-      "last_updated": "19/07/2026",
+      "last_updated": "21/07/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -4098,7 +4098,7 @@
         "id": 7507212,
         "status": "New",
         "published": "Yes",
-        "last_updated": "19/07/2026",
+        "last_updated": "21/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:52:01.708Z"
+    "fetched_at": "2026-07-21T17:26:25.296Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-21T15:52:01.895Z"
+    "fetched_at": "2026-07-21T17:26:25.963Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:52:02.447Z"
+    "fetched_at": "2026-07-21T17:26:27.437Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-21T15:52:02.978Z"
+    "fetched_at": "2026-07-21T17:26:28.491Z"
   }
 ]

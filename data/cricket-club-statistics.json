@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-21T08:03:32.999Z",
+  "generated_at": "2026-07-21T18:08:14.675Z",
   "match_count": 90,
   "scorecards_processed": 85,
   "batting": [
@@ -30,7 +30,7 @@
       "not_outs": 4,
       "runs": 830,
       "balls": 1123,
-      "fours": 112,
+      "fours": 114,
       "sixes": 0,
       "high_score": 128,
       "high_score_display": "128*",

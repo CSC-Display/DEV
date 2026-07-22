@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:00.878Z"
+    "fetched_at": "2026-07-22T08:02:52.210Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:02.509Z"
+    "fetched_at": "2026-07-22T08:02:52.942Z"
   },
   {
     "team": {
@@ -1430,7 +1430,7 @@
       "id": 7461872,
       "status": "New",
       "published": "Yes",
-      "last_updated": "21/07/2026",
+      "last_updated": "22/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1473,7 +1473,7 @@
       "result_description": "Harold Wood CC - 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "19019",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2011,7 +2011,7 @@
         "id": 7461872,
         "status": "New",
         "published": "Yes",
-        "last_updated": "21/07/2026",
+        "last_updated": "22/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2054,7 +2054,7 @@
         "result_description": "Harold Wood CC - 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "19019",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:04.044Z"
+    "fetched_at": "2026-07-22T08:02:53.686Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:05.563Z"
+    "fetched_at": "2026-07-22T08:02:54.452Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:07.022Z"
+    "fetched_at": "2026-07-22T08:02:55.100Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-22T07:22:07.677Z"
+    "fetched_at": "2026-07-22T08:02:55.354Z"
   },
   {
     "team": {
@@ -3506,7 +3506,7 @@
       "id": 7507212,
       "status": "New",
       "published": "Yes",
-      "last_updated": "21/07/2026",
+      "last_updated": "22/07/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3548,7 +3548,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - NECL 1st XI - Won",
       "result_applied_to": "324716",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -4098,7 +4098,7 @@
         "id": 7507212,
         "status": "New",
         "published": "Yes",
-        "last_updated": "21/07/2026",
+        "last_updated": "22/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -4140,7 +4140,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - NECL 1st XI - Won",
         "result_applied_to": "324716",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:09.151Z"
+    "fetched_at": "2026-07-22T08:02:56.056Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-22T07:22:09.814Z"
+    "fetched_at": "2026-07-22T08:02:56.283Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:11.279Z"
+    "fetched_at": "2026-07-22T08:02:56.895Z"
   },
   {
     "team": {
@@ -5322,6 +5322,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-22T07:22:12.751Z"
+    "fetched_at": "2026-07-22T08:02:57.545Z"
   }
 ]

@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-24T08:03:24.546Z",
+  "generated_at": "2026-07-24T18:10:16.790Z",
   "match_count": 92,
-  "scorecards_processed": 85,
+  "scorecards_processed": 86,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -633,6 +633,25 @@
       "five_wickets": 1
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 9,
+      "innings": 9,
+      "balls": 150,
+      "overs": 25,
+      "maidens": 7,
+      "runs": 77,
+      "wickets": 15,
+      "wides": 2,
+      "no_balls": 0,
+      "best": "3-12",
+      "average": 5.133333333333334,
+      "economy": 3.08,
+      "strike_rate": 10,
+      "three_wickets": 2,
+      "five_wickets": 0
+    },
+    {
       "player": "Freddie Ryan",
       "teams": "NECL 1st XI, Sat 2nd XI, Twenty20",
       "matches": 22,
@@ -692,40 +711,21 @@
     {
       "player": "Alex Rowe-Goodey",
       "teams": "Sat 5th XI, Womens 1st XI",
-      "matches": 9,
-      "innings": 9,
-      "balls": 186,
-      "overs": 31,
+      "matches": 10,
+      "innings": 10,
+      "balls": 198,
+      "overs": 33,
       "maidens": 4,
-      "runs": 94,
+      "runs": 120,
       "wickets": 12,
       "wides": 1,
       "no_balls": 1,
       "best": "5-4",
-      "average": 7.833333333333333,
-      "economy": 3.032258064516129,
-      "strike_rate": 15.5,
+      "average": 10,
+      "economy": 3.6363636363636362,
+      "strike_rate": 16.5,
       "three_wickets": 2,
       "five_wickets": 1
-    },
-    {
-      "player": "Harriet Goodey",
-      "teams": "Womens 1st XI",
-      "matches": 8,
-      "innings": 8,
-      "balls": 132,
-      "overs": 22,
-      "maidens": 6,
-      "runs": 65,
-      "wickets": 12,
-      "wides": 2,
-      "no_balls": 0,
-      "best": "3-15",
-      "average": 5.416666666666667,
-      "economy": 2.9545454545454546,
-      "strike_rate": 11,
-      "three_wickets": 1,
-      "five_wickets": 0
     }
   ]
 }

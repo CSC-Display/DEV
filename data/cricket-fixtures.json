@@ -326,7 +326,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:48.038Z"
+    "fetched_at": "2026-07-24T08:02:32.709Z"
   },
   {
     "team": {
@@ -615,7 +615,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:48.363Z"
+    "fetched_at": "2026-07-24T08:02:32.959Z"
   },
   {
     "team": {
@@ -904,7 +904,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:48.683Z"
+    "fetched_at": "2026-07-24T08:02:33.452Z"
   },
   {
     "team": {
@@ -1153,7 +1153,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:48.979Z"
+    "fetched_at": "2026-07-24T08:02:33.913Z"
   },
   {
     "team": {
@@ -1442,7 +1442,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:49.290Z"
+    "fetched_at": "2026-07-24T08:02:34.385Z"
   },
   {
     "team": {
@@ -1691,7 +1691,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:49.599Z"
+    "fetched_at": "2026-07-24T08:02:34.624Z"
   },
   {
     "team": {
@@ -1940,7 +1940,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:49.919Z"
+    "fetched_at": "2026-07-24T08:02:35.099Z"
   },
   {
     "team": {
@@ -2029,7 +2029,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:50.607Z"
+    "fetched_at": "2026-07-24T08:02:35.553Z"
   },
   {
     "team": {
@@ -2037,7 +2037,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-23T22:52:50.922Z"
+    "fetched_at": "2026-07-24T08:02:36.032Z"
   },
   {
     "team": {
@@ -2045,46 +2045,6 @@
       "id": 213007
     },
     "fix": [
-      {
-        "id": 7399586,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "08/05/2026",
-        "league_name": "Essex Women's T20 League",
-        "league_id": "12600",
-        "competition_name": "South Division 2",
-        "competition_id": "137056",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "24/07/2026",
-        "match_time": "18:00",
-        "ground_name": "Promenade Park",
-        "ground_id": "14610",
-        "ground_latitude": "51.7232123",
-        "ground_longitude": "0.6895107",
-        "home_club_name": "Maldon CC",
-        "home_team_name": "Womens 1st XI",
-        "home_team_id": "31296",
-        "home_club_id": "22",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Womens 1st XI",
-        "away_team_id": "213007",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7399557,
         "status": "New",
@@ -2126,6 +2086,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-23T22:52:51.672Z"
+    "fetched_at": "2026-07-24T08:02:36.517Z"
   }
 ]

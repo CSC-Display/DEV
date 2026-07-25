@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:38.395Z"
+    "fetched_at": "2026-07-25T07:01:08.529Z"
   },
   {
     "team": {
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:39.859Z"
+    "fetched_at": "2026-07-25T07:01:09.238Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:41.289Z"
+    "fetched_at": "2026-07-25T07:01:09.903Z"
   },
   {
     "team": {
@@ -2825,7 +2825,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:42.738Z"
+    "fetched_at": "2026-07-25T07:01:10.631Z"
   },
   {
     "team": {
@@ -3482,7 +3482,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:44.138Z"
+    "fetched_at": "2026-07-25T07:01:11.257Z"
   },
   {
     "team": {
@@ -3495,7 +3495,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T04:32:44.753Z"
+    "fetched_at": "2026-07-25T07:01:11.490Z"
   },
   {
     "team": {
@@ -4209,7 +4209,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:46.139Z"
+    "fetched_at": "2026-07-25T07:01:12.263Z"
   },
   {
     "team": {
@@ -4222,7 +4222,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T04:32:46.768Z"
+    "fetched_at": "2026-07-25T07:01:12.529Z"
   },
   {
     "team": {
@@ -4625,7 +4625,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:48.140Z"
+    "fetched_at": "2026-07-25T07:01:13.248Z"
   },
   {
     "team": {
@@ -4636,7 +4636,7 @@
       "id": 7735017,
       "status": "New",
       "published": "Yes",
-      "last_updated": "24/07/2026",
+      "last_updated": "25/07/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -4674,9 +4674,9 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
+      "result_applied_to": "293157",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -4701,7 +4701,7 @@
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "20.0",
           "revised_target_balls": ""
         },
         {
@@ -4721,7 +4721,7 @@
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "20.0",
           "revised_target_balls": ""
         }
       ]
@@ -4737,120 +4737,6 @@
       ]
     },
     "form": [
-      {
-        "id": 7399543,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "21/06/2026",
-        "league_name": "Essex Women's T20 League",
-        "league_id": "12600",
-        "competition_name": "South Division 2",
-        "competition_id": "137056",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "12/06/2026",
-        "match_time": "18:00",
-        "ground_name": "John Burrows Recreation Ground",
-        "ground_id": "58730",
-        "home_team_name": "Womens 1st XI",
-        "home_team_id": "382272",
-        "home_club_name": "Hadleigh & Thundersley CC, Essex",
-        "home_club_id": "3096",
-        "away_team_name": "Womens 1st XI",
-        "away_team_id": "213007",
-        "away_club_name": "Chelmsford CC",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "382272",
-        "toss": "Hadleigh & Thundersley CC, Essex - Womens 1st XI won the toss and elected to field",
-        "batted_first": "213007",
-        "no_of_overs": "20",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Womens 1st XI - Won",
-        "result_applied_to": "213007",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "false",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 382272,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "10.0",
-            "bonus_points_batting": "5.0",
-            "bonus_points_bowling": "5.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 213007,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "213007",
-            "innings_number": 1,
-            "extra_byes": "4",
-            "extra_leg_byes": "4",
-            "extra_wides": "12",
-            "extra_no_balls": "8",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "28",
-            "runs": "126",
-            "wickets": "10",
-            "overs": "19.3",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "382272",
-            "innings_number": 1,
-            "extra_byes": "3",
-            "extra_leg_byes": "1",
-            "extra_wides": "7",
-            "extra_no_balls": "13",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "24",
-            "runs": "82",
-            "wickets": "8",
-            "overs": "20.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7399548,
         "status": "New",
@@ -5194,10 +5080,124 @@
         ]
       },
       {
+        "id": 7399586,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "25/07/2026",
+        "league_name": "Essex Women's T20 League",
+        "league_id": "12600",
+        "competition_name": "South Division 2",
+        "competition_id": "137056",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "24/07/2026",
+        "match_time": "18:00",
+        "ground_name": "Promenade Park",
+        "ground_id": "14610",
+        "home_team_name": "Womens 1st XI",
+        "home_team_id": "31296",
+        "home_club_name": "Maldon CC",
+        "home_club_id": "22",
+        "away_team_name": "Womens 1st XI",
+        "away_team_id": "213007",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "20",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "CON",
+        "result_description": "Maldon CC - Womens 1st XI - Conceded",
+        "result_applied_to": "213007",
+        "home_confirmed": "false",
+        "away_confirmed": "true",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 31296,
+            "game_points": "0",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 213007,
+            "game_points": "20",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "31296",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "213007",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          }
+        ]
+      },
+      {
         "id": 7735017,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/07/2026",
+        "last_updated": "25/07/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -5235,9 +5235,9 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
+        "result_applied_to": "293157",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -5262,7 +5262,7 @@
             "declared": false,
             "forfeited_innings": false,
             "revised_target_runs": "",
-            "revised_target_overs": "",
+            "revised_target_overs": "20.0",
             "revised_target_balls": ""
           },
           {
@@ -5282,12 +5282,12 @@
             "declared": false,
             "forfeited_innings": false,
             "revised_target_runs": "",
-            "revised_target_overs": "",
+            "revised_target_overs": "20.0",
             "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-07-25T04:32:49.559Z"
+    "fetched_at": "2026-07-25T07:01:13.914Z"
   }
 ]

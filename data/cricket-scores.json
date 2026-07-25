@@ -47,9 +47,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
+      "result_applied_to": "24293",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -58,7 +58,7 @@
       "points": [
         {
           "team_id": 24293,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -69,9 +69,9 @@
           "team_id": 28275,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "9.0",
+          "bonus_points_batting": "6.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -106,9 +106,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "8",
-          "runs": "218",
+          "runs": "240",
           "wickets": "7",
-          "overs": "52",
+          "overs": "57",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -122,7 +122,7 @@
       "runs": [
         {
           "name": "Brad Green",
-          "score": 53,
+          "score": 66,
           "notOut": true
         }
       ],
@@ -644,9 +644,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
+        "result_applied_to": "24293",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -655,7 +655,7 @@
         "points": [
           {
             "team_id": 24293,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -666,9 +666,9 @@
             "team_id": 28275,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "9.0",
+            "bonus_points_batting": "6.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -703,9 +703,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "8",
-            "runs": "218",
+            "runs": "240",
             "wickets": "7",
-            "overs": "52",
+            "overs": "57",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:47:55.108Z"
+    "fetched_at": "2026-07-25T18:11:50.296Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:47:56.533Z"
+    "fetched_at": "2026-07-25T18:11:50.928Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:47:57.366Z"
+    "fetched_at": "2026-07-25T18:11:51.547Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:47:58.611Z"
+    "fetched_at": "2026-07-25T18:11:52.801Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:47:59.780Z"
+    "fetched_at": "2026-07-25T18:11:53.392Z"
   },
   {
     "team": {
@@ -3497,7 +3497,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T17:48:00.253Z"
+    "fetched_at": "2026-07-25T18:11:53.605Z"
   },
   {
     "team": {
@@ -4211,7 +4211,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:48:01.182Z"
+    "fetched_at": "2026-07-25T18:11:54.195Z"
   },
   {
     "team": {
@@ -4224,7 +4224,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T17:48:01.634Z"
+    "fetched_at": "2026-07-25T18:11:54.404Z"
   },
   {
     "team": {
@@ -4627,7 +4627,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:48:06.979Z"
+    "fetched_at": "2026-07-25T18:11:55.099Z"
   },
   {
     "team": {
@@ -5290,6 +5290,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T17:48:13.984Z"
+    "fetched_at": "2026-07-25T18:11:55.734Z"
   }
 ]

@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:50.296Z"
+    "fetched_at": "2026-07-25T19:38:10.336Z"
   },
   {
     "team": {
@@ -769,8 +769,8 @@
       "result": "W",
       "result_description": "Epping CC - 2nd XI - Time Win (bat 1st)",
       "result_applied_to": "26284",
-      "home_confirmed": "false",
-      "away_confirmed": "false",
+      "home_confirmed": "true",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -1356,8 +1356,8 @@
         "result": "W",
         "result_description": "Epping CC - 2nd XI - Time Win (bat 1st)",
         "result_applied_to": "26284",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
+        "home_confirmed": "true",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:50.928Z"
+    "fetched_at": "2026-07-25T19:38:11.878Z"
   },
   {
     "team": {
@@ -1475,8 +1475,8 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
+      "result": "D",
+      "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
       "away_confirmed": "false",
@@ -1488,18 +1488,18 @@
           "team_id": 24295,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "6.0",
+          "bonus_points_batting": "2.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 14067,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "12.0",
+          "bonus_points_batting": "8.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -2061,8 +2061,8 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
+        "result": "D",
+        "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
         "away_confirmed": "false",
@@ -2074,18 +2074,18 @@
             "team_id": 24295,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "6.0",
+            "bonus_points_batting": "2.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 14067,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "12.0",
+            "bonus_points_batting": "8.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:51.547Z"
+    "fetched_at": "2026-07-25T19:38:13.439Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:52.801Z"
+    "fetched_at": "2026-07-25T19:38:15.012Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:53.392Z"
+    "fetched_at": "2026-07-25T19:38:16.552Z"
   },
   {
     "team": {
@@ -3497,7 +3497,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T18:11:53.605Z"
+    "fetched_at": "2026-07-25T19:38:17.210Z"
   },
   {
     "team": {
@@ -4211,7 +4211,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:54.195Z"
+    "fetched_at": "2026-07-25T19:38:18.376Z"
   },
   {
     "team": {
@@ -4224,7 +4224,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T18:11:54.404Z"
+    "fetched_at": "2026-07-25T19:38:19.043Z"
   },
   {
     "team": {
@@ -4627,7 +4627,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:55.099Z"
+    "fetched_at": "2026-07-25T19:38:20.509Z"
   },
   {
     "team": {
@@ -5290,6 +5290,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T18:11:55.734Z"
+    "fetched_at": "2026-07-25T19:38:21.577Z"
   }
 ]

@@ -50,8 +50,8 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
-      "away_confirmed": "false",
+      "home_confirmed": "true",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n11.6 1st Wicket: 50 runs in 73 balls, 43 minutes, Akhil Anil 15 (30), Prithviraj Sarvaiya 34 (43), 1 extra<br/>11.6 Buckhurst Hill CC Saturday 1st XI: 50 runs in 12.0 overs, 43 minutes, 1 extra<br/>17.5 Prithviraj Sarvaiya: 50 runs in 60 balls, 62 minutes (7x4, 1x6)<br/>21.1 1st Wicket: 100 runs in 128 balls, 75 minutes, Akhil Anil 44 (59), Prithviraj Sarvaiya 57 (69), 1 extra<br/>21.1 Buckhurst Hill CC Saturday 1st XI: 100 runs in 21.1 overs, 75 minutes, 1 extra<br/>21.6 Akhil Anil: 50 runs in 63 balls, 77 minutes (8x4)<br/>37.5 Buckhurst Hill CC Saturday 1st XI: 150 runs in 37.5 overs, 122 minutes, 1 extra<br/>56.2 Buckhurst Hill CC Saturday 1st XI: 200 runs in 56.2 overs, 169 minutes, 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n6.3 1st Wicket: 50 runs in 40 balls, 27 minutes, Jack Sterland 31 (25), Dan Hagen 18 (15), 1 extra<br/>6.3 Chelmsford CC Sat 1st XI: 50 runs in 6.3 overs, 27 minutes, 1 extra<br/>23.1 Chelmsford CC Sat 1st XI: 100 runs in 23.1 overs, 98 minutes, 2 extras<br/>35.3 Chelmsford CC Sat 1st XI: 150 runs in 35.3 overs, 136 minutes, 6 extras<br/>36.3 6th Wicket: 50 runs in 69 balls, 34 minutes, Harry Green 28 (30), Brad Green 21 (39), 2 extras<br/>45.3 Chelmsford CC Sat 1st XI: 200 runs in 45.3 overs, 167 minutes, 8 extras<br/>47.3 Naivedyam Dwivedi: 5 wickets (17.3-4-53-5)<br/>50.4 Brad Green: 50 runs in 75 balls, 88 minutes (6x4)\n<br/>\n",
@@ -647,8 +647,8 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
+        "home_confirmed": "true",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n11.6 1st Wicket: 50 runs in 73 balls, 43 minutes, Akhil Anil 15 (30), Prithviraj Sarvaiya 34 (43), 1 extra<br/>11.6 Buckhurst Hill CC Saturday 1st XI: 50 runs in 12.0 overs, 43 minutes, 1 extra<br/>17.5 Prithviraj Sarvaiya: 50 runs in 60 balls, 62 minutes (7x4, 1x6)<br/>21.1 1st Wicket: 100 runs in 128 balls, 75 minutes, Akhil Anil 44 (59), Prithviraj Sarvaiya 57 (69), 1 extra<br/>21.1 Buckhurst Hill CC Saturday 1st XI: 100 runs in 21.1 overs, 75 minutes, 1 extra<br/>21.6 Akhil Anil: 50 runs in 63 balls, 77 minutes (8x4)<br/>37.5 Buckhurst Hill CC Saturday 1st XI: 150 runs in 37.5 overs, 122 minutes, 1 extra<br/>56.2 Buckhurst Hill CC Saturday 1st XI: 200 runs in 56.2 overs, 169 minutes, 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n6.3 1st Wicket: 50 runs in 40 balls, 27 minutes, Jack Sterland 31 (25), Dan Hagen 18 (15), 1 extra<br/>6.3 Chelmsford CC Sat 1st XI: 50 runs in 6.3 overs, 27 minutes, 1 extra<br/>23.1 Chelmsford CC Sat 1st XI: 100 runs in 23.1 overs, 98 minutes, 2 extras<br/>35.3 Chelmsford CC Sat 1st XI: 150 runs in 35.3 overs, 136 minutes, 6 extras<br/>36.3 6th Wicket: 50 runs in 69 balls, 34 minutes, Harry Green 28 (30), Brad Green 21 (39), 2 extras<br/>45.3 Chelmsford CC Sat 1st XI: 200 runs in 45.3 overs, 167 minutes, 8 extras<br/>47.3 Naivedyam Dwivedi: 5 wickets (17.3-4-53-5)<br/>50.4 Brad Green: 50 runs in 75 balls, 88 minutes (6x4)\n<br/>\n",
@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:07.337Z"
+    "fetched_at": "2026-07-25T22:35:32.482Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:08.537Z"
+    "fetched_at": "2026-07-25T22:35:34.000Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:10.138Z"
+    "fetched_at": "2026-07-25T22:35:35.519Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:11.752Z"
+    "fetched_at": "2026-07-25T22:35:37.024Z"
   },
   {
     "team": {
@@ -2938,13 +2938,13 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
+          "extra_byes": "2",
+          "extra_leg_byes": "1",
+          "extra_wides": "17",
+          "extra_no_balls": "4",
+          "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
+          "total_extras": "24",
           "runs": "192",
           "wickets": "7",
           "overs": "37.5",
@@ -2958,15 +2958,26 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Anisur Rahman",
+          "score": 54,
+          "notOut": false
+        },
+        {
+          "name": "Arunabha Mukherjee",
+          "score": 57,
+          "notOut": false
+        }
+      ],
       "wickets": [
         {
-          "name": "Tom Hutchinson",
+          "name": "Ragath Gopinath",
           "w": 3,
           "r": "40"
         },
         {
-          "name": "Rajwali Baig",
+          "name": "Henry Dowsett",
           "w": 3,
           "r": "10"
         }
@@ -3504,13 +3515,13 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "",
-            "extra_leg_byes": "",
-            "extra_wides": "",
-            "extra_no_balls": "",
-            "extra_penalty_runs": "",
+            "extra_byes": "2",
+            "extra_leg_byes": "1",
+            "extra_wides": "17",
+            "extra_no_balls": "4",
+            "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "",
+            "total_extras": "24",
             "runs": "192",
             "wickets": "7",
             "overs": "37.5",
@@ -3524,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:12.897Z"
+    "fetched_at": "2026-07-25T22:35:38.477Z"
   },
   {
     "team": {
@@ -3537,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T21:34:13.578Z"
+    "fetched_at": "2026-07-25T22:35:39.244Z"
   },
   {
     "team": {
@@ -4251,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:14.974Z"
+    "fetched_at": "2026-07-25T22:35:40.756Z"
   },
   {
     "team": {
@@ -4264,7 +4275,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-25T21:34:15.658Z"
+    "fetched_at": "2026-07-25T22:35:41.382Z"
   },
   {
     "team": {
@@ -4667,7 +4678,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:17.193Z"
+    "fetched_at": "2026-07-25T22:35:42.828Z"
   },
   {
     "team": {
@@ -5330,6 +5341,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-25T21:34:18.723Z"
+    "fetched_at": "2026-07-25T22:35:44.237Z"
   }
 ]

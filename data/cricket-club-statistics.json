@@ -1,7 +1,7 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-07-25T17:49:26.101Z",
+  "generated_at": "2026-07-25T22:52:31.902Z",
   "match_count": 98,
   "scorecards_processed": 92,
   "batting": [
@@ -91,6 +91,23 @@
       "hundreds": 1
     },
     {
+      "player": "Suhail Shahid",
+      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 12,
+      "innings": 12,
+      "not_outs": 0,
+      "runs": 550,
+      "balls": 220,
+      "fours": 100,
+      "sixes": 2,
+      "high_score": 108,
+      "high_score_display": "108",
+      "average": 45.833333333333336,
+      "strike_rate": 250,
+      "fifties": 4,
+      "hundreds": 1
+    },
+    {
       "player": "Ben Lawrence",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 21,
@@ -106,23 +123,6 @@
       "strike_rate": 110.10309278350516,
       "fifties": 5,
       "hundreds": 0
-    },
-    {
-      "player": "Suhail Shahid",
-      "teams": "Sat 2nd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 11,
-      "innings": 11,
-      "not_outs": 0,
-      "runs": 512,
-      "balls": 220,
-      "fours": 92,
-      "sixes": 2,
-      "high_score": 108,
-      "high_score_display": "108",
-      "average": 46.54545454545455,
-      "strike_rate": 232.72727272727272,
-      "fifties": 4,
-      "hundreds": 1
     },
     {
       "player": "Jack Sterland",
@@ -312,6 +312,23 @@
       "hundreds": 1
     },
     {
+      "player": "Brad Green",
+      "teams": "Sat 1st XI, Twenty20",
+      "matches": 18,
+      "innings": 18,
+      "not_outs": 4,
+      "runs": 244,
+      "balls": 396,
+      "fours": 25,
+      "sixes": 1,
+      "high_score": 66,
+      "high_score_display": "66*",
+      "average": 17.428571428571427,
+      "strike_rate": 61.61616161616161,
+      "fifties": 2,
+      "hundreds": 0
+    },
+    {
       "player": "Thom Wilshaw",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI",
       "matches": 20,
@@ -326,23 +343,6 @@
       "average": 15.6,
       "strike_rate": 114.70588235294117,
       "fifties": 1,
-      "hundreds": 0
-    },
-    {
-      "player": "Brad Green",
-      "teams": "Sat 1st XI, Twenty20",
-      "matches": 18,
-      "innings": 18,
-      "not_outs": 4,
-      "runs": 231,
-      "balls": 381,
-      "fours": 23,
-      "sixes": 1,
-      "high_score": 53,
-      "high_score_display": "53*",
-      "average": 16.5,
-      "strike_rate": 60.629921259842526,
-      "fifties": 2,
       "hundreds": 0
     }
   ],
@@ -481,25 +481,6 @@
       "five_wickets": 0
     },
     {
-      "player": "Tom Hutchinson",
-      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
-      "matches": 20,
-      "innings": 20,
-      "balls": 620,
-      "overs": 103.2,
-      "maidens": 5,
-      "runs": 569,
-      "wickets": 20,
-      "wides": 104,
-      "no_balls": 27,
-      "best": "3-29",
-      "average": 28.45,
-      "economy": 5.506451612903226,
-      "strike_rate": 31,
-      "three_wickets": 2,
-      "five_wickets": 0
-    },
-    {
       "player": "Alex Bayha",
       "teams": "NECL 1st XI, Sat 2nd XI, Sat 3rd XI, Sat 4th XI",
       "matches": 14,
@@ -554,6 +535,25 @@
       "economy": 5.763293310463122,
       "strike_rate": 32.388888888888886,
       "three_wickets": 2,
+      "five_wickets": 0
+    },
+    {
+      "player": "Tom Hutchinson",
+      "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Sat 5th XI",
+      "matches": 20,
+      "innings": 20,
+      "balls": 620,
+      "overs": 103.2,
+      "maidens": 6,
+      "runs": 564,
+      "wickets": 18,
+      "wides": 92,
+      "no_balls": 22,
+      "best": "3-29",
+      "average": 31.333333333333332,
+      "economy": 5.458064516129032,
+      "strike_rate": 34.44444444444444,
+      "three_wickets": 1,
       "five_wickets": 0
     },
     {

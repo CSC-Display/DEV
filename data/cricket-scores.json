@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:24.247Z"
+    "fetched_at": "2026-07-26T21:07:43.866Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:25.293Z"
+    "fetched_at": "2026-07-26T21:07:44.552Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:26.303Z"
+    "fetched_at": "2026-07-26T21:07:45.186Z"
   },
   {
     "team": {
@@ -2144,7 +2144,7 @@
       "id": 7462146,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/07/2026",
+      "last_updated": "26/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2186,7 +2186,7 @@
       "result": "W",
       "result_description": "Stanford Le Hope CC - 3rd XI - Time Win (bat 2nd)",
       "result_applied_to": "42755",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2205,8 +2205,8 @@
           "team_id": 30461,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "2.0",
-          "bonus_points_batting": "0.0",
+          "bonus_points_together": "4.0",
+          "bonus_points_batting": "2.0",
           "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
@@ -2215,16 +2215,16 @@
         {
           "team_batting_id": "30461",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_byes": "8",
+          "extra_leg_byes": "6",
+          "extra_wides": "8",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0.0",
+          "total_extras": "23",
+          "runs": "136",
+          "wickets": "10",
+          "overs": "31.4",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2725,7 +2725,7 @@
         "id": 7462146,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/07/2026",
+        "last_updated": "26/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2767,7 +2767,7 @@
         "result": "W",
         "result_description": "Stanford Le Hope CC - 3rd XI - Time Win (bat 2nd)",
         "result_applied_to": "42755",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2786,8 +2786,8 @@
             "team_id": 30461,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "2.0",
-            "bonus_points_batting": "0.0",
+            "bonus_points_together": "4.0",
+            "bonus_points_batting": "2.0",
             "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
@@ -2796,16 +2796,16 @@
           {
             "team_batting_id": "30461",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_byes": "8",
+            "extra_leg_byes": "6",
+            "extra_wides": "8",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0.0",
+            "total_extras": "23",
+            "runs": "136",
+            "wickets": "10",
+            "overs": "31.4",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:27.305Z"
+    "fetched_at": "2026-07-26T21:07:45.872Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:28.281Z"
+    "fetched_at": "2026-07-26T21:07:46.505Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-26T19:59:28.696Z"
+    "fetched_at": "2026-07-26T21:07:46.709Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:29.720Z"
+    "fetched_at": "2026-07-26T21:07:47.356Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:30.420Z"
+    "fetched_at": "2026-07-26T21:07:47.904Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:31.344Z"
+    "fetched_at": "2026-07-26T21:07:48.574Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T19:59:31.864Z"
+    "fetched_at": "2026-07-26T21:07:49.198Z"
   }
 ]

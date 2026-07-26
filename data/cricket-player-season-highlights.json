@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T08:02:41.763Z",
+  "generated_at": "2026-07-26T17:55:01.987Z",
   "season": "2026",
   "centuries": [
     {
@@ -1579,6 +1579,30 @@
       "match_id": 7507207
     },
     {
+      "player": "Harry Jacobs",
+      "team": "Sun 1st XI",
+      "team_id": 30938,
+      "opposition": "Chelmsford CC Sun 2nd XI",
+      "date": "26/07/2026",
+      "match_id": 7728336
+    },
+    {
+      "player": "Ethan Lofthouse",
+      "team": "Sun 1st XI",
+      "team_id": 30938,
+      "opposition": "Chelmsford CC Sun 2nd XI",
+      "date": "26/07/2026",
+      "match_id": 7728336
+    },
+    {
+      "player": "Thom Wilshaw",
+      "team": "Sun 1st XI",
+      "team_id": 30938,
+      "opposition": "Chelmsford CC Sun 2nd XI",
+      "date": "26/07/2026",
+      "match_id": 7728336
+    },
+    {
       "player": "Elliot Wenzel",
       "team": "Twenty20",
       "team_id": 133549,
@@ -1853,6 +1877,36 @@
       ]
     },
     {
+      "player": "Thom Wilshaw",
+      "count": 3,
+      "ducks": [
+        {
+          "player": "Thom Wilshaw",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Westcliff-On-Sea CC 2nd XI",
+          "date": "25/04/2026",
+          "match_id": 7577468
+        },
+        {
+          "player": "Thom Wilshaw",
+          "team": "Sat 2nd XI",
+          "team_id": 24294,
+          "opposition": "Wanstead & Snaresbrook CC 2nd XI",
+          "date": "04/07/2026",
+          "match_id": 7325742
+        },
+        {
+          "player": "Thom Wilshaw",
+          "team": "Sun 1st XI",
+          "team_id": 30938,
+          "opposition": "Chelmsford CC Sun 2nd XI",
+          "date": "26/07/2026",
+          "match_id": 7728336
+        }
+      ]
+    },
+    {
       "player": "Abdul Baig",
       "count": 2,
       "ducks": [
@@ -2095,28 +2149,6 @@
       ]
     },
     {
-      "player": "Thom Wilshaw",
-      "count": 2,
-      "ducks": [
-        {
-          "player": "Thom Wilshaw",
-          "team": "Sat 2nd XI",
-          "team_id": 24294,
-          "opposition": "Westcliff-On-Sea CC 2nd XI",
-          "date": "25/04/2026",
-          "match_id": 7577468
-        },
-        {
-          "player": "Thom Wilshaw",
-          "team": "Sat 2nd XI",
-          "team_id": 24294,
-          "opposition": "Wanstead & Snaresbrook CC 2nd XI",
-          "date": "04/07/2026",
-          "match_id": 7325742
-        }
-      ]
-    },
-    {
       "player": "Abraham Kurian",
       "count": 1,
       "ducks": [
@@ -2299,6 +2331,20 @@
       ]
     },
     {
+      "player": "Ethan Lofthouse",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Ethan Lofthouse",
+          "team": "Sun 1st XI",
+          "team_id": 30938,
+          "opposition": "Chelmsford CC Sun 2nd XI",
+          "date": "26/07/2026",
+          "match_id": 7728336
+        }
+      ]
+    },
+    {
       "player": "George Wilson",
       "count": 1,
       "ducks": [
@@ -2309,6 +2355,20 @@
           "opposition": "IPSCOL CC Sunday 1st XI",
           "date": "21/06/2026",
           "match_id": 7507172
+        }
+      ]
+    },
+    {
+      "player": "Harry Jacobs",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Harry Jacobs",
+          "team": "Sun 1st XI",
+          "team_id": 30938,
+          "opposition": "Chelmsford CC Sun 2nd XI",
+          "date": "26/07/2026",
+          "match_id": 7728336
         }
       ]
     },

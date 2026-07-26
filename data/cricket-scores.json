@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:17:53.707Z"
+    "fetched_at": "2026-07-26T04:47:41.370Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:17:54.934Z"
+    "fetched_at": "2026-07-26T04:47:42.398Z"
   },
   {
     "team": {
@@ -1436,7 +1436,7 @@
       "id": 7461880,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/07/2026",
+      "last_updated": "26/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1479,7 +1479,7 @@
       "result_description": "Draw",
       "result_applied_to": "",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2022,7 +2022,7 @@
         "id": 7461880,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/07/2026",
+        "last_updated": "26/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2065,7 +2065,7 @@
         "result_description": "Draw",
         "result_applied_to": "",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:17:56.102Z"
+    "fetched_at": "2026-07-26T04:47:43.412Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:17:57.324Z"
+    "fetched_at": "2026-07-26T04:47:44.451Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:17:58.613Z"
+    "fetched_at": "2026-07-26T04:47:45.447Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-26T01:17:59.121Z"
+    "fetched_at": "2026-07-26T04:47:45.857Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:18:00.399Z"
+    "fetched_at": "2026-07-26T04:47:46.636Z"
   },
   {
     "team": {
@@ -4275,7 +4275,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-26T01:18:00.904Z"
+    "fetched_at": "2026-07-26T04:47:47.051Z"
   },
   {
     "team": {
@@ -4678,7 +4678,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:18:02.047Z"
+    "fetched_at": "2026-07-26T04:47:48.014Z"
   },
   {
     "team": {
@@ -5341,6 +5341,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T01:18:03.219Z"
+    "fetched_at": "2026-07-26T04:47:48.970Z"
   }
 ]

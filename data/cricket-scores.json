@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:45.771Z"
+    "fetched_at": "2026-07-26T18:40:59.427Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:47.324Z"
+    "fetched_at": "2026-07-26T18:41:00.949Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:48.823Z"
+    "fetched_at": "2026-07-26T18:41:02.475Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:50.408Z"
+    "fetched_at": "2026-07-26T18:41:04.149Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:51.928Z"
+    "fetched_at": "2026-07-26T18:41:05.628Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-26T17:53:52.594Z"
+    "fetched_at": "2026-07-26T18:41:06.292Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:54.075Z"
+    "fetched_at": "2026-07-26T18:41:07.832Z"
   },
   {
     "team": {
@@ -4311,11 +4311,11 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "2",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
-      "home_confirmed": "false",
-      "away_confirmed": "false",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sun 2nd XI - Won",
+      "result_applied_to": "30939",
+      "home_confirmed": "true",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -4384,16 +4384,16 @@
         {
           "team_batting_id": "30939",
           "innings_number": 2,
-          "extra_byes": "1",
+          "extra_byes": "2",
           "extra_leg_byes": "0",
           "extra_wides": "3",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "6",
-          "runs": "61",
+          "total_extras": "7",
+          "runs": "99",
           "wickets": "6",
-          "overs": "14.0",
+          "overs": "18.2",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4450,11 +4450,11 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "2",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sun 2nd XI - Won",
+        "result_applied_to": "30939",
+        "home_confirmed": "true",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -4523,16 +4523,16 @@
           {
             "team_batting_id": "30939",
             "innings_number": 2,
-            "extra_byes": "1",
+            "extra_byes": "2",
             "extra_leg_byes": "0",
             "extra_wides": "3",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "61",
+            "total_extras": "7",
+            "runs": "99",
             "wickets": "6",
-            "overs": "14.0",
+            "overs": "18.2",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:55.527Z"
+    "fetched_at": "2026-07-26T18:41:09.229Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:56.566Z"
+    "fetched_at": "2026-07-26T18:41:10.630Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-26T17:53:57.686Z"
+    "fetched_at": "2026-07-26T18:41:12.174Z"
   }
 ]

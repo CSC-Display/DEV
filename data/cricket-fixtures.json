@@ -286,7 +286,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:49.289Z"
+    "fetched_at": "2026-07-26T08:01:49.903Z"
   },
   {
     "team": {
@@ -535,7 +535,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:49.583Z"
+    "fetched_at": "2026-07-26T08:01:50.255Z"
   },
   {
     "team": {
@@ -784,7 +784,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:49.882Z"
+    "fetched_at": "2026-07-26T08:01:50.587Z"
   },
   {
     "team": {
@@ -993,7 +993,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:50.229Z"
+    "fetched_at": "2026-07-26T08:01:50.901Z"
   },
   {
     "team": {
@@ -1242,7 +1242,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:50.577Z"
+    "fetched_at": "2026-07-26T08:01:51.641Z"
   },
   {
     "team": {
@@ -1451,7 +1451,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:50.858Z"
+    "fetched_at": "2026-07-26T08:01:51.950Z"
   },
   {
     "team": {
@@ -1700,7 +1700,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:51.124Z"
+    "fetched_at": "2026-07-26T08:01:52.288Z"
   },
   {
     "team": {
@@ -1708,46 +1708,6 @@
       "id": 30938
     },
     "fix": [
-      {
-        "id": 7728336,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "22/07/2026",
-        "league_name": "",
-        "league_id": "",
-        "competition_name": "",
-        "competition_id": "",
-        "competition_type": "Friendly",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "26/07/2026",
-        "match_time": "13:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "Sun 1st XI",
-        "home_team_id": "30938",
-        "home_club_id": "1786",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sun 2nd XI",
-        "away_team_id": "30939",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7597561,
         "status": "New",
@@ -1789,7 +1749,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:51.388Z"
+    "fetched_at": "2026-07-26T08:01:52.999Z"
   },
   {
     "team": {
@@ -1797,7 +1757,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-25T22:51:51.677Z"
+    "fetched_at": "2026-07-26T08:01:53.328Z"
   },
   {
     "team": {
@@ -1846,6 +1806,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-25T22:51:51.979Z"
+    "fetched_at": "2026-07-26T08:01:53.666Z"
   }
 ]

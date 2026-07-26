@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T17:55:01.987Z",
+  "generated_at": "2026-07-26T22:57:30.087Z",
   "season": "2026",
   "centuries": [
     {
@@ -1467,6 +1467,22 @@
       "match_id": 7462139
     },
     {
+      "player": "David Wilson",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Stanford Le Hope CC 3rd XI",
+      "date": "25/07/2026",
+      "match_id": 7462146
+    },
+    {
+      "player": "Basil Samson",
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Stanford Le Hope CC 3rd XI",
+      "date": "25/07/2026",
+      "match_id": 7462146
+    },
+    {
       "player": "Chetan Shetty",
       "team": "Sat 5th XI",
       "team_id": 45348,
@@ -1817,6 +1833,36 @@
       ]
     },
     {
+      "player": "David Wilson",
+      "count": 3,
+      "ducks": [
+        {
+          "player": "David Wilson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Frenford CC 4th XI",
+          "date": "04/07/2026",
+          "match_id": 7462135
+        },
+        {
+          "player": "David Wilson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Stanford Le Hope CC 3rd XI",
+          "date": "25/07/2026",
+          "match_id": 7462146
+        },
+        {
+          "player": "David Wilson",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "Abberton & District CC Sunday 1st XI",
+          "date": "28/06/2026",
+          "match_id": 7507178
+        }
+      ]
+    },
+    {
       "player": "Deanne Nel",
       "count": 3,
       "ducks": [
@@ -2039,28 +2085,6 @@
       ]
     },
     {
-      "player": "David Wilson",
-      "count": 2,
-      "ducks": [
-        {
-          "player": "David Wilson",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Frenford CC 4th XI",
-          "date": "04/07/2026",
-          "match_id": 7462135
-        },
-        {
-          "player": "David Wilson",
-          "team": "NECL 1st XI",
-          "team_id": 324716,
-          "opposition": "Abberton & District CC Sunday 1st XI",
-          "date": "28/06/2026",
-          "match_id": 7507178
-        }
-      ]
-    },
-    {
       "player": "Luke Purchase",
       "count": 2,
       "ducks": [
@@ -2187,6 +2211,20 @@
           "opposition": "Frinton On Sea CC Sunday Challenge",
           "date": "31/05/2026",
           "match_id": 7507142
+        }
+      ]
+    },
+    {
+      "player": "Basil Samson",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Basil Samson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Stanford Le Hope CC 3rd XI",
+          "date": "25/07/2026",
+          "match_id": 7462146
         }
       ]
     },

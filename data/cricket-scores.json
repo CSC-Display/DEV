@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:44.632Z"
+    "fetched_at": "2026-07-27T22:34:32.202Z"
   },
   {
     "team": {
@@ -727,7 +727,7 @@
       "id": 7325754,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/07/2026",
+      "last_updated": "27/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1314,7 +1314,7 @@
         "id": 7325754,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/07/2026",
+        "last_updated": "27/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:46.565Z"
+    "fetched_at": "2026-07-27T22:34:33.811Z"
   },
   {
     "team": {
@@ -1436,7 +1436,7 @@
       "id": 7461880,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/07/2026",
+      "last_updated": "27/07/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1478,7 +1478,7 @@
       "result": "D",
       "result_description": "Draw",
       "result_applied_to": "",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -2022,7 +2022,7 @@
         "id": 7461880,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/07/2026",
+        "last_updated": "27/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2064,7 +2064,7 @@
         "result": "D",
         "result_description": "Draw",
         "result_applied_to": "",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:48.327Z"
+    "fetched_at": "2026-07-27T22:34:35.442Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:50.004Z"
+    "fetched_at": "2026-07-27T22:34:37.049Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:51.376Z"
+    "fetched_at": "2026-07-27T22:34:38.613Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-27T20:05:52.315Z"
+    "fetched_at": "2026-07-27T22:34:39.311Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:53.945Z"
+    "fetched_at": "2026-07-27T22:34:40.857Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:55.320Z"
+    "fetched_at": "2026-07-27T22:34:42.363Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:05:58.426Z"
+    "fetched_at": "2026-07-27T22:34:43.885Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-27T20:06:00.172Z"
+    "fetched_at": "2026-07-27T22:34:45.002Z"
   }
 ]

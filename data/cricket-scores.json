@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:51.091Z"
+    "fetched_at": "2026-07-29T06:20:51.724Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:52.129Z"
+    "fetched_at": "2026-07-29T06:20:53.268Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:53.155Z"
+    "fetched_at": "2026-07-29T06:20:54.691Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:54.193Z"
+    "fetched_at": "2026-07-29T06:20:56.330Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:55.273Z"
+    "fetched_at": "2026-07-29T06:20:57.779Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-29T03:45:55.686Z"
+    "fetched_at": "2026-07-29T06:20:58.408Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:56.686Z"
+    "fetched_at": "2026-07-29T06:20:59.858Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:57.640Z"
+    "fetched_at": "2026-07-29T06:21:01.235Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:58.610Z"
+    "fetched_at": "2026-07-29T06:21:02.594Z"
   },
   {
     "team": {
@@ -4957,7 +4957,7 @@
       "id": 7735017,
       "status": "New",
       "published": "Yes",
-      "last_updated": "25/07/2026",
+      "last_updated": "29/07/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -4999,7 +4999,7 @@
       "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
       "result_applied_to": "293157",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -5518,7 +5518,7 @@
         "id": 7735017,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/07/2026",
+        "last_updated": "29/07/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -5560,7 +5560,7 @@
         "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
         "result_applied_to": "293157",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-29T03:45:59.643Z"
+    "fetched_at": "2026-07-29T06:21:04.029Z"
   }
 ]

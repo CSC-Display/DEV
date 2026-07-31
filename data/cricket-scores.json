@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:37.833Z"
+    "fetched_at": "2026-07-31T10:22:03.584Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:38.894Z"
+    "fetched_at": "2026-07-31T10:22:05.181Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:40.007Z"
+    "fetched_at": "2026-07-31T10:22:06.756Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:41.033Z"
+    "fetched_at": "2026-07-31T10:22:07.925Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:42.082Z"
+    "fetched_at": "2026-07-31T10:22:09.024Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-31T08:26:42.524Z"
+    "fetched_at": "2026-07-31T10:22:09.678Z"
   },
   {
     "team": {
@@ -3695,7 +3695,7 @@
         "id": 7507172,
         "status": "New",
         "published": "Yes",
-        "last_updated": "23/06/2026",
+        "last_updated": "31/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3739,8 +3739,8 @@
         "result_applied_to": "324716",
         "home_confirmed": "false",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3809,7 +3809,7 @@
         "id": 7507178,
         "status": "New",
         "published": "Yes",
-        "last_updated": "29/06/2026",
+        "last_updated": "31/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3853,8 +3853,8 @@
         "result_applied_to": "324716",
         "home_confirmed": "false",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3923,7 +3923,7 @@
         "id": 7507202,
         "status": "New",
         "published": "Yes",
-        "last_updated": "07/07/2026",
+        "last_updated": "31/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3967,8 +3967,8 @@
         "result_applied_to": "324716",
         "home_confirmed": "true",
         "away_confirmed": "false",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3984,8 +3984,8 @@
             "team_id": 37504,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "3.0",
-            "bonus_points_batting": "0.0",
+            "bonus_points_together": "4.0",
+            "bonus_points_batting": "1.0",
             "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:43.633Z"
+    "fetched_at": "2026-07-31T10:22:11.216Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:44.628Z"
+    "fetched_at": "2026-07-31T10:22:11.859Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:45.603Z"
+    "fetched_at": "2026-07-31T10:22:13.316Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T08:26:46.564Z"
+    "fetched_at": "2026-07-31T10:22:14.812Z"
   }
 ]

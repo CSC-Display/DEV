@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:03.584Z"
+    "fetched_at": "2026-07-31T12:28:17.701Z"
   },
   {
     "team": {
@@ -1425,7 +1425,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:05.181Z"
+    "fetched_at": "2026-07-31T12:28:18.924Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:06.756Z"
+    "fetched_at": "2026-07-31T12:28:19.845Z"
   },
   {
     "team": {
@@ -2836,7 +2836,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:07.925Z"
+    "fetched_at": "2026-07-31T12:28:21.084Z"
   },
   {
     "team": {
@@ -3535,7 +3535,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:09.024Z"
+    "fetched_at": "2026-07-31T12:28:22.010Z"
   },
   {
     "team": {
@@ -3548,7 +3548,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-07-31T10:22:09.678Z"
+    "fetched_at": "2026-07-31T12:28:22.517Z"
   },
   {
     "team": {
@@ -4037,7 +4037,7 @@
         "id": 7507207,
         "status": "New",
         "published": "Yes",
-        "last_updated": "13/07/2026",
+        "last_updated": "31/07/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -4081,9 +4081,9 @@
         "result_applied_to": "324716",
         "home_confirmed": "false",
         "away_confirmed": "false",
-        "result_locked": "false",
-        "scorecard_locked": "false",
-        "match_notes": "",
+        "result_locked": "true",
+        "scorecard_locked": "true",
+        "match_notes": "<p>Kavi&nbsp;Selladurai&nbsp;(Ipscol)&nbsp;has&nbsp;since&nbsp;transferred&nbsp;to&nbsp;another&nbsp;club.</p>\r\n",
         "points": [
           {
             "team_id": 324716,
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:11.216Z"
+    "fetched_at": "2026-07-31T12:28:23.665Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:11.859Z"
+    "fetched_at": "2026-07-31T12:28:24.767Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:13.316Z"
+    "fetched_at": "2026-07-31T12:28:25.880Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-07-31T10:22:14.812Z"
+    "fetched_at": "2026-07-31T12:28:27.066Z"
   }
 ]

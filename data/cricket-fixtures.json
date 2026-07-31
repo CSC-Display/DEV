@@ -286,7 +286,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:25.384Z"
+    "fetched_at": "2026-07-31T22:56:38.563Z"
   },
   {
     "team": {
@@ -298,7 +298,7 @@
         "id": 7325763,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "31/07/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -535,7 +535,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:25.695Z"
+    "fetched_at": "2026-07-31T22:56:38.827Z"
   },
   {
     "team": {
@@ -784,7 +784,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:26.426Z"
+    "fetched_at": "2026-07-31T22:56:39.096Z"
   },
   {
     "team": {
@@ -993,7 +993,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:27.129Z"
+    "fetched_at": "2026-07-31T22:56:39.359Z"
   },
   {
     "team": {
@@ -1242,7 +1242,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:27.469Z"
+    "fetched_at": "2026-07-31T22:56:39.632Z"
   },
   {
     "team": {
@@ -1451,7 +1451,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:28.142Z"
+    "fetched_at": "2026-07-31T22:56:39.851Z"
   },
   {
     "team": {
@@ -1700,7 +1700,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:28.845Z"
+    "fetched_at": "2026-07-31T22:56:40.132Z"
   },
   {
     "team": {
@@ -1749,7 +1749,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:29.130Z"
+    "fetched_at": "2026-07-31T22:56:40.369Z"
   },
   {
     "team": {
@@ -1757,7 +1757,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-31T18:14:29.836Z"
+    "fetched_at": "2026-07-31T22:56:40.648Z"
   },
   {
     "team": {
@@ -1806,6 +1806,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T18:14:30.147Z"
+    "fetched_at": "2026-07-31T22:56:40.883Z"
   }
 ]

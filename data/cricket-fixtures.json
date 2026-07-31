@@ -286,7 +286,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:54.239Z"
+    "fetched_at": "2026-07-31T18:14:25.384Z"
   },
   {
     "team": {
@@ -535,7 +535,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:54.778Z"
+    "fetched_at": "2026-07-31T18:14:25.695Z"
   },
   {
     "team": {
@@ -784,7 +784,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:55.352Z"
+    "fetched_at": "2026-07-31T18:14:26.426Z"
   },
   {
     "team": {
@@ -993,7 +993,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:55.839Z"
+    "fetched_at": "2026-07-31T18:14:27.129Z"
   },
   {
     "team": {
@@ -1242,7 +1242,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:56.412Z"
+    "fetched_at": "2026-07-31T18:14:27.469Z"
   },
   {
     "team": {
@@ -1451,7 +1451,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:56.914Z"
+    "fetched_at": "2026-07-31T18:14:28.142Z"
   },
   {
     "team": {
@@ -1700,7 +1700,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:57.389Z"
+    "fetched_at": "2026-07-31T18:14:28.845Z"
   },
   {
     "team": {
@@ -1749,7 +1749,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-07-31T08:26:57.895Z"
+    "fetched_at": "2026-07-31T18:14:29.130Z"
   },
   {
     "team": {
@@ -1757,14 +1757,55 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-07-31T08:26:58.385Z"
+    "fetched_at": "2026-07-31T18:14:29.836Z"
   },
   {
     "team": {
       "name": "Womens 1st XI",
       "id": 213007
     },
-    "fix": [],
-    "fetched_at": "2026-07-31T08:26:58.924Z"
+    "fix": [
+      {
+        "id": 7399557,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "31/07/2026",
+        "league_name": "Essex Women's T20 League",
+        "league_id": "12600",
+        "competition_name": "South Division 2",
+        "competition_id": "137056",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "season": "2026",
+        "match_date": "04/09/2026",
+        "match_time": "18:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "ground_latitude": "51.7037755",
+        "ground_longitude": "0.4694193",
+        "home_club_name": "Chelmsford CC",
+        "home_team_name": "Womens 1st XI",
+        "home_team_id": "213007",
+        "home_club_id": "1786",
+        "away_club_name": "Hadleigh & Thundersley CC, Essex",
+        "away_team_name": "Womens 1st XI",
+        "away_team_id": "382272",
+        "away_club_id": "3096",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": ""
+      }
+    ],
+    "fetched_at": "2026-07-31T18:14:30.147Z"
   }
 ]

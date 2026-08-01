@@ -29,10 +29,10 @@
       "away_team_id": "24293",
       "away_club_name": "Chelmsford CC",
       "away_club_id": "1786",
-      "umpire_1_name": "",
-      "umpire_1_id": "",
-      "umpire_2_name": "",
-      "umpire_2_id": "",
+      "umpire_1_name": "C Perry",
+      "umpire_1_id": "5964427",
+      "umpire_2_name": "Michael Squires",
+      "umpire_2_id": "4208901",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
@@ -41,9 +41,9 @@
       "scorer_1_id": "5052500",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "16619",
+      "toss": "Fives and Heronians CC - 1st XI won the toss and elected to bat",
+      "batted_first": "16619",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -75,7 +75,28 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": []
+      "innings": [
+        {
+          "team_batting_id": "16619",
+          "innings_number": 1,
+          "extra_byes": "4",
+          "extra_leg_byes": "3",
+          "extra_wides": "1",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "9",
+          "runs": "55",
+          "wickets": "1",
+          "overs": "18.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        }
+      ]
     },
     "perf": {
       "runs": [],
@@ -563,10 +584,10 @@
         "away_team_id": "24293",
         "away_club_name": "Chelmsford CC",
         "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
+        "umpire_1_name": "C Perry",
+        "umpire_1_id": "5964427",
+        "umpire_2_name": "Michael Squires",
+        "umpire_2_id": "4208901",
         "umpire_3_name": "",
         "umpire_3_id": "",
         "referee_name": "",
@@ -575,9 +596,9 @@
         "scorer_1_id": "5052500",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "16619",
+        "toss": "Fives and Heronians CC - 1st XI won the toss and elected to bat",
+        "batted_first": "16619",
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -609,10 +630,31 @@
             "bonus_points_2nd_innings_together": ""
           }
         ],
-        "innings": []
+        "innings": [
+          {
+            "team_batting_id": "16619",
+            "innings_number": 1,
+            "extra_byes": "4",
+            "extra_leg_byes": "3",
+            "extra_wides": "1",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "9",
+            "runs": "55",
+            "wickets": "1",
+            "overs": "18.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:13.118Z"
+    "fetched_at": "2026-08-01T11:02:40.435Z"
   },
   {
     "team": {
@@ -623,7 +665,7 @@
       "id": 7325763,
       "status": "New",
       "published": "Yes",
-      "last_updated": "31/07/2026",
+      "last_updated": "01/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -656,9 +698,9 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "24294",
+      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
+      "batted_first": "24294",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -690,7 +732,28 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": []
+      "innings": [
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "1",
+          "wickets": "1",
+          "overs": "1.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        }
+      ]
     },
     "perf": {
       "runs": [],
@@ -1157,7 +1220,7 @@
         "id": 7325763,
         "status": "New",
         "published": "Yes",
-        "last_updated": "31/07/2026",
+        "last_updated": "01/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1190,9 +1253,9 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "24294",
+        "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
+        "batted_first": "24294",
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -1224,10 +1287,31 @@
             "bonus_points_2nd_innings_together": ""
           }
         ],
-        "innings": []
+        "innings": [
+          {
+            "team_batting_id": "24294",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "1",
+            "wickets": "1",
+            "overs": "1.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:13.767Z"
+    "fetched_at": "2026-08-01T11:02:41.677Z"
   },
   {
     "team": {
@@ -1935,7 +2019,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:14.422Z"
+    "fetched_at": "2026-08-01T11:02:42.876Z"
   },
   {
     "team": {
@@ -2638,7 +2722,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:15.078Z"
+    "fetched_at": "2026-08-01T11:02:44.031Z"
   },
   {
     "team": {
@@ -3337,7 +3421,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:15.671Z"
+    "fetched_at": "2026-08-01T11:02:45.101Z"
   },
   {
     "team": {
@@ -3350,7 +3434,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-01T09:29:15.880Z"
+    "fetched_at": "2026-08-01T11:02:45.616Z"
   },
   {
     "team": {
@@ -4064,7 +4148,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:16.511Z"
+    "fetched_at": "2026-08-01T11:02:46.875Z"
   },
   {
     "team": {
@@ -4345,7 +4429,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:17.076Z"
+    "fetched_at": "2026-08-01T11:02:47.742Z"
   },
   {
     "team": {
@@ -4748,7 +4832,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:17.636Z"
+    "fetched_at": "2026-08-01T11:02:48.424Z"
   },
   {
     "team": {
@@ -5411,6 +5495,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T09:29:18.264Z"
+    "fetched_at": "2026-08-01T11:02:49.330Z"
   }
 ]

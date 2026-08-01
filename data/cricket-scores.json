@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
       "result_applied_to": "24293",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -643,7 +643,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
         "result_applied_to": "24293",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:12.304Z"
+    "fetched_at": "2026-08-01T18:37:32.406Z"
   },
   {
     "team": {
@@ -1414,7 +1414,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:13.785Z"
+    "fetched_at": "2026-08-01T18:37:33.480Z"
   },
   {
     "team": {
@@ -2111,7 +2111,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:15.231Z"
+    "fetched_at": "2026-08-01T18:37:34.589Z"
   },
   {
     "team": {
@@ -2814,7 +2814,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:16.769Z"
+    "fetched_at": "2026-08-01T18:37:35.654Z"
   },
   {
     "team": {
@@ -2822,10 +2822,10 @@
       "id": 45348
     },
     "match": {
-      "id": 7462442,
+      "id": 7462446,
       "status": "New",
       "published": "Yes",
-      "last_updated": "26/07/2026",
+      "last_updated": "01/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2834,18 +2834,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "25/07/2026",
+      "match_date": "01/08/2026",
       "match_time": "12:00",
-      "ground_name": "Chelmer Park",
-      "ground_id": "10646",
-      "home_team_name": "Sat 5th XI",
-      "home_team_id": "45348",
-      "home_club_name": "Chelmsford CC",
-      "home_club_id": "1786",
-      "away_team_name": "5th XI",
-      "away_team_id": "207139",
-      "away_club_name": "Shenfield CC",
-      "away_club_id": "214",
+      "ground_name": "Shoebury Garrison Ground",
+      "ground_id": "29483",
+      "home_team_name": "4th XI",
+      "home_team_id": "23961",
+      "home_club_name": "Old Southendian & Southchurch CC",
+      "home_club_id": "4848",
+      "away_team_name": "Sat 5th XI",
+      "away_team_id": "45348",
+      "away_club_name": "Chelmsford CC",
+      "away_club_id": "1786",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -2858,54 +2858,54 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "207139",
-      "toss": "Shenfield CC - 5th XI won the toss and elected to bat",
-      "batted_first": "207139",
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-      "result_applied_to": "45348",
+      "result": "CON",
+      "result_description": "Chelmsford CC - Sat 5th XI - Conceded",
+      "result_applied_to": "23961",
       "home_confirmed": "true",
-      "away_confirmed": "true",
+      "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 45348,
+          "team_id": 23961,
           "game_points": "20",
-          "penalty_points": "0.0",
+          "penalty_points": "",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 207139,
-          "game_points": "0",
-          "penalty_points": "0.0",
-          "bonus_points_together": "6.0",
-          "bonus_points_batting": "3.0",
-          "bonus_points_bowling": "3.0",
+          "team_id": 45348,
+          "game_points": "-5",
+          "penalty_points": "",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
       "innings": [
         {
-          "team_batting_id": "207139",
+          "team_batting_id": "23961",
           "innings_number": 1,
-          "extra_byes": "4",
-          "extra_leg_byes": "1",
-          "extra_wides": "25",
-          "extra_no_balls": "6",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "36",
-          "runs": "190",
-          "wickets": "10",
-          "overs": "37.1",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2916,16 +2916,16 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "2",
-          "extra_leg_byes": "1",
-          "extra_wides": "17",
-          "extra_no_balls": "4",
-          "extra_penalty_runs": "0",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
           "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "24",
-          "runs": "192",
-          "wickets": "7",
-          "overs": "37.5",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2936,146 +2936,10 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Anisur Rahman",
-          "score": 54,
-          "notOut": false
-        },
-        {
-          "name": "Arunabha Mukherjee",
-          "score": 57,
-          "notOut": false
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Tom Hutchinson",
-          "w": 3,
-          "r": "32"
-        },
-        {
-          "name": "Rajwali Baig",
-          "w": 3,
-          "r": "10"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7462422,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "10/07/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 16 - 4th XI Division One East",
-        "competition_id": "135332",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "04/07/2026",
-        "match_time": "12:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Sat 5th XI",
-        "home_team_id": "45348",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "5th XI",
-        "away_team_id": "93863",
-        "away_club_name": "Billericay CC",
-        "away_club_id": "1131",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "93863",
-        "toss": "Billericay CC - 5th XI won the toss and elected to field",
-        "batted_first": "45348",
-        "no_of_overs": "40",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Sat 5th XI - Overs Win",
-        "result_applied_to": "45348",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 45348,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 93863,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "6.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "2.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "45348",
-            "innings_number": 1,
-            "extra_byes": "13",
-            "extra_leg_byes": "4",
-            "extra_wides": "5",
-            "extra_no_balls": "1",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "23",
-            "runs": "228",
-            "wickets": "5",
-            "overs": "40.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "93863",
-            "innings_number": 1,
-            "extra_byes": "11",
-            "extra_leg_byes": "3",
-            "extra_wides": "4",
-            "extra_no_balls": "3",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "21",
-            "runs": "204",
-            "wickets": "8",
-            "overs": "40.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "40.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7462430,
         "status": "New",
@@ -3511,9 +3375,123 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7462446,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "01/08/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 16 - 4th XI Division One East",
+        "competition_id": "135332",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "01/08/2026",
+        "match_time": "12:00",
+        "ground_name": "Shoebury Garrison Ground",
+        "ground_id": "29483",
+        "home_team_name": "4th XI",
+        "home_team_id": "23961",
+        "home_club_name": "Old Southendian & Southchurch CC",
+        "home_club_id": "4848",
+        "away_team_name": "Sat 5th XI",
+        "away_team_id": "45348",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "40",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "CON",
+        "result_description": "Chelmsford CC - Sat 5th XI - Conceded",
+        "result_applied_to": "23961",
+        "home_confirmed": "true",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 23961,
+            "game_points": "20",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 45348,
+            "game_points": "-5",
+            "penalty_points": "",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "23961",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "45348",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:18.218Z"
+    "fetched_at": "2026-08-01T18:37:36.520Z"
   },
   {
     "team": {
@@ -3526,7 +3504,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-01T17:50:18.948Z"
+    "fetched_at": "2026-08-01T18:37:36.923Z"
   },
   {
     "team": {
@@ -4240,7 +4218,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:20.528Z"
+    "fetched_at": "2026-08-01T18:37:37.959Z"
   },
   {
     "team": {
@@ -4521,7 +4499,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:21.995Z"
+    "fetched_at": "2026-08-01T18:37:38.661Z"
   },
   {
     "team": {
@@ -4924,7 +4902,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:23.452Z"
+    "fetched_at": "2026-08-01T18:37:39.711Z"
   },
   {
     "team": {
@@ -5587,6 +5565,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-01T17:50:24.889Z"
+    "fetched_at": "2026-08-01T18:37:40.750Z"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T07:59:49.310Z",
+  "generated_at": "2026-08-02T17:52:33.577Z",
   "season": "2026",
   "centuries": [
     {
@@ -553,6 +553,17 @@
       "opposition": "Wanstead & Snaresbrook CC 1st XI",
       "date": "11/07/2026",
       "match_id": 7325296
+    },
+    {
+      "player": "George Wilson",
+      "runs": 63,
+      "score": "63*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Wivenhoe Town CC Sunday XI",
+      "date": "02/08/2026",
+      "match_id": 7510284
     },
     {
       "player": "Richard Goodey",

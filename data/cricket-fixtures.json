@@ -49,7 +49,7 @@
         "id": 7731669,
         "status": "New",
         "published": "Yes",
-        "last_updated": "28/07/2026",
+        "last_updated": "02/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex League Cup",
@@ -59,7 +59,7 @@
         "game_type": "Standard",
         "season": "2026",
         "match_date": "09/08/2026",
-        "match_time": "12:00",
+        "match_time": "13:00",
         "ground_name": "Wanstead Cricket Club",
         "ground_id": "11878",
         "ground_latitude": "51.5716446",
@@ -246,7 +246,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:33.096Z"
+    "fetched_at": "2026-08-02T22:52:31.358Z"
   },
   {
     "team": {
@@ -455,7 +455,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:33.675Z"
+    "fetched_at": "2026-08-02T22:52:32.096Z"
   },
   {
     "team": {
@@ -664,7 +664,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:34.234Z"
+    "fetched_at": "2026-08-02T22:52:32.803Z"
   },
   {
     "team": {
@@ -833,7 +833,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:34.514Z"
+    "fetched_at": "2026-08-02T22:52:33.121Z"
   },
   {
     "team": {
@@ -1042,7 +1042,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:35.075Z"
+    "fetched_at": "2026-08-02T22:52:33.441Z"
   },
   {
     "team": {
@@ -1211,7 +1211,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:35.615Z"
+    "fetched_at": "2026-08-02T22:52:33.721Z"
   },
   {
     "team": {
@@ -1420,7 +1420,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:36.159Z"
+    "fetched_at": "2026-08-02T22:52:34.062Z"
   },
   {
     "team": {
@@ -1469,7 +1469,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:36.997Z"
+    "fetched_at": "2026-08-02T22:52:34.741Z"
   },
   {
     "team": {
@@ -1477,7 +1477,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-08-02T17:51:37.551Z"
+    "fetched_at": "2026-08-02T22:52:35.070Z"
   },
   {
     "team": {
@@ -1526,6 +1526,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-02T17:51:37.856Z"
+    "fetched_at": "2026-08-02T22:52:35.805Z"
   }
 ]

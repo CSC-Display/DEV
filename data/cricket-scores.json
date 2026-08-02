@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:30.934Z"
+    "fetched_at": "2026-08-02T14:49:02.977Z"
   },
   {
     "team": {
@@ -1414,7 +1414,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:31.619Z"
+    "fetched_at": "2026-08-02T14:49:04.530Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:32.243Z"
+    "fetched_at": "2026-08-02T14:49:06.122Z"
   },
   {
     "team": {
@@ -2831,7 +2831,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:32.903Z"
+    "fetched_at": "2026-08-02T14:49:07.672Z"
   },
   {
     "team": {
@@ -3508,7 +3508,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:33.639Z"
+    "fetched_at": "2026-08-02T14:49:09.177Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-02T13:39:33.884Z"
+    "fetched_at": "2026-08-02T14:49:09.859Z"
   },
   {
     "team": {
@@ -3578,7 +3578,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra<br/>20.6 Chelmsford CC NECL 1st XI: 100 runs in 21.0 overs, 94 minutes, 2 extras<br/>29.3 Chelmsford CC NECL 1st XI: 150 runs in 29.3 overs, 139 minutes, 6 extras\n<br/>\n",
       "points": [
         {
           "team_id": 207268,
@@ -3603,16 +3603,16 @@
         {
           "team_batting_id": "324716",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "1",
-          "extra_wides": "1",
-          "extra_no_balls": "0",
+          "extra_byes": "2",
+          "extra_leg_byes": "2",
+          "extra_wides": "2",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "2",
-          "runs": "97",
-          "wickets": "3",
-          "overs": "20",
+          "total_extras": "7",
+          "runs": "173",
+          "wickets": "6",
+          "overs": "34",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4133,7 +4133,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra<br/>20.6 Chelmsford CC NECL 1st XI: 100 runs in 21.0 overs, 94 minutes, 2 extras<br/>29.3 Chelmsford CC NECL 1st XI: 150 runs in 29.3 overs, 139 minutes, 6 extras\n<br/>\n",
         "points": [
           {
             "team_id": 207268,
@@ -4158,16 +4158,16 @@
           {
             "team_batting_id": "324716",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "1",
-            "extra_wides": "1",
-            "extra_no_balls": "0",
+            "extra_byes": "2",
+            "extra_leg_byes": "2",
+            "extra_wides": "2",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "2",
-            "runs": "97",
-            "wickets": "3",
-            "overs": "20",
+            "total_extras": "7",
+            "runs": "173",
+            "wickets": "6",
+            "overs": "34",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4178,7 +4178,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:34.451Z"
+    "fetched_at": "2026-08-02T14:49:11.331Z"
   },
   {
     "team": {
@@ -4459,7 +4459,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:35.082Z"
+    "fetched_at": "2026-08-02T14:49:12.772Z"
   },
   {
     "team": {
@@ -4862,7 +4862,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:35.746Z"
+    "fetched_at": "2026-08-02T14:49:14.205Z"
   },
   {
     "team": {
@@ -5525,6 +5525,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-02T13:39:36.352Z"
+    "fetched_at": "2026-08-02T14:49:15.734Z"
   }
 ]

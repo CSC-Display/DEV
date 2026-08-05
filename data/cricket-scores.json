@@ -258,7 +258,7 @@
         "id": 7325296,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -302,7 +302,7 @@
         "result_applied_to": "17709",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
         "points": [
@@ -486,7 +486,7 @@
         "id": 7325308,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -530,7 +530,7 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "<b>Buckhurst Hill CC Saturday 1st XI Innings</b><br/>\n11.6 1st Wicket: 50 runs in 73 balls, 43 minutes, Akhil Anil 15 (30), Prithviraj Sarvaiya 34 (43), 1 extra<br/>11.6 Buckhurst Hill CC Saturday 1st XI: 50 runs in 12.0 overs, 43 minutes, 1 extra<br/>17.5 Prithviraj Sarvaiya: 50 runs in 60 balls, 62 minutes (7x4, 1x6)<br/>21.1 1st Wicket: 100 runs in 128 balls, 75 minutes, Akhil Anil 44 (59), Prithviraj Sarvaiya 57 (69), 1 extra<br/>21.1 Buckhurst Hill CC Saturday 1st XI: 100 runs in 21.1 overs, 75 minutes, 1 extra<br/>21.6 Akhil Anil: 50 runs in 63 balls, 77 minutes (8x4)<br/>37.5 Buckhurst Hill CC Saturday 1st XI: 150 runs in 37.5 overs, 122 minutes, 1 extra<br/>56.2 Buckhurst Hill CC Saturday 1st XI: 200 runs in 56.2 overs, 169 minutes, 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n6.3 1st Wicket: 50 runs in 40 balls, 27 minutes, Jack Sterland 31 (25), Dan Hagen 18 (15), 1 extra<br/>6.3 Chelmsford CC Sat 1st XI: 50 runs in 6.3 overs, 27 minutes, 1 extra<br/>23.1 Chelmsford CC Sat 1st XI: 100 runs in 23.1 overs, 98 minutes, 2 extras<br/>35.3 Chelmsford CC Sat 1st XI: 150 runs in 35.3 overs, 136 minutes, 6 extras<br/>36.3 6th Wicket: 50 runs in 69 balls, 34 minutes, Harry Green 28 (30), Brad Green 21 (39), 2 extras<br/>45.3 Chelmsford CC Sat 1st XI: 200 runs in 45.3 overs, 167 minutes, 8 extras<br/>47.3 Naivedyam Dwivedi: 5 wickets (17.3-4-53-5)<br/>50.4 Brad Green: 50 runs in 75 balls, 88 minutes (6x4)\n<br/>\n",
         "points": [
@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:37:58.909Z"
+    "fetched_at": "2026-08-05T21:55:31.333Z"
   },
   {
     "team": {
@@ -961,7 +961,7 @@
         "id": 7325748,
         "status": "New",
         "published": "Yes",
-        "last_updated": "11/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1005,7 +1005,7 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -1189,7 +1189,7 @@
         "id": 7325754,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1233,7 +1233,7 @@
         "result_applied_to": "26284",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -1414,7 +1414,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:37:59.492Z"
+    "fetched_at": "2026-08-05T21:55:32.811Z"
   },
   {
     "team": {
@@ -1669,7 +1669,7 @@
         "id": 7461870,
         "status": "New",
         "published": "Yes",
-        "last_updated": "13/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1713,7 +1713,7 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -1897,7 +1897,7 @@
         "id": 7461880,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1941,7 +1941,7 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:00.115Z"
+    "fetched_at": "2026-08-05T21:55:34.344Z"
   },
   {
     "team": {
@@ -2133,7 +2133,7 @@
       "id": 7462155,
       "status": "New",
       "published": "Yes",
-      "last_updated": "01/08/2026",
+      "last_updated": "05/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2176,7 +2176,7 @@
       "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 1st)",
       "result_applied_to": "30461",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2492,7 +2492,7 @@
         "id": 7462139,
         "status": "New",
         "published": "Yes",
-        "last_updated": "13/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2536,7 +2536,7 @@
         "result_applied_to": "98818",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2606,7 +2606,7 @@
         "id": 7462146,
         "status": "New",
         "published": "Yes",
-        "last_updated": "30/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2650,7 +2650,7 @@
         "result_applied_to": "42755",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2720,7 +2720,7 @@
         "id": 7462155,
         "status": "New",
         "published": "Yes",
-        "last_updated": "01/08/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2763,7 +2763,7 @@
         "result_description": "Chelmsford CC - Sat 4th XI - Time Win (bat 1st)",
         "result_applied_to": "30461",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2831,7 +2831,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:00.742Z"
+    "fetched_at": "2026-08-05T21:55:35.883Z"
   },
   {
     "team": {
@@ -2961,7 +2961,7 @@
         "id": 7462430,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3005,7 +3005,7 @@
         "result_applied_to": "84968",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -3283,7 +3283,7 @@
         "id": 7462442,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/07/2026",
+        "last_updated": "05/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3327,7 +3327,7 @@
         "result_applied_to": "45348",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -3508,7 +3508,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:01.314Z"
+    "fetched_at": "2026-08-05T21:55:37.497Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-05T20:38:01.515Z"
+    "fetched_at": "2026-08-05T21:55:38.294Z"
   },
   {
     "team": {
@@ -4230,7 +4230,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:02.064Z"
+    "fetched_at": "2026-08-05T21:55:40.019Z"
   },
   {
     "team": {
@@ -4511,7 +4511,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:02.586Z"
+    "fetched_at": "2026-08-05T21:55:41.583Z"
   },
   {
     "team": {
@@ -4914,7 +4914,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:03.174Z"
+    "fetched_at": "2026-08-05T21:55:42.974Z"
   },
   {
     "team": {
@@ -5577,6 +5577,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05T20:38:03.762Z"
+    "fetched_at": "2026-08-05T21:55:44.343Z"
   }
 ]

@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:31.271Z"
+    "fetched_at": "2026-08-06T11:36:18.447Z"
   },
   {
     "team": {
@@ -1414,7 +1414,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:32.398Z"
+    "fetched_at": "2026-08-06T11:36:19.567Z"
   },
   {
     "team": {
@@ -2122,7 +2122,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:33.284Z"
+    "fetched_at": "2026-08-06T11:36:20.544Z"
   },
   {
     "team": {
@@ -2831,7 +2831,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:34.402Z"
+    "fetched_at": "2026-08-06T11:36:21.334Z"
   },
   {
     "team": {
@@ -3508,7 +3508,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:35.460Z"
+    "fetched_at": "2026-08-06T11:36:22.067Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-06T09:13:35.883Z"
+    "fetched_at": "2026-08-06T11:36:22.475Z"
   },
   {
     "team": {
@@ -3532,7 +3532,7 @@
       "id": 7510284,
       "status": "New",
       "published": "Yes",
-      "last_updated": "04/08/2026",
+      "last_updated": "06/08/2026",
       "league_name": "Two Counties Cricket Championship",
       "league_id": "7277",
       "competition_name": "Sunday League",
@@ -3575,7 +3575,7 @@
       "result_description": "Wivenhoe Town CC - Sunday XI - Won",
       "result_applied_to": "207268",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra<br/>20.6 Chelmsford CC NECL 1st XI: 100 runs in 21.0 overs, 94 minutes, 2 extras<br/>29.3 Chelmsford CC NECL 1st XI: 150 runs in 29.3 overs, 139 minutes, 6 extras<br/>36.4 Chelmsford CC NECL 1st XI: 200 runs in 36.4 overs, 173 minutes, 8 extras<br/>36.5 George Wilson: 50 runs in 55 balls, 96 minutes (6x4, 1x6)\n<br/>\n<br/>\n<b>Wivenhoe Town CC Sunday XI Innings</b><br/>\n10.3 Wivenhoe Town CC Sunday XI: 50 runs in 10.3 overs, 51 minutes, 21 extras<br/>14.1 5th Wicket: 50 runs in 31 balls, 27 minutes, Freddie Stiffell 30 (18), Joseph Nicholls 12 (13), 11 extras<br/>15.5 Wivenhoe Town CC Sunday XI: 100 runs in 15.5 overs, 82 minutes, 30 extras<br/>25.5 Wivenhoe Town CC Sunday XI: 150 runs in 25.5 overs, 114 minutes, 31 extras<br/>27.5 7th Wicket: 50 runs in 49 balls, 27 minutes, Joseph Nicholls 24 (29), James Sparling 23 (20), 2 extras<br/>30.4 Joseph Nicholls: 50 runs in 69 balls, 92 minutes (5x4)<br/>32.2 Wivenhoe Town CC Sunday XI: 200 runs in 32.2 overs, 142 minutes, 38 extras<br/>33.1 7th Wicket: 100 runs in 82 balls, 54 minutes, Joseph Nicholls 46 (47), James Sparling 45 (35), 4 extras<br/>33.5 James Sparling: 50 runs in 37 balls, 55 minutes (5x4, 2x6)\n<br/>\n",
@@ -4119,7 +4119,7 @@
         "id": 7510284,
         "status": "New",
         "published": "Yes",
-        "last_updated": "04/08/2026",
+        "last_updated": "06/08/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -4162,7 +4162,7 @@
         "result_description": "Wivenhoe Town CC - Sunday XI - Won",
         "result_applied_to": "207268",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Chelmsford CC NECL 1st XI Innings</b><br/>\n10.2 1st Wicket: 50 runs in 62 balls, 44 minutes, Elliot Wenzel 19 (25), Mohammed Baig 32 (37), 1 extra<br/>10.2 Chelmsford CC NECL 1st XI: 50 runs in 10.2 overs, 44 minutes, 1 extra<br/>20.6 Chelmsford CC NECL 1st XI: 100 runs in 21.0 overs, 94 minutes, 2 extras<br/>29.3 Chelmsford CC NECL 1st XI: 150 runs in 29.3 overs, 139 minutes, 6 extras<br/>36.4 Chelmsford CC NECL 1st XI: 200 runs in 36.4 overs, 173 minutes, 8 extras<br/>36.5 George Wilson: 50 runs in 55 balls, 96 minutes (6x4, 1x6)\n<br/>\n<br/>\n<b>Wivenhoe Town CC Sunday XI Innings</b><br/>\n10.3 Wivenhoe Town CC Sunday XI: 50 runs in 10.3 overs, 51 minutes, 21 extras<br/>14.1 5th Wicket: 50 runs in 31 balls, 27 minutes, Freddie Stiffell 30 (18), Joseph Nicholls 12 (13), 11 extras<br/>15.5 Wivenhoe Town CC Sunday XI: 100 runs in 15.5 overs, 82 minutes, 30 extras<br/>25.5 Wivenhoe Town CC Sunday XI: 150 runs in 25.5 overs, 114 minutes, 31 extras<br/>27.5 7th Wicket: 50 runs in 49 balls, 27 minutes, Joseph Nicholls 24 (29), James Sparling 23 (20), 2 extras<br/>30.4 Joseph Nicholls: 50 runs in 69 balls, 92 minutes (5x4)<br/>32.2 Wivenhoe Town CC Sunday XI: 200 runs in 32.2 overs, 142 minutes, 38 extras<br/>33.1 7th Wicket: 100 runs in 82 balls, 54 minutes, Joseph Nicholls 46 (47), James Sparling 45 (35), 4 extras<br/>33.5 James Sparling: 50 runs in 37 balls, 55 minutes (5x4, 2x6)\n<br/>\n",
@@ -4230,7 +4230,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:36.744Z"
+    "fetched_at": "2026-08-06T11:36:23.441Z"
   },
   {
     "team": {
@@ -4511,7 +4511,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:37.705Z"
+    "fetched_at": "2026-08-06T11:36:24.458Z"
   },
   {
     "team": {
@@ -4914,7 +4914,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:38.672Z"
+    "fetched_at": "2026-08-06T11:36:25.631Z"
   },
   {
     "team": {
@@ -5577,6 +5577,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06T09:13:39.721Z"
+    "fetched_at": "2026-08-06T11:36:26.588Z"
   }
 ]

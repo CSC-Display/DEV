@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:45.908Z"
+      "fetched_at": "2026-08-07T22:30:35.785Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:47.062Z"
+      "fetched_at": "2026-08-07T22:30:36.653Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:47.666Z"
+      "fetched_at": "2026-08-07T22:30:37.164Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:48.404Z"
+      "fetched_at": "2026-08-07T22:30:37.700Z"
     },
     "data": {
       "id": 135330,
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:48.972Z"
+      "fetched_at": "2026-08-07T22:30:38.553Z"
     },
     "data": {
       "id": 135332,
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:49.726Z"
+      "fetched_at": "2026-08-07T22:30:39.483Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-08-07T17:38:50.541Z"
+      "fetched_at": "2026-08-07T22:30:40.584Z"
     },
     "data": {
       "id": 137056,
@@ -1614,29 +1614,10 @@
         },
         {
           "position": "4",
-          "team_id": "319144",
-          "column_1": "Galleywood CC - Womens 1st XI",
-          "column_2": "9",
-          "column_3": "2",
-          "column_4": "5",
-          "column_5": "0",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "1",
-          "column_9": "1",
-          "column_10": "40",
-          "column_11": "13",
-          "column_12": "0",
-          "column_13": "-0.34",
-          "column_14": "118",
-          "column_15": "13.11"
-        },
-        {
-          "position": "5",
           "team_id": "31296",
           "column_1": "Maldon CC - Womens 1st XI",
-          "column_2": "9",
-          "column_3": "3",
+          "column_2": "10",
+          "column_3": "4",
           "column_4": "4",
           "column_5": "0",
           "column_6": "0",
@@ -1646,9 +1627,28 @@
           "column_10": "19",
           "column_11": "12",
           "column_12": "0",
+          "column_13": "-0.21",
+          "column_14": "131",
+          "column_15": "13.1"
+        },
+        {
+          "position": "5",
+          "team_id": "319144",
+          "column_1": "Galleywood CC - Womens 1st XI",
+          "column_2": "10",
+          "column_3": "2",
+          "column_4": "6",
+          "column_5": "0",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "1",
+          "column_9": "1",
+          "column_10": "47",
+          "column_11": "17",
+          "column_12": "0",
           "column_13": "-0.5",
-          "column_14": "111",
-          "column_15": "12.33"
+          "column_14": "129",
+          "column_15": "12.9"
         },
         {
           "position": "6",

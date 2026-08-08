@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n",
+      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras\n<br/>\n",
       "points": [
         {
           "team_id": 58739,
@@ -102,13 +102,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "2",
           "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "3",
-          "runs": "41",
-          "wickets": "0",
-          "overs": "9",
+          "total_extras": "4",
+          "runs": "75",
+          "wickets": "1",
+          "overs": "17",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -640,7 +640,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n",
+        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras\n<br/>\n",
         "points": [
           {
             "team_id": 58739,
@@ -688,13 +688,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "2",
             "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "3",
-            "runs": "41",
-            "wickets": "0",
-            "overs": "9",
+            "total_extras": "4",
+            "runs": "75",
+            "wickets": "1",
+            "overs": "17",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -705,7 +705,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:28.613Z"
+    "fetched_at": "2026-08-08T15:16:21.385Z"
   },
   {
     "team": {
@@ -810,13 +810,13 @@
           "extra_byes": "0",
           "extra_leg_byes": "0",
           "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "6",
+          "total_extras": "1",
+          "runs": "47",
           "wickets": "0",
-          "overs": "1.0",
+          "overs": "8.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1396,13 +1396,13 @@
             "extra_byes": "0",
             "extra_leg_byes": "0",
             "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "6",
+            "total_extras": "1",
+            "runs": "47",
             "wickets": "0",
-            "overs": "1.0",
+            "overs": "8.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1413,7 +1413,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:30.160Z"
+    "fetched_at": "2026-08-08T15:16:24.540Z"
   },
   {
     "team": {
@@ -2076,7 +2076,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:31.912Z"
+    "fetched_at": "2026-08-08T15:16:27.417Z"
   },
   {
     "team": {
@@ -2785,7 +2785,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:35.149Z"
+    "fetched_at": "2026-08-08T15:16:29.029Z"
   },
   {
     "team": {
@@ -2889,14 +2889,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "1",
+          "extra_wides": "10",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "1",
-          "runs": "14",
+          "total_extras": "10",
+          "runs": "36",
           "wickets": "1",
-          "overs": "3.0",
+          "overs": "9.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3450,14 +3450,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "0",
-            "extra_wides": "1",
+            "extra_wides": "10",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "1",
-            "runs": "14",
+            "total_extras": "10",
+            "runs": "36",
             "wickets": "1",
-            "overs": "3.0",
+            "overs": "9.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3468,7 +3468,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:37.219Z"
+    "fetched_at": "2026-08-08T15:16:30.602Z"
   },
   {
     "team": {
@@ -3481,7 +3481,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T14:48:37.765Z"
+    "fetched_at": "2026-08-08T15:16:31.597Z"
   },
   {
     "team": {
@@ -4190,7 +4190,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:39.129Z"
+    "fetched_at": "2026-08-08T15:16:33.284Z"
   },
   {
     "team": {
@@ -4471,7 +4471,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:40.719Z"
+    "fetched_at": "2026-08-08T15:16:35.769Z"
   },
   {
     "team": {
@@ -4874,7 +4874,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:41.956Z"
+    "fetched_at": "2026-08-08T15:16:37.629Z"
   },
   {
     "team": {
@@ -5537,6 +5537,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T14:48:43.469Z"
+    "fetched_at": "2026-08-08T15:16:39.461Z"
   }
 ]

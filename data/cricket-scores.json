@@ -5,7 +5,7 @@
       "id": 24293
     },
     "match": {
-      "id": 7325311,
+      "id": 7325315,
       "status": "New",
       "published": "Yes",
       "last_updated": "08/08/2026",
@@ -17,57 +17,57 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "01/08/2026",
+      "match_date": "08/08/2026",
       "match_time": "11:00",
-      "ground_name": "The Paddock",
-      "ground_id": "12329",
+      "ground_name": "Castle Park",
+      "ground_id": "12314",
       "home_team_name": "1st XI",
-      "home_team_id": "16619",
-      "home_club_name": "Fives and Heronians CC",
-      "home_club_id": "2738",
+      "home_team_id": "58739",
+      "home_club_name": "Colchester and East Essex CC",
+      "home_club_id": "1968",
       "away_team_name": "Sat 1st XI",
       "away_team_id": "24293",
       "away_club_name": "Chelmsford CC",
       "away_club_id": "1786",
-      "umpire_1_name": "C Perry",
-      "umpire_1_id": "5964427",
-      "umpire_2_name": "Michael Squires",
-      "umpire_2_id": "4208901",
+      "umpire_1_name": "Todd Holland",
+      "umpire_1_id": "4383451",
+      "umpire_2_name": "Gary Marshall",
+      "umpire_2_id": "4494841",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "Graham Neary",
-      "scorer_1_id": "5052500",
-      "scorer_2_name": "Kunal Patel",
-      "scorer_2_id": "5971000",
-      "toss_won_by_team_id": "16619",
-      "toss": "Fives and Heronians CC - 1st XI won the toss and elected to bat",
-      "batted_first": "16619",
+      "scorer_1_name": "Phil Wolski",
+      "scorer_1_id": "3974409",
+      "scorer_2_name": "",
+      "scorer_2_id": "",
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
-      "result_applied_to": "24293",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
-      "scorecard_locked": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 16619,
+          "team_id": 58739,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "6.0",
-          "bonus_points_batting": "4.0",
-          "bonus_points_bowling": "2.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 24293,
-          "game_points": "20",
+          "game_points": "0",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -75,185 +75,13 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": [
-        {
-          "team_batting_id": "16619",
-          "innings_number": 1,
-          "extra_byes": "4",
-          "extra_leg_byes": "11",
-          "extra_wides": "1",
-          "extra_no_balls": "1",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "17",
-          "runs": "193",
-          "wickets": "8",
-          "overs": "64.0",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "24293",
-          "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "2",
-          "extra_wides": "1",
-          "extra_no_balls": "3",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "6",
-          "runs": "194",
-          "wickets": "6",
-          "overs": "35.4",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "",
-          "revised_target_balls": ""
-        }
-      ]
+      "innings": []
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Jack Sterland",
-          "score": 109,
-          "notOut": true
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Andy Styan",
-          "w": 3,
-          "r": "70"
-        },
-        {
-          "name": "Ben Waring",
-          "w": 3,
-          "r": "28"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7325292,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "10/07/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 01 - 1st XI Premier Division",
-        "competition_id": "135282",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "04/07/2026",
-        "match_time": "11:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Sat 1st XI",
-        "home_team_id": "24293",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "1st XI",
-        "away_team_id": "7631",
-        "away_club_name": "Loughton CC",
-        "away_club_id": "4110",
-        "umpire_1_name": "Todd Holland",
-        "umpire_1_id": "6422205",
-        "umpire_2_name": "Raza Maniar",
-        "umpire_2_id": "6701313",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "Richo Sasimohan",
-        "scorer_1_id": "6937570",
-        "scorer_2_name": "Azher Hussain",
-        "scorer_2_id": "5026131",
-        "toss_won_by_team_id": "24293",
-        "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
-        "batted_first": "24293",
-        "no_of_overs": 0,
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 1st)",
-        "result_applied_to": "24293",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.3 1st Wicket: 50 runs in 72 balls, 46 minutes, Aarav Salil 24 (33), Jack Sterland 25 (39), 3 extras<br/>11.3 Chelmsford CC Sat 1st XI: 50 runs in 11.3 overs, 46 minutes, 3 extras<br/>27.2 Chelmsford CC Sat 1st XI: 100 runs in 27.2 overs, 106 minutes, 3 extras<br/>42.5 5th Wicket: 50 runs in 92 balls, 53 minutes, James Clifford 27 (46), Rishabh Upadhyay 21 (46), 2 extras<br/>42.5 Chelmsford CC Sat 1st XI: 150 runs in 42.5 overs, 161 minutes, 5 extras<br/>58.6 Chelmsford CC Sat 1st XI: 200 runs in 59.0 overs, 217 minutes, 12 extras<br/>60.2 Kaleem Khan: 5 wickets (18.2-7-44-5)\n<br/>\n<br/>\n<b>Loughton CC 1st XI Innings</b><br/>\n12.1 Loughton CC 1st XI: 50 runs in 12.1 overs, 53 minutes, 3 extras<br/>31.3 Loughton CC 1st XI: 100 runs in 31.3 overs, 111 minutes, 4 extras\n<br/>\n",
-        "points": [
-          {
-            "team_id": 24293,
-            "game_points": "25",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 7631,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "4.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "4.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "24293",
-            "innings_number": 1,
-            "extra_byes": "6",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "6",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "12",
-            "runs": "212",
-            "wickets": "10",
-            "overs": "61.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "7631",
-            "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "5",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "126",
-            "wickets": "10",
-            "overs": "47.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7325296,
         "status": "New",
@@ -709,9 +537,82 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7325315,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "08/08/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 01 - 1st XI Premier Division",
+        "competition_id": "135282",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "08/08/2026",
+        "match_time": "11:00",
+        "ground_name": "Castle Park",
+        "ground_id": "12314",
+        "home_team_name": "1st XI",
+        "home_team_id": "58739",
+        "home_club_name": "Colchester and East Essex CC",
+        "home_club_id": "1968",
+        "away_team_name": "Sat 1st XI",
+        "away_team_id": "24293",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "Todd Holland",
+        "umpire_1_id": "4383451",
+        "umpire_2_name": "Gary Marshall",
+        "umpire_2_id": "4494841",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "Phil Wolski",
+        "scorer_1_id": "3974409",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": 0,
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 58739,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 24293,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": []
       }
     ],
-    "fetched_at": "2026-08-08T08:09:55.850Z"
+    "fetched_at": "2026-08-08T09:01:14.639Z"
   },
   {
     "team": {
@@ -1414,7 +1315,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:09:56.712Z"
+    "fetched_at": "2026-08-08T09:01:15.785Z"
   },
   {
     "team": {
@@ -2122,7 +2023,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:09:57.550Z"
+    "fetched_at": "2026-08-08T09:01:16.884Z"
   },
   {
     "team": {
@@ -2831,7 +2732,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:09:58.403Z"
+    "fetched_at": "2026-08-08T09:01:17.894Z"
   },
   {
     "team": {
@@ -3508,7 +3409,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:09:59.391Z"
+    "fetched_at": "2026-08-08T09:01:19.182Z"
   },
   {
     "team": {
@@ -3521,7 +3422,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T08:09:59.658Z"
+    "fetched_at": "2026-08-08T09:01:19.443Z"
   },
   {
     "team": {
@@ -4230,7 +4131,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:10:00.390Z"
+    "fetched_at": "2026-08-08T09:01:20.415Z"
   },
   {
     "team": {
@@ -4511,7 +4412,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:10:01.181Z"
+    "fetched_at": "2026-08-08T09:01:21.317Z"
   },
   {
     "team": {
@@ -4914,7 +4815,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:10:01.902Z"
+    "fetched_at": "2026-08-08T09:01:22.246Z"
   },
   {
     "team": {
@@ -5577,6 +5478,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T08:10:02.666Z"
+    "fetched_at": "2026-08-08T09:01:23.430Z"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:21:00.066Z",
+  "generated_at": "2026-08-08T22:24:58.519Z",
   "season": "2026",
   "centuries": [
     {
@@ -212,6 +212,17 @@
       "opposition": "Westcliff-On-Sea CC 1st XI",
       "date": "25/04/2026",
       "match_id": 7236831
+    },
+    {
+      "player": "Ben Clifford",
+      "runs": 93,
+      "score": "93*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "08/08/2026",
+      "match_id": 7325315
     },
     {
       "player": "Elliot Wenzel",
@@ -478,17 +489,6 @@
       "match_id": 7325768
     },
     {
-      "player": "Ben Clifford",
-      "runs": 68,
-      "score": "68*",
-      "not_out": true,
-      "team": "Sat 1st XI",
-      "team_id": 24293,
-      "opposition": "Colchester and East Essex CC 1st XI",
-      "date": "08/08/2026",
-      "match_id": 7325315
-    },
-    {
       "player": "George Wilson",
       "runs": 67,
       "score": "67",
@@ -674,6 +674,17 @@
       "opposition": "Galleywood CC Womens 1st XI",
       "date": "19/06/2026",
       "match_id": 7399548
+    },
+    {
+      "player": "James Clifford",
+      "runs": 60,
+      "score": "60*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "08/08/2026",
+      "match_id": 7325315
     },
     {
       "player": "Jordan Campion",

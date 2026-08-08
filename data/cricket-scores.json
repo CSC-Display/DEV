@@ -721,7 +721,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:02.916Z"
+    "fetched_at": "2026-08-08T20:52:16.740Z"
   },
   {
     "team": {
@@ -771,9 +771,9 @@
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
+      "result_applied_to": "24294",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -782,7 +782,7 @@
       "points": [
         {
           "team_id": 24294,
-          "game_points": "0",
+          "game_points": "25",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -793,9 +793,9 @@
           "team_id": 19018,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "4.0",
+          "bonus_points_batting": "2.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1373,9 +1373,9 @@
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
+        "result_applied_to": "24294",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -1384,7 +1384,7 @@
         "points": [
           {
             "team_id": 24294,
-            "game_points": "0",
+            "game_points": "25",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1395,9 +1395,9 @@
             "team_id": 19018,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "4.0",
+            "bonus_points_batting": "2.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1445,7 +1445,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:04.048Z"
+    "fetched_at": "2026-08-08T20:52:17.754Z"
   },
   {
     "team": {
@@ -2148,7 +2148,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:05.032Z"
+    "fetched_at": "2026-08-08T20:52:18.610Z"
   },
   {
     "team": {
@@ -2857,7 +2857,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:06.214Z"
+    "fetched_at": "2026-08-08T20:52:19.692Z"
   },
   {
     "team": {
@@ -3540,7 +3540,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:07.252Z"
+    "fetched_at": "2026-08-08T20:52:20.739Z"
   },
   {
     "team": {
@@ -3553,7 +3553,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T20:15:07.839Z"
+    "fetched_at": "2026-08-08T20:52:21.167Z"
   },
   {
     "team": {
@@ -4262,7 +4262,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:08.920Z"
+    "fetched_at": "2026-08-08T20:52:21.915Z"
   },
   {
     "team": {
@@ -4543,7 +4543,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:09.878Z"
+    "fetched_at": "2026-08-08T20:52:22.876Z"
   },
   {
     "team": {
@@ -4946,7 +4946,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:10.968Z"
+    "fetched_at": "2026-08-08T20:52:23.793Z"
   },
   {
     "team": {
@@ -5609,6 +5609,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T20:15:11.960Z"
+    "fetched_at": "2026-08-08T20:52:24.836Z"
   }
 ]

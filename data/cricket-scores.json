@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras\n<br/>\n",
+      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n",
       "points": [
         {
           "team_id": 58739,
@@ -80,15 +80,35 @@
           "team_batting_id": "58739",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "3",
+          "extra_leg_byes": "4",
+          "extra_wides": "0",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "5",
+          "runs": "280",
+          "wickets": "8",
+          "overs": "64",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24293",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
           "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "3",
-          "runs": "201",
-          "wickets": "4",
-          "overs": "54",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -100,7 +120,18 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Ben Waring",
+          "w": 3,
+          "r": "67"
+        },
+        {
+          "name": "James Clifford",
+          "w": 3,
+          "r": "53"
+        }
+      ]
     },
     "form": [
       {
@@ -609,7 +640,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras\n<br/>\n",
+        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n",
         "points": [
           {
             "team_id": 58739,
@@ -635,15 +666,35 @@
             "team_batting_id": "58739",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "3",
+            "extra_leg_byes": "4",
+            "extra_wides": "0",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "5",
+            "runs": "280",
+            "wickets": "8",
+            "overs": "64",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24293",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
             "extra_wides": "0",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "3",
-            "runs": "201",
-            "wickets": "4",
-            "overs": "54",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -654,7 +705,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:44.332Z"
+    "fetched_at": "2026-08-08T14:06:51.293Z"
   },
   {
     "team": {
@@ -743,9 +794,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "10",
-          "runs": "131",
-          "wickets": "3",
-          "overs": "34.0",
+          "runs": "239",
+          "wickets": "5",
+          "overs": "46.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -756,7 +807,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Thomas Duxson",
+          "score": 69,
+          "notOut": false
+        },
+        {
+          "name": "Elliot Wenzel",
+          "score": 77,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -1298,9 +1360,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "10",
-            "runs": "131",
-            "wickets": "3",
-            "overs": "34.0",
+            "runs": "239",
+            "wickets": "5",
+            "overs": "46.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1311,7 +1373,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:45.288Z"
+    "fetched_at": "2026-08-08T14:06:52.581Z"
   },
   {
     "team": {
@@ -1394,15 +1456,15 @@
           "team_batting_id": "24295",
           "innings_number": 1,
           "extra_byes": "5",
-          "extra_leg_byes": "2",
-          "extra_wides": "9",
+          "extra_leg_byes": "3",
+          "extra_wides": "10",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "16",
-          "runs": "155",
-          "wickets": "2",
-          "overs": "25.0",
+          "total_extras": "18",
+          "runs": "277",
+          "wickets": "6",
+          "overs": "46.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1416,8 +1478,8 @@
       "runs": [
         {
           "name": "Tanay Mukherjee",
-          "score": 53,
-          "notOut": true
+          "score": 96,
+          "notOut": false
         }
       ],
       "wickets": []
@@ -1955,15 +2017,15 @@
             "team_batting_id": "24295",
             "innings_number": 1,
             "extra_byes": "5",
-            "extra_leg_byes": "2",
-            "extra_wides": "9",
+            "extra_leg_byes": "3",
+            "extra_wides": "10",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "16",
-            "runs": "155",
-            "wickets": "2",
-            "overs": "25.0",
+            "total_extras": "18",
+            "runs": "277",
+            "wickets": "6",
+            "overs": "46.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1974,7 +2036,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:47.577Z"
+    "fetched_at": "2026-08-08T14:06:54.698Z"
   },
   {
     "team": {
@@ -2683,7 +2745,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:48.226Z"
+    "fetched_at": "2026-08-08T14:06:56.173Z"
   },
   {
     "team": {
@@ -2765,16 +2827,16 @@
         {
           "team_batting_id": "23961",
           "innings_number": 1,
-          "extra_byes": "19",
-          "extra_leg_byes": "3",
-          "extra_wides": "10",
+          "extra_byes": "21",
+          "extra_leg_byes": "4",
+          "extra_wides": "11",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "33",
-          "runs": "180",
-          "wickets": "4",
-          "overs": "31.0",
+          "total_extras": "37",
+          "runs": "236",
+          "wickets": "7",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2786,7 +2848,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Rajwali Baig",
+          "w": 3,
+          "r": "45"
+        }
+      ]
     },
     "form": [
       {
@@ -3300,16 +3368,16 @@
           {
             "team_batting_id": "23961",
             "innings_number": 1,
-            "extra_byes": "19",
-            "extra_leg_byes": "3",
-            "extra_wides": "10",
+            "extra_byes": "21",
+            "extra_leg_byes": "4",
+            "extra_wides": "11",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "33",
-            "runs": "180",
-            "wickets": "4",
-            "overs": "31.0",
+            "total_extras": "37",
+            "runs": "236",
+            "wickets": "7",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3320,7 +3388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:50.405Z"
+    "fetched_at": "2026-08-08T14:06:57.089Z"
   },
   {
     "team": {
@@ -3333,7 +3401,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T13:20:52.537Z"
+    "fetched_at": "2026-08-08T14:06:57.511Z"
   },
   {
     "team": {
@@ -4042,7 +4110,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:53.217Z"
+    "fetched_at": "2026-08-08T14:06:59.998Z"
   },
   {
     "team": {
@@ -4323,7 +4391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:55.978Z"
+    "fetched_at": "2026-08-08T14:07:02.279Z"
   },
   {
     "team": {
@@ -4726,7 +4794,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:58.198Z"
+    "fetched_at": "2026-08-08T14:07:03.454Z"
   },
   {
     "team": {
@@ -5389,6 +5457,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T13:20:59.438Z"
+    "fetched_at": "2026-08-08T14:07:06.653Z"
   }
 ]

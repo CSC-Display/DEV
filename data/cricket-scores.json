@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras\n<br/>\n",
+      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)\n<br/>\n",
       "points": [
         {
           "team_id": 58739,
@@ -86,9 +86,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "2",
-          "runs": "119",
-          "wickets": "2",
-          "overs": "32",
+          "runs": "147",
+          "wickets": "4",
+          "overs": "45",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -609,7 +609,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras\n<br/>\n",
+        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)\n<br/>\n",
         "points": [
           {
             "team_id": 58739,
@@ -641,9 +641,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "2",
-            "runs": "119",
-            "wickets": "2",
-            "overs": "32",
+            "runs": "147",
+            "wickets": "4",
+            "overs": "45",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -654,7 +654,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:17.765Z"
+    "fetched_at": "2026-08-08T12:16:44.423Z"
   },
   {
     "team": {
@@ -736,16 +736,16 @@
         {
           "team_batting_id": "24294",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "8",
           "extra_leg_byes": "1",
           "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "1",
-          "runs": "23",
-          "wickets": "1",
-          "overs": "9.0",
+          "total_extras": "9",
+          "runs": "59",
+          "wickets": "2",
+          "overs": "16.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1291,16 +1291,16 @@
           {
             "team_batting_id": "24294",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "8",
             "extra_leg_byes": "1",
             "extra_wides": "0",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "1",
-            "runs": "23",
-            "wickets": "1",
-            "overs": "9.0",
+            "total_extras": "9",
+            "runs": "59",
+            "wickets": "2",
+            "overs": "16.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1311,7 +1311,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:19.769Z"
+    "fetched_at": "2026-08-08T12:16:46.514Z"
   },
   {
     "team": {
@@ -1393,16 +1393,16 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "1",
-          "extra_leg_byes": "0",
-          "extra_wides": "6",
+          "extra_byes": "5",
+          "extra_leg_byes": "1",
+          "extra_wides": "9",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "49",
-          "wickets": "0",
-          "overs": "9.0",
+          "total_extras": "15",
+          "runs": "108",
+          "wickets": "1",
+          "overs": "17.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1948,16 +1948,16 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "0",
-            "extra_wides": "6",
+            "extra_byes": "5",
+            "extra_leg_byes": "1",
+            "extra_wides": "9",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "49",
-            "wickets": "0",
-            "overs": "9.0",
+            "total_extras": "15",
+            "runs": "108",
+            "wickets": "1",
+            "overs": "17.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1968,7 +1968,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:21.708Z"
+    "fetched_at": "2026-08-08T12:16:48.072Z"
   },
   {
     "team": {
@@ -2677,7 +2677,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:23.316Z"
+    "fetched_at": "2026-08-08T12:16:49.730Z"
   },
   {
     "team": {
@@ -2759,16 +2759,16 @@
         {
           "team_batting_id": "23961",
           "innings_number": 1,
-          "extra_byes": "3",
-          "extra_leg_byes": "1",
+          "extra_byes": "8",
+          "extra_leg_byes": "2",
           "extra_wides": "7",
-          "extra_no_balls": "0",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "11",
-          "runs": "56",
-          "wickets": "1",
-          "overs": "9.0",
+          "total_extras": "18",
+          "runs": "89",
+          "wickets": "2",
+          "overs": "16.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3294,16 +3294,16 @@
           {
             "team_batting_id": "23961",
             "innings_number": 1,
-            "extra_byes": "3",
-            "extra_leg_byes": "1",
+            "extra_byes": "8",
+            "extra_leg_byes": "2",
             "extra_wides": "7",
-            "extra_no_balls": "0",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "11",
-            "runs": "56",
-            "wickets": "1",
-            "overs": "9.0",
+            "total_extras": "18",
+            "runs": "89",
+            "wickets": "2",
+            "overs": "16.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3314,7 +3314,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:25.712Z"
+    "fetched_at": "2026-08-08T12:16:51.850Z"
   },
   {
     "team": {
@@ -3327,7 +3327,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T11:41:26.248Z"
+    "fetched_at": "2026-08-08T12:16:52.724Z"
   },
   {
     "team": {
@@ -4036,7 +4036,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:27.973Z"
+    "fetched_at": "2026-08-08T12:16:55.027Z"
   },
   {
     "team": {
@@ -4317,7 +4317,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:29.921Z"
+    "fetched_at": "2026-08-08T12:16:56.491Z"
   },
   {
     "team": {
@@ -4720,7 +4720,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:31.598Z"
+    "fetched_at": "2026-08-08T12:16:57.863Z"
   },
   {
     "team": {
@@ -5383,6 +5383,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T11:41:33.430Z"
+    "fetched_at": "2026-08-08T12:17:00.206Z"
   }
 ]

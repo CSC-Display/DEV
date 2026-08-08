@@ -41,9 +41,9 @@
       "scorer_1_id": "3974409",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "58739",
+      "toss": "Colchester and East Essex CC - 1st XI won the toss and elected to bat",
+      "batted_first": "58739",
       "no_of_overs": 0,
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -75,7 +75,28 @@
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": []
+      "innings": [
+        {
+          "team_batting_id": "58739",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
+        }
+      ]
     },
     "perf": {
       "runs": [],
@@ -575,9 +596,9 @@
         "scorer_1_id": "3974409",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "58739",
+        "toss": "Colchester and East Essex CC - 1st XI won the toss and elected to bat",
+        "batted_first": "58739",
         "no_of_overs": 0,
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -609,10 +630,31 @@
             "bonus_points_2nd_innings_together": ""
           }
         ],
-        "innings": []
+        "innings": [
+          {
+            "team_batting_id": "58739",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:14.639Z"
+    "fetched_at": "2026-08-08T09:51:53.583Z"
   },
   {
     "team": {
@@ -1315,7 +1357,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:15.785Z"
+    "fetched_at": "2026-08-08T09:51:54.320Z"
   },
   {
     "team": {
@@ -2023,7 +2065,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:16.884Z"
+    "fetched_at": "2026-08-08T09:51:55.032Z"
   },
   {
     "team": {
@@ -2732,7 +2774,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:17.894Z"
+    "fetched_at": "2026-08-08T09:51:55.755Z"
   },
   {
     "team": {
@@ -3409,7 +3451,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:19.182Z"
+    "fetched_at": "2026-08-08T09:51:56.395Z"
   },
   {
     "team": {
@@ -3422,7 +3464,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T09:01:19.443Z"
+    "fetched_at": "2026-08-08T09:51:56.624Z"
   },
   {
     "team": {
@@ -4131,7 +4173,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:20.415Z"
+    "fetched_at": "2026-08-08T09:51:57.321Z"
   },
   {
     "team": {
@@ -4412,7 +4454,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:21.317Z"
+    "fetched_at": "2026-08-08T09:51:58.089Z"
   },
   {
     "team": {
@@ -4815,7 +4857,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:22.246Z"
+    "fetched_at": "2026-08-08T09:51:58.712Z"
   },
   {
     "team": {
@@ -5478,6 +5520,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T09:01:23.430Z"
+    "fetched_at": "2026-08-08T09:51:59.383Z"
   }
 ]

@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:35.785Z"
+      "fetched_at": "2026-08-08T06:29:11.531Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:36.653Z"
+      "fetched_at": "2026-08-08T06:29:12.675Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:37.164Z"
+      "fetched_at": "2026-08-08T06:29:13.180Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:37.700Z"
+      "fetched_at": "2026-08-08T06:29:13.679Z"
     },
     "data": {
       "id": 135330,
@@ -960,9 +960,9 @@
           "column_13": "0",
           "column_14": "1",
           "column_15": "32",
-          "column_16": "10",
+          "column_16": "15",
           "column_17": "4",
-          "column_18": "124"
+          "column_18": "119"
         },
         {
           "position": "8",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:38.553Z"
+      "fetched_at": "2026-08-08T06:29:14.144Z"
     },
     "data": {
       "id": 135332,
@@ -1044,19 +1044,19 @@
           "position": "1",
           "team_id": "288362",
           "column_1": "Westcliff-On-Sea CC - 5th XI",
-          "column_2": "13",
+          "column_2": "14",
           "column_3": "10",
           "column_4": "1",
           "column_5": "0",
           "column_6": "1",
           "column_7": "0",
-          "column_8": "1",
+          "column_8": "2",
           "column_9": "0",
           "column_10": "0",
           "column_11": "6",
           "column_12": "0",
-          "column_13": "11",
-          "column_14": "232"
+          "column_13": "12",
+          "column_14": "252"
         },
         {
           "position": "2",
@@ -1260,19 +1260,19 @@
           "position": "13",
           "team_id": "165360",
           "column_1": "Wickford CC - Saturday 5th XI",
-          "column_2": "13",
+          "column_2": "14",
           "column_3": "2",
           "column_4": "8",
           "column_5": "1",
           "column_6": "0",
-          "column_7": "2",
+          "column_7": "3",
           "column_8": "0",
           "column_9": "0",
           "column_10": "0",
           "column_11": "33",
           "column_12": "0",
           "column_13": "2",
-          "column_14": "69"
+          "column_14": "64"
         },
         {
           "position": "14",
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:39.483Z"
+      "fetched_at": "2026-08-08T06:29:14.786Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-08-07T22:30:40.584Z"
+      "fetched_at": "2026-08-08T06:29:15.500Z"
     },
     "data": {
       "id": 137056,

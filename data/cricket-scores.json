@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras\n<br/>\n",
+      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras<br/>32.4 Chelmsford CC Sat 1st XI: 150 runs in 32.4 overs, 127 minutes, 12 extras<br/>35.6 3rd Wicket: 50 runs in 58 balls, 36 minutes, Ben Clifford 23 (26), Rishabh Upadhyay 22 (32), 5 extras<br/>36.2 Ben Clifford: 50 runs in 79 balls, 98 minutes (3x4)\n<br/>\n",
       "points": [
         {
           "team_id": 58739,
@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "1",
+          "extra_byes": "5",
           "extra_leg_byes": "3",
           "extra_wides": "0",
           "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "143",
-          "wickets": "2",
-          "overs": "32",
+          "total_extras": "12",
+          "runs": "177",
+          "wickets": "3",
+          "overs": "40",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -124,6 +124,11 @@
           "name": "Aarav Salil",
           "score": 56,
           "notOut": false
+        },
+        {
+          "name": "Ben Clifford",
+          "score": 62,
+          "notOut": true
         }
       ],
       "wickets": [
@@ -646,7 +651,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras\n<br/>\n",
+        "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras<br/>32.4 Chelmsford CC Sat 1st XI: 150 runs in 32.4 overs, 127 minutes, 12 extras<br/>35.6 3rd Wicket: 50 runs in 58 balls, 36 minutes, Ben Clifford 23 (26), Rishabh Upadhyay 22 (32), 5 extras<br/>36.2 Ben Clifford: 50 runs in 79 balls, 98 minutes (3x4)\n<br/>\n",
         "points": [
           {
             "team_id": 58739,
@@ -691,16 +696,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "1",
+            "extra_byes": "5",
             "extra_leg_byes": "3",
             "extra_wides": "0",
             "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "143",
-            "wickets": "2",
-            "overs": "32",
+            "total_extras": "12",
+            "runs": "177",
+            "wickets": "3",
+            "overs": "40",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -711,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:27.172Z"
+    "fetched_at": "2026-08-08T17:12:24.302Z"
   },
   {
     "team": {
@@ -813,16 +818,16 @@
         {
           "team_batting_id": "19018",
           "innings_number": 1,
-          "extra_byes": "1",
+          "extra_byes": "5",
           "extra_leg_byes": "4",
           "extra_wides": "0",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "6",
-          "runs": "95",
-          "wickets": "6",
-          "overs": "29.0",
+          "total_extras": "10",
+          "runs": "124",
+          "wickets": "7",
+          "overs": "39.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -849,7 +854,12 @@
         {
           "name": "Liam Keaney",
           "w": 3,
-          "r": "17"
+          "r": "27"
+        },
+        {
+          "name": "Stuart Everard",
+          "w": 3,
+          "r": "14"
         }
       ]
     },
@@ -1405,16 +1415,16 @@
           {
             "team_batting_id": "19018",
             "innings_number": 1,
-            "extra_byes": "1",
+            "extra_byes": "5",
             "extra_leg_byes": "4",
             "extra_wides": "0",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "95",
-            "wickets": "6",
-            "overs": "29.0",
+            "total_extras": "10",
+            "runs": "124",
+            "wickets": "7",
+            "overs": "39.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1425,7 +1435,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:28.897Z"
+    "fetched_at": "2026-08-08T17:12:25.002Z"
   },
   {
     "team": {
@@ -2088,7 +2098,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:30.507Z"
+    "fetched_at": "2026-08-08T17:12:25.932Z"
   },
   {
     "team": {
@@ -2797,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:32.263Z"
+    "fetched_at": "2026-08-08T17:12:27.280Z"
   },
   {
     "team": {
@@ -2899,16 +2909,16 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "6",
+          "extra_byes": "11",
           "extra_leg_byes": "1",
-          "extra_wides": "24",
+          "extra_wides": "28",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "33",
-          "runs": "127",
-          "wickets": "5",
-          "overs": "27.0",
+          "total_extras": "42",
+          "runs": "164",
+          "wickets": "8",
+          "overs": "34.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3460,16 +3470,16 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "6",
+            "extra_byes": "11",
             "extra_leg_byes": "1",
-            "extra_wides": "24",
+            "extra_wides": "28",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "33",
-            "runs": "127",
-            "wickets": "5",
-            "overs": "27.0",
+            "total_extras": "42",
+            "runs": "164",
+            "wickets": "8",
+            "overs": "34.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3480,7 +3490,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:34.166Z"
+    "fetched_at": "2026-08-08T17:12:28.067Z"
   },
   {
     "team": {
@@ -3493,7 +3503,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T16:39:34.858Z"
+    "fetched_at": "2026-08-08T17:12:28.492Z"
   },
   {
     "team": {
@@ -4202,7 +4212,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:36.438Z"
+    "fetched_at": "2026-08-08T17:12:29.505Z"
   },
   {
     "team": {
@@ -4483,7 +4493,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:37.932Z"
+    "fetched_at": "2026-08-08T17:12:30.885Z"
   },
   {
     "team": {
@@ -4886,7 +4896,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:40.403Z"
+    "fetched_at": "2026-08-08T17:12:32.398Z"
   },
   {
     "team": {
@@ -5549,6 +5559,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T16:39:42.412Z"
+    "fetched_at": "2026-08-08T17:12:34.562Z"
   }
 ]

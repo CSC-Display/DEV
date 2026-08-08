@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:29:53.828Z",
+  "generated_at": "2026-08-08T17:21:00.066Z",
   "season": "2026",
   "centuries": [
     {
@@ -192,6 +192,17 @@
   ],
   "half_centuries": [
     {
+      "player": "Tanay Mukherjee",
+      "runs": 96,
+      "score": "96",
+      "not_out": false,
+      "team": "Sat 3rd XI",
+      "team_id": 24295,
+      "opposition": "Woodford Wells CC 3rd XI",
+      "date": "08/08/2026",
+      "match_id": 7461887
+    },
+    {
       "player": "Aarav Salil",
       "runs": 93,
       "score": "93",
@@ -328,6 +339,17 @@
       "runs": 77,
       "score": "77",
       "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Harold Wood CC 2nd XI",
+      "date": "08/08/2026",
+      "match_id": 7325768
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 77,
+      "score": "77",
+      "not_out": false,
       "team": "NECL 1st XI",
       "team_id": 324716,
       "opposition": "Wivenhoe Town CC Sunday XI",
@@ -443,6 +465,28 @@
       "opposition": "Billericay CC 2nd XI",
       "date": "23/05/2026",
       "match_id": 7325713
+    },
+    {
+      "player": "Thomas Duxson",
+      "runs": 69,
+      "score": "69",
+      "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Harold Wood CC 2nd XI",
+      "date": "08/08/2026",
+      "match_id": 7325768
+    },
+    {
+      "player": "Ben Clifford",
+      "runs": 68,
+      "score": "68*",
+      "not_out": true,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "08/08/2026",
+      "match_id": 7325315
     },
     {
       "player": "George Wilson",
@@ -762,6 +806,17 @@
       "opposition": "Loughton CC 3rd XI",
       "date": "01/08/2026",
       "match_id": 7462155
+    },
+    {
+      "player": "Aarav Salil",
+      "runs": 56,
+      "score": "56",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Colchester and East Essex CC 1st XI",
+      "date": "08/08/2026",
+      "match_id": 7325315
     },
     {
       "player": "Ben Lawrence",
@@ -1642,6 +1697,30 @@
       "match_id": 7462442
     },
     {
+      "player": "David Wilson",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Old Southendian & Southchurch CC 4th XI",
+      "date": "08/08/2026",
+      "match_id": 7462457
+    },
+    {
+      "player": "Charlie Jackson",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Old Southendian & Southchurch CC 4th XI",
+      "date": "08/08/2026",
+      "match_id": 7462457
+    },
+    {
+      "player": "Arunabha Mukherjee",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Old Southendian & Southchurch CC 4th XI",
+      "date": "08/08/2026",
+      "match_id": 7462457
+    },
+    {
       "player": "Alex Bayha",
       "team": "NECL 1st XI",
       "team_id": 324716,
@@ -1860,6 +1939,44 @@
   ],
   "duck_hunt": [
     {
+      "player": "David Wilson",
+      "count": 4,
+      "ducks": [
+        {
+          "player": "David Wilson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Frenford CC 4th XI",
+          "date": "04/07/2026",
+          "match_id": 7462135
+        },
+        {
+          "player": "David Wilson",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Stanford Le Hope CC 3rd XI",
+          "date": "25/07/2026",
+          "match_id": 7462146
+        },
+        {
+          "player": "David Wilson",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Old Southendian & Southchurch CC 4th XI",
+          "date": "08/08/2026",
+          "match_id": 7462457
+        },
+        {
+          "player": "David Wilson",
+          "team": "NECL 1st XI",
+          "team_id": 324716,
+          "opposition": "Abberton & District CC Sunday 1st XI",
+          "date": "28/06/2026",
+          "match_id": 7507178
+        }
+      ]
+    },
+    {
       "player": "Poppy Moore",
       "count": 4,
       "ducks": [
@@ -1924,36 +2041,6 @@
           "opposition": "Frenford CC 4th XI",
           "date": "30/05/2026",
           "match_id": 7462109
-        }
-      ]
-    },
-    {
-      "player": "David Wilson",
-      "count": 3,
-      "ducks": [
-        {
-          "player": "David Wilson",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Frenford CC 4th XI",
-          "date": "04/07/2026",
-          "match_id": 7462135
-        },
-        {
-          "player": "David Wilson",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Stanford Le Hope CC 3rd XI",
-          "date": "25/07/2026",
-          "match_id": 7462146
-        },
-        {
-          "player": "David Wilson",
-          "team": "NECL 1st XI",
-          "team_id": 324716,
-          "opposition": "Abberton & District CC Sunday 1st XI",
-          "date": "28/06/2026",
-          "match_id": 7507178
         }
       ]
     },
@@ -2162,6 +2249,28 @@
           "opposition": "Epping CC 2nd XI",
           "date": "25/07/2026",
           "match_id": 7325754
+        }
+      ]
+    },
+    {
+      "player": "Charlie Jackson",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Charlie Jackson",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Shenfield CC 5th XI",
+          "date": "25/07/2026",
+          "match_id": 7462442
+        },
+        {
+          "player": "Charlie Jackson",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Old Southendian & Southchurch CC 4th XI",
+          "date": "08/08/2026",
+          "match_id": 7462457
         }
       ]
     },
@@ -2384,6 +2493,20 @@
       ]
     },
     {
+      "player": "Arunabha Mukherjee",
+      "count": 1,
+      "ducks": [
+        {
+          "player": "Arunabha Mukherjee",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Old Southendian & Southchurch CC 4th XI",
+          "date": "08/08/2026",
+          "match_id": 7462457
+        }
+      ]
+    },
+    {
       "player": "Basil Samson",
       "count": 1,
       "ducks": [
@@ -2450,20 +2573,6 @@
           "opposition": "Upminster CC Men's 3rd XI",
           "date": "27/06/2026",
           "match_id": 7461860
-        }
-      ]
-    },
-    {
-      "player": "Charlie Jackson",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Charlie Jackson",
-          "team": "Sat 5th XI",
-          "team_id": 45348,
-          "opposition": "Shenfield CC 5th XI",
-          "date": "25/07/2026",
-          "match_id": 7462442
         }
       ]
     },

@@ -106,9 +106,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "12",
-          "runs": "177",
+          "runs": "192",
           "wickets": "3",
-          "overs": "40",
+          "overs": "42",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -127,7 +127,7 @@
         },
         {
           "name": "Ben Clifford",
-          "score": 62,
+          "score": 68,
           "notOut": true
         }
       ],
@@ -703,9 +703,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "12",
-            "runs": "177",
+            "runs": "192",
             "wickets": "3",
-            "overs": "40",
+            "overs": "42",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -716,7 +716,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:24.302Z"
+    "fetched_at": "2026-08-08T17:19:18.704Z"
   },
   {
     "team": {
@@ -825,9 +825,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "10",
-          "runs": "124",
+          "runs": "130",
           "wickets": "7",
-          "overs": "39.0",
+          "overs": "41.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -854,7 +854,7 @@
         {
           "name": "Liam Keaney",
           "w": 3,
-          "r": "27"
+          "r": "28"
         },
         {
           "name": "Stuart Everard",
@@ -1422,9 +1422,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "10",
-            "runs": "124",
+            "runs": "130",
             "wickets": "7",
-            "overs": "39.0",
+            "overs": "41.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1435,7 +1435,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:25.002Z"
+    "fetched_at": "2026-08-08T17:19:19.632Z"
   },
   {
     "team": {
@@ -2098,7 +2098,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:25.932Z"
+    "fetched_at": "2026-08-08T17:19:20.223Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:27.280Z"
+    "fetched_at": "2026-08-08T17:19:21.270Z"
   },
   {
     "team": {
@@ -2912,13 +2912,13 @@
           "extra_byes": "11",
           "extra_leg_byes": "1",
           "extra_wides": "28",
-          "extra_no_balls": "2",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "42",
-          "runs": "164",
+          "total_extras": "43",
+          "runs": "185",
           "wickets": "8",
-          "overs": "34.0",
+          "overs": "36.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3473,13 +3473,13 @@
             "extra_byes": "11",
             "extra_leg_byes": "1",
             "extra_wides": "28",
-            "extra_no_balls": "2",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "42",
-            "runs": "164",
+            "total_extras": "43",
+            "runs": "185",
             "wickets": "8",
-            "overs": "34.0",
+            "overs": "36.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3490,7 +3490,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:28.067Z"
+    "fetched_at": "2026-08-08T17:19:23.433Z"
   },
   {
     "team": {
@@ -3503,7 +3503,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-08T17:12:28.492Z"
+    "fetched_at": "2026-08-08T17:19:24.030Z"
   },
   {
     "team": {
@@ -4212,7 +4212,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:29.505Z"
+    "fetched_at": "2026-08-08T17:19:25.629Z"
   },
   {
     "team": {
@@ -4493,7 +4493,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:30.885Z"
+    "fetched_at": "2026-08-08T17:19:27.379Z"
   },
   {
     "team": {
@@ -4896,7 +4896,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:32.398Z"
+    "fetched_at": "2026-08-08T17:19:28.386Z"
   },
   {
     "team": {
@@ -5559,6 +5559,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-08T17:12:34.562Z"
+    "fetched_at": "2026-08-08T17:19:29.535Z"
   }
 ]

@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI LC  Innings</b><br/>\n7.4 1st Wicket: 50 runs in 47 balls, 28 minutes, Haaris Usman 23 (28), Tom Simmons 18 (19), 11 extras<br/>7.4 Wanstead & Snaresbrook CC 1st XI LC : 50 runs in 7.3 overs, 28 minutes, 11 extras\n<br/>\n",
       "points": [],
       "innings": [
         {
@@ -80,16 +80,16 @@
         {
           "team_batting_id": "178206",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "4",
           "extra_leg_byes": "0",
-          "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_wides": "5",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
+          "total_extras": "11",
+          "runs": "56",
           "wickets": "0",
-          "overs": "0",
+          "overs": "8",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -621,7 +621,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI LC  Innings</b><br/>\n7.4 1st Wicket: 50 runs in 47 balls, 28 minutes, Haaris Usman 23 (28), Tom Simmons 18 (19), 11 extras<br/>7.4 Wanstead & Snaresbrook CC 1st XI LC : 50 runs in 7.3 overs, 28 minutes, 11 extras\n<br/>\n",
         "points": [],
         "innings": [
           {
@@ -647,16 +647,16 @@
           {
             "team_batting_id": "178206",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "4",
             "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_wides": "5",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
+            "total_extras": "11",
+            "runs": "56",
             "wickets": "0",
-            "overs": "0",
+            "overs": "8",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:45.604Z"
+    "fetched_at": "2026-08-09T15:52:02.076Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:46.326Z"
+    "fetched_at": "2026-08-09T15:52:02.737Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:47.476Z"
+    "fetched_at": "2026-08-09T15:52:03.351Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:48.454Z"
+    "fetched_at": "2026-08-09T15:52:03.987Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:49.565Z"
+    "fetched_at": "2026-08-09T15:52:04.601Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-09T15:15:49.913Z"
+    "fetched_at": "2026-08-09T15:52:04.808Z"
   },
   {
     "team": {
@@ -3602,9 +3602,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "1",
-          "runs": "5",
-          "wickets": "0",
-          "overs": "2.0",
+          "runs": "26",
+          "wickets": "2",
+          "overs": "12.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4177,9 +4177,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "1",
-            "runs": "5",
-            "wickets": "0",
-            "overs": "2.0",
+            "runs": "26",
+            "wickets": "2",
+            "overs": "12.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4190,7 +4190,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:51.214Z"
+    "fetched_at": "2026-08-09T15:52:05.398Z"
   },
   {
     "team": {
@@ -4471,7 +4471,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:52.062Z"
+    "fetched_at": "2026-08-09T15:52:05.928Z"
   },
   {
     "team": {
@@ -4874,7 +4874,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:53.191Z"
+    "fetched_at": "2026-08-09T15:52:06.494Z"
   },
   {
     "team": {
@@ -5537,6 +5537,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T15:15:54.347Z"
+    "fetched_at": "2026-08-09T15:52:07.058Z"
   }
 ]

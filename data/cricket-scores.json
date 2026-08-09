@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:43.111Z"
+    "fetched_at": "2026-08-09T18:49:31.951Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:43.756Z"
+    "fetched_at": "2026-08-09T18:49:33.494Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:44.405Z"
+    "fetched_at": "2026-08-09T18:49:35.006Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:45.058Z"
+    "fetched_at": "2026-08-09T18:49:36.579Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:45.675Z"
+    "fetched_at": "2026-08-09T18:49:38.065Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-09T17:52:45.891Z"
+    "fetched_at": "2026-08-09T18:49:38.698Z"
   },
   {
     "team": {
@@ -3543,9 +3543,9 @@
       "no_of_overs": "40",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - NECL 1st XI - Won",
+      "result_applied_to": "324716",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3554,20 +3554,20 @@
       "points": [
         {
           "team_id": 324716,
-          "game_points": "0",
+          "game_points": "15",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "5.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "5.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 348773,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "8.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -3602,9 +3602,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "4",
-          "runs": "169",
-          "wickets": "7",
-          "overs": "39.0",
+          "runs": "175",
+          "wickets": "8",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4124,9 +4124,9 @@
         "no_of_overs": "40",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - NECL 1st XI - Won",
+        "result_applied_to": "324716",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -4135,20 +4135,20 @@
         "points": [
           {
             "team_id": 324716,
-            "game_points": "0",
+            "game_points": "15",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "5.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "5.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 348773,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "8.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -4183,9 +4183,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "4",
-            "runs": "169",
-            "wickets": "7",
-            "overs": "39.0",
+            "runs": "175",
+            "wickets": "8",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4196,7 +4196,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:46.465Z"
+    "fetched_at": "2026-08-09T18:49:40.160Z"
   },
   {
     "team": {
@@ -4477,7 +4477,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:47.038Z"
+    "fetched_at": "2026-08-09T18:49:41.568Z"
   },
   {
     "team": {
@@ -4880,7 +4880,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:47.564Z"
+    "fetched_at": "2026-08-09T18:49:42.975Z"
   },
   {
     "team": {
@@ -5543,6 +5543,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T17:52:48.114Z"
+    "fetched_at": "2026-08-09T18:49:44.416Z"
   }
 ]

@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-08-08T22:24:58.454Z",
-  "match_count": 111,
-  "scorecards_processed": 103,
+  "generated_at": "2026-08-09T06:34:47.741Z",
+  "match_count": 113,
+  "scorecards_processed": 104,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -312,6 +312,23 @@
       "hundreds": 0
     },
     {
+      "player": "Jason Lofthouse",
+      "teams": "Sat 3rd XI, Sat 4th XI",
+      "matches": 11,
+      "innings": 11,
+      "not_outs": 0,
+      "runs": 282,
+      "balls": 176,
+      "fours": 42,
+      "sixes": 0,
+      "high_score": 79,
+      "high_score_display": "79",
+      "average": 25.636363636363637,
+      "strike_rate": 160.22727272727272,
+      "fifties": 3,
+      "hundreds": 0
+    },
+    {
       "player": "Harriet Goodey",
       "teams": "Womens 1st XI",
       "matches": 9,
@@ -327,23 +344,6 @@
       "strike_rate": 225.80645161290326,
       "fifties": 1,
       "hundreds": 0
-    },
-    {
-      "player": "Tom Iliffe",
-      "teams": "Sat 5th XI",
-      "matches": 6,
-      "innings": 6,
-      "not_outs": 2,
-      "runs": 273,
-      "balls": 1,
-      "fours": 35,
-      "sixes": 2,
-      "high_score": 106,
-      "high_score_display": "106*",
-      "average": 68.25,
-      "strike_rate": 27300,
-      "fifties": 2,
-      "hundreds": 1
     }
   ],
   "bowling": [
@@ -576,6 +576,25 @@
       "five_wickets": 1
     },
     {
+      "player": "Daniel Purchase",
+      "teams": "Sat 4th XI",
+      "matches": 11,
+      "innings": 11,
+      "balls": 500,
+      "overs": 83.2,
+      "maidens": 9,
+      "runs": 433,
+      "wickets": 19,
+      "wides": 4,
+      "no_balls": 2,
+      "best": "6-49",
+      "average": 22.789473684210527,
+      "economy": 5.196000000000001,
+      "strike_rate": 26.31578947368421,
+      "three_wickets": 2,
+      "five_wickets": 1
+    },
+    {
       "player": "Neil Siriwardana",
       "teams": "NECL 1st XI, Sat 3rd XI, Sat 4th XI, Twenty20",
       "matches": 22,
@@ -612,25 +631,6 @@
       "strike_rate": 27.333333333333332,
       "three_wickets": 3,
       "five_wickets": 0
-    },
-    {
-      "player": "Daniel Purchase",
-      "teams": "Sat 4th XI",
-      "matches": 10,
-      "innings": 10,
-      "balls": 458,
-      "overs": 76.2,
-      "maidens": 8,
-      "runs": 389,
-      "wickets": 18,
-      "wides": 4,
-      "no_balls": 2,
-      "best": "6-49",
-      "average": 21.61111111111111,
-      "economy": 5.096069868995634,
-      "strike_rate": 25.444444444444443,
-      "three_wickets": 2,
-      "five_wickets": 1
     },
     {
       "player": "Rishabh Upadhyay",

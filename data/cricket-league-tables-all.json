@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:23:57.689Z"
+      "fetched_at": "2026-08-09T06:33:34.070Z"
     },
     "data": {
       "id": 135282,
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:23:58.789Z"
+      "fetched_at": "2026-08-09T06:33:35.340Z"
     },
     "data": {
       "id": 135299,
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:23:59.611Z"
+      "fetched_at": "2026-08-09T06:33:36.238Z"
     },
     "data": {
       "id": 135312,
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:24:00.433Z"
+      "fetched_at": "2026-08-09T06:33:37.146Z"
     },
     "data": {
       "id": 135330,
@@ -878,6 +878,28 @@
         },
         {
           "position": "4",
+          "team_id": "198990",
+          "column_1": "Orsett & Thurrock CC - 4th XI",
+          "column_2": "12",
+          "column_3": "1",
+          "column_4": "1",
+          "column_5": "2",
+          "column_6": "1",
+          "column_7": "2",
+          "column_8": "1",
+          "column_9": "0",
+          "column_10": "1",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "3",
+          "column_15": "36",
+          "column_16": "0",
+          "column_17": "5",
+          "column_18": "147"
+        },
+        {
+          "position": "5",
           "team_id": "25557",
           "column_1": "Old Brentwoods CC - 3rd XI",
           "column_2": "12",
@@ -899,32 +921,32 @@
           "column_18": "139"
         },
         {
-          "position": "5",
-          "team_id": "198990",
-          "column_1": "Orsett & Thurrock CC - 4th XI",
-          "column_2": "11",
-          "column_3": "1",
+          "position": "6",
+          "team_id": "7632",
+          "column_1": "Loughton CC - 3rd XI",
+          "column_2": "12",
+          "column_3": "0",
           "column_4": "1",
-          "column_5": "2",
-          "column_6": "1",
-          "column_7": "2",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "1",
+          "column_5": "3",
+          "column_6": "2",
+          "column_7": "1",
+          "column_8": "2",
+          "column_9": "1",
+          "column_10": "0",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
           "column_14": "2",
-          "column_15": "26",
+          "column_15": "49",
           "column_16": "0",
-          "column_17": "5",
-          "column_18": "137"
+          "column_17": "4",
+          "column_18": "135"
         },
         {
-          "position": "6",
+          "position": "7",
           "team_id": "30461",
           "column_1": "Chelmsford CC - Sat 4th XI",
-          "column_2": "12",
+          "column_2": "13",
           "column_3": "1",
           "column_4": "1",
           "column_5": "1",
@@ -936,36 +958,36 @@
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
-          "column_14": "0",
-          "column_15": "51",
+          "column_14": "1",
+          "column_15": "58",
           "column_16": "0",
           "column_17": "3",
-          "column_18": "128"
+          "column_18": "135"
         },
         {
-          "position": "7",
-          "team_id": "7632",
-          "column_1": "Loughton CC - 3rd XI",
-          "column_2": "11",
-          "column_3": "0",
-          "column_4": "1",
-          "column_5": "3",
-          "column_6": "1",
-          "column_7": "1",
-          "column_8": "2",
-          "column_9": "1",
+          "position": "8",
+          "team_id": "98818",
+          "column_1": "Billericay CC - 4th XI",
+          "column_2": "12",
+          "column_3": "1",
+          "column_4": "2",
+          "column_5": "2",
+          "column_6": "2",
+          "column_7": "0",
+          "column_8": "4",
+          "column_9": "0",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
-          "column_14": "2",
-          "column_15": "39",
+          "column_14": "1",
+          "column_15": "43",
           "column_16": "0",
-          "column_17": "4",
-          "column_18": "125"
+          "column_17": "3",
+          "column_18": "108"
         },
         {
-          "position": "8",
+          "position": "9",
           "team_id": "42755",
           "column_1": "Stanford Le Hope CC - 3rd XI",
           "column_2": "13",
@@ -985,28 +1007,6 @@
           "column_16": "0",
           "column_17": "1",
           "column_18": "99"
-        },
-        {
-          "position": "9",
-          "team_id": "98818",
-          "column_1": "Billericay CC - 4th XI",
-          "column_2": "11",
-          "column_3": "1",
-          "column_4": "2",
-          "column_5": "1",
-          "column_6": "2",
-          "column_7": "0",
-          "column_8": "4",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "1",
-          "column_15": "43",
-          "column_16": "0",
-          "column_17": "2",
-          "column_18": "88"
         }
       ],
       "key": "p - Played,&nbsp;w1 - Time Win (bat 1st) (25),&nbsp;l1 - Time Lose (bat 2nd) (0),&nbsp;w2 - Time Win (bat 2nd) (20),&nbsp;l2 - Time Lose (bat 1st) (0),&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (6),&nbsp;d - Draw (0),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;Pts - Points"
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:24:01.197Z"
+      "fetched_at": "2026-08-09T06:33:37.895Z"
     },
     "data": {
       "id": 135332,
@@ -1114,6 +1114,24 @@
         },
         {
           "position": "5",
+          "team_id": "93863",
+          "column_1": "Billericay CC - 5th XI",
+          "column_2": "14",
+          "column_3": "8",
+          "column_4": "5",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "0",
+          "column_8": "0",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "19",
+          "column_12": "0",
+          "column_13": "8",
+          "column_14": "185"
+        },
+        {
+          "position": "6",
           "team_id": "45348",
           "column_1": "Chelmsford CC - Sat 5th XI",
           "column_2": "14",
@@ -1131,7 +1149,7 @@
           "column_14": "171"
         },
         {
-          "position": "6",
+          "position": "7",
           "team_id": "353321",
           "column_1": "Orsett & Thurrock CC - 7th XI",
           "column_2": "14",
@@ -1147,24 +1165,6 @@
           "column_12": "0",
           "column_13": "7",
           "column_14": "169"
-        },
-        {
-          "position": "7",
-          "team_id": "93863",
-          "column_1": "Billericay CC - 5th XI",
-          "column_2": "13",
-          "column_3": "7",
-          "column_4": "5",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "0",
-          "column_8": "0",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "19",
-          "column_12": "0",
-          "column_13": "7",
-          "column_14": "165"
         },
         {
           "position": "8",
@@ -1278,19 +1278,19 @@
           "position": "14",
           "team_id": "134369",
           "column_1": "Old Southendian & Southchurch CC - 5th XI",
-          "column_2": "13",
+          "column_2": "14",
           "column_3": "0",
-          "column_4": "12",
+          "column_4": "13",
           "column_5": "1",
           "column_6": "0",
           "column_7": "0",
           "column_8": "0",
           "column_9": "0",
           "column_10": "0",
-          "column_11": "41",
+          "column_11": "42",
           "column_12": "0",
           "column_13": "0",
-          "column_14": "47"
+          "column_14": "48"
         }
       ],
       "key": "p - Played,&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (8),&nbsp;d - Draw (0),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;Pts - Points"
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:24:02.174Z"
+      "fetched_at": "2026-08-09T06:33:38.862Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-08-08T22:24:03.287Z"
+      "fetched_at": "2026-08-09T06:33:40.070Z"
     },
     "data": {
       "id": 137056,

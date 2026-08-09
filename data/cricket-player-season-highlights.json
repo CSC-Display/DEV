@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:24:58.519Z",
+  "generated_at": "2026-08-09T06:34:47.966Z",
   "season": "2026",
   "centuries": [
     {
@@ -817,6 +817,17 @@
       "opposition": "Loughton CC 3rd XI",
       "date": "01/08/2026",
       "match_id": 7462155
+    },
+    {
+      "player": "William Jackson",
+      "runs": 57,
+      "score": "57*",
+      "not_out": true,
+      "team": "Sat 4th XI",
+      "team_id": 30461,
+      "opposition": "Orsett & Thurrock CC 4th XI",
+      "date": "08/08/2026",
+      "match_id": 7462160
     },
     {
       "player": "Aarav Salil",

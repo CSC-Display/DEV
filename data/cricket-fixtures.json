@@ -6,46 +6,6 @@
     },
     "fix": [
       {
-        "id": 7731669,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "02/08/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Dukes Essex League Cup",
-        "competition_id": "68990",
-        "competition_type": "Cup",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "09/08/2026",
-        "match_time": "13:00",
-        "ground_name": "Wanstead Cricket Club",
-        "ground_id": "11878",
-        "ground_latitude": "51.5716446",
-        "ground_longitude": "0.0340633",
-        "home_club_name": "Wanstead & Snaresbrook CC",
-        "home_team_name": "1st XI LC ",
-        "home_team_id": "178206",
-        "home_club_id": "6647",
-        "away_club_name": "Chelmsford CC",
-        "away_team_name": "Sat 1st XI",
-        "away_team_id": "24293",
-        "away_club_id": "1786",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
-      {
         "id": 7325323,
         "status": "New",
         "published": "Yes",
@@ -206,7 +166,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:04.564Z"
+    "fetched_at": "2026-08-09T06:33:41.852Z"
   },
   {
     "team": {
@@ -375,7 +335,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:05.045Z"
+    "fetched_at": "2026-08-09T06:33:42.349Z"
   },
   {
     "team": {
@@ -544,7 +504,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:05.304Z"
+    "fetched_at": "2026-08-09T06:33:42.853Z"
   },
   {
     "team": {
@@ -673,7 +633,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:05.769Z"
+    "fetched_at": "2026-08-09T06:33:43.357Z"
   },
   {
     "team": {
@@ -842,7 +802,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:06.261Z"
+    "fetched_at": "2026-08-09T06:33:43.848Z"
   },
   {
     "team": {
@@ -1011,7 +971,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:06.490Z"
+    "fetched_at": "2026-08-09T06:33:44.315Z"
   },
   {
     "team": {
@@ -1019,46 +979,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7510286,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "25/02/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "09/08/2026",
-        "match_time": "13:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "NECL 1st XI",
-        "home_team_id": "324716",
-        "home_club_id": "1786",
-        "away_club_name": "West Bergholt CC",
-        "away_team_name": "Sunday 1st XI",
-        "away_team_id": "348773",
-        "away_club_id": "6755",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7510292,
         "status": "New",
@@ -1220,7 +1140,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:06.975Z"
+    "fetched_at": "2026-08-09T06:33:44.816Z"
   },
   {
     "team": {
@@ -1269,7 +1189,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:07.420Z"
+    "fetched_at": "2026-08-09T06:33:45.288Z"
   },
   {
     "team": {
@@ -1277,7 +1197,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-08-08T22:24:07.919Z"
+    "fetched_at": "2026-08-09T06:33:45.765Z"
   },
   {
     "team": {
@@ -1326,6 +1246,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-08T22:24:08.394Z"
+    "fetched_at": "2026-08-09T06:33:46.246Z"
   }
 ]

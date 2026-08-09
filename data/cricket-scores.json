@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras\n<br/>\n",
+      "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)\n<br/>\n",
       "points": [],
       "innings": [
         {
@@ -67,9 +67,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "3",
-          "runs": "53",
-          "wickets": "1",
-          "overs": "15",
+          "runs": "131",
+          "wickets": "2",
+          "overs": "28",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -80,7 +80,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Aarav Salil",
+          "score": 66,
+          "notOut": true
+        },
+        {
+          "name": "Ben Clifford",
+          "score": 56,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -590,7 +601,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras\n<br/>\n",
+        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)\n<br/>\n",
         "points": [],
         "innings": [
           {
@@ -603,9 +614,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "3",
-            "runs": "53",
-            "wickets": "1",
-            "overs": "15",
+            "runs": "131",
+            "wickets": "2",
+            "overs": "28",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -616,7 +627,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:24.938Z"
+    "fetched_at": "2026-08-09T13:56:42.009Z"
   },
   {
     "team": {
@@ -1340,7 +1351,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:26.007Z"
+    "fetched_at": "2026-08-09T13:56:42.694Z"
   },
   {
     "team": {
@@ -2043,7 +2054,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:27.477Z"
+    "fetched_at": "2026-08-09T13:56:43.312Z"
   },
   {
     "team": {
@@ -2746,7 +2757,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:28.694Z"
+    "fetched_at": "2026-08-09T13:56:43.954Z"
   },
   {
     "team": {
@@ -3429,7 +3440,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:30.941Z"
+    "fetched_at": "2026-08-09T13:56:44.556Z"
   },
   {
     "team": {
@@ -3442,7 +3453,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-09T13:01:31.371Z"
+    "fetched_at": "2026-08-09T13:56:44.784Z"
   },
   {
     "team": {
@@ -4099,7 +4110,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:34.241Z"
+    "fetched_at": "2026-08-09T13:56:45.389Z"
   },
   {
     "team": {
@@ -4380,7 +4391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:35.430Z"
+    "fetched_at": "2026-08-09T13:56:45.973Z"
   },
   {
     "team": {
@@ -4783,7 +4794,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:36.677Z"
+    "fetched_at": "2026-08-09T13:56:46.576Z"
   },
   {
     "team": {
@@ -5446,6 +5457,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T13:01:38.626Z"
+    "fetched_at": "2026-08-09T13:56:47.139Z"
   }
 ]

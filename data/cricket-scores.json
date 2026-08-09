@@ -5,265 +5,85 @@
       "id": 24293
     },
     "match": {
-      "id": 7325315,
+      "id": 7731669,
       "status": "New",
       "published": "Yes",
-      "last_updated": "08/08/2026",
+      "last_updated": "09/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
-      "competition_name": "Division 01 - 1st XI Premier Division",
-      "competition_id": "135282",
-      "competition_type": "League",
+      "competition_name": "Dukes Essex League Cup",
+      "competition_id": "68990",
+      "competition_type": "Cup",
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "08/08/2026",
-      "match_time": "11:00",
-      "ground_name": "Castle Park",
-      "ground_id": "12314",
-      "home_team_name": "1st XI",
-      "home_team_id": "58739",
-      "home_club_name": "Colchester and East Essex CC",
-      "home_club_id": "1968",
+      "match_date": "09/08/2026",
+      "match_time": "13:00",
+      "ground_name": "Wanstead Cricket Club",
+      "ground_id": "11878",
+      "home_team_name": "1st XI LC ",
+      "home_team_id": "178206",
+      "home_club_name": "Wanstead & Snaresbrook CC",
+      "home_club_id": "6647",
       "away_team_name": "Sat 1st XI",
       "away_team_id": "24293",
       "away_club_name": "Chelmsford CC",
       "away_club_id": "1786",
       "umpire_1_name": "Todd Holland",
-      "umpire_1_id": "4383451",
-      "umpire_2_name": "Gary Marshall",
-      "umpire_2_id": "4494841",
+      "umpire_1_id": "416119",
+      "umpire_2_name": "NEIL OSBORNE",
+      "umpire_2_id": "6676074",
       "umpire_3_name": "",
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "Phil Wolski",
-      "scorer_1_id": "3974409",
-      "scorer_2_name": "",
-      "scorer_2_id": "",
-      "toss_won_by_team_id": "58739",
-      "toss": "Colchester and East Essex CC - 1st XI won the toss and elected to bat",
-      "batted_first": "58739",
-      "no_of_overs": 0,
+      "scorer_1_name": "Pauline Osborn",
+      "scorer_1_id": "5991211",
+      "scorer_2_name": "Alistair Fergus",
+      "scorer_2_id": "11230",
+      "toss_won_by_team_id": "24293",
+      "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
+      "batted_first": "24293",
+      "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 1st XI - Time Win (bat 2nd)",
-      "result_applied_to": "24293",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras<br/>32.4 Chelmsford CC Sat 1st XI: 150 runs in 32.4 overs, 127 minutes, 12 extras<br/>35.6 3rd Wicket: 50 runs in 58 balls, 36 minutes, Ben Clifford 23 (26), Rishabh Upadhyay 22 (32), 5 extras<br/>36.2 Ben Clifford: 50 runs in 79 balls, 98 minutes (3x4)<br/>43.6 Chelmsford CC Sat 1st XI: 200 runs in 44.0 overs, 174 minutes, 12 extras<br/>45.6 4th Wicket: 50 runs in 52 balls, 38 minutes, Ben Clifford 22 (25), James Clifford 29 (27), 1 extra<br/>50.2 Chelmsford CC Sat 1st XI: 250 runs in 50.2 overs, 204 minutes, 24 extras<br/>51.6 James Clifford: 50 runs in 50 balls, 65 minutes (5x4, 1x6)<br/>51.6 4th Wicket: 100 runs in 89 balls, 66 minutes, Ben Clifford 35 (39), James Clifford 52 (50), 13 extras\n<br/>\n",
-      "points": [
-        {
-          "team_id": 58739,
-          "game_points": "0",
-          "penalty_points": "0.0",
-          "bonus_points_together": "9.0",
-          "bonus_points_batting": "8.0",
-          "bonus_points_bowling": "1.0",
-          "bonus_points_2nd_innings_together": ""
-        },
-        {
-          "team_id": 24293,
-          "game_points": "20",
-          "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
-          "bonus_points_2nd_innings_together": ""
-        }
-      ],
+      "match_notes": "",
+      "points": [],
       "innings": [
-        {
-          "team_batting_id": "58739",
-          "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "4",
-          "extra_wides": "0",
-          "extra_no_balls": "1",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "280",
-          "wickets": "8",
-          "overs": "64",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "",
-          "revised_target_balls": ""
-        },
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "16",
-          "extra_leg_byes": "6",
-          "extra_wides": "1",
-          "extra_no_balls": "5",
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "28",
-          "runs": "281",
-          "wickets": "3",
-          "overs": "55.5",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "40.0",
           "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Aarav Salil",
-          "score": 56,
-          "notOut": false
-        },
-        {
-          "name": "Ben Clifford",
-          "score": 93,
-          "notOut": true
-        },
-        {
-          "name": "James Clifford",
-          "score": 60,
-          "notOut": true
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Ben Waring",
-          "w": 3,
-          "r": "67"
-        },
-        {
-          "name": "James Clifford",
-          "w": 3,
-          "r": "53"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7325296,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "05/08/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 01 - 1st XI Premier Division",
-        "competition_id": "135282",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "11/07/2026",
-        "match_time": "11:00",
-        "ground_name": "Wanstead Cricket Club",
-        "ground_id": "11878",
-        "home_team_name": "1st XI",
-        "home_team_id": "17709",
-        "home_club_name": "Wanstead & Snaresbrook CC",
-        "home_club_id": "6647",
-        "away_team_name": "Sat 1st XI",
-        "away_team_id": "24293",
-        "away_club_name": "Chelmsford CC",
-        "away_club_id": "1786",
-        "umpire_1_name": "Todd Holland",
-        "umpire_1_id": "4475160",
-        "umpire_2_name": "Gary Marshall",
-        "umpire_2_id": "4207701",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "Pauline Osborn",
-        "scorer_1_id": "5991211",
-        "scorer_2_name": "Richo Sasimohan",
-        "scorer_2_id": "6937570",
-        "toss_won_by_team_id": "24293",
-        "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
-        "batted_first": "24293",
-        "no_of_overs": 0,
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Wanstead & Snaresbrook CC - 1st XI - Time Win (bat 2nd)",
-        "result_applied_to": "17709",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n15.1 1st Wicket: 50 runs in 91 balls, 61 minutes, Aarav Salil 30 (53), Jack Sterland 22 (38), 0 extras<br/>15.1 Chelmsford CC Sat 1st XI: 50 runs in 15.1 overs, 61 minutes, 0 extras<br/>29.2 Chelmsford CC Sat 1st XI: 100 runs in 29.1 overs, 118 minutes, 2 extras<br/>47.3 Chelmsford CC Sat 1st XI: 150 runs in 47.2 overs, 190 minutes, 3 extras<br/>49.4 Rishabh Upadhyay: 50 runs in 62 balls, 83 minutes (8x4)<br/>56.1 Yuvraj Odedra: 5 wickets (20.1-5-45-5)\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n12.4 1st Wicket: 50 runs in 78 balls, 45 minutes, Haaris Usman 23 (45), Yuvraj Odedra 25 (33), 2 extras<br/>12.4 Wanstead & Snaresbrook CC 1st XI: 50 runs in 12.4 overs, 45 minutes, 2 extras<br/>20.6 Yuvraj Odedra: 50 runs in 56 balls, 68 minutes (6x4)<br/>22.2 1st Wicket: 100 runs in 136 balls, 73 minutes, Haaris Usman 44 (75), Yuvraj Odedra 57 (61), 2 extras<br/>22.2 Wanstead & Snaresbrook CC 1st XI: 100 runs in 22.2 overs, 73 minutes, 2 extras<br/>26.1 Haaris Usman: 50 runs in 84 balls, 86 minutes (7x4, 1x6)<br/>30.5 Wanstead & Snaresbrook CC 1st XI: 150 runs in 30.5 overs, 101 minutes, 6 extras<br/>33.6 2nd Wicket: 50 runs in 48 balls, 23 minutes, Haaris Usman 20 (24), Ali Zeb 29 (24), 1 extra\n<br/>\n",
-        "points": [
-          {
-            "team_id": 17709,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 24293,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "5.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "1.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "24293",
-            "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "4",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "4",
-            "runs": "193",
-            "wickets": "10",
-            "overs": "58.3",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "17709",
-            "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "1",
-            "extra_wides": "0",
-            "extra_no_balls": "5",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "194",
-            "wickets": "3",
-            "overs": "39.1",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7325301,
         "status": "New",
@@ -719,9 +539,84 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7731669,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "09/08/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Dukes Essex League Cup",
+        "competition_id": "68990",
+        "competition_type": "Cup",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "09/08/2026",
+        "match_time": "13:00",
+        "ground_name": "Wanstead Cricket Club",
+        "ground_id": "11878",
+        "home_team_name": "1st XI LC ",
+        "home_team_id": "178206",
+        "home_club_name": "Wanstead & Snaresbrook CC",
+        "home_club_id": "6647",
+        "away_team_name": "Sat 1st XI",
+        "away_team_id": "24293",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "Todd Holland",
+        "umpire_1_id": "416119",
+        "umpire_2_name": "NEIL OSBORNE",
+        "umpire_2_id": "6676074",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "Pauline Osborn",
+        "scorer_1_id": "5991211",
+        "scorer_2_name": "Alistair Fergus",
+        "scorer_2_id": "11230",
+        "toss_won_by_team_id": "24293",
+        "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
+        "batted_first": "24293",
+        "no_of_overs": "",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [],
+        "innings": [
+          {
+            "team_batting_id": "24293",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:01.594Z"
+    "fetched_at": "2026-08-09T11:50:15.493Z"
   },
   {
     "team": {
@@ -1445,7 +1340,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:02.695Z"
+    "fetched_at": "2026-08-09T11:50:16.535Z"
   },
   {
     "team": {
@@ -2148,7 +2043,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:03.712Z"
+    "fetched_at": "2026-08-09T11:50:17.567Z"
   },
   {
     "team": {
@@ -2851,7 +2746,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:04.730Z"
+    "fetched_at": "2026-08-09T11:50:18.612Z"
   },
   {
     "team": {
@@ -3534,7 +3429,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:05.706Z"
+    "fetched_at": "2026-08-09T11:50:19.638Z"
   },
   {
     "team": {
@@ -3547,7 +3442,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-09T11:16:06.125Z"
+    "fetched_at": "2026-08-09T11:50:20.068Z"
   },
   {
     "team": {
@@ -4256,7 +4151,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:07.142Z"
+    "fetched_at": "2026-08-09T11:50:21.282Z"
   },
   {
     "team": {
@@ -4537,7 +4432,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:08.059Z"
+    "fetched_at": "2026-08-09T11:50:22.232Z"
   },
   {
     "team": {
@@ -4940,7 +4835,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:09.128Z"
+    "fetched_at": "2026-08-09T11:50:23.265Z"
   },
   {
     "team": {
@@ -5603,6 +5498,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-09T11:16:10.121Z"
+    "fetched_at": "2026-08-09T11:50:24.265Z"
   }
 ]

@@ -461,7 +461,7 @@
         "id": 7325315,
         "status": "New",
         "published": "Yes",
-        "last_updated": "08/08/2026",
+        "last_updated": "10/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -492,8 +492,8 @@
         "referee_id": "",
         "scorer_1_name": "Phil Wolski",
         "scorer_1_id": "3974409",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
+        "scorer_2_name": "Richo Sasimohan",
+        "scorer_2_id": "6937570",
         "toss_won_by_team_id": "58739",
         "toss": "Colchester and East Essex CC - 1st XI won the toss and elected to bat",
         "batted_first": "58739",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:29.728Z"
+    "fetched_at": "2026-08-10T11:51:43.267Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:31.071Z"
+    "fetched_at": "2026-08-10T11:51:44.372Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:32.151Z"
+    "fetched_at": "2026-08-10T11:51:45.392Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:33.661Z"
+    "fetched_at": "2026-08-10T11:51:46.262Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:35.118Z"
+    "fetched_at": "2026-08-10T11:51:47.095Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-10T10:51:35.733Z"
+    "fetched_at": "2026-08-10T11:51:47.515Z"
   },
   {
     "team": {
@@ -4207,7 +4207,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:37.630Z"
+    "fetched_at": "2026-08-10T11:51:48.529Z"
   },
   {
     "team": {
@@ -4488,7 +4488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:38.937Z"
+    "fetched_at": "2026-08-10T11:51:49.517Z"
   },
   {
     "team": {
@@ -4891,7 +4891,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:40.271Z"
+    "fetched_at": "2026-08-10T11:51:50.483Z"
   },
   {
     "team": {
@@ -5554,6 +5554,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T10:51:41.781Z"
+    "fetched_at": "2026-08-10T11:51:51.467Z"
   }
 ]

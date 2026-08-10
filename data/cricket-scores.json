@@ -8,7 +8,7 @@
       "id": 7731669,
       "status": "New",
       "published": "Yes",
-      "last_updated": "09/08/2026",
+      "last_updated": "10/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Dukes Essex League Cup",
@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Wanstead & Snaresbrook CC - 1st XI LC  - Won",
       "result_applied_to": "178206",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -575,7 +575,7 @@
         "id": 7731669,
         "status": "New",
         "published": "Yes",
-        "last_updated": "09/08/2026",
+        "last_updated": "10/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex League Cup",
@@ -617,7 +617,7 @@
         "result": "W",
         "result_description": "Wanstead & Snaresbrook CC - 1st XI LC  - Won",
         "result_applied_to": "178206",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:06.110Z"
+    "fetched_at": "2026-08-10T19:39:37.344Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:07.788Z"
+    "fetched_at": "2026-08-10T19:39:38.435Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:09.408Z"
+    "fetched_at": "2026-08-10T19:39:39.458Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:11.038Z"
+    "fetched_at": "2026-08-10T19:39:40.529Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:12.360Z"
+    "fetched_at": "2026-08-10T19:39:41.627Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-10T18:31:13.061Z"
+    "fetched_at": "2026-08-10T19:39:41.816Z"
   },
   {
     "team": {
@@ -4207,7 +4207,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:14.672Z"
+    "fetched_at": "2026-08-10T19:39:42.825Z"
   },
   {
     "team": {
@@ -4488,7 +4488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:16.208Z"
+    "fetched_at": "2026-08-10T19:39:43.817Z"
   },
   {
     "team": {
@@ -4891,7 +4891,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:17.702Z"
+    "fetched_at": "2026-08-10T19:39:44.752Z"
   },
   {
     "team": {
@@ -5554,6 +5554,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-10T18:31:19.224Z"
+    "fetched_at": "2026-08-10T19:39:45.751Z"
   }
 ]

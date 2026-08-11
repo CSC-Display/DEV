@@ -461,7 +461,7 @@
         "id": 7325315,
         "status": "New",
         "published": "Yes",
-        "last_updated": "10/08/2026",
+        "last_updated": "11/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -505,8 +505,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Colchester and East Essex CC 1st XI Innings</b><br/>\n12.1 Colchester and East Essex CC 1st XI: 50 runs in 12.1 overs, 48 minutes, 2 extras<br/>17.4 2nd Wicket: 50 runs in 71 balls, 39 minutes, Joe MacGregor 28 (35), Guy Haines 22 (36), 1 extra<br/>23.4 Colchester and East Essex CC 1st XI: 100 runs in 23.4 overs, 82 minutes, 2 extras<br/>32.4 Joe MacGregor: 50 runs in 88 balls, 103 minutes (4x4)<br/>46.2 Colchester and East Essex CC 1st XI: 150 runs in 46.2 overs, 142 minutes, 2 extras<br/>52.4 5th Wicket: 50 runs in 68 balls, 33 minutes, Joe MacGregor 24 (29), Charlie Fernandes 26 (39), 1 extra<br/>53.5 Colchester and East Essex CC 1st XI: 200 runs in 53.5 overs, 163 minutes, 3 extras<br/>56.1 Joe MacGregor: 100 runs in 148 balls, 172 minutes (6x4)<br/>58.6 Charlie Fernandes: 50 runs in 56 balls, 55 minutes (5x4, 1x6)<br/>58.6 5th Wicket: 100 runs in 107 balls, 56 minutes, Joe MacGregor 48 (51), Charlie Fernandes 50 (56), 2 extras<br/>59.6 Colchester and East Essex CC 1st XI: 250 runs in 60.0 overs, 186 minutes, 4 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n11.4 Chelmsford CC Sat 1st XI: 50 runs in 11.4 overs, 45 minutes, 3 extras<br/>21.7 Aarav Salil: 50 runs in 64 balls, 80 minutes (5x4)<br/>21.7 2nd Wicket: 50 runs in 69 balls, 40 minutes, Aarav Salil 30 (30), Ben Clifford 17 (39), 3 extras<br/>24.6 Chelmsford CC Sat 1st XI: 100 runs in 25.0 overs, 93 minutes, 6 extras<br/>32.4 Chelmsford CC Sat 1st XI: 150 runs in 32.4 overs, 127 minutes, 12 extras<br/>35.6 3rd Wicket: 50 runs in 58 balls, 36 minutes, Ben Clifford 23 (26), Rishabh Upadhyay 22 (32), 5 extras<br/>36.2 Ben Clifford: 50 runs in 79 balls, 98 minutes (3x4)<br/>43.6 Chelmsford CC Sat 1st XI: 200 runs in 44.0 overs, 174 minutes, 12 extras<br/>45.6 4th Wicket: 50 runs in 52 balls, 38 minutes, Ben Clifford 22 (25), James Clifford 29 (27), 1 extra<br/>50.2 Chelmsford CC Sat 1st XI: 250 runs in 50.2 overs, 204 minutes, 24 extras<br/>51.6 James Clifford: 50 runs in 50 balls, 65 minutes (5x4, 1x6)<br/>51.6 4th Wicket: 100 runs in 89 balls, 66 minutes, Ben Clifford 35 (39), James Clifford 52 (50), 13 extras\n<br/>\n",
         "points": [
           {
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:45.021Z"
+    "fetched_at": "2026-08-11T23:09:19.084Z"
   },
   {
     "team": {
@@ -678,7 +678,7 @@
       "id": 7325768,
       "status": "New",
       "published": "Yes",
-      "last_updated": "09/08/2026",
+      "last_updated": "11/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -722,7 +722,7 @@
       "result_applied_to": "24294",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -1280,7 +1280,7 @@
         "id": 7325768,
         "status": "New",
         "published": "Yes",
-        "last_updated": "09/08/2026",
+        "last_updated": "11/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1324,7 +1324,7 @@
         "result_applied_to": "24294",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:46.166Z"
+    "fetched_at": "2026-08-11T23:09:20.607Z"
   },
   {
     "team": {
@@ -1446,7 +1446,7 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -2027,7 +2027,7 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:47.666Z"
+    "fetched_at": "2026-08-11T23:09:22.064Z"
   },
   {
     "team": {
@@ -2105,7 +2105,7 @@
       "id": 7462160,
       "status": "New",
       "published": "Yes",
-      "last_updated": "08/08/2026",
+      "last_updated": "11/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2149,7 +2149,7 @@
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "false",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -2686,7 +2686,7 @@
         "id": 7462160,
         "status": "New",
         "published": "Yes",
-        "last_updated": "08/08/2026",
+        "last_updated": "11/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2730,7 +2730,7 @@
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "false",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:48.763Z"
+    "fetched_at": "2026-08-11T23:09:23.587Z"
   },
   {
     "team": {
@@ -2808,7 +2808,7 @@
       "id": 7462457,
       "status": "New",
       "published": "Yes",
-      "last_updated": "09/08/2026",
+      "last_updated": "11/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2852,7 +2852,7 @@
       "result_applied_to": "23961",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -3369,7 +3369,7 @@
         "id": 7462457,
         "status": "New",
         "published": "Yes",
-        "last_updated": "09/08/2026",
+        "last_updated": "11/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3413,7 +3413,7 @@
         "result_applied_to": "23961",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:50.313Z"
+    "fetched_at": "2026-08-11T23:09:25.179Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-11T22:36:50.583Z"
+    "fetched_at": "2026-08-11T23:09:25.817Z"
   },
   {
     "team": {
@@ -4207,7 +4207,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:52.115Z"
+    "fetched_at": "2026-08-11T23:09:27.274Z"
   },
   {
     "team": {
@@ -4488,7 +4488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:53.583Z"
+    "fetched_at": "2026-08-11T23:09:28.660Z"
   },
   {
     "team": {
@@ -4891,7 +4891,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:54.629Z"
+    "fetched_at": "2026-08-11T23:09:30.078Z"
   },
   {
     "team": {
@@ -5554,6 +5554,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:36:55.714Z"
+    "fetched_at": "2026-08-11T23:09:31.490Z"
   }
 ]

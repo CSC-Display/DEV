@@ -8,7 +8,7 @@
       "id": 7731669,
       "status": "New",
       "published": "Yes",
-      "last_updated": "10/08/2026",
+      "last_updated": "11/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Dukes Essex League Cup",
@@ -52,8 +52,8 @@
       "result_applied_to": "178206",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI LC  Innings</b><br/>\n7.4 1st Wicket: 50 runs in 47 balls, 28 minutes, Haaris Usman 23 (28), Tom Simmons 18 (19), 11 extras<br/>7.4 Wanstead & Snaresbrook CC 1st XI LC : 50 runs in 7.3 overs, 28 minutes, 11 extras<br/>17.5 Haaris Usman: 50 runs in 58 balls, 59 minutes (7x4, 1x6)<br/>17.6 1st Wicket: 100 runs in 110 balls, 60 minutes, Haaris Usman 52 (59), Tom Simmons 37 (51), 11 extras<br/>17.6 Wanstead & Snaresbrook CC 1st XI LC : 100 runs in 18.0 overs, 60 minutes, 11 extras<br/>20.2 Tom Simmons: 50 runs in 62 balls, 70 minutes (8x4)<br/>25.6 Wanstead & Snaresbrook CC 1st XI LC : 150 runs in 26.0 overs, 91 minutes, 11 extras<br/>27.6 2nd Wicket: 50 runs in 50 balls, 29 minutes, Tom Simmons 29 (33), Muhammad Hassan Hameed 21 (17), 0 extras<br/>33.3 Wanstead & Snaresbrook CC 1st XI LC : 200 runs in 33.3 overs, 117 minutes, 17 extras<br/>33.6 Tom Simmons: 100 runs in 114 balls, 118 minutes (16x4)<br/>35.6 2nd Wicket: 100 runs in 98 balls, 57 minutes, Tom Simmons 53 (56), Muhammad Hassan Hameed 41 (42), 6 extras\n<br/>\n",
       "points": [],
       "innings": [
@@ -575,7 +575,7 @@
         "id": 7731669,
         "status": "New",
         "published": "Yes",
-        "last_updated": "10/08/2026",
+        "last_updated": "11/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex League Cup",
@@ -619,8 +619,8 @@
         "result_applied_to": "178206",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n14.2 Chelmsford CC Sat 1st XI: 50 runs in 14.2 overs, 58 minutes, 3 extras<br/>16.1 2nd Wicket: 50 runs in 76 balls, 52 minutes, Aarav Salil 23 (44), Ben Clifford 26 (32), 1 extra<br/>21.4 Ben Clifford: 50 runs in 51 balls, 70 minutes (5x4)<br/>22.4 Chelmsford CC Sat 1st XI: 100 runs in 22.4 overs, 88 minutes, 3 extras<br/>23.2 2nd Wicket: 100 runs in 119 balls, 78 minutes, Aarav Salil 46 (63), Ben Clifford 53 (56), 1 extra<br/>24.3 Aarav Salil: 50 runs in 80 balls, 96 minutes (5x4)<br/>31.6 Chelmsford CC Sat 1st XI: 150 runs in 32.0 overs, 129 minutes, 3 extras<br/>37.6 Chelmsford CC Sat 1st XI: 200 runs in 37.5 overs, 157 minutes, 9 extras\n<br/>\n<br/>\n<b>Wanstead & Snaresbrook CC 1st XI LC  Innings</b><br/>\n7.4 1st Wicket: 50 runs in 47 balls, 28 minutes, Haaris Usman 23 (28), Tom Simmons 18 (19), 11 extras<br/>7.4 Wanstead & Snaresbrook CC 1st XI LC : 50 runs in 7.3 overs, 28 minutes, 11 extras<br/>17.5 Haaris Usman: 50 runs in 58 balls, 59 minutes (7x4, 1x6)<br/>17.6 1st Wicket: 100 runs in 110 balls, 60 minutes, Haaris Usman 52 (59), Tom Simmons 37 (51), 11 extras<br/>17.6 Wanstead & Snaresbrook CC 1st XI LC : 100 runs in 18.0 overs, 60 minutes, 11 extras<br/>20.2 Tom Simmons: 50 runs in 62 balls, 70 minutes (8x4)<br/>25.6 Wanstead & Snaresbrook CC 1st XI LC : 150 runs in 26.0 overs, 91 minutes, 11 extras<br/>27.6 2nd Wicket: 50 runs in 50 balls, 29 minutes, Tom Simmons 29 (33), Muhammad Hassan Hameed 21 (17), 0 extras<br/>33.3 Wanstead & Snaresbrook CC 1st XI LC : 200 runs in 33.3 overs, 117 minutes, 17 extras<br/>33.6 Tom Simmons: 100 runs in 114 balls, 118 minutes (16x4)<br/>35.6 2nd Wicket: 100 runs in 98 balls, 57 minutes, Tom Simmons 53 (56), Muhammad Hassan Hameed 41 (42), 6 extras\n<br/>\n",
         "points": [],
         "innings": [
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:35.560Z"
+    "fetched_at": "2026-08-11T22:36:45.021Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:36.799Z"
+    "fetched_at": "2026-08-11T22:36:46.166Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:38.032Z"
+    "fetched_at": "2026-08-11T22:36:47.666Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:39.244Z"
+    "fetched_at": "2026-08-11T22:36:48.763Z"
   },
   {
     "team": {
@@ -3480,7 +3480,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:40.412Z"
+    "fetched_at": "2026-08-11T22:36:50.313Z"
   },
   {
     "team": {
@@ -3493,7 +3493,7 @@
       "wickets": []
     },
     "form": [],
-    "fetched_at": "2026-08-11T22:19:40.905Z"
+    "fetched_at": "2026-08-11T22:36:50.583Z"
   },
   {
     "team": {
@@ -4207,7 +4207,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:42.087Z"
+    "fetched_at": "2026-08-11T22:36:52.115Z"
   },
   {
     "team": {
@@ -4488,7 +4488,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:42.948Z"
+    "fetched_at": "2026-08-11T22:36:53.583Z"
   },
   {
     "team": {
@@ -4891,7 +4891,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:44.052Z"
+    "fetched_at": "2026-08-11T22:36:54.629Z"
   },
   {
     "team": {
@@ -5554,6 +5554,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-11T22:19:44.693Z"
+    "fetched_at": "2026-08-11T22:36:55.714Z"
   }
 ]

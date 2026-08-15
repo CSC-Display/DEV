@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:50:56.231Z"
+    "fetched_at": "2026-08-15T16:30:32.283Z"
   },
   {
     "team": {
@@ -790,15 +790,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "8",
-          "extra_leg_byes": "3",
-          "extra_wides": "18",
+          "extra_leg_byes": "4",
+          "extra_wides": "19",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "29",
-          "runs": "93",
-          "wickets": "4",
-          "overs": "14.0",
+          "total_extras": "31",
+          "runs": "136",
+          "wickets": "6",
+          "overs": "23.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1376,15 +1376,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "8",
-            "extra_leg_byes": "3",
-            "extra_wides": "18",
+            "extra_leg_byes": "4",
+            "extra_wides": "19",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "29",
-            "runs": "93",
-            "wickets": "4",
-            "overs": "14.0",
+            "total_extras": "31",
+            "runs": "136",
+            "wickets": "6",
+            "overs": "23.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:50:57.655Z"
+    "fetched_at": "2026-08-15T16:30:33.721Z"
   },
   {
     "team": {
@@ -1445,9 +1445,9 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+      "result_applied_to": "24295",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -1456,7 +1456,7 @@
       "points": [
         {
           "team_id": 24295,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -1467,9 +1467,9 @@
           "team_id": 44651,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "2.0",
+          "bonus_points_batting": "1.0",
+          "bonus_points_bowling": "1.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -1500,13 +1500,13 @@
           "extra_byes": "4",
           "extra_leg_byes": "0",
           "extra_wides": "4",
-          "extra_no_balls": "0",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "130",
-          "wickets": "3",
-          "overs": "20.0",
+          "total_extras": "9",
+          "runs": "141",
+          "wickets": "4",
+          "overs": "21.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1521,7 +1521,7 @@
         {
           "name": "Ayman Hossain",
           "score": 53,
-          "notOut": true
+          "notOut": false
         }
       ],
       "wickets": []
@@ -2026,9 +2026,9 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
+        "result_applied_to": "24295",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -2037,7 +2037,7 @@
         "points": [
           {
             "team_id": 24295,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -2048,9 +2048,9 @@
             "team_id": 44651,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "2.0",
+            "bonus_points_batting": "1.0",
+            "bonus_points_bowling": "1.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -2081,13 +2081,13 @@
             "extra_byes": "4",
             "extra_leg_byes": "0",
             "extra_wides": "4",
-            "extra_no_balls": "0",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "130",
-            "wickets": "3",
-            "overs": "20.0",
+            "total_extras": "9",
+            "runs": "141",
+            "wickets": "4",
+            "overs": "21.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2098,7 +2098,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:50:59.329Z"
+    "fetched_at": "2026-08-15T16:30:34.936Z"
   },
   {
     "team": {
@@ -2801,7 +2801,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:00.873Z"
+    "fetched_at": "2026-08-15T16:30:36.331Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:02.102Z"
+    "fetched_at": "2026-08-15T16:30:37.798Z"
   },
   {
     "team": {
@@ -3661,7 +3661,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:02.964Z"
+    "fetched_at": "2026-08-15T16:30:39.355Z"
   },
   {
     "team": {
@@ -4375,7 +4375,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:04.471Z"
+    "fetched_at": "2026-08-15T16:30:42.503Z"
   },
   {
     "team": {
@@ -4656,7 +4656,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:04.917Z"
+    "fetched_at": "2026-08-15T16:30:44.683Z"
   },
   {
     "team": {
@@ -5059,7 +5059,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:06.218Z"
+    "fetched_at": "2026-08-15T16:30:46.473Z"
   },
   {
     "team": {
@@ -5722,6 +5722,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:51:07.291Z"
+    "fetched_at": "2026-08-15T16:30:48.037Z"
   }
 ]

@@ -50,7 +50,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -618,7 +618,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:29.093Z"
+    "fetched_at": "2026-08-15T21:25:08.550Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:30.682Z"
+    "fetched_at": "2026-08-15T21:25:09.608Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:32.236Z"
+    "fetched_at": "2026-08-15T21:25:10.633Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:33.805Z"
+    "fetched_at": "2026-08-15T21:25:11.704Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:35.338Z"
+    "fetched_at": "2026-08-15T21:25:12.726Z"
   },
   {
     "team": {
@@ -3707,7 +3707,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:36.800Z"
+    "fetched_at": "2026-08-15T21:25:13.663Z"
   },
   {
     "team": {
@@ -4421,7 +4421,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:38.322Z"
+    "fetched_at": "2026-08-15T21:25:14.656Z"
   },
   {
     "team": {
@@ -4702,7 +4702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:39.795Z"
+    "fetched_at": "2026-08-15T21:25:15.605Z"
   },
   {
     "team": {
@@ -5105,7 +5105,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:41.289Z"
+    "fetched_at": "2026-08-15T21:25:16.541Z"
   },
   {
     "team": {
@@ -5768,6 +5768,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:51:42.832Z"
+    "fetched_at": "2026-08-15T21:25:17.515Z"
   }
 ]

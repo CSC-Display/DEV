@@ -51,7 +51,7 @@
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
       "home_confirmed": "false",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras<br/>25.5 Hornchurch CC 1st XI: 100 runs in 25.5 overs, 93 minutes, 11 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n17.4 Chelmsford CC Sat 1st XI: 50 runs in 17.4 overs, 51 minutes, 4 extras<br/>20.3 2nd Wicket: 50 runs in 78 balls, 38 minutes, Oliver Devenish 28 (40), Ben Clifford 18 (38), 4 extras<br/>30.5 Chelmsford CC Sat 1st XI: 100 runs in 30.5 overs, 94 minutes, 7 extras<br/>33.6 Ben Clifford: 50 runs in 75 balls, 80 minutes (4x4)\n<br/>\n",
@@ -619,7 +619,7 @@
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
         "home_confirmed": "false",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras<br/>25.5 Hornchurch CC 1st XI: 100 runs in 25.5 overs, 93 minutes, 11 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n17.4 Chelmsford CC Sat 1st XI: 50 runs in 17.4 overs, 51 minutes, 4 extras<br/>20.3 2nd Wicket: 50 runs in 78 balls, 38 minutes, Oliver Devenish 28 (40), Ben Clifford 18 (38), 4 extras<br/>30.5 Chelmsford CC Sat 1st XI: 100 runs in 30.5 overs, 94 minutes, 7 extras<br/>33.6 Ben Clifford: 50 runs in 75 balls, 80 minutes (4x4)\n<br/>\n",
@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:40.990Z"
+    "fetched_at": "2026-08-15T20:51:29.093Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:42.049Z"
+    "fetched_at": "2026-08-15T20:51:30.682Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:43.029Z"
+    "fetched_at": "2026-08-15T20:51:32.236Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:44.105Z"
+    "fetched_at": "2026-08-15T20:51:33.805Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:45.227Z"
+    "fetched_at": "2026-08-15T20:51:35.338Z"
   },
   {
     "team": {
@@ -3536,7 +3536,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 6th XI - Won",
       "result_applied_to": "105976",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -3566,13 +3566,13 @@
         {
           "team_batting_id": "149792",
           "innings_number": 1,
-          "extra_byes": "2",
-          "extra_leg_byes": "0",
-          "extra_wides": "3",
+          "extra_byes": "15",
+          "extra_leg_byes": "2",
+          "extra_wides": "5",
           "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "9",
+          "total_extras": "26",
           "runs": "79",
           "wickets": "10",
           "overs": "19.4",
@@ -3657,7 +3657,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 6th XI - Won",
         "result_applied_to": "105976",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -3687,13 +3687,13 @@
           {
             "team_batting_id": "149792",
             "innings_number": 1,
-            "extra_byes": "2",
-            "extra_leg_byes": "0",
-            "extra_wides": "3",
+            "extra_byes": "15",
+            "extra_leg_byes": "2",
+            "extra_wides": "5",
             "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "9",
+            "total_extras": "26",
             "runs": "79",
             "wickets": "10",
             "overs": "19.4",
@@ -3707,7 +3707,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:46.160Z"
+    "fetched_at": "2026-08-15T20:51:36.800Z"
   },
   {
     "team": {
@@ -4421,7 +4421,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:47.157Z"
+    "fetched_at": "2026-08-15T20:51:38.322Z"
   },
   {
     "team": {
@@ -4702,7 +4702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:48.225Z"
+    "fetched_at": "2026-08-15T20:51:39.795Z"
   },
   {
     "team": {
@@ -5105,7 +5105,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:48.959Z"
+    "fetched_at": "2026-08-15T20:51:41.289Z"
   },
   {
     "team": {
@@ -5768,6 +5768,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T20:27:50.007Z"
+    "fetched_at": "2026-08-15T20:51:42.832Z"
   }
 ]

@@ -100,15 +100,15 @@
           "team_batting_id": "24293",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "3",
           "extra_wides": "4",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "4",
-          "runs": "67",
-          "wickets": "1",
-          "overs": "21",
+          "total_extras": "7",
+          "runs": "88",
+          "wickets": "2",
+          "overs": "28",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -662,15 +662,15 @@
             "team_batting_id": "24293",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "3",
             "extra_wides": "4",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "4",
-            "runs": "67",
-            "wickets": "1",
-            "overs": "21",
+            "total_extras": "7",
+            "runs": "88",
+            "wickets": "2",
+            "overs": "28",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:35.475Z"
+    "fetched_at": "2026-08-15T14:03:08.492Z"
   },
   {
     "team": {
@@ -765,14 +765,14 @@
           "innings_number": 1,
           "extra_byes": "5",
           "extra_leg_byes": "8",
-          "extra_wides": "12",
+          "extra_wides": "16",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "25",
-          "runs": "187",
-          "wickets": "8",
-          "overs": "39.0",
+          "total_extras": "29",
+          "runs": "213",
+          "wickets": "9",
+          "overs": "44.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -793,7 +793,7 @@
         {
           "name": "Abdul Baig",
           "w": 3,
-          "r": "35"
+          "r": "43"
         }
       ]
     },
@@ -1331,14 +1331,14 @@
             "innings_number": 1,
             "extra_byes": "5",
             "extra_leg_byes": "8",
-            "extra_wides": "12",
+            "extra_wides": "16",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "25",
-            "runs": "187",
-            "wickets": "8",
-            "overs": "39.0",
+            "total_extras": "29",
+            "runs": "213",
+            "wickets": "9",
+            "overs": "44.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1349,7 +1349,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:37.748Z"
+    "fetched_at": "2026-08-15T14:03:09.584Z"
   },
   {
     "team": {
@@ -2052,7 +2052,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:39.665Z"
+    "fetched_at": "2026-08-15T14:03:10.430Z"
   },
   {
     "team": {
@@ -2755,7 +2755,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:41.233Z"
+    "fetched_at": "2026-08-15T14:03:12.378Z"
   },
   {
     "team": {
@@ -3438,7 +3438,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:42.982Z"
+    "fetched_at": "2026-08-15T14:03:13.815Z"
   },
   {
     "team": {
@@ -3500,16 +3500,16 @@
         {
           "team_batting_id": "105976",
           "innings_number": 1,
-          "extra_byes": "6",
+          "extra_byes": "10",
           "extra_leg_byes": "0",
-          "extra_wides": "10",
-          "extra_no_balls": "3",
+          "extra_wides": "13",
+          "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "19",
-          "runs": "135",
+          "total_extras": "27",
+          "runs": "192",
           "wickets": "1",
-          "overs": "21.0",
+          "overs": "26.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3590,16 +3590,16 @@
           {
             "team_batting_id": "105976",
             "innings_number": 1,
-            "extra_byes": "6",
+            "extra_byes": "10",
             "extra_leg_byes": "0",
-            "extra_wides": "10",
-            "extra_no_balls": "3",
+            "extra_wides": "13",
+            "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "19",
-            "runs": "135",
+            "total_extras": "27",
+            "runs": "192",
             "wickets": "1",
-            "overs": "21.0",
+            "overs": "26.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3610,7 +3610,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:44.023Z"
+    "fetched_at": "2026-08-15T14:03:17.753Z"
   },
   {
     "team": {
@@ -4324,7 +4324,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:45.666Z"
+    "fetched_at": "2026-08-15T14:03:19.367Z"
   },
   {
     "team": {
@@ -4605,7 +4605,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:47.142Z"
+    "fetched_at": "2026-08-15T14:03:20.099Z"
   },
   {
     "team": {
@@ -5008,7 +5008,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:48.697Z"
+    "fetched_at": "2026-08-15T14:03:21.566Z"
   },
   {
     "team": {
@@ -5671,6 +5671,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T13:41:50.347Z"
+    "fetched_at": "2026-08-15T14:03:22.843Z"
   }
 ]

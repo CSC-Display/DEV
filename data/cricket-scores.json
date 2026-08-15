@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:14.927Z"
+    "fetched_at": "2026-08-15T17:50:26.694Z"
   },
   {
     "team": {
@@ -737,9 +737,9 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Ilford CC - 2nd XI - Overs Win",
+      "result_applied_to": "28636",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -748,7 +748,7 @@
       "points": [
         {
           "team_id": 28636,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -759,9 +759,9 @@
           "team_id": 24294,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "7.0",
+          "bonus_points_batting": "3.0",
+          "bonus_points_bowling": "4.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -796,9 +796,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "39",
-          "runs": "216",
-          "wickets": "8",
-          "overs": "39.0",
+          "runs": "222",
+          "wickets": "10",
+          "overs": "40.5",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1323,9 +1323,9 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Ilford CC - 2nd XI - Overs Win",
+        "result_applied_to": "28636",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -1334,7 +1334,7 @@
         "points": [
           {
             "team_id": 28636,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1345,9 +1345,9 @@
             "team_id": 24294,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "7.0",
+            "bonus_points_batting": "3.0",
+            "bonus_points_bowling": "4.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1382,9 +1382,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "39",
-            "runs": "216",
-            "wickets": "8",
-            "overs": "39.0",
+            "runs": "222",
+            "wickets": "10",
+            "overs": "40.5",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:15.928Z"
+    "fetched_at": "2026-08-15T17:50:27.592Z"
   },
   {
     "team": {
@@ -2098,7 +2098,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:16.766Z"
+    "fetched_at": "2026-08-15T17:50:28.460Z"
   },
   {
     "team": {
@@ -2801,7 +2801,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:18.209Z"
+    "fetched_at": "2026-08-15T17:50:29.901Z"
   },
   {
     "team": {
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:19.144Z"
+    "fetched_at": "2026-08-15T17:50:30.913Z"
   },
   {
     "team": {
@@ -3533,9 +3533,9 @@
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Chelmsford CC - Sat 6th XI - Won",
+      "result_applied_to": "105976",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
@@ -3562,6 +3562,26 @@
           "revised_target_runs": "",
           "revised_target_overs": "",
           "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "149792",
+          "innings_number": 1,
+          "extra_byes": "2",
+          "extra_leg_byes": "0",
+          "extra_wides": "3",
+          "extra_no_balls": "4",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "9",
+          "runs": "79",
+          "wickets": "10",
+          "overs": "19.4",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "",
+          "revised_target_balls": ""
         }
       ]
     },
@@ -3583,7 +3603,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Andrew Shepherd",
+          "w": 3,
+          "r": "0"
+        }
+      ]
     },
     "form": [
       {
@@ -3628,9 +3654,9 @@
         "no_of_overs": "",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Chelmsford CC - Sat 6th XI - Won",
+        "result_applied_to": "105976",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
@@ -3657,11 +3683,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "149792",
+            "innings_number": 1,
+            "extra_byes": "2",
+            "extra_leg_byes": "0",
+            "extra_wides": "3",
+            "extra_no_balls": "4",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "9",
+            "runs": "79",
+            "wickets": "10",
+            "overs": "19.4",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:20.078Z"
+    "fetched_at": "2026-08-15T17:50:31.662Z"
   },
   {
     "team": {
@@ -4375,7 +4421,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:21.063Z"
+    "fetched_at": "2026-08-15T17:50:32.622Z"
   },
   {
     "team": {
@@ -4656,7 +4702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:21.885Z"
+    "fetched_at": "2026-08-15T17:50:33.859Z"
   },
   {
     "team": {
@@ -5059,7 +5105,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:22.815Z"
+    "fetched_at": "2026-08-15T17:50:35.128Z"
   },
   {
     "team": {
@@ -5722,6 +5768,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T17:28:23.384Z"
+    "fetched_at": "2026-08-15T17:50:35.902Z"
   }
 ]

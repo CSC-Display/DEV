@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:04.788Z"
+    "fetched_at": "2026-08-15T15:50:56.231Z"
   },
   {
     "team": {
@@ -791,14 +791,14 @@
           "innings_number": 1,
           "extra_byes": "8",
           "extra_leg_byes": "3",
-          "extra_wides": "13",
+          "extra_wides": "18",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "24",
-          "runs": "62",
-          "wickets": "2",
-          "overs": "9.0",
+          "total_extras": "29",
+          "runs": "93",
+          "wickets": "4",
+          "overs": "14.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1377,14 +1377,14 @@
             "innings_number": 1,
             "extra_byes": "8",
             "extra_leg_byes": "3",
-            "extra_wides": "13",
+            "extra_wides": "18",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "24",
-            "runs": "62",
-            "wickets": "2",
-            "overs": "9.0",
+            "total_extras": "29",
+            "runs": "93",
+            "wickets": "4",
+            "overs": "14.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:05.702Z"
+    "fetched_at": "2026-08-15T15:50:57.655Z"
   },
   {
     "team": {
@@ -1504,9 +1504,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "8",
-          "runs": "110",
+          "runs": "130",
           "wickets": "3",
-          "overs": "18.0",
+          "overs": "20.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1517,7 +1517,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Ayman Hossain",
+          "score": 53,
+          "notOut": true
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -2079,9 +2085,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "8",
-            "runs": "110",
+            "runs": "130",
             "wickets": "3",
-            "overs": "18.0",
+            "overs": "20.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2092,7 +2098,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:07.746Z"
+    "fetched_at": "2026-08-15T15:50:59.329Z"
   },
   {
     "team": {
@@ -2795,7 +2801,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:09.409Z"
+    "fetched_at": "2026-08-15T15:51:00.873Z"
   },
   {
     "team": {
@@ -3478,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:10.563Z"
+    "fetched_at": "2026-08-15T15:51:02.102Z"
   },
   {
     "team": {
@@ -3655,7 +3661,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:12.627Z"
+    "fetched_at": "2026-08-15T15:51:02.964Z"
   },
   {
     "team": {
@@ -4369,7 +4375,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:14.318Z"
+    "fetched_at": "2026-08-15T15:51:04.471Z"
   },
   {
     "team": {
@@ -4650,7 +4656,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:15.471Z"
+    "fetched_at": "2026-08-15T15:51:04.917Z"
   },
   {
     "team": {
@@ -5053,7 +5059,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:16.625Z"
+    "fetched_at": "2026-08-15T15:51:06.218Z"
   },
   {
     "team": {
@@ -5716,6 +5722,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T15:29:17.460Z"
+    "fetched_at": "2026-08-15T15:51:07.291Z"
   }
 ]

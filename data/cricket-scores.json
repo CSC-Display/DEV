@@ -86,9 +86,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "2",
-          "runs": "50",
-          "wickets": "0",
-          "overs": "7",
+          "runs": "72",
+          "wickets": "2",
+          "overs": "16",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -622,9 +622,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "2",
-            "runs": "50",
-            "wickets": "0",
-            "overs": "7",
+            "runs": "72",
+            "wickets": "2",
+            "overs": "16",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +635,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:30.591Z"
+    "fetched_at": "2026-08-15T11:28:11.119Z"
   },
   {
     "team": {
@@ -679,9 +679,9 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "",
-      "toss": "",
-      "batted_first": "",
+      "toss_won_by_team_id": "28636",
+      "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
+      "batted_first": "28636",
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -717,16 +717,16 @@
         {
           "team_batting_id": "28636",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "2",
           "extra_leg_byes": "0",
           "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
+          "total_extras": "2",
+          "runs": "33",
           "wickets": "0",
-          "overs": "0",
+          "overs": "6.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1234,9 +1234,9 @@
         "scorer_1_id": "",
         "scorer_2_name": "",
         "scorer_2_id": "",
-        "toss_won_by_team_id": "",
-        "toss": "",
-        "batted_first": "",
+        "toss_won_by_team_id": "28636",
+        "toss": "Ilford CC - 2nd XI won the toss and elected to bat",
+        "batted_first": "28636",
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -1272,16 +1272,16 @@
           {
             "team_batting_id": "28636",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "2",
             "extra_leg_byes": "0",
             "extra_wides": "0",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
+            "total_extras": "2",
+            "runs": "33",
             "wickets": "0",
-            "overs": "0",
+            "overs": "6.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1292,7 +1292,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:32.161Z"
+    "fetched_at": "2026-08-15T11:28:12.696Z"
   },
   {
     "team": {
@@ -1995,7 +1995,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:33.720Z"
+    "fetched_at": "2026-08-15T11:28:14.308Z"
   },
   {
     "team": {
@@ -2698,7 +2698,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:35.292Z"
+    "fetched_at": "2026-08-15T11:28:15.887Z"
   },
   {
     "team": {
@@ -3381,7 +3381,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:36.879Z"
+    "fetched_at": "2026-08-15T11:28:17.463Z"
   },
   {
     "team": {
@@ -3500,7 +3500,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-08-15T10:57:38.331Z"
+    "fetched_at": "2026-08-15T11:28:18.912Z"
   },
   {
     "team": {
@@ -4214,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:39.835Z"
+    "fetched_at": "2026-08-15T11:28:20.478Z"
   },
   {
     "team": {
@@ -4495,7 +4495,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:41.406Z"
+    "fetched_at": "2026-08-15T11:28:22.039Z"
   },
   {
     "team": {
@@ -4898,7 +4898,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:42.871Z"
+    "fetched_at": "2026-08-15T11:28:23.638Z"
   },
   {
     "team": {
@@ -5561,6 +5561,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:57:43.997Z"
+    "fetched_at": "2026-08-15T11:28:25.186Z"
   }
 ]

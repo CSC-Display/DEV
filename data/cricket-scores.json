@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "",
+      "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -80,15 +80,15 @@
           "team_batting_id": "37537",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_leg_byes": "1",
           "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "4",
+          "total_extras": "2",
+          "runs": "50",
           "wickets": "0",
-          "overs": "1",
+          "overs": "7",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -590,7 +590,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "",
+        "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -616,15 +616,15 @@
             "team_batting_id": "37537",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_leg_byes": "1",
             "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "4",
+            "total_extras": "2",
+            "runs": "50",
             "wickets": "0",
-            "overs": "1",
+            "overs": "7",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +635,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:03.020Z"
+    "fetched_at": "2026-08-15T10:57:30.591Z"
   },
   {
     "team": {
@@ -643,10 +643,10 @@
       "id": 24294
     },
     "match": {
-      "id": 7325768,
+      "id": 7325772,
       "status": "New",
       "published": "Yes",
-      "last_updated": "14/08/2026",
+      "last_updated": "15/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -655,18 +655,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "08/08/2026",
+      "match_date": "15/08/2026",
       "match_time": "12:00",
-      "ground_name": "Chelmer Park",
-      "ground_id": "10646",
-      "home_team_name": "Sat 2nd XI",
-      "home_team_id": "24294",
-      "home_club_name": "Chelmsford CC",
-      "home_club_id": "1786",
-      "away_team_name": "2nd XI",
-      "away_team_id": "19018",
-      "away_club_name": "Harold Wood CC",
-      "away_club_id": "3181",
+      "ground_name": "Valentines Park",
+      "ground_id": "10091",
+      "home_team_name": "2nd XI",
+      "home_team_id": "28636",
+      "home_club_name": "Ilford CC",
+      "home_club_id": "3588",
+      "away_team_name": "Sat 2nd XI",
+      "away_team_id": "24294",
+      "away_club_name": "Chelmsford CC",
+      "away_club_id": "1786",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -679,24 +679,24 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "24294",
-      "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
-      "batted_first": "24294",
-      "no_of_overs": 0,
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
+      "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 2nd XI - Time Win (bat 1st)",
-      "result_applied_to": "24294",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
-      "scorecard_locked": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 24294,
-          "game_points": "25",
+          "team_id": 28636,
+          "game_points": "0",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -704,204 +704,43 @@
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 19018,
+          "team_id": 24294,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "4.0",
-          "bonus_points_batting": "2.0",
-          "bonus_points_bowling": "2.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
       "innings": [
         {
-          "team_batting_id": "24294",
+          "team_batting_id": "28636",
           "innings_number": 1,
-          "extra_byes": "8",
-          "extra_leg_byes": "2",
-          "extra_wides": "1",
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "11",
-          "runs": "252",
-          "wickets": "5",
-          "overs": "47.0",
-          "balls": "",
-          "declared": true,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "19018",
-          "innings_number": 1,
-          "extra_byes": "9",
-          "extra_leg_byes": "4",
-          "extra_wides": "0",
-          "extra_no_balls": "1",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "14",
-          "runs": "158",
-          "wickets": "10",
-          "overs": "49.5",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "45.0",
           "revised_target_balls": ""
         }
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Thomas Duxson",
-          "score": 69,
-          "notOut": false
-        },
-        {
-          "name": "Elliot Wenzel",
-          "score": 77,
-          "notOut": false
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Thomas Duxson",
-          "w": 3,
-          "r": "20"
-        },
-        {
-          "name": "Liam Keaney",
-          "w": 4,
-          "r": "31"
-        },
-        {
-          "name": "Stuart Everard",
-          "w": 3,
-          "r": "14"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7325748,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "05/08/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 06 - 2nd XI Premier Division",
-        "competition_id": "135299",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "11/07/2026",
-        "match_time": "12:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Sat 2nd XI",
-        "home_team_id": "24294",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "Men's 2nd XI",
-        "away_team_id": "16610",
-        "away_club_name": "Upminster CC",
-        "away_club_id": "6546",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "24294",
-        "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to field",
-        "batted_first": "16610",
-        "no_of_overs": 0,
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "D",
-        "result_description": "Draw",
-        "result_applied_to": "",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 24294,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "8.0",
-            "bonus_points_batting": "4.0",
-            "bonus_points_bowling": "4.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 16610,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "11.0",
-            "bonus_points_batting": "8.0",
-            "bonus_points_bowling": "3.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "16610",
-            "innings_number": 1,
-            "extra_byes": "2",
-            "extra_leg_byes": "2",
-            "extra_wides": "6",
-            "extra_no_balls": "1",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "11",
-            "runs": "270",
-            "wickets": "9",
-            "overs": "50.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "24294",
-            "innings_number": 1,
-            "extra_byes": "4",
-            "extra_leg_byes": "2",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "6",
-            "runs": "232",
-            "wickets": "7",
-            "overs": "45.0",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7325753,
         "status": "New",
@@ -1357,9 +1196,103 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7325772,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "15/08/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 06 - 2nd XI Premier Division",
+        "competition_id": "135299",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "15/08/2026",
+        "match_time": "12:00",
+        "ground_name": "Valentines Park",
+        "ground_id": "10091",
+        "home_team_name": "2nd XI",
+        "home_team_id": "28636",
+        "home_club_name": "Ilford CC",
+        "home_club_id": "3588",
+        "away_team_name": "Sat 2nd XI",
+        "away_team_id": "24294",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "45",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 28636,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 24294,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "28636",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:03.741Z"
+    "fetched_at": "2026-08-15T10:57:32.161Z"
   },
   {
     "team": {
@@ -2062,7 +1995,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:04.420Z"
+    "fetched_at": "2026-08-15T10:57:33.720Z"
   },
   {
     "team": {
@@ -2765,7 +2698,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:05.138Z"
+    "fetched_at": "2026-08-15T10:57:35.292Z"
   },
   {
     "team": {
@@ -3448,7 +3381,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:05.832Z"
+    "fetched_at": "2026-08-15T10:57:36.879Z"
   },
   {
     "team": {
@@ -3567,7 +3500,7 @@
         "innings": []
       }
     ],
-    "fetched_at": "2026-08-15T10:36:06.357Z"
+    "fetched_at": "2026-08-15T10:57:38.331Z"
   },
   {
     "team": {
@@ -4281,7 +4214,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:07.005Z"
+    "fetched_at": "2026-08-15T10:57:39.835Z"
   },
   {
     "team": {
@@ -4562,7 +4495,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:07.590Z"
+    "fetched_at": "2026-08-15T10:57:41.406Z"
   },
   {
     "team": {
@@ -4965,7 +4898,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:08.169Z"
+    "fetched_at": "2026-08-15T10:57:42.871Z"
   },
   {
     "team": {
@@ -5628,6 +5561,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T10:36:08.794Z"
+    "fetched_at": "2026-08-15T10:57:43.997Z"
   }
 ]

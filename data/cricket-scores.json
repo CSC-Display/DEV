@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:45.502Z"
+    "fetched_at": "2026-08-15T08:10:13.043Z"
   },
   {
     "team": {
@@ -1391,7 +1391,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:46.102Z"
+    "fetched_at": "2026-08-15T08:10:14.970Z"
   },
   {
     "team": {
@@ -2094,7 +2094,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:46.657Z"
+    "fetched_at": "2026-08-15T08:10:16.574Z"
   },
   {
     "team": {
@@ -2797,7 +2797,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:47.183Z"
+    "fetched_at": "2026-08-15T08:10:18.189Z"
   },
   {
     "team": {
@@ -3480,20 +3480,126 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:47.975Z"
+    "fetched_at": "2026-08-15T08:10:19.660Z"
   },
   {
     "team": {
       "name": "Sat 6th XI",
       "id": 105976
     },
-    "match": null,
+    "match": {
+      "id": 7681015,
+      "status": "New",
+      "published": "Yes",
+      "last_updated": "15/08/2026",
+      "league_id": "",
+      "competition_name": "",
+      "competition_id": "",
+      "competition_type": "Friendly",
+      "match_type": "Limited Overs",
+      "game_type": "Standard",
+      "countdown_cricket": "no",
+      "match_date": "15/08/2026",
+      "match_time": "13:00",
+      "ground_name": "Chelmer Park",
+      "ground_id": "10646",
+      "home_team_name": "Sat 6th XI",
+      "home_team_id": "105976",
+      "home_club_name": "Chelmsford CC",
+      "home_club_id": "1786",
+      "away_team_name": "4th XI",
+      "away_team_id": "149792",
+      "away_club_name": "Great Baddow CC",
+      "away_club_id": "2984",
+      "umpire_1_name": "",
+      "umpire_1_id": "",
+      "umpire_2_name": "",
+      "umpire_2_id": "",
+      "umpire_3_name": "",
+      "umpire_3_id": "",
+      "referee_name": "",
+      "referee_id": "",
+      "scorer_1_name": "",
+      "scorer_1_id": "",
+      "scorer_2_name": "",
+      "scorer_2_id": "",
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
+      "no_of_overs": "",
+      "balls_per_innings": "",
+      "no_of_innings": "1",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
+      "match_notes": "",
+      "points": [],
+      "innings": []
+    },
     "perf": {
       "runs": [],
       "wickets": []
     },
-    "form": [],
-    "fetched_at": "2026-08-15T07:41:48.151Z"
+    "form": [
+      {
+        "id": 7681015,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "15/08/2026",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "15/08/2026",
+        "match_time": "13:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "home_team_name": "Sat 6th XI",
+        "home_team_id": "105976",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "4th XI",
+        "away_team_id": "149792",
+        "away_club_name": "Great Baddow CC",
+        "away_club_id": "2984",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [],
+        "innings": []
+      }
+    ],
+    "fetched_at": "2026-08-15T08:10:21.088Z"
   },
   {
     "team": {
@@ -4207,7 +4313,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:49.158Z"
+    "fetched_at": "2026-08-15T08:10:22.555Z"
   },
   {
     "team": {
@@ -4488,7 +4594,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:50.070Z"
+    "fetched_at": "2026-08-15T08:10:23.960Z"
   },
   {
     "team": {
@@ -4891,7 +4997,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:51.067Z"
+    "fetched_at": "2026-08-15T08:10:25.385Z"
   },
   {
     "team": {
@@ -5554,6 +5660,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-15T07:41:52.113Z"
+    "fetched_at": "2026-08-15T08:10:26.824Z"
   }
 ]

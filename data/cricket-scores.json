@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:54.233Z"
+    "fetched_at": "2026-08-16T17:28:10.467Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:54.898Z"
+    "fetched_at": "2026-08-16T17:28:12.047Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:55.543Z"
+    "fetched_at": "2026-08-16T17:28:13.585Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:56.153Z"
+    "fetched_at": "2026-08-16T17:28:15.177Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:56.798Z"
+    "fetched_at": "2026-08-16T17:28:16.661Z"
   },
   {
     "team": {
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:57.325Z"
+    "fetched_at": "2026-08-16T17:28:18.115Z"
   },
   {
     "team": {
@@ -3828,9 +3828,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "24",
-          "runs": "132",
-          "wickets": "0",
-          "overs": "27.0",
+          "runs": "134",
+          "wickets": "1",
+          "overs": "28.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4414,9 +4414,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "24",
-            "runs": "132",
-            "wickets": "0",
-            "overs": "27.0",
+            "runs": "134",
+            "wickets": "1",
+            "overs": "28.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4427,7 +4427,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:57.936Z"
+    "fetched_at": "2026-08-16T17:28:19.577Z"
   },
   {
     "team": {
@@ -4708,7 +4708,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:58.550Z"
+    "fetched_at": "2026-08-16T17:28:21.005Z"
   },
   {
     "team": {
@@ -5111,7 +5111,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:59.137Z"
+    "fetched_at": "2026-08-16T17:28:22.435Z"
   },
   {
     "team": {
@@ -5774,6 +5774,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T17:09:59.700Z"
+    "fetched_at": "2026-08-16T17:28:23.900Z"
   }
 ]

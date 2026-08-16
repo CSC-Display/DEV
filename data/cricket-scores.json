@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:14.617Z"
+    "fetched_at": "2026-08-16T11:28:00.828Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:15.675Z"
+    "fetched_at": "2026-08-16T11:28:01.907Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:16.678Z"
+    "fetched_at": "2026-08-16T11:28:02.958Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:17.714Z"
+    "fetched_at": "2026-08-16T11:28:03.817Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
       "id": 7462460,
       "status": "New",
       "published": "Yes",
-      "last_updated": "15/08/2026",
+      "last_updated": "16/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -3373,7 +3373,7 @@
         "id": 7462460,
         "status": "New",
         "published": "Yes",
-        "last_updated": "15/08/2026",
+        "last_updated": "16/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:18.706Z"
+    "fetched_at": "2026-08-16T11:28:04.851Z"
   },
   {
     "team": {
@@ -3707,7 +3707,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:19.658Z"
+    "fetched_at": "2026-08-16T11:28:05.849Z"
   },
   {
     "team": {
@@ -4421,7 +4421,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:20.667Z"
+    "fetched_at": "2026-08-16T11:28:06.901Z"
   },
   {
     "team": {
@@ -4702,7 +4702,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:21.640Z"
+    "fetched_at": "2026-08-16T11:28:07.837Z"
   },
   {
     "team": {
@@ -5105,7 +5105,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:22.600Z"
+    "fetched_at": "2026-08-16T11:28:08.561Z"
   },
   {
     "team": {
@@ -5768,6 +5768,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T10:57:23.589Z"
+    "fetched_at": "2026-08-16T11:28:09.535Z"
   }
 ]

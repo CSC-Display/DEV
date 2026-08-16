@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:18.473Z"
+    "fetched_at": "2026-08-16T14:38:44.179Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:19.376Z"
+    "fetched_at": "2026-08-16T14:38:45.151Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:20.398Z"
+    "fetched_at": "2026-08-16T14:38:46.374Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:21.455Z"
+    "fetched_at": "2026-08-16T14:38:47.676Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:22.504Z"
+    "fetched_at": "2026-08-16T14:38:48.899Z"
   },
   {
     "team": {
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:23.433Z"
+    "fetched_at": "2026-08-16T14:38:50.085Z"
   },
   {
     "team": {
@@ -3803,14 +3803,14 @@
           "innings_number": 1,
           "extra_byes": "5",
           "extra_leg_byes": "7",
-          "extra_wides": "6",
+          "extra_wides": "7",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "18",
-          "runs": "204",
-          "wickets": "4",
-          "overs": "30.0",
+          "total_extras": "19",
+          "runs": "248",
+          "wickets": "5",
+          "overs": "35.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3826,6 +3826,11 @@
           "name": "Harry Jacobs",
           "score": 68,
           "notOut": false
+        },
+        {
+          "name": "Dinil Siriwardana",
+          "score": 67,
+          "notOut": true
         }
       ],
       "wickets": []
@@ -4364,14 +4369,14 @@
             "innings_number": 1,
             "extra_byes": "5",
             "extra_leg_byes": "7",
-            "extra_wides": "6",
+            "extra_wides": "7",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "18",
-            "runs": "204",
-            "wickets": "4",
-            "overs": "30.0",
+            "total_extras": "19",
+            "runs": "248",
+            "wickets": "5",
+            "overs": "35.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4382,7 +4387,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:24.429Z"
+    "fetched_at": "2026-08-16T14:38:51.012Z"
   },
   {
     "team": {
@@ -4663,7 +4668,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:25.378Z"
+    "fetched_at": "2026-08-16T14:38:52.231Z"
   },
   {
     "team": {
@@ -5066,7 +5071,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:26.133Z"
+    "fetched_at": "2026-08-16T14:38:53.322Z"
   },
   {
     "team": {
@@ -5729,6 +5734,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T14:08:26.848Z"
+    "fetched_at": "2026-08-16T14:38:54.220Z"
   }
 ]

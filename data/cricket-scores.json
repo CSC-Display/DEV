@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:05.187Z"
+    "fetched_at": "2026-08-16T20:56:40.755Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:06.244Z"
+    "fetched_at": "2026-08-16T20:56:41.438Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:07.320Z"
+    "fetched_at": "2026-08-16T20:56:42.076Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:08.323Z"
+    "fetched_at": "2026-08-16T20:56:42.718Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:09.088Z"
+    "fetched_at": "2026-08-16T20:56:43.315Z"
   },
   {
     "team": {
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:09.978Z"
+    "fetched_at": "2026-08-16T20:56:43.849Z"
   },
   {
     "team": {
@@ -3782,18 +3782,18 @@
           "team_id": 324716,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
+          "bonus_points_together": "2.0",
           "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_bowling": "2.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
           "team_id": 70131,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "8.0",
+          "bonus_points_batting": "5.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -3821,16 +3821,16 @@
         {
           "team_batting_id": "70131",
           "innings_number": 1,
-          "extra_byes": "14",
-          "extra_leg_byes": "0",
-          "extra_wides": "9",
+          "extra_byes": "18",
+          "extra_leg_byes": "1",
+          "extra_wides": "13",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "24",
-          "runs": "134",
-          "wickets": "1",
-          "overs": "28.0",
+          "total_extras": "33",
+          "runs": "233",
+          "wickets": "5",
+          "overs": "40",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3853,7 +3853,13 @@
           "notOut": true
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Md Alim Al Razi",
+          "w": 3,
+          "r": "42"
+        }
+      ]
     },
     "form": [
       {
@@ -4368,18 +4374,18 @@
             "team_id": 324716,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
+            "bonus_points_together": "2.0",
             "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_bowling": "2.0",
             "bonus_points_2nd_innings_together": ""
           },
           {
             "team_id": 70131,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "8.0",
+            "bonus_points_batting": "5.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -4407,16 +4413,16 @@
           {
             "team_batting_id": "70131",
             "innings_number": 1,
-            "extra_byes": "14",
-            "extra_leg_byes": "0",
-            "extra_wides": "9",
+            "extra_byes": "18",
+            "extra_leg_byes": "1",
+            "extra_wides": "13",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "24",
-            "runs": "134",
-            "wickets": "1",
-            "overs": "28.0",
+            "total_extras": "33",
+            "runs": "233",
+            "wickets": "5",
+            "overs": "40",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4427,7 +4433,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:10.984Z"
+    "fetched_at": "2026-08-16T20:56:44.488Z"
   },
   {
     "team": {
@@ -4708,7 +4714,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:11.700Z"
+    "fetched_at": "2026-08-16T20:56:45.060Z"
   },
   {
     "team": {
@@ -5111,7 +5117,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:12.427Z"
+    "fetched_at": "2026-08-16T20:56:45.629Z"
   },
   {
     "team": {
@@ -5774,6 +5780,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-16T20:35:13.435Z"
+    "fetched_at": "2026-08-16T20:56:46.240Z"
   }
 ]

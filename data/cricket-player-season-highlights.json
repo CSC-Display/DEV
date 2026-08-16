@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:18:51.865Z",
+  "generated_at": "2026-08-16T17:10:49.446Z",
   "season": "2026",
   "centuries": [
     {
@@ -191,6 +191,17 @@
     }
   ],
   "half_centuries": [
+    {
+      "player": "Dinil Siriwardana",
+      "runs": 99,
+      "score": "99*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Ardleigh CC 1st XI",
+      "date": "16/08/2026",
+      "match_id": 7510292
+    },
     {
       "player": "Tanay Mukherjee",
       "runs": 96,
@@ -478,6 +489,17 @@
       "match_id": 7507202
     },
     {
+      "player": "Tom Iliffe",
+      "runs": 71,
+      "score": "71*",
+      "not_out": true,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Billericay CC 5th XI",
+      "date": "15/08/2026",
+      "match_id": 7462460
+    },
+    {
       "player": "James Clifford",
       "runs": 70,
       "score": "70",
@@ -509,6 +531,17 @@
       "opposition": "Harold Wood CC 2nd XI",
       "date": "08/08/2026",
       "match_id": 7325768
+    },
+    {
+      "player": "Harry Jacobs",
+      "runs": 68,
+      "score": "68",
+      "not_out": false,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Ardleigh CC 1st XI",
+      "date": "16/08/2026",
+      "match_id": 7510292
     },
     {
       "player": "George Wilson",
@@ -1125,6 +1158,17 @@
       "opposition": "Hornchurch CC 1st XI",
       "date": "18/07/2026",
       "match_id": 7325301
+    },
+    {
+      "player": "Charlie Jackson",
+      "runs": 50,
+      "score": "50*",
+      "not_out": true,
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Shenfield CC 6th XI",
+      "date": "18/07/2026",
+      "match_id": 7729761
     },
     {
       "player": "Deepak Reddy Singireddy",
@@ -1805,6 +1849,14 @@
       "opposition": "Leigh On Sea CC Saturday 4th XI",
       "date": "11/07/2026",
       "match_id": 7462430
+    },
+    {
+      "player": "Vivaan Mittal",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Shenfield CC 6th XI",
+      "date": "18/07/2026",
+      "match_id": 7729761
     },
     {
       "player": "Charlie Jackson",
@@ -2607,6 +2659,28 @@
       ]
     },
     {
+      "player": "Vivaan Mittal",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Vivaan Mittal",
+          "team": "Sat 4th XI",
+          "team_id": 30461,
+          "opposition": "Billericay CC 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462139
+        },
+        {
+          "player": "Vivaan Mittal",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Shenfield CC 6th XI",
+          "date": "18/07/2026",
+          "match_id": 7729761
+        }
+      ]
+    },
+    {
       "player": "Abraham Kurian",
       "count": 1,
       "ducks": [
@@ -3093,20 +3167,6 @@
           "opposition": "Billericay CC 5th XI",
           "date": "04/07/2026",
           "match_id": 7462422
-        }
-      ]
-    },
-    {
-      "player": "Vivaan Mittal",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Vivaan Mittal",
-          "team": "Sat 4th XI",
-          "team_id": 30461,
-          "opposition": "Billericay CC 4th XI",
-          "date": "11/07/2026",
-          "match_id": 7462139
         }
       ]
     },

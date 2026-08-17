@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:01.571Z"
+    "fetched_at": "2026-08-17T09:10:21.802Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:03.214Z"
+    "fetched_at": "2026-08-17T09:10:23.420Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:04.781Z"
+    "fetched_at": "2026-08-17T09:10:25.053Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:06.556Z"
+    "fetched_at": "2026-08-17T09:10:26.608Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:08.157Z"
+    "fetched_at": "2026-08-17T09:10:28.181Z"
   },
   {
     "team": {
@@ -3507,7 +3507,7 @@
       "id": 7681015,
       "status": "New",
       "published": "Yes",
-      "last_updated": "16/08/2026",
+      "last_updated": "17/08/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -3549,7 +3549,7 @@
       "result_description": "Chelmsford CC - Sat 6th XI - Won",
       "result_applied_to": "105976",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3628,7 +3628,7 @@
         "id": 7681015,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/08/2026",
+        "last_updated": "17/08/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -3670,7 +3670,7 @@
         "result_description": "Chelmsford CC - Sat 6th XI - Won",
         "result_applied_to": "105976",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:09.686Z"
+    "fetched_at": "2026-08-17T09:10:29.639Z"
   },
   {
     "team": {
@@ -4433,7 +4433,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:11.317Z"
+    "fetched_at": "2026-08-17T09:10:31.169Z"
   },
   {
     "team": {
@@ -4714,7 +4714,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:12.793Z"
+    "fetched_at": "2026-08-17T09:10:32.248Z"
   },
   {
     "team": {
@@ -5117,7 +5117,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:14.339Z"
+    "fetched_at": "2026-08-17T09:10:33.756Z"
   },
   {
     "team": {
@@ -5780,6 +5780,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-17T08:23:15.887Z"
+    "fetched_at": "2026-08-17T09:10:34.941Z"
   }
 ]

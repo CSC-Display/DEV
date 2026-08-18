@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:48.383Z"
+    "fetched_at": "2026-08-18T19:30:53.363Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:49.367Z"
+    "fetched_at": "2026-08-18T19:30:54.098Z"
   },
   {
     "team": {
@@ -1406,7 +1406,7 @@
       "id": 7461895,
       "status": "New",
       "published": "Yes",
-      "last_updated": "16/08/2026",
+      "last_updated": "18/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1448,7 +1448,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
       "result_applied_to": "24295",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -1993,7 +1993,7 @@
         "id": 7461895,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/08/2026",
+        "last_updated": "18/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -2035,7 +2035,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 3rd XI - Overs Win",
         "result_applied_to": "24295",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:50.396Z"
+    "fetched_at": "2026-08-18T19:30:54.800Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:51.417Z"
+    "fetched_at": "2026-08-18T19:30:55.403Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:52.473Z"
+    "fetched_at": "2026-08-18T19:30:56.047Z"
   },
   {
     "team": {
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:53.169Z"
+    "fetched_at": "2026-08-18T19:30:56.612Z"
   },
   {
     "team": {
@@ -4433,7 +4433,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:54.147Z"
+    "fetched_at": "2026-08-18T19:30:57.303Z"
   },
   {
     "team": {
@@ -4714,7 +4714,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:55.086Z"
+    "fetched_at": "2026-08-18T19:30:57.926Z"
   },
   {
     "team": {
@@ -5117,7 +5117,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:56.001Z"
+    "fetched_at": "2026-08-18T19:30:58.483Z"
   },
   {
     "team": {
@@ -5780,6 +5780,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T18:53:56.947Z"
+    "fetched_at": "2026-08-18T19:30:59.087Z"
   }
 ]

@@ -126,7 +126,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:18.991Z"
+    "fetched_at": "2026-08-18T17:17:13.421Z"
   },
   {
     "team": {
@@ -255,7 +255,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:20.092Z"
+    "fetched_at": "2026-08-18T17:17:13.703Z"
   },
   {
     "team": {
@@ -384,7 +384,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:21.344Z"
+    "fetched_at": "2026-08-18T17:17:13.998Z"
   },
   {
     "team": {
@@ -513,7 +513,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:22.689Z"
+    "fetched_at": "2026-08-18T17:17:14.707Z"
   },
   {
     "team": {
@@ -642,7 +642,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:23.059Z"
+    "fetched_at": "2026-08-18T17:17:15.415Z"
   },
   {
     "team": {
@@ -654,7 +654,7 @@
         "id": 7503170,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/02/2026",
+        "last_updated": "18/08/2026",
         "league_name": "",
         "league_id": "",
         "competition_name": "",
@@ -771,7 +771,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:23.807Z"
+    "fetched_at": "2026-08-18T17:17:16.127Z"
   },
   {
     "team": {
@@ -783,7 +783,7 @@
         "id": 7510300,
         "status": "New",
         "published": "Yes",
-        "last_updated": "25/02/2026",
+        "last_updated": "18/08/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -793,7 +793,7 @@
         "game_type": "Standard",
         "season": "2026",
         "match_date": "23/08/2026",
-        "match_time": "13:00",
+        "match_time": "12:30",
         "ground_name": "Chelmer Park",
         "ground_id": "10646",
         "ground_latitude": "51.7037755",
@@ -900,7 +900,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:24.569Z"
+    "fetched_at": "2026-08-18T17:17:16.856Z"
   },
   {
     "team": {
@@ -949,7 +949,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:25.316Z"
+    "fetched_at": "2026-08-18T17:17:17.517Z"
   },
   {
     "team": {
@@ -957,7 +957,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-08-18T06:20:26.239Z"
+    "fetched_at": "2026-08-18T17:17:18.168Z"
   },
   {
     "team": {
@@ -1006,6 +1006,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-18T06:20:27.093Z"
+    "fetched_at": "2026-08-18T17:17:18.485Z"
   }
 ]

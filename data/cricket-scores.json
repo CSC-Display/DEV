@@ -8,7 +8,7 @@
       "id": 7325323,
       "status": "New",
       "published": "Yes",
-      "last_updated": "15/08/2026",
+      "last_updated": "18/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -52,8 +52,8 @@
       "result_applied_to": "24293",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras<br/>25.5 Hornchurch CC 1st XI: 100 runs in 25.5 overs, 93 minutes, 11 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n17.4 Chelmsford CC Sat 1st XI: 50 runs in 17.4 overs, 51 minutes, 4 extras<br/>20.3 2nd Wicket: 50 runs in 78 balls, 38 minutes, Oliver Devenish 28 (40), Ben Clifford 18 (38), 4 extras<br/>30.5 Chelmsford CC Sat 1st XI: 100 runs in 30.5 overs, 94 minutes, 7 extras<br/>33.6 Ben Clifford: 50 runs in 75 balls, 80 minutes (4x4)\n<br/>\n",
       "points": [
         {
@@ -576,7 +576,7 @@
         "id": 7325323,
         "status": "New",
         "published": "Yes",
-        "last_updated": "15/08/2026",
+        "last_updated": "18/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -620,8 +620,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Hornchurch CC 1st XI Innings</b><br/>\n6.6 1st Wicket: 50 runs in 43 balls, 24 minutes, Sameer Saqib 16 (22), Kieran Scarlioli 32 (21), 2 extras<br/>6.6 Hornchurch CC 1st XI: 50 runs in 7.0 overs, 24 minutes, 2 extras<br/>25.5 Hornchurch CC 1st XI: 100 runs in 25.5 overs, 93 minutes, 11 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n17.4 Chelmsford CC Sat 1st XI: 50 runs in 17.4 overs, 51 minutes, 4 extras<br/>20.3 2nd Wicket: 50 runs in 78 balls, 38 minutes, Oliver Devenish 28 (40), Ben Clifford 18 (38), 4 extras<br/>30.5 Chelmsford CC Sat 1st XI: 100 runs in 30.5 overs, 94 minutes, 7 extras<br/>33.6 Ben Clifford: 50 runs in 75 balls, 80 minutes (4x4)\n<br/>\n",
         "points": [
           {
@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:12.309Z"
+    "fetched_at": "2026-08-18T10:33:33.392Z"
   },
   {
     "team": {
@@ -1395,7 +1395,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:12.957Z"
+    "fetched_at": "2026-08-18T10:33:34.280Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:13.582Z"
+    "fetched_at": "2026-08-18T10:33:35.067Z"
   },
   {
     "team": {
@@ -2807,7 +2807,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:14.417Z"
+    "fetched_at": "2026-08-18T10:33:35.704Z"
   },
   {
     "team": {
@@ -3496,7 +3496,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:14.978Z"
+    "fetched_at": "2026-08-18T10:33:36.501Z"
   },
   {
     "team": {
@@ -3719,7 +3719,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:15.679Z"
+    "fetched_at": "2026-08-18T10:33:37.217Z"
   },
   {
     "team": {
@@ -4433,7 +4433,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:16.467Z"
+    "fetched_at": "2026-08-18T10:33:37.797Z"
   },
   {
     "team": {
@@ -4714,7 +4714,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:17.199Z"
+    "fetched_at": "2026-08-18T10:33:38.347Z"
   },
   {
     "team": {
@@ -5117,7 +5117,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:17.681Z"
+    "fetched_at": "2026-08-18T10:33:38.863Z"
   },
   {
     "team": {
@@ -5780,6 +5780,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-18T09:53:18.207Z"
+    "fetched_at": "2026-08-18T10:33:39.662Z"
   }
 ]

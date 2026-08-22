@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:22.317Z"
+    "fetched_at": "2026-08-22T21:49:06.790Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:23.461Z"
+    "fetched_at": "2026-08-22T21:49:07.834Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:24.588Z"
+    "fetched_at": "2026-08-22T21:49:08.706Z"
   },
   {
     "team": {
@@ -2158,7 +2158,7 @@
       "result_description": "Chelmsford CC - Sat 4th XI - Overs Win",
       "result_applied_to": "30461",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -2207,15 +2207,15 @@
           "team_batting_id": "198990",
           "innings_number": 1,
           "extra_byes": "4",
-          "extra_leg_byes": "4",
-          "extra_wides": "24",
-          "extra_no_balls": "7",
+          "extra_leg_byes": "0",
+          "extra_wides": "15",
+          "extra_no_balls": "5",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "39",
+          "total_extras": "24",
           "runs": "162",
           "wickets": "10",
-          "overs": "38",
+          "overs": "38.3",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2750,7 +2750,7 @@
         "result_description": "Chelmsford CC - Sat 4th XI - Overs Win",
         "result_applied_to": "30461",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -2799,15 +2799,15 @@
             "team_batting_id": "198990",
             "innings_number": 1,
             "extra_byes": "4",
-            "extra_leg_byes": "4",
-            "extra_wides": "24",
-            "extra_no_balls": "7",
+            "extra_leg_byes": "0",
+            "extra_wides": "15",
+            "extra_no_balls": "5",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "",
-            "total_extras": "39",
+            "total_extras": "24",
             "runs": "162",
             "wickets": "10",
-            "overs": "38",
+            "overs": "38.3",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:25.723Z"
+    "fetched_at": "2026-08-22T21:49:09.523Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:26.599Z"
+    "fetched_at": "2026-08-22T21:49:10.077Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:27.583Z"
+    "fetched_at": "2026-08-22T21:49:10.996Z"
   },
   {
     "team": {
@@ -4458,7 +4458,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:28.645Z"
+    "fetched_at": "2026-08-22T21:49:11.756Z"
   },
   {
     "team": {
@@ -4739,7 +4739,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:29.657Z"
+    "fetched_at": "2026-08-22T21:49:12.485Z"
   },
   {
     "team": {
@@ -5142,7 +5142,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:30.671Z"
+    "fetched_at": "2026-08-22T21:49:13.415Z"
   },
   {
     "team": {
@@ -5805,6 +5805,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T21:26:31.765Z"
+    "fetched_at": "2026-08-22T21:49:14.392Z"
   }
 ]

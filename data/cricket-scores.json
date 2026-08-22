@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras\n<br/>\n",
+      "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras<br/>25.1 Jack Sterland: 50 runs in 66 balls, 103 minutes (6x4)\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "7",
-          "extra_leg_byes": "3",
-          "extra_wides": "11",
+          "extra_byes": "9",
+          "extra_leg_byes": "4",
+          "extra_wides": "21",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "22",
-          "runs": "108",
+          "total_extras": "35",
+          "runs": "147",
           "wickets": "4",
-          "overs": "24",
+          "overs": "32",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -119,7 +119,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Jack Sterland",
+          "score": 66,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Ben Waring",
@@ -616,7 +622,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras\n<br/>\n",
+        "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras<br/>25.1 Jack Sterland: 50 runs in 66 balls, 103 minutes (6x4)\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -661,16 +667,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "7",
-            "extra_leg_byes": "3",
-            "extra_wides": "11",
+            "extra_byes": "9",
+            "extra_leg_byes": "4",
+            "extra_wides": "21",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "22",
-            "runs": "108",
+            "total_extras": "35",
+            "runs": "147",
             "wickets": "4",
-            "overs": "24",
+            "overs": "32",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:03.818Z"
+    "fetched_at": "2026-08-22T15:48:50.717Z"
   },
   {
     "team": {
@@ -738,7 +744,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras\n<br/>\n",
+      "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras<br/>18.3 Chelmsford CC Sat 2nd XI: 100 runs in 18.3 overs, 73 minutes, 11 extras<br/>20.2 Dan Hagen: 50 runs in 52 balls, 78 minutes (6x4, 2x6)\n<br/>\n",
       "points": [
         {
           "team_id": 21634,
@@ -784,15 +790,15 @@
           "team_batting_id": "24294",
           "innings_number": 1,
           "extra_byes": "4",
-          "extra_leg_byes": "1",
-          "extra_wides": "4",
+          "extra_leg_byes": "4",
+          "extra_wides": "7",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "9",
-          "runs": "70",
-          "wickets": "1",
-          "overs": "14",
+          "total_extras": "15",
+          "runs": "120",
+          "wickets": "2",
+          "overs": "21",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -803,7 +809,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Dan Hagen",
+          "score": 50,
+          "notOut": true
+        }
+      ],
       "wickets": [
         {
           "name": "Liam Keaney",
@@ -1319,7 +1331,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras\n<br/>\n",
+        "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras<br/>18.3 Chelmsford CC Sat 2nd XI: 100 runs in 18.3 overs, 73 minutes, 11 extras<br/>20.2 Dan Hagen: 50 runs in 52 balls, 78 minutes (6x4, 2x6)\n<br/>\n",
         "points": [
           {
             "team_id": 21634,
@@ -1365,15 +1377,15 @@
             "team_batting_id": "24294",
             "innings_number": 1,
             "extra_byes": "4",
-            "extra_leg_byes": "1",
-            "extra_wides": "4",
+            "extra_leg_byes": "4",
+            "extra_wides": "7",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "9",
-            "runs": "70",
-            "wickets": "1",
-            "overs": "14",
+            "total_extras": "15",
+            "runs": "120",
+            "wickets": "2",
+            "overs": "21",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1396,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:05.003Z"
+    "fetched_at": "2026-08-22T15:48:52.332Z"
   },
   {
     "team": {
@@ -2093,7 +2105,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:05.684Z"
+    "fetched_at": "2026-08-22T15:48:54.520Z"
   },
   {
     "team": {
@@ -2796,7 +2808,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:07.594Z"
+    "fetched_at": "2026-08-22T15:48:56.462Z"
   },
   {
     "team": {
@@ -2905,9 +2917,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "7",
-          "runs": "46",
+          "runs": "82",
           "wickets": "3",
-          "overs": "13.0",
+          "overs": "20.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3486,9 +3498,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "7",
-            "runs": "46",
+            "runs": "82",
             "wickets": "3",
-            "overs": "13.0",
+            "overs": "20.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3499,7 +3511,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:08.258Z"
+    "fetched_at": "2026-08-22T15:48:57.975Z"
   },
   {
     "team": {
@@ -3722,7 +3734,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:08.929Z"
+    "fetched_at": "2026-08-22T15:49:00.141Z"
   },
   {
     "team": {
@@ -4436,7 +4448,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:10.771Z"
+    "fetched_at": "2026-08-22T15:49:02.571Z"
   },
   {
     "team": {
@@ -4717,7 +4729,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:11.507Z"
+    "fetched_at": "2026-08-22T15:49:04.419Z"
   },
   {
     "team": {
@@ -5120,7 +5132,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:12.183Z"
+    "fetched_at": "2026-08-22T15:49:06.820Z"
   },
   {
     "team": {
@@ -5783,6 +5795,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T15:26:12.796Z"
+    "fetched_at": "2026-08-22T15:49:08.528Z"
   }
 ]

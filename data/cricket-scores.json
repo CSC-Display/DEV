@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n",
+      "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras\n<br/>\n",
       "points": [
         {
           "team_id": 24293,
@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "1",
-          "extra_leg_byes": "2",
-          "extra_wides": "4",
+          "extra_byes": "5",
+          "extra_leg_byes": "3",
+          "extra_wides": "5",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "8",
-          "runs": "48",
-          "wickets": "1",
-          "overs": "10",
+          "total_extras": "14",
+          "runs": "69",
+          "wickets": "3",
+          "overs": "15",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -616,7 +616,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n",
+        "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras\n<br/>\n",
         "points": [
           {
             "team_id": 24293,
@@ -661,16 +661,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "2",
-            "extra_wides": "4",
+            "extra_byes": "5",
+            "extra_leg_byes": "3",
+            "extra_wides": "5",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "48",
-            "wickets": "1",
-            "overs": "10",
+            "total_extras": "14",
+            "runs": "69",
+            "wickets": "3",
+            "overs": "15",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:18.617Z"
+    "fetched_at": "2026-08-22T14:50:37.480Z"
   },
   {
     "team": {
@@ -783,16 +783,16 @@
         {
           "team_batting_id": "24294",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "4",
           "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_wides": "2",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0",
+          "total_extras": "6",
+          "runs": "23",
+          "wickets": "1",
+          "overs": "6",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1364,16 +1364,16 @@
           {
             "team_batting_id": "24294",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "4",
             "extra_leg_byes": "0",
-            "extra_wides": "0",
+            "extra_wides": "2",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0",
+            "total_extras": "6",
+            "runs": "23",
+            "wickets": "1",
+            "overs": "6",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1384,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:19.515Z"
+    "fetched_at": "2026-08-22T14:50:39.616Z"
   },
   {
     "team": {
@@ -2093,7 +2093,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:20.611Z"
+    "fetched_at": "2026-08-22T14:50:42.518Z"
   },
   {
     "team": {
@@ -2796,7 +2796,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:21.558Z"
+    "fetched_at": "2026-08-22T14:50:44.444Z"
   },
   {
     "team": {
@@ -2888,6 +2888,26 @@
           "runs": "189",
           "wickets": "8",
           "overs": "40.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "40.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "45348",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "12",
+          "wickets": "1",
+          "overs": "4.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3455,11 +3475,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "40.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "45348",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "12",
+            "wickets": "1",
+            "overs": "4.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:22.330Z"
+    "fetched_at": "2026-08-22T14:50:46.060Z"
   },
   {
     "team": {
@@ -3682,7 +3722,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:23.126Z"
+    "fetched_at": "2026-08-22T14:50:47.750Z"
   },
   {
     "team": {
@@ -4396,7 +4436,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:24.275Z"
+    "fetched_at": "2026-08-22T14:50:49.165Z"
   },
   {
     "team": {
@@ -4677,7 +4717,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:25.520Z"
+    "fetched_at": "2026-08-22T14:50:50.760Z"
   },
   {
     "team": {
@@ -5080,7 +5120,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:27.184Z"
+    "fetched_at": "2026-08-22T14:50:52.366Z"
   },
   {
     "team": {
@@ -5743,6 +5783,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T14:26:27.722Z"
+    "fetched_at": "2026-08-22T14:50:53.754Z"
   }
 ]

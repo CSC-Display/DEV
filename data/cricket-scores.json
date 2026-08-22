@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:33:58.125Z"
+    "fetched_at": "2026-08-22T17:55:46.167Z"
   },
   {
     "team": {
@@ -789,16 +789,16 @@
         {
           "team_batting_id": "24294",
           "innings_number": 1,
-          "extra_byes": "9",
+          "extra_byes": "10",
           "extra_leg_byes": "9",
           "extra_wides": "11",
           "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "30",
-          "runs": "268",
-          "wickets": "8",
-          "overs": "44",
+          "total_extras": "31",
+          "runs": "272",
+          "wickets": "9",
+          "overs": "45",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1381,16 +1381,16 @@
           {
             "team_batting_id": "24294",
             "innings_number": 1,
-            "extra_byes": "9",
+            "extra_byes": "10",
             "extra_leg_byes": "9",
             "extra_wides": "11",
             "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "30",
-            "runs": "268",
-            "wickets": "8",
-            "overs": "44",
+            "total_extras": "31",
+            "runs": "272",
+            "wickets": "9",
+            "overs": "45",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:33:59.878Z"
+    "fetched_at": "2026-08-22T17:55:47.211Z"
   },
   {
     "team": {
@@ -2110,7 +2110,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:01.361Z"
+    "fetched_at": "2026-08-22T17:55:48.053Z"
   },
   {
     "team": {
@@ -2813,7 +2813,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:02.984Z"
+    "fetched_at": "2026-08-22T17:55:49.212Z"
   },
   {
     "team": {
@@ -3516,7 +3516,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:04.497Z"
+    "fetched_at": "2026-08-22T17:55:49.988Z"
   },
   {
     "team": {
@@ -3739,7 +3739,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:05.858Z"
+    "fetched_at": "2026-08-22T17:55:50.907Z"
   },
   {
     "team": {
@@ -4453,7 +4453,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:07.309Z"
+    "fetched_at": "2026-08-22T17:55:51.648Z"
   },
   {
     "team": {
@@ -4734,7 +4734,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:08.778Z"
+    "fetched_at": "2026-08-22T17:55:52.598Z"
   },
   {
     "team": {
@@ -5137,7 +5137,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:10.120Z"
+    "fetched_at": "2026-08-22T17:55:53.560Z"
   },
   {
     "team": {
@@ -5800,6 +5800,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T17:34:11.548Z"
+    "fetched_at": "2026-08-22T17:55:54.580Z"
   }
 ]

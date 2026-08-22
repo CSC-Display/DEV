@@ -99,16 +99,16 @@
         {
           "team_batting_id": "24293",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
+          "extra_byes": "1",
+          "extra_leg_byes": "2",
           "extra_wides": "4",
-          "extra_no_balls": "0",
+          "extra_no_balls": "1",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "4",
-          "runs": "8",
-          "wickets": "0",
-          "overs": "2",
+          "total_extras": "8",
+          "runs": "48",
+          "wickets": "1",
+          "overs": "10",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -661,16 +661,16 @@
           {
             "team_batting_id": "24293",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
+            "extra_byes": "1",
+            "extra_leg_byes": "2",
             "extra_wides": "4",
-            "extra_no_balls": "0",
+            "extra_no_balls": "1",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "4",
-            "runs": "8",
-            "wickets": "0",
-            "overs": "2",
+            "total_extras": "8",
+            "runs": "48",
+            "wickets": "1",
+            "overs": "10",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:23.111Z"
+    "fetched_at": "2026-08-22T14:26:18.617Z"
   },
   {
     "team": {
@@ -773,6 +773,26 @@
           "runs": "281",
           "wickets": "6",
           "overs": "45",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "24294",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "0",
+          "wickets": "0",
+          "overs": "0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1340,11 +1360,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "45.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "24294",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "0",
+            "wickets": "0",
+            "overs": "0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:24.953Z"
+    "fetched_at": "2026-08-22T14:26:19.515Z"
   },
   {
     "team": {
@@ -2053,7 +2093,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:26.493Z"
+    "fetched_at": "2026-08-22T14:26:20.611Z"
   },
   {
     "team": {
@@ -2756,7 +2796,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:27.841Z"
+    "fetched_at": "2026-08-22T14:26:21.558Z"
   },
   {
     "team": {
@@ -2839,15 +2879,15 @@
           "team_batting_id": "25531",
           "innings_number": 1,
           "extra_byes": "3",
-          "extra_leg_byes": "0",
-          "extra_wides": "6",
+          "extra_leg_byes": "2",
+          "extra_wides": "9",
           "extra_no_balls": "4",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "13",
-          "runs": "172",
-          "wickets": "7",
-          "overs": "37.0",
+          "total_extras": "18",
+          "runs": "189",
+          "wickets": "8",
+          "overs": "40.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2859,7 +2899,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Md Alim Al Razi",
+          "w": 3,
+          "r": "17"
+        }
+      ]
     },
     "form": [
       {
@@ -3394,15 +3440,15 @@
             "team_batting_id": "25531",
             "innings_number": 1,
             "extra_byes": "3",
-            "extra_leg_byes": "0",
-            "extra_wides": "6",
+            "extra_leg_byes": "2",
+            "extra_wides": "9",
             "extra_no_balls": "4",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "172",
-            "wickets": "7",
-            "overs": "37.0",
+            "total_extras": "18",
+            "runs": "189",
+            "wickets": "8",
+            "overs": "40.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3413,7 +3459,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:28.699Z"
+    "fetched_at": "2026-08-22T14:26:22.330Z"
   },
   {
     "team": {
@@ -3636,7 +3682,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:29.486Z"
+    "fetched_at": "2026-08-22T14:26:23.126Z"
   },
   {
     "team": {
@@ -4350,7 +4396,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:30.813Z"
+    "fetched_at": "2026-08-22T14:26:24.275Z"
   },
   {
     "team": {
@@ -4631,7 +4677,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:31.599Z"
+    "fetched_at": "2026-08-22T14:26:25.520Z"
   },
   {
     "team": {
@@ -5034,7 +5080,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:32.481Z"
+    "fetched_at": "2026-08-22T14:26:27.184Z"
   },
   {
     "team": {
@@ -5697,6 +5743,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-22T13:53:33.670Z"
+    "fetched_at": "2026-08-22T14:26:27.722Z"
   }
 ]

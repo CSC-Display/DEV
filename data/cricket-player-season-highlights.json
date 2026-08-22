@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:18:30.792Z",
+  "generated_at": "2026-08-22T16:42:26.795Z",
   "season": "2026",
   "centuries": [
     {
@@ -346,6 +346,17 @@
       "match_id": 7731669
     },
     {
+      "player": "Dan Hagen",
+      "runs": 81,
+      "score": "81*",
+      "not_out": true,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Brentwood CC 2nd XI",
+      "date": "22/08/2026",
+      "match_id": 7325775
+    },
+    {
       "player": "Harry Green",
       "runs": 79,
       "score": "79",
@@ -399,6 +410,17 @@
       "opposition": "Wivenhoe Town CC Sunday XI",
       "date": "24/05/2026",
       "match_id": 7507126
+    },
+    {
+      "player": "Jack Sterland",
+      "runs": 77,
+      "score": "77",
+      "not_out": false,
+      "team": "Sat 1st XI",
+      "team_id": 24293,
+      "opposition": "Wanstead & Snaresbrook CC 1st XI",
+      "date": "22/08/2026",
+      "match_id": 7325327
     },
     {
       "player": "Tom Iliffe",
@@ -542,6 +564,17 @@
       "opposition": "Ardleigh CC 1st XI",
       "date": "16/08/2026",
       "match_id": 7510292
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 67,
+      "score": "67",
+      "not_out": false,
+      "team": "Sat 2nd XI",
+      "team_id": 24294,
+      "opposition": "Brentwood CC 2nd XI",
+      "date": "22/08/2026",
+      "match_id": 7325775
     },
     {
       "player": "George Wilson",
@@ -1899,6 +1932,14 @@
       "match_id": 7462457
     },
     {
+      "player": "Rupert Redman",
+      "team": "Sat 5th XI",
+      "team_id": 45348,
+      "opposition": "Stanford Le Hope CC 4th XI",
+      "date": "22/08/2026",
+      "match_id": 7462466
+    },
+    {
       "player": "Alex Bayha",
       "team": "NECL 1st XI",
       "team_id": 324716,
@@ -2615,6 +2656,28 @@
       ]
     },
     {
+      "player": "Rupert Redman",
+      "count": 2,
+      "ducks": [
+        {
+          "player": "Rupert Redman",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Leigh On Sea CC Saturday 4th XI",
+          "date": "11/07/2026",
+          "match_id": 7462430
+        },
+        {
+          "player": "Rupert Redman",
+          "team": "Sat 5th XI",
+          "team_id": 45348,
+          "opposition": "Stanford Le Hope CC 4th XI",
+          "date": "22/08/2026",
+          "match_id": 7462466
+        }
+      ]
+    },
+    {
       "player": "Sean Sullivan",
       "count": 2,
       "ducks": [
@@ -3097,20 +3160,6 @@
           "opposition": "Frenford CC 4th XI",
           "date": "30/05/2026",
           "match_id": 7462109
-        }
-      ]
-    },
-    {
-      "player": "Rupert Redman",
-      "count": 1,
-      "ducks": [
-        {
-          "player": "Rupert Redman",
-          "team": "Sat 5th XI",
-          "team_id": 45348,
-          "opposition": "Leigh On Sea CC Saturday 4th XI",
-          "date": "11/07/2026",
-          "match_id": 7462430
         }
       ]
     },

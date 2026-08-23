@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:08.263Z"
+    "fetched_at": "2026-08-23T14:53:10.228Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:09.212Z"
+    "fetched_at": "2026-08-23T14:53:10.900Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:10.870Z"
+    "fetched_at": "2026-08-23T14:53:11.593Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:11.909Z"
+    "fetched_at": "2026-08-23T14:53:12.268Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:14.445Z"
+    "fetched_at": "2026-08-23T14:53:12.911Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:14.932Z"
+    "fetched_at": "2026-08-23T14:53:13.510Z"
   },
   {
     "team": {
@@ -3836,6 +3836,26 @@
           "runs": "191",
           "wickets": "10",
           "overs": "34.5",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "40.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "324716",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "2",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "2",
+          "runs": "28",
+          "wickets": "0",
+          "overs": "4.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -4413,11 +4433,31 @@
             "revised_target_runs": "",
             "revised_target_overs": "40.0",
             "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "324716",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "2",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "2",
+            "runs": "28",
+            "wickets": "0",
+            "overs": "4.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:15.470Z"
+    "fetched_at": "2026-08-23T14:53:14.184Z"
   },
   {
     "team": {
@@ -4698,7 +4738,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:16.286Z"
+    "fetched_at": "2026-08-23T14:53:14.757Z"
   },
   {
     "team": {
@@ -5101,7 +5141,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:18.651Z"
+    "fetched_at": "2026-08-23T14:53:15.353Z"
   },
   {
     "team": {
@@ -5764,6 +5804,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T14:28:19.673Z"
+    "fetched_at": "2026-08-23T14:53:15.992Z"
   }
 ]

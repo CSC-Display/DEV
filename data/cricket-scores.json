@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:10.806Z"
+    "fetched_at": "2026-08-23T14:28:08.263Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:12.388Z"
+    "fetched_at": "2026-08-23T14:28:09.212Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:13.970Z"
+    "fetched_at": "2026-08-23T14:28:10.870Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:15.465Z"
+    "fetched_at": "2026-08-23T14:28:11.909Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:17.030Z"
+    "fetched_at": "2026-08-23T14:28:14.445Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:18.530Z"
+    "fetched_at": "2026-08-23T14:28:14.932Z"
   },
   {
     "team": {
@@ -3826,16 +3826,16 @@
         {
           "team_batting_id": "45577",
           "innings_number": 1,
-          "extra_byes": "5",
+          "extra_byes": "11",
           "extra_leg_byes": "0",
-          "extra_wides": "14",
+          "extra_wides": "16",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "19",
-          "runs": "163",
-          "wickets": "8",
-          "overs": "30.0",
+          "total_extras": "27",
+          "runs": "191",
+          "wickets": "10",
+          "overs": "34.5",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3849,9 +3849,19 @@
       "runs": [],
       "wickets": [
         {
+          "name": "Ben Lawrence",
+          "w": 3,
+          "r": "29"
+        },
+        {
           "name": "Abdul Baig",
           "w": 3,
           "r": "54"
+        },
+        {
+          "name": "Neil Siriwardana",
+          "w": 3,
+          "r": "40"
         }
       ]
     },
@@ -4387,16 +4397,16 @@
           {
             "team_batting_id": "45577",
             "innings_number": 1,
-            "extra_byes": "5",
+            "extra_byes": "11",
             "extra_leg_byes": "0",
-            "extra_wides": "14",
+            "extra_wides": "16",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "19",
-            "runs": "163",
-            "wickets": "8",
-            "overs": "30.0",
+            "total_extras": "27",
+            "runs": "191",
+            "wickets": "10",
+            "overs": "34.5",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4407,7 +4417,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:20.003Z"
+    "fetched_at": "2026-08-23T14:28:15.470Z"
   },
   {
     "team": {
@@ -4688,7 +4698,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:21.374Z"
+    "fetched_at": "2026-08-23T14:28:16.286Z"
   },
   {
     "team": {
@@ -5091,7 +5101,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:22.809Z"
+    "fetched_at": "2026-08-23T14:28:18.651Z"
   },
   {
     "team": {
@@ -5754,6 +5764,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T13:55:24.311Z"
+    "fetched_at": "2026-08-23T14:28:19.673Z"
   }
 ]

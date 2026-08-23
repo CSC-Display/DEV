@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:11:36.461Z",
+  "generated_at": "2026-08-23T22:18:17.491Z",
   "season": "2026",
   "centuries": [
     {
@@ -358,9 +358,9 @@
     },
     {
       "player": "Elliot Wenzel",
-      "runs": 80,
-      "score": "80*",
-      "not_out": true,
+      "runs": 81,
+      "score": "81",
+      "not_out": false,
       "team": "NECL 1st XI",
       "team_id": 324716,
       "opposition": "Great Bentley CC 1st XI",

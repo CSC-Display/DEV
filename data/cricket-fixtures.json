@@ -86,7 +86,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:30.189Z"
+    "fetched_at": "2026-08-23T06:18:57.301Z"
   },
   {
     "team": {
@@ -175,7 +175,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:30.486Z"
+    "fetched_at": "2026-08-23T06:18:57.630Z"
   },
   {
     "team": {
@@ -264,7 +264,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:30.814Z"
+    "fetched_at": "2026-08-23T06:18:58.355Z"
   },
   {
     "team": {
@@ -353,7 +353,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:31.128Z"
+    "fetched_at": "2026-08-23T06:18:58.661Z"
   },
   {
     "team": {
@@ -442,7 +442,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:31.439Z"
+    "fetched_at": "2026-08-23T06:18:58.963Z"
   },
   {
     "team": {
@@ -531,7 +531,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:32.132Z"
+    "fetched_at": "2026-08-23T06:18:59.261Z"
   },
   {
     "team": {
@@ -539,46 +539,6 @@
       "id": 324716
     },
     "fix": [
-      {
-        "id": 7510300,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "18/08/2026",
-        "league_name": "Two Counties Cricket Championship",
-        "league_id": "7277",
-        "competition_name": "Sunday League",
-        "competition_id": "134513",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "season": "2026",
-        "match_date": "23/08/2026",
-        "match_time": "12:30",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "ground_latitude": "51.7037755",
-        "ground_longitude": "0.4694193",
-        "home_club_name": "Chelmsford CC",
-        "home_team_name": "NECL 1st XI",
-        "home_team_id": "324716",
-        "home_club_id": "1786",
-        "away_club_name": "Great Bentley CC",
-        "away_team_name": "1st XI",
-        "away_team_id": "45577",
-        "away_club_id": "2988",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
-        "scorer_2_name": "",
-        "scorer_2_id": ""
-      },
       {
         "id": 7510336,
         "status": "New",
@@ -660,7 +620,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:32.880Z"
+    "fetched_at": "2026-08-23T06:18:59.977Z"
   },
   {
     "team": {
@@ -709,7 +669,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:33.597Z"
+    "fetched_at": "2026-08-23T06:19:00.706Z"
   },
   {
     "team": {
@@ -717,7 +677,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-08-22T22:17:34.297Z"
+    "fetched_at": "2026-08-23T06:19:01.420Z"
   },
   {
     "team": {
@@ -766,6 +726,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-08-22T22:17:34.617Z"
+    "fetched_at": "2026-08-23T06:19:02.134Z"
   }
 ]

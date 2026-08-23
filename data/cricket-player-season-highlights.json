@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:20:15.315Z",
+  "generated_at": "2026-08-23T17:11:36.461Z",
   "season": "2026",
   "centuries": [
     {
@@ -355,6 +355,17 @@
       "opposition": "Wanstead & Snaresbrook CC 1st XI LC",
       "date": "09/08/2026",
       "match_id": 7731669
+    },
+    {
+      "player": "Elliot Wenzel",
+      "runs": 80,
+      "score": "80*",
+      "not_out": true,
+      "team": "NECL 1st XI",
+      "team_id": 324716,
+      "opposition": "Great Bentley CC 1st XI",
+      "date": "23/08/2026",
+      "match_id": 7510300
     },
     {
       "player": "Harry Green",

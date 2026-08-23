@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:33.402Z"
+    "fetched_at": "2026-08-23T17:28:56.360Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:34.041Z"
+    "fetched_at": "2026-08-23T17:28:57.461Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:34.742Z"
+    "fetched_at": "2026-08-23T17:28:58.533Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:35.429Z"
+    "fetched_at": "2026-08-23T17:29:00.356Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:36.124Z"
+    "fetched_at": "2026-08-23T17:29:01.885Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:36.766Z"
+    "fetched_at": "2026-08-23T17:29:02.744Z"
   },
   {
     "team": {
@@ -3853,9 +3853,9 @@
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "23",
-          "runs": "177",
-          "wickets": "7",
-          "overs": "30.0",
+          "runs": "180",
+          "wickets": "9",
+          "overs": "34.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3869,8 +3869,8 @@
       "runs": [
         {
           "name": "Elliot Wenzel",
-          "score": 80,
-          "notOut": true
+          "score": 81,
+          "notOut": false
         }
       ],
       "wickets": [
@@ -4450,9 +4450,9 @@
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "23",
-            "runs": "177",
-            "wickets": "7",
-            "overs": "30.0",
+            "runs": "180",
+            "wickets": "9",
+            "overs": "34.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:37.557Z"
+    "fetched_at": "2026-08-23T17:29:03.776Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:39.203Z"
+    "fetched_at": "2026-08-23T17:29:04.765Z"
   },
   {
     "team": {
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:40.012Z"
+    "fetched_at": "2026-08-23T17:29:05.831Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-23T17:10:40.683Z"
+    "fetched_at": "2026-08-23T17:29:07.050Z"
   }
 ]

@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:42.838Z"
+    "fetched_at": "2026-08-24T17:20:31.138Z"
   },
   {
     "team": {
@@ -698,7 +698,7 @@
       "id": 7325775,
       "status": "New",
       "published": "Yes",
-      "last_updated": "22/08/2026",
+      "last_updated": "24/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -741,7 +741,7 @@
       "result_description": "Brentwood CC - 2nd XI - Overs Win",
       "result_applied_to": "21634",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras<br/>18.3 Chelmsford CC Sat 2nd XI: 100 runs in 18.3 overs, 73 minutes, 11 extras<br/>20.2 Dan Hagen: 50 runs in 52 balls, 78 minutes (6x4, 2x6)<br/>21.2 3rd Wicket: 50 runs in 42 balls, 26 minutes, Dan Hagen 21 (17), Elliot Wenzel 25 (25), 5 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 150 runs in 25.0 overs, 101 minutes, 22 extras<br/>26.2 Elliot Wenzel: 50 runs in 40 balls, 47 minutes (8x4, 2x6)<br/>26.6 3rd Wicket: 100 runs in 77 balls, 54 minutes, Dan Hagen 31 (34), Elliot Wenzel 58 (43), 13 extras<br/>32.4 Chelmsford CC Sat 2nd XI: 200 runs in 32.4 overs, 135 minutes, 25 extras<br/>38.3 Dan Hagen: 100 runs in 108 balls, 155 minutes (11x4, 3x6)<br/>39.2 4th Wicket: 50 runs in 55 balls, 35 minutes, Dan Hagen 30 (27), Liam Keaney 18 (28), 5 extras<br/>39.6 Chelmsford CC Sat 2nd XI: 250 runs in 40.0 overs, 164 minutes, 29 extras\n<br/>\n",
@@ -1290,7 +1290,7 @@
         "id": 7325775,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/08/2026",
+        "last_updated": "24/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1333,7 +1333,7 @@
         "result_description": "Brentwood CC - 2nd XI - Overs Win",
         "result_applied_to": "21634",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras<br/>18.3 Chelmsford CC Sat 2nd XI: 100 runs in 18.3 overs, 73 minutes, 11 extras<br/>20.2 Dan Hagen: 50 runs in 52 balls, 78 minutes (6x4, 2x6)<br/>21.2 3rd Wicket: 50 runs in 42 balls, 26 minutes, Dan Hagen 21 (17), Elliot Wenzel 25 (25), 5 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 150 runs in 25.0 overs, 101 minutes, 22 extras<br/>26.2 Elliot Wenzel: 50 runs in 40 balls, 47 minutes (8x4, 2x6)<br/>26.6 3rd Wicket: 100 runs in 77 balls, 54 minutes, Dan Hagen 31 (34), Elliot Wenzel 58 (43), 13 extras<br/>32.4 Chelmsford CC Sat 2nd XI: 200 runs in 32.4 overs, 135 minutes, 25 extras<br/>38.3 Dan Hagen: 100 runs in 108 balls, 155 minutes (11x4, 3x6)<br/>39.2 4th Wicket: 50 runs in 55 balls, 35 minutes, Dan Hagen 30 (27), Liam Keaney 18 (28), 5 extras<br/>39.6 Chelmsford CC Sat 2nd XI: 250 runs in 40.0 overs, 164 minutes, 29 extras\n<br/>\n",
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:43.514Z"
+    "fetched_at": "2026-08-24T17:20:32.242Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:44.210Z"
+    "fetched_at": "2026-08-24T17:20:33.343Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:44.964Z"
+    "fetched_at": "2026-08-24T17:20:34.382Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:45.736Z"
+    "fetched_at": "2026-08-24T17:20:35.402Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:46.309Z"
+    "fetched_at": "2026-08-24T17:20:36.432Z"
   },
   {
     "team": {
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:46.941Z"
+    "fetched_at": "2026-08-24T17:20:37.637Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:47.476Z"
+    "fetched_at": "2026-08-24T17:20:38.676Z"
   },
   {
     "team": {
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:48.102Z"
+    "fetched_at": "2026-08-24T17:20:39.694Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T17:05:48.761Z"
+    "fetched_at": "2026-08-24T17:20:40.726Z"
   }
 ]

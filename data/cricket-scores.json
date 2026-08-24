@@ -8,7 +8,7 @@
       "id": 7325327,
       "status": "New",
       "published": "Yes",
-      "last_updated": "23/08/2026",
+      "last_updated": "24/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 01 - 1st XI Premier Division",
@@ -54,7 +54,7 @@
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras<br/>25.1 Jack Sterland: 50 runs in 66 balls, 103 minutes (6x4)<br/>32.1 Chelmsford CC Sat 1st XI: 150 runs in 32.1 overs, 125 minutes, 35 extras<br/>32.6 5th Wicket: 50 runs in 54 balls, 32 minutes, Jack Sterland 30 (35), Oliver Devenish 7 (19), 13 extras\n<br/>\n",
+      "match_notes": "<p><strong>Wanstead&nbsp;&amp;&nbsp;Snaresbrook:</strong></p>\r\n\r\n<p>Rule&nbsp;5d.&nbsp;&nbsp;&nbsp;&nbsp;In&nbsp;all&nbsp;1st&nbsp;XI&nbsp;matches&nbsp;each&nbsp;club&nbsp;must&nbsp;complete&nbsp;an&nbsp;on-line&nbsp;captains&nbsp;report&nbsp;form&nbsp;for&nbsp;each&nbsp;match.&nbsp;Failure&nbsp;to&nbsp;do&nbsp;so&nbsp;by&nbsp;5pm&nbsp;of&nbsp;the&nbsp;Monday&nbsp;following&nbsp;the&nbsp;match&nbsp;will&nbsp;incur&nbsp;a&nbsp;one&nbsp;point&nbsp;penalty.</p>\r\n\r\n<p><strong>Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n11.3&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.3&nbsp;overs,&nbsp;42&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n25.1&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;25.1&nbsp;overs,&nbsp;85&nbsp;minutes,&nbsp;16&nbsp;extras<br />\r\n26.6&nbsp;6th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;92&nbsp;balls,&nbsp;47&nbsp;minutes,&nbsp;Muhammad&nbsp;Hassan&nbsp;Hameed&nbsp;19&nbsp;(42),&nbsp;Joe&nbsp;Ellis&nbsp;Grewal&nbsp;27&nbsp;(50),&nbsp;5&nbsp;extras<br />\r\n35.4&nbsp;Muhammad&nbsp;Hassan&nbsp;Hameed:&nbsp;50&nbsp;runs&nbsp;in&nbsp;74&nbsp;balls,&nbsp;86&nbsp;minutes&nbsp;(5x4)<br />\r\n37.4&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;37.4&nbsp;overs,&nbsp;131&nbsp;minutes,&nbsp;23&nbsp;extras<br />\r\n<br />\r\n<strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;10.3&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;8&nbsp;extras<br />\r\n22.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;22.2&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;22&nbsp;extras<br />\r\n23.2&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;71&nbsp;balls,&nbsp;42&nbsp;minutes,&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(32),&nbsp;James&nbsp;Clifford&nbsp;22&nbsp;(39),&nbsp;9&nbsp;extras<br />\r\n25.1&nbsp;Jack&nbsp;Sterland:&nbsp;50&nbsp;runs&nbsp;in&nbsp;66&nbsp;balls,&nbsp;103&nbsp;minutes&nbsp;(6x4)<br />\r\n32.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.1&nbsp;overs,&nbsp;125&nbsp;minutes,&nbsp;35&nbsp;extras<br />\r\n32.6&nbsp;5th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;54&nbsp;balls,&nbsp;32&nbsp;minutes,&nbsp;Jack&nbsp;Sterland&nbsp;30&nbsp;(35),&nbsp;Oliver&nbsp;Devenish&nbsp;7&nbsp;(19),&nbsp;13&nbsp;extras</p>\r\n",
       "points": [
         {
           "team_id": 24293,
@@ -68,7 +68,7 @@
         {
           "team_id": 17709,
           "game_points": "0",
-          "penalty_points": "0.0",
+          "penalty_points": "1.0",
           "bonus_points_together": "5.0",
           "bonus_points_batting": "2.0",
           "bonus_points_bowling": "3.0",
@@ -576,7 +576,7 @@
         "id": 7325327,
         "status": "New",
         "published": "Yes",
-        "last_updated": "23/08/2026",
+        "last_updated": "24/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 01 - 1st XI Premier Division",
@@ -622,7 +622,7 @@
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras<br/>25.1 Jack Sterland: 50 runs in 66 balls, 103 minutes (6x4)<br/>32.1 Chelmsford CC Sat 1st XI: 150 runs in 32.1 overs, 125 minutes, 35 extras<br/>32.6 5th Wicket: 50 runs in 54 balls, 32 minutes, Jack Sterland 30 (35), Oliver Devenish 7 (19), 13 extras\n<br/>\n",
+        "match_notes": "<p><strong>Wanstead&nbsp;&amp;&nbsp;Snaresbrook:</strong></p>\r\n\r\n<p>Rule&nbsp;5d.&nbsp;&nbsp;&nbsp;&nbsp;In&nbsp;all&nbsp;1st&nbsp;XI&nbsp;matches&nbsp;each&nbsp;club&nbsp;must&nbsp;complete&nbsp;an&nbsp;on-line&nbsp;captains&nbsp;report&nbsp;form&nbsp;for&nbsp;each&nbsp;match.&nbsp;Failure&nbsp;to&nbsp;do&nbsp;so&nbsp;by&nbsp;5pm&nbsp;of&nbsp;the&nbsp;Monday&nbsp;following&nbsp;the&nbsp;match&nbsp;will&nbsp;incur&nbsp;a&nbsp;one&nbsp;point&nbsp;penalty.</p>\r\n\r\n<p><strong>Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n11.3&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;11.3&nbsp;overs,&nbsp;42&nbsp;minutes,&nbsp;11&nbsp;extras<br />\r\n25.1&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;25.1&nbsp;overs,&nbsp;85&nbsp;minutes,&nbsp;16&nbsp;extras<br />\r\n26.6&nbsp;6th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;92&nbsp;balls,&nbsp;47&nbsp;minutes,&nbsp;Muhammad&nbsp;Hassan&nbsp;Hameed&nbsp;19&nbsp;(42),&nbsp;Joe&nbsp;Ellis&nbsp;Grewal&nbsp;27&nbsp;(50),&nbsp;5&nbsp;extras<br />\r\n35.4&nbsp;Muhammad&nbsp;Hassan&nbsp;Hameed:&nbsp;50&nbsp;runs&nbsp;in&nbsp;74&nbsp;balls,&nbsp;86&nbsp;minutes&nbsp;(5x4)<br />\r\n37.4&nbsp;Wanstead&nbsp;&amp;&nbsp;Snaresbrook&nbsp;CC&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;37.4&nbsp;overs,&nbsp;131&nbsp;minutes,&nbsp;23&nbsp;extras<br />\r\n<br />\r\n<strong>Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI&nbsp;Innings</strong><br />\r\n10.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;50&nbsp;runs&nbsp;in&nbsp;10.3&nbsp;overs,&nbsp;45&nbsp;minutes,&nbsp;8&nbsp;extras<br />\r\n22.3&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;100&nbsp;runs&nbsp;in&nbsp;22.2&nbsp;overs,&nbsp;90&nbsp;minutes,&nbsp;22&nbsp;extras<br />\r\n23.2&nbsp;4th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;71&nbsp;balls,&nbsp;42&nbsp;minutes,&nbsp;Jack&nbsp;Sterland&nbsp;20&nbsp;(32),&nbsp;James&nbsp;Clifford&nbsp;22&nbsp;(39),&nbsp;9&nbsp;extras<br />\r\n25.1&nbsp;Jack&nbsp;Sterland:&nbsp;50&nbsp;runs&nbsp;in&nbsp;66&nbsp;balls,&nbsp;103&nbsp;minutes&nbsp;(6x4)<br />\r\n32.1&nbsp;Chelmsford&nbsp;CC&nbsp;Sat&nbsp;1st&nbsp;XI:&nbsp;150&nbsp;runs&nbsp;in&nbsp;32.1&nbsp;overs,&nbsp;125&nbsp;minutes,&nbsp;35&nbsp;extras<br />\r\n32.6&nbsp;5th&nbsp;Wicket:&nbsp;50&nbsp;runs&nbsp;in&nbsp;54&nbsp;balls,&nbsp;32&nbsp;minutes,&nbsp;Jack&nbsp;Sterland&nbsp;30&nbsp;(35),&nbsp;Oliver&nbsp;Devenish&nbsp;7&nbsp;(19),&nbsp;13&nbsp;extras</p>\r\n",
         "points": [
           {
             "team_id": 24293,
@@ -636,7 +636,7 @@
           {
             "team_id": 17709,
             "game_points": "0",
-            "penalty_points": "0.0",
+            "penalty_points": "1.0",
             "bonus_points_together": "5.0",
             "bonus_points_batting": "2.0",
             "bonus_points_bowling": "3.0",
@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:53.265Z"
+    "fetched_at": "2026-08-24T21:34:08.131Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:54.359Z"
+    "fetched_at": "2026-08-24T21:34:09.206Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:55.189Z"
+    "fetched_at": "2026-08-24T21:34:10.267Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:56.039Z"
+    "fetched_at": "2026-08-24T21:34:11.434Z"
   },
   {
     "team": {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:56.835Z"
+    "fetched_at": "2026-08-24T21:34:12.492Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:57.798Z"
+    "fetched_at": "2026-08-24T21:34:13.447Z"
   },
   {
     "team": {
@@ -3797,7 +3797,7 @@
       "result": "W",
       "result_description": "Chelmsford CC - NECL 1st XI - Won",
       "result_applied_to": "324716",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -4394,7 +4394,7 @@
         "result": "W",
         "result_description": "Chelmsford CC - NECL 1st XI - Won",
         "result_applied_to": "324716",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:58.604Z"
+    "fetched_at": "2026-08-24T21:34:14.504Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:52:59.571Z"
+    "fetched_at": "2026-08-24T21:34:15.469Z"
   },
   {
     "team": {
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:53:00.583Z"
+    "fetched_at": "2026-08-24T21:34:16.449Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-24T20:53:01.345Z"
+    "fetched_at": "2026-08-24T21:34:17.450Z"
   }
 ]

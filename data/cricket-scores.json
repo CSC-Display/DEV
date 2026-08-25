@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:48.946Z"
+    "fetched_at": "2026-08-25T23:11:41.189Z"
   },
   {
     "team": {
@@ -1176,7 +1176,7 @@
         "id": 7325772,
         "status": "New",
         "published": "Yes",
-        "last_updated": "16/08/2026",
+        "last_updated": "26/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1220,7 +1220,7 @@
         "result_applied_to": "28636",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:50.575Z"
+    "fetched_at": "2026-08-25T23:11:42.334Z"
   },
   {
     "team": {
@@ -1879,7 +1879,7 @@
         "id": 7461895,
         "status": "New",
         "published": "Yes",
-        "last_updated": "18/08/2026",
+        "last_updated": "26/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1923,7 +1923,7 @@
         "result_applied_to": "24295",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:52.137Z"
+    "fetched_at": "2026-08-25T23:11:43.427Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:53.331Z"
+    "fetched_at": "2026-08-25T23:11:44.560Z"
   },
   {
     "team": {
@@ -3296,7 +3296,7 @@
         "id": 7462460,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/08/2026",
+        "last_updated": "26/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3340,7 +3340,7 @@
         "result_applied_to": "45348",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:54.862Z"
+    "fetched_at": "2026-08-25T23:11:45.646Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:56.298Z"
+    "fetched_at": "2026-08-25T23:11:46.639Z"
   },
   {
     "team": {
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:57.838Z"
+    "fetched_at": "2026-08-25T23:11:47.683Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:45:59.343Z"
+    "fetched_at": "2026-08-25T23:11:48.684Z"
   },
   {
     "team": {
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:46:00.826Z"
+    "fetched_at": "2026-08-25T23:11:49.657Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-25T22:46:01.949Z"
+    "fetched_at": "2026-08-25T23:11:50.723Z"
   }
 ]

@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:45.471Z"
+    "fetched_at": "2026-08-28T16:52:18.027Z"
   },
   {
     "team": {
@@ -1176,7 +1176,7 @@
         "id": 7325772,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/08/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1221,7 +1221,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:47.342Z"
+    "fetched_at": "2026-08-28T16:52:19.649Z"
   },
   {
     "team": {
@@ -1879,7 +1879,7 @@
         "id": 7461895,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/08/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1924,7 +1924,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:49.346Z"
+    "fetched_at": "2026-08-28T16:52:21.231Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:50.758Z"
+    "fetched_at": "2026-08-28T16:52:22.840Z"
   },
   {
     "team": {
@@ -3296,7 +3296,7 @@
         "id": 7462460,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/08/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3341,7 +3341,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:52.378Z"
+    "fetched_at": "2026-08-28T16:52:24.332Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:54.303Z"
+    "fetched_at": "2026-08-28T16:52:25.820Z"
   },
   {
     "team": {
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:56.963Z"
+    "fetched_at": "2026-08-28T16:52:27.465Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:55:58.463Z"
+    "fetched_at": "2026-08-28T16:52:28.932Z"
   },
   {
     "team": {
@@ -4866,7 +4866,7 @@
         "id": 7236815,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/06/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex Twenty20 Cup",
@@ -4911,7 +4911,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [],
         "innings": [
@@ -4961,7 +4961,7 @@
         "id": 7697883,
         "status": "New",
         "published": "Yes",
-        "last_updated": "27/06/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Dukes Essex Twenty20 Cup",
@@ -5006,7 +5006,7 @@
         "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "true",
-        "scorecard_locked": "false",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [],
         "innings": [
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:56:00.155Z"
+    "fetched_at": "2026-08-28T16:52:29.980Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T05:56:01.867Z"
+    "fetched_at": "2026-08-28T16:52:31.067Z"
   }
 ]

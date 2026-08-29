@@ -5,7 +5,7 @@
       "team_id": 24293,
       "division_id": "135282",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:45.329Z"
+      "fetched_at": "2026-08-29T11:50:24.534Z"
     },
     "data": {
       "id": 135282,
@@ -96,10 +96,10 @@
           "column_13": "0",
           "column_14": "0",
           "column_15": "27",
-          "column_16": "4",
+          "column_16": "3",
           "column_17": "9",
           "column_18": "5",
-          "column_19": "217"
+          "column_19": "218"
         },
         {
           "position": "4",
@@ -172,6 +172,29 @@
         },
         {
           "position": "7",
+          "team_id": "37537",
+          "column_1": "Hornchurch CC",
+          "column_2": "17",
+          "column_3": "1",
+          "column_4": "1",
+          "column_5": "0",
+          "column_6": "3",
+          "column_7": "2",
+          "column_8": "4",
+          "column_9": "4",
+          "column_10": "1",
+          "column_11": "1",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "0",
+          "column_15": "74",
+          "column_16": "0",
+          "column_17": "3",
+          "column_18": "8",
+          "column_19": "163"
+        },
+        {
+          "position": "8",
           "team_id": "58739",
           "column_1": "Colchester and East Essex CC",
           "column_2": "16",
@@ -192,29 +215,6 @@
           "column_17": "4",
           "column_18": "8",
           "column_19": "160"
-        },
-        {
-          "position": "8",
-          "team_id": "37537",
-          "column_1": "Hornchurch CC",
-          "column_2": "16",
-          "column_3": "1",
-          "column_4": "1",
-          "column_5": "0",
-          "column_6": "3",
-          "column_7": "2",
-          "column_8": "4",
-          "column_9": "4",
-          "column_10": "0",
-          "column_11": "1",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "0",
-          "column_15": "74",
-          "column_16": "0",
-          "column_17": "3",
-          "column_18": "8",
-          "column_19": "157"
         },
         {
           "position": "9",
@@ -243,7 +243,7 @@
           "position": "10",
           "team_id": "16619",
           "column_1": "Fives and Heronians CC",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "1",
           "column_4": "2",
           "column_5": "1",
@@ -251,7 +251,7 @@
           "column_7": "0",
           "column_8": "6",
           "column_9": "0",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "1",
           "column_12": "0",
           "column_13": "0",
@@ -260,7 +260,7 @@
           "column_16": "0",
           "column_17": "2",
           "column_18": "13",
-          "column_19": "122"
+          "column_19": "128"
         }
       ],
       "key": "p - Played,&nbsp;w1 - Time Win (bat 1st) (25),&nbsp;l1 - Time Lose (bat 2nd) (0),&nbsp;w2 - Time Win (bat 2nd) (20),&nbsp;l2 - Time Lose (bat 1st) (0),&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;d - Draw (3),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (8),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;L - Total losses,&nbsp;Pts - Points"
@@ -272,7 +272,7 @@
       "team_id": 24294,
       "division_id": "135299",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:46.823Z"
+      "fetched_at": "2026-08-29T11:50:25.823Z"
     },
     "data": {
       "id": 135299,
@@ -324,14 +324,14 @@
           "position": "2",
           "team_id": "21950",
           "column_1": "Hutton CC - 2nd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "0",
           "column_4": "0",
           "column_5": "3",
           "column_6": "1",
           "column_7": "5",
           "column_8": "1",
-          "column_9": "0",
+          "column_9": "1",
           "column_10": "1",
           "column_11": "0",
           "column_12": "0",
@@ -340,7 +340,7 @@
           "column_15": "58",
           "column_16": "0",
           "column_17": "8",
-          "column_18": "224"
+          "column_18": "230"
         },
         {
           "position": "3",
@@ -366,6 +366,28 @@
         },
         {
           "position": "4",
+          "team_id": "16610",
+          "column_1": "Upminster CC - Men's 2nd XI",
+          "column_2": "17",
+          "column_3": "2",
+          "column_4": "0",
+          "column_5": "2",
+          "column_6": "4",
+          "column_7": "2",
+          "column_8": "3",
+          "column_9": "2",
+          "column_10": "0",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "2",
+          "column_15": "66",
+          "column_16": "0",
+          "column_17": "6",
+          "column_18": "208"
+        },
+        {
+          "position": "5",
           "team_id": "31316",
           "column_1": "Woodford Wells CC - 2nd XI",
           "column_2": "16",
@@ -387,29 +409,29 @@
           "column_18": "203"
         },
         {
-          "position": "5",
-          "team_id": "16610",
-          "column_1": "Upminster CC - Men's 2nd XI",
-          "column_2": "16",
+          "position": "6",
+          "team_id": "28636",
+          "column_1": "Ilford CC - 2nd XI",
+          "column_2": "17",
           "column_3": "2",
-          "column_4": "0",
+          "column_4": "1",
           "column_5": "2",
-          "column_6": "4",
+          "column_6": "2",
           "column_7": "2",
           "column_8": "3",
           "column_9": "1",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
-          "column_14": "2",
-          "column_15": "66",
+          "column_14": "3",
+          "column_15": "59",
           "column_16": "0",
           "column_17": "6",
-          "column_18": "202"
+          "column_18": "201"
         },
         {
-          "position": "6",
+          "position": "7",
           "team_id": "26284",
           "column_1": "Epping CC - 2nd XI",
           "column_2": "16",
@@ -431,39 +453,17 @@
           "column_18": "195"
         },
         {
-          "position": "7",
-          "team_id": "28636",
-          "column_1": "Ilford CC - 2nd XI",
-          "column_2": "16",
-          "column_3": "2",
-          "column_4": "1",
-          "column_5": "2",
-          "column_6": "2",
-          "column_7": "2",
-          "column_8": "3",
-          "column_9": "0",
-          "column_10": "1",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "3",
-          "column_15": "59",
-          "column_16": "0",
-          "column_17": "6",
-          "column_18": "195"
-        },
-        {
           "position": "8",
           "team_id": "21520",
           "column_1": "Wanstead & Snaresbrook CC - 2nd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "1",
           "column_4": "2",
           "column_5": "3",
           "column_6": "1",
           "column_7": "2",
           "column_8": "5",
-          "column_9": "0",
+          "column_9": "1",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
@@ -472,7 +472,7 @@
           "column_15": "69",
           "column_16": "5",
           "column_17": "6",
-          "column_18": "189"
+          "column_18": "195"
         },
         {
           "position": "9",
@@ -528,7 +528,7 @@
       "team_id": 24295,
       "division_id": "135312",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:47.993Z"
+      "fetched_at": "2026-08-29T11:50:26.978Z"
     },
     "data": {
       "id": 135312,
@@ -578,6 +578,28 @@
         },
         {
           "position": "2",
+          "team_id": "16611",
+          "column_1": "Upminster CC - Men's 3rd XI",
+          "column_2": "17",
+          "column_3": "2",
+          "column_4": "0",
+          "column_5": "4",
+          "column_6": "2",
+          "column_7": "3",
+          "column_8": "3",
+          "column_9": "2",
+          "column_10": "0",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "1",
+          "column_15": "28",
+          "column_16": "0",
+          "column_17": "9",
+          "column_18": "230"
+        },
+        {
+          "position": "3",
           "team_id": "19019",
           "column_1": "Harold Wood CC - 3rd XI",
           "column_2": "16",
@@ -597,28 +619,6 @@
           "column_16": "0",
           "column_17": "9",
           "column_18": "229"
-        },
-        {
-          "position": "3",
-          "team_id": "16611",
-          "column_1": "Upminster CC - Men's 3rd XI",
-          "column_2": "16",
-          "column_3": "2",
-          "column_4": "0",
-          "column_5": "4",
-          "column_6": "2",
-          "column_7": "3",
-          "column_8": "3",
-          "column_9": "1",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "1",
-          "column_15": "28",
-          "column_16": "0",
-          "column_17": "9",
-          "column_18": "224"
         },
         {
           "position": "4",
@@ -644,6 +644,28 @@
         },
         {
           "position": "5",
+          "team_id": "24295",
+          "column_1": "Chelmsford CC - Sat 3rd XI",
+          "column_2": "17",
+          "column_3": "0",
+          "column_4": "0",
+          "column_5": "3",
+          "column_6": "3",
+          "column_7": "4",
+          "column_8": "2",
+          "column_9": "2",
+          "column_10": "0",
+          "column_11": "0",
+          "column_12": "0",
+          "column_13": "0",
+          "column_14": "3",
+          "column_15": "59",
+          "column_16": "0",
+          "column_17": "7",
+          "column_18": "211"
+        },
+        {
+          "position": "6",
           "team_id": "31317",
           "column_1": "Woodford Wells CC - 3rd XI",
           "column_2": "16",
@@ -665,32 +687,10 @@
           "column_18": "207"
         },
         {
-          "position": "6",
-          "team_id": "24295",
-          "column_1": "Chelmsford CC - Sat 3rd XI",
-          "column_2": "16",
-          "column_3": "0",
-          "column_4": "0",
-          "column_5": "3",
-          "column_6": "3",
-          "column_7": "4",
-          "column_8": "2",
-          "column_9": "1",
-          "column_10": "0",
-          "column_11": "0",
-          "column_12": "0",
-          "column_13": "0",
-          "column_14": "3",
-          "column_15": "59",
-          "column_16": "0",
-          "column_17": "7",
-          "column_18": "205"
-        },
-        {
           "position": "7",
           "team_id": "14067",
           "column_1": "Shenfield CC - 3rd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "1",
           "column_4": "1",
           "column_5": "1",
@@ -698,7 +698,7 @@
           "column_7": "1",
           "column_8": "5",
           "column_9": "1",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -706,20 +706,20 @@
           "column_15": "97",
           "column_16": "0",
           "column_17": "3",
-          "column_18": "168"
+          "column_18": "174"
         },
         {
           "position": "8",
           "team_id": "163277",
           "column_1": "West Essex CC - 3rd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "0",
           "column_4": "2",
           "column_5": "2",
           "column_6": "6",
           "column_7": "3",
           "column_8": "2",
-          "column_9": "1",
+          "column_9": "2",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
@@ -728,13 +728,13 @@
           "column_15": "62",
           "column_16": "5",
           "column_17": "5",
-          "column_18": "163"
+          "column_18": "169"
         },
         {
           "position": "9",
           "team_id": "44651",
           "column_1": "Harlow CC - 3rd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "1",
           "column_4": "1",
           "column_5": "2",
@@ -742,7 +742,7 @@
           "column_7": "2",
           "column_8": "4",
           "column_9": "0",
-          "column_10": "1",
+          "column_10": "2",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -750,20 +750,20 @@
           "column_15": "49",
           "column_16": "0",
           "column_17": "5",
-          "column_18": "160"
+          "column_18": "166"
         },
         {
           "position": "10",
           "team_id": "37539",
           "column_1": "Hornchurch CC - 3rd XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "1",
           "column_4": "0",
           "column_5": "0",
           "column_6": "6",
           "column_7": "0",
           "column_8": "6",
-          "column_9": "1",
+          "column_9": "2",
           "column_10": "0",
           "column_11": "0",
           "column_12": "0",
@@ -772,7 +772,7 @@
           "column_15": "69",
           "column_16": "0",
           "column_17": "1",
-          "column_18": "100"
+          "column_18": "106"
         }
       ],
       "key": "p - Played,&nbsp;w1 - Time Win (bat 1st) (25),&nbsp;l1 - Time Lose (bat 2nd) (0),&nbsp;w2 - Time Win (bat 2nd) (20),&nbsp;l2 - Time Lose (bat 1st) (0),&nbsp;w3 - Overs Win (20),&nbsp;l3 - Overs Lose (0),&nbsp;c - Cancelled (6),&nbsp;a - Abandoned (6),&nbsp;lcn - Team Conceded (-5),&nbsp;wcn - Opposition Conceded (20),&nbsp;t - Tied (8),&nbsp;d - Draw (0),&nbsp;BP - Bonus Points,&nbsp;Pen - Penalty Points,&nbsp;W - Total wins,&nbsp;Pts - Points"
@@ -784,7 +784,7 @@
       "team_id": 30461,
       "division_id": "135330",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:49.177Z"
+      "fetched_at": "2026-08-29T11:50:27.921Z"
     },
     "data": {
       "id": 135330,
@@ -814,7 +814,7 @@
           "position": "1",
           "team_id": "29019",
           "column_1": "Walthamstow CC - 3rd XI",
-          "column_2": "15",
+          "column_2": "16",
           "column_3": "0",
           "column_4": "0",
           "column_5": "6",
@@ -822,7 +822,7 @@
           "column_7": "6",
           "column_8": "0",
           "column_9": "0",
-          "column_10": "1",
+          "column_10": "2",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -830,13 +830,13 @@
           "column_15": "14",
           "column_16": "5",
           "column_17": "12",
-          "column_18": "255"
+          "column_18": "261"
         },
         {
           "position": "2",
           "team_id": "25628",
           "column_1": "Oakfield Parkonians CC, Essex - 4th XI",
-          "column_2": "14",
+          "column_2": "15",
           "column_3": "1",
           "column_4": "0",
           "column_5": "3",
@@ -844,7 +844,7 @@
           "column_7": "4",
           "column_8": "1",
           "column_9": "1",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -852,7 +852,7 @@
           "column_15": "43",
           "column_16": "0",
           "column_17": "8",
-          "column_18": "214"
+          "column_18": "220"
         },
         {
           "position": "3",
@@ -902,7 +902,7 @@
           "position": "5",
           "team_id": "198990",
           "column_1": "Orsett & Thurrock CC - 4th XI",
-          "column_2": "14",
+          "column_2": "15",
           "column_3": "1",
           "column_4": "1",
           "column_5": "2",
@@ -910,7 +910,7 @@
           "column_7": "3",
           "column_8": "2",
           "column_9": "0",
-          "column_10": "1",
+          "column_10": "2",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -918,7 +918,7 @@
           "column_15": "41",
           "column_16": "0",
           "column_17": "6",
-          "column_18": "172"
+          "column_18": "178"
         },
         {
           "position": "6",
@@ -968,7 +968,7 @@
           "position": "8",
           "team_id": "98818",
           "column_1": "Billericay CC - 4th XI",
-          "column_2": "14",
+          "column_2": "15",
           "column_3": "1",
           "column_4": "2",
           "column_5": "2",
@@ -976,7 +976,7 @@
           "column_7": "0",
           "column_8": "6",
           "column_9": "0",
-          "column_10": "0",
+          "column_10": "1",
           "column_11": "0",
           "column_12": "0",
           "column_13": "0",
@@ -984,7 +984,7 @@
           "column_15": "56",
           "column_16": "0",
           "column_17": "3",
-          "column_18": "121"
+          "column_18": "127"
         },
         {
           "position": "9",
@@ -1018,7 +1018,7 @@
       "team_id": 45348,
       "division_id": "135332",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:49.801Z"
+      "fetched_at": "2026-08-29T11:50:28.922Z"
     },
     "data": {
       "id": 135332,
@@ -1114,6 +1114,24 @@
         },
         {
           "position": "5",
+          "team_id": "45348",
+          "column_1": "Chelmsford CC - Sat 5th XI",
+          "column_2": "17",
+          "column_3": "7",
+          "column_4": "6",
+          "column_5": "1",
+          "column_6": "0",
+          "column_7": "1",
+          "column_8": "2",
+          "column_9": "0",
+          "column_10": "0",
+          "column_11": "36",
+          "column_12": "0",
+          "column_13": "9",
+          "column_14": "217"
+        },
+        {
+          "position": "6",
           "team_id": "93863",
           "column_1": "Billericay CC - 5th XI",
           "column_2": "16",
@@ -1131,7 +1149,7 @@
           "column_14": "207"
         },
         {
-          "position": "6",
+          "position": "7",
           "team_id": "25531",
           "column_1": "Stanford Le Hope CC - 4th XI",
           "column_2": "16",
@@ -1147,24 +1165,6 @@
           "column_12": "0",
           "column_13": "9",
           "column_14": "199"
-        },
-        {
-          "position": "7",
-          "team_id": "45348",
-          "column_1": "Chelmsford CC - Sat 5th XI",
-          "column_2": "16",
-          "column_3": "7",
-          "column_4": "6",
-          "column_5": "1",
-          "column_6": "0",
-          "column_7": "1",
-          "column_8": "1",
-          "column_9": "0",
-          "column_10": "0",
-          "column_11": "36",
-          "column_12": "0",
-          "column_13": "8",
-          "column_14": "197"
         },
         {
           "position": "8",
@@ -1206,19 +1206,19 @@
           "position": "10",
           "team_id": "318025",
           "column_1": "Billericay CC - 6th XI",
-          "column_2": "16",
+          "column_2": "17",
           "column_3": "7",
           "column_4": "6",
           "column_5": "1",
           "column_6": "0",
-          "column_7": "2",
+          "column_7": "3",
           "column_8": "0",
           "column_9": "0",
           "column_10": "0",
           "column_11": "30",
           "column_12": "10",
           "column_13": "7",
-          "column_14": "156"
+          "column_14": "151"
         },
         {
           "position": "11",
@@ -1302,7 +1302,7 @@
       "team_id": 324716,
       "division_id": "134513",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:51.073Z"
+      "fetched_at": "2026-08-29T11:50:30.013Z"
     },
     "data": {
       "id": 134513,
@@ -1532,7 +1532,7 @@
       "team_id": 213007,
       "division_id": "137056",
       "season": "2026",
-      "fetched_at": "2026-08-29T03:27:52.653Z"
+      "fetched_at": "2026-08-29T11:50:31.431Z"
     },
     "data": {
       "id": 137056,

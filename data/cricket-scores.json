@@ -494,8 +494,8 @@
         "result_applied_to": "24293",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Wanstead & Snaresbrook CC 1st XI Innings</b><br/>\n11.3 Wanstead & Snaresbrook CC 1st XI: 50 runs in 11.3 overs, 42 minutes, 11 extras<br/>25.1 Wanstead & Snaresbrook CC 1st XI: 100 runs in 25.1 overs, 85 minutes, 16 extras<br/>26.6 6th Wicket: 50 runs in 92 balls, 47 minutes, Muhammad Hassan Hameed 19 (42), Joe Ellis Grewal 27 (50), 5 extras<br/>35.4 Muhammad Hassan Hameed: 50 runs in 74 balls, 86 minutes (5x4)<br/>37.4 Wanstead & Snaresbrook CC 1st XI: 150 runs in 37.4 overs, 131 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.3 Chelmsford CC Sat 1st XI: 50 runs in 10.3 overs, 45 minutes, 8 extras<br/>22.3 Chelmsford CC Sat 1st XI: 100 runs in 22.2 overs, 90 minutes, 22 extras<br/>23.2 4th Wicket: 50 runs in 71 balls, 42 minutes, Jack Sterland 20 (32), James Clifford 22 (39), 9 extras<br/>25.1 Jack Sterland: 50 runs in 66 balls, 103 minutes (6x4)<br/>32.1 Chelmsford CC Sat 1st XI: 150 runs in 32.1 overs, 125 minutes, 35 extras<br/>32.6 5th Wicket: 50 runs in 54 balls, 32 minutes, Jack Sterland 30 (35), Oliver Devenish 7 (19), 13 extras\n<br/>\n",
         "points": [
           {
@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:31.040Z"
+    "fetched_at": "2026-08-29T22:31:48.825Z"
   },
   {
     "team": {
@@ -725,13 +725,13 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "A",
-      "result_description": "Abandoned",
+      "result": "C",
+      "result_description": "Cancelled",
       "result_applied_to": "",
       "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -1147,7 +1147,7 @@
         "id": 7325775,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/08/2026",
+        "last_updated": "29/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -1191,8 +1191,8 @@
         "result_applied_to": "21634",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "<b>Brentwood CC 2nd XI Innings</b><br/>\n8.6 1st Wicket: 50 runs in 54 balls, 31 minutes, Jack levy 31 (39), Paul Hurworth 19 (15), 1 extra<br/>8.6 Brentwood CC 2nd XI: 50 runs in 9.0 overs, 31 minutes, 1 extra<br/>20.5 Brentwood CC 2nd XI: 100 runs in 20.4 overs, 70 minutes, 3 extras<br/>23.2 Jack levy: 50 runs in 74 balls, 77 minutes (6x4)<br/>23.6 2nd Wicket: 50 runs in 74 balls, 42 minutes, Jack levy 18 (29), Josh Knightbridge 31 (45), 2 extras<br/>28.2 Brentwood CC 2nd XI: 150 runs in 28.2 overs, 100 minutes, 6 extras<br/>29.5 Josh Knightbridge: 50 runs in 59 balls, 62 minutes (7x4)<br/>33.1 3rd Wicket: 50 runs in 40 balls, 23 minutes, Josh Knightbridge 27 (16), Richard Horswill 21 (24), 3 extras<br/>33.5 Brentwood CC 2nd XI: 200 runs in 33.5 overs, 119 minutes, 9 extras<br/>41.5 Brentwood CC 2nd XI: 250 runs in 41.5 overs, 155 minutes, 12 extras<br/>44.4 7th Wicket: 50 runs in 33 balls, 23 minutes, Zachary Ellis 25 (17), Harry Hobson 24 (16), 1 extra\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.4 Chelmsford CC Sat 2nd XI: 50 runs in 10.4 overs, 41 minutes, 9 extras<br/>13.4 2nd Wicket: 50 runs in 49 balls, 31 minutes, Dan Hagen 27 (27), Mohammed Baig 20 (22), 3 extras<br/>18.3 Chelmsford CC Sat 2nd XI: 100 runs in 18.3 overs, 73 minutes, 11 extras<br/>20.2 Dan Hagen: 50 runs in 52 balls, 78 minutes (6x4, 2x6)<br/>21.2 3rd Wicket: 50 runs in 42 balls, 26 minutes, Dan Hagen 21 (17), Elliot Wenzel 25 (25), 5 extras<br/>24.6 Chelmsford CC Sat 2nd XI: 150 runs in 25.0 overs, 101 minutes, 22 extras<br/>26.2 Elliot Wenzel: 50 runs in 40 balls, 47 minutes (8x4, 2x6)<br/>26.6 3rd Wicket: 100 runs in 77 balls, 54 minutes, Dan Hagen 31 (34), Elliot Wenzel 58 (43), 13 extras<br/>32.4 Chelmsford CC Sat 2nd XI: 200 runs in 32.4 overs, 135 minutes, 25 extras<br/>38.3 Dan Hagen: 100 runs in 108 balls, 155 minutes (11x4, 3x6)<br/>39.2 4th Wicket: 50 runs in 55 balls, 35 minutes, Dan Hagen 30 (27), Liam Keaney 18 (28), 5 extras<br/>39.6 Chelmsford CC Sat 2nd XI: 250 runs in 40.0 overs, 164 minutes, 29 extras\n<br/>\n",
         "points": [
           {
@@ -1300,13 +1300,13 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "A",
-        "result_description": "Abandoned",
+        "result": "C",
+        "result_description": "Cancelled",
         "result_applied_to": "",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:32.668Z"
+    "fetched_at": "2026-08-29T22:31:50.044Z"
   },
   {
     "team": {
@@ -1426,8 +1426,8 @@
       "result_description": "Cancelled",
       "result_applied_to": "",
       "home_confirmed": "true",
-      "away_confirmed": "false",
-      "result_locked": "false",
+      "away_confirmed": "true",
+      "result_locked": "true",
       "scorecard_locked": "false",
       "match_notes": "",
       "points": [
@@ -1844,7 +1844,7 @@
         "id": 7461900,
         "status": "New",
         "published": "Yes",
-        "last_updated": "24/08/2026",
+        "last_updated": "29/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 10 - 3rd XI Premier Division",
@@ -1888,8 +1888,8 @@
         "result_applied_to": "31317",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2001,8 +2001,8 @@
         "result_description": "Cancelled",
         "result_applied_to": "",
         "home_confirmed": "true",
-        "away_confirmed": "false",
-        "result_locked": "false",
+        "away_confirmed": "true",
+        "result_locked": "true",
         "scorecard_locked": "false",
         "match_notes": "",
         "points": [
@@ -2069,7 +2069,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:34.228Z"
+    "fetched_at": "2026-08-29T22:31:51.265Z"
   },
   {
     "team": {
@@ -2119,13 +2119,13 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "A",
-      "result_description": "Abandoned",
+      "result": "C",
+      "result_description": "Cancelled",
       "result_applied_to": "",
       "home_confirmed": "true",
-      "away_confirmed": "false",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "away_confirmed": "true",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -2541,7 +2541,7 @@
         "id": 7462169,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/08/2026",
+        "last_updated": "29/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 13 - 3rd XI Division Three",
@@ -2585,8 +2585,8 @@
         "result_applied_to": "30461",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2694,13 +2694,13 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "A",
-        "result_description": "Abandoned",
+        "result": "C",
+        "result_description": "Cancelled",
         "result_applied_to": "",
         "home_confirmed": "true",
-        "away_confirmed": "false",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "away_confirmed": "true",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:36.058Z"
+    "fetched_at": "2026-08-29T22:31:52.463Z"
   },
   {
     "team": {
@@ -3282,8 +3282,8 @@
         "result_applied_to": "25531",
         "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:37.672Z"
+    "fetched_at": "2026-08-29T22:31:53.627Z"
   },
   {
     "team": {
@@ -3686,7 +3686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:39.185Z"
+    "fetched_at": "2026-08-29T22:31:54.749Z"
   },
   {
     "team": {
@@ -4405,7 +4405,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:40.936Z"
+    "fetched_at": "2026-08-29T22:31:55.893Z"
   },
   {
     "team": {
@@ -4686,7 +4686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:42.573Z"
+    "fetched_at": "2026-08-29T22:31:56.997Z"
   },
   {
     "team": {
@@ -5089,7 +5089,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:44.281Z"
+    "fetched_at": "2026-08-29T22:31:58.094Z"
   },
   {
     "team": {
@@ -5752,6 +5752,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-29T19:50:45.825Z"
+    "fetched_at": "2026-08-29T22:31:59.251Z"
   }
 ]

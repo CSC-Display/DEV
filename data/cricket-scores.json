@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:03.759Z"
+    "fetched_at": "2026-08-29T00:46:46.385Z"
   },
   {
     "team": {
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:05.429Z"
+    "fetched_at": "2026-08-29T00:46:47.607Z"
   },
   {
     "team": {
@@ -2104,7 +2104,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:07.046Z"
+    "fetched_at": "2026-08-29T00:46:48.865Z"
   },
   {
     "team": {
@@ -2818,7 +2818,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:08.666Z"
+    "fetched_at": "2026-08-29T00:46:50.067Z"
   },
   {
     "team": {
@@ -2829,7 +2829,7 @@
       "id": 7462466,
       "status": "New",
       "published": "Yes",
-      "last_updated": "22/08/2026",
+      "last_updated": "28/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2872,7 +2872,7 @@
       "result_description": "Stanford Le Hope CC - 4th XI - Overs Win",
       "result_applied_to": "25531",
       "home_confirmed": "true",
-      "away_confirmed": "false",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3410,7 +3410,7 @@
         "id": 7462466,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/08/2026",
+        "last_updated": "28/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3453,7 +3453,7 @@
         "result_description": "Stanford Le Hope CC - 4th XI - Overs Win",
         "result_applied_to": "25531",
         "home_confirmed": "true",
-        "away_confirmed": "false",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "",
@@ -3521,7 +3521,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:10.312Z"
+    "fetched_at": "2026-08-29T00:46:51.238Z"
   },
   {
     "team": {
@@ -3744,7 +3744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:11.376Z"
+    "fetched_at": "2026-08-29T00:46:52.328Z"
   },
   {
     "team": {
@@ -4463,7 +4463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:12.949Z"
+    "fetched_at": "2026-08-29T00:46:53.642Z"
   },
   {
     "team": {
@@ -4744,7 +4744,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:14.520Z"
+    "fetched_at": "2026-08-29T00:46:54.489Z"
   },
   {
     "team": {
@@ -5147,7 +5147,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:16.022Z"
+    "fetched_at": "2026-08-29T00:46:55.347Z"
   },
   {
     "team": {
@@ -5810,6 +5810,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-28T17:46:17.189Z"
+    "fetched_at": "2026-08-29T00:46:56.508Z"
   }
 ]

@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:38.316Z"
+    "fetched_at": "2026-08-30T15:29:07.593Z"
   },
   {
     "team": {
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:39.516Z"
+    "fetched_at": "2026-08-30T15:29:08.665Z"
   },
   {
     "team": {
@@ -2069,7 +2069,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:40.219Z"
+    "fetched_at": "2026-08-30T15:29:09.882Z"
   },
   {
     "team": {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:40.962Z"
+    "fetched_at": "2026-08-30T15:29:11.136Z"
   },
   {
     "team": {
@@ -2777,7 +2777,7 @@
       "id": 7462477,
       "status": "New",
       "published": "Yes",
-      "last_updated": "29/08/2026",
+      "last_updated": "30/08/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 16 - 4th XI Division One East",
@@ -2819,10 +2819,10 @@
       "result": "CON",
       "result_description": "Billericay CC - 6th XI - Conceded",
       "result_applied_to": "45348",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
-      "result_locked": "false",
-      "scorecard_locked": "false",
+      "result_locked": "true",
+      "scorecard_locked": "true",
       "match_notes": "",
       "points": [
         {
@@ -3352,7 +3352,7 @@
         "id": 7462477,
         "status": "New",
         "published": "Yes",
-        "last_updated": "29/08/2026",
+        "last_updated": "30/08/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 16 - 4th XI Division One East",
@@ -3394,10 +3394,10 @@
         "result": "CON",
         "result_description": "Billericay CC - 6th XI - Conceded",
         "result_applied_to": "45348",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
-        "result_locked": "false",
-        "scorecard_locked": "false",
+        "result_locked": "true",
+        "scorecard_locked": "true",
         "match_notes": "",
         "points": [
           {
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:42.485Z"
+    "fetched_at": "2026-08-30T15:29:12.150Z"
   },
   {
     "team": {
@@ -3686,7 +3686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:43.102Z"
+    "fetched_at": "2026-08-30T15:29:13.203Z"
   },
   {
     "team": {
@@ -4405,7 +4405,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:43.854Z"
+    "fetched_at": "2026-08-30T15:29:14.288Z"
   },
   {
     "team": {
@@ -4686,7 +4686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:44.558Z"
+    "fetched_at": "2026-08-30T15:29:15.441Z"
   },
   {
     "team": {
@@ -5089,7 +5089,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:45.244Z"
+    "fetched_at": "2026-08-30T15:29:17.059Z"
   },
   {
     "team": {
@@ -5752,6 +5752,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-30T11:46:46.386Z"
+    "fetched_at": "2026-08-30T15:29:18.813Z"
   }
 ]

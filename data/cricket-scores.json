@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:42.085Z"
+    "fetched_at": "2026-08-31T21:41:03.277Z"
   },
   {
     "team": {
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:43.541Z"
+    "fetched_at": "2026-08-31T21:41:04.307Z"
   },
   {
     "team": {
@@ -2069,7 +2069,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:44.714Z"
+    "fetched_at": "2026-08-31T21:41:05.541Z"
   },
   {
     "team": {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:46.105Z"
+    "fetched_at": "2026-08-31T21:41:07.179Z"
   },
   {
     "team": {
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:47.136Z"
+    "fetched_at": "2026-08-31T21:41:08.349Z"
   },
   {
     "team": {
@@ -3686,7 +3686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:48.265Z"
+    "fetched_at": "2026-08-31T21:41:09.343Z"
   },
   {
     "team": {
@@ -3838,7 +3838,7 @@
         "id": 7507212,
         "status": "New",
         "published": "Yes",
-        "last_updated": "22/07/2026",
+        "last_updated": "31/08/2026",
         "league_name": "Two Counties Cricket Championship",
         "league_id": "7277",
         "competition_name": "Sunday League",
@@ -3860,7 +3860,7 @@
         "away_club_name": "Frinton On Sea CC",
         "away_club_id": "2819",
         "umpire_1_name": "Stuart Careless",
-        "umpire_1_id": "7168673",
+        "umpire_1_id": "685174",
         "umpire_2_name": "",
         "umpire_2_id": "",
         "umpire_3_name": "",
@@ -4405,7 +4405,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:49.382Z"
+    "fetched_at": "2026-08-31T21:41:10.471Z"
   },
   {
     "team": {
@@ -4686,7 +4686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:50.446Z"
+    "fetched_at": "2026-08-31T21:41:11.436Z"
   },
   {
     "team": {
@@ -5089,7 +5089,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:52.004Z"
+    "fetched_at": "2026-08-31T21:41:12.717Z"
   },
   {
     "team": {
@@ -5752,6 +5752,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-31T18:06:53.054Z"
+    "fetched_at": "2026-08-31T21:41:13.777Z"
   }
 ]

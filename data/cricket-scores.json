@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:37:52.164Z"
+    "fetched_at": "2026-09-01T19:36:47.404Z"
   },
   {
     "team": {
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:37:53.891Z"
+    "fetched_at": "2026-09-01T19:36:48.987Z"
   },
   {
     "team": {
@@ -2069,7 +2069,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:37:55.955Z"
+    "fetched_at": "2026-09-01T19:36:50.739Z"
   },
   {
     "team": {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:37:57.161Z"
+    "fetched_at": "2026-09-01T19:36:52.358Z"
   },
   {
     "team": {
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:37:58.707Z"
+    "fetched_at": "2026-09-01T19:36:54.187Z"
   },
   {
     "team": {
@@ -3474,7 +3474,7 @@
       "id": 7681015,
       "status": "New",
       "published": "Yes",
-      "last_updated": "17/08/2026",
+      "last_updated": "01/09/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -3533,13 +3533,13 @@
           "penalties_runs_awarded_in_other_innings": "0",
           "total_extras": "50",
           "runs": "284",
-          "wickets": "7",
+          "wickets": "6",
           "overs": "38.1",
           "balls": "",
           "declared": true,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "40.0",
           "revised_target_balls": ""
         },
         {
@@ -3559,7 +3559,7 @@
           "declared": false,
           "forfeited_innings": false,
           "revised_target_runs": "",
-          "revised_target_overs": "",
+          "revised_target_overs": "40.0",
           "revised_target_balls": ""
         }
       ]
@@ -3579,7 +3579,7 @@
         {
           "name": "Rudy Jackman",
           "score": 51,
-          "notOut": false
+          "notOut": true
         }
       ],
       "wickets": [
@@ -3595,7 +3595,7 @@
         "id": 7681015,
         "status": "New",
         "published": "Yes",
-        "last_updated": "17/08/2026",
+        "last_updated": "01/09/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -3654,13 +3654,13 @@
             "penalties_runs_awarded_in_other_innings": "0",
             "total_extras": "50",
             "runs": "284",
-            "wickets": "7",
+            "wickets": "6",
             "overs": "38.1",
             "balls": "",
             "declared": true,
             "forfeited_innings": false,
             "revised_target_runs": "",
-            "revised_target_overs": "",
+            "revised_target_overs": "40.0",
             "revised_target_balls": ""
           },
           {
@@ -3680,13 +3680,13 @@
             "declared": false,
             "forfeited_innings": false,
             "revised_target_runs": "",
-            "revised_target_overs": "",
+            "revised_target_overs": "40.0",
             "revised_target_balls": ""
           }
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:38:00.453Z"
+    "fetched_at": "2026-09-01T19:36:55.640Z"
   },
   {
     "team": {
@@ -4405,7 +4405,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:38:02.546Z"
+    "fetched_at": "2026-09-01T19:36:57.254Z"
   },
   {
     "team": {
@@ -4686,7 +4686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:38:03.689Z"
+    "fetched_at": "2026-09-01T19:36:58.732Z"
   },
   {
     "team": {
@@ -5089,7 +5089,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:38:05.078Z"
+    "fetched_at": "2026-09-01T19:37:00.480Z"
   },
   {
     "team": {
@@ -5100,7 +5100,7 @@
       "id": 7735017,
       "status": "New",
       "published": "Yes",
-      "last_updated": "29/07/2026",
+      "last_updated": "01/09/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -5141,7 +5141,7 @@
       "result": "W",
       "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
       "result_applied_to": "293157",
-      "home_confirmed": "false",
+      "home_confirmed": "true",
       "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
@@ -5661,7 +5661,7 @@
         "id": 7735017,
         "status": "New",
         "published": "Yes",
-        "last_updated": "29/07/2026",
+        "last_updated": "01/09/2026",
         "league_id": "",
         "competition_name": "",
         "competition_id": "",
@@ -5702,7 +5702,7 @@
         "result": "W",
         "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
         "result_applied_to": "293157",
-        "home_confirmed": "false",
+        "home_confirmed": "true",
         "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
@@ -5752,6 +5752,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-01T16:38:06.180Z"
+    "fetched_at": "2026-09-01T19:37:02.056Z"
   }
 ]

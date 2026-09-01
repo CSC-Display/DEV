@@ -46,7 +46,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:40.316Z"
+    "fetched_at": "2026-09-01T10:36:54.389Z"
   },
   {
     "team": {
@@ -95,7 +95,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:40.947Z"
+    "fetched_at": "2026-09-01T10:36:55.174Z"
   },
   {
     "team": {
@@ -144,7 +144,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:41.341Z"
+    "fetched_at": "2026-09-01T10:36:55.931Z"
   },
   {
     "team": {
@@ -193,7 +193,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:41.785Z"
+    "fetched_at": "2026-09-01T10:36:56.283Z"
   },
   {
     "team": {
@@ -242,7 +242,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:42.385Z"
+    "fetched_at": "2026-09-01T10:36:57.039Z"
   },
   {
     "team": {
@@ -291,7 +291,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:42.849Z"
+    "fetched_at": "2026-09-01T10:36:57.607Z"
   },
   {
     "team": {
@@ -380,7 +380,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:43.101Z"
+    "fetched_at": "2026-09-01T10:36:58.770Z"
   },
   {
     "team": {
@@ -392,7 +392,7 @@
         "id": 7597561,
         "status": "New",
         "published": "Yes",
-        "last_updated": "19/03/2026",
+        "last_updated": "01/09/2026",
         "league_name": "",
         "league_id": "",
         "competition_name": "",
@@ -402,7 +402,7 @@
         "game_type": "Standard",
         "season": "2026",
         "match_date": "13/09/2026",
-        "match_time": "13:00",
+        "match_time": "12:30",
         "ground_name": "Chelmer Park",
         "ground_id": "10646",
         "ground_latitude": "51.7037755",
@@ -429,7 +429,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:43.315Z"
+    "fetched_at": "2026-09-01T10:36:59.865Z"
   },
   {
     "team": {
@@ -437,7 +437,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-09-01T00:57:43.817Z"
+    "fetched_at": "2026-09-01T10:37:00.619Z"
   },
   {
     "team": {
@@ -486,6 +486,6 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-01T00:57:44.161Z"
+    "fetched_at": "2026-09-01T10:37:01.599Z"
   }
 ]

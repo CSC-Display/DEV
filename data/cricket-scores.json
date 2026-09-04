@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:36.341Z"
+    "fetched_at": "2026-09-04T23:40:29.294Z"
   },
   {
     "team": {
@@ -683,10 +683,10 @@
       "id": 24294
     },
     "match": {
-      "id": 7325783,
+      "id": 7325784,
       "status": "New",
       "published": "Yes",
-      "last_updated": "29/08/2026",
+      "last_updated": "04/09/2026",
       "league_name": "Essex League",
       "league_id": "7300",
       "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -695,18 +695,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "29/08/2026",
+      "match_date": "05/09/2026",
       "match_time": "12:00",
-      "ground_name": "Chelmer Park",
-      "ground_id": "10646",
-      "home_team_name": "Sat 2nd XI",
-      "home_team_id": "24294",
-      "home_club_name": "Chelmsford CC",
-      "home_club_id": "1786",
-      "away_team_name": "2nd XI",
-      "away_team_id": "26284",
-      "away_club_name": "Epping CC",
-      "away_club_id": "2589",
+      "ground_name": "Polo Field Ground",
+      "ground_id": "8896",
+      "home_team_name": "2nd XI",
+      "home_team_id": "21950",
+      "home_club_name": "Hutton CC",
+      "home_club_id": "7644",
+      "away_team_name": "Sat 2nd XI",
+      "away_team_id": "24294",
+      "away_club_name": "Chelmsford CC",
+      "away_club_id": "1786",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -715,8 +715,8 @@
       "umpire_3_id": "",
       "referee_name": "",
       "referee_id": "",
-      "scorer_1_name": "",
-      "scorer_1_id": "",
+      "scorer_1_name": "James Sanderson",
+      "scorer_1_id": "6020396",
       "scorer_2_name": "",
       "scorer_2_id": "",
       "toss_won_by_team_id": "",
@@ -725,196 +725,41 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "C",
-      "result_description": "Cancelled",
+      "result": "M",
+      "result_description": "Match In Progress",
       "result_applied_to": "",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
-      "result_locked": "true",
-      "scorecard_locked": "true",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
+      "result_locked": "false",
+      "scorecard_locked": "false",
       "match_notes": "",
       "points": [
         {
-          "team_id": 24294,
-          "game_points": "6",
-          "penalty_points": "",
+          "team_id": 21950,
+          "game_points": "0",
+          "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_id": 26284,
-          "game_points": "6",
-          "penalty_points": "",
+          "team_id": 24294,
+          "game_points": "0",
+          "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
           "bonus_points_bowling": "0.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
-      "innings": [
-        {
-          "team_batting_id": "24294",
-          "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "45.0",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "26284",
-          "innings_number": 1,
-          "extra_byes": "",
-          "extra_leg_byes": "",
-          "extra_wides": "",
-          "extra_no_balls": "",
-          "extra_penalty_runs": "",
-          "penalties_runs_awarded_in_other_innings": "",
-          "total_extras": "",
-          "runs": "",
-          "wickets": "",
-          "overs": "",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "45.0",
-          "revised_target_balls": ""
-        }
-      ]
+      "innings": []
     },
     "perf": {
       "runs": [],
       "wickets": []
     },
     "form": [
-      {
-        "id": 7325763,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "08/08/2026",
-        "league_name": "Essex League",
-        "league_id": "7300",
-        "competition_name": "Division 06 - 2nd XI Premier Division",
-        "competition_id": "135299",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "01/08/2026",
-        "match_time": "12:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Sat 2nd XI",
-        "home_team_id": "24294",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "2nd XI",
-        "away_team_id": "21950",
-        "away_club_name": "Hutton CC",
-        "away_club_id": "7644",
-        "umpire_1_name": "",
-        "umpire_1_id": "",
-        "umpire_2_name": "",
-        "umpire_2_id": "",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "Nicola Parry",
-        "scorer_1_id": "5924459",
-        "scorer_2_name": "",
-        "scorer_2_id": "",
-        "toss_won_by_team_id": "24294",
-        "toss": "Chelmsford CC - Sat 2nd XI won the toss and elected to bat",
-        "batted_first": "24294",
-        "no_of_overs": 0,
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Hutton CC - 2nd XI - Time Win (bat 2nd)",
-        "result_applied_to": "21950",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "true",
-        "match_notes": "",
-        "points": [
-          {
-            "team_id": 24294,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "5.0",
-            "bonus_points_batting": "2.0",
-            "bonus_points_bowling": "3.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 21950,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "24294",
-            "innings_number": 1,
-            "extra_byes": "3",
-            "extra_leg_byes": "2",
-            "extra_wides": "1",
-            "extra_no_balls": "2",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "8",
-            "runs": "126",
-            "wickets": "10",
-            "overs": "39.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "21950",
-            "innings_number": 1,
-            "extra_byes": "5",
-            "extra_leg_byes": "1",
-            "extra_wides": "1",
-            "extra_no_balls": "0",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "127",
-            "wickets": "7",
-            "overs": "26.4",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7325768,
         "status": "New",
@@ -1370,9 +1215,82 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7325784,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "04/09/2026",
+        "league_name": "Essex League",
+        "league_id": "7300",
+        "competition_name": "Division 06 - 2nd XI Premier Division",
+        "competition_id": "135299",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "05/09/2026",
+        "match_time": "12:00",
+        "ground_name": "Polo Field Ground",
+        "ground_id": "8896",
+        "home_team_name": "2nd XI",
+        "home_team_id": "21950",
+        "home_club_name": "Hutton CC",
+        "home_club_id": "7644",
+        "away_team_name": "Sat 2nd XI",
+        "away_team_id": "24294",
+        "away_club_name": "Chelmsford CC",
+        "away_club_id": "1786",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "James Sanderson",
+        "scorer_1_id": "6020396",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "45",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 21950,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 24294,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": []
       }
     ],
-    "fetched_at": "2026-09-04T22:15:37.967Z"
+    "fetched_at": "2026-09-04T23:40:30.893Z"
   },
   {
     "team": {
@@ -2069,7 +1987,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:39.634Z"
+    "fetched_at": "2026-09-04T23:40:32.563Z"
   },
   {
     "team": {
@@ -2766,7 +2684,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:41.183Z"
+    "fetched_at": "2026-09-04T23:40:34.250Z"
   },
   {
     "team": {
@@ -3463,7 +3381,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:42.669Z"
+    "fetched_at": "2026-09-04T23:40:35.799Z"
   },
   {
     "team": {
@@ -3686,7 +3604,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:44.131Z"
+    "fetched_at": "2026-09-04T23:40:37.266Z"
   },
   {
     "team": {
@@ -4405,7 +4323,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:45.671Z"
+    "fetched_at": "2026-09-04T23:40:38.853Z"
   },
   {
     "team": {
@@ -4686,7 +4604,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:47.153Z"
+    "fetched_at": "2026-09-04T23:40:40.892Z"
   },
   {
     "team": {
@@ -5089,7 +5007,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:48.223Z"
+    "fetched_at": "2026-09-04T23:40:42.379Z"
   },
   {
     "team": {
@@ -5766,6 +5684,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T22:15:49.354Z"
+    "fetched_at": "2026-09-04T23:40:44.018Z"
   }
 ]

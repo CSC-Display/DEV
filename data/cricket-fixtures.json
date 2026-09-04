@@ -46,7 +46,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:04.485Z"
+    "fetched_at": "2026-09-04T23:40:54.190Z"
   },
   {
     "team": {
@@ -58,7 +58,7 @@
         "id": 7325784,
         "status": "New",
         "published": "Yes",
-        "last_updated": "26/05/2026",
+        "last_updated": "04/09/2026",
         "league_name": "Essex League",
         "league_id": "7300",
         "competition_name": "Division 06 - 2nd XI Premier Division",
@@ -89,13 +89,13 @@
         "umpire_3_id": "",
         "referee_name": "",
         "referee_id": "",
-        "scorer_1_name": "",
-        "scorer_1_id": "",
+        "scorer_1_name": "James Sanderson",
+        "scorer_1_id": "6020396",
         "scorer_2_name": "",
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:04.797Z"
+    "fetched_at": "2026-09-04T23:40:54.927Z"
   },
   {
     "team": {
@@ -144,7 +144,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:05.071Z"
+    "fetched_at": "2026-09-04T23:40:55.651Z"
   },
   {
     "team": {
@@ -193,7 +193,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:05.405Z"
+    "fetched_at": "2026-09-04T23:40:56.442Z"
   },
   {
     "team": {
@@ -242,7 +242,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:05.724Z"
+    "fetched_at": "2026-09-04T23:40:57.209Z"
   },
   {
     "team": {
@@ -291,7 +291,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:06.340Z"
+    "fetched_at": "2026-09-04T23:40:57.948Z"
   },
   {
     "team": {
@@ -380,7 +380,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:06.666Z"
+    "fetched_at": "2026-09-04T23:40:58.245Z"
   },
   {
     "team": {
@@ -429,7 +429,7 @@
         "scorer_2_id": ""
       }
     ],
-    "fetched_at": "2026-09-04T19:12:07.075Z"
+    "fetched_at": "2026-09-04T23:40:58.957Z"
   },
   {
     "team": {
@@ -437,7 +437,7 @@
       "id": 133549
     },
     "fix": [],
-    "fetched_at": "2026-09-04T19:12:07.475Z"
+    "fetched_at": "2026-09-04T23:40:59.281Z"
   },
   {
     "team": {
@@ -445,6 +445,6 @@
       "id": 213007
     },
     "fix": [],
-    "fetched_at": "2026-09-04T19:12:07.779Z"
+    "fetched_at": "2026-09-04T23:41:00.029Z"
   }
 ]

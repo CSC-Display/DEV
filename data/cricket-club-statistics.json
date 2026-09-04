@@ -1,9 +1,9 @@
 {
   "site_id": 1786,
   "season": "2026",
-  "generated_at": "2026-09-04T10:03:59.395Z",
+  "generated_at": "2026-09-04T19:13:29.960Z",
   "match_count": 132,
-  "scorecards_processed": 123,
+  "scorecards_processed": 124,
   "batting": [
     {
       "player": "Elliot Wenzel",
@@ -329,19 +329,19 @@
       "hundreds": 0
     },
     {
-      "player": "Thom Wilshaw",
-      "teams": "NECL 1st XI, Sat 1st XI, Sat 2nd XI, Sat 3rd XI, Sun 1st XI",
-      "matches": 25,
-      "innings": 26,
-      "not_outs": 6,
-      "runs": 305,
-      "balls": 339,
-      "fours": 45,
-      "sixes": 2,
-      "high_score": 53,
-      "high_score_display": "53",
-      "average": 15.25,
-      "strike_rate": 89.97050147492625,
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 10,
+      "innings": 10,
+      "not_outs": 9,
+      "runs": 306,
+      "balls": 145,
+      "fours": 41,
+      "sixes": 6,
+      "high_score": 60,
+      "high_score_display": "60*",
+      "average": 306,
+      "strike_rate": 211.0344827586207,
       "fifties": 1,
       "hundreds": 0
     }
@@ -671,6 +671,25 @@
       "five_wickets": 0
     },
     {
+      "player": "Harriet Goodey",
+      "teams": "Womens 1st XI",
+      "matches": 10,
+      "innings": 10,
+      "balls": 174,
+      "overs": 29,
+      "maidens": 7,
+      "runs": 95,
+      "wickets": 17,
+      "wides": 2,
+      "no_balls": 1,
+      "best": "3-14",
+      "average": 5.588235294117647,
+      "economy": 3.2758620689655173,
+      "strike_rate": 10.235294117647058,
+      "three_wickets": 2,
+      "five_wickets": 0
+    },
+    {
       "player": "Steve Bond",
       "teams": "Sat 3rd XI",
       "matches": 10,
@@ -706,25 +725,6 @@
       "economy": 5.107843137254902,
       "strike_rate": 38.25,
       "three_wickets": 1,
-      "five_wickets": 0
-    },
-    {
-      "player": "Ben Lawrence",
-      "teams": "NECL 1st XI, Sat 3rd XI",
-      "matches": 10,
-      "innings": 10,
-      "balls": 460,
-      "overs": 76.4,
-      "maidens": 20,
-      "runs": 265,
-      "wickets": 16,
-      "wides": 14,
-      "no_balls": 3,
-      "best": "4-40",
-      "average": 16.5625,
-      "economy": 3.4565217391304346,
-      "strike_rate": 28.75,
-      "three_wickets": 2,
       "five_wickets": 0
     }
   ]

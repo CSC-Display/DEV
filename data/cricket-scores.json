@@ -675,7 +675,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:14:56.468Z"
+    "fetched_at": "2026-09-04T17:39:30.348Z"
   },
   {
     "team": {
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:14:57.569Z"
+    "fetched_at": "2026-09-04T17:39:31.063Z"
   },
   {
     "team": {
@@ -2069,7 +2069,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:14:58.402Z"
+    "fetched_at": "2026-09-04T17:39:31.679Z"
   },
   {
     "team": {
@@ -2766,7 +2766,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:04.033Z"
+    "fetched_at": "2026-09-04T17:39:32.623Z"
   },
   {
     "team": {
@@ -3463,7 +3463,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:05.313Z"
+    "fetched_at": "2026-09-04T17:39:33.770Z"
   },
   {
     "team": {
@@ -3686,7 +3686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:06.498Z"
+    "fetched_at": "2026-09-04T17:39:34.353Z"
   },
   {
     "team": {
@@ -4405,7 +4405,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:07.705Z"
+    "fetched_at": "2026-09-04T17:39:37.200Z"
   },
   {
     "team": {
@@ -4686,7 +4686,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:09.105Z"
+    "fetched_at": "2026-09-04T17:39:38.458Z"
   },
   {
     "team": {
@@ -5089,7 +5089,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:09.646Z"
+    "fetched_at": "2026-09-04T17:39:39.042Z"
   },
   {
     "team": {
@@ -5097,29 +5097,30 @@
       "id": 213007
     },
     "match": {
-      "id": 7735017,
+      "id": 7399557,
       "status": "New",
       "published": "Yes",
-      "last_updated": "01/09/2026",
-      "league_id": "",
-      "competition_name": "",
-      "competition_id": "",
-      "competition_type": "Friendly",
+      "last_updated": "04/09/2026",
+      "league_name": "Essex Women's T20 League",
+      "league_id": "12600",
+      "competition_name": "South Division 2",
+      "competition_id": "137056",
+      "competition_type": "League",
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "24/07/2026",
+      "match_date": "04/09/2026",
       "match_time": "18:00",
-      "ground_name": "Hatfield Peverel Cricket Club",
-      "ground_id": "9274",
+      "ground_name": "Chelmer Park",
+      "ground_id": "10646",
       "home_team_name": "Womens 1st XI",
-      "home_team_id": "293157",
-      "home_club_name": "Hatfield Peverel CC",
-      "home_club_id": "3235",
+      "home_team_id": "213007",
+      "home_club_name": "Chelmsford CC",
+      "home_club_id": "1786",
       "away_team_name": "Womens 1st XI",
-      "away_team_id": "213007",
-      "away_club_name": "Chelmsford CC",
-      "away_club_id": "1786",
+      "away_team_id": "382272",
+      "away_club_name": "Hadleigh & Thundersley CC, Essex",
+      "away_club_id": "3096",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -5132,55 +5133,54 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "213007",
-      "toss": "Chelmsford CC - Womens 1st XI won the toss and elected to field",
-      "batted_first": "293157",
-      "no_of_overs": "",
+      "toss_won_by_team_id": "382272",
+      "toss": "Hadleigh & Thundersley CC, Essex - Womens 1st XI won the toss and elected to bat",
+      "batted_first": "382272",
+      "no_of_overs": "20",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Hatfield Peverel CC - Womens 1st XI - Won",
-      "result_applied_to": "293157",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
+      "result": "M",
+      "result_description": "Match In Progress",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
-      "points": [],
-      "innings": [
+      "points": [
         {
-          "team_batting_id": "293157",
-          "innings_number": 1,
-          "extra_byes": "9",
-          "extra_leg_byes": "5",
-          "extra_wides": "15",
-          "extra_no_balls": "4",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "33",
-          "runs": "159",
-          "wickets": "8",
-          "overs": "20.0",
-          "balls": "",
-          "declared": false,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "20.0",
-          "revised_target_balls": ""
+          "team_id": 213007,
+          "game_points": "0",
+          "penalty_points": "0.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
+          "bonus_points_2nd_innings_together": ""
         },
         {
-          "team_batting_id": "213007",
+          "team_id": 382272,
+          "game_points": "0",
+          "penalty_points": "0.0",
+          "bonus_points_together": "0.0",
+          "bonus_points_batting": "0.0",
+          "bonus_points_bowling": "0.0",
+          "bonus_points_2nd_innings_together": ""
+        }
+      ],
+      "innings": [
+        {
+          "team_batting_id": "382272",
           "innings_number": 1,
-          "extra_byes": "7",
-          "extra_leg_byes": "3",
-          "extra_wides": "8",
-          "extra_no_balls": "5",
+          "extra_byes": "6",
+          "extra_leg_byes": "0",
+          "extra_wides": "13",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "23",
-          "runs": "130",
+          "total_extras": "25",
+          "runs": "79",
           "wickets": "4",
-          "overs": "20.0",
+          "overs": "13.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -5192,129 +5192,9 @@
     },
     "perf": {
       "runs": [],
-      "wickets": [
-        {
-          "name": "Harriet Goodey",
-          "w": 3,
-          "r": "14"
-        }
-      ]
+      "wickets": []
     },
     "form": [
-      {
-        "id": 7399548,
-        "status": "New",
-        "published": "Yes",
-        "last_updated": "30/06/2026",
-        "league_name": "Essex Women's T20 League",
-        "league_id": "12600",
-        "competition_name": "South Division 2",
-        "competition_id": "137056",
-        "competition_type": "League",
-        "match_type": "Limited Overs",
-        "game_type": "Standard",
-        "countdown_cricket": "no",
-        "match_date": "19/06/2026",
-        "match_time": "18:00",
-        "ground_name": "Chelmer Park",
-        "ground_id": "10646",
-        "home_team_name": "Womens 1st XI",
-        "home_team_id": "213007",
-        "home_club_name": "Chelmsford CC",
-        "home_club_id": "1786",
-        "away_team_name": "Womens 1st XI",
-        "away_team_id": "319144",
-        "away_club_name": "Galleywood CC",
-        "away_club_id": "2847",
-        "umpire_1_name": "Andy Pyne",
-        "umpire_1_id": "6715415",
-        "umpire_2_name": "Priyantha Siriwardana",
-        "umpire_2_id": "7120840",
-        "umpire_3_name": "",
-        "umpire_3_id": "",
-        "referee_name": "",
-        "referee_id": "",
-        "scorer_1_name": "Nick Clayden",
-        "scorer_1_id": "1087667",
-        "scorer_2_name": "Richard Goodey",
-        "scorer_2_id": "7120839",
-        "toss_won_by_team_id": "319144",
-        "toss": "Galleywood CC - Womens 1st XI won the toss and elected to field",
-        "batted_first": "213007",
-        "no_of_overs": "20",
-        "balls_per_innings": "",
-        "no_of_innings": "1",
-        "result": "W",
-        "result_description": "Chelmsford CC - Womens 1st XI - Won",
-        "result_applied_to": "213007",
-        "home_confirmed": "true",
-        "away_confirmed": "true",
-        "result_locked": "true",
-        "scorecard_locked": "false",
-        "match_notes": "<b>Chelmsford CC Womens 1st XI Innings</b><br/>\n6.3 Chelmsford CC Womens 1st XI: 50 runs in 6.3 overs, 28 minutes, 8 extras<br/>14.3 Chelmsford CC Womens 1st XI: 100 runs in 14.3 overs, 73 minutes, 28 extras<br/>16.4 Harriet Goodey: 50 runs in 24 balls, 30 minutes (10x4, 1x6)<br/>19.2 Chelmsford CC Womens 1st XI: 150 runs in 19.2 overs, 93 minutes, 33 extras\n<br/>\n<br/>\n<b>Galleywood CC Womens 1st XI Innings</b><br/>\n6.6 Galleywood CC Womens 1st XI: 50 runs in 6.4 overs, 31 minutes, 15 extras<br/>18.2 Galleywood CC Womens 1st XI: 100 runs in 18.2 overs, 79 minutes, 30 extras<br/>19.2 Adel Roets: 50 runs in 32 balls, 31 minutes (8x4, 2x6)\n<br/>\n",
-        "points": [
-          {
-            "team_id": 213007,
-            "game_points": "20",
-            "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
-            "bonus_points_2nd_innings_together": ""
-          },
-          {
-            "team_id": 319144,
-            "game_points": "0",
-            "penalty_points": "0.0",
-            "bonus_points_together": "11.0",
-            "bonus_points_batting": "7.0",
-            "bonus_points_bowling": "4.0",
-            "bonus_points_2nd_innings_together": ""
-          }
-        ],
-        "innings": [
-          {
-            "team_batting_id": "213007",
-            "innings_number": 1,
-            "extra_byes": "1",
-            "extra_leg_byes": "2",
-            "extra_wides": "12",
-            "extra_no_balls": "18",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "33",
-            "runs": "158",
-            "wickets": "8",
-            "overs": "20",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          },
-          {
-            "team_batting_id": "319144",
-            "innings_number": 1,
-            "extra_byes": "8",
-            "extra_leg_byes": "0",
-            "extra_wides": "11",
-            "extra_no_balls": "11",
-            "extra_penalty_runs": "0",
-            "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "30",
-            "runs": "118",
-            "wickets": "10",
-            "overs": "20",
-            "balls": "",
-            "declared": false,
-            "forfeited_innings": false,
-            "revised_target_runs": "",
-            "revised_target_overs": "20.0",
-            "revised_target_balls": ""
-          }
-        ]
-      },
       {
         "id": 7399558,
         "status": "New",
@@ -5750,8 +5630,102 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7399557,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "04/09/2026",
+        "league_name": "Essex Women's T20 League",
+        "league_id": "12600",
+        "competition_name": "South Division 2",
+        "competition_id": "137056",
+        "competition_type": "League",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "04/09/2026",
+        "match_time": "18:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "home_team_name": "Womens 1st XI",
+        "home_team_id": "213007",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "Womens 1st XI",
+        "away_team_id": "382272",
+        "away_club_name": "Hadleigh & Thundersley CC, Essex",
+        "away_club_id": "3096",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "382272",
+        "toss": "Hadleigh & Thundersley CC, Essex - Womens 1st XI won the toss and elected to bat",
+        "batted_first": "382272",
+        "no_of_overs": "20",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "M",
+        "result_description": "Match In Progress",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [
+          {
+            "team_id": 213007,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          },
+          {
+            "team_id": 382272,
+            "game_points": "0",
+            "penalty_points": "0.0",
+            "bonus_points_together": "0.0",
+            "bonus_points_batting": "0.0",
+            "bonus_points_bowling": "0.0",
+            "bonus_points_2nd_innings_together": ""
+          }
+        ],
+        "innings": [
+          {
+            "team_batting_id": "382272",
+            "innings_number": 1,
+            "extra_byes": "6",
+            "extra_leg_byes": "0",
+            "extra_wides": "13",
+            "extra_no_balls": "6",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "25",
+            "runs": "79",
+            "wickets": "4",
+            "overs": "13.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "20.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-09-04T14:15:10.580Z"
+    "fetched_at": "2026-09-04T17:39:40.063Z"
   }
 ]

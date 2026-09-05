@@ -50,8 +50,8 @@
       "result": "W",
       "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
       "result_applied_to": "24293",
-      "home_confirmed": "false",
-      "away_confirmed": "false",
+      "home_confirmed": "true",
+      "away_confirmed": "true",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n10.1 Brentwood CC 1st XI: 50 runs in 10.0 overs, 43 minutes, 7 extras<br/>13.2 4th Wicket: 50 runs in 48 balls, 31 minutes, Edward Ballard 9 (19), Danal DiLmith Hemananda Gawasin Arachchige 38 (29), 3 extras<br/>20.4 Brentwood CC 1st XI: 100 runs in 20.4 overs, 82 minutes, 14 extras<br/>37.1 Brentwood CC 1st XI: 150 runs in 37.1 overs, 134 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.6 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 57 minutes, 11 extras<br/>13.4 3rd Wicket: 50 runs in 56 balls, 45 minutes, Jack Sterland 26 (35), Rishabh Upadhyay 20 (21), 6 extras<br/>24.3 Chelmsford CC Sat 1st XI: 100 runs in 24.3 overs, 104 minutes, 14 extras<br/>31.6 6th Wicket: 50 runs in 76 balls, 39 minutes, James Clifford 26 (44), Brad Green 25 (32), 0 extras<br/>38.3 Chelmsford CC Sat 1st XI: 150 runs in 38.3 overs, 149 minutes, 14 extras<br/>42.1 James Clifford: 50 runs in 85 balls, 90 minutes (9x4)\n<br/>\n",
@@ -618,8 +618,8 @@
         "result": "W",
         "result_description": "Chelmsford CC - Sat 1st XI - Overs Win",
         "result_applied_to": "24293",
-        "home_confirmed": "false",
-        "away_confirmed": "false",
+        "home_confirmed": "true",
+        "away_confirmed": "true",
         "result_locked": "false",
         "scorecard_locked": "false",
         "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n10.1 Brentwood CC 1st XI: 50 runs in 10.0 overs, 43 minutes, 7 extras<br/>13.2 4th Wicket: 50 runs in 48 balls, 31 minutes, Edward Ballard 9 (19), Danal DiLmith Hemananda Gawasin Arachchige 38 (29), 3 extras<br/>20.4 Brentwood CC 1st XI: 100 runs in 20.4 overs, 82 minutes, 14 extras<br/>37.1 Brentwood CC 1st XI: 150 runs in 37.1 overs, 134 minutes, 23 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 1st XI Innings</b><br/>\n10.6 Chelmsford CC Sat 1st XI: 50 runs in 10.5 overs, 57 minutes, 11 extras<br/>13.4 3rd Wicket: 50 runs in 56 balls, 45 minutes, Jack Sterland 26 (35), Rishabh Upadhyay 20 (21), 6 extras<br/>24.3 Chelmsford CC Sat 1st XI: 100 runs in 24.3 overs, 104 minutes, 14 extras<br/>31.6 6th Wicket: 50 runs in 76 balls, 39 minutes, James Clifford 26 (44), Brad Green 25 (32), 0 extras<br/>38.3 Chelmsford CC Sat 1st XI: 150 runs in 38.3 overs, 149 minutes, 14 extras<br/>42.1 James Clifford: 50 runs in 85 balls, 90 minutes (9x4)\n<br/>\n",
@@ -687,7 +687,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:46.166Z"
+    "fetched_at": "2026-09-05T21:25:12.587Z"
   },
   {
     "team": {
@@ -737,18 +737,18 @@
       "no_of_overs": "45",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "M",
-      "result_description": "Match In Progress",
-      "result_applied_to": "",
+      "result": "W",
+      "result_description": "Hutton CC - 2nd XI - Overs Win",
+      "result_applied_to": "21950",
       "home_confirmed": "false",
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras\n<br/>\n",
+      "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras<br/>43.1 Hutton CC 2nd XI: 250 runs in 43.1 overs, 167 minutes, 21 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 1st Wicket: 50 runs in 66 balls, 41 minutes, Harry Jacobs 22 (39), Dan Hagen 22 (27), 6 extras<br/>10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 6 extras<br/>16.6 Dan Hagen: 50 runs in 42 balls, 62 minutes (9x4)<br/>17.2 1st Wicket: 100 runs in 104 balls, 64 minutes, Harry Jacobs 41 (61), Dan Hagen 52 (43), 7 extras<br/>17.2 Chelmsford CC Sat 2nd XI: 100 runs in 17.2 overs, 64 minutes, 7 extras<br/>19.5 Harry Jacobs: 50 runs in 70 balls, 72 minutes (6x4)<br/>26.1 Chelmsford CC Sat 2nd XI: 150 runs in 26.1 overs, 97 minutes, 14 extras<br/>27.3 2nd Wicket: 50 runs in 51 balls, 31 minutes, Harry Jacobs 11 (16), George Wilson 33 (35), 6 extras<br/>32.1 George Wilson: 50 runs in 51 balls, 47 minutes (5x4)<br/>32.5 Chelmsford CC Sat 2nd XI: 200 runs in 32.5 overs, 119 minutes, 22 extras<br/>33.6 2nd Wicket: 100 runs in 91 balls, 52 minutes, Harry Jacobs 30 (34), George Wilson 57 (57), 14 extras<br/>40.3 Chelmsford CC Sat 2nd XI: 250 runs in 40.3 overs, 148 minutes, 26 extras\n<br/>\n",
       "points": [
         {
           "team_id": 21950,
-          "game_points": "0",
+          "game_points": "20",
           "penalty_points": "0.0",
           "bonus_points_together": "0.0",
           "bonus_points_batting": "0.0",
@@ -759,9 +759,9 @@
           "team_id": 24294,
           "game_points": "0",
           "penalty_points": "0.0",
-          "bonus_points_together": "0.0",
-          "bonus_points_batting": "0.0",
-          "bonus_points_bowling": "0.0",
+          "bonus_points_together": "7.0",
+          "bonus_points_batting": "4.0",
+          "bonus_points_bowling": "3.0",
           "bonus_points_2nd_innings_together": ""
         }
       ],
@@ -770,15 +770,15 @@
           "team_batting_id": "21950",
           "innings_number": 1,
           "extra_byes": "0",
-          "extra_leg_byes": "2",
-          "extra_wides": "15",
+          "extra_leg_byes": "6",
+          "extra_wides": "16",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "17",
-          "runs": "221",
-          "wickets": "5",
-          "overs": "39",
+          "total_extras": "22",
+          "runs": "273",
+          "wickets": "8",
+          "overs": "45",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -789,16 +789,16 @@
         {
           "team_batting_id": "24294",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
+          "extra_byes": "9",
+          "extra_leg_byes": "4",
+          "extra_wides": "14",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "0",
-          "wickets": "0",
-          "overs": "0",
+          "total_extras": "27",
+          "runs": "268",
+          "wickets": "8",
+          "overs": "45",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -809,8 +809,30 @@
       ]
     },
     "perf": {
-      "runs": [],
-      "wickets": []
+      "runs": [
+        {
+          "name": "Harry Jacobs",
+          "score": 82,
+          "notOut": false
+        },
+        {
+          "name": "Dan Hagen",
+          "score": 52,
+          "notOut": false
+        },
+        {
+          "name": "George Wilson",
+          "score": 60,
+          "notOut": false
+        }
+      ],
+      "wickets": [
+        {
+          "name": "Freddie Ryan",
+          "w": 3,
+          "r": "61"
+        }
+      ]
     },
     "form": [
       {
@@ -1312,18 +1334,18 @@
         "no_of_overs": "45",
         "balls_per_innings": "",
         "no_of_innings": "1",
-        "result": "M",
-        "result_description": "Match In Progress",
-        "result_applied_to": "",
+        "result": "W",
+        "result_description": "Hutton CC - 2nd XI - Overs Win",
+        "result_applied_to": "21950",
         "home_confirmed": "false",
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras\n<br/>\n",
+        "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras<br/>43.1 Hutton CC 2nd XI: 250 runs in 43.1 overs, 167 minutes, 21 extras\n<br/>\n<br/>\n<b>Chelmsford CC Sat 2nd XI Innings</b><br/>\n10.6 1st Wicket: 50 runs in 66 balls, 41 minutes, Harry Jacobs 22 (39), Dan Hagen 22 (27), 6 extras<br/>10.6 Chelmsford CC Sat 2nd XI: 50 runs in 11.0 overs, 41 minutes, 6 extras<br/>16.6 Dan Hagen: 50 runs in 42 balls, 62 minutes (9x4)<br/>17.2 1st Wicket: 100 runs in 104 balls, 64 minutes, Harry Jacobs 41 (61), Dan Hagen 52 (43), 7 extras<br/>17.2 Chelmsford CC Sat 2nd XI: 100 runs in 17.2 overs, 64 minutes, 7 extras<br/>19.5 Harry Jacobs: 50 runs in 70 balls, 72 minutes (6x4)<br/>26.1 Chelmsford CC Sat 2nd XI: 150 runs in 26.1 overs, 97 minutes, 14 extras<br/>27.3 2nd Wicket: 50 runs in 51 balls, 31 minutes, Harry Jacobs 11 (16), George Wilson 33 (35), 6 extras<br/>32.1 George Wilson: 50 runs in 51 balls, 47 minutes (5x4)<br/>32.5 Chelmsford CC Sat 2nd XI: 200 runs in 32.5 overs, 119 minutes, 22 extras<br/>33.6 2nd Wicket: 100 runs in 91 balls, 52 minutes, Harry Jacobs 30 (34), George Wilson 57 (57), 14 extras<br/>40.3 Chelmsford CC Sat 2nd XI: 250 runs in 40.3 overs, 148 minutes, 26 extras\n<br/>\n",
         "points": [
           {
             "team_id": 21950,
-            "game_points": "0",
+            "game_points": "20",
             "penalty_points": "0.0",
             "bonus_points_together": "0.0",
             "bonus_points_batting": "0.0",
@@ -1334,9 +1356,9 @@
             "team_id": 24294,
             "game_points": "0",
             "penalty_points": "0.0",
-            "bonus_points_together": "0.0",
-            "bonus_points_batting": "0.0",
-            "bonus_points_bowling": "0.0",
+            "bonus_points_together": "7.0",
+            "bonus_points_batting": "4.0",
+            "bonus_points_bowling": "3.0",
             "bonus_points_2nd_innings_together": ""
           }
         ],
@@ -1345,15 +1367,15 @@
             "team_batting_id": "21950",
             "innings_number": 1,
             "extra_byes": "0",
-            "extra_leg_byes": "2",
-            "extra_wides": "15",
+            "extra_leg_byes": "6",
+            "extra_wides": "16",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "17",
-            "runs": "221",
-            "wickets": "5",
-            "overs": "39",
+            "total_extras": "22",
+            "runs": "273",
+            "wickets": "8",
+            "overs": "45",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1364,16 +1386,16 @@
           {
             "team_batting_id": "24294",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
+            "extra_byes": "9",
+            "extra_leg_byes": "4",
+            "extra_wides": "14",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "0",
-            "wickets": "0",
-            "overs": "0",
+            "total_extras": "27",
+            "runs": "268",
+            "wickets": "8",
+            "overs": "45",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1384,7 +1406,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:47.806Z"
+    "fetched_at": "2026-09-05T21:25:14.186Z"
   },
   {
     "team": {
@@ -2087,7 +2109,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:49.502Z"
+    "fetched_at": "2026-09-05T21:25:15.796Z"
   },
   {
     "team": {
@@ -2784,7 +2806,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:51.143Z"
+    "fetched_at": "2026-09-05T21:25:17.366Z"
   },
   {
     "team": {
@@ -3498,7 +3520,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:52.828Z"
+    "fetched_at": "2026-09-05T21:25:18.966Z"
   },
   {
     "team": {
@@ -3753,7 +3775,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:54.299Z"
+    "fetched_at": "2026-09-05T21:25:20.448Z"
   },
   {
     "team": {
@@ -4472,7 +4494,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:55.876Z"
+    "fetched_at": "2026-09-05T21:25:21.558Z"
   },
   {
     "team": {
@@ -4753,7 +4775,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:57.371Z"
+    "fetched_at": "2026-09-05T21:25:22.602Z"
   },
   {
     "team": {
@@ -5156,7 +5178,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:19:58.829Z"
+    "fetched_at": "2026-09-05T21:25:23.287Z"
   },
   {
     "team": {
@@ -5833,6 +5855,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T19:20:00.416Z"
+    "fetched_at": "2026-09-05T21:25:24.853Z"
   }
 ]

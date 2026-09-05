@@ -641,7 +641,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:54.198Z"
+    "fetched_at": "2026-09-05T17:21:34.790Z"
   },
   {
     "team": {
@@ -1338,7 +1338,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:55.199Z"
+    "fetched_at": "2026-09-05T17:21:35.473Z"
   },
   {
     "team": {
@@ -1440,16 +1440,16 @@
         {
           "team_batting_id": "163277",
           "innings_number": 1,
-          "extra_byes": "0",
+          "extra_byes": "3",
           "extra_leg_byes": "0",
-          "extra_wides": "0",
-          "extra_no_balls": "0",
+          "extra_wides": "8",
+          "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "0",
-          "runs": "4",
-          "wickets": "0",
-          "overs": "1.0",
+          "total_extras": "13",
+          "runs": "144",
+          "wickets": "4",
+          "overs": "35.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2021,16 +2021,16 @@
           {
             "team_batting_id": "163277",
             "innings_number": 1,
-            "extra_byes": "0",
+            "extra_byes": "3",
             "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "0",
+            "extra_wides": "8",
+            "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "0",
-            "runs": "4",
-            "wickets": "0",
-            "overs": "1.0",
+            "total_extras": "13",
+            "runs": "144",
+            "wickets": "4",
+            "overs": "35.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -2041,7 +2041,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:56.255Z"
+    "fetched_at": "2026-09-05T17:21:36.193Z"
   },
   {
     "team": {
@@ -2738,7 +2738,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:57.323Z"
+    "fetched_at": "2026-09-05T17:21:36.734Z"
   },
   {
     "team": {
@@ -2840,16 +2840,16 @@
         {
           "team_batting_id": "134369",
           "innings_number": 1,
-          "extra_byes": "4",
-          "extra_leg_byes": "0",
-          "extra_wides": "0",
-          "extra_no_balls": "1",
+          "extra_byes": "16",
+          "extra_leg_byes": "1",
+          "extra_wides": "7",
+          "extra_no_balls": "6",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "17",
-          "wickets": "0",
-          "overs": "6.0",
+          "total_extras": "30",
+          "runs": "184",
+          "wickets": "5",
+          "overs": "37.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2872,7 +2872,13 @@
           "notOut": false
         }
       ],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Pranav Dilipkumar",
+          "w": 3,
+          "r": "28"
+        }
+      ]
     },
     "form": [
       {
@@ -3426,16 +3432,16 @@
           {
             "team_batting_id": "134369",
             "innings_number": 1,
-            "extra_byes": "4",
-            "extra_leg_byes": "0",
-            "extra_wides": "0",
-            "extra_no_balls": "1",
+            "extra_byes": "16",
+            "extra_leg_byes": "1",
+            "extra_wides": "7",
+            "extra_no_balls": "6",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "17",
-            "wickets": "0",
-            "overs": "6.0",
+            "total_extras": "30",
+            "runs": "184",
+            "wickets": "5",
+            "overs": "37.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3446,7 +3452,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:58.338Z"
+    "fetched_at": "2026-09-05T17:21:37.461Z"
   },
   {
     "team": {
@@ -3454,10 +3460,10 @@
       "id": 105976
     },
     "match": {
-      "id": 7681015,
+      "id": 7704448,
       "status": "New",
       "published": "Yes",
-      "last_updated": "01/09/2026",
+      "last_updated": "05/09/2026",
       "league_id": "",
       "competition_name": "",
       "competition_id": "",
@@ -3465,18 +3471,18 @@
       "match_type": "Limited Overs",
       "game_type": "Standard",
       "countdown_cricket": "no",
-      "match_date": "15/08/2026",
-      "match_time": "13:00",
+      "match_date": "12/09/2026",
+      "match_time": "12:00",
       "ground_name": "Chelmer Park",
       "ground_id": "10646",
       "home_team_name": "Sat 6th XI",
       "home_team_id": "105976",
       "home_club_name": "Chelmsford CC",
       "home_club_id": "1786",
-      "away_team_name": "4th XI",
-      "away_team_id": "149792",
-      "away_club_name": "Great Baddow CC",
-      "away_club_id": "2984",
+      "away_team_name": "5th XI",
+      "away_team_id": "390590",
+      "away_club_name": "Galleywood CC",
+      "away_club_id": "2847",
       "umpire_1_name": "",
       "umpire_1_id": "",
       "umpire_2_name": "",
@@ -3489,17 +3495,17 @@
       "scorer_1_id": "",
       "scorer_2_name": "",
       "scorer_2_id": "",
-      "toss_won_by_team_id": "105976",
-      "toss": "Chelmsford CC - Sat 6th XI won the toss and elected to bat",
-      "batted_first": "105976",
+      "toss_won_by_team_id": "",
+      "toss": "",
+      "batted_first": "",
       "no_of_overs": "",
       "balls_per_innings": "",
       "no_of_innings": "1",
-      "result": "W",
-      "result_description": "Chelmsford CC - Sat 6th XI - Won",
-      "result_applied_to": "105976",
-      "home_confirmed": "true",
-      "away_confirmed": "true",
+      "result": "C",
+      "result_description": "Cancelled",
+      "result_applied_to": "",
+      "home_confirmed": "false",
+      "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
       "match_notes": "",
@@ -3508,36 +3514,16 @@
         {
           "team_batting_id": "105976",
           "innings_number": 1,
-          "extra_byes": "23",
-          "extra_leg_byes": "0",
-          "extra_wides": "22",
-          "extra_no_balls": "5",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "50",
-          "runs": "284",
-          "wickets": "6",
-          "overs": "38.1",
-          "balls": "",
-          "declared": true,
-          "forfeited_innings": false,
-          "revised_target_runs": "",
-          "revised_target_overs": "40.0",
-          "revised_target_balls": ""
-        },
-        {
-          "team_batting_id": "149792",
-          "innings_number": 1,
-          "extra_byes": "15",
-          "extra_leg_byes": "2",
-          "extra_wides": "5",
-          "extra_no_balls": "4",
-          "extra_penalty_runs": "0",
-          "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "26",
-          "runs": "79",
-          "wickets": "10",
-          "overs": "19.4",
+          "extra_byes": "",
+          "extra_leg_byes": "",
+          "extra_wides": "",
+          "extra_no_balls": "",
+          "extra_penalty_runs": "",
+          "penalties_runs_awarded_in_other_innings": "",
+          "total_extras": "",
+          "runs": "",
+          "wickets": "",
+          "overs": "",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -3548,30 +3534,8 @@
       ]
     },
     "perf": {
-      "runs": [
-        {
-          "name": "Charlie Jackson",
-          "score": 53,
-          "notOut": true
-        },
-        {
-          "name": "Rajwali Baig",
-          "score": 50,
-          "notOut": true
-        },
-        {
-          "name": "Rudy Jackman",
-          "score": 51,
-          "notOut": true
-        }
-      ],
-      "wickets": [
-        {
-          "name": "Andrew Shepherd",
-          "w": 3,
-          "r": "0"
-        }
-      ]
+      "runs": [],
+      "wickets": []
     },
     "form": [
       {
@@ -3667,9 +3631,83 @@
             "revised_target_balls": ""
           }
         ]
+      },
+      {
+        "id": 7704448,
+        "status": "New",
+        "published": "Yes",
+        "last_updated": "05/09/2026",
+        "league_id": "",
+        "competition_name": "",
+        "competition_id": "",
+        "competition_type": "Friendly",
+        "match_type": "Limited Overs",
+        "game_type": "Standard",
+        "countdown_cricket": "no",
+        "match_date": "12/09/2026",
+        "match_time": "12:00",
+        "ground_name": "Chelmer Park",
+        "ground_id": "10646",
+        "home_team_name": "Sat 6th XI",
+        "home_team_id": "105976",
+        "home_club_name": "Chelmsford CC",
+        "home_club_id": "1786",
+        "away_team_name": "5th XI",
+        "away_team_id": "390590",
+        "away_club_name": "Galleywood CC",
+        "away_club_id": "2847",
+        "umpire_1_name": "",
+        "umpire_1_id": "",
+        "umpire_2_name": "",
+        "umpire_2_id": "",
+        "umpire_3_name": "",
+        "umpire_3_id": "",
+        "referee_name": "",
+        "referee_id": "",
+        "scorer_1_name": "",
+        "scorer_1_id": "",
+        "scorer_2_name": "",
+        "scorer_2_id": "",
+        "toss_won_by_team_id": "",
+        "toss": "",
+        "batted_first": "",
+        "no_of_overs": "",
+        "balls_per_innings": "",
+        "no_of_innings": "1",
+        "result": "C",
+        "result_description": "Cancelled",
+        "result_applied_to": "",
+        "home_confirmed": "false",
+        "away_confirmed": "false",
+        "result_locked": "false",
+        "scorecard_locked": "false",
+        "match_notes": "",
+        "points": [],
+        "innings": [
+          {
+            "team_batting_id": "105976",
+            "innings_number": 1,
+            "extra_byes": "",
+            "extra_leg_byes": "",
+            "extra_wides": "",
+            "extra_no_balls": "",
+            "extra_penalty_runs": "",
+            "penalties_runs_awarded_in_other_innings": "",
+            "total_extras": "",
+            "runs": "",
+            "wickets": "",
+            "overs": "",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          }
+        ]
       }
     ],
-    "fetched_at": "2026-09-05T15:09:59.326Z"
+    "fetched_at": "2026-09-05T17:21:37.966Z"
   },
   {
     "team": {
@@ -4388,7 +4426,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:10:00.356Z"
+    "fetched_at": "2026-09-05T17:21:38.649Z"
   },
   {
     "team": {
@@ -4669,7 +4707,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:10:01.335Z"
+    "fetched_at": "2026-09-05T17:21:39.266Z"
   },
   {
     "team": {
@@ -5072,7 +5110,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:10:02.306Z"
+    "fetched_at": "2026-09-05T17:21:39.810Z"
   },
   {
     "team": {
@@ -5749,6 +5787,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T15:10:03.284Z"
+    "fetched_at": "2026-09-05T17:21:40.461Z"
   }
 ]

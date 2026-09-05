@@ -42,8 +42,8 @@
       "scorer_2_name": "Mick Tucker",
       "scorer_2_id": "4494840",
       "toss_won_by_team_id": "24293",
-      "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to field",
-      "batted_first": "27688",
+      "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
+      "batted_first": "24293",
       "no_of_overs": "50",
       "balls_per_innings": "",
       "no_of_innings": "1",
@@ -54,7 +54,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n10.1 Brentwood CC 1st XI: 50 runs in 10.0 overs, 43 minutes, 7 extras<br/>13.2 4th Wicket: 50 runs in 48 balls, 31 minutes, Edward Ballard 9 (19), Danal DiLmith Hemananda Gawasin Arachchige 38 (29), 3 extras<br/>20.4 Brentwood CC 1st XI: 100 runs in 20.4 overs, 82 minutes, 14 extras\n<br/>\n",
+      "match_notes": "",
       "points": [
         {
           "team_id": 24293,
@@ -79,16 +79,16 @@
         {
           "team_batting_id": "27688",
           "innings_number": 1,
-          "extra_byes": "8",
+          "extra_byes": "0",
           "extra_leg_byes": "0",
-          "extra_wides": "3",
-          "extra_no_balls": "3",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "14",
-          "runs": "113",
-          "wickets": "6",
-          "overs": "24",
+          "total_extras": "0",
+          "runs": "165",
+          "wickets": "10",
+          "overs": "42.4",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -100,7 +100,13 @@
     },
     "perf": {
       "runs": [],
-      "wickets": []
+      "wickets": [
+        {
+          "name": "Jack Parrish",
+          "w": 3,
+          "r": "28"
+        }
+      ]
     },
     "form": [
       {
@@ -578,8 +584,8 @@
         "scorer_2_name": "Mick Tucker",
         "scorer_2_id": "4494840",
         "toss_won_by_team_id": "24293",
-        "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to field",
-        "batted_first": "27688",
+        "toss": "Chelmsford CC - Sat 1st XI won the toss and elected to bat",
+        "batted_first": "24293",
         "no_of_overs": "50",
         "balls_per_innings": "",
         "no_of_innings": "1",
@@ -590,7 +596,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Brentwood CC 1st XI Innings</b><br/>\n10.1 Brentwood CC 1st XI: 50 runs in 10.0 overs, 43 minutes, 7 extras<br/>13.2 4th Wicket: 50 runs in 48 balls, 31 minutes, Edward Ballard 9 (19), Danal DiLmith Hemananda Gawasin Arachchige 38 (29), 3 extras<br/>20.4 Brentwood CC 1st XI: 100 runs in 20.4 overs, 82 minutes, 14 extras\n<br/>\n",
+        "match_notes": "",
         "points": [
           {
             "team_id": 24293,
@@ -615,16 +621,16 @@
           {
             "team_batting_id": "27688",
             "innings_number": 1,
-            "extra_byes": "8",
+            "extra_byes": "0",
             "extra_leg_byes": "0",
-            "extra_wides": "3",
-            "extra_no_balls": "3",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "14",
-            "runs": "113",
-            "wickets": "6",
-            "overs": "24",
+            "total_extras": "0",
+            "runs": "165",
+            "wickets": "10",
+            "overs": "42.4",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -635,7 +641,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:04:55.462Z"
+    "fetched_at": "2026-09-05T15:09:54.198Z"
   },
   {
     "team": {
@@ -692,7 +698,7 @@
       "away_confirmed": "false",
       "result_locked": "false",
       "scorecard_locked": "false",
-      "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras\n<br/>\n",
+      "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras\n<br/>\n",
       "points": [
         {
           "team_id": 21950,
@@ -719,14 +725,14 @@
           "innings_number": 1,
           "extra_byes": "0",
           "extra_leg_byes": "2",
-          "extra_wides": "5",
+          "extra_wides": "15",
           "extra_no_balls": "0",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "7",
-          "runs": "92",
-          "wickets": "3",
-          "overs": "17",
+          "total_extras": "17",
+          "runs": "221",
+          "wickets": "5",
+          "overs": "39",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1267,7 +1273,7 @@
         "away_confirmed": "false",
         "result_locked": "false",
         "scorecard_locked": "false",
-        "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras\n<br/>\n",
+        "match_notes": "<b>Hutton CC 2nd XI Innings</b><br/>\n8.3 Hutton CC 2nd XI: 50 runs in 8.3 overs, 33 minutes, 2 extras<br/>9.3 2nd Wicket: 50 runs in 54 balls, 31 minutes, Adam Holdgate 31 (28), Oscar Hunwick 19 (26), 2 extras<br/>17.4 Hutton CC 2nd XI: 100 runs in 17.4 overs, 67 minutes, 7 extras<br/>24.4 4th Wicket: 50 runs in 48 balls, 34 minutes, Andrew Mascall 38 (32), Daniel Payne 9 (16), 3 extras<br/>26.5 Hutton CC 2nd XI: 150 runs in 26.4 overs, 105 minutes, 11 extras<br/>26.7 Andrew Mascall: 50 runs in 43 balls, 49 minutes (7x4, 2x6)<br/>35.3 Hutton CC 2nd XI: 200 runs in 35.3 overs, 134 minutes, 16 extras<br/>37.1 6th Wicket: 50 runs in 59 balls, 31 minutes, Henry Hunwick 31 (32), Louis Poynter 14 (27), 6 extras\n<br/>\n",
         "points": [
           {
             "team_id": 21950,
@@ -1294,14 +1300,14 @@
             "innings_number": 1,
             "extra_byes": "0",
             "extra_leg_byes": "2",
-            "extra_wides": "5",
+            "extra_wides": "15",
             "extra_no_balls": "0",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "7",
-            "runs": "92",
-            "wickets": "3",
-            "overs": "17",
+            "total_extras": "17",
+            "runs": "221",
+            "wickets": "5",
+            "overs": "39",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1332,7 +1338,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:04:57.981Z"
+    "fetched_at": "2026-09-05T15:09:55.199Z"
   },
   {
     "team": {
@@ -1414,16 +1420,36 @@
         {
           "team_batting_id": "24295",
           "innings_number": 1,
-          "extra_byes": "0",
-          "extra_leg_byes": "0",
-          "extra_wides": "3",
+          "extra_byes": "2",
+          "extra_leg_byes": "3",
+          "extra_wides": "11",
           "extra_no_balls": "2",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "5",
-          "runs": "56",
-          "wickets": "1",
-          "overs": "12.0",
+          "total_extras": "18",
+          "runs": "206",
+          "wickets": "8",
+          "overs": "45.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "45.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "163277",
+          "innings_number": 1,
+          "extra_byes": "0",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "0",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "0",
+          "runs": "4",
+          "wickets": "0",
+          "overs": "1.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -1434,7 +1460,13 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Dinil Siriwardana",
+          "score": 66,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -1969,16 +2001,36 @@
           {
             "team_batting_id": "24295",
             "innings_number": 1,
-            "extra_byes": "0",
-            "extra_leg_byes": "0",
-            "extra_wides": "3",
+            "extra_byes": "2",
+            "extra_leg_byes": "3",
+            "extra_wides": "11",
             "extra_no_balls": "2",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "5",
-            "runs": "56",
-            "wickets": "1",
-            "overs": "12.0",
+            "total_extras": "18",
+            "runs": "206",
+            "wickets": "8",
+            "overs": "45.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "45.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "163277",
+            "innings_number": 1,
+            "extra_byes": "0",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "0",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "0",
+            "runs": "4",
+            "wickets": "0",
+            "overs": "1.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -1989,7 +2041,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:00.468Z"
+    "fetched_at": "2026-09-05T15:09:56.255Z"
   },
   {
     "team": {
@@ -2686,7 +2738,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:07.049Z"
+    "fetched_at": "2026-09-05T15:09:57.323Z"
   },
   {
     "team": {
@@ -2768,16 +2820,36 @@
         {
           "team_batting_id": "45348",
           "innings_number": 1,
-          "extra_byes": "2",
-          "extra_leg_byes": "0",
-          "extra_wides": "9",
-          "extra_no_balls": "2",
+          "extra_byes": "19",
+          "extra_leg_byes": "1",
+          "extra_wides": "21",
+          "extra_no_balls": "3",
           "extra_penalty_runs": "0",
           "penalties_runs_awarded_in_other_innings": "0",
-          "total_extras": "13",
-          "runs": "52",
-          "wickets": "4",
-          "overs": "11.0",
+          "total_extras": "44",
+          "runs": "266",
+          "wickets": "6",
+          "overs": "40.0",
+          "balls": "",
+          "declared": false,
+          "forfeited_innings": false,
+          "revised_target_runs": "",
+          "revised_target_overs": "40.0",
+          "revised_target_balls": ""
+        },
+        {
+          "team_batting_id": "134369",
+          "innings_number": 1,
+          "extra_byes": "4",
+          "extra_leg_byes": "0",
+          "extra_wides": "0",
+          "extra_no_balls": "1",
+          "extra_penalty_runs": "0",
+          "penalties_runs_awarded_in_other_innings": "0",
+          "total_extras": "5",
+          "runs": "17",
+          "wickets": "0",
+          "overs": "6.0",
           "balls": "",
           "declared": false,
           "forfeited_innings": false,
@@ -2788,7 +2860,18 @@
       ]
     },
     "perf": {
-      "runs": [],
+      "runs": [
+        {
+          "name": "Tom Iliffe",
+          "score": 104,
+          "notOut": true
+        },
+        {
+          "name": "Chetan Shetty",
+          "score": 81,
+          "notOut": false
+        }
+      ],
       "wickets": []
     },
     "form": [
@@ -3323,16 +3406,36 @@
           {
             "team_batting_id": "45348",
             "innings_number": 1,
-            "extra_byes": "2",
-            "extra_leg_byes": "0",
-            "extra_wides": "9",
-            "extra_no_balls": "2",
+            "extra_byes": "19",
+            "extra_leg_byes": "1",
+            "extra_wides": "21",
+            "extra_no_balls": "3",
             "extra_penalty_runs": "0",
             "penalties_runs_awarded_in_other_innings": "0",
-            "total_extras": "13",
-            "runs": "52",
-            "wickets": "4",
-            "overs": "11.0",
+            "total_extras": "44",
+            "runs": "266",
+            "wickets": "6",
+            "overs": "40.0",
+            "balls": "",
+            "declared": false,
+            "forfeited_innings": false,
+            "revised_target_runs": "",
+            "revised_target_overs": "40.0",
+            "revised_target_balls": ""
+          },
+          {
+            "team_batting_id": "134369",
+            "innings_number": 1,
+            "extra_byes": "4",
+            "extra_leg_byes": "0",
+            "extra_wides": "0",
+            "extra_no_balls": "1",
+            "extra_penalty_runs": "0",
+            "penalties_runs_awarded_in_other_innings": "0",
+            "total_extras": "5",
+            "runs": "17",
+            "wickets": "0",
+            "overs": "6.0",
             "balls": "",
             "declared": false,
             "forfeited_innings": false,
@@ -3343,7 +3446,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:09.382Z"
+    "fetched_at": "2026-09-05T15:09:58.338Z"
   },
   {
     "team": {
@@ -3566,7 +3669,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:11.381Z"
+    "fetched_at": "2026-09-05T15:09:59.326Z"
   },
   {
     "team": {
@@ -4285,7 +4388,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:15.227Z"
+    "fetched_at": "2026-09-05T15:10:00.356Z"
   },
   {
     "team": {
@@ -4566,7 +4669,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:27.030Z"
+    "fetched_at": "2026-09-05T15:10:01.335Z"
   },
   {
     "team": {
@@ -4969,7 +5072,7 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:31.475Z"
+    "fetched_at": "2026-09-05T15:10:02.306Z"
   },
   {
     "team": {
@@ -5646,6 +5749,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-09-05T12:05:44.312Z"
+    "fetched_at": "2026-09-05T15:10:03.284Z"
   }
 ]
